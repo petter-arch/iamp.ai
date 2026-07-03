@@ -1,46 +1,56 @@
 #!/usr/bin/env node
-// ai-news.mjs — daglig nyhetsmotor för iamp.ai
+// ai-news.mjs — daglig nyhetsmotor för iamp.ai (KANAL-LÄGE)
 // ----------------------------------------------------------------------------
-// Vad den gör (1 gång/dygn via GitHub Actions, se update-news.yml):
-//   1. Hämtar de MEST POPULÄRA SENASTE YouTube-videorna i dina ämnen
-//      (gratis YouTube Data API v3) + ev. dina följda kanaler.
-//   2. Summerar varje klipp kort med en billig AI-modell (några ören/dygn).
-//   3. Skriver news.json i SAMMA format som NEWS-arrayen i iamp_ai.html.
-//      Sajten läser filen vid laddning (NEWS_FEED='news.json') och visar
-//      korten med "fördjupa" + ▶-länk till videon.
+// Källor, i prioritetsordning:
+//   1. DINA KANALER (CHANNELS nedan) — kreatörer du litar på. Alltid med.
+//   2. UPPTÄCK (DISCOVER=true) — populära engelskspråkiga videor i dina ämnen,
+//      liknande "heta" videor. Strikt engelska-filter + krav på många visningar.
 //
-// Miljövariabler (läggs som GitHub Actions "secrets"):
-//   YOUTUBE_API_KEY    (gratis — console.cloud.google.com → YouTube Data API v3)
-//   ANTHROPIC_API_KEY  (för summeringen; utan den faller den tillbaka på
-//                       videons egen titel/beskrivning, helt gratis)
+// Varje nyhet får: video-länk (▶ Titta), Läs mer-länk (📖, Google-sökning om
+// nyheten) och plattformskoppling (plat) när videon handlar om ett verktyg på
+// Topplistan — då visas verktygets fakta + "Besök"-knapp i kortet.
 //
+// Miljövariabler (GitHub secrets): YOUTUBE_API_KEY, ANTHROPIC_API_KEY
 // Kör lokalt:  YOUTUBE_API_KEY=xxx ANTHROPIC_API_KEY=yyy node ai-news.mjs
 // ----------------------------------------------------------------------------
 
-import { writeFile } from "node:fs/promises";
+import { writeFile, readFile } from "node:fs/promises";
 
 // ============================ KONFIG ========================================
-const OUT         = "news.json";
-const DAYS        = 14;   // "senaste": videor publicerade de senaste X dagarna
-const PER_TOPIC   = 6;    // kandidater att hämta per ämne
-const MAX_ITEMS   = 12;   // max antal nyheter i den färdiga listan
-const MIN_SECONDS = 90;   // hoppa över Shorts (kortare än så)
-const OUT_LANG    = "sv"; // "sv" eller "en" — språk på de genererade nyheterna
-const MODEL       = "claude-haiku-4-5-20251001"; // billig modell; verifiera namnet på docs.claude.com
+const OUT          = "news.json";
+const DAYS         = 10;    // hur färska videor som hämtas
+const MAX_ITEMS    = 14;    // max nyheter totalt
+const PER_CHANNEL  = 2;     // senaste videor per kanal
+const MIN_SECONDS  = 90;    // hoppa över Shorts
+const OUT_LANG     = "sv";  // språk på de skrivna nyheterna
+const MODEL        = "claude-haiku-4-5-20251001";
 
-// Dina ämnen. q = sökord på YouTube. cat/tag/lab/ico styr hur kortet visas.
-const TOPICS = [
-  { q: "AI image generation model",   cat: "foto",       tag: "img", lab: "Foto / Bild",  ico: "📷" },
-  { q: "AI video generation model",   cat: "film",       tag: "vid", lab: "Film / Video", ico: "🎬" },
-  { q: "AI 3D model generation",      cat: "3d",         tag: "mdl", lab: "3D",           ico: "🧊" },
-  { q: "AI music generation",         cat: "ljud",       tag: "mdl", lab: "Ljud",         ico: "🎵" },
-  { q: "best AI tools productivity",  cat: "produktivt", tag: "mdl", lab: "Produktivt",   ico: "⚡" },
+// --- 1) DINA KANALER — klistra in @handtag eller kanal-ID (UC...) -----------
+// Ex: "@TheAIAdvantage", "@mattvidpro", "UCxxxxxxxxxxxxxxxxxxxxxx"
+const CHANNELS = [
+  "@curiousrefuge",        // Curious Refuge — AI-film & kreativa AI-nyheter
+  "@theAIsearch",          // AI Search — nya modeller & verktyg
+  "@aisamsonreal",         // AI Samson — AI-nyheter & genomgångar
+  "@futurepedia_io",       // Futurepedia — AI-verktyg & guider
+  "@soroosh_hedayati",     // Soroosh Hedayati — kreativ AI
+  "@mkbhd",                // MKBHD — tech i toppklass (AI-inslag)
+  "@SkillLeapAI",          // Skill Leap AI — AI-verktyg & how-tos
+  "@mreflow",              // Matt Wolfe — veckans AI-nyheter, bred & stor
+  "@MattVidPro",           // MattVidPro AI — kreativ AI: bild & video
+  "@TheoreticallyMedia",   // Theoretically Media — AI-film & video
+  "@aiadvantage",          // The AI Advantage — praktiska verktygsnyheter
+  "@aiexplained-official", // AI Explained — djupare modellanalys
 ];
 
-// Valfritt: kanaler du alltid vill bevaka. Lägg in kanal-ID (börjar med "UC...").
-// Hittas via en kanalsida → "Dela" → kopiera kanal-ID, eller via Takeout-export.
-const CHANNELS = [
-  // "UCxxxxxxxxxxxxxxxxxxxxxx",
+// --- 2) UPPTÄCK — populära engelska videor i ämnena (som dina, fast fler) ---
+const DISCOVER = true;           // false = ENBART dina kanaler
+const MIN_VIEWS_DISCOVER = 20000; // tröskel så bara riktigt "heta" kommer med
+const TOPICS = [
+  { q: "AI image generation news",  cat: "foto", tag: "img", lab: "Bild",  ico: "📷" },
+  { q: "AI video generation news",  cat: "film", tag: "vid", lab: "Film",  ico: "🎬" },
+  { q: "AI 3D model generation",    cat: "3d",   tag: "mdl", lab: "3D",    ico: "🧊" },
+  { q: "AI music voice generation", cat: "ljud", tag: "mdl", lab: "Ljud",  ico: "🎵" },
+  { q: "new AI model release",      cat: "mdl",  tag: "mdl", lab: "Modeller", ico: "🧠" },
 ];
 // ============================================================================
 
@@ -55,73 +65,99 @@ async function getJSON(url) {
   if (!r.ok) throw new Error(r.status + " " + url.split("?")[0]);
   return r.json();
 }
-
-// ISO 8601-varaktighet ("PT5M30S") -> sekunder
 function durSeconds(iso) {
   const m = /PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/.exec(iso || "");
   if (!m) return 0;
-  return (+(m[1] || 0)) * 3600 + (+(m[2] || 0)) * 60 + (+(m[3] || 0));
+  return (+(m[1]||0))*3600 + (+(m[2]||0))*60 + (+(m[3]||0));
+}
+// Engelska-heuristik: språkfält eller ren ASCII-titel
+function looksEnglish(v) {
+  const sn = v.snippet || {};
+  const lang = (sn.defaultAudioLanguage || sn.defaultLanguage || "").toLowerCase();
+  if (lang) return lang.startsWith("en");
+  const t = sn.title || "";
+  const ascii = t.replace(/[^\x00-\x7F]/g, "").length;
+  return t.length > 0 && ascii / t.length > 0.9;
 }
 
+// --- Kanaler: @handtag/URL/ID -> uploads-spellista -> senaste videor --------
+function cleanChannelRef(s) {
+  s = s.trim().replace(/^https?:\/\/(www\.)?youtube\.com\//, "").replace(/\/.*$/, "");
+  return s;
+}
+async function resolveChannel(ref) {
+  ref = cleanChannelRef(ref);
+  let u;
+  if (/^UC[\w-]{20,}$/.test(ref)) u = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails,snippet&id=" + ref + "&key=" + YT;
+  else u = "https://www.googleapis.com/youtube/v3/channels?part=contentDetails,snippet&forHandle=" + encodeURIComponent(ref.replace(/^@/, "")) + "&key=" + YT;
+  const d = await getJSON(u);
+  const c = (d.items || [])[0];
+  if (!c) throw new Error("kanal hittades inte: " + ref);
+  return { id: c.id, name: c.snippet.title, uploads: c.contentDetails.relatedPlaylists.uploads };
+}
+async function channelVideos(ch) {
+  const u = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=" + (PER_CHANNEL * 3)
+    + "&playlistId=" + ch.uploads + "&key=" + YT;
+  const d = await getJSON(u);
+  return (d.items || [])
+    .filter(it => (it.contentDetails.videoPublishedAt || "") >= sinceISO)
+    .slice(0, PER_CHANNEL)
+    .map(it => ({ id: it.contentDetails.videoId, topic: null, trusted: true }));
+}
 async function searchTopic(t) {
   const u = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&order=viewCount"
-    + "&maxResults=" + PER_TOPIC
-    + "&publishedAfter=" + encodeURIComponent(sinceISO)
+    + "&maxResults=6&publishedAfter=" + encodeURIComponent(sinceISO)
     + "&q=" + encodeURIComponent(t.q)
-    + "&relevanceLanguage=en&key=" + YT;
+    + "&relevanceLanguage=en&regionCode=US&key=" + YT;
   const d = await getJSON(u);
-  return (d.items || []).map(it => ({ id: it.id.videoId, topic: t }));
+  return (d.items || []).map(it => ({ id: it.id.videoId, topic: t, trusted: false }));
 }
-
-async function searchChannel(ch) {
-  const u = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&order=date"
-    + "&maxResults=3"
-    + "&publishedAfter=" + encodeURIComponent(sinceISO)
-    + "&channelId=" + ch + "&key=" + YT;
-  const d = await getJSON(u);
-  return (d.items || []).map(it => ({ id: it.id.videoId, topic: TOPICS[0] }));
-}
-
 async function details(ids) {
   const out = {};
   for (let i = 0; i < ids.length; i += 50) {
-    const chunk = ids.slice(i, i + 50);
     const u = "https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,contentDetails&id="
-      + chunk.join(",") + "&key=" + YT;
+      + ids.slice(i, i + 50).join(",") + "&key=" + YT;
     const d = await getJSON(u);
     (d.items || []).forEach(v => { out[v.id] = v; });
   }
   return out;
 }
-
-// Visningar -> "buzz" 40–99 (logaritmiskt, så miljoner inte spränger skalan)
 function buzzFromViews(views) {
   const n = +(views || 0);
   if (n <= 0) return 45;
   return Math.max(45, Math.min(99, Math.round(40 + 12 * Math.log10(n))));
 }
 
-function fallbackSummary(desc, title) {
-  const line = (String(desc || "").split("\n").find(s => s.trim().length > 30) || desc || title || "").trim();
-  const short = line.slice(0, 180);
-  return { ttl: title, sum: short, full: short };
+// --- Plattformsnamn från sajten (för plat-koppling) --------------------------
+async function sitePlatformNames() {
+  try {
+    const html = await readFile("index.html", "utf8");
+    const m = html.match(/var PLATS=(\[[\s\S]*?\]);\s*var /);
+    if (!m) return [];
+    return (0, eval)(m[1]).map(p => p.n);
+  } catch { return []; }
 }
 
-async function summarize(v) {
+const CATMAP = { foto:{tag:"img",lab:"Bild",ico:"📷"}, film:{tag:"vid",lab:"Film",ico:"🎬"},
+  "3d":{tag:"mdl",lab:"3D",ico:"🧊"}, ljud:{tag:"mdl",lab:"Ljud",ico:"🎵"},
+  mdl:{tag:"mdl",lab:"Modeller",ico:"🧠"}, robot:{tag:"mdl",lab:"Robotar",ico:"🤖"} };
+
+function fallbackSummary(v) {
   const title = v.snippet.title;
-  const desc = (v.snippet.description || "").slice(0, 1800);
-  const chan = v.snippet.channelTitle;
-  if (!AK) return fallbackSummary(desc, title);
+  const line = (String(v.snippet.description || "").split("\n").find(s => s.trim().length > 30) || title).trim().slice(0, 180);
+  return { ttl: title, sum: line, full: line, plat: "", q: title, cat: "mdl" };
+}
 
-  const sys = OUT_LANG === "sv"
-    ? 'Du är redaktör för en nyhetssida om kreativ AI. Skriv en kort, saklig nyhetsuppdatering på svenska utifrån videons titel och beskrivning. Hitta inte på fakta som inte stöds av texten. Svara ENBART med giltig JSON: {"ttl": kort rubrik (max ca 9 ord), "sum": en mening, "full": 2-3 meningar}.'
-    : 'You are an editor for a creative-AI news site. Write a short, factual news update in English based on the video title and description. Do not invent facts beyond the text. Reply ONLY with valid JSON: {"ttl": short headline (max ~9 words), "sum": one sentence, "full": 2-3 sentences}.';
-
+async function summarize(v, platformNames) {
+  if (!AK) return fallbackSummary(v);
+  const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": 2-3 meningar, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet}.';
   const body = {
-    model: MODEL,
-    max_tokens: 400,
-    system: sys,
-    messages: [{ role: "user", content: "Kanal: " + chan + "\nTitel: " + title + "\nBeskrivning:\n" + desc }],
+    model: MODEL, max_tokens: 500, system: sys,
+    messages: [{ role: "user", content:
+      "Plattformslista: " + platformNames.join(", ") +
+      "\nKanal: " + v.snippet.channelTitle +
+      "\nTitel: " + v.snippet.title +
+      "\nBeskrivning:\n" + (v.snippet.description || "").slice(0, 1600) }],
   };
   try {
     const r = await fetch("https://api.anthropic.com/v1/messages", {
@@ -132,67 +168,68 @@ async function summarize(v) {
     const d = await r.json();
     const txt = (d.content || []).map(c => c.text || "").join("").replace(/```json|```/g, "").trim();
     const j = JSON.parse(txt);
-    return { ttl: j.ttl || title, sum: j.sum || "", full: j.full || j.sum || "" };
-  } catch (e) {
-    console.error("summarize fallback:", e.message);
-    return fallbackSummary(desc, title);
-  }
+    return {
+      ttl: j.ttl || v.snippet.title, sum: j.sum || "", full: j.full || j.sum || "",
+      plat: platformNames.includes(j.plat) ? j.plat : "",
+      q: j.q || v.snippet.title,
+      cat: CATMAP[j.cat] ? j.cat : "mdl",
+    };
+  } catch (e) { console.error("summarize fallback:", e.message); return fallbackSummary(v); }
 }
 
 (async () => {
-  // 1) samla kandidater
+  const platformNames = await sitePlatformNames();
+
+  // 1) dina kanaler (betrodda — inget engelskafilter)
   let cands = [];
-  for (const t of TOPICS) {
+  for (const ref of CHANNELS) {
+    try { const ch = await resolveChannel(ref); cands = cands.concat(await channelVideos(ch)); }
+    catch (e) { console.error("kanal", ref, e.message); }
+  }
+  // 2) upptäck (endast engelska + högt visningskrav)
+  if (DISCOVER) for (const t of TOPICS) {
     try { cands = cands.concat(await searchTopic(t)); }
     catch (e) { console.error("topic", t.q, e.message); }
   }
-  for (const ch of CHANNELS) {
-    try { cands = cands.concat(await searchChannel(ch)); }
-    catch (e) { console.error("channel", ch, e.message); }
-  }
 
-  // dedupe på video-id
   const seen = {}, uniq = [];
-  for (const c of cands) { if (c.id && !seen[c.id]) { seen[c.id] = 1; uniq.push(c); } }
-  if (!uniq.length) { console.error("Inga videor hittades."); await writeFile(OUT, "[]"); return; }
+  for (const c of cands) if (c.id && !seen[c.id]) { seen[c.id] = 1; uniq.push(c); }
+  if (!uniq.length) { console.error("Inga videor."); await writeFile(OUT, "[]"); return; }
 
-  // 2) detaljer (visningar, beskrivning, längd)
   const det = await details(uniq.map(c => c.id));
-  let rows = uniq
-    .map(c => ({ ...c, v: det[c.id] }))
-    .filter(r => r.v && durSeconds(r.v.contentDetails && r.v.contentDetails.duration) >= MIN_SECONDS);
+  let rows = uniq.map(c => ({ ...c, v: det[c.id] })).filter(r => {
+    if (!r.v) return false;
+    if (durSeconds(r.v.contentDetails && r.v.contentDetails.duration) < MIN_SECONDS) return false;
+    if (r.trusted) return true; // dina kanaler: alltid ok
+    if (!looksEnglish(r.v)) return false;
+    return (+(r.v.statistics?.viewCount || 0)) >= MIN_VIEWS_DISCOVER;
+  });
 
-  // 3) mest sedda först, ta topp
-  rows.sort((a, b) => (+(b.v.statistics?.viewCount || 0)) - (+(a.v.statistics?.viewCount || 0)));
+  // dina kanaler först, sedan mest sedda
+  rows.sort((a, b) => (b.trusted - a.trusted) || (+(b.v.statistics?.viewCount || 0)) - (+(a.v.statistics?.viewCount || 0)));
   rows = rows.slice(0, MAX_ITEMS);
 
-  // 4) summera + bygg nyhetsobjekt (samma fält som NEWS i iamp_ai.html)
   const items = [];
   for (const r of rows) {
-    const v = r.v, t = r.topic;
-    const s = await summarize(v);
+    const v = r.v;
+    const s = await summarize(v, platformNames);
+    const map = CATMAP[s.cat] || CATMAP.mdl;
     items.push({
-      tag: t.tag,
-      lab: t.lab,
-      ico: t.ico,
+      tag: map.tag, lab: map.lab, ico: map.ico,
       ttl: s.ttl,
       meta: v.snippet.channelTitle + " · " + (v.snippet.publishedAt || "").slice(0, 10),
-      plat: "",
+      plat: s.plat,
       url: "https://www.youtube.com/watch?v=" + v.id,
       img: "https://img.youtube.com/vi/" + v.id + "/hqdefault.jpg",
-      feed: "",
-      sum: s.sum,
-      full: s.full,
+      more: "https://www.google.com/search?q=" + encodeURIComponent(s.q),
+      feed: "", sum: s.sum, full: s.full,
       buzz: buzzFromViews(v.statistics && v.statistics.viewCount),
-      cat: t.cat,
+      cat: s.cat,
       date: v.snippet.publishedAt || new Date().toISOString(),
-      chans: [v.snippet.channelTitle],
-      deep: "",
+      chans: [v.snippet.channelTitle], deep: "",
     });
   }
-
-  // nyaste först
   items.sort((a, b) => new Date(b.date) - new Date(a.date));
   await writeFile(OUT, JSON.stringify(items, null, 1));
-  console.log("Skrev " + items.length + " nyheter till " + OUT);
+  console.log("Skrev " + items.length + " nyheter (" + rows.filter(r=>r.trusted).length + " från dina kanaler).");
 })();
