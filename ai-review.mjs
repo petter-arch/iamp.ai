@@ -31,10 +31,12 @@ ${JSON.stringify(compact, null, 1)}
 
 Dagens datum: ${new Date().toISOString().slice(0, 10)}.
 
-Granska listans AKTUALITET med webbsökning. Sök effektivt (max ~8 sökningar, gruppera per kategori). Rapportera:
+VIKTIGAST — kreatörskonsensus: iamp.ai:s redaktionella kompass är vad de ledande kreativa AI-kanalerna på YouTube framhåller som bäst just nu. Våra betrodda källor: Curious Refuge, AI Search, AI Samson, Futurepedia, Matt Wolfe, MattVidPro, Theoretically Media, The AI Advantage, AI Explained, Skill Leap AI. Sök aktivt efter vad dessa (och Artificial Analysis-benchmarks) pekar ut som bästa verktyg per kategori (video, bild, 3D, ljud), t.ex. "Curious Refuge best AI video model" eller "AI Search best AI tools". Betygen ska spegla denna konsensus: det som dessa källor + benchmarks samstämmigt lyfter som bäst ska ligga högst i sin kategori. Enstaka bloggar och aggregator-sajter väger lätt; kreatörskonsensus + benchmarks väger tungt.
+
+Granska därefter listans AKTUALITET med webbsökning (max ~10 sökningar totalt, gruppera smart). Rapportera:
 1. **Inaktuellt** — verktyg där ny version släppts, namn ändrats, pris ändrats eller som tappat relevans. Ange källa.
 2. **Saknas** — nya betydande verktyg/modeller (senaste 2 månaderna) som borde in på listan, med föreslaget betyg och kort motivering.
-3. **Betygsförslag** — max 5 justeringar där benchmarks/mottagande tydligt motiverar ändring (t.ex. "höj X 84→87, pga ...").
+3. **Betygsförslag** — max 6 justeringar. Ange för varje: vilka av våra källor/benchmarks som stödjer ändringen. Kontrollera särskilt att kategori-ettorna stämmer med kreatörskonsensus — om sidans egen text säger "toppar benchmarks" ska betyget spegla det.
 4. **Ingen åtgärd** — bekräfta kort vad som fortfarande stämmer.
 
 Viktigt: var källkritisk — vikta ned aggregator-sajter som marknadsför egna tjänster. Svara på svenska i ren Markdown med rubrikerna ovan. Var koncis och konkret; varje punkt ska gå att agera på.`;
