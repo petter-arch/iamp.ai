@@ -19,4 +19,5 @@
 YouTube API är gratis (kvot räcker gott). Claude-anropen med Haiku kostar ören per dag.
 
 ## Egen domän (iamp.ai)
-Settings → Pages → Custom domain → skriv in din domän och peka DNS (CNAME) enligt GitHubs instruktion.
+Settings → Pages → Custom domain → skriv in din domän och peka DNS (CNAME) enligt GitHubs instruktion. 
+ 
