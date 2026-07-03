@@ -1,0 +1,32 @@
+name: Monthly topplista review
+
+on:
+  schedule:
+    - cron: "0 7 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Granska topplistan
+        run: node ai-review.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Skapa ärende med rapporten
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Månadsgranskning topplista $(date +%Y-%m)" \
+            --body-file review-report.md
