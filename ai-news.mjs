@@ -122,6 +122,20 @@ async function details(ids) {
   }
   return out;
 }
+function toSec(t) {
+  const p = String(t || "").trim().split(":").map(Number);
+  if (p.some(isNaN) || !p.length) return -1;
+  if (p[p.length-1] > 59 || (p.length === 3 && p[1] > 59)) return -1;
+  return p.length === 3 ? p[0]*3600 + p[1]*60 + p[2] : p.length === 2 ? p[0]*60 + p[1] : -1;
+}
+function parseChapters(desc) {
+  const out = [];
+  for (const line of String(desc || "").split("\n")) {
+    const m = /^\s*\(?((?:\d{1,2}:)?\d{1,2}:\d{2})\)?\s*[-–—:.]?\s+(.{3,80})$/.exec(line);
+    if (m) { const t = toSec(m[1]); if (t >= 0) out.push({ t, l: m[2].trim() }); }
+  }
+  return out.slice(0, 8);
+}
 function buzzFromViews(views) {
   const n = +(views || 0);
   if (n <= 0) return 45;
@@ -145,12 +159,12 @@ const CATMAP = { foto:{tag:"img",lab:"Bild",ico:"📷"}, film:{tag:"vid",lab:"Fi
 function fallbackSummary(v) {
   const title = v.snippet.title;
   const line = (String(v.snippet.description || "").split("\n").find(s => s.trim().length > 30) || title).trim().slice(0, 180);
-  return { ttl: title, sum: line, full: line, plat: "", q: title, cat: "mdl" };
+  return { ttl: title, sum: line, full: line, plat: "", q: title, cat: "mdl", rel: 6, parts: parseChapters(v.snippet.description), en: null };
 }
 
 async function summarize(v, platformNames) {
   if (!AK) return fallbackSummary(v);
-  const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": 2-3 meningar, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet}.';
+  const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": 2-3 meningar, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet, "rel": 0-10 hur relevant nyheten är för KREATIV AI (bild, film/video, 3D, visualisering, ljud/musik). Ren teknik-/prylrecension utan AI-vinkel = 0-2, brett AI-företagsnytt = 4-5, kreativa AI-verktyg/modeller = 8-10, "parts": om beskrivningen innehåller kapitel/tidsstämplar (t.ex. 0:00, 12:34): upp till 8 viktigaste delarna som [{"t":"mm:ss","l":"kort svensk etikett max 7 ord","le":"samma etikett på engelska"}], annars [], "en": {"ttl": rubriken på engelska, "sum": sum på engelska, "full": full på engelska}}.';
   const body = {
     model: MODEL, max_tokens: 500, system: sys,
     messages: [{ role: "user", content:
@@ -173,6 +187,11 @@ async function summarize(v, platformNames) {
       plat: platformNames.includes(j.plat) ? j.plat : "",
       q: j.q || v.snippet.title,
       cat: CATMAP[j.cat] ? j.cat : "mdl",
+      rel: (typeof j.rel === "number") ? j.rel : 6,
+      parts: (Array.isArray(j.parts) ? j.parts : [])
+        .map(pp => ({ t: toSec(pp.t), l: String(pp.l || "").slice(0, 90), le: String(pp.le || "").slice(0, 90) }))
+        .filter(pp => pp.t >= 0 && pp.l).slice(0, 8),
+      en: (j.en && j.en.ttl) ? { ttl: j.en.ttl, sum: j.en.sum || "", full: j.en.full || "" } : null,
     };
   } catch (e) { console.error("summarize fallback:", e.message); return fallbackSummary(v); }
 }
@@ -227,9 +246,19 @@ async function summarize(v, platformNames) {
       cat: s.cat,
       date: v.snippet.publishedAt || new Date().toISOString(),
       chans: [v.snippet.channelTitle], deep: "",
+      parts: (s.parts && s.parts.length) ? s.parts : parseChapters(v.snippet.description),
+      en: s.en,
+      _rel: s.rel,
     });
   }
-  items.sort((a, b) => new Date(b.date) - new Date(a.date));
-  await writeFile(OUT, JSON.stringify(items, null, 1));
-  console.log("Skrev " + items.length + " nyheter (" + rows.filter(r=>r.trusted).length + " från dina kanaler).");
+  // kreativt fokus: släng det som inte handlar om kreativ AI
+  let keep = items.filter(it => (it._rel === undefined ? 6 : it._rel) >= 5);
+  // max 4 "breda" nyheter (modeller/robotar) — film/bild/3d/ljud är huvudfokus
+  const CREATIVE = { foto: 1, film: 1, "3d": 1, ljud: 1 };
+  let broad = 0;
+  keep = keep.filter(it => CREATIVE[it.cat] ? true : (++broad <= 4));
+  keep.forEach(it => { delete it._rel; });
+  keep.sort((a, b) => new Date(b.date) - new Date(a.date));
+  await writeFile(OUT, JSON.stringify(keep, null, 1));
+  console.log("Skrev " + keep.length + " nyheter (" + rows.filter(r=>r.trusted).length + " från dina kanaler).");
 })();
