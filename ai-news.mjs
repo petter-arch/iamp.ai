@@ -159,14 +159,14 @@ const CATMAP = { foto:{tag:"img",lab:"Bild",ico:"📷"}, film:{tag:"vid",lab:"Fi
 function fallbackSummary(v) {
   const title = v.snippet.title;
   const line = (String(v.snippet.description || "").split("\n").find(s => s.trim().length > 30) || title).trim().slice(0, 180);
-  return { ttl: title, sum: line, full: line, plat: "", q: title, cat: "mdl", rel: 6, parts: parseChapters(v.snippet.description), en: null };
+  return { ttl: title, sum: line, full: line, plat: "", q: title, cat: "mdl", rel: 6, parts: parseChapters(v.snippet.description), en: null, deep: "" };
 }
 
 async function summarize(v, platformNames) {
   if (!AK) return fallbackSummary(v);
-  const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": 2-3 meningar, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet, "rel": 0-10 hur relevant nyheten är för KREATIV AI (bild, film/video, 3D, visualisering, ljud/musik). Ren teknik-/prylrecension utan AI-vinkel = 0-2, brett AI-företagsnytt = 4-5, kreativa AI-verktyg/modeller = 8-10, "parts": om beskrivningen innehåller kapitel/tidsstämplar (t.ex. 0:00, 12:34): upp till 8 viktigaste delarna som [{"t":"mm:ss","l":"kort svensk etikett max 7 ord","le":"samma etikett på engelska"}], annars [], "en": {"ttl": rubriken på engelska, "sum": sum på engelska, "full": full på engelska}}.';
+  const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": en utförlig nyhetsartikel i 2-3 korta stycken (totalt ca 120-180 ord) åtskilda med \\n\\n — förklara vad som hänt/lanserats, varför det är viktigt för kreatörer, och vad man konkret kan göra med det, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet, "rel": 0-10 hur relevant nyheten är för KREATIV AI (bild, film/video, 3D, visualisering, ljud/musik). Ren teknik-/prylrecension utan AI-vinkel = 0-2, brett AI-företagsnytt = 4-5, kreativa AI-verktyg/modeller = 8-10, "parts": om beskrivningen innehåller kapitel/tidsstämplar (t.ex. 0:00, 12:34): upp till 8 viktigaste delarna som [{"t":"mm:ss","l":"kort svensk etikett max 7 ord","le":"samma etikett på engelska"}], annars [], "deep": en fördjupning i 2-4 stycken (ca 150-250 ord) med detaljerna: konkreta siffror, funktioner, hur tekniken fungerar och jämförelser — baserat ENBART på videons titel/beskrivning, hitta inte på, "en": {"ttl": rubriken på engelska, "sum": sum på engelska, "full": hela artikeln på engelska samma stycken, "deep": fördjupningen på engelska}}.';
   const body = {
-    model: MODEL, max_tokens: 500, system: sys,
+    model: MODEL, max_tokens: 3600, system: sys,
     messages: [{ role: "user", content:
       "Plattformslista: " + platformNames.join(", ") +
       "\nKanal: " + v.snippet.channelTitle +
@@ -191,7 +191,8 @@ async function summarize(v, platformNames) {
       parts: (Array.isArray(j.parts) ? j.parts : [])
         .map(pp => ({ t: toSec(pp.t), l: String(pp.l || "").slice(0, 90), le: String(pp.le || "").slice(0, 90) }))
         .filter(pp => pp.t >= 0 && pp.l).slice(0, 8),
-      en: (j.en && j.en.ttl) ? { ttl: j.en.ttl, sum: j.en.sum || "", full: j.en.full || "" } : null,
+      deep: j.deep || "",
+      en: (j.en && j.en.ttl) ? { ttl: j.en.ttl, sum: j.en.sum || "", full: j.en.full || "", deep: j.en.deep || "" } : null,
     };
   } catch (e) { console.error("summarize fallback:", e.message); return fallbackSummary(v); }
 }
@@ -245,7 +246,7 @@ async function summarize(v, platformNames) {
       buzz: buzzFromViews(v.statistics && v.statistics.viewCount),
       cat: s.cat,
       date: v.snippet.publishedAt || new Date().toISOString(),
-      chans: [v.snippet.channelTitle], deep: "",
+      chans: [v.snippet.channelTitle], deep: s.deep || "",
       parts: (s.parts && s.parts.length) ? s.parts : parseChapters(v.snippet.description),
       en: s.en,
       _rel: s.rel,
