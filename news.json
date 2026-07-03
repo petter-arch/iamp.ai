@@ -1,286 +1,527 @@
 [
  {
-  "tag": "mdl",
-  "lab": "Modeller",
-  "ico": "🧠",
-  "ttl": "Deepseek drops another HUGE breakthrough",
-  "meta": "AI Search · 2026-07-03",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=J0D7qV3nl7w",
-  "img": "https://img.youtube.com/vi/J0D7qV3nl7w/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Deepseek%20drops%20another%20HUGE%20breakthrough",
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "Seedance 2.5: ByteDance visar AI-videokontroll",
+  "meta": "Theoretically Media · 2026-07-02",
+  "plat": "Seedance 2.0",
+  "url": "https://www.youtube.com/watch?v=hmtjdURErGc",
+  "img": "https://img.youtube.com/vi/hmtjdURErGc/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20model%20features",
   "feed": "",
-  "sum": "DSpark by Deepseek. Huge speed and throughput unlock. #ai #ainews #llm #agi #singularity",
-  "full": "DSpark by Deepseek. Huge speed and throughput unlock. #ai #ainews #llm #agi #singularity",
-  "buzz": 99,
-  "cat": "mdl",
-  "date": "2026-07-03T03:26:30Z",
-  "chans": [
-   "AI Search"
-  ],
-  "deep": "",
-  "parts": [
-   {
-    "t": 0,
-    "l": "dSpark intro"
-   },
-   {
-    "t": 65,
-    "l": "Deepseek situation"
-   },
-   {
-    "t": 140,
-    "l": "Why AI models are slow"
-   },
-   {
-    "t": 284,
-    "l": "Speculative decoding"
-   },
-   {
-    "t": 462,
-    "l": "The dilemma"
-   },
-   {
-    "t": 616,
-    "l": "The fix"
-   },
-   {
-    "t": 665,
-    "l": "Higgsfield with Claude Fable"
-   },
-   {
-    "t": 761,
-    "l": "Markov loop"
-   }
-  ],
-  "en": null
- },
- {
-  "tag": "mdl",
-  "lab": "Modeller",
-  "ico": "🧠",
-  "ttl": "Fable 5 vs GPT 5.6 Sol: The Early Results",
-  "meta": "AI Explained · 2026-07-02",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
-  "img": "https://img.youtube.com/vi/y24lF1q4SFY/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Fable%205%20vs%20GPT%205.6%20Sol%3A%20The%20Early%20Results",
-  "feed": "",
-  "sum": "Fable 5 (newly re-released) vs GPT 5.6 Sol, what comparisons can we unearth? Plus, Sonnet 5, a 5% equity seizure by US Govt, the ‘largest heist’, Beetlejuice and more…",
-  "full": "Fable 5 (newly re-released) vs GPT 5.6 Sol, what comparisons can we unearth? Plus, Sonnet 5, a 5% equity seizure by US Govt, the ‘largest heist’, Beetlejuice and more…",
-  "buzz": 98,
-  "cat": "mdl",
-  "date": "2026-07-02T16:27:26Z",
-  "chans": [
-   "AI Explained"
-  ],
-  "deep": "",
-  "parts": [
-   {
-    "t": 0,
-    "l": "Introduction"
-   },
-   {
-    "t": 66,
-    "l": "Fable Timeline"
-   },
-   {
-    "t": 179,
-    "l": "Sol Release?"
-   },
-   {
-    "t": 361,
-    "l": "the Chinese Angle"
-   },
-   {
-    "t": 455,
-    "l": "5% Stake"
-   },
-   {
-    "t": 550,
-    "l": "Fable vs Sol - the numbers"
-   },
-   {
-    "t": 837,
-    "l": "Sol Misalignment"
-   },
-   {
-    "t": 927,
-    "l": "Claude Sonnet 5"
-   }
-  ],
-  "en": null
- },
- {
-  "tag": "mdl",
-  "lab": "Ljud",
-  "ico": "🎵",
-  "ttl": "Seedance-trick: spara krediter med SeedAudio först",
-  "meta": "Theoretically Media · 2026-06-29",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=tMSA74SncK0",
-  "img": "https://img.youtube.com/vi/tMSA74SncK0/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=SeedAudio%20ByteDance%20Seedance%20workflow%20audio",
-  "feed": "",
-  "sum": "Youtubern presenterar ett arbetssätt där ByteDances SeedAudio 1.0 används för att låsa in dialog och ljud före den dyrare Seedance-videon, vilket sparar krediter.",
-  "full": "Theoretically Media visar hur ByteDances nya SeedAudio 1.0 kan användas som ett billigt förtest innan man sätter igång dyrare Seedance-genereringar. Metoden lånar från animationens arbetssätt genom att skapa audio först, sedan video, och inkluderar tips om referenshantering, tidsstämpning och promptkonstruktion. Kanalen demonstrerar tekniken på flera projekt inklusive en high-fantasy audioserie och en noir-detektivscen.",
-  "buzz": 94,
-  "cat": "ljud",
-  "date": "2026-06-29T17:23:16Z",
+  "sum": "ByteDance presenterar Seedance 2.5 med förbättrad video-till-video-redigering, 50 referensbilder och 3-minuters generering i beta.",
+  "full": "ByteDance har lanserat Seedance 2.5, nästa generation av deras AI-videomodell, med markanta förbättringar inom kontroll och flexibilitet. Det nya systemet kan redigera enskilda element inom en videoscen – som att ge en soldat en lysande båge – medan karaktärer, miljö, kamerarörelser och timing förblir låsta och oförändrade.\n\nModellen stödjer generation från upp till 50 referensbilder, multi-videoref, multilingual output och kan enligt ett läckt Dreamina-projekt generera videoer på hela 180 sekunder (3 minuter) i beta. Seedance 2.5 kommer i både standard-, Fast- och Mini-versioner, med en global lansering väntas inom cirka två veckor.\n\nFör kreatörer innebär detta kraftfulla verktyg för iterativ videoproduktion – möjligheten att snabbt testa variationer, justera detaljer och bevara övergripande komposition öppnar nya möjligheter inom reklam, filmproduktion och content creation.",
+  "buzz": 88,
+  "cat": "film",
+  "date": "2026-07-02T20:31:04Z",
   "chans": [
    "Theoretically Media"
   ],
-  "deep": "",
+  "deep": "Seedance 2.5 representerar ett betydande framsteg inom AI-videogenerering genom sin förmåga till granulär video-till-video-redigering. Till skillnad från tidigare versioner som krävde fullständig omgenerering, låter 2.5 skapare ändra enskilda visuella element medan den övergripande kompositionen, kamerarörelser och timing bevaras exakt. Detta är särskilt viktigt för professionell videoproduktion där konsistens är kritisk.\n\nSystemet stöder upp till 50 referensbilder per generation, vilket gör det möjligt att tillhandahålla omfattande visuell kontext och stilguider. Multi-video-referencing-funktionen låter användare kombinera rörelseuppgifter från flera videor, vilket är kraftfullt för komplex scenografi. Multilingual output-stöd öppnar användning globalt.\n\nDet läckta Dreamina-projektet avslöjar en beta-funktion för 180-sekunders (3-minuters) videogenerering – betydligt längre än tidigare versioner. Med tre kommande modellvarianter (standard, Fast och Mini) positionerar ByteDance Seedance 2.5 för bred adoption. Den förväntade lanseringen inom två veckor kan snabbt påverka professionell videoproduktion och kommersiell content-skapande.",
   "parts": [
    {
     "t": 0,
-    "l": "A New Seed Model — For Your Ears"
+    "l": "Introduktion till Seedance 2.5",
+    "le": "Introduction to Seedance 2.5"
    },
    {
-    "t": 34,
-    "l": "What SeedAudio 1.0 Actually Is (Not Music)"
+    "t": 87,
+    "l": "Officiella sampel med 8 bildref",
+    "le": "Official samples with 8 image refs"
    },
    {
-    "t": 80,
-    "l": "First Look on Fal: A Fantasy Audio Drama"
+    "t": 216,
+    "l": "13 bilder + 3 videoref test",
+    "le": "13 images + 3 video refs test"
    },
    {
-    "t": 161,
-    "l": "The Prompt That Flopped"
+    "t": 523,
+    "l": "Video-till-video redigering demo",
+    "le": "Video-to-video editing demo"
    },
    {
-    "t": 185,
-    "l": "The Real Trick: Audio as a Seedance Reference"
+    "t": 672,
+    "l": "Dreamina-sidan läck avslöjad",
+    "le": "Dreamina page leak revealed"
    },
    {
-    "t": 193,
-    "l": "Sniper Woman + a Mini Midjourney 8.2 Review"
+    "t": 748,
+    "l": "180-sekunders beta-möjlighet",
+    "le": "180-second beta capability"
    },
    {
-    "t": 292,
-    "l": "Where It Shines: Back-and-Forth Dialogue"
-   },
-   {
-    "t": 376,
-    "l": "The Detective Office (Tues & Malloy)"
+    "t": 802,
+    "l": "Lansering och modellvarianter",
+    "le": "Release window and model variants"
    }
   ],
   "en": {
-   "ttl": "Seedance trick: save credits with audio-first approach",
-   "sum": "Creator demonstrates using ByteDance's SeedAudio 1.0 to lock dialogue and ambiance before expensive Seedance generation, saving credits.",
-   "full": "Theoretically Media shows how ByteDance's new SeedAudio 1.0 serves as a cheap pre-test before running costly Seedance generations. The method borrows from animation workflow principles by creating audio first, then video, and includes guidance on reference handling, timestamping, and prompt construction. The channel demonstrates the technique on multiple projects including a high-fantasy audio drama and a noir detective scene."
+   "ttl": "Seedance 2.5: ByteDance Demonstrates AI Video Control",
+   "sum": "ByteDance unveils Seedance 2.5 with enhanced video-to-video editing, 50 reference images, and 3-minute generation in beta.",
+   "full": "ByteDance has launched Seedance 2.5, the next generation of its AI video model, featuring significant improvements in control and flexibility. The new system can edit individual elements within a video scene—such as giving a warrior a glowing spectral bow—while characters, environment, camera movements, and timing remain locked and unchanged.\n\nThe model supports generation from up to 50 reference images, multi-video referencing, multilingual output, and can generate videos up to 180 seconds (3 minutes) in beta according to a leaked Dreamina project. Seedance 2.5 comes in standard, Fast, and Mini variants, with global release expected within approximately two weeks.\n\nFor creators, this powerful tool enables iterative video production—the ability to quickly test variations, adjust details, and preserve overall composition opens new possibilities in advertising, film production, and content creation.",
+   "deep": "Seedance 2.5 represents a significant advancement in AI video generation through its granular video-to-video editing capabilities. Unlike previous versions requiring full regeneration, 2.5 allows creators to modify individual visual elements while preserving the overall composition, camera movements, and timing precisely. This is particularly important for professional video production where consistency is critical.\n\nThe system supports up to 50 reference images per generation, enabling comprehensive visual context and style guides. Multi-video referencing allows users to combine motion tasks from multiple videos, powerful for complex scenography. Multilingual output support opens global usage.\n\nThe leaked Dreamina project reveals a beta feature for 180-second (3-minute) video generation—significantly longer than previous versions. With three upcoming model variants (standard, Fast, and Mini), ByteDance positions Seedance 2.5 for broad adoption. The anticipated launch within two weeks could rapidly impact professional video production and commercial content creation."
   }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "GPT 5.6, Mythos ban lifted, realtime avatars, Seedance 2.5, brain ultrasound: AI NEWS",
-  "meta": "AI Search · 2026-06-28",
+  "ttl": "Fable 5 och GPT 5.6 Sol jämförs",
+  "meta": "AI Explained · 2026-07-02",
   "plat": "",
-  "url": "https://www.youtube.com/watch?v=7c_ieWfAbrw",
-  "img": "https://img.youtube.com/vi/7c_ieWfAbrw/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GPT%205.6%2C%20Mythos%20ban%20lifted%2C%20realtime%20avatars%2C%20Seedance%202.5%2C%20brain%20ultrasound%3A%20AI%20NEWS",
+  "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+  "img": "https://img.youtube.com/vi/y24lF1q4SFY/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Fable%205%20vs%20GPT%205.6%20Sol%20comparison",
   "feed": "",
-  "sum": "HUGE AI news: Seedance 2.5, Happyhorse 1.1, GPT5.6, Seed 2.1, Krea 2 & more. Thanks to our sponsor Higgsfield. Try Seedance in 4K today https://higgsfield.ai/s/seedance-2-0-theaise",
-  "full": "HUGE AI news: Seedance 2.5, Happyhorse 1.1, GPT5.6, Seed 2.1, Krea 2 & more. Thanks to our sponsor Higgsfield. Try Seedance in 4K today https://higgsfield.ai/s/seedance-2-0-theaise",
-  "buzz": 99,
+  "sum": "En videoanalys jämför de nyligen lanserade AI-modellerna Fable 5 och GPT 5.6 Sol, och diskuterar säkerhetsfrågor och regulatoriska åtgärder.",
+  "full": "AI Explained har släppt en analys som jämför två stora språkmodeller: Fable 5, som nyligen återlanserats, och OpenAI:s GPT 5.6 Sol. Videon går igenom prestanda, arkitektur och säkerhetsprofiler för båda modellerna baserat på tillgänglig dokumentation.\n\nVideon belyser också större industrifrågor, inklusive en amerikansk regeringsåtgärd där 5% av OpenAI:s andelar ålagts, samt nya utvecklingar kring Claude Sonnet 5 från Anthropic. Diskussionen omfattar också geopolitiska aspekter av AI-utveckling, inklusive påstådda säkerhetsproblem relaterade till kinesiska AI-företag.\n\nFör kreatörer och AI-följare är detta relevant då det ger insikt i prestandan hos två av industrins viktigaste modeller och hur regulatoriska påtryckningar formar utvecklingen.",
+  "buzz": 98,
   "cat": "mdl",
-  "date": "2026-06-28T03:31:37Z",
+  "date": "2026-07-02T16:27:26Z",
   "chans": [
-   "AI Search"
+   "AI Explained"
   ],
-  "deep": "",
+  "deep": "Jämförelsen mellan Fable 5 och GPT 5.6 Sol representerar en viktig benchmark för moderna språkmodeller. Enligt videons kapitel ''Fable vs Sol - the numbers'' presenteras konkreta prestandamått som avslöjar hur de två modellerna presterar på olika uppgifter. Fable 5 är Anthropics senaste version, medan GPT 5.6 Sol är OpenAI:s senaste utgåva.\n\nVideon diskuterar även säkerhetsfrågor kring Sol-modellen, särskilt under kapitlet ''Sol Misalignment'', vilket tyder på potentiella problem med modelljustering och säkerhet. Detta är kritiskt för industrin då modelljustering är avgörande för säker AI-deployment.\n\nDen politiska dimensionen framkommer genom kapitlet om den amerikanska regeringens 5%-andelsövertagande av OpenAI, vilket karakteriserades som en ''största heist''. Detta reflekterar växande statlig kontroll över AI-utveckling och dess geopolitiska implikationer.\n\nVideon täcker även Anthropic:s anklagelser mot Alibaba Cloud/Qwen angående säkerhetsproblem, samt Claude Sonnet 5:s lansering. Dessa utvecklingar visar hur konkurrens och regulering formar landskapet för AI-modellutveckling 2025-2026.",
   "parts": [
    {
     "t": 0,
-    "l": "AI news intro"
+    "l": "Introduktion",
+    "le": "Introduction"
    },
    {
-    "t": 67,
-    "l": "Wan streamer"
+    "t": 66,
+    "l": "Fables tidslinje",
+    "le": "Fable Timeline"
    },
    {
-    "t": 230,
-    "l": "Domain Shuttle"
+    "t": 179,
+    "l": "Sol-lansering",
+    "le": "Sol Release"
    },
    {
-    "t": 376,
-    "l": "Ornith"
+    "t": 361,
+    "l": "Kinesisk perspektiv",
+    "le": "Chinese Angle"
    },
    {
-    "t": 508,
-    "l": "Arbor"
+    "t": 455,
+    "l": "5% aktieandel",
+    "le": "5% Stake"
    },
    {
-    "t": 617,
-    "l": "Jalapeno chips"
+    "t": 550,
+    "l": "Fable vs Sol prestanda",
+    "le": "Fable vs Sol Numbers"
    },
    {
-    "t": 697,
-    "l": "IBM sub nano chip"
+    "t": 837,
+    "l": "Sols felaktiga inriktning",
+    "le": "Sol Misalignment"
    },
    {
-    "t": 781,
-    "l": "DanceOPD"
+    "t": 927,
+    "l": "Claude Sonnet 5",
+    "le": "Claude Sonnet 5"
    }
   ],
-  "en": null
+  "en": {
+   "ttl": "Fable 5 and GPT 5.6 Sol Compared",
+   "sum": "A video analysis compares the newly released AI models Fable 5 and GPT 5.6 Sol, discussing performance metrics and regulatory developments.",
+   "full": "AI Explained has released an analysis comparing two major language models: Fable 5, recently redeployed, and OpenAI's GPT 5.6 Sol. The video examines performance benchmarks, architecture, and safety profiles for both models based on available documentation.\n\nThe video also highlights broader industry issues, including a U.S. government seizure of a 5% stake in OpenAI, as well as new developments around Claude Sonnet 5 from Anthropic. The discussion includes geopolitical aspects of AI development, including alleged security concerns related to Chinese AI companies.\n\nFor AI followers and industry observers, this is relevant as it provides insight into the performance of two of the industry's leading models and how regulatory pressures are shaping development trajectories.",
+   "deep": "The comparison between Fable 5 and GPT 5.6 Sol represents an important benchmark for modern language models. According to the video's chapter \"Fable vs Sol - the numbers,\" concrete performance metrics are presented that reveal how the two models perform across different tasks. Fable 5 is Anthropic's latest version, while GPT 5.6 Sol is OpenAI's latest release.\n\nThe video also discusses safety concerns around the Sol model, particularly in the chapter \"Sol Misalignment,\" suggesting potential issues with model alignment and safety. This is critical for the industry as model alignment is crucial for secure AI deployment.\n\nThe political dimension emerges through the chapter on the U.S. government's 5% stake seizure of OpenAI, characterized as the \"largest heist.\" This reflects growing state control over AI development and its geopolitical implications.\n\nThe video covers Anthropic's accusations against Alibaba Cloud/Qwen regarding security issues, as well as Claude Sonnet 5's launch. These developments demonstrate how competition and regulation are shaping the AI model development landscape in 2025-2026."
+  }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "RIP Nano Banana. This is FREE and Better...",
-  "meta": "AI Samson · 2026-06-26",
+  "ttl": "GLM-5.2: Öppen AI-modell för låga kostnader",
+  "meta": "Matt Wolfe · 2026-07-01",
   "plat": "",
+  "url": "https://www.youtube.com/watch?v=XbHeJL45USQ",
+  "img": "https://img.youtube.com/vi/XbHeJL45USQ/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=GLM-5.2%20open%20source%20AI%20model%20cost%20comparison",
+  "feed": "",
+  "sum": "Z.ai:s GLM-5.2 är en MIT-licensierad open-source-modell med 1 miljon tokens som erbjuder betydligt lägre kostnader än kommersiella alternativ.",
+  "full": "Z.ai har lanserat GLM-5.2, en öppen viktmodell med MIT-licens som stödjer upp till 1 miljon tokens och kostar en bråkdel av frontlinjens AI-tjänster. Modellen kan användas på tre sätt: via hosted webbapp, API med agent-ramverk, eller självhostad om man har infrastrukturen.\n\nGLM-5.2 är särskilt relevant för långvariga, kodtunga eller dokumentintensiva arbetsflöden där tokenförbrukningen blir kostsam med andra modeller. Även om den inte överträffar Claude eller GPT generellt sett, kan kostnadsskillnaden vara avgörande för rätt användningsfall. Utvecklare kan testa modellen riskfritt genom speglade produktionsarbetsflöden innan de fullt implementerar den.",
+  "buzz": 96,
+  "cat": "mdl",
+  "date": "2026-07-01T18:30:22Z",
+  "chans": [
+   "Matt Wolfe"
+  ],
+  "deep": "GLM-5.2 från Z.ai är en öppen AI-modell designad för utvecklare som söker kosteffektiva alternativ till proprietära lösningar. Med sitt MIT-licenssystem och öppna vikter kan modellen distribueras och modifieras fritt, vilket gör den attraktiv för organisationer med strängare databeskyddskrav eller begränsad budget.\n\nModellens 1 miljons tokens gör den särskilt lämplig för omfattande sammanhangsscenarier – ett område där kostnader snabbt stiger hos slutna alternativ som GPT-5.5, Claude Opus 4.6 och Gemini 3.5. För utvecklare som arbetar med långa kodsekvenser, omfattande dokumentbearbetning eller automatiserade agentarbetsflöden kan GLM-5.2:s lägre prissättning väsentligt förändra ROI-ekvationen.\n\nImplementeringen erbjuds flexibelt: en hosted webbplattform för snabb prototypning, API-baserad integrering för produktionsmiljöer, eller fullt självhostad lösning för organisationer med dedikerad infrastruktur. Tools från Inference.net möjliggör också speglade produktionsarbetsflöden, vilket låter användare validera modellens prestanda mot befintliga system innan de migrerar helt.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "GLM-5.2 och dess relevans",
+    "le": "What Is GLM-5.2 and Why It Matters"
+   }
+  ],
+  "en": {
+   "ttl": "GLM-5.2: Open AI Model for Lower Costs",
+   "sum": "Z.ai's GLM-5.2 is a MIT-licensed open-weight model supporting 1 million tokens, offering significantly lower costs than commercial alternatives.",
+   "full": "Z.ai has launched GLM-5.2, an open-weight model with MIT licensing that supports up to 1 million tokens and costs a fraction of frontier AI services. The model can be used in three ways: via hosted web app, API with agent framework, or self-hosted if you have the infrastructure.\n\nGLM-5.2 is particularly relevant for long-form, code-heavy, or document-intensive workflows where token consumption becomes expensive with other models. While it doesn't outperform Claude or GPT across the board, the cost difference can be decisive for the right use cases. Developers can test the model risk-free through mirrored production workflows before full implementation.",
+   "deep": "GLM-5.2 from Z.ai is an open-source AI model designed for developers seeking cost-effective alternatives to proprietary solutions. With its MIT licensing and open weights, the model can be freely distributed and modified, making it attractive for organizations with stringent data protection requirements or limited budgets.\n\nThe model's 1 million token capacity makes it particularly suitable for extensive context scenarios—an area where costs quickly escalate with closed alternatives like GPT-5.5, Claude Opus 4.6, and Gemini 3.5. For developers working with lengthy code sequences, comprehensive document processing, or automated agent workflows, GLM-5.2's lower pricing can significantly change the ROI equation.\n\nImplementation is offered flexibly: a hosted web platform for rapid prototyping, API-based integration for production environments, or fully self-hosted solution for organizations with dedicated infrastructure. Tools from Inference.net also enable mirrored production workflows, allowing users to validate the model's performance against existing systems before fully migrating."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "NotebookLM lanserar automatisk kort-videosgenerering",
+  "meta": "Futurepedia · 2026-07-01",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=_8DHTnjb2ho",
+  "img": "https://img.youtube.com/vi/_8DHTnjb2ho/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=NotebookLM%20short%20video%20generation%20feature",
+  "feed": "",
+  "sum": "Google NotebookLM har introducerat en ny funktion som automatiskt genererar utbildningsvideoer i kortformat från användarnas anteckningar med captions, animationer och grafik.",
+  "full": "Google NotebookLM har lanserat en ny funktion kallad \"short video overviews\" som möjliggör automatisk generering av vertikala videoklipp direkt från användarnas anteckningar. Funktionen beskrivs som \"doom scrolling, men gör det till utbildning\" och kräver bara ett klick för att starta processen.\n\nDe genererade videorna innehåller automatiskt skapade captions, animationer, motion graphics och bilder som produceras med Nano Banana 2 Lite-tekniken. Verktyget är avsett för snabb rekappning av lärt material eller för att dela insikter med andra. Funktionen öppnar möjligheter för innehållsskapare att snabbt konvertera anteckningar och forskning till presentabelt videoformat.",
+  "buzz": 89,
+  "cat": "film",
+  "date": "2026-07-01T18:12:10Z",
+  "chans": [
+   "Futurepedia"
+  ],
+  "deep": "NotebookLM:s nya videoöversiktsfunktion representerar ett betydande steg i automatisering av videoinnehållsproduktion från textbaserad information. Funktionen använder Nano Banana 2 Lite för bildgenerering, vilket integrerar visuell AI-teknik med textanalys. Processen är helt automatiserad – användare behöver bara välja sina anteckningar och klicka för att starta genereringen.\n\nDe genererade videorna är utformade för vertikalt format, vilket är optimalt för sociala medier och kort-videoplatformar. Varje video innehåller automatiskt skapade captions för tillgänglighet, animationer som framhäver viktiga punkter, och motion graphics som gör innehållet mer engagerande. Systemet kan också generera anpassade hooks – inledningselement som är utformade för att fånga tittarnas uppmärksamhet i de första sekunderna.\n\nFunktionen har praktiska begränsningar som videoskapare bör vara medvetna om. Enligt presentationen finns det vissa restriktioner på hur innehållet kan anpassas, vilket kan påverka mer skräddarsydda videooutput. Trots dessa begränsningar presenteras verktyget som särskilt användbar för att snabbt konvertera lärresurser och anteckningar till delbart videoformat, vilket gör det värdefullt för studenter, lärare och innehållsskapare.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Introduktion",
+    "le": "Introduction"
+   },
+   {
+    "t": 48,
+    "l": "Hur man genererar",
+    "le": "How to generate"
+   },
+   {
+    "t": 90,
+    "l": "Fullständigt genereringsexempel",
+    "le": "Full generation example"
+   },
+   {
+    "t": 189,
+    "l": "Animationshöjdpunkter",
+    "le": "Animation highlights"
+   },
+   {
+    "t": 343,
+    "l": "Hooks, bilder och begränsningar",
+    "le": "Hooks, images, limits"
+   },
+   {
+    "t": 394,
+    "l": "Problem och utmaningar",
+    "le": "Problems"
+   },
+   {
+    "t": 572,
+    "l": "Reflektioner och tankar",
+    "le": "More thoughts"
+   }
+  ],
+  "en": {
+   "ttl": "NotebookLM Launches Automated Short Video Generation",
+   "sum": "Google NotebookLM has introduced a new feature that automatically generates educational short-form videos from user notebooks with captions, animations, and graphics.",
+   "full": "Google NotebookLM has launched a new feature called \"short video overviews\" that enables automatic generation of vertical video clips directly from user notebooks. The feature is described as \"doom scrolling, but make it educational\" and requires just one click to initiate the process.\n\nThe generated videos include automatically created captions, animations, motion graphics, and images produced using Nano Banana 2 Lite technology. The tool is intended for quick recaps of learned material or for sharing insights with others. The feature opens possibilities for content creators to rapidly convert notes and research into presentable video format.",
+   "deep": "NotebookLM's new video overview feature represents a significant step in automating video content production from text-based information. The feature uses Nano Banana 2 Lite for image generation, integrating visual AI technology with text analysis. The process is fully automated—users only need to select their notes and click to start generation.\n\nThe generated videos are designed for vertical format, which is optimal for social media and short-video platforms. Each video includes automatically created captions for accessibility, animations that highlight key points, and motion graphics that make content more engaging. The system can also generate custom hooks—opening elements designed to capture viewer attention in the first seconds.\n\nThe feature has practical limitations that video creators should be aware of. According to the presentation, there are certain restrictions on how content can be customized, which may impact more tailored video output. Despite these limitations, the tool is presented as particularly useful for quickly converting learning resources and notes into shareable video format, making it valuable for students, educators, and content creators."
+  }
+ },
+ {
+  "tag": "mdl",
+  "lab": "Modeller",
+  "ico": "🧠",
+  "ttl": "5 digitala produkter du kan skapa med AI på timmar",
+  "meta": "AI Samson · 2026-06-30",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=S5C-9K2509w",
+  "img": "https://img.youtube.com/vi/S5C-9K2509w/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=create%20digital%20products%20with%20AI%20business",
+  "feed": "",
+  "sum": "Videon presenterar en guide för att snabbt skapa och sälja digitala produkter med hjälp av AI, från Shopify-teman till custom fonts.",
+  "full": "AI har förändrat marknaden för digitala produkter dramatiskt. I denna guide presenteras fem lönsamma digitala produkter som kan skapas på bara några timmar med AI-hjälp: Shopify-teman, Notion-mallar, anpassade typsnitt, Photoshop- och Procreate-penslar samt kompletta varumärkespaket.\n\nGuiden introducerar FAB-ramverket (Find, Assemble, Brand) som en struktur för att utveckla produkter. Genom verkliga fallstudier visas hur dessa produkter har generat miljontals kronor i intäkter. Fokus ligger på att identifiera produkter som människor redan söker efter aktivt.\n\nFör kreatörer och företagare erbjuder detta en väg till passiv inkomst och nya affärsidéer. Genom att kombinera befintliga resurser och AI-verktyg kan man snabbt producera högkvalitativa digitala produkter och sälja dem via etablerade plattformar.",
+  "buzz": 90,
+  "cat": "mdl",
+  "date": "2026-06-30T09:17:32Z",
+  "chans": [
+   "AI Samson"
+  ],
+  "deep": "FAB-ramverket är en praktisk struktur för utveckling av digitala produkter: Find (hitta marknadsefterfrågan), Assemble (sammanställ resurser med AI-hjälp), och Brand (märk produkten för försäljning). Videon demonstrerar konkret hur var och en av de fem produkttyperna kan skapas effektivt.\n\nShopify-teman, Notion-mallar och custom fonts representerar olika marknadssegment med olika köpargrupper. Photoshop- och Procreate-penslar riktar sig till designers, medan varumärkespaket är kompletta lösningar för små företag. Genom att visa fallstudier med miljontals kronor i intäkter belyses potentialen i denna affärsmodell.\n\nFramgångsnyckeln ligger i att använda AI för att accelerera produktionen utan att kompromissa på kvalitet. Bundling (paketerande) av flera produkter ökar försäljningsvärdet och attraktionen för kunder. Videon föreslår också att sälja AI-prompts som en extra inkomstström.",
+  "parts": [
+   {
+    "t": 22,
+    "l": "AI och digitala produkter",
+    "le": "AI and digital products truth"
+   },
+   {
+    "t": 55,
+    "l": "FAB-formeln förklarad",
+    "le": "FAB Formula explained"
+   },
+   {
+    "t": 85,
+    "l": "Shopify-teman",
+    "le": "Shopify templates"
+   },
+   {
+    "t": 355,
+    "l": "Notion-mallar",
+    "le": "Notion templates"
+   },
+   {
+    "t": 632,
+    "l": "Anpassade typsnitt",
+    "le": "Custom AI fonts"
+   },
+   {
+    "t": 944,
+    "l": "Photoshop och Procreate-penslar",
+    "le": "Photoshop and Procreate brushes"
+   },
+   {
+    "t": 1099,
+    "l": "AI-varumärkespaket",
+    "le": "AI brand kits"
+   },
+   {
+    "t": 1625,
+    "l": "Varför paket säljer bättre",
+    "le": "Why bundles sell better"
+   }
+  ],
+  "en": {
+   "ttl": "5 digital products you can create with AI in hours",
+   "sum": "The video presents a guide for quickly creating and selling digital products using AI, from Shopify themes to custom fonts.",
+   "full": "AI has dramatically changed the market for digital products. This guide presents five profitable digital products that can be created in just a few hours with AI assistance: Shopify templates, Notion templates, custom fonts, Photoshop and Procreate brushes, and complete brand kits.\n\nThe guide introduces the FAB framework (Find, Assemble, Brand) as a structure for product development. Real-world case studies demonstrate how these products have generated millions in revenue. The focus is on identifying products that people are already actively searching for.\n\nFor creators and entrepreneurs, this offers a path to passive income and new business ideas. By combining existing resources with AI tools, you can quickly produce high-quality digital products and sell them through established platforms.",
+   "deep": "The FAB framework is a practical structure for digital product development: Find (identify market demand), Assemble (compile resources with AI assistance), and Brand (market the product for sale). The video demonstrates concretely how each of the five product types can be created efficiently.\n\nShopify templates, Notion templates, and custom fonts represent different market segments with distinct buyer groups. Photoshop and Procreate brushes target designers, while brand kits are complete solutions for small businesses. By showcasing case studies with millions in revenue, the video highlights the potential of this business model.\n\nThe key to success lies in using AI to accelerate production without compromising quality. Bundling multiple products increases sales value and customer appeal. The video also suggests selling AI prompts as an additional income stream."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "Seedance sparar pengar med SeedAudio 1.0",
+  "meta": "Theoretically Media · 2026-06-29",
+  "plat": "Seedance 2.0",
+  "url": "https://www.youtube.com/watch?v=tMSA74SncK0",
+  "img": "https://img.youtube.com/vi/tMSA74SncK0/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=SeedAudio%201.0%20ByteDance%20Seedance%20audio%20first%20workflow",
+  "feed": "",
+  "sum": "ByteDance lanserar SeedAudio 1.0, ett billigt verktyg för att låsa in audio före dyr videogenerering i Seedance.",
+  "full": "ByteDance presenterar SeedAudio 1.0, en ny AI-modell designad för att lösa ett vanligt problem med Seedance — att slösa krediter på videogeneringar som förstör den dialog man faktiskt skrev. Istället för att använda SeedAudio som musikmodell fungerar den som en audioref som låser in dialog, skådespeleri och atmosfär innan man betalar för den dyra videopassen.\n\nArbetsflödet följer animationsprinciper: ljud först, sedan visuella element. Verktyget körs via Fal och kan kombineras med Claude/Gemini/GPT för att generera tidsstämplade Seedance-prompter från dina MP3-filer. Användaren visar praktiska exempel från high-fantasy audiodrama, Midjourney-karaktärer och en noir-detektivscen, och framhåller att modellen fortfarande är känslig men ger kraftfulla resultat för längre dialogscener.\n\nSegmentet täcker också Martinis nya kamerakontroll utan Blender — keyframes, linser och rörelseomvandlare som ger professionell kamerakontroll direkt i gränssnittet.",
+  "buzz": 94,
+  "cat": "film",
+  "date": "2026-06-29T17:23:16Z",
+  "chans": [
+   "Theoretically Media"
+  ],
+  "deep": "SeedAudio 1.0 är ByteDances svar på ett långvarigt problem inom Seedance-arbetsflödet: när användare bränner dyra krediter på videogeneringar som inte bevarar deras skrivna dialog eller performance-intentioner. Genom att köra audio först via Fal kan kreatörer låsa in exakt vad de vill höra — dialog, röstkaraktärer, ambians — innan de gör den dyrare videogenereringspassagen.\n\nArbetsteknikens nyckel är att undvika referensöverbelastning. Om man dumpar för mycket musik, múltipla röstlinjer och atmosfäriska element i en enda Omni-referens uppstår \"context overload\" — ljud blandar sig, linjer upprepas, och resultatet blir muddrigt. Lösningen är att isolera elementen och använda Nano Banana Pro för första-frame-fixering. För tidsstämpning kan man kopiera sitt MP3 till Claude, Gemini eller GPT och instruera dem att skriva en tidsmarkerad Seedance-prompt — detta möjliggör presision när man senare synkroniserar video.\n\nEnligt demonstrationen fungerar detta särskilt väl för längre dialogue-scener och karaktärsdrivna sekvenser. De testade projekten — high-fantasy audiodrama, Midjourney-byggd karaktär \"Sniper Woman\", och en noir-detektivscen med Tues Sinclair & Malloy — visade att modellen kan hålla konsistent skådespeleri och atmosfär när den väl är konfigurerad korrekt.\n\nMartinis nya kamerakontrollfunktion komplettera detta arbetsflöde genom att erbjuda Blender-stil keyframing (linser, rörelse, timing) direkt i webgränssnittet — ingen installation eller extramöda nödvändig. Även om SeedAudio inte är en musikmodell på Sunos nivå, fungerar den som en sparbara, praktisk audio-staging-verktyg för videoproduktion.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "SeedAudio löser Seedance-problemet",
+    "le": "SeedAudio solves Seedance credit waste"
+   },
+   {
+    "t": 105,
+    "l": "Audio-först arbetsflöde förklaras",
+    "le": "Audio-first workflow explained"
+   },
+   {
+    "t": 260,
+    "l": "Referenskombination och kontextöverbelastning",
+    "le": "Reference mixing and context overload"
+   },
+   {
+    "t": 375,
+    "l": "Tidsstämpning med Claude/GPT",
+    "le": "Timestamping with Claude/GPT"
+   },
+   {
+    "t": 480,
+    "l": "High-fantasy audiodrama-test",
+    "le": "High-fantasy audio drama test"
+   },
+   {
+    "t": 630,
+    "l": "Noir-detektivscenen resultat",
+    "le": "Noir detective scene results"
+   },
+   {
+    "t": 765,
+    "l": "Martini kamerakontroll utan Blender",
+    "le": "Martini camera control no Blender"
+   },
+   {
+    "t": 840,
+    "l": "Slutsats och praktiska tips",
+    "le": "Conclusion and practical tips"
+   }
+  ],
+  "en": {
+   "ttl": "Seedance saves money with SeedAudio 1.0",
+   "sum": "ByteDance launches SeedAudio 1.0, a cheap tool to lock in audio before expensive video generation in Seedance.",
+   "full": "ByteDance introduces SeedAudio 1.0, a new AI model designed to solve a common Seedance problem — wasting credits on video generations that destroy the dialogue you actually wrote. Rather than functioning as a music model, SeedAudio serves as an audio reference that locks in dialogue, performance, and ambiance before you pay for the expensive video pass.\n\nThe workflow follows animation principles: audio first, then visual elements. The tool runs via Fal and can be combined with Claude/Gemini/GPT to generate timestamped Seedance prompts from your MP3 files. The creator demonstrates practical examples from high-fantasy audio drama, Midjourney characters, and a noir detective scene, emphasizing that while the model is still finicky, it delivers powerful results for longer dialogue-driven sequences.\n\nThe segment also covers Martini's new camera control without Blender — keyframes, lenses, and motion transformers offering professional camera control directly in the interface.",
+   "deep": "SeedAudio 1.0 is ByteDance's answer to a longstanding problem in the Seedance workflow: users burning expensive credits on video generations that don't preserve their written dialogue or performance intentions. By running audio first via Fal, creators can lock in exactly what they want to hear — dialogue, voice characters, ambiance — before making the more expensive video generation pass.\n\nThe technique's key is avoiding reference overload. Dumping too much music, multiple voice lines, and atmospheric elements into a single Omni reference causes \"context overload\" — audio blends together, lines repeat, and the result becomes muddy. The solution is isolating elements and using Nano Banana Pro for first-frame fixing. For timestamping, users can paste their MP3 into Claude, Gemini, or GPT and instruct it to write a time-marked Seedance prompt — enabling precision when syncing video later.\n\nAccording to the demonstration, this works particularly well for longer dialogue scenes and character-driven sequences. The tested projects — high-fantasy audio drama, a Midjourney-built character called \"Sniper Woman,\" and a noir detective scene with Tues Sinclair & Malloy — showed the model can maintain consistent performance and atmosphere once properly configured.\n\nMartini's new camera control feature complements this workflow by offering Blender-style keyframing (lenses, motion, timing) directly in the web interface — no installation or extra tools required. While SeedAudio isn't a music model at Suno's level, it functions as an economical, practical audio-staging tool for video production."
+  }
+ },
+ {
+  "tag": "mdl",
+  "lab": "Modeller",
+  "ico": "🧠",
+  "ttl": "Claude Skills – Guide för nybörjare",
+  "meta": "Skill Leap AI · 2026-06-29",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=wc54-e6Dt68",
+  "img": "https://img.youtube.com/vi/wc54-e6Dt68/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Claude%20Skills%20tutorial%20beginner%20guide",
+  "feed": "",
+  "sum": "En vägledning om Claude Skills som låter dig spara och återanvända anpassade instruktioner för effektivare AI-arbetsflöden.",
+  "full": "Claude har lanserat en funktion kallad Claude Skills som gör det möjligt för användare att spara, organisera och återanvända anpassade instruktioner mellan olika samtal. Enligt guiden kan kreatörer bygga egna skills för att automatisera återkommande uppgifter och förbättra Claude-användningen.\n\nExemplen inkluderar skills för skrivstil, forskning, datavärkning, innehållsproduktion och presentationsgenerering. Dessa kan användas för att producera YouTubeskript, PDF-rapporter, instrumentpaneler, blogginlägg och LinkedIn-poster. Guiden betonar vikten av att kontrollera säkerheten i skills från internet och rekommenderar att bygga egna för bättre kontroll.\n\nFunktionen gör det möjligt för kreatörer att standardisera arbetsflöden, spara tid på promptkonstruktion och skala sina AI-baserade projekt mer effektivt.",
+  "buzz": 92,
+  "cat": "mdl",
+  "date": "2026-06-29T15:09:32Z",
+  "chans": [
+   "Skill Leap AI"
+  ],
+  "deep": "Claude Skills är en funktion som möjliggör skapandet av återanvändbara instruktionsmallar inom Claude-plattformen. Enligt guiden funktionerar det genom att användare kan spara sina egna promptmallar och instruktioner som kan aktiveras över olika samtal, vilket eliminerar behovet av att skriva om samma instruktioner upprepade gånger.\n\nGuiden presenterar flera praktiska användningsfall: en writing style skill för att bibehålla konsistent ton, en deep research auditor för grundlig innehållsanalys, en CSV dashboard builder för datavisualisering, en content engine för massproduktion av innehåll, och en on-brand presentation maker för att skapa presentationer enligt varumärkesriktlinjer. Dessa skills kan enkelt konfigureras genom Claude skill creator-verktyget.\n\nSäkerhetsaspekten är central – guiden varnar för att skills från internet kan innehålla skadlig kod eller felaktig logik. Därför rekommenderas det att antingen bygga sina egna skills eller noggrant granska importerade skills innan aktivering. Detta ger användare fullständig kontroll över vilka instruktioner Claude följer och hur det processerar data.\n\nFunktionen är särskilt värdeful för kreatörer och profesionella som arbetar med repetitiva uppgifter, då den möjliggör effektivitetsvinstningar och konsistensstandardisering över multipla projekt och klienter.",
+  "parts": [],
+  "en": {
+   "ttl": "Claude Skills – Beginner's Guide",
+   "sum": "A guide to Claude Skills that allows you to save and reuse custom instructions for more efficient AI workflows.",
+   "full": "Claude has launched a feature called Claude Skills that enables users to save, organize, and reuse custom instructions across different conversations. According to the guide, creators can build their own skills to automate recurring tasks and improve Claude usage.\n\nExamples include skills for writing style, research, data analysis, content production, and presentation generation. These can be used to produce YouTube scripts, PDF reports, dashboards, blog posts, and LinkedIn posts. The guide emphasizes the importance of checking the security of skills from the internet and recommends building your own for better control.\n\nThe feature allows creators to standardize workflows, save time on prompt construction, and scale their AI-based projects more efficiently.",
+   "deep": "Claude Skills is a feature that enables the creation of reusable instruction templates within the Claude platform. According to the guide, it works by allowing users to save their own prompt templates and instructions that can be activated across different conversations, eliminating the need to rewrite the same instructions repeatedly.\n\nThe guide presents several practical use cases: a writing style skill to maintain consistent tone, a deep research auditor for thorough content analysis, a CSV dashboard builder for data visualization, a content engine for mass content production, and an on-brand presentation maker for creating presentations according to brand guidelines. These skills can be easily configured through the Claude skill creator tool.\n\nThe security aspect is central – the guide warns that skills from the internet may contain malicious code or faulty logic. Therefore, it is recommended to either build your own skills or carefully review imported skills before activation. This gives users complete control over which instructions Claude follows and how it processes data.\n\nThe feature is particularly valuable for creators and professionals working with repetitive tasks, as it enables efficiency gains and consistency standardization across multiple projects and clients."
+  }
+ },
+ {
+  "tag": "img",
+  "lab": "Bild",
+  "ico": "📷",
+  "ttl": "GPT 5.6, Seedance 2.5 och AI-nyheter",
+  "meta": "AI Search · 2026-06-28",
+  "plat": "Seedance 2.0",
+  "url": "https://www.youtube.com/watch?v=7c_ieWfAbrw",
+  "img": "https://img.youtube.com/vi/7c_ieWfAbrw/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=GPT%205.6%20Seedance%202.5%20AI%20news",
+  "feed": "",
+  "sum": "AI Search presenterar stora nyheter inklusive GPT 5.6, Seedance 2.5, Happy Horse 1.1 och Krea 2 tillsammans med framsteg inom chips och AI-modeller.",
+  "full": "En nyligen utgiven AI-nyhetssamling täcker flera betydande lanseringar och utvecklingar inom artificiell intelligens. Bland annat presenteras GPT 5.6, Seedance 2.5, Happy Horse 1.1 och Krea 2, tillsammans med tekniska framsteg som Seed 2.1 från ByteDance och nya AI-chiparkitekturer från IBM och OpenAI.\n\nFör kreatörer är uppdateringarna till etablerade verktyg som Seedance och Krea särskilt relevanta, då de möjliggör högre kvalitet och nya funktioner för bildgenerering och visuell skapande. Videoen täcker också experimentella modeller som Lift4D och PerceptionDLM som visar på framtidsmöjligheter inom AI-assisterad design.\n\nSeere kan utforska de länkade verktygen för att testa nya funktioner, med särskilt fokus på Seedance 2.5 för 4K-generering och Krea 2 för bildbearbetning.",
+  "buzz": 99,
+  "cat": "foto",
+  "date": "2026-06-28T03:31:37Z",
+  "chans": [
+   "AI Search"
+  ],
+  "deep": "Nyhetssamlingen fokuserar på flera viktiga utvecklingar inom generativ AI under hösten 2026. Seedance 2.5 utgör en central uppdatering för bildgenerering i 4K-upplösning, sponsrad av Higgsfield, och erbjuder förbättrad bildkvalitet och kontroll för kreatörer. ByteDances Seed 2.1 representerar framsteg inom multimodala AI-modeller med fokus på video och bildförståelse.\n\nHappy Horse 1.1 och Krea 2 visar utveckling inom webbaserade kreativa verktyg. Krea 2 erbjuder ny funktionalitet för bildbearbetning och AI-assisterad design, medan Happy Horse fokuserar på gränssnitt och användarupplevelse för bildgenerering.\n\nVideon täcker också experimentella modeller som Lift4D för dynamisk bildgenerering och PerceptionDLM för perception och language multimodality. De presenterade chipteknologierna från IBM (sub-1-nanometer) och OpenAI (Jalapeno inference chip) indikerar på infrastrukturfokusering för att stödja större och snabbare AI-modeller.\n\nHela samlingen dokumenterar momentum inom generativ AI under denna period, med särskilt fokus på praktiska verktyg för kreatörer och experimentella modeller som visar framtida riktningar för AI-assisterad skapelse.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Intro",
+    "le": "Intro"
+   },
+   {
+    "t": 905,
+    "l": "Higgsfield Seedance 4K",
+    "le": "Higgsfield Seedance 4K"
+   },
+   {
+    "t": 1225,
+    "l": "Seedance 2.5",
+    "le": "Seedance 2.5"
+   },
+   {
+    "t": 1350,
+    "l": "Seed 2.1",
+    "le": "Seed 2.1"
+   },
+   {
+    "t": 1618,
+    "l": "Happy Horse 1.1",
+    "le": "Happy Horse 1.1"
+   },
+   {
+    "t": 1694,
+    "l": "Krea 2",
+    "le": "Krea 2"
+   }
+  ],
+  "en": {
+   "ttl": "GPT 5.6, Seedance 2.5 and AI news",
+   "sum": "AI Search presents major news including GPT 5.6, Seedance 2.5, Happy Horse 1.1, and Krea 2 alongside advances in chips and AI models.",
+   "full": "A recently released AI news compilation covers several significant launches and developments in artificial intelligence. Among others, it presents GPT 5.6, Seedance 2.5, Happy Horse 1.1, and Krea 2, along with technical advances such as Seed 2.1 from ByteDance and new AI chip architectures from IBM and OpenAI.\n\nFor creators, updates to established tools like Seedance and Krea are particularly relevant, as they enable higher quality and new capabilities for image generation and visual creation. The video also covers experimental models like Lift4D and PerceptionDLM that showcase future possibilities for AI-assisted design.\n\nViewers can explore the linked tools to test new features, with particular focus on Seedance 2.5 for 4K generation and Krea 2 for image editing.",
+   "deep": "The news compilation focuses on several important developments in generative AI during fall 2026. Seedance 2.5 is a central update for image generation in 4K resolution, sponsored by Higgsfield, and offers improved image quality and control for creators. ByteDance's Seed 2.1 represents progress in multimodal AI models with focus on video and image understanding.\n\nHappy Horse 1.1 and Krea 2 show development in web-based creative tools. Krea 2 offers new functionality for image editing and AI-assisted design, while Happy Horse focuses on interface and user experience for image generation.\n\nThe video also covers experimental models like Lift4D for dynamic image generation and PerceptionDLM for perception and language multimodality. The presented chip technologies from IBM (sub-1-nanometer) and OpenAI (Jalapeno inference chip) indicate focus on infrastructure to support larger and faster AI models.\n\nThe entire compilation documents momentum in generative AI during this period, with particular focus on practical tools for creators and experimental models that showcase future directions for AI-assisted creation."
+  }
+ },
+ {
+  "tag": "img",
+  "lab": "Bild",
+  "ico": "📷",
+  "ttl": "Gratis AI slår betald bildgenerator i test",
+  "meta": "AI Samson · 2026-06-26",
+  "plat": "Higgsfield",
   "url": "https://www.youtube.com/watch?v=c30mA4z5GyQ",
   "img": "https://img.youtube.com/vi/c30mA4z5GyQ/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=RIP%20Nano%20Banana.%20This%20is%20FREE%20and%20Better...",
+  "more": "https://www.google.com/search?q=free%20AI%20image%20generator%20vs%20paid%20comparison%202024",
   "feed": "",
-  "sum": "https://higgsfield.ai/s/seedance-2-0-aisamsonreal-nhNIkj",
-  "full": "https://higgsfield.ai/s/seedance-2-0-aisamsonreal-nhNIkj",
+  "sum": "YouTuber AI Samson testar om nya öppna AI-modeller kan konkurrera med premiumprodukter som ChatGPT Images och Nano Banana Pro över sju realistiska scenarier.",
+  "full": "AI Samson har testat om nya kostnadsfria AI-modeller kan konkurrera med betaldtjänster för bildgenerering. I videon jämförs flera modeller genom sju praktiska tester: fotorealism och händer, människoporträtt, textrendering, filmiska bilder, anime, 3D-animation och oljemålningar.\n\nResultaten visar att de fria modellerna överraskande väl kan hålla jämna steg med premiumprodukter som GPT Images 2.0 och Nano Banana Pro. Detta är viktigt för kreatörer som söker alternativ utan prenumerationskostnad. Genom att använda de modeller som presenteras kan både nybörjare och erfarna designers generera högkvalitativ visuellt innehål utan ekonomisk investering.",
   "buzz": 97,
-  "cat": "mdl",
+  "cat": "foto",
   "date": "2026-06-26T07:30:02Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "",
+  "deep": "Videon presenterar en omfattande jämförelse mellan betaldtjänster och öppna källkodsmodeller för bildgenerering. De kostnadsfria alternativen testar genom sju distinkta kategorier för att ge kreatörer en verklig förståelse för var varje modell utmärker sig. Testernas omfattning—från fotorealistiska scenarier till anime och klassisk konst—säkerställer att resultaten är relevanta för olika kreativa användningsfall.\n\nÖppna källkodsmodeller har utvecklats significerande och kan nu producera resultat som på många sätt överträffar eller är likvärdiga med kommerciella alternativ. Detta öppnar upp möjligheter för kreatives som tidigare varit tvungna att betala abonnemang eller licensavgifter. Videobedömningen fokuserar på praktisk användbarhet snarare än endast tekniska specifikationer, vilket gör resultaten värdefulla för personer som faktiskt vill generera innehål.\n\nSponsorn Higgsfield presenteras som ett verktyg för att komma igång med dessa modeller. För kreatörer som söker kostnadseffektiva lösningar utan att kompromissa på kvalitet representerar detta test en viktig resurs för att identifiera vilka verktyg som passar deras specifika behov, oavsett om det gäller porträtt, text, animation eller konst.",
   "parts": [
    {
     "t": 0,
-    "l": "Can Free AI Beat Paid AI?"
-   },
-   {
-    "t": 40,
-    "l": "Model 1 Explained"
-   },
-   {
-    "t": 208,
-    "l": "Model 2 Explained"
-   },
-   {
-    "t": 364,
-    "l": "How to Use"
+    "l": "Introduktion: gratis vs betald AI",
+    "le": "Free vs paid AI introduction"
    },
    {
     "t": 432,
-    "l": "Blind Image Test"
+    "l": "Blind bildtest börjar",
+    "le": "Blind image test begins"
    },
    {
     "t": 510,
-    "l": "Test #1 – Realism & Hands"
-   },
-   {
-    "t": 622,
-    "l": "Test #2 – Human Portraits"
+    "l": "Test 1: Realism och händer",
+    "le": "Test 1: Realism and hands"
    },
    {
     "t": 736,
-    "l": "Test #3 – Text Rendering"
+    "l": "Test 3: Textrendering",
+    "le": "Test 3: Text rendering"
+   },
+   {
+    "t": 889,
+    "l": "Test 4: Filmiska bilder",
+    "le": "Test 4: Cinematic images"
+   },
+   {
+    "t": 1288,
+    "l": "Sponsor: Higgsfield",
+    "le": "Sponsor: Higgsfield"
+   },
+   {
+    "t": 1607,
+    "l": "Slutgiltigt omdöme",
+    "le": "Final verdict"
+   },
+   {
+    "t": 1663,
+    "l": "Bonusmodell du kanske missat",
+    "le": "Bonus AI model you probably missed"
    }
   ],
-  "en": null
+  "en": {
+   "ttl": "Free AI beats paid image generator in test",
+   "sum": "YouTuber AI Samson tests whether new open-source AI models can compete with premium products like ChatGPT Images and Nano Banana Pro across seven realistic scenarios.",
+   "full": "AI Samson has tested whether new free AI models can compete with paid image generation services. The video compares multiple models through seven practical tests: photorealism and hands, human portraits, text rendering, cinematic images, anime, 3D animation, and oil paintings.\n\nThe results show that free models surprisingly hold their own against premium products like GPT Images 2.0 and Nano Banana Pro. This is important for creators seeking alternatives without subscription costs. By using the models presented, both beginners and experienced designers can generate high-quality visual content without financial investment.",
+   "deep": "The video presents a comprehensive comparison between paid services and open-source image generation models. The free alternatives are tested across seven distinct categories to give creators a genuine understanding of where each model excels. The breadth of tests—from photorealistic scenarios to anime and classical art—ensures the results are relevant for diverse creative use cases.\n\nOpen-source models have developed significantly and can now produce results that in many ways match or exceed commercial alternatives. This opens opportunities for creators who previously had to pay for subscriptions or licensing fees. The video's assessment focuses on practical usability rather than just technical specifications, making the results valuable for people who actually want to generate content.\n\nThe sponsor Higgsfield is presented as a tool for getting started with these models. For creators seeking cost-effective solutions without compromising on quality, this test represents an important resource for identifying which tools suit their specific needs, whether for portraits, text, animation, or art."
+  }
  }
 ]
