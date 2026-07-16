@@ -1,259 +1,152 @@
 [
  {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "AI-övergångar: Så gör du tidresa i video",
-  "meta": "Matt Wolfe · 2026-07-14",
-  "plat": "Seedance 2.0",
-  "url": "https://www.youtube.com/watch?v=KzJkS00Ztd8",
-  "img": "https://img.youtube.com/vi/KzJkS00Ztd8/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=AI%20video%20transition%20time%20travel%20effect",
+  "tag": "img",
+  "lab": "Bild",
+  "ico": "📷",
+  "ttl": "Seedream 5.0 Pro testad – lagergenerering och 4K",
+  "meta": "Theoretically Media · 2026-07-15",
+  "plat": "Seedream 4",
+  "url": "https://www.youtube.com/watch?v=pn-YwWn3kkM",
+  "img": "https://img.youtube.com/vi/pn-YwWn3kkM/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Seedream%205.0%20Pro%20layer%20generation%20ByteDance",
   "feed": "",
-  "sum": "Matt Wolfe visar hur man skapar sömlösa videoövergångar mellan platser med AI-verktyg som Runway, genom att använda keyframes och prompted generering.",
-  "full": "Innehållsskapare kan nu skapa spektakulära videoövergångar utan komplicerad VFX-programvara. Matt Wolfe presenterar en enkel metod där man filmar intro på plats A, byter plats och filmar på plats B med samma outfit ochpose, för att sedan använda AI för att generera en sömlös övergång mellan dem.\n\nMetoden går ut på att ta en skärmdump från sista bildrutan i klipp A och första bildrutan i klipp B, ladda upp dessa som keyframes i ett AI-verktyg som Runway's Seedance 2.0, och låta AI generera en övergång. Genom att använda en prompt som instruerar AI att skapa en kamerarörelse som avslöjar den nya platsen, utan tal, skapas en naturlig övergång. Det färdiga klippet placeras mellan originalvideorna med en kort överlappning.\n\nMetoden fungerar för teleportering, klädbyten och andra effekter, och kräver ingen dyr eller komplex programvara.",
-  "buzz": 80,
-  "cat": "film",
-  "date": "2026-07-14T14:31:02Z",
+  "sum": "ByteDance lanserar Seedream 5.0 Pro med möjlighet att generera AI-bilder i faktiska lager, stöd för 10 referensbilder och inbyggd 4K-upplösning, men tekniken visar instabilitet i första testerna.",
+  "full": "ByteDance presenterar Seedream 5.0 Pro, en ny AI-bildgenereringsmodell med en genuint innovativ funktion: förmågan att skapa bilder i faktiska lager. Modellen stöder upp till 10 referensbilder och native 4K-rendering, vilket potentiellt gör den till en faktisk konkurrent till Nano Banana och ChatGPT Images 2.0.\n\nI tester visar sig Seedream 5.0 Pro dock opålitlig. Systemet kämpar med blob-ansikten och andra kvalitetsproblem, speciellt vid detaljerade ansiktsgenereringar och logohantering. Dessa instabiliteter tyder på att modellen fortfarande är under utveckling trots officiell lansering.\n\nParallellt läcker nya klipp från Seedance 2.5, som visar imponerande resultat, och ByteDance släppte en officiell Seedance-kortfilm. Veckans andra höjdpunkter inkluderar LingBot-World 2.0 (en öppen världsmodell på Hugging Face) och Anams CARA-4 (AI-röstverktyg med visuell representation).",
+  "buzz": 89,
+  "cat": "foto",
+  "date": "2026-07-15T18:23:59Z",
   "chans": [
-   "Matt Wolfe"
+   "Theoretically Media"
   ],
-  "deep": "Tekniken bygger på att AI-modeller kan interpolera mellan två definierade bildkedjor genom att förstå både scenen och rörelsen. Genom att använda samma skuespelare i samma outfit på båda platserna skapas en visuell kontinuitet som gör övergången trovärd. Seedance 2.0, som är en videogenerator, kan då skapa en naturlig rörelse mellan dessa två keyframes baserat på prompten.\n\nDet kritiska steget är att matcha posen vid övergångspunkten – detta minimerar artefakter och gör att AI-genererad del passar sömlöst in mellan originalklipp. Prompén som instruerar AI att inte generera tal är en praktisk detalj som förhindrar att AI skapar oönskade ansiktsmimikrörelser som ofta uppstår när modeller försöker att synka tal.\n\nMetoden är tillgänglig för alla innehållsskapare med tillgång till ett AI-videogeneratorn eftersom Runway och Kling är webbaserade verktyg. Det eliminerar behovet av tyngre software och manuell effektredigering, vilket demokratiserar professionell videoeffekter för independentkreatörer.",
-  "parts": [],
+  "deep": "Seedream 5.0 Pro introducerar lagergenerering som en distinkt ny kapabilitet inom AI-bildgenerering. Till skillnad från tidigare modeller som producerar monolitiska bilder kan Seedream 5.0 Pro nu strukturera innehål i separat komposerbara lager, vilket öppnar nya möjligheter för iterativ redigering och professionellt workflow. Kombinationen av 10 referensbilder ger användare betydligt större kontroll över stil- och innehålgskonsekvens, medan native 4K-support eliminerar behovet av upscaling-verktyg.\n\nDock avslöjar stress-testning allvarliga begränsningar. Ansiktsgenerering uppvisar återkommande blob-artefakter – ett klassiskt problem som större modeller redan löst. Logotypgenereringsfel indikerar svårigheter med juridisk-känsligt innehål. Dessa instabiliteter väcker frågor om modellens mognadsnivå och om den verkligen konkurrerar med etablerade alternativ eller om den befinner sig i beta-stadium trots lansering.\n\nKontextuellt placeras denna lansering mot en bakgrund av intensiv konkurrens. Seedance 2.5-läckorna visar överraskande stark kvalitet, vilket tyder på att ByteDance's videogenerering är närmare kommersiell mognad än bildsidan. Samtidigt framför andra verktyg som LingBot-World 2.0 öppen-källkods världsmodeller och CARA-4 kombinerar röst- och visuell representation, vilket indikerar ett bredare skift mot multimodala AI-agenter.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Intro och väntan på Seedance 2.5",
+    "le": "Intro and waiting for Seedance 2.5"
+   },
+   {
+    "t": 22,
+    "l": "Seedream 5.0 Pro presentation",
+    "le": "Seedream 5.0 Pro introduction"
+   },
+   {
+    "t": 41,
+    "l": "Funktioner: text, 10 ref, lagergenerering",
+    "le": "Features: text, 10 refs, layer generation"
+   },
+   {
+    "t": 92,
+    "l": "Första test: man i blå kostym",
+    "le": "First test: man in blue suit"
+   },
+   {
+    "t": 127,
+    "l": "Problem: blob-ansikten återkommer",
+    "le": "Issues: blobby faces return"
+   },
+   {
+    "t": 168,
+    "l": "Problem: varumärkeslogotyper",
+    "le": "Issue: trademark logos"
+   }
+  ],
   "en": {
-   "ttl": "AI Transitions: Create Time Travel Effects in Video",
-   "sum": "Matt Wolfe demonstrates how to create seamless video transitions between locations using AI tools like Runway by utilizing keyframes and prompted generation.",
-   "full": "Content creators can now produce spectacular video transitions without complex VFX software. Matt Wolfe presents a simple method where you film an intro at location A, travel to location B, and film with matching outfit and pose, then use AI to generate a seamless transition between them.\n\nThe method involves taking a screenshot from the last frame of clip A and the first frame of clip B, uploading these as keyframes into an AI tool like Runway's Seedance 2.0, and letting AI generate the transition. By using a prompt that instructs AI to create a camera movement revealing the new location, without speech, a natural transition is created. The finished clip is then placed between the original videos with a short crossfade.\n\nThe technique works for teleportation, outfit changes, and other effects, requiring no expensive or complex software.",
-   "deep": "The technique relies on AI models' ability to interpolate between two defined image sequences by understanding both the scene and motion. By using the same actor in matching outfits at both locations, visual continuity is created that makes the transition believable. Seedance 2.0, a video generator, can then create natural movement between these two keyframes based on the prompt.\n\nThe critical step is matching the pose at the transition point—this minimizes artifacts and ensures the AI-generated segment fits seamlessly between original clips. The prompt instruction to not generate speech is a practical detail that prevents AI from creating unwanted facial movements that typically occur when models attempt to sync speech.\n\nThe method is accessible to all content creators with access to an AI video generator since Runway and Kling are web-based tools. It eliminates the need for heavier software and manual effects editing, democratizing professional video effects for independent creators."
+   "ttl": "Seedream 5.0 Pro tested – layer generation and 4K",
+   "sum": "ByteDance launches Seedream 5.0 Pro with the ability to generate AI images in actual layers, support for 10 reference images, and native 4K resolution, but the technology shows instability in initial testing.",
+   "full": "ByteDance introduces Seedream 5.0 Pro, a new AI image generation model with a genuinely innovative feature: the ability to create images in actual layers. The model supports up to 10 reference images and native 4K rendering, potentially positioning it as a real competitor to Nano Banana and ChatGPT Images 2.0.\n\nHowever, stress testing reveals Seedream 5.0 Pro to be unreliable. The system struggles with blobby faces and other quality issues, particularly in detailed facial generation and logo handling. These instabilities suggest the model is still under development despite its official launch.\n\nParallelly, new clips from Seedance 2.5 leak with impressive results, and ByteDance released an official Seedance short film. Other highlights this week include LingBot-World 2.0 (an open-source world model on Hugging Face) and Anam's CARA-4 (AI voice tool with visual representation).",
+   "deep": "Seedream 5.0 Pro introduces layer generation as a distinct new capability in AI image generation. Unlike earlier models that produce monolithic images, Seedream 5.0 Pro can now structure content into separately composable layers, opening new possibilities for iterative editing and professional workflows. The combination of 10 reference images gives users significantly greater control over style and content consistency, while native 4K support eliminates the need for upscaling tools.\n\nHowever, stress testing reveals serious limitations. Facial generation exhibits recurring blobby artifacts – a classic problem that larger models have already solved. Logo generation errors indicate difficulties with legally-sensitive content. These instabilities raise questions about the model's maturity level and whether it truly competes with established alternatives or remains in beta stage despite launch.\n\nContextually, this launch occurs against a backdrop of intense competition. The Seedance 2.5 leaks demonstrate surprisingly strong quality, suggesting ByteDance's video generation is closer to commercial maturity than the image side. Meanwhile, other tools like LingBot-World 2.0 advance open-source world models and CARA-4 combines voice and visual representation, indicating a broader shift toward multimodal AI agents."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Skapa AI-influencer på 10 minuter med konsistent karaktär",
+  "ttl": "Skapa AI-influencers med fullständig karaktärkonsistens",
   "meta": "AI Samson · 2026-07-14",
   "plat": "Higgsfield",
   "url": "https://www.youtube.com/watch?v=i-m5imAgAQo",
   "img": "https://img.youtube.com/vi/i-m5imAgAQo/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=create%20consistent%20AI%20influencer%20video%20character",
+  "more": "https://www.google.com/search?q=how%20to%20create%20AI%20influencer%20character%20consistency",
   "feed": "",
-  "sum": "En guide visar hur man skapar en helt konsistent AI-influencer med samma ansikte, röst och personlighet i varje video.",
-  "full": "En ny guide från AI Samson demonstrerar hur man bygger en AI-influencer från grunden som behåller 100% konsistens över flera videor. Processen kombinerar flera verktyg: en referenssheet låser samma ansikte i alla bilder, Claude-AI skriver optimerade bildprompts, och Seedance 2.0 animerar karaktären till fullständiga videoklipp.\n\nKronan på verket är röstkonistensen och det innovativa tricket att använda sin egen skådespeleri utan att avslöja sitt ansikte. Guiden täcker varför många misslyckas med voiceovern, hur man håller karaktären autentisk över tid, och praktiska steg för att tjäna pengar på den färdiga influencern. Kostnadsfritt prompt-paket och arbetsmall ingår.",
-  "buzz": 87,
+  "sum": "En guide visar hur man skapar AI-influencers från grunden med konsistent ansikte, röst och rörelse genom att kombinera Higgsfield och Seedance 2.0.",
+  "full": "AI Samson presenterar en komplett guide för att skapa AI-influencers som behåller 100% konsistens över alla videor och bilder. Enligt videon är det vanligaste misstaget att fokusera enbart på attraktiv design utan att utveckla en stark identitet och referensmaterial som låser karaktären.\n\nGuiden täcker flera viktiga steg: användning av Claude för att automatiskt generera bildprompter, skapandet av en karaktärsreferensark för att säkerställa konsistens över generationer, och integrationen av videogeneration via Seedance 2.0. En särskilt viktig del är röstkonsisstensen, som enligt videon är där de flesta misslyckas.\n\nEn unik teknik som presenteras är möjligheten att förvandla sin egen skådespelning till influencerns rörelser och uttryck utan att avslöja sitt eget ansikte. Videon inkluderar gratis resurser inklusive promptpaket och referensmall.",
+  "buzz": 89,
   "cat": "film",
   "date": "2026-07-14T07:29:35Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "Guiden fokuserar på det kritiska steget som de flesta hoppar över: identitetsuppbyggnad innan visuell generering. Processen börjar med en detaljerad karaktärbeskrivning som körs genom Claude för att automatisera promptskrivningen. Den centrala tekniken är referenssheeten – en serie bilder som låser samma ansiktsdrag över alla efterföljande generationer, vilket eliminerar inkonsistensen som plågar de flesta AI-influencer-försök.\n\nDet tekniska flödet använder en huvudbild-modell för att generera karaktären, sedan Seedance 2.0 för animering till video. Men guiden betonar att röstkonistensen är där många misslyckas – ett område som kräver särskild uppmärksamhet för autenticitet. Det ovänliga tillskottet är tekniken att använda sitt eget skådespeleri som bas för influencerns rörelser och uttryck utan att avslöja sitt ansikte, vilket skapar en hybridkaraktär som känns autentisk men helt digital.\n\nMonetiseringsaspekten berör praktiska vägar för influencerer: sponsored content, affiliate-marknadsföring och direkt produktförsäljning. Det kostnadsfria prompt-paketet inkluderar inte bara bildprompts utan även referensmalllar och posebibliotek, vilket seniorens verktygsuppsättning för återanvändbar karaktärskonsistens.",
+  "deep": "Videon presenterar en strukturerad metod för att skapa AI-influencers som går långt bortom grundläggande bildgenerering. Processen börjar med identitetsutveckling—att definiera karaktärens personlighet, stil och unika drag innan någon bild genereras. Nästa steg involverar använding av Claude (en AI-assistent) för att automatisera promptskrivningen, vilket eliminerar repetitiv manuell arbete och säkerställer konsistens i hur karaktären beskrivs.\n\nDen kritiska komponenten för visuell konsistens är karaktärsreferensarket, som fungerar som en visuell manual för alla AI-generatorer. Detta låser samma ansikte, kroppstyp och stilistiska element över hundratals generationer. För videoinnehål använder guiden Seedance 2.0, som kan transformera stillbilder till naturliga videor med rörelse och uttryck.\n\nRöstkonsisstensen identifieras som den area där flest skapare misslyckas. Guiden betonar vikten av att välja en specifik röst och hålla den konsekvent över all innehållsproduktion. En innovativ teknik som presenteras är att låta kreatörer använda sin egen skådespelning som grund för influencerns rörelser och ansiktsmimik, vilket ger autenticity utan att avslöja skräddaren bakom AI-karaktären. Detta löser ofta problemet med onaturlig mimik eller inkonsistenta rörelsemönster.",
   "parts": [
    {
     "t": 0,
-    "l": "Introduktion till AI-influencer",
-    "le": "AI influencer creation intro"
+    "l": "Introduktion till AI-influencers",
+    "le": "Introduction to AI influencers"
    },
    {
     "t": 16,
     "l": "Vad gör en AI-influencer trovärdig",
-    "le": "What makes believable AI influencer"
+    "le": "What makes an AI influencer believable"
    },
    {
     "t": 66,
-    "l": "Skriva bildprompts med Claude",
-    "le": "Writing AI image prompts with Claude"
+    "l": "Skriva prompter för influencers",
+    "le": "Writing AI influencer prompts"
    },
    {
     "t": 172,
-    "l": "Karaktärens referenssheet",
+    "l": "Karaktärsreferensarkens roll",
     "le": "Character reference sheet"
    },
    {
     "t": 327,
-    "l": "Skapa AI-influencer-videor",
-    "le": "Creating AI influencer videos"
+    "l": "Videouppspelning med Seedance",
+    "le": "Making AI influencer videos"
    },
    {
     "t": 384,
-    "l": "Röstkonistens – största utmaningen",
-    "le": "Voice consistency challenge"
+    "l": "Röstkonsisstens och utmaningar",
+    "le": "Voice consistency importance"
    },
    {
     "t": 438,
-    "l": "Skådespeleri utan att avslöja ansikte",
-    "le": "Acting without revealing face"
+    "l": "Omvandla egen skådespelning",
+    "le": "Turn yourself into influencer"
    },
    {
     "t": 543,
-    "l": "Monetarisera din AI-influencer",
-    "le": "Monetizing your AI influencer"
+    "l": "Tjäna pengar med AI-influencers",
+    "le": "Monetization strategies"
    }
   ],
   "en": {
-   "ttl": "Create Consistent AI Influencer in 10 Minutes",
-   "sum": "A guide demonstrates how to build a fully consistent AI influencer that maintains the same face, voice, and personality across every video.",
-   "full": "A new guide from AI Samson shows how to build an AI influencer from scratch while maintaining 100% consistency across multiple videos. The process combines several tools: a character reference sheet locks the same face in all images, Claude AI writes optimized image prompts, and Seedance 2.0 animates the character into complete video clips.\n\nThe centerpiece is voice consistency and the innovative trick of using your own acting without revealing your face. The guide covers why many fail at voiceover, how to keep the character authentic over time, and practical steps to monetize the finished influencer. A free prompt pack and workflow template are included.",
-   "deep": "The guide focuses on the critical step most people skip: identity building before visual generation. The process starts with a detailed character description run through Claude to automate prompt writing. The core technique is the reference sheet—a series of images that locks the same facial features across all subsequent generations, eliminating the inconsistency that plagues most AI influencer attempts.\n\nThe technical workflow uses a primary image model to generate the character, then Seedance 2.0 for animation into video. However, the guide emphasizes that voice consistency is where many fail—an area requiring special attention for authenticity. The unusual addition is the technique of using your own acting as the foundation for the influencer's movements and expressions without revealing your face, creating a hybrid character that feels authentic yet fully digital.\n\nThe monetization aspect covers practical pathways for influencers: sponsored content, affiliate marketing, and direct product sales. The free prompt pack includes not only image prompts but also reference templates and pose libraries, providing a complete toolkit for reusable character consistency."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "Metas gratis AI-verktyg imponerar kreatörer",
-  "meta": "Curious Refuge · 2026-07-13",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=v3BC6GUmljU",
-  "img": "https://img.youtube.com/vi/v3BC6GUmljU/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Meta%20AI%20tools%20free%20image%20video%20generation",
-  "feed": "",
-  "sum": "Meta lanserar kostnadsfria AI-verktyg för bildgenerering och videoproduktion som jämförs positivt med befintliga lösningar.",
-  "full": "Meta har släppt nya AI-verktyg helt gratis, och enligt Curious Refuge levererar de imponerande resultat. Videot jämför Metas Muse-bildgenerator med konkurrenter som Seedance 2.0 och visar att det nya verktyget håller hög kvalitet för kreatörer som jobbar med bilder och animerad film.\n\nDet finns flera uppdateringar inom AI-filmmaking denna vecka: Adobe Firefly integreras nu direkt i Premiere Pro för videoskapande, LTX lanserar en world-building-modell, och Tribeca Film Festival accepterar nu AI-genererad film. Adobe har även förvärvat Topaz Labs, något som kan påverka framtida funktioner för bildbehandling.\n\nFör animatörer som arbetar med komedi finns möjligheter att pitcha konceptserier, och gemenskapen arrangerar regelbundna AI-filmmaking-träffar för nätverkning och lärande.",
-  "buzz": 87,
-  "cat": "film",
-  "date": "2026-07-13T17:53:03Z",
-  "chans": [
-   "Curious Refuge"
-  ],
-  "deep": "Metas nya gratis AI-verktyg представляет en betydande utveckling för både amatörer och professionella kreatörer. Videot visar att Muse-bildgeneratorn kan mäta sig med betaltjänster och erbjuder överraskande god kvalitet för bildgenereringsuppgifter. Genom att jämföra resultaten med Seedance 2.0 och andra konkurrenter demonstrerar Curious Refuge att Meta erbjuder ett verkligt praktiskt alternativ utan kostnadsbarre.\n\nIntegration av AI direkt i Adobe Premiere Pro markerar ett viktigt steg för professionell videoproduktion. Detta gör det möjligt för redigerare att använda generativ AI för videomaterial utan att lämna sitt huvudsakliga redigeringsprogram. LTX:s nya world-building-modell riktar sig specifikt mot filmmakerscenarier där konsistens och narrativ kontroll över virtuella världar är kritisk.\n\nAdobes förvärv av Topaz Labs signalerar potentiella framtida integrationer av avancerad bildförbättring och upscaling-teknik in i Adobe Creative Cloud. Att Tribeca Film Festival nu accepterar AI-genererad film bekräftar att AI-skapade verk erkänns i etablerade filmkretsar. För innehållsskapare inom animerad humor finns nya möjligheter att pitcha serier till professionella producenter, vilket tidigare var svårt utan större resurser.",
-  "parts": [
-   {
-    "t": 11,
-    "l": "Metas nya gratis AI-verktyg",
-    "le": "Meta's new free AI tools"
-   },
-   {
-    "t": 37,
-    "l": "Muse jämfört med Seedance",
-    "le": "Muse versus Seedance comparison"
-   },
-   {
-    "t": 362,
-    "l": "Muse bildgenerator analys",
-    "le": "Muse image generator breakdown"
-   },
-   {
-    "t": 960,
-    "l": "Fable 5 officiell återkomst",
-    "le": "Fable 5 official return"
-   },
-   {
-    "t": 1096,
-    "l": "AI-video i Premiere Pro",
-    "le": "AI video creation in Premiere Pro"
-   },
-   {
-    "t": 1362,
-    "l": "Adobe köper Topaz Labs",
-    "le": "Adobe acquires Topaz Labs"
-   },
-   {
-    "t": 1294,
-    "l": "LTX world-building modell",
-    "le": "LTX world-building model launch"
-   },
-   {
-    "t": 1314,
-    "l": "Tribeca accepterar AI-film",
-    "le": "Tribeca Film Festival AI screening"
-   }
-  ],
-  "en": {
-   "ttl": "Meta's free AI tools impress creators",
-   "sum": "Meta releases free AI tools for image generation and video production that compare favorably with existing solutions.",
-   "full": "Meta has released new AI tools completely free, and according to Curious Refuge, they deliver impressive results. The video compares Meta's Muse image generator with competitors like Seedance 2.0 and shows the new tool maintains high quality for creators working with images and animated film.\n\nSeveral updates in AI filmmaking occurred this week: Adobe Firefly is now integrated directly into Premiere Pro for video creation, LTX launches a world-building model, and Tribeca Film Festival now accepts AI-generated film. Adobe has also acquired Topaz Labs, which could impact future features for image processing.\n\nFor animators working on comedy, there are opportunities to pitch series concepts, and the community hosts regular AI filmmaking meetups for networking and learning.",
-   "deep": "Meta's new free AI tools represent a significant development for both amateur and professional creators. The video demonstrates that the Muse image generator can compete with paid services and offers surprisingly good quality for image generation tasks. By comparing results with Seedance 2.0 and other competitors, Curious Refuge shows that Meta offers a genuine practical alternative without cost barriers.\n\nIntegration of AI directly into Adobe Premiere Pro marks an important step for professional video production. This enables editors to use generative AI for video material without leaving their primary editing program. LTX's new world-building model specifically targets filmmaker scenarios where consistency and narrative control over virtual worlds are critical.\n\nAdobe's acquisition of Topaz Labs signals potential future integration of advanced image enhancement and upscaling technology into Adobe Creative Cloud. Tribeca Film Festival now accepting AI-generated film confirms that AI-created work is recognized in established film circles. For content creators in animated comedy, new opportunities exist to pitch series to professional producers, which was previously difficult without major resources."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "GPT 5.6, Grok 4.5 och Seedream 5 lanserade",
-  "meta": "AI Search · 2026-07-12",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=Ti1V7OI2Rro",
-  "img": "https://img.youtube.com/vi/Ti1V7OI2Rro/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GPT%205.6%20Grok%204.5%20Seedream%205%20release",
-  "feed": "",
-  "sum": "En omfattande AI-nyhetsvideo presenterar flera stora uppdateringar inklusive GPT 5.6, Grok 4.5, Seedream 5 Pro och Metas nya Muse Spark samt nya bildgenererings- och videoverktyg.",
-  "full": "En nyligen publicerad AI-nyhetsvideo täcker ett flertal betydande uppdateringar inom artificiell intelligens. Bland de viktigaste lansering märks GPT 5.6 från OpenAI, Grok 4.5 från x.ai, och Seedream 5 Pro från ByteDance. Videon presenterar också Metas nya Muse Spark 1.1 samt nya versioner av Muse Image och Muse Video för bildgenerering och videoproduktion.\n\nUtöver dessa lanseringar täcker videon även andra utvecklingar som GPT Live, Wan Streamer 0.2, LingBot World 2 och Reve 2.1. En särskild sektion behandlar humanoid-robotar inom kirurgi, vilket visar AIns växande tillämpningar inom medicin. För kreatörer och utvecklare är uppdaterningarna av bildgenererings- och videoverktyg särskilt relevanta, då de erbjuder nya möjligheter för innehållsskapande.",
-  "buzz": 99,
-  "cat": "film",
-  "date": "2026-07-12T03:33:34Z",
-  "chans": [
-   "AI Search"
-  ],
-  "deep": "Videon presenterar en omfattande sammanställning av AI-utveckling med fokus på flera större modelluppdateringar. GPT Live utgör en integrerad lösning från OpenAI som möjliggör realtidskommunikation. Grok 4.5 från x.ai representerar en uppdatering av Xts egen AI-modell med förbättrad prestation.\n\nMetas Muse Spark 1.1 presenteras som ett viktigt verktyg för bildgenerering och videoproduktion, vilket är centralt för kreatörer. Seedream 5 Pro från ByteDance (Metas motsvarighet i Kina) erbjuder avancerade möjligheter för bildsynthes och AI-genererad media. Videon belyser även Wan Streamer 0.2, som verkar fokusera på streaming-relaterad AI-funktionalitet.\n\nEn notably intressant sektion täcker humanoid-robotar som tillämpas inom kirurgisk medicin, vilket visar hur AI och robotik integreras för praktisk tillämpning. Detta representerar en betydande utveckling bortom text- och bildgenerering till fysiska system. Samlingen av uppdateringar indikerar en accelererad utvecklingstakt inom AI-industrin, med parallella genombrott från stora aktörer som OpenAI, Meta, ByteDance och x.ai.",
-  "parts": [
-   {
-    "t": 0,
-    "l": "AI-nyhetintro",
-    "le": "AI news introduction"
-   },
-   {
-    "t": 377,
-    "l": "GPT Live presentation",
-    "le": "GPT Live presentation"
-   },
-   {
-    "t": 1186,
-    "l": "Grok 4.5 lansering",
-    "le": "Grok 4.5 release"
-   },
-   {
-    "t": 1405,
-    "l": "Muse Spark 1.1 demo",
-    "le": "Muse Spark 1.1 demo"
-   },
-   {
-    "t": 1576,
-    "l": "GPT 5.6 review",
-    "le": "GPT 5.6 review"
-   },
-   {
-    "t": 1616,
-    "l": "Humanoid robot kirurgi",
-    "le": "Humanoid robot surgery"
-   },
-   {
-    "t": 1880,
-    "l": "Seedream 5 Pro",
-    "le": "Seedream 5 Pro"
-   },
-   {
-    "t": 2099,
-    "l": "Muse Image och Video",
-    "le": "Muse Image and Video"
-   }
-  ],
-  "en": {
-   "ttl": "GPT 5.6, Grok 4.5 and Seedream 5 launched",
-   "sum": "A comprehensive AI news video presents major updates including GPT 5.6, Grok 4.5, Seedream 5 Pro, and Meta's new Muse Spark alongside new image generation and video tools.",
-   "full": "A recently published AI news video covers several significant updates in artificial intelligence. Among the major launches are GPT 5.6 from OpenAI, Grok 4.5 from x.ai, and Seedream 5 Pro from ByteDance. The video also presents Meta's new Muse Spark 1.1 and new versions of Muse Image and Muse Video for image generation and video production.\n\nBeyond these launches, the video covers additional developments including GPT Live, Wan Streamer 0.2, LingBot World 2, and Reve 2.1. A special section addresses humanoid robots in surgery, demonstrating AI's growing applications in medicine. For creators and developers, the updates to image generation and video tools are particularly relevant, as they offer new opportunities for content creation.",
-   "deep": "The video presents a comprehensive compilation of AI developments focusing on several major model updates. GPT Live represents an integrated solution from OpenAI enabling real-time communication. Grok 4.5 from x.ai represents an update to X's own AI model with improved performance.\n\nMeta's Muse Spark 1.1 is presented as an important tool for image generation and video production, which is central to creators. Seedream 5 Pro from ByteDance (Meta's equivalent in China) offers advanced capabilities for image synthesis and AI-generated media. The video also highlights Wan Streamer 0.2, which appears to focus on streaming-related AI functionality.\n\nA notably interesting section covers humanoid robots applied in surgical medicine, showing how AI and robotics are integrating for practical application. This represents a significant development beyond text and image generation into physical systems. The collection of updates indicates an accelerated development pace within the AI industry, with parallel breakthroughs from major players like OpenAI, Meta, ByteDance, and x.ai."
+   "ttl": "Create AI Influencers with Complete Character Consistency",
+   "sum": "A guide shows how to create AI influencers from scratch with consistent face, voice, and movement by combining Higgsfield and Seedance 2.0.",
+   "full": "AI Samson presents a complete guide for creating AI influencers that maintain 100% consistency across all videos and images. According to the video, the most common mistake is focusing solely on attractive design without developing strong identity and reference material that locks the character.\n\nThe guide covers several key steps: using Claude to automatically generate image prompts, creating a character reference sheet to ensure consistency across generations, and integrating video generation via Seedance 2.0. A particularly important aspect is voice consistency, which according to the video is where most creators fail.\n\nA unique technique presented is the ability to transform your own acting into the influencer's movements and expressions without revealing your own face. The video includes free resources including prompt packs and reference templates.",
+   "deep": "The video presents a structured method for creating AI influencers that goes far beyond basic image generation. The process begins with identity development—defining the character's personality, style, and unique traits before any images are generated. The next step involves using Claude (an AI assistant) to automate prompt writing, eliminating repetitive manual work and ensuring consistency in how the character is described.\n\nThe critical component for visual consistency is the character reference sheet, which serves as a visual manual for all AI generators. This locks the same face, body type, and stylistic elements across hundreds of generations. For video content, the guide uses Seedance 2.0, which can transform still images into natural videos with movement and expression.\n\nVoice consistency is identified as the area where most creators fail. The guide emphasizes the importance of selecting a specific voice and maintaining it consistently across all content production. An innovative technique presented is allowing creators to use their own acting as the foundation for the influencer's movements and facial expressions, providing authenticity without revealing the creator behind the AI character. This solves the common problem of unnatural mimicry or inconsistent movement patterns."
   }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "ChatGPT Work lanserat – AI-agent för arbetuppgifter",
+  "ttl": "ChatGPT Work lanseras – AI-agent för automatiserade arbetsflöden",
   "meta": "Futurepedia · 2026-07-11",
   "plat": "ChatGPT Images 2.0",
   "url": "https://www.youtube.com/watch?v=tqKGaqaQkNk",
   "img": "https://img.youtube.com/vi/tqKGaqaQkNk/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=ChatGPT%20Work%20autonomous%20agent%20automation",
+  "more": "https://www.google.com/search?q=ChatGPT%20Work%20automation%20agent%20launch%20features",
   "feed": "",
-  "sum": "OpenAI har presenterat ChatGPT Work, en ny produktversion som förvandlar ChatGPT från en fråge-och-svar-assistent till en autonom agent som kan slutföra hela arbetsflöden på egen hand.",
-  "full": "OpenAI har lanserat ChatGPT Work, en vidareutveckling av ChatGPT som markerar ett betydande steg mot automatiserad arbetsautomation. Till skillnad från den traditionella ChatGPT-assistenten som svarar på frågor, fungerar Work som en agent som kan ta på sig och slutföra komplexa arbetsflöden helt självständigt.\n\nAnvändare kan med naturligt språk instruera ChatGPT Work att genomföra uppgifter, och agenten kan då koppla sig till externa verktyg, skapa dokument och filer, bygga webbplatser och till och med automatisera uppgifter för framtida användning. Systemet är utformat för att vara tillgängligt även för icke-tekniska användare, utan krav på kodningskunskaper. Nya funktioner inkluderar sitesbyggande, plugin-integration, custom skills och möjlighet att automatisera återkommande arbetsprocesser.\n\nFunktionaliteten presenteras genom ett praktiskt marknadsföringsexempel där hela arbetsflöden kan genomföras med en enda uppmaning, vilket potentiellt sparar betydande tid för användare som hanterar repetitiva eller komplexa arbetsuppgifter.",
+  "sum": "OpenAI har lanserat ChatGPT Work, en ny produktfunktion som omvandlar ChatGPT från en frågestjänare till en autonom agent som kan automatisera hela arbetsflöden för icke-tekniska användare.",
+  "full": "OpenAI har lanserat ChatGPT Work, en ny produkt som markant förändrar hur användare kan arbeta med ChatGPT. Istället för att bara svara på frågor fungerar Work som en autonom agent som kan slutföra hela arbetsflöden med ett enda prompt. Användare skriver in sitt mål på naturligt språk och ChatGPT Work kan sedan ansluta till verktyg, skapa filer och dokument samt bygga slutförda leverabler för att nå målet.\n\nFunktionen är särskilt utformad för icke-tekniska användare och innehåller flera nyckelkomponenter: prompt-baserad styrning, anpassningsbara skills, plugin-integration, automation för upprepade uppgifter och även webbläsarfunktionalitet. Användare kan även skapa egna skills för att automatisera framtida versioner av samma uppgift.\n\nFör de flesta ChatGPT-användare representerar detta en av de största uppgraderingarna produkten har fått, då det möjliggör automatisering av komplexa marknadsförings- och administrativa arbetsflöden utan att behöva kodning.",
   "buzz": 98,
   "cat": "mdl",
   "date": "2026-07-11T15:18:12Z",
   "chans": [
    "Futurepedia"
   ],
-  "deep": "ChatGPT Work representerar ett paradigmskifte från interaktiv assistans till autonom agentuppgiftslösning. Systemet möjliggör för användare att definiera komplexa mål genom naturligt språk, varpå agenten tar eget initiativ för att nå dessa mål genom att autonomt ansluta till externa API:er och tjänster.\n\nKernfunktionerna inkluderar webbplatsbyggande-kapabilitet där agenten kan skapa polerade, deployment-redo webbplatser baserat på användarens specifikationer. Automationsmodulen möjliggör schemaläggning och upprepning av tidigare genomförda uppgifter, vilket effektivt omvandlar engångsautomation till återkommande processer. Plugin-systemet och custom skills-ramverket tillåter användare att utöka agentens möjligheter genom integrering med tredjepartsverktyg eller utveckling av egna, återanvändbara funktionsmoduler.\n\nBrowser-automationsfunktionaliteten möjliggör att agenten kan navigera webben, fylla formulär och samla data autonomt. Systemet är arkitekterat för att minimera tekniska barriärer genom att helt förlita sig på naturspråksinstruktioner snarare än kodning, vilket potentiellt demokratiserar tillgången till avancerad arbetsautomation för icke-tekniska yrkesgrupper. För marknadsföringsspecialister, administrativa professionella och kunskapsarbetare kan detta implementeras direkt i befintliga arbetsflöden för att uppnå betydande produktivitetsvinster.",
+  "deep": "ChatGPT Work representerar en betydande utveckling i hur AI-assistenter kan användas för arbetsautomation. Produkten är designad från grunden för att vara tillgänglig för icke-tekniska användare, vilket är avgörande för bred adoption. Genom naturligt språk kan användare ge ChatGPT Work komplexa instruktioner som systemet sedan tolkar och exekverar självständigt.\n\nKärnfunktionaliteten omfattar flera integrerade komponenter. Sites-funktionen låter användare bygga webbplatser direkt genom prompts. Automations-funktionen möjliggör att återkommande uppgifter kan schemaläggas och köras automatiskt utan manuell intervention. Plugins och Skills-systemet gör det möjligt för användare att ansluta externa verktyg och tjänster, vilket expanderar ChatGPT Works förmåga att interagera med olika arbetsflödeskomponenter.\n\nEn särskilt viktig funktion är möjligheten att skapa anpassade skills. Detta empowerar användare att bygga återanvändbar automation för deras specifika arbetsflöden, vilket gör systemet adaptivt för olika användningsfall. Webbläsarintegration möjliggör även att ChatGPT Work kan utföra uppgifter som kräver internetbaserad interaktion. För marknadsföring och administrativa arbetsflöden kan detta innebära dramatisk tidsbesparning – från research och dokumentskapande till webbplatsbyggande och kampanjtillverkning kan automatiseras helt.",
   "parts": [
    {
     "t": 0,
@@ -262,7 +155,7 @@
    },
    {
     "t": 40,
-    "l": "Hur Work fungerar",
+    "l": "Hur ChatGPT Work fungerar",
     "le": "How it works"
    },
    {
@@ -272,66 +165,66 @@
    },
    {
     "t": 304,
-    "l": "Webbplatsbyggande",
-    "le": "Building sites"
+    "l": "Skapa webbplatser",
+    "le": "Sites"
    },
    {
     "t": 387,
-    "l": "Automatisering",
+    "l": "Automatisering av uppgifter",
     "le": "Automations"
    },
    {
     "t": 449,
-    "l": "Plugins och skills",
-    "le": "Plugins and skills"
+    "l": "Plugins och Skills",
+    "le": "Plugins & Skills"
    },
    {
     "t": 662,
-    "l": "Skapa egna skills",
-    "le": "Create custom skills"
+    "l": "Skapa egen skill",
+    "le": "Create your own skill"
    }
   ],
   "en": {
-   "ttl": "ChatGPT Work Launched – AI Agent for Task Completion",
-   "sum": "OpenAI has unveiled ChatGPT Work, a new product version that transforms ChatGPT from a question-answering assistant into an autonomous agent capable of completing entire workflows independently.",
-   "full": "OpenAI has launched ChatGPT Work, a significant evolution of ChatGPT that represents a major step toward automated workflow execution. Unlike traditional ChatGPT, which responds to questions, Work functions as an autonomous agent that can assume and complete complex work processes independently.\n\nUsers can instruct ChatGPT Work using natural language to perform tasks, and the agent will then connect to external tools, create documents and files, build websites, and even automate tasks for future use. The system is designed to be accessible to non-technical users, requiring no coding skills. New features include website building, plugin integration, custom skills, and the ability to automate recurring work processes.\n\nThe functionality is demonstrated through a practical marketing workflow example where entire workflows can be executed with a single prompt, potentially saving significant time for users handling repetitive or complex tasks.",
-   "deep": "ChatGPT Work represents a paradigm shift from interactive assistance to autonomous agent task completion. The system enables users to define complex goals through natural language, after which the agent autonomously connects to external APIs and services to achieve these objectives.\n\nCore functionalities include website building capability where the agent can create polished, deployment-ready websites based on user specifications. The automation module enables scheduling and repetition of previously performed tasks, effectively converting one-time automations into recurring processes. The plugin system and custom skills framework allow users to extend the agent's capabilities through third-party tool integration or development of their own reusable function modules.\n\nBrowser automation functionality enables the agent to navigate the web, fill forms, and gather data autonomously. The system is architected to minimize technical barriers by relying entirely on natural language instructions rather than coding, potentially democratizing access to advanced workflow automation for non-technical professionals. For marketing specialists, administrative professionals, and knowledge workers, this can be implemented directly in existing workflows to achieve significant productivity gains."
+   "ttl": "ChatGPT Work launches – AI agent for automated workflows",
+   "sum": "OpenAI has launched ChatGPT Work, a new product feature that transforms ChatGPT from a question-answering assistant into an autonomous agent capable of automating entire workflows for non-technical users.",
+   "full": "OpenAI has launched ChatGPT Work, a new product that significantly changes how users can leverage ChatGPT. Rather than simply answering questions, Work functions as an autonomous agent that can complete entire workflows with a single prompt. Users input their goal in natural language and ChatGPT Work can then connect to tools, create files and documents, and build finished deliverables to achieve that goal.\n\nThe feature is specifically designed for non-technical users and includes several key components: natural language prompts, customizable skills, plugin integration, automation for repeated tasks, and even web browsing functionality. Users can also create their own skills to automate future versions of the same task.\n\nFor most ChatGPT users, this represents one of the largest product upgrades, as it enables automation of complex marketing and administrative workflows without requiring coding knowledge.",
+   "deep": "ChatGPT Work represents a significant evolution in how AI assistants can be used for work automation. The product is built from the ground up to be accessible to non-technical users, which is crucial for broad adoption. Through natural language, users can give ChatGPT Work complex instructions that the system then interprets and executes independently.\n\nThe core functionality encompasses several integrated components. The Sites feature allows users to build websites directly through prompts. The Automations feature enables recurring tasks to be scheduled and run automatically without manual intervention. The Plugins and Skills system makes it possible for users to connect external tools and services, expanding ChatGPT Work's ability to interact with various workflow components.\n\nA particularly important feature is the ability to create custom skills. This empowers users to build reusable automation for their specific workflows, making the system adaptive for different use cases. Browser integration further enables ChatGPT Work to perform tasks requiring internet-based interaction. For marketing and administrative workflows, this could mean dramatic time savings – from research and document creation to website building and campaign production can be entirely automated."
   }
  },
  {
   "tag": "img",
   "lab": "Bild",
   "ico": "📷",
-  "ttl": "Seedream 5 Pro utmanar GPT Image 2.0",
+  "ttl": "Seedream 5 Pro utmanar GPT-Image 2.0",
   "meta": "AI Samson · 2026-07-11",
-  "plat": "Seedream 4",
+  "plat": "Seedance 2.0",
   "url": "https://www.youtube.com/watch?v=OWY53VIkhdQ",
   "img": "https://img.youtube.com/vi/OWY53VIkhdQ/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Seedream%205%20Pro%20vs%20GPT%20Image%202%20comparison",
+  "more": "https://www.google.com/search?q=Seedream%205.0%20Pro%20vs%20GPT%20Image%202%20comparison",
   "feed": "",
-  "sum": "ByteDances nya bildgenereringsmodell Seedream 5.0 Pro testas grundligt mot OpenAIs GPT Image 2, med fokus på fotorealism, textrendering och censurregler.",
-  "full": "ByteDance har lanserat Seedream 5.0 Pro, en uppdaterad AI-modell för bildgenerering som direkt konkurrerar med OpenAIs GPT Image 2.0. I en omfattande testning jämförs modellerna över flera kritiska områden som fotorealism, textåtergivning, promptföljsamhet och hanteringen av reflektioner och kantkanter.\n\nFör kreatörer och designers är valet mellan dessa modeller avgörande, då båda erbjuder högkvalitativa bilder men med olika styrkor. Seedream 5.0 Pro utmärks med förbättrad 3D-scenförståelse, flerspråkigt stöd och högre textprecision, medan GPT Image 2.0 har sitt eget värde inom fotorealism och censurpolicy.\n\nAnvändare kan testa Seedream 5.0 Pro via Artlist för att själva avgöra vilken modell som passar bäst för sitt arbetsflöde, oavsett om det handlar om produktfotografi, designkoncept eller filmpreproduktion.",
+  "sum": "ByteDance lanserar Seedream 5.0 Pro, en ny AI-bildgenererare som testas mot GPT Image 2 inom fotorealism, textrendering och censurregler.",
+  "full": "ByteDance har presenterat Seedream 5.0 Pro, sin senaste AI-modell för bildgenerering. I en omfattande testning jämförs den direkt mot OpenAIs GPT Image 2.0 över ett brett spektrum av prestationskategorier. Testerna omfattar fotorealism, prompttolkning, textrendering, bildredigering, reflektioner och censurkontroller.\n\nModellen sägs erbjuda förbättrad visuell resonans, 3D-scenförståelse och flerspråkigt stöd. Seedream 5.0 Pro demonstreras särskilt inom områden som handritning, ögongenering och prompttrohet. För kreatörer och formgivare kan detta innebära ett nytt konkurrensalternativ med potential att övergå befintliga standardverktyg för professionell bildgenerering.\n\nVideon presenterar praktiska jämförelser som visar hur de två modellerna presterar i verkliga användningsfall, vilket hjälper användare att välja rätt verktyg för sina kreativa projekt.",
   "buzz": 93,
   "cat": "foto",
   "date": "2026-07-11T00:29:52Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "Seedream 5.0 Pro representerar ByteDances senaste framsteg inom bildgenerering och testas systematiskt mot OpenAIs GPT Image 2.0 across multiple dimensions kritiska för professionella användare. Modellens fördelar inkluderar förbättrad visuell resonering som möjliggör bättre bildkonsistens över flera genereringar, något viktigt för serier eller kampanjmaterial.\n\nEn särskilt highlight är 3D-scenförståelse och lagerhantering, som gör det möjligt för designers att arbeta med mer komplexa kompositioner. Seedream 5.0 Pro stödjer också flerspråkig prompt-input och kan söka på webben för att få aktuell information, vilket förändrar hur kreatörer kan jobba med kontextberoende bilder.\n\nTextåtergivning är ett historiskt svårt område för AI-bildmodeller. Seedream 5.0 Pro visar markant förbättring här jämfört med tidigare versioner, vilket är kritiskt för designers som behöver text i sina kompositioner. Censurpolicyn skiljer sig mellan modellerna – GPT Image 2 är mer restriktiv, medan Seedream 5.0 Pro erbjuder större frihet, vilket kan vara avgörande beroende på projektbehov.\n\nSamtidigt testar videon fotorealism, hand- och ögonåtergivning, samt kanthantering för att ge en helt bild av vilken modell som är bäst för olika användningsfall. För filmmakers och high-end produktörer kan dessa skillnader avgöra valet mellan plattformarna.",
+  "deep": "Seedream 5.0 Pro är ByteDances senaste bidrag till konkurrensen inom AI-bildgenerering. Modellen testar mot GPT Image 2.0 över flera dimensioner som är kritiska för professionell användning. Textrendering är ett område där många AI-modeller traditionellt har struglat, och Seedream 5.0 Pro sägs erbjuda \"high-accuracy text rendering\", vilket är avgörande för designers som behöver typografi i sina genererade bilder.\n\n3D-scenförståelse och lagerhantering indikerar att modellen kan hålla reda på rumsliga relationer och komplexa kompositioner bättre än tidigare versioner. Flerspråkigt stöd och live web search-integration ger modellen förmåga att generera innehåll baserat på aktuell information och fungera globalt.\n\nI praktiska tester fokuseras särskilt på utmaningar som handgenerering och ögondetaljer—områden där AI länge varit problematisk. Testresultaten inkluderar också undersökning av hur modellen hanterar censurregler och gränsfall, vilket är viktigt för förståelse av modellens ethiska riktlinjer och begränsningar. Jämförelsen syftar till att hjälpa kreatörer bestämma vilken modell som bäst passar deras arbetsflöde.",
   "parts": [
    {
     "t": 0,
-    "l": "Seedream 5.0 Pro översikt",
+    "l": "Seedream 5.0 Pro överblick",
     "le": "Seedream 5.0 Pro Overview"
    },
    {
     "t": 46,
-    "l": "Visuell resonering och bildkonsistens",
+    "l": "Visuell resonans & bildkonsistens",
     "le": "Visual Reasoning & Image Consistency"
    },
    {
     "t": 130,
-    "l": "3D-scenförståelse och lager",
+    "l": "3D-scener och lager",
     "le": "3D Scene Understanding & Layers"
    },
    {
@@ -341,7 +234,7 @@
    },
    {
     "t": 369,
-    "l": "Seedream 5.0 vs GPT Image 2",
+    "l": "Seedream 5.0 Pro vs GPT Image 2",
     "le": "Seedream 5.0 Pro vs GPT Image 2"
    },
    {
@@ -351,48 +244,48 @@
    },
    {
     "t": 823,
-    "l": "Händer, ögon och promptnoggrannhet",
+    "l": "Händer, ögon och prompttrohet",
     "le": "Hands, Eyes & Prompt Accuracy Tests"
    },
    {
     "t": 1420,
-    "l": "Reflektioner, censur och gränsfall",
+    "l": "Reflektioner, censur och edge cases",
     "le": "Reflections, Censorship & Edge Cases"
    }
   ],
   "en": {
-   "ttl": "Seedream 5 Pro Challenges GPT Image 2.0",
-   "sum": "ByteDance's new Seedream 5.0 Pro image generation model is comprehensively tested against OpenAI's GPT Image 2, focusing on photorealism, text rendering, and censorship policies.",
-   "full": "ByteDance has launched Seedream 5.0 Pro, an updated AI image generation model that directly competes with OpenAI's GPT Image 2.0. In an extensive test, the models are compared across multiple critical areas including photorealism, text rendering, prompt adherence, and handling of reflections and edge cases.\n\nFor creators and designers, choosing between these models is crucial, as both offer high-quality images but with different strengths. Seedream 5.0 Pro stands out with improved 3D scene understanding, multilingual support, and higher text accuracy, while GPT Image 2.0 has its own value in photorealism and censorship policy.\n\nUsers can test Seedream 5.0 Pro via Artlist to determine which model best fits their workflow, whether for product photography, design concepts, or film preproduction.",
-   "deep": "Seedream 5.0 Pro represents ByteDance's latest advancement in image generation and is systematically tested against OpenAI's GPT Image 2.0 across multiple dimensions critical for professional users. The model's advantages include improved visual reasoning that enables better image consistency across multiple generations, important for series or campaign material.\n\nA particular highlight is 3D scene understanding and layer management, which allows designers to work with more complex compositions. Seedream 5.0 Pro also supports multilingual prompt input and can search the web for current information, changing how creators can work with context-dependent imagery.\n\nText rendering is a historically difficult area for AI image models. Seedream 5.0 Pro shows marked improvement here compared to earlier versions, critical for designers who need text in their compositions. Censorship policy differs between models – GPT Image 2 is more restrictive, while Seedream 5.0 Pro offers greater freedom, which can be decisive depending on project needs.\n\nSimultaneously, the video tests photorealism, hand and eye rendering, and edge handling to give a complete picture of which model is best for different use cases. For filmmakers and high-end producers, these differences can be decisive in choosing between platforms."
+   "ttl": "Seedream 5 Pro challenges GPT-Image 2.0",
+   "sum": "ByteDance launches Seedream 5.0 Pro, a new AI image generator tested against GPT Image 2 for photorealism, text rendering, and censorship policies.",
+   "full": "ByteDance has unveiled Seedream 5.0 Pro, its latest AI image generation model. In a comprehensive test, it is directly compared against OpenAI's GPT Image 2.0 across multiple performance categories. Tests cover photorealism, prompt adherence, text rendering, image editing, reflections, and censorship controls.\n\nThe model offers improved visual reasoning, 3D scene understanding, and multilingual support. Seedream 5.0 Pro is demonstrated particularly in areas like hand rendering, eye generation, and prompt accuracy. For creators and designers, this represents a new competitive alternative with potential to supersede existing standard tools for professional image generation.\n\nThe video presents practical comparisons showing how both models perform in real-world use cases, helping users choose the right tool for their creative projects.",
+   "deep": "Seedream 5.0 Pro is ByteDance's latest contribution to the competitive AI image generation landscape. The model is tested against GPT Image 2.0 across multiple dimensions critical for professional use. Text rendering is an area where many AI models have traditionally struggled, and Seedream 5.0 Pro claims to deliver \"high-accuracy text rendering,\" essential for designers requiring typography in generated images.\n\n3D scene understanding and layer management suggest the model can better track spatial relationships and complex compositions compared to earlier versions. Multilingual support and live web search integration give the model the ability to generate content based on current information and function globally.\n\nIn practical tests, particular focus is placed on challenges such as hand generation and eye details—areas where AI has long been problematic. Test results also include examination of how the model handles censorship rules and edge cases, important for understanding the model's ethical guidelines and limitations. The comparison aims to help creators determine which model best fits their workflow."
   }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "ChatGPT Work lanserat med nya modeller Sol, Terra, Luna",
+  "ttl": "ChatGPT Work förändrar arbetssättet med nya modeller",
   "meta": "Skill Leap AI · 2026-07-10",
   "plat": "ChatGPT Images 2.0",
   "url": "https://www.youtube.com/watch?v=TUu5SuFcf44",
   "img": "https://img.youtube.com/vi/TUu5SuFcf44/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=ChatGPT%20Work%20models%20Sol%20Terra%20Luna%20release",
+  "more": "https://www.google.com/search?q=ChatGPT%20Work%20new%20models%20Sol%20Terra%20Luna",
   "feed": "",
-  "sum": "OpenAI har lanserat ChatGPT Work med version 5.6 och tre nya AI-modeller optimerade för olika arbetsuppgifter, från datarengöring till presentationsarbete.",
-  "full": "OpenAI har presenterat ChatGPT Work, en ny tjänst designad för professionell användning med uppdaterade modeller version 5.6. Systemet introducerar tre nya AI-modeller – Sol, Terra och Luna – var och en optimerad för specifika arbetsscenarier och komplexitet.\n\nTjänsten möjliggör omfattande funktionalitet: användare kan generera rapporter, kalkylblad, presentationer, webbapplikationer och fullständiga arbetplaner från enkla prompter. ChatGPT Work fungerar både via webbbrowser och skrivbordsapp, med möjlighet att integrera lokala filer och mappar för mer personaliserad output. Praktiska exempel inkluderar datarengöring, dashboardbygge, reseplanering och marknadsföringsplanering.\n\nFörbättringen är betydelsefull för kreativa yrkesutövare och företag som söker effektivare arbetsflöden. Genom att välja rätt modell för specifika uppgifter kan användare accelerera produktionen av allt från analytiska dokument till visuella presentationer och interaktiva verktyg.",
+  "sum": "OpenAI lanserar ChatGPT Work med nya modeller Sol, Terra och Luna som kan skapa rapporter, kalkylblad, presentationer och webbappar direkt från prompter.",
+  "full": "OpenAI har introducerat ChatGPT Work, en ny tjänst designad för att effektivisera arbetsuppgifter med hjälp av nya AI-modeller kallad Sol, Terra och Luna. Systemet kan på basis av en enda prompt generera färdiga arbetsresultat som rapporter, spreadsheetar, presentationer, webbappar och kompletta planeringar.\n\nEnligt videomaterialet kan ChatGPT Work hantera konkreta arbetsscenarier som datarensning, instrumentpanelskapande, reseplanering, PowerPoint-skapande och marknadsföringsplanering. Verktyget fungerar både via webben och som skrivbordsapplikation som kan integrera filer och mappar från datorn, vilket gör det mer praktiskt för verklig arbetshantering än enkel chattfunktionalitet.\n\nDetta är särskilt relevant för användare inom affärsverksamhet, utbildning, innehållsskapande och daglig planering som söker att automatisera och påskynda sina arbetssprocesser.",
   "buzz": 98,
   "cat": "mdl",
   "date": "2026-07-10T18:01:29Z",
   "chans": [
    "Skill Leap AI"
   ],
-  "deep": "ChatGPT Work representerar en strategisk utveckling av OpenAI:s chatbot-teknologi mot affärsmarknad. De tre modellerna Sol, Terra och Luna är designade för skiftande uppgiftsomfattning – från enkla, snabba frågor till komplex problemlösning. Versionen 5.6 indikerar fortsatt iterativ utveckling av baslinjeprestanda.\n\nSkrivbordapplikationen är en betydelsefull feature som möjliggör integration med lokala arbetsflöden och filsystem. Detta skiljer sig från webbutgåvan genom att erbjuda djupare systemintegration. Förmågan att skapa webbappar och värdbaserade sajter direkt från prompts signalerar att ChatGPT Work kan fungera som kodningsassistent utan att kräva extern utvecklingsmiljö.\n\nPraktiska användningsfall span flera sektor: dataanalytiker kan automatisera rapportgenerering, projektledare kan skapa projektplaner, marknadsförare kan utveckla strategidokument. Dashboard-skapandet särskilt adresserar visuell datarepresentation utan att kräva dashboard-specialistkunskap.\n\nFunktionaliteten att skapa från \"en prompt\" antyder avancerad kod- och dokumentgenerering, möjligen med multimodal output-kapacitet. Integrationen med användarens egna data genom fil- och mappsupport gör systemet mer kontextuellt relevant än generisk chat-baserad AI.",
+  "deep": "ChatGPT Work representerar ett skift från konversationsbaserad AI mot agentuell AI fokuserad på faktisk leverans av arbetsresultat. De tre modellerna Sol, Terra och Luna är utformade för olika ändamål och arbetstyper, vilket låter användare välja rätt verktyg för rätt uppgift.\n\nEnligt beskrivningen kan systemet hantera komplexa arbetsflöden i en enda prompt-iteration. Detta inkluderar allt från databehandling och visuell rapportering till webbutveckling och strategisk planering. Integreringen med datorns filsystem och skrivbordsmiljö gör att ChatGPT Work kan arbeta direkt med användarens befintliga dokument och struktur.\n\nVideomaterialet tydliggör fem konkreta användningsfall som datarensning, instrumentpanelkreation, reseplanering, presentationsgenering och marknadsföringsplanering. Dessa exempel illustrerar hur verktyget kan ersätta flera separata arbetsmoment och applikationer med ett sammanhängande system.\n\nFör yrkesverksamma, studenter och innehållskapare kan detta möjliggöra betydligt snabbare arbetsflöden genom att automatisera standardiserade uppgifter och möjliggöra snabb iteration på komplexa projekt.",
   "parts": [],
   "en": {
-   "ttl": "ChatGPT Work Launched with Sol, Terra, Luna Models",
-   "sum": "OpenAI introduces ChatGPT Work with version 5.6 and three new AI models optimized for different work tasks, from data cleaning to presentation creation.",
-   "full": "OpenAI has unveiled ChatGPT Work, a new service designed for professional use with updated version 5.6 models. The system introduces three new AI models—Sol, Terra, and Luna—each optimized for specific work scenarios and task complexity levels.\n\nThe service enables comprehensive functionality: users can generate reports, spreadsheets, presentations, web applications, and complete work plans from simple prompts. ChatGPT Work operates through both web browser and desktop app, with the ability to integrate local files and folders for more personalized output. Practical examples include data cleaning, dashboard building, trip planning, and marketing planning.\n\nThe advancement is significant for creative professionals and businesses seeking more efficient workflows. By selecting the right model for specific tasks, users can accelerate production of everything from analytical documents to visual presentations and interactive tools.",
-   "deep": "ChatGPT Work represents a strategic shift of OpenAI's chatbot technology toward the enterprise market. The three models—Sol, Terra, and Luna—are designed for varying task scope, from simple rapid queries to complex problem-solving. Version 5.6 indicates continued iterative development of baseline performance capabilities.\n\nThe desktop application is a significant feature enabling integration with local workflows and file systems. This differentiates the desktop version from the web version through deeper system integration capabilities. The ability to create web apps and hosted sites directly from prompts suggests ChatGPT Work can function as a coding assistant without requiring external development environments.\n\nPractical use cases span multiple sectors: data analysts can automate report generation, project managers can create project plans, marketers can develop strategy documents. Dashboard creation specifically addresses visual data representation without requiring specialized dashboard expertise.\n\nThe functionality to generate outputs from \"one prompt\" implies advanced code and document generation, possibly with multimodal output capability. Integration with user data through file and folder support makes the system more contextually relevant than generic chat-based AI applications."
+   "ttl": "ChatGPT Work transforms workflow with new models",
+   "sum": "OpenAI launches ChatGPT Work with new Sol, Terra, and Luna models that can create reports, spreadsheets, presentations, and web apps directly from prompts.",
+   "full": "OpenAI has introduced ChatGPT Work, a new service designed to streamline work tasks using new AI models called Sol, Terra, and Luna. The system can generate finished work outputs based on a single prompt, including reports, spreadsheets, presentations, web apps, and comprehensive plans.\n\nAccording to the video material, ChatGPT Work can handle concrete work scenarios such as data cleaning, dashboard creation, trip planning, PowerPoint generation, and marketing plan development. The tool works both via the web and as a desktop application that can integrate files and folders from your computer, making it more practical for real work handling than simple chat functionality.\n\nThis is particularly relevant for users in business, education, content creation, and daily planning who seek to automate and accelerate their work processes.",
+   "deep": "ChatGPT Work represents a shift from conversational AI toward agentic AI focused on actual delivery of work output. The three models—Sol, Terra, and Luna—are designed for different purposes and work types, allowing users to select the right tool for the right task.\n\nAccording to the description, the system can handle complex workflows in a single prompt iteration. This includes everything from data processing and visual reporting to web development and strategic planning. Integration with the computer's file system and desktop environment enables ChatGPT Work to operate directly with the user's existing documents and structure.\n\nThe video material clarifies five concrete use cases: data cleaning, dashboard creation, trip planning, presentation generation, and marketing planning. These examples illustrate how the tool can replace multiple separate work steps and applications with one cohesive system.\n\nFor professionals, students, and content creators, this can enable significantly faster workflows by automating standardized tasks and enabling rapid iteration on complex projects."
   }
  },
  {
@@ -404,22 +297,22 @@
   "plat": "",
   "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
   "img": "https://img.youtube.com/vi/mWlCituW7wo/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GPT%205.6%20Sol%20Grok%204.5%20Meta%20Muse%20AI%20models",
+  "more": "https://www.google.com/search?q=GPT%205.6%20Sol%20Grok%204.5%20Meta%20Muse%20Spark",
   "feed": "",
-  "sum": "OpenAI, xAI och Meta lanserar nya stora språkmodeller som höjer konkurrensen och erbjuder olika styrkor för olika användningsfall.",
-  "full": "En dramatisk vecka inom AI har inneburit lanseringen av tre nya högpresterande modeller som omdefinierar vad användare kan förvänta sig för sina pengar. GPT 5.6 Sol från OpenAI presenteras som en stark konkurrent till Claude Fable, med förbättrad prestanda på benchmarks och nya möjligheter.\n\nGrok 4.5 från xAI och Meta Muse Spark 1.1 utvidgar valet för utvecklare och användare ytterligare. Videons analys avslöjar ett dussin nyckeldetaljer från dessa lanseringar som ofta förbises i mediernas rubrikfokus, inklusive förbättringar inom kodning, självförbättring och spelnära tillämpningar.\n\nExperter noterar att modellförbättring inte visar tecken på att platå närmare, vilket innebär att konkurrensen kommer att accelerera vidare. SimpleBench-uppdateringar och nya benchmarking-verktyg hjälper utvecklare att objektivt jämföra dessa modellers kapaciteter.",
+  "sum": "OpenAI lanserar GPT 5.6 Sol, Grok 4.5 och Meta Muse Spark 1.1 denna vecka – tre stora modelluppdateringar som gör valet av AI-verktyg ännu svårare för användare.",
+  "full": "Denna vecka presenteras tre betydande AI-modelluppdateringar som omformar konkurrensen på marknaden. OpenAI presenterar GPT 5.6 Sol, som enligt rapporter kan överträffa Claude Fable när det gäller värde för pengarna. Samtidigt lanserar Grok 4.5 och Meta sin Muse Spark 1.1, vilket skapar nya möjligheter för utvecklare och användare.\n\nUppdateringarna täcker ett brett spektrum av förbättringar – från förbättrad benchmarking via SimpleBench Upgrade till bättre prestanda inom spelande och kodning. Meta Muse Spark 1.1 introduceras via deras modell-API, vilket gör kraftfulla funktioner tillgängliga för fler användare. Enligt kanalen görs dessutom betydande framsteg inom självförbättring och Ultra Sol-funktioner.\n\nDessa utvecklingar indikerar att AI-modellförbättringarna långt ifrån har nått sin topp. Experter noterar att gaming och avancerad kodning blir nya gränser för AI-konkurrensen, vilket ger kreativa professioner och utvecklare nya verktyg att arbeta med.",
   "buzz": 99,
   "cat": "mdl",
   "date": "2026-07-10T12:40:15Z",
   "chans": [
    "AI Explained"
   ],
-  "deep": "Veckan präglades av parallella lanseringar av tre högpresterande språkmodeller som vardera framför olika fördelar. GPT 5.6 Sol från OpenAI fokuserar på att erbjuda överraskande bra värde för pengarna jämfört med befintliga alternativ, med särskild vikt på att slå Claude Fable inom vissa prestationsmått.\n\nGrok 4.5 från xAI visar framsteg inom kodning och logik, medan Meta Muse Spark 1.1 positionerar sig som ett alternativ för utvecklare som söker flexibilitet genom modell-API. Videoinlägget belyser att många kritiska detaljer från dessa lanseringar ofta överses i medierapporteringen. SimpleBench-systemet uppdaterades för att bättre kunna mäta dessa modellers relativa prestanda.\n\nEn väsentlig insikt är att modellförbättringskurvan inte visar tecken på att plana ut. Trots tidigare spekulationer om att AI-prestanda skulle nå en platå, fortsätter utveckling att accelerera. Detta tyder på att konkurrensen mellan dessa aktörer sannolikt kommer att intensifieras, med nya iterationer lanseras tätt inpå varandra. Även tillämpad forskning inom spel och självrättande agenter visar nya vägar för modellanvändning.",
+  "deep": "Denna vecka markeras av tre parallella lanseringar som visar på intensiv utveckling inom stora språkmodeller. GPT 5.6 Sol från OpenAI positioneras som en konkurrent som kan övergå Claude Fable när man räknar värdet per dollar, vilket förändrar priskonkurrensen på marknaden. Grok 4.5, utvecklad av xAI, introduceras samtidigt och lägger till ytterligare en betydande spelare i modellkonfrontationen.\n\nMeta Muse Spark 1.1 lanseras via deras API-erbjudande, vilket demokratiserar tillgången till avancerade AI-funktioner för utvecklare. SimpleBench Upgrade tillhandahåller nya benchmarkingsverktyg för att mäta modellprestanda mer exakt, vilket är kritiskt när fler alternativ blir tillgängliga.\n\nEnlig videon identifieras gaming och kompetitiv kodning som framväxande gränser för AI-konkurrensen. Ultra Sol-funktioner och själförbättringsmekanismer indikerar att dessa modeller utvecklas mot större autonomi och kapacitet. Experter understriker att AI-modellförbättringarna långt ifrån har nått asymptotiska gränser – teknologiska framsteg förväntas fortsätta på ett snabbt tempo snarare än att stabiliseras eller plateå.",
   "parts": [
    {
     "t": 0,
-    "l": "Introduktion till veckan",
-    "le": "Introduction to the week"
+    "l": "Introduktion till veckans AI-nyheter",
+    "le": "Introduction to this week's AI news"
    },
    {
     "t": 63,
@@ -428,8 +321,8 @@
    },
    {
     "t": 308,
-    "l": "Grok 4.5 och benchmarks",
-    "le": "Grok 4.5 and missing benchmarks"
+    "l": "Benchmarks och Grok 4.5",
+    "le": "Missing benches and Grok 4.5"
    },
    {
     "t": 437,
@@ -439,7 +332,7 @@
    {
     "t": 511,
     "l": "Meta Muse Spark 1.1",
-    "le": "Muse Spark 1.1"
+    "le": "Meta Muse Spark 1.1"
    },
    {
     "t": 603,
@@ -448,77 +341,77 @@
    },
    {
     "t": 677,
-    "l": "Självförbättring av modeller",
+    "l": "Ultra Sol och självsförbättring",
     "le": "Ultra Sol and self-improvement"
    },
    {
     "t": 941,
-    "l": "Framtiden för modellförbättring",
-    "le": "Why improvement won't plateau"
+    "l": "Varför AI-utveckling inte stagnerar",
+    "le": "Why AI improvement won't plateau"
    }
   ],
   "en": {
-   "ttl": "GPT 5.6, Grok 4.5 and Meta Muse reshape the AI market",
-   "sum": "OpenAI, xAI, and Meta launch new large language models that intensify competition and offer distinct strengths for different use cases.",
-   "full": "A dramatic week in AI has brought the launch of three new high-performing models that redefine what users can expect for their money. OpenAI's GPT 5.6 Sol is presented as a strong competitor to Claude Fable, with improved benchmark performance and new capabilities.\n\nXAI's Grok 4.5 and Meta's Muse Spark 1.1 expand the choices for developers and users even further. The video's analysis reveals a dozen key details from these launches that often get overlooked in mainstream media headlines, including improvements in coding, self-improvement, and gaming-adjacent applications.\n\nExperts note that model improvement shows no signs of plateauing, meaning competition will accelerate further. SimpleBench updates and new benchmarking tools help developers objectively compare these models' capabilities.",
-   "deep": "The week was marked by parallel launches of three high-performing language models, each presenting distinct advantages. OpenAI's GPT 5.6 Sol focuses on delivering surprising value for money compared to existing alternatives, with particular emphasis on beating Claude Fable in certain performance metrics.\n\nXAI's Grok 4.5 demonstrates progress in coding and logic tasks, while Meta's Muse Spark 1.1 positions itself as an option for developers seeking flexibility through model APIs. The video highlights that many critical details from these launches are often overlooked in media reporting. The SimpleBench system was updated to better measure these models' relative performance.\n\nA crucial insight is that the model improvement curve shows no signs of flattening. Despite earlier speculation that AI performance would reach a plateau, development continues to accelerate. This suggests that competition between these actors will likely intensify, with new iterations launching in quick succession. Research into gaming applications and self-correcting agents also demonstrates new pathways for model deployment."
+   "ttl": "GPT 5.6, Grok 4.5 and Meta Muse reshape AI market",
+   "sum": "OpenAI launches GPT 5.6 Sol, Grok 4.5, and Meta Muse Spark 1.1 this week—three major model updates that intensify competition and make choosing an AI tool even more challenging.",
+   "full": "This week brings three significant AI model updates that reshape market competition. OpenAI presents GPT 5.6 Sol, which reportedly can outperform Claude Fable in terms of value for money. Simultaneously, Grok 4.5 and Meta's Muse Spark 1.1 launch, creating new opportunities for developers and users.\n\nThe updates span a broad range of improvements—from enhanced benchmarking via SimpleBench Upgrade to improved performance in gaming and coding. Meta Muse Spark 1.1 launches through their model API, making powerful capabilities available to more users. The channel notes significant advances in self-improvement and Ultra Sol features.\n\nThese developments indicate that AI model improvements are far from reaching their peak. Experts note that gaming and advanced coding are becoming new frontiers in AI competition, providing creative professionals and developers with new tools to leverage.",
+   "deep": "This week is marked by three parallel launches demonstrating intense development in large language models. GPT 5.6 Sol from OpenAI is positioned as a competitor that can exceed Claude Fable when calculating value per dollar, changing market pricing dynamics. Grok 4.5, developed by xAI, launches simultaneously, adding another significant player to the model competition.\n\nMeta Muse Spark 1.1 launches via their API offering, democratizing access to advanced AI capabilities for developers. SimpleBench Upgrade provides new benchmarking tools to more accurately measure model performance, which is critical as more alternatives become available.\n\nAccording to the video, gaming and competitive coding are identified as emerging frontiers in AI competition. Ultra Sol features and self-improvement mechanisms indicate these models are evolving toward greater autonomy and capability. Experts emphasize that AI model improvements are far from reaching asymptotic limits—technological progress is expected to continue at a rapid pace rather than stabilize or plateau."
   }
  },
  {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "GPT 5.6 recension – kraftfull AI-modell",
+  "tag": "mdl",
+  "lab": "Modeller",
+  "ico": "🧠",
+  "ttl": "GPT 5.6 granskas: kraftfull LLM för kreativa uppgifter",
   "meta": "AI Search · 2026-07-10",
   "plat": "",
   "url": "https://www.youtube.com/watch?v=SettwwX2cCI",
   "img": "https://img.youtube.com/vi/SettwwX2cCI/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GPT%205.6%20OpenAI%20release%20features",
+  "more": "https://www.google.com/search?q=GPT%205.6%20review%20features%20capabilities",
   "feed": "",
-  "sum": "OpenAI har lanserat GPT 5.6, en uppdaterad språkmodell som testas mot Claude och visar förbättringar inom kreativ och analytisk AI.",
-  "full": "OpenAI presenterar GPT 5.6, en ny version av sin kraftfulla språkmodell som jämförs mot Claude Fable i en omfattande recension. Modellen demonstreras i ett brett spektrum av tillämpningar, från realtidsanimeering och vätskesimulering till musikkomposition och 3D-modellering.\n\nGPT 5.6 testar sina förmågor inom praktiska områden som videokreation, matematisk animering, medicinsk bildanalys och finansiell presentationsgenerering. Videon går även igenom modellens specifikationer, prestanda och rankingar, samt ger vägledning om var och hur man använder GPT 5.6 för olika uppgifter.\n\nFör kreatörer och utvecklare kan modellen potentiellt accelerera arbetsflöden inom visualisering, animering och innehållsskapande genom dess förbättrade förståelse och genereringsförmåga.",
+  "sum": "En genomgång av OpenAI:s GPT 5.6 visar dess förmåga inom animation, musikkomponering, 3D-modellering och dataanalys.",
+  "full": "OpenAI har lanserat GPT 5.6, en uppdaterad version av sin språkmodell som granskas för sina kreativa och analytiska möjligheter. Videon demonstrerar modellens prestanda inom flera områden relevanta för kreatörer: realtidsanimation av anime-karaktärer, vätskesimuleringar, skapande av promotionsvideoklipp, musikkomponering och generering av 3D-modeller.\n\nUtöver kreativa tillämpningar visas även GPT 5.6:s förmåga att utföra komplexa analytiska uppgifter som sjukdomsidentifiering, visuella pussel och djupgående forskning. Modellen jämförs med Claude Fable, och videon inkluderar information om prestationsmått och rekommendationer för var olika versioner av GPT 5.6 bäst passar för användare.",
   "buzz": 99,
-  "cat": "film",
+  "cat": "mdl",
   "date": "2026-07-10T04:06:44Z",
   "chans": [
    "AI Search"
   ],
-  "deep": "GPT 5.6 är OpenAIs senaste uppdatering av sin språkmodell och presenteras som en betydande förbättring jämfört med tidigare versioner. I videons omfattande test jämförs modellen direkt mot Claude Fable, en konkurrent från Anthropic, för att utvärdera deras relativa styrkor och svagheter.\n\nDen praktiska demonstrationen visar GPT 5.6:s förmåga att hantera komplexa kreativa och tekniska uppgifter. Modellen testar förmågor inom flera domäner: realtidsanimeering av karaktärer, fysikalisk simulering av vätskor, automatisk videooch promomaterial-generering, samt musikkomposition. Detta indikerar en modell med bred tillämpningsbarhet för kreativa yrkesutövare.\n\nUtöver det rent kreativa fokuseras en betydande del på modellens analytiska och vetenskapliga kapaciteter – från matematisk visualisering och medicinsk bildanalys (canceridentifikation) till finansiell presentationsgenerering och djupgående forskning. Videon avslutas med en genomgång av modellens specifikationer, dess placering på AI-prestandaleaderboards och praktisk vägledning om var man kan använda GPT 5.6 för olika ändamål.",
+  "deep": "Videon presenterar GPT 5.6 som en multifunktionell AI-modell som går långt bortom traditionell textbearbetning. Demonstrations av realtidsanimation visar modellens förmåga att generera visuellt komplexa sekvenser, medan vätskeimuleringssegmentet illustrerar fysikalisk noggrannhet i simuleringar. För videokreatörer är funktionen för automatisk skapande av promotionsvideoklipp särskilt relevant, då den kan assistera i videoproduktionstprocessen.\n\nMusikkomponeringsförmågan och 3D-modellsgenerering indikerar att GPT 5.6 har utökade multimodala kapaciteter bortom traditionell textgenerering. Modellen visas kunna hantera både abstrakt kreativ problemlösning och konkret teknisk utförande. Jämförelsen med Claude Fable tyder på att OpenAI positionerar GPT 5.6 som ett konkurrenskraftigt alternativ på marknaden för avancerade AI-modeller.\n\nDet finns också fokus på praktiska tillämpningar inom företagskontext genom GPT at Work-initiativet, vilket indikerar en strävan att göra modellen tillgänglig för professionell användning. Prestationsmåtten och leaderboards som diskuteras senare i videon ger tittare möjlighet att bedöma var GPT 5.6 står i förhållande till andra språkmodeller.",
   "parts": [
    {
     "t": 0,
-    "l": "GPT 5.6 modeller",
-    "le": "GPT 5.6 models"
+    "l": "GPT 5.6 modeller introduktion",
+    "le": "GPT 5.6 models introduction"
    },
    {
     "t": 103,
-    "l": "Realtidsanimeering",
-    "le": "Realtime anime generation"
+    "l": "Realtidsanimation anime-karaktär",
+    "le": "Realtime anime girl animation"
    },
    {
     "t": 217,
-    "l": "Vätskesimulering",
+    "l": "Vätskeimulering demonstration",
     "le": "Liquid simulation"
    },
    {
     "t": 312,
-    "l": "Videokreation",
+    "l": "Promotionsvideoklipp skapande",
     "le": "Promo video creation"
    },
    {
     "t": 547,
-    "l": "Musikkomposition",
+    "l": "Musikkomponering exempel",
     "le": "Music composition"
    },
    {
     "t": 696,
-    "l": "3D-modellering",
+    "l": "3D-modellsgenerering",
     "le": "3D model generation"
    },
    {
     "t": 834,
-    "l": "Medicinsk bildanalys",
-    "le": "Cancer identification"
+    "l": "Sjukdomsidentifiering cancer",
+    "le": "Identifying cancer"
    },
    {
     "t": 1160,
@@ -527,32 +420,32 @@
    }
   ],
   "en": {
-   "ttl": "GPT 5.6 review – powerful AI model",
-   "sum": "OpenAI launches GPT 5.6, an updated language model tested against Claude with improvements across creative and analytical AI applications.",
-   "full": "OpenAI introduces GPT 5.6, a new version of its powerful language model compared against Claude Fable in a comprehensive review. The model is demonstrated across a broad spectrum of applications, from realtime animation and fluid simulation to music composition and 3D modeling.\n\nGPT 5.6 is tested in practical areas including video creation, mathematical animation, medical image analysis, and financial presentation generation. The video also covers the model's specifications, performance metrics, and leaderboard rankings, as well as guidance on where and how to use GPT 5.6 for different tasks.\n\nFor creators and developers, the model can potentially accelerate workflows in visualization, animation, and content creation through improved understanding and generation capabilities.",
-   "deep": "GPT 5.6 is OpenAI's latest update to its language model and is presented as a significant improvement over previous versions. In the video's comprehensive testing, the model is directly compared against Claude Fable, a competitor from Anthropic, to evaluate their relative strengths and weaknesses.\n\nThe practical demonstration showcases GPT 5.6's ability to handle complex creative and technical tasks. The model tests capabilities across multiple domains: realtime character animation, physical fluid simulation, automated video and promotional material generation, and music composition. This indicates a model with broad applicability for creative professionals.\n\nBeyond purely creative focus, a substantial portion addresses the model's analytical and scientific capacity – from mathematical visualization and medical image analysis (cancer identification) to financial presentation generation and deep research. The video concludes with a review of the model's specifications, its placement on AI performance leaderboards, and practical guidance on where to use GPT 5.6 for various purposes."
+   "ttl": "GPT 5.6 reviewed: powerful LLM for creative tasks",
+   "sum": "A review of OpenAI's GPT 5.6 demonstrates its capabilities in animation, music composition, 3D modeling, and data analysis.",
+   "full": "OpenAI has launched GPT 5.6, an updated version of its language model reviewed for its creative and analytical capabilities. The video demonstrates the model's performance across several areas relevant to creators: real-time animation of anime characters, liquid simulations, creation of promotional video clips, music composition, and generation of 3D models.\n\nBeyond creative applications, GPT 5.6 is shown to perform complex analytical tasks such as disease identification, visual puzzles, and deep research. The model is compared with Claude Fable, and the video includes information about performance metrics and recommendations for where different versions of GPT 5.6 fit best for users.",
+   "deep": "The video presents GPT 5.6 as a multifunctional AI model that extends far beyond traditional text processing. Demonstrations of real-time animation show the model's ability to generate visually complex sequences, while the liquid simulation segment illustrates physical accuracy in simulations. For video creators, the automatic promotional video clip creation feature is particularly relevant, as it can assist in video production workflows.\n\nThe music composition capability and 3D model generation suggest that GPT 5.6 has expanded multimodal capacities beyond traditional text generation. The model is shown to handle both abstract creative problem-solving and concrete technical execution. The comparison with Claude Fable indicates that OpenAI is positioning GPT 5.6 as a competitive alternative in the advanced AI model marketplace.\n\nThere is also focus on practical applications in business context through the GPT at Work initiative, indicating an effort to make the model accessible for professional use. The performance metrics and leaderboards discussed later in the video give viewers the opportunity to assess where GPT 5.6 stands in relation to other language models."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Metas Muse Image lanserad gratis",
+  "ttl": "Meta lanserar gratis Muse-modeller för bilder och video",
   "meta": "Theoretically Media · 2026-07-08",
   "plat": "",
   "url": "https://www.youtube.com/watch?v=epJiVrv4KVQ",
   "img": "https://img.youtube.com/vi/epJiVrv4KVQ/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Meta%20Muse%20Image%20AI%20free%20release%202024",
+  "more": "https://www.google.com/search?q=Meta%20Muse%20Image%20video%20AI%20free%20release",
   "feed": "",
-  "sum": "Meta släppte sin AI-bildmodell Muse Image gratis på meta.ai och presenterade kommande videoversionem, medan skaparen lanserade ett kostnadsfritt verktyg för pose- och djupkontroll i videogenerering.",
-  "full": "Meta har lanserat Muse Image, en gratis AI-bildmodell med \"tänkande\"-funktionalitet, direkt tillgänglig på meta.ai. Modellen har testats mot etablerade konkurrenter som GPT Images 2.0 och Nano Banana Pro, där Meta presenterar ett starkt alternativ för bildgenerering utan kostnad. Företaget tillkännagav också Muse Video, sin första videogenereringsmodell som faktiskt kommer att lanseras.\n\nI videon presenteras även ett nytt kostnadsfritt AI-verktyg för att omvandla videor till pose- och djupkontrollerade animationer. Verktyget fungerar med populära plattformar som Runway och Seedance, och använder OpenPose-skelettdetektering och Video Depth Anything för att ge kreatörer granulär kontroll över karakterrörelser och kameravinklar. Källkoden är tillgänglig för nedladdning, vilket gör det möjligt för användare att implementera det i sina egna arbetsflöden.",
+  "sum": "Meta har släppt Muse Image, en kostnadsfri AI-bildmodell med tänkande-läge, och tillkännagett Muse Video – sitt första videomodell som faktiskt kommer att lanseras.",
+  "full": "Meta har lanserat Muse Image, en kostnadsfri AI-bildmodell tillgänglig på meta.ai som använder ett \"tänkande\"-läge för att förbättra bildgenereringen. Modellen testades grundligt för precision, textrendering och redigeringsmöjligheter, och kan sätta sig själv i motsägelse genom sitt synliga tänkande. Även om Muse Image inte överträffar toppmotorerna GPT Image 2 och Nano Banana 2, erbjuder den ett konkurrerande alternativ utan kostnad.\n\nMeta tillkännagav också Muse Video, företagets första videomodell som faktiskt kommer att släppas. Parallellt har ByteDance överraskat med Seedream 5.0 Pro. Videon presenterar även ett kostnadsfritt verktyg för AI-videogenering med precis pose- och djupkontroll, som konverterar videomaterial till OpenPose-skelett och djupkartor för realistisk rörelseöverföring i Seedance, Runway och andra plattformar – med stöd för multi-karaktärsspårning och avancerad video-till-video-konvertering.",
   "buzz": 94,
   "cat": "film",
   "date": "2026-07-08T19:28:07Z",
   "chans": [
    "Theoretically Media"
   ],
-  "deep": "Meta Muse Image presenteras som en kraftfull alternativ till befintliga bildgenereringsmodeller. Modellen testades omfattande med fokus på promptföljsamhet, textrendering, bildredigering och den synliga \"tänkande\"-läget där man kan se hur modellen resonerar genom sitt skapande. Testserien inkluderade svåra prompter som Elder Scrolls 6-imaginationen för att säkerställa kvaliteten.\n\nDet tillkännagiva Muse Video-projektet markerar Metas första officiella videogenereringsmodell, vilket är betydande då många har väntat på ett sådant verktyg från Meta. Medan exakta lanseringsdatum inte angavs, bekräftades att det faktiskt kommer att släppas.\n\nDet kostnadsfria verktyget för pose- och djupkontroll är särskilt relevant för kreatörer som behöver finkornig kontroll över karaktärrörelser i AI-videor. Genom att konvertera videor till OpenPose-skelettformat och djupkartor kan användare sedan använda dessa som referensmaterial i videogenerering. Detta möjliggör multi-karaktärsspårning, in/ut-punkter och exakt rörelsereplikering—funktioner som tidigare varit svåra att åstadkomma i AI-videogenerering. Verktyget fungerar på tvärs plattformar som accepterar videoreferenser.",
+  "deep": "Meta's Muse Image introducerar en AI-bildgenereringsmodell med explicit \"tänkande\"-läge som dokumenterar sin beslutsprocess. Testerna avslöjar modellens styrkor inom promptföljning och textrenderning men visar också begränsningar – modellen kan observeras resonera sig bort från korrekta svar, vilket illustrerar utmaningarna med synlig AI-resonering. Trots dessa begränsningar positionerar sig Muse Image konkurrenskraftig genom sitt nollkostnad och realtidsåtkomst.\n\nMuse Video representerar Metas första officiella videomodell-lansering, vilket markerar ett betydande steg in i videosyntes-marknaden. Tillsammans med ByteDances överraskande Seedream 5.0 Pro-dropp intensifieras konkurrensen inom AI-videogenerering.\n\nDet presenterade kostnadsfria verktyget revolutionerar video-till-video-arbetsflödet genom att omvandla källvideor till OpenPose-skelett och djupkartor (med Video Depth Anything-teknologi). Detta möjliggör exakt rörelseöverföring och karakterspårning över flera subjects, vilket löser traditionella utmaningar med konsekvensproblem och kamerarörelse i AI-videogenering. Verktyget är kompatibelt med Seedance, Runway och andra plattformar som accepterar videoreferenser.",
   "parts": [
    {
     "t": 0,
@@ -588,79 +481,10 @@
    }
   ],
   "en": {
-   "ttl": "Meta's Muse Image Launched Free",
-   "sum": "Meta released its Muse Image AI model free on meta.ai and announced upcoming Muse Video, while creator released a free tool for pose and depth control in video generation.",
-   "full": "Meta has launched Muse Image, a free AI image generation model with \"thinking\" capabilities, now available directly on meta.ai. The model has been tested against established competitors like GPT Images 2.0 and Nano Banana Pro, with Meta presenting a strong cost-free alternative for image generation. The company also announced Muse Video, its first video generation model that will actually ship.\n\nThe video also introduces a new free AI tool that transforms videos into pose and depth-controlled animations. The tool works with popular platforms like Runway and Seedance, using OpenPose skeleton detection and Video Depth Anything for granular creator control over character movements and camera angles. Full source code is available for download, enabling users to implement it in their own workflows.\n\nThis represents Meta's competitive push into the generative AI space with no-cost offerings, making advanced AI capabilities accessible to creators without financial barriers.",
-   "deep": "Meta Muse Image is positioned as a powerful alternative to existing image generation models. The model underwent comprehensive testing focused on prompt adherence, text rendering, image editing, and the visible \"thinking\" mode where the model's reasoning process can be observed. Test scenarios included challenging prompts like the Elder Scrolls 6 imagination test to verify quality and capability.\n\nThe announced Muse Video project represents Meta's first official video generation model, a significant development as many have awaited such a tool from the company. While specific launch dates were not provided, confirmation that it will actually release addresses previous skepticism about Meta's video generation commitments.\n\nThe free pose and depth control tool addresses a critical need in the AI video generation community. By converting videos into OpenPose skeleton format and depth maps, creators can use these as reference material for video generation. This enables multi-character tracking, in/out point control, and precise motion replication—features that have been difficult to achieve in AI video generation. The tool's cross-platform compatibility with any system accepting video references makes it particularly valuable for integration into existing creative workflows."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "10 ChatGPT-hemligheter för effektivare arbete",
-  "meta": "Skill Leap AI · 2026-07-07",
-  "plat": "ChatGPT Images 2.0",
-  "url": "https://www.youtube.com/watch?v=MKze-KxEt5g",
-  "img": "https://img.youtube.com/vi/MKze-KxEt5g/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=ChatGPT%20Skills%20connectors%20memory%20dashboard%20automation",
-  "feed": "",
-  "sum": "Videotutorial visar avancerade ChatGPT-funktioner som Skills, Connectors och Memory för att automatisera arbetsuppgifter och skapa varumärkesanpassat innehåll.",
-  "full": "Skill Leap AI presenterar en guide till ofta förbisedda ChatGPT-funktioner som kan förbättra arbetsproduktviteten. Videon demonstrerar hur man använder ChatGPT Skills för att spara varumärkesspecifika egenskaper som färger, typsnitt och logotyp, så att AI-genererade bilder blir konsekventa. Genom Connectors-integreringar med Google Drive, Dropbox, Gmail och Slack kan ChatGPT nu direkt komma åt företagsfilerna och assistera med autentiska arbetsuppgifter.\n\nDarför är detta viktigt: Funktioner som Memory, Projects, och Agent Mode gör ChatGPT till ett verkligt arbetsverktyg istället för bara en chattbot. Videon visar praktiska exempel på hur man rensar mesiga kalkylark och konverterar dem till interaktiva dashboards, hanterar mötesupptagningar och organiserar projektresurser.\n\nVad kreatörer och yrkesfolk konkret kan göra: Implementera Skills för varumärkesöverensstämmelse i visuellt innehåll, ansluta viktiga arbetsappar för sömlös dataåtkomst, och utnyttja Memory-funktionen för att ChatGPT ska \"komma ihåg\" tidigare projekt och preferenser—allt utan kodningskunskaper.",
-  "buzz": 89,
-  "cat": "film",
-  "date": "2026-07-07T20:57:18Z",
-  "chans": [
-   "Skill Leap AI"
-  ],
-  "deep": "ChatGPT Skills är en funktion som låter användare spara varumärkesriktlinjer—färgpaletter, typsnitt och logotyper—så att varje AI-genererad bild automatiskt följer dessa specifikationer. Detta är särskilt värdefullt för marknadsförare och designteam som behöver konsistenta visuella tillgångar.\n\nConnectors-integreringen möjliggör direkt åtkomst till fillagringssystem och kommunikationsplattformar. Genom att ansluta Google Drive, Dropbox, Gmail och Slack kan ChatGPT söka igenom företagsfiler, hämta relevanta dokument och assistera med faktiska arbetsuppgifter baserade på verklig data—inte bara generiska svar.\n\nMemory-funktionen lagrar användarprofiler och tidigare projekt så att ChatGPT \"kommer ihåg\" tidigare konversationer och kontext. Detta eliminerar behovet att upprepa instruktioner och gör AI-assistenten mer personaliserad över tid. Projects-funktionen organiserar arbetet tematiskt, medan Agent Mode automatiserar flöden genom att låta ChatGPT utföra flera sekventiella uppgifter självständigt.\n\nPraktiska exempel från videon visar hur man transformerar oorganiserade kalkylark till interaktiva dashboards med filtrering, processar mötesupptagningar för automatisk transkription och använder dessa data för forskning och rapportgenerering—allt utan kodning.",
-  "parts": [
-   {
-    "t": 0,
-    "l": "Introduktion till ChatGPT-hemligheter",
-    "le": "Introduction to ChatGPT secrets"
-   },
-   {
-    "t": 135,
-    "l": "ChatGPT Skills för varumärkeskonsekvens",
-    "le": "ChatGPT Skills for brand consistency"
-   },
-   {
-    "t": 330,
-    "l": "Connectors med Google Drive och Dropbox",
-    "le": "Connectors with Google Drive and Dropbox"
-   },
-   {
-    "t": 525,
-    "l": "Memory-funktion för personlig kontext",
-    "le": "Memory function for personal context"
-   },
-   {
-    "t": 720,
-    "l": "Projects och project sources",
-    "le": "Projects and project sources"
-   },
-   {
-    "t": 920,
-    "l": "Mötesupptagningar och transkription",
-    "le": "Meeting recordings and transcription"
-   },
-   {
-    "t": 1125,
-    "l": "Dashboard och kalkylark-automation",
-    "le": "Dashboard and spreadsheet automation"
-   },
-   {
-    "t": 1330,
-    "l": "Agent Mode och avancerad automation",
-    "le": "Agent Mode and advanced automation"
-   }
-  ],
-  "en": {
-   "ttl": "10 ChatGPT Secrets for More Efficient Work",
-   "sum": "Video tutorial demonstrates advanced ChatGPT features including Skills, Connectors, and Memory to automate tasks and create brand-aligned content.",
-   "full": "Skill Leap AI presents a guide to often-overlooked ChatGPT features that can enhance work productivity. The video demonstrates how to use ChatGPT Skills to save brand-specific properties such as colors, fonts, and logos, ensuring that AI-generated images remain consistent. Through Connectors integrations with Google Drive, Dropbox, Gmail, and Slack, ChatGPT can now directly access company files and assist with authentic work tasks.\n\nWhy this matters: Features like Memory, Projects, and Agent Mode transform ChatGPT from a mere chatbot into a genuine work tool. The video shows practical examples of cleaning messy spreadsheets and converting them into interactive dashboards, handling meeting recordings, and organizing project resources.\n\nWhat creators and professionals can do: Implement Skills for brand consistency in visual content, connect key work apps for seamless data access, and leverage the Memory function so ChatGPT \"remembers\" previous projects and preferences—all without coding skills.",
-   "deep": "ChatGPT Skills is a feature that allows users to save brand guidelines—color palettes, fonts, and logos—so that each AI-generated image automatically adheres to these specifications. This is particularly valuable for marketers and design teams requiring consistent visual assets.\n\nThe Connectors integration enables direct access to file storage systems and communication platforms. By connecting Google Drive, Dropbox, Gmail, and Slack, ChatGPT can search through corporate files, retrieve relevant documents, and assist with actual work tasks based on real data rather than generic responses.\n\nThe Memory function stores user profiles and previous projects so ChatGPT \"remembers\" earlier conversations and context. This eliminates the need to repeat instructions and makes the AI assistant more personalized over time. The Projects function organizes work thematically, while Agent Mode automates workflows by allowing ChatGPT to independently execute multiple sequential tasks.\n\nPractical examples from the video show how to transform disorganized spreadsheets into interactive dashboards with filtering, process meeting recordings for automatic transcription, and use this data for research and report generation—all without coding."
+   "ttl": "Meta launches free Muse image and video AI models",
+   "sum": "Meta has released Muse Image, a free AI image model featuring thinking mode, and announced Muse Video—its first video model that will actually launch.",
+   "full": "Meta has launched Muse Image, a free AI image generation model available on meta.ai that employs a \"thinking\" mode to enhance image generation. The model underwent rigorous testing for prompt adherence, text rendering, and editing capabilities, and can contradict itself through its visible reasoning process. While Muse Image does not surpass top contenders GPT Image 2 and Nano Banana 2, it offers a competitive alternative at no cost.\n\nMeta also announced Muse Video, the company's first video model that will actually release. Simultaneously, ByteDance surprised the market with Seedream 5.0 Pro. The video showcases a free AI video generation tool featuring precise pose and depth control, converting video footage into OpenPose skeletons and depth maps for realistic motion transfer in Seedance, Runway, and other platforms—with multi-character tracking support and advanced video-to-video conversion.",
+   "deep": "Meta's Muse Image introduces an image generation model with explicit \"thinking\" mode that documents its decision-making process. Testing reveals the model's strengths in prompt adherence and text rendering but also exposes limitations—the model can be observed reasoning itself away from correct answers, illustrating challenges with visible AI reasoning. Despite these constraints, Muse Image positions itself competitively through zero cost and real-time accessibility.\n\nMuse Video represents Meta's first official video model launch, marking a significant entry into the video synthesis market. Combined with ByteDance's surprise Seedream 5.0 Pro drop, competition in AI video generation intensifies.\n\nThe presented free tool revolutionizes video-to-video workflows by converting source footage into OpenPose skeletons and depth maps using Video Depth Anything technology. This enables precise motion transfer and character tracking across multiple subjects, addressing traditional challenges with consistency issues and camera movement in AI video generation. The tool is compatible with Seedance, Runway, and other platforms accepting video references."
   }
  }
 ]
