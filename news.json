@@ -3,75 +3,234 @@
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "AI-kort övertygar med skådespelarspel – Seedance 2.5",
-  "meta": "Theoretically Media · 2026-08-03",
-  "plat": "Seedance 2.5",
-  "url": "https://www.youtube.com/watch?v=4wFBA9-KyzY",
-  "img": "https://img.youtube.com/vi/4wFBA9-KyzY/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20short%20film%20acting%20performance",
+  "ttl": "Minimax H3 – lokal AI-videogenerator i ComfyUI",
+  "meta": "AI Search · 2026-08-05",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=8HutJ9W5pTg",
+  "img": "https://img.youtube.com/vi/8HutJ9W5pTg/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Minimax%20H3%20ComfyUI%20local%20video%20generation",
   "feed": "",
-  "sum": "En noir-film helt genererad med AI visar nya möjligheter för realistiska ansiktsuttryck och skådespelarprestation.",
-  "full": "\"Death Walks Into A Bar\" är en noir-kortfilm helt skapad med AI-verktyget Seedance 2.5, där en lönnmördare får uppdraget att döda själva Döden. Filmen är genererad utan skådespelare, scener eller kameror – allt från ansiktsuttryck till dialoger kommer från AI.\n\nDet som särskiljer Seedance 2.5 enligt regissören är kvaliteten på skådespelarprestanderna. Mikromimik, pauser och dialogtiming framstår som naturliga, vilket innebär att tittare för första gången kan följa filmens handling utan att konstant söka efter AI-artefakter. Seedance 2.5 levereras via Dreamina AI-plattformen och marknadsförs som ett verktyg som presterar bättre än konkurrenter på just denna aspekt.\n\nEn detaljerad genomgång av hur filmen skapades – inklusive prompter och arbetsflöde – presenteras separat.",
-  "buzz": 90,
+  "sum": "Minimax H3 är en lokal AI-videogenerator som kan köras i ComfyUI och erbjuder text-till-video, bild-till-video och video-redigering utan internetberoende.",
+  "full": "Minimax H3 är en lokalt körbar AI-videogenerator som integrerats i ComfyUI, vilket ger kreatörer möjlighet att generera videor direkt på sin egen dator utan att förlita sig på molntjänster. Systemet stöder flera arbetsflöden: text-till-video, bild-till-video, referensvideo och videoexportredigering, samt möjligheten att använda ljudreferenser.\n\nFör kreatörer innebär detta större kontroll över processen, snabbare iteration och möjlighet att köra modellen lokalt med GPU-acceleration. Installationen kräver ComfyUI, relevanta noder och modellerna från Hugging Face. Videon täcker optimeringsmetoder för snabbare rendering, VRAM-sparande alternativ och möjligheten att träna egna LoRAs för anpassade effekter.\n\nMinimax H3 representerar ett steg mot decentraliserad AI-videokreation, särskilt intressant för användare som vill arbeta offline eller med begränsad internetkapacitet.",
+  "buzz": 92,
   "cat": "film",
-  "date": "2026-08-03T18:02:07Z",
+  "date": "2026-08-05T03:31:09Z",
   "chans": [
-   "Theoretically Media"
+   "AI Search"
   ],
-  "deep": "Seedance 2.5 representerar ett steg framåt för text-till-video-AI genom att fokusera på en ofta kritiserad svaghet: naturlig skådespelarprestation. Kortfilmen \"Death Walks Into A Bar\" utgår från ren textbeskrivning utan någon traditionell filmproduktion – inga skådespelare, inga fysiska set och ingen kamerabetjäning.\n\nDet centrala säljarargumentet är hur väl modellen hanterar mikromimik och tidning av dialoger. Dessa detaljer är kritiska för att åskådare ska kunna engageras emotionellt snarare än att ständigt analysera om något ser konstgjort ut. Direktören noterar att detta är första gången han kunde sluta att \"scanna för glitchar\" och istället bara titta på performances – en betydande försäm för kredibilitet.\n\nSeedance 2.5 levereras via Dreamina-plattformen (ägd av CapCut/ByteDance) och positioneras som ett verktyg som överträffar konkurrenter på just denna dimension. Medan andra AI-verktyg (som Runway Gen-4.5, Pika 2.5 eller Kling 3.0) fokuserar på olika styrkor – motion, textkvalitet, visuella effekter – verkar Seedance 2.5 specialisera sig på character-driven narrativ med trovärdig nonverbal kommunikation.",
-  "parts": [],
+  "deep": "Minimax H3 är en multimodal videogenerationsmodell som körs lokalt via ComfyUI, vilket innebär att kreatörer inte behöver förlita sig på molnbaserade tjänster. Modellen stöder flera ingångsformat: ren textprompt för text-till-video, befintlig bild som grund för bild-till-video, och referensvideor för att styra generationen mot specifika visuella eller rörelsemönster.\n\nInstallationen förutsätter en fungerande ComfyUI-miljö och korrekt GPU-setup (PyTorch och CUDA-versioner måste matchas). Användare måste hämta modellerna från Hugging Face och installera nödvändiga tillägg som KJ Nodes, Sage Attention och Spectrum-stöd för Minimax H3. Systemet är särskilt kraftfullt för video-till-videoredigering och möjliggör även ljudreferenser för att synkronisera rörelse med audio.\n\nOptimering är centralt för praktisk användning: videon demonstrerar metoder för att påskynda renderingen, minska VRAM-förbrukning för lägre-end-hårdvara, och möjligheten att finjustera modellen med egna LoRA-vikter. Jämfört med molnalternativ som Seedance erbjuder Minimax H3 fullständig dataintegritet och ingen gräns på genereringsvolym, men kräver betydande lokal beräkningskapacitet.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Introduktion till Minimax H3",
+    "le": "Minimax H3 introduction"
+   },
+   {
+    "t": 39,
+    "l": "Demovisningar av videor",
+    "le": "Demo videos"
+   },
+   {
+    "t": 86,
+    "l": "Multimodala styrkor",
+    "le": "Multimodal strengths"
+   },
+   {
+    "t": 207,
+    "l": "Installationssteg",
+    "le": "Installation steps"
+   },
+   {
+    "t": 417,
+    "l": "Text-till-video",
+    "le": "Text to video"
+   },
+   {
+    "t": 504,
+    "l": "Bild-till-video",
+    "le": "Image to video"
+   },
+   {
+    "t": 720,
+    "l": "Videoexportredigering",
+    "le": "Video editing"
+   },
+   {
+    "t": 860,
+    "l": "Optimeringsmetoder",
+    "le": "Performance optimization"
+   }
+  ],
   "en": {
-   "ttl": "AI short film impresses with acting – Seedance 2.5",
-   "sum": "A noir film entirely generated with AI demonstrates new possibilities for realistic facial expressions and character performance.",
-   "full": "\"Death Walks Into A Bar\" is a noir short film created entirely with Seedance 2.5, an AI tool, featuring a hitman tasked with assassinating Death itself. The film is generated without actors, sets, or cameras – every facial expression and line delivery comes from AI.\n\nWhat distinguishes Seedance 2.5, according to the director, is the quality of character performances. Micro-expressions, pauses, and dialogue timing appear natural, allowing viewers to follow the narrative without constantly looking for AI artifacts. Seedance 2.5 is delivered via the Dreamina AI platform and is positioned as an tool that outperforms competitors specifically on this aspect.\n\nA detailed breakdown of how the film was created – including prompts and workflow – is presented separately.",
-   "deep": "Seedance 2.5 represents a step forward for text-to-video AI by addressing a frequently criticized weakness: naturalistic character acting. The short film \"Death Walks Into A Bar\" starts from pure text description without any traditional film production – no actors, no physical sets, no camera operation.\n\nThe central selling point is how well the model handles micro-expressions and dialogue timing. These details are critical for audiences to remain emotionally engaged rather than constantly analyzing whether something looks artificial. The director notes this is the first time he could stop \"scanning for glitches\" and simply watch performances – a significant credibility leap.\n\nSeedance 2.5 is delivered via the Dreamina platform (owned by CapCut/ByteDance) and is positioned as a tool that outperforms competitors specifically on this dimension. While other AI tools (like Runway Gen-4.5, Pika 2.5, or Kling 3.0) excel in different areas – motion quality, text rendering, visual effects – Seedance 2.5 appears to specialize in character-driven narratives with credible nonverbal communication."
+   "ttl": "Minimax H3 – Local AI Video Generator in ComfyUI",
+   "sum": "Minimax H3 is a locally-runnable AI video generator integrated into ComfyUI, offering text-to-video, image-to-video, and video editing without cloud dependency.",
+   "full": "Minimax H3 is a locally-executable AI video generator integrated into ComfyUI, enabling creators to generate videos directly on their own computer without relying on cloud services. The system supports multiple workflows: text-to-video, image-to-video, reference video, and video export editing, as well as the ability to use audio references.\n\nFor creators, this means greater control over the process, faster iteration, and the ability to run the model locally with GPU acceleration. Installation requires ComfyUI, relevant nodes, and models from Hugging Face. The video covers optimization methods for faster rendering, VRAM-saving alternatives, and the ability to train custom LoRAs for personalized effects.\n\nMinimax H3 represents a step toward decentralized AI video creation, particularly valuable for users wanting to work offline or with limited internet connectivity.",
+   "deep": "Minimax H3 is a multimodal video generation model that runs locally via ComfyUI, meaning creators don't need to rely on cloud-based services. The model supports multiple input formats: pure text prompts for text-to-video, existing images as a foundation for image-to-video, and reference videos to steer generation toward specific visual or motion patterns.\n\nInstallation requires a working ComfyUI environment and correct GPU setup (PyTorch and CUDA versions must match). Users must download models from Hugging Face and install necessary extensions such as KJ Nodes, Sage Attention, and Spectrum support for Minimax H3. The system is particularly powerful for video-to-video editing and also enables audio references to synchronize motion with audio.\n\nOptimization is central to practical use: the video demonstrates methods for accelerating rendering, reducing VRAM consumption for lower-end hardware, and the ability to fine-tune the model with custom LoRA weights. Compared to cloud alternatives like Seedance, Minimax H3 offers complete data privacy and unlimited generation volume, but requires significant local computational capacity."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Seedance 2.5 och Minimax H3 testade",
+  "ttl": "Claude Design får animationsförmåga för motion graphics",
+  "meta": "Futurepedia · 2026-08-04",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=97Y5cz7H8SM",
+  "img": "https://img.youtube.com/vi/97Y5cz7H8SM/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Claude%20Design%20motion%20graphics%20animation%20template",
+  "feed": "",
+  "sum": "Claude Design kan nu skapa motion graphics för datavisualisering och förklaringsvideos, med möjlighet att synkronisera animationer direkt från transkriptioner.",
+  "full": "Claude Design har introducerats med en ny funktion för motion graphics-skapande. Verktyget kan generera animationer för datavisualisering, förklaringsvideos och liknande innehål med hjälp av animationsmallar. En särskilt kraftfull funktion är möjligheten att arbeta från transkriptioner – användare kan ladda upp en taltranskription och få motion graphics automatiskt synkroniserade till de talade orden.\n\nFunktionen är utformad för att vara enkel att använda och erbjuder flera arbetssätt. Man kan skapa motion graphics från textprompter, från referensbilder eller från flera referensbilder tillsammans. Verktyget stödjer även design systems för konsistens i skapandet.\n\nDetta är viktigt för kreatörer som behöver snabbt producera visuellt engagerande innehål med animation, särskilt för videoproduktion där synkronisering mellan ljud och visuella element är kritiskt.",
+  "buzz": 94,
+  "cat": "film",
+  "date": "2026-08-04T18:59:11Z",
+  "chans": [
+   "Futurepedia"
+  ],
+  "deep": "Claude Design har utvecklat motion graphics-kapacitet genom en animationsmall som möjliggör automatisk synkronisering mellan ljud och visuella element. Den mest innovativa funktionen är transkriptionsbaserad animation – användare kan klistra in ett tal- eller videotranskript och systemet genererar motion graphics som är tidskalibrerad till de exakta orden och deras längd i videon.\n\nVerktyget erbjuder flera skapandesätt för flexibilitet. Användare kan skapa animationer från textbeskrivningar (prompts), från en enda referensbild eller från flera referensbilder samtidigt för att få ett mer sammansatt resultat. För team och organisationer finns stöd för design systems, vilket säkerställer visuell konsistens över flera projekt och kampanjer.\n\nDetta adresserar ett vanligt problem inom videoproduktion: att manuellt synkronisera animationer till talspår är tidskrävande. Genom att automatisera denna process gör Claude Design det möjligt för kreatörer att producera professionell motion graphics mycket snabbare. Funktionen är särskilt värdefull för skapare av förklaringsvideos, datapresentationer och videoinstruktioner där audio-visual alignment är kritisk för förståelsen.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Introduktion",
+    "le": "Intro"
+   },
+   {
+    "t": 40,
+    "l": "Översikt och åtkomst",
+    "le": "Overview and Access"
+   },
+   {
+    "t": 100,
+    "l": "Skapa från prompt",
+    "le": "Create from a Prompt"
+   },
+   {
+    "t": 288,
+    "l": "Skapa från bild",
+    "le": "Create from an Image"
+   },
+   {
+    "t": 383,
+    "l": "Flera referensbilder",
+    "le": "Multiple Reference Images"
+   },
+   {
+    "t": 778,
+    "l": "Design systems",
+    "le": "Design Systems"
+   }
+  ],
+  "en": {
+   "ttl": "Claude Design Unlocks Motion Graphics Animation Capabilities",
+   "sum": "Claude Design now creates motion graphics for data visualization and explainer videos, with the ability to sync animations directly from transcripts.",
+   "full": "Claude Design has introduced a new motion graphics creation feature. The tool can generate animations for data visualization, explainer videos, and similar content using animation templates. A particularly powerful function is the ability to work from transcriptions – users can upload a speech transcript and have motion graphics automatically synchronized to the spoken words.\n\nThe feature is designed for simplicity and offers multiple working approaches. Users can create motion graphics from text prompts, from reference images, or from multiple reference images combined. The tool also supports design systems for consistency in creation.\n\nThis is important for creators who need to quickly produce visually engaging animated content, especially for video production where synchronization between audio and visual elements is critical.",
+   "deep": "Claude Design has developed motion graphics capability through an animation template that enables automatic synchronization between audio and visual elements. The most innovative feature is transcript-based animation – users can paste a speech or video transcript and the system generates motion graphics that are time-calibrated to the exact words and their duration in the video.\n\nThe tool offers multiple creation methods for flexibility. Users can create animations from text descriptions (prompts), from a single reference image, or from multiple reference images simultaneously for a more composite result. For teams and organizations, there is support for design systems, ensuring visual consistency across multiple projects and campaigns.\n\nThis addresses a common problem in video production: manually synchronizing animations to speech tracks is time-consuming. By automating this process, Claude Design enables creators to produce professional motion graphics much faster. The feature is particularly valuable for creators of explainer videos, data presentations, and video instructions where audio-visual alignment is critical for understanding."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "AI skapar neo-noir kort utan skådespelare",
+  "meta": "Theoretically Media · 2026-08-03",
+  "plat": "Seedance 2.5",
+  "url": "https://www.youtube.com/watch?v=4wFBA9-KyzY",
+  "img": "https://img.youtube.com/vi/4wFBA9-KyzY/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generation%20short%20film",
+  "feed": "",
+  "sum": "Theoretically Media presenterar en kort film helt genererad med Seedance 2.5, där skådespelarnas micro-uttryck och dialogleveranser imponerar mer än tidigare AI-video.",
+  "full": "Youtubare Theoretically Media har skapat en neo-noir kortfilm med titeln \"Death Walks Into A Bar\" helt och hållet med AI-videoverktyget Seedance 2.5. Filmen handlar om en hyrd mördare vars slutliga uppdrag är Döden själv.\n\nDet anmärkningsvärda med denna produktion är att ingen skådespelare, ingen set och ingen kamera användes — varje frame, varje prestation och varje dialograd är helt AI-genererad. Skaparen betonar att det som särskiljer denna film är skådespelarnas prestationer; micro-uttryck, pauser och dialogleveranser skapar övertygende performances.\n\nEnligt beskrivningen markerar detta ett skifte i hur AI-video upplevs — för första gången slutade användaren leta efter glitchar och fokuserade istället på att njuta av själva filmupplevelsen. En detaljerad genomgång av prompts, arbetsflöde och vad Seedance 2.5 kan göra som ingen annan kommer publiceras separat.",
+  "buzz": 92,
+  "cat": "film",
+  "date": "2026-08-03T18:02:07Z",
+  "chans": [
+   "Theoretically Media"
+  ],
+  "deep": "Seedance 2.5, tillgängligt via plattformen Dreamina, representerar ett betydande framsteg inom AI-videogenerering. Det som särskilt imponerar enligt Theoretically Media är modellens förmåga att skapa autentiska skådespelarprestation genom detaljerad kontroll av ansiktsuttryck och röstframställning.\n\nFilmen \"Death Walks Into A Bar\" använder helt AI-genererade skådespelare, vilket innebär att varje rörelse, blinkning och känslouttryck är instruerad genom textprompts. Modellens styrka ligger i subtiliteten — micro-uttryck som ögonkontakt, läpprörelser och pauser mellan repliker skapar en känsla av äkthet som tidigare AI-videor ofta saknat.\n\nArbeitsflödet bakom produktionen tillät skribenten och regissören Tim Simmons att iterera snabbt utan att behöva boka skådespelare eller produktionsplatser. Detta demokratiserar filmproduktion genom att låta enskilda kreatörer skapa high-concept narrativ med begränsad budget. Seedance 2.5 möjliggör även fine-tuning av dialogämnen och känslomässiga nyanser, något som hittills varit svårt för generativ video.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Intro och filmöppning",
+    "le": "Intro and film opening"
+   },
+   {
+    "t": 30,
+    "l": "Möte vid baren börjar",
+    "le": "Meeting at the bar begins"
+   },
+   {
+    "t": 120,
+    "l": "Spänning och dialog utvecklas",
+    "le": "Tension and dialogue develop"
+   },
+   {
+    "t": 240,
+    "l": "Climax och vändning",
+    "le": "Climax and twist"
+   },
+   {
+    "t": 330,
+    "l": "Slutscen och avslutning",
+    "le": "Final scene and ending"
+   }
+  ],
+  "en": {
+   "ttl": "AI creates neo-noir short without actors",
+   "sum": "Theoretically Media showcases a short film entirely generated with Seedance 2.5, where AI-generated actors' micro-expressions and dialogue delivery impress more than previous AI video.",
+   "full": "YouTuber Theoretically Media has created a neo-noir short film titled \"Death Walks Into A Bar\" entirely using the AI video tool Seedance 2.5. The film follows a contract killer whose final assignment is Death itself.\n\nRemarkably, no actors, sets, or cameras were used—every frame, performance, and line of dialogue is entirely AI-generated. The creator emphasizes that what distinguishes this film is the quality of the acting; micro-expressions, pauses, and line deliveries create convincing performances.\n\nAccording to the description, this marks a shift in how AI video is perceived—for the first time, the viewer stopped looking for glitches and focused instead on enjoying the film experience itself. A detailed breakdown covering prompts, workflow, and what makes Seedance 2.5 unique compared to other tools will be published separately.",
+   "deep": "Seedance 2.5, available through the Dreamina platform, represents a significant advancement in AI video generation. What particularly impresses Theoretically Media is the model's ability to create authentic acting performances through detailed control of facial expressions and voice delivery.\n\nThe film \"Death Walks Into A Bar\" features entirely AI-generated actors, meaning every movement, blink, and emotional expression is directed through text prompts. The model's strength lies in its subtlety—micro-expressions such as eye contact, lip movements, and pauses between dialogue create a sense of authenticity that previous AI videos often lacked.\n\nThe production workflow behind this project allowed writer and director Tim Simmons to iterate rapidly without booking actors or production locations. This democratizes filmmaking by enabling individual creators to produce high-concept narratives with limited budgets. Seedance 2.5 also enables fine-tuning of dialogue content and emotional nuance, something that has previously been difficult for generative video tools."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "Seedance 2.5 möter Minimax H3 i AI-videotestet",
   "meta": "AI Search · 2026-08-03",
   "plat": "Seedance 2.5",
   "url": "https://www.youtube.com/watch?v=Vpvne2istKg",
   "img": "https://img.youtube.com/vi/Vpvne2istKg/hqdefault.jpg",
   "more": "https://www.google.com/search?q=Seedance%202.5%20vs%20Minimax%20H3%20comparison",
   "feed": "",
-  "sum": "Två toppklassiga AI-videogeneratorer jämförs i omfattande test av sina förmågor.",
-  "full": "AI Search har testat två av marknadens ledande AI-videogeneratorer: Seedance 2.5 och Minimax H3. I videon demonstreras båda verktygen på allt från 3D-scener och animationer till musikvideor och kommersiella reklamsågor.\n\nTesterna täcker viktiga funktioner som multimodal input, instruktionsfoljning, sketch-to-animation och storyboard-konvertering. Båda plattformarna visar olika styrkor när det gäller rörelse, ljud och instruktionsförståelse. Videon avslutas med en detaljerad jämförelse av specifikationer, kostnad och tillgänglighet, där Minimax lyfts fram som open source-alternativ.",
-  "buzz": 98,
+  "sum": "Två ledande AI-videogeneratorer jämförs i omfattande test med fokus på multimodal funktionalitet, instruktionsföljning och kreativ output.",
+  "full": "En ny jämförelse mellan två av marknadens viktigaste AI-videogeneratorer – Seedance 2.5 och Minimax H3 – presenteras i ett omfattande test. Videon går igenom båda verktygen genom en rad olika kreativa uppdrag, från 3D-scener och animeringssekvenser till musikvideor och kommersiell motion graphics.\n\nFör kreatörer och videoproducenter är sådan här jämförelse viktig för att förstå vilka verktyg som fungerar bäst för specifika arbetsuppgifter. Testet täcker allt från grundläggande multimodal-funktionalitet till mer avancerade prompt-instruktioner, instruktionsföljning och hur väl verktygen hanterar komplexa kreativa begäran. Detta hjälper användare att välja rätt plattform för sina projekt.",
+  "buzz": 99,
   "cat": "film",
   "date": "2026-08-03T03:30:18Z",
   "chans": [
    "AI Search"
   ],
-  "deep": "Seedance 2.5 och Minimax H3 representerar den senaste generationen AI-videogeneratorer med avancerade multimodala kapaciteter. Seedance 2.5 levererar genom sitt förmåga att tolka komplexa instruktioner och omvandla statisk media – såsom skisser och storyboards – till animerad video med påtaglig rörelsekontroll. Systemet hanterar särskilt väl scener som kräver 3D-rum-förståelse och naturlig rörelse.\n\nMinImax H3 erbjuder ett konkurrerande alternativ med fokus på öppen källkod, vilket gör det tillgängligt för utvecklare och företag som söker anpassningsbarhet. I de jämförda scenerna visar både system deras styrkor: Seedance exceller inom kommersiell reklamproduktion och musikvideor med konsekvent rörelsegenomförande, medan Minimax erbjuder flexibilitet och låga driftskostnader.\n\nFör kreatörer är valet mellan dem beroende på arbetsflöde – Seedance passar snabba produktionscykler med höga kvalitetskrav, medan Minimax passar projekt med fokus på automation och kostnadskontroll. Båda plattformarna möjliggör professionell videoproduktion utan traditionell utrustning.",
+  "deep": "Jämförelsen mellan Seedance 2.5 och Minimax H3 fokuserar på flera kritiska områden för videoproduktion. Båda verktygen testas på sin förmåga att hantera multimodal input – alltså kombinationen av text, bild och andra format för att skapa video. Testet omfattar också hur väl verktygen följer detaljerade instruktioner, vilket är centralt för professionell videoproduktion.\n\nDe praktiska exemplen visar verktygens kapacitet över ett brett spektrum av kreativa uppgifter. Från att animera skisser och konvertera storyboards till färdiga kommersiella klipp, till att skapa motion graphics och musikvideor. Detta ger kreatörer en verklig bild av hur verktygen presterar på verkliga projekttyper.\n\nSpecifikationer och kostnad presenteras också för att hjälpa användare att fatta beslut baserat på sina budgetar och tekniska krav. Minimax presenteras även som open source-lösning, vilket kan vara relevant för utvecklare och organisationer som vill ha mer kontroll över sitt AI-setup. Sådana jämförelser är värdefulla eftersom AI-videogeneratorer utvecklas snabbt och prestanda förändras kontinuerligt.",
   "parts": [
    {
     "t": 23,
-    "l": "Multimodala funktioner",
-    "le": "Multimodal features"
+    "l": "Multimodal-funktioner och egenskaper",
+    "le": "Multimodal features and capabilities"
    },
    {
     "t": 54,
-    "l": "3D-scengenering",
-    "le": "3D scene generation"
+    "l": "3D-referens fightscen",
+    "le": "3D reference fight scene"
    },
    {
     "t": 199,
-    "l": "Instruktionsföljning",
-    "le": "Instruction following"
+    "l": "Test av instruktionsföljning",
+    "le": "Instruction following test"
    },
    {
     "t": 350,
-    "l": "Skiss till animering",
+    "l": "Skiss till animation",
     "le": "Sketch to animation"
    },
    {
     "t": 403,
-    "l": "Storyboard till reklam",
+    "l": "Storyboard till kommersiell",
     "le": "Storyboard to commercial"
+   },
+   {
+    "t": 452,
+    "l": "UI motion graphics-annons",
+    "le": "UI motion graphic ad"
    },
    {
     "t": 530,
@@ -82,105 +241,36 @@
     "t": 976,
     "l": "Specifikationer och kostnad",
     "le": "Specs and cost"
-   },
-   {
-    "t": 1143,
-    "l": "Minimax open source",
-    "le": "Minimax open source"
    }
   ],
   "en": {
-   "ttl": "Seedance 2.5 and Minimax H3 tested",
-   "sum": "Two leading AI video generators are compared in a comprehensive test of their capabilities.",
-   "full": "AI Search has tested two of the market's leading AI video generators: Seedance 2.5 and Minimax H3. The video demonstrates both tools on everything from 3D scenes and animations to music videos and commercial advertisements.\n\nThe tests cover important features such as multimodal input, instruction following, sketch-to-animation, and storyboard conversion. Both platforms show different strengths when it comes to motion, audio, and instruction understanding. The video concludes with a detailed comparison of specifications, cost, and availability, with Minimax highlighted as an open-source alternative.",
-   "deep": "Seedance 2.5 and Minimax H3 represent the latest generation of AI video generators with advanced multimodal capabilities. Seedance 2.5 delivers through its ability to interpret complex instructions and transform static media – such as sketches and storyboards – into animated video with tangible motion control. The system particularly handles scenes requiring 3D spatial understanding and natural movement.\n\nMinimax H3 offers a competing alternative with a focus on open source, making it accessible to developers and companies seeking customizability. In the compared scenes, both systems showcase their strengths: Seedance excels in commercial advertising production and music videos with consistent motion execution, while Minimax offers flexibility and low operational costs.\n\nFor creators, the choice between them depends on workflow – Seedance suits rapid production cycles with high quality requirements, while Minimax fits projects focused on automation and cost control. Both platforms enable professional video production without traditional equipment."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "Deepseek V4 Flash, Seedance 2.5 och Gemini Robotics lanseras",
-  "meta": "AI Search · 2026-08-02",
-  "plat": "Seedance 2.5",
-  "url": "https://www.youtube.com/watch?v=OrcBSpADCGk",
-  "img": "https://img.youtube.com/vi/OrcBSpADCGk/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Deepseek%20V4%20Flash%20Seedance%202.5%20AI%20news",
-  "feed": "",
-  "sum": "Flera stora AI-modeller och verktyg lanserades denna vecka, inklusive Deepseek V4 Flash, Seedance 2.5 för videogenerering och Google Gemini Robotics 2.",
-  "full": "En våg av nya AI-modeller och verktyg presenterades denna vecka. Deepseek lanserade V4 Flash 0731, en snabbare variant av sin språkmodell, medan ByteDance släppte Seedance 2.5 för videogenerering. Google presenterade Gemini Robotics 2, som fokuserar på helkroppsintelligens för robotar.\n\nFör kreatörer är Seedance 2.5 särskilt relevant eftersom det förbättrar möjligheten att generera högkvalitativ video. Ideogram introducerade även ett objektborttagningsverktyg som gör det enklare att redigera genererad bildinnehål. Dessa uppdateringar visar utvecklingen inom både text-, bild- och videogenerering.\n\nKreatörer kan börja experimentera med dessa nya verktyg genom att testa Seedance 2.5 via Higgsfield och utforska Ideograms nya objektborttagare för att optimera sitt kreativa arbetsflöde.",
-  "buzz": 99,
-  "cat": "film",
-  "date": "2026-08-02T03:26:23Z",
-  "chans": [
-   "AI Search"
-  ],
-  "deep": "Veckan präglades av flera betydelsefulla AI-releaser över olika domäner. Deepseek V4 Flash 0731 representerar en optimerad version av Deepseeks språkmodell, designad för snabbare inferens. Seedance 2.5 från ByteDance markerar ett steg framåt för videogenerering med förbättrad kvalitet och prestanda.\n\nIdeogram introducerade ett objektborttagningsverktyg som använder generativ AI för att ta bort oönskade element från bilder, en funktion som sparar tid för bildbearbetare och digitala konstärer. Minimax H3 är en ny modell som adresserar begränsningar i tidigare versioner.\n\nGoogle Gemini Robotics 2 är särskilt anmärkningsvärt för sitt fokus på helkroppsrörelse och motorisk intelligens för robotikapplika­tioner. Verktyg som Ideograms objektborttagare och uppdaterade videogeneringsmodeller gör det enklare för kreatörer att producera högkvalitativt innehål utan tidskrävande manuell bearbetning.\n\nDenna lanserings­våg visar tydlig framåtskridning inom språkmodeller, videosyntess och robotik, vilket öppnar nya möjligheter för både konsumenter och professionella användare.",
-  "parts": [
-   {
-    "t": 46,
-    "l": "ID V2V",
-    "le": "ID V2V"
-   },
-   {
-    "t": 248,
-    "l": "Deepseek V4 Flash lansering",
-    "le": "Deepseek V4 Flash release"
-   },
-   {
-    "t": 661,
-    "l": "Ideogram objektborttagare",
-    "le": "Ideogram object remover"
-   },
-   {
-    "t": 1006,
-    "l": "Seedance 2.5 videogenerering",
-    "le": "Seedance 2.5 video generation"
-   },
-   {
-    "t": 1144,
-    "l": "Minimax H3 modell",
-    "le": "Minimax H3 model"
-   },
-   {
-    "t": 1330,
-    "l": "Gemini Robotics 2 robot-AI",
-    "le": "Gemini Robotics 2 robot AI"
-   }
-  ],
-  "en": {
-   "ttl": "Deepseek V4 Flash, Seedance 2.5 and Gemini Robotics launched",
-   "sum": "Several major AI models and tools were released this week, including Deepseek V4 Flash, Seedance 2.5 for video generation, and Google Gemini Robotics 2.",
-   "full": "A wave of new AI models and tools were presented this week. Deepseek launched V4 Flash 0731, a faster variant of its language model, while ByteDance released Seedance 2.5 for video generation. Google introduced Gemini Robotics 2, focusing on whole-body intelligence for robots.\n\nFor creators, Seedance 2.5 is particularly relevant as it improves the ability to generate high-quality video. Ideogram also introduced an object removal tool that makes it easier to edit generated image content. These updates demonstrate progress across text, image, and video generation.\n\nCreators can begin experimenting with these new tools by testing Seedance 2.5 via Higgsfield and exploring Ideogram's new object remover to optimize their creative workflow.",
-   "deep": "The week was marked by several significant AI releases across different domains. Deepseek V4 Flash 0731 represents an optimized version of Deepseek's language model, designed for faster inference. Seedance 2.5 from ByteDance marks a step forward for video generation with improved quality and performance.\n\nIdeogram introduced an object removal tool that uses generative AI to remove unwanted elements from images, a feature that saves time for image editors and digital artists. Minimax H3 is a new model addressing limitations in previous versions.\n\nGoogle Gemini Robotics 2 is particularly noteworthy for its focus on whole-body movement and motor intelligence for robotics applications. Tools like Ideogram's object remover and updated video generation models make it easier for creators to produce high-quality content without time-consuming manual processing.\n\nThis wave of launches shows clear progress in language models, video synthesis, and robotics, opening new possibilities for both consumers and professional users."
+   "ttl": "Seedance 2.5 meets Minimax H3 in AI video comparison",
+   "sum": "Two leading AI video generators are compared in comprehensive testing focusing on multimodal functionality, instruction following, and creative output.",
+   "full": "A new comparison between two of the market's most important AI video generators – Seedance 2.5 and Minimax H3 – is presented in extensive testing. The video takes both tools through a range of creative assignments, from 3D scenes and animation sequences to music videos and commercial motion graphics.\n\nFor creators and video producers, this type of comparison is important for understanding which tools work best for specific tasks. The test covers everything from basic multimodal functionality to more advanced prompt instructions, instruction following, and how well the tools handle complex creative requests. This helps users choose the right platform for their projects.",
+   "deep": "The comparison between Seedance 2.5 and Minimax H3 focuses on several critical areas for video production. Both tools are tested on their ability to handle multimodal input – the combination of text, image, and other formats to create video. The test also covers how well the tools follow detailed instructions, which is central to professional video production.\n\nThe practical examples show the tools' capacity across a broad spectrum of creative tasks. From animating sketches and converting storyboards into finished commercial clips, to creating motion graphics and music videos. This gives creators a real picture of how the tools perform on actual project types.\n\nSpecifications and costs are also presented to help users make decisions based on their budgets and technical requirements. Minimax is also presented as an open-source solution, which may be relevant for developers and organizations that want more control over their AI setup. Such comparisons are valuable because AI video generators develop rapidly and performance changes continuously."
   }
  },
  {
   "tag": "mdl",
   "lab": "3D",
   "ico": "🧊",
-  "ttl": "Nvidia Cosmos Super 3 upstöter Seedance 2.5",
+  "ttl": "Nvidia Cosmos Super utmanar Seedance 2.5",
   "meta": "Curious Refuge · 2026-08-01",
-  "plat": "",
+  "plat": "Seedance 2.5",
   "url": "https://www.youtube.com/watch?v=2vSqzvonRts",
   "img": "https://img.youtube.com/vi/2vSqzvonRts/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Nvidia%20Cosmos%20Super%203%20world%20model%20AI",
+  "more": "https://www.google.com/search?q=Nvidia%20Cosmos%20Super%203D%20generation%20model",
   "feed": "",
-  "sum": "Nvidia presenterade Cosmos Super 3, en ny AI-modell för 3D-generering och världsmodellering som uppmärksammas tillsammans med andra nya kreativa AI-verktyg som Midjourney 8.2, LTX 2.3 och Adobe Wonder.",
-  "full": "Nvidia har lanserat Cosmos Super 3, en avancerad AI-modell för 3D-generering och världsmodellering som fångar uppmärksamhet i kreativ AI-scenen. Modellen presenteras tillsammans med andra betydande uppdateringar inom området, däribland Midjourney 8.2, LTX 2.3 med nya funktioner för Clean Plate och Relight, samt Adobe Wonder för världsmodellering.\n\n Cosmos Super 3 är särskilt relevant för kreatörer som arbetar med 3D-innehål, simuleringar och virtuell världsbygge. Tillsammans med verktyg som InSpatio Gaussian Splat, Pixverse Depth Map-kontroller och Grok Imagine Omni-videomodellen utgör dessa uppdateringar en uppsättning resurser för att producera avancerat visuellt innehål.\n\n Kreatörer kan använda dessa verktyg för att generera 3D-världar, bearbeta videomaterial med nya redigeringsfunktioner och skapa högkvalitativt innehål snabbare än tidigare möjligt.",
+  "sum": "Nvidia har lanserat Cosmos Super, en ny 3D-generatormodell som enligt videon upstår Seedance 2.5 och andra befintliga verktyg.",
+  "full": "Nvidia har presenterat Cosmos Super, en ny 3D-genereringsmodell som enligt Curious Refuge får uppmärksamhet för sina kapaciteter inom 3D-visualisering. Modellen positioneras som ett alternativ till befintliga verktyg som Seedance 2.5.\n\nUtöver Nvidia Cosmos Super täcker videon även andra betydande uppdateringar inom AI-verktyg för kreativa yrkesutövare. Bland annat presenteras Adobe Wonder (en världsmodell), Midjourney 8.2 med förbättringar, LTX 2.3 med nya funktioner för Clean Plate och relighting, samt Grok Imagine Omni Video Model. Dessa uppdateringar illustrerar en snabb utveckling inom generativ AI för film, bild och 3D.\n\nFör kreatörer innebär denna utveckling fler alternativ för att generera 3D-innehål, videor och bilder med ökad kontroll och kvalitet. Dessa verktyg kan användas för att skapa visuella effekter, världmodeller och specialeffekter utan att behöva traditionella produktionsmetoder.",
   "buzz": 91,
   "cat": "3d",
   "date": "2026-08-01T20:24:15Z",
   "chans": [
    "Curious Refuge"
   ],
-  "deep": "Nvidia Cosmos Super 3 representerar ett framsteg inom världsmodelleringsteknik för AI. Världsmodeller är neurala nätverk tränade för att förstå och simulera fysiska lagar, miljöer och objekt i 3D-rum. Cosmos Super 3 möjliggör generering av konsistenta virtuella världar med realistiska fysiksimuleringar, vilket är kritiskt för både spelutveckling och filmproduktion.\n\n Tillsammans med LTX 2.3-uppdateringarna (Clean Plate för bakgrundsrelatering och Relight för ombelysning) och Pixverse Depth Map-kontroller har kreatörer nu mogna verktyg för att manipulera videoprodukter på djupare nivåer. Clean Plate-funktionen låter användare ta bort objekt från videosekvenser automatiskt, medan Relight möjliggör förändring av ljussättning i befintlig videomaterial utan att filma om.\n\n Adobe Wonder fokuserar också på världsmodellering med fokus på att skapa 3D-världar från text eller bilder. Tillsammans med Midjourney 8.2:s förbättringar inom bildgenerering och Grok Imagine Omni:s nya videomodell skapar dessa verktyg ett rikare ekosystem för 3D-skapande, världsbygge och videoredigering. InSpatio Gaussian Splat bidrar med teknik för effektiv 3D-representation baserad på gaussiska splattar, en modern teknik för snabb 3D-rendering.",
+  "deep": "Videon behandlar flera framsteg inom generativ AI under en viss tidsperiod. Nvidia Cosmos Super 3 presenteras som en betydande utveckling inom 3D-generering, en teknik som automatiserar skapandet av tredimensionell geometri och miljöer från text eller bilder. Detta är relevant för kreatörer eftersom det reducerar tiden från koncept till slutlig 3D-modell.\n\nLTX 2.3 uppdateringar introducerar två specifika funktioner: Clean Plate gör det möjligt att ta bort objekt från videor genom AI, medan Relight låter användare ändra ljussättningen i redan befintliga videosekvenser utan att behöva inspela om. Dessa verktyg är kritiska för post-produktion och VFX-arbete.\n\nMidjourney 8.2 fortsätter utvecklingen av bildgenereringen med förbättringar i prompt-förståelse och output-kvalitet. Adobe Wonder introducerar världsmodeller – AI som kan förstå och generera konsistenta 3D-världar från 2D-input, en teknologi som potentiellt kan revolutionera hur virtuella miljöer skapas för film och spel.\n\nGrok Imagine Omni Video Model representerar ett steg mot omni-modala AI-system som kan arbeta över text, bild och video i en enda ram. Detta möjliggör sömlös konvertering mellan medietyper och reducerar behovet av att växla mellan flera specialiserade verktyg för olika steg i en kreatörs arbetsflöde.",
   "parts": [
-   {
-    "t": 0,
-    "l": "Intro",
-    "le": "Intro"
-   },
    {
     "t": 28,
     "l": "InSpatio Gaussian Splat",
@@ -203,8 +293,8 @@
    },
    {
     "t": 1123,
-    "l": "LTX 2.3 Relight-funktion",
-    "le": "LTX 2.3 Relight feature"
+    "l": "LTX 2.3 Relight",
+    "le": "LTX 2.3 Relight"
    },
    {
     "t": 1304,
@@ -213,37 +303,42 @@
    },
    {
     "t": 1775,
-    "l": "Grok Imagine Omni-videomodell",
-    "le": "Grok Imagine Omni video model"
+    "l": "Grok Imagine Omni Video",
+    "le": "Grok Imagine Omni Video"
+   },
+   {
+    "t": 1898,
+    "l": "Vecko-sammanfattning AI-filmer",
+    "le": "Weekly AI films roundup"
    }
   ],
   "en": {
-   "ttl": "Nvidia Cosmos Super 3 Overshadows Seedance 2.5",
-   "sum": "Nvidia unveiled Cosmos Super 3, a new AI model for 3D generation and world modeling, garnering attention alongside other major creative AI tool updates including Midjourney 8.2, LTX 2.3, and Adobe Wonder.",
-   "full": "Nvidia has launched Cosmos Super 3, an advanced AI model for 3D generation and world modeling that is drawing significant attention in the creative AI landscape. The model is presented alongside other major updates in the field, including Midjourney 8.2, LTX 2.3 with new Clean Plate and Relight features, and Adobe Wonder for world modeling.\n\n Cosmos Super 3 is particularly relevant for creators working with 3D content, simulations, and virtual world building. Together with tools like InSpatio Gaussian Splat, Pixverse Depth Map controls, and the Grok Imagine Omni video model, these updates comprise a comprehensive toolkit for producing advanced visual content. These tools enable faster creation of high-quality materials than previously possible.\n\n Creators can leverage these tools to generate 3D worlds, process video footage with new editing capabilities, and produce professional-grade content more efficiently. The convergence of world modeling, video enhancement, and 3D generation tools represents a maturation of AI-assisted creative production across multiple disciplines.",
-   "deep": "Nvidia Cosmos Super 3 represents an advancement in world modeling technology for AI. World models are neural networks trained to understand and simulate physical laws, environments, and objects in 3D space. Cosmos Super 3 enables generation of consistent virtual worlds with realistic physics simulations, which is critical for both game development and film production.\n\n Alongside the LTX 2.3 updates (Clean Plate for background removal and Relight for re-illumination) and Pixverse Depth Map controls, creators now have mature tools to manipulate video productions at deeper levels. The Clean Plate feature allows automatic removal of objects from video sequences, while Relight enables changing lighting in existing video footage without reshooting.\n\n Adobe Wonder similarly focuses on world modeling with an emphasis on creating 3D worlds from text or images. Combined with Midjourney 8.2's improvements in image generation and Grok Imagine Omni's new video model, these tools create a richer ecosystem for 3D creation, world building, and video editing. InSpatio Gaussian Splat contributes with efficient 3D representation technology based on gaussian splatting, a modern technique for rapid 3D rendering. Together, these platforms address a full spectrum of creative production needs from ideation through final output."
+   "ttl": "Nvidia Cosmos Super Upstages Seedance 2.5",
+   "sum": "Nvidia has launched Cosmos Super, a new 3D generation model that according to the video supersedes Seedance 2.5 and other existing tools.",
+   "full": "Nvidia has presented Cosmos Super, a new 3D generation model that according to Curious Refuge is gaining attention for its capabilities in 3D visualization. The model is positioned as an alternative to existing tools like Seedance 2.5.\n\nBeyond Nvidia Cosmos Super, the video also covers other significant updates within AI tools for creative professionals. These include Adobe Wonder (a world model), Midjourney 8.2 with improvements, LTX 2.3 with new features for Clean Plate and relighting, and Grok Imagine Omni Video Model. These updates illustrate rapid development in generative AI for film, image, and 3D.\n\nFor creators, this development means more options for generating 3D content, videos, and images with increased control and quality. These tools can be used to create visual effects, world models, and special effects without relying on traditional production methods.",
+   "deep": "The video covers several advances in generative AI within a certain timeframe. Nvidia Cosmos Super 3 is presented as a significant development in 3D generation, a technology that automates the creation of three-dimensional geometry and environments from text or images. This is relevant for creators because it reduces the time from concept to final 3D model.\n\nLTX 2.3 updates introduce two specific features: Clean Plate allows removing objects from videos through AI, while Relight lets users change the lighting in existing video sequences without needing to reshoot. These tools are critical for post-production and VFX work.\n\nMidjourney 8.2 continues advancing image generation with improvements in prompt understanding and output quality. Adobe Wonder introduces world models – AI that can understand and generate consistent 3D worlds from 2D input, a technology that could potentially revolutionize how virtual environments are created for film and games.\n\nGrok Imagine Omni Video Model represents a step toward omni-modal AI systems that can work across text, image, and video in a single framework. This enables seamless conversion between media types and reduces the need to switch between multiple specialized tools for different steps in a creator's workflow."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Seedance 2.5 lanserad – större AI-videosprång än tidigare",
+  "ttl": "Seedance 2.5 lanserats – större språng än tidigare",
   "meta": "AI Samson · 2026-08-01",
   "plat": "Seedance 2.5",
   "url": "https://www.youtube.com/watch?v=VBtMLBDIbx8",
   "img": "https://img.youtube.com/vi/VBtMLBDIbx8/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generation%20features",
+  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generation%20release",
   "feed": "",
-  "sum": "Seedance 2.5 är här och levererar enligt recensenten det största språnget inom AI-videogenerering hittills, med förbättringar i realism, karaktärkonsistens och professionella filmmaking-funktioner.",
-  "full": "Seedance 2.5 har lanserats och enligt AI Samson representerar uppdateringen ett större tekniskt språng än vad vi tidigare sett inom AI-videogenerering. Versionen fokuserar på realism, karaktärkonsistens och cinematisk kamerarörelser, samt introducerar nya professionella filmmaking-funktioner.\n\nDen nya versionen inkluderar multi-referens-arbetsflöden, förbättrad audio-referensstöd för musikvideor, white model-kontroller för mer precis animation, och grönscreen-redigeringsfunktioner. Uppdateringen adresserar också emotionell prestandakontroll och storyboard-arbetsflöden för komplex animation, vilket gör verktyget mer användbart för professionella videokreatörer.\n\nEnligt genomgången finns dock fortfarande begränsningar där modellen inte fullt når sitt potentiale, men de nya funktionerna representerar ett betydande steg framåt för AI-videoproduktion.",
+  "sum": "Seedance 2.5 presenteras som ett betydande framsteg för AI-videogenerering med förbättrad realism, karaktärkonsistens och professionella filmfunktioner.",
+  "full": "Seedance 2.5 har lanserats och beskrivs som det största steget framåt inom AI-videoteknik hittills. Uppdateringen fokuserar på ökad realism, förbättrad karaktärkonsistens, cinmatiska kameraörelser och professionella filmningsfunktioner som white model-kontroller och grönscreeneditörer.\n\nFör kreatörer erbjuder Seedance 2.5 nya möjligheter inom musikvideoproduktion, storyboardarbetsflöden och referensbaserad videogenerering. Plattformen kombinerar AI-videoskapande med verktyg för emotionell prestandakontroll och avancerad kamerateknologi.\n\nAnvändare kan nu generera videos med bättre acting, förlängningskapacitet och möjlighet att integrera reella filmsekvenser tillsammans med AI-genererat material. Recensionen visar dock också var modellen fortfarande har begränsningar.",
   "buzz": 93,
   "cat": "film",
   "date": "2026-08-01T05:41:58Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "Seedance 2.5 introducerar flera betydande förbättringar för videoskapare. Realism och karaktärkonsistens är starkt fokuserade områden, med möjlighet till \"ultra realistic acting\" enligt titeln. Cinematiska kamerarörelser är integrerade för att möjliggöra mer professionell filmstil, vilket är kritiskt för videokreatörer som vill efterlikna tradionell filmproduktion.\n\nDen nya versionen stöder multi-referens-arbetsflöden, vilket tillåter användare att kombinera flera visuella referenser för bättre kontroll över output. Audio-referensstöd för musikvideor är en viktig tilläggning, vilket gör det möjligt att synkronisera video med existerande musik eller ljud. White model-kontroller ger precis animation-styrning, och grönscreen-redigeringsfunktioner möjliggör compositing-arbete.\n\nEmotionell prestandakontroll är en sofistikerad funktion som låter kreatörer styra karaktärernas emotionella uttryck mer noggrant. Storyboard-arbetsflöden för komplex animation gör det möjligt att planera och generera längre, mer narrativa videohjälpmedel. Videon visar också exempel på video-förlängning och AI-video/VFX-redigering, vilket expanderar användningsområdena.\n\nEnligt recensionen finns dock fortfarande begränsningar, vilket indikerar att modellen inte är perfekt för alla professionella användningsfall ännu. Trots detta representerar 2.5 ett märkbart framsteg gentemot tidigare versioner, särskilt för kreatörer som behöver högre realism och mer kontroll över sina videoresultat.",
+  "deep": "Seedance 2.5 introducerar flera betydande förbättringar jämfört med tidigare versioner. Plattformen fokuserar på ökad visuell realism, särskilt när det gäller skådespelarprestationer och karaktärens konsistens genom videosekvenser. De cinmatiska kameraorörelserna möjliggör mer professionell filmestetik, vilket tidigare varit en begränsning för AI-videogenerering.\n\nUppdateringen innehåller nya referensbaserade arbetsflöden som låter kreatörer styra generering genom multiple visuella references. White model-kontroller ger finare justering av prestationer och emotionell uttryck, medan grönscreen-funktionalitet möjliggör integrering av AI-genererat material med verklig videofotografering.\n\nFunktioner som storyboard-arbetsflöden, videotillägg och musikvideospecifika verktyg positionerar Seedance 2.5 för professionell produktion. Plattformen stöder även integrering av ljudreferenser för synkroniserad videogenerering, vilket öppnar möjligheter för musikalisk innehållsskapning.\n\nEnligt recensionen visar modellen dock fortfarande begränsningar, och kreatörer behöver förstå både dess styrkor och svaga punkter för optimal användning i professionella arbetsflöden.",
   "parts": [
    {
     "t": 0,
@@ -257,221 +352,275 @@
    },
    {
     "t": 218,
-    "l": "Cinematisk kamerarörelser",
+    "l": "Cinmatiska kameraörelser",
     "le": "Cinematic Camera Movement"
    },
    {
     "t": 255,
-    "l": "Vad är nytt i 2.5",
+    "l": "Nyheter i Seedance 2.5",
     "le": "What's New in Seedance 2.5"
    },
    {
-    "t": 299,
-    "l": "Multi-referens arbetsflöden",
-    "le": "Multi-Reference Workflows"
+    "t": 369,
+    "l": "AI-videoredigering och VFX",
+    "le": "AI Video Editing & VFX"
    },
    {
     "t": 493,
-    "l": "Professionella filmmaking-funktioner",
+    "l": "Professionella filmfunktioner",
     "le": "Professional Filmmaking Features"
    },
    {
-    "t": 536,
-    "l": "White model arbetsflöden",
-    "le": "White Model Workflows"
+    "t": 573,
+    "l": "Grönscreen-teknik",
+    "le": "Green Screen Editing"
    },
    {
     "t": 732,
-    "l": "Storyboards och animationsarbetsflöde",
+    "l": "Storyboards och animering",
     "le": "Storyboards & Complex Animation"
    }
   ],
   "en": {
-   "ttl": "Seedance 2.5 Launched – Biggest AI Video Leap Yet",
-   "sum": "Seedance 2.5 is now available and represents the largest leap in AI video generation seen so far, featuring improvements in realism, character consistency, and professional filmmaking capabilities.",
-   "full": "Seedance 2.5 has been released and according to AI Samson's review, the update represents a larger technological leap than previously seen in AI video generation. The version focuses on realism, character consistency, and cinematic camera movements, while introducing new professional filmmaking features.\n\nThe new version includes multi-reference workflows, improved audio reference support for music videos, white model controls for precise animation, and green screen editing capabilities. The update also addresses emotional performance control and storyboard workflows for complex animation, making the tool more useful for professional video creators.\n\nAccording to the review, there are still limitations where the model doesn't fully achieve its potential, but the new features represent a significant step forward for AI video production.",
-   "deep": "Seedance 2.5 introduces several significant improvements for video creators. Realism and character consistency are strongly emphasized areas, with capability for \"ultra realistic acting\" as mentioned. Cinematic camera movements are integrated to enable more professional filmmaking style, which is critical for creators wanting to emulate traditional film production.\n\nThe new version supports multi-reference workflows, allowing users to combine multiple visual references for better control over output. Audio reference support for music videos is an important addition, enabling synchronization of video with existing music or sound. White model controls provide precise animation steering, and green screen editing capabilities enable compositing work.\n\nEmotional performance control is a sophisticated feature that lets creators manage character emotional expression more granularly. Storyboard workflows for complex animation enable planning and generating longer, more narrative video assets. The video also showcases examples of video extension and AI video/VFX editing, which expands use cases.\n\nAccording to the review, there are still limitations, indicating the model isn't perfect for all professional use cases yet. Despite this, 2.5 represents a notable advancement from previous versions, particularly for creators needing higher realism and more control over their video outputs."
+   "ttl": "Seedance 2.5 Launches – Biggest Leap Yet",
+   "sum": "Seedance 2.5 is presented as a significant breakthrough for AI video generation with improved realism, character consistency, and professional filmmaking features.",
+   "full": "Seedance 2.5 has launched and is described as the largest leap forward in AI video technology so far. The update focuses on increased realism, improved character consistency, cinematic camera movements, and professional filming features such as white model controls and green screen editors.\n\nFor creators, Seedance 2.5 offers new possibilities in music video production, storyboard workflows, and reference-based video generation. The platform combines AI video creation with tools for emotional performance control and advanced camera techniques.\n\nUsers can now generate videos with better acting, extension capabilities, and the ability to integrate real film footage together with AI-generated material. The review also demonstrates where the model still has limitations.",
+   "deep": "Seedance 2.5 introduces several significant improvements compared to previous versions. The platform focuses on increased visual realism, particularly regarding actor performances and character consistency throughout video sequences. The cinematic camera movements enable more professional film aesthetics, which has previously been a limitation for AI video generation.\n\nThe update includes new reference-based workflows that allow creators to control generation through multiple visual references. White model controls provide finer adjustment of performances and emotional expression, while green screen functionality enables integration of AI-generated material with real video footage.\n\nFeatures such as storyboard workflows, video extension, and music video-specific tools position Seedance 2.5 for professional production. The platform also supports audio reference integration for synchronized video generation, opening possibilities for musical content creation.\n\nAccording to the review, the model still demonstrates limitations, and creators need to understand both its strengths and weaknesses for optimal use in professional workflows."
   }
  },
  {
   "tag": "mdl",
   "lab": "Ljud",
   "ico": "🎵",
-  "ttl": "ChatGPT får röstfunktion på alla plattformar",
+  "ttl": "ChatGPT lanserar ny röstfunktion för webben",
   "meta": "The AI Advantage · 2026-08-01",
   "plat": "ChatGPT Images 2.0",
   "url": "https://www.youtube.com/watch?v=UIKgq0LBfws",
   "img": "https://img.youtube.com/vi/UIKgq0LBfws/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=ChatGPT%20new%20voice%20mode%20feature%202024",
+  "more": "https://www.google.com/search?q=ChatGPT%20new%20voice%20mode%202024",
   "feed": "",
-  "sum": "OpenAI har lanserat uppdaterad röstläge för ChatGPT på webben, mobil och skrivbord, vilket gör det möjligt att interagera med AI utan att använda tangentbordet.",
-  "full": "OpenAI har lanserat en uppdaterad röstfunktion för ChatGPT som är nu tillgänglig på webben, mobilappar och skrivbordsversioner. Funktionen möjliggör röstkonversation med AI-assistenten utan att behöva skriva, vilket kan spara tid och öka produktiviteten för användare.\n\nUppdateringen är relevant för kreatörer och yrkesverksamma som vill arbeta mer effektivt genom röstinteraktion. Förutom ChatGPT:s uppdatering presenteras även andra AI-lanseringar denna vecka, inklusive Anthropics Economic Index-plugin och Claude:s egna röstuppdateringar.\n\nAnvändare kan nu helt enkelt tala med ChatGPT för att få hjälp med arbetsuppgifter, brainstorming och problemlösning över flera enheter.",
-  "buzz": 93,
+  "sum": "OpenAI presenterar uppdaterad röstläge för ChatGPT som fungerar på webben, mobilen och desktop och gör det möjligt att använda AI utan att skriva.",
+  "full": "OpenAI har lanserat en uppdaterad version av sin röstfunktion för ChatGPT som nu är tillgänglig på webben, mobilappar och desktop. Uppdateringen möjliggör helt handsfree-interaktion med AI:n och gör det enklare för användare att få arbete gjort utan att använda tangentbordet.\n\nI samma veva presenterar Anthropic sin Economic Index-plugin som kan kopplas till Claude, samt uppdateringar till Claudes egen röstläge. Dessa utvecklingar visar hur AI-assistenter alltmer fokuserar på röstbaserad interaktion för att göra AI mer tillgänglig och användarvänlig i dagliga arbetsflöden.",
+  "buzz": 94,
   "cat": "ljud",
   "date": "2026-08-01T01:23:31Z",
   "chans": [
    "The AI Advantage"
   ],
-  "deep": "ChatGPT:s nya röstläge representerar en betydande uppdatering för användarupplevelsen. Funktionen är nu konsekvent implementerad på webben, iOS-, Android- och skrivbordsklienter, vilket säkerställer att användare kan växla mellan enheter utan att missa funktionalitet.\n\nRöstinteraktion möjliggör en mer naturlig arbetsflöde för användare som behöver hålla händerna fria eller föredrar att tala snarare än att skriva. Detta kan vara särskilt värdefullt för brainstorming, kodgenering, skrivande och andra kreativa uppgifter där tankeflödet kanske störs av att behöva skriva.\n\nI samma veckouppdatering introducerar Anthropic sin Economic Index-plugin, som ger Claude möjlighet att leverera ekonomisk information i realtid. Claude:s egen röstfunktion får också uppdateringar, även om denna är mindre omfattande än ChatGPT:s erbjudande. Dessa röstuppdateringar från flera AI-leverantörer indikerar ett växande fokus på multimodal interaktion och handsfree-användning av AI-assistenter.",
+  "deep": "ChatGPT:s nya röstfunktion representerar en betydande utveckling inom konversationell AI. Uppdateringen gör det möjligt för användare att interagera med AI helt genom tal, vilket eliminerar behovet av skrift och gör systemet mer naturligt och snabbare för många arbetsuppgifter. Funktionen är nu integrated across multiple platforms – webversionen, mobila applikationer och desktopklienter – vilket säkerställer en konsekvent upplevelse oavsett enhet.\n\nParallellt har Anthropic introducerat sin Economic Index-plugin för Claude, som kan ge ekonomisk och affärsinformation direkt inom Claude. Detta kompletteras med uppdateringar till Claudes egna röstkapaciteter, vilket visar att röstbaserad AI blir allt viktigare för AI-assistenter generellt.\n\nFörtecknandet av dessa röstuppdateringar indikerar en branschtrend där röst blir ett kritiskt gränssnitt för AI-interaktion. För användare innebär detta snabbare arbetsflöden och mer naturlig kommunikation med AI, särskilt för multitasking-scenarier där inskrivning inte är praktisk. Det öppnar också nya möjligheter för tillgänglighet för personer med olika funktionsvariationer.",
   "parts": [],
   "en": {
-   "ttl": "ChatGPT Gets Voice Mode Across All Platforms",
-   "sum": "OpenAI has launched an updated voice mode for ChatGPT available on web, mobile, and desktop, enabling users to interact with the AI without typing.",
-   "full": "OpenAI has launched an updated voice mode for ChatGPT that is now available on web browsers, mobile apps, and desktop versions. The feature enables voice conversations with the AI assistant without requiring users to type, potentially saving time and increasing productivity for users.\n\nThe update is relevant for creators and professionals looking to work more efficiently through voice interaction. Beyond ChatGPT's update, other AI releases are featured this week, including Anthropic's Economic Index plugin and Claude's own voice updates.\n\nUsers can now simply speak with ChatGPT to get help with work tasks, brainstorming, and problem-solving across multiple devices.",
-   "deep": "ChatGPT's new voice mode represents a significant update to the user experience. The feature is now consistently implemented across web, iOS, Android, and desktop clients, ensuring users can switch between devices without losing functionality.\n\nVoice interaction enables a more natural workflow for users who need to keep their hands free or prefer speaking over typing. This can be particularly valuable for brainstorming, code generation, writing, and other creative tasks where thought flow might be disrupted by the need to type.\n\nIn the same week's update, Anthropic introduces its Economic Index plugin, giving Claude the ability to deliver real-time economic information. Claude's own voice function also receives updates, though this offering is less comprehensive than ChatGPT's. These voice updates from multiple AI vendors indicate a growing focus on multimodal interaction and hands-free use of AI assistants."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "Seedance 2.5 imponerar men har begränsningar",
-  "meta": "Curious Refuge · 2026-07-31",
-  "plat": "Seedance 2.5",
-  "url": "https://www.youtube.com/watch?v=xjyuNokwAPw",
-  "img": "https://img.youtube.com/vi/xjyuNokwAPw/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generator%20review",
-  "feed": "",
-  "sum": "En video granskar Dreamina Seedance 2.5, en AI-videogenerator som levererar högkvalitativ visuell output men med vissa nackdelar.",
-  "full": "Curious Refuge granskar Dreamina Seedance 2.5, en AI-videogenerator som marknadsförs för att producera filmiska och professionella visuella effekter. Verktyget är utformat för att skapa högkvalitativa videoinnehåll med kraftfull prestanda.\n\nI videon presenteras både styrkor och svagheter med Seedance 2.5. Recensenten ger sin ärliga bedömning av verktyget och hur det fungerar i praktisk tillämpning för videokreatörer. Seedance 2.5 framstår som ett kapabelt verktyg för AI-videogenerering, men har enligt titeln även begränsningar som är värda att känna till innan man investerar tid och resurser.",
-  "buzz": 93,
-  "cat": "film",
-  "date": "2026-07-31T21:50:24Z",
-  "chans": [
-   "Curious Refuge"
-  ],
-  "deep": "Seedance 2.5 är en AI-videogenereringsplattform under Dreamina som fokuserar på att producera högkvalitativa visuella innehåll för kreativa yrkesutövare. Plattformen marknadsförs som en professionell lösning med filmiska resultat och högkvalitativ estetik.\n\nRecensionen från Curious Refuge belyser att medan Seedance 2.5 levererar imponerade resultat inom vissa områden – särskilt när det gäller visuell kvalitet och estetiska utföranden – finns det betydande begränsningar som gör det mindre lämpligt för vissa användningsfall. Dessa begränsningar kan omfatta aspekter som renderingstid, kostnad, begränsningar i anpassningsalternativ eller outputkvalitet under vissa scenarier.\n\nFör YouTubers och videokreatörer är Seedance 2.5 relevant eftersom det erbjuder automatiserad videoöversättning och generering, vilket kan påskynda produktionsprocessen. Verktyget integreras med CapCut, en populär videoredigeringslösning, vilket förenklar arbetsflödet för innehållsskapare som redan använder den plattformen.\n\nDen kritiska bedömningen från Curious Refuge är värdefull för potentiella användare som överväger att adoptera Seedance 2.5 som en del av sin kreativa process. Recensionen hjälper kreatörer att förstå när verktyget exceller och när det kan komma till kort, vilket möjliggör mer informerade beslut om investeringar i AI-videogenereringsverktyg.",
-  "parts": [],
-  "en": {
-   "ttl": "Seedance 2.5 Impresses but Has Limitations",
-   "sum": "A video reviews Dreamina Seedance 2.5, an AI video generator that delivers high-quality visual output but with certain drawbacks.",
-   "full": "Curious Refuge examines Dreamina Seedance 2.5, an AI video generator marketed to produce cinematic and professional visual effects. The tool is designed to create high-quality video content with powerful performance capabilities.\n\nThe video presents both strengths and weaknesses of Seedance 2.5. The reviewer provides an honest assessment of the tool and how it functions in practical application for video creators. Seedance 2.5 appears to be a capable AI video generation tool, but according to the title, it also has limitations worth knowing about before investing time and resources.",
-   "deep": "Seedance 2.5 is an AI video generation platform under Dreamina that focuses on producing high-quality visual content for creative professionals. The platform is marketed as a professional solution with cinematic results and premium aesthetics.\n\nThe review from Curious Refuge highlights that while Seedance 2.5 delivers impressive results in certain areas – particularly regarding visual quality and aesthetic execution – there are significant limitations that make it less suitable for certain use cases. These limitations may encompass aspects such as rendering time, cost, customization constraints, or output quality under specific scenarios.\n\nFor YouTubers and video creators, Seedance 2.5 is relevant because it offers automated video generation and translation, which can accelerate the production process. The tool integrates with CapCut, a popular video editing solution, which simplifies the workflow for content creators already using that platform.\n\nThe critical assessment from Curious Refuge is valuable for potential users considering adopting Seedance 2.5 as part of their creative process. The review helps creators understand when the tool excels and where it may fall short, enabling more informed decisions about investing in AI video generation tools."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "AI-karaktärer: Vilka metoder fungerar verkligen?",
-  "meta": "Theoretically Media · 2026-07-31",
-  "plat": "Recraft V4.1",
-  "url": "https://www.youtube.com/watch?v=X-rlr3k-2TI",
-  "img": "https://img.youtube.com/vi/X-rlr3k-2TI/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=AI%20character%20sheet%20consistency%20techniques%20tested",
-  "feed": "",
-  "sum": "Youtuber testar olika tekniker för konsistenta AI-genererade karaktärer och avslöjar vilka verkligen fungerar.",
-  "full": "I en ny video undersöker Theoretically Media vilka metoder som faktiskt fungerar för att skapa konsistenta AI-karaktärer. Kanalen testar systematiskt olika ansatser: video-turnaround-tricket för 360-graders karaktärark, maskeringsteknik med svartade ansikten, och jämförelser mellan first-frame och omni-workflows.\n\nDen praktiska demonstrationen använder Recraft och följer skapandet av en ny vampyrjäger-karaktär kallad Mercy från början till slut. Resultaten visar vilka metoder som faktiskt påverkar resultatet och vilka bara slösar krediter. Videon kombinerar teknisk vägledning med faktahistoria om den verkliga Mercy Brown från 1892, och erbjuder konkreta tips för kreatörer som arbetar med AI-karaktärgenerering.",
-  "buzz": 93,
-  "cat": "film",
-  "date": "2026-07-31T19:33:04Z",
-  "chans": [
-   "Theoretically Media"
-  ],
-  "deep": "Videon granskar djupt tre huvudmetoder för karaktärkonsistens. Den 360-graders video-turnaround-metoden använder ett enkelt prompt för att generera en karaktär ur alla vinklar, vilket erbjuder ett kostnadsfritt sätt att skapa referensmaterial. Maskeringsteknik—där ansikten svärtas ut i referensbilder—undersöks för att se om det faktiskt förbättrar resultaten eller bara är ett myt som kreatörer tror på.\n\nFirst-frame versus omni-workflow-jämförelsen är särskilt intressant, då den visar hur valet av modell och arbetsflöde påverkar slutresultatet. Theoretically Media demonstrerar detta genom att följa samma karaktär genom olika system. Videon identifierar konkret vilka aspekter som har verklig påverkan på konsistensen och varnar mot metoder som bara slösar användarkrediter utan mätbar effekt.\n\nDen historiska kontexten om Mercy Brown från 1892—påstått att vara Amerikas sista vampyrdom—lägger en kulturell dimension till karaktärdesignen. Denna blandning av praktisk AI-guidance med historisk kontext gör videon värdefull både för teknisk läring och kreativ inspiration.",
-  "parts": [
-   {
-    "t": 0,
-    "l": "Intro: Varför karaktärkonsistens spelar roll",
-    "le": "Intro: Why Character Consistency Matters"
-   },
-   {
-    "t": 38,
-    "l": "Från seed-locking till karaktärark",
-    "le": "From Seed Locking to Character Sheets"
-   },
-   {
-    "t": 63,
-    "l": "Recraft-setup och dark mode",
-    "le": "Recraft Setup and Dark Mode"
-   },
-   {
-    "t": 247,
-    "l": "360-graders video-karaktärtrick",
-    "le": "The 360 Video Character Trick"
-   },
-   {
-    "t": 363,
-    "l": "Maskeringsteknik förklarad",
-    "le": "Blotting Out Faces Technique"
-   },
-   {
-    "t": 474,
-    "l": "Resultaten: Skillnad eller inte?",
-    "le": "Did It Make A Difference?"
-   },
-   {
-    "t": 495,
-    "l": "Förhindra modellöverlagring",
-    "le": "Preventing Model Bleed"
-   },
-   {
-    "t": 566,
-    "l": "Recrafts särskilda förmågor",
-    "le": "Exploring Recraft's Superpowers"
-   }
-  ],
-  "en": {
-   "ttl": "AI Characters: Which Methods Actually Work?",
-   "sum": "YouTuber tests various techniques for consistent AI-generated characters and reveals which ones truly deliver results.",
-   "full": "In a new video, Theoretically Media systematically examines which methods actually work for creating consistent AI characters. The channel tests different approaches head-to-head: the video-turnaround trick for 360-degree character sheets, masking techniques with blacked-out faces, and comparisons between first-frame and omni workflows.\n\nThe practical demonstration uses Recraft and follows the creation of a new vampire-hunting character called Mercy from scratch. The results show which methods meaningfully impact consistency and which merely waste credits. The video combines technical guidance with historical facts about the real Mercy Brown from 1892, and offers concrete tips for creators working with AI character generation.",
-   "deep": "The video deeply examines three primary methods for character consistency. The 360-degree video-turnaround method uses a single prompt to generate a character from all angles, offering a cost-free way to create reference materials. The masking technique—where faces are blacked out in reference images—is investigated to determine whether it genuinely improves results or represents a myth creators believe in.\n\nThe first-frame versus omni-workflow comparison is particularly revealing, demonstrating how model choice and workflow selection affect final results. Theoretically Media demonstrates this by following the same character through different systems. The video concretely identifies which aspects meaningfully impact consistency while warning against methods that merely waste user credits without measurable effect.\n\nThe historical context of Mercy Brown from 1892—allegedly America's last vampire case—adds a cultural dimension to the character design. This blend of practical AI guidance with historical context makes the video valuable for both technical learning and creative inspiration."
-  }
- },
- {
-  "tag": "vid",
-  "lab": "Film",
-  "ico": "🎬",
-  "ttl": "Claude skapade en hel video med en prompt",
-  "meta": "AI Samson · 2026-07-29",
-  "plat": "HeyGen",
-  "url": "https://www.youtube.com/watch?v=GDQmZ5d9P-I",
-  "img": "https://img.youtube.com/vi/GDQmZ5d9P-I/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Claude%20AI%20video%20generation%20one%20prompt",
-  "feed": "",
-  "sum": "En AI-skapare visar hur Claude kan generera en komplett video med enbart en textprompt, genom integrering av HeyGen, ElevenLabs och Higgsfield.",
-  "full": "AI-kreatören Samson demonstrerar i en ny video hur Claude kan producera en helt färdig video från en enda textprompt. Processen använder sig av flera integrerade AI-verktyg: HeyGen för att skapa personliga AI-kloner, ElevenLabs för röstgenerering och Higgsfield för visuell produktion.\n\nDet här visar potentialen i sammankopplade AI-system där en modell som Claude kan orkestrera flera specialiserade verktyg för att producera komplett videoinnehål. För kreatörer och innehållsskapare innebär detta en möjlighet att snabba upp videoproduktionen och minska behovet av flera separata arbetsflöden.\n\nVideon är sponsrad av HeyGen och det finns även en gratis video skill att ladda ned för dem som vill testa processen.",
-  "buzz": 88,
-  "cat": "film",
-  "date": "2026-07-29T08:10:33Z",
-  "chans": [
-   "AI Samson"
-  ],
-  "deep": "Videon demonstrerar ett praktiskt exempel på hur stora språkmodeller som Claude kan fungera som dirigent för ett orkestrat sammansatt arbetsflöde. Genom att kombinera HeyGen (för att skapa en personlig AI-klon som presentatör), ElevenLabs (för naturlig röstsyntes) och Higgsfield (för grafik- och visualiseringsgeneration), kan Claude instruera varje verktyg i rätt sekvens för att producera en professionell video.\n\nDen tekniska flödet fungerar genom att Claude tolkar användarens initiala prompt och dekomponerar den i subtask som delegeras till respektive verktyg. HeyGen skapar ett digital avatar som kan presentera innehållet, ElevenLabs genererar röstinnehållet med naturlig prosodi, och Higgsfield fyller i visuella element. Sedan monteras alla komponenter tillsammans till en slutlig video.\n\nFör kreatörer representerar detta en betydande effektivitetsökning. Istället för att manuellt arbeta med varje verktyg separat och programmera alla övergångar, behöver man bara skriva en väl formulerad prompt. Detta kräver dock betalda konton för alla tre tjänster för att fungera fullt ut, vilket kan vara en investering för professionell videoproduktion på skala.",
-  "parts": [],
-  "en": {
-   "ttl": "Claude Created an Entire Video From One Prompt",
-   "sum": "An AI creator shows how Claude can generate a complete video using just a single text prompt by integrating HeyGen, ElevenLabs, and Higgsfield.",
-   "full": "AI creator Samson demonstrates in a new video how Claude can produce a fully finished video from just one text prompt. The process utilizes several integrated AI tools: HeyGen for creating personal AI clones, ElevenLabs for voice generation, and Higgsfield for visual production.\n\nThis showcases the potential of interconnected AI systems where a model like Claude can orchestrate multiple specialized tools to produce complete video content. For creators and content makers, this represents an opportunity to accelerate video production and reduce the need for multiple separate workflows.\n\nThe video is sponsored by HeyGen and there is also a free video skill available to download for those who want to test the process.",
-   "deep": "The video demonstrates a practical example of how large language models like Claude can function as a conductor for an orchestrated composite workflow. By combining HeyGen (for creating a personal AI clone as a presenter), ElevenLabs (for natural voice synthesis), and Higgsfield (for graphics and visualization generation), Claude can instruct each tool in the proper sequence to produce a professional video.\n\nThe technical flow works by Claude interpreting the user's initial prompt and decomposing it into subtasks delegated to each respective tool. HeyGen creates a digital avatar that can present the content, ElevenLabs generates the voice content with natural prosody, and Higgsfield fills in visual elements. All components are then assembled together into a final video.\n\nFor creators, this represents a significant efficiency gain. Rather than manually working with each tool separately and programming all transitions, users only need to write a well-formulated prompt. However, this does require paid accounts for all three services to function fully, which can be an investment for professional video production at scale."
+   "ttl": "ChatGPT launches new voice feature for web",
+   "sum": "OpenAI presents an updated voice mode for ChatGPT now available on web, mobile, and desktop enabling AI usage without typing.",
+   "full": "OpenAI has launched an updated version of its voice feature for ChatGPT, now available on the web, mobile apps, and desktop. The update enables completely hands-free interaction with the AI and makes it easier for users to accomplish work without using the keyboard.\n\nMeanwhile, Anthropic is introducing its Economic Index plugin that can be connected to Claude, along with updates to Claude's own voice mode. These developments demonstrate how AI assistants are increasingly focusing on voice-based interaction to make AI more accessible and user-friendly in daily workflows.",
+   "deep": "ChatGPT's new voice feature represents a significant development in conversational AI. The update enables users to interact with AI entirely through speech, eliminating the need for typing and making the system more natural and faster for many tasks. The feature is now integrated across multiple platforms—the web version, mobile applications, and desktop clients—ensuring a consistent experience regardless of device.\n\nIn parallel, Anthropic has introduced its Economic Index plugin for Claude, which can provide economic and business information directly within Claude. This is complemented by updates to Claude's own voice capabilities, showing that voice-based AI is becoming increasingly important for AI assistants generally.\n\nThe emphasis on these voice updates indicates an industry trend where voice is becoming a critical interface for AI interaction. For users, this means faster workflows and more natural communication with AI, particularly for multitasking scenarios where typing is not practical. It also opens new accessibility opportunities for people with various capabilities and needs."
   }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "Claude Skills gör Claude 10x bättre",
-  "meta": "Skill Leap AI · 2026-07-27",
+  "ttl": "Galaxy Z Fold 8 Review: Honeymoon's Over",
+  "meta": "Marques Brownlee · 2026-08-01",
   "plat": "",
-  "url": "https://www.youtube.com/watch?v=fGdle_XdnTA",
-  "img": "https://img.youtube.com/vi/fGdle_XdnTA/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Claude%20Skills%20features%20automation%20workflows",
+  "url": "https://www.youtube.com/watch?v=Z6z_feacXW8",
+  "img": "https://img.youtube.com/vi/Z6z_feacXW8/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Galaxy%20Z%20Fold%208%20Review%3A%20Honeymoon's%20Over",
   "feed": "",
-  "sum": "Claude har lanserat Skills – ett system för att anpassa och automatisera arbetsflöden för allt från dataanalys till innehållsskapande.",
-  "full": "Anthropic har introducerat Claude Skills, ett system som gör det möjligt att anpassa Claude för specifika arbetsuppgifter och arbetsflöden. Skills fungerar som specialiserade tillägg som kan spara tid och förbättra arbetsresultaten genom att automatisera återkommande uppgifter.\n\nDet finns Skills för en rad kreativa och analytiska uppgifter: omvandla CSV-filer till instrumentpaneler, konvertera transkriptioner till innehål, granska PDF-rapporter, testa affärsidéer, rensa anteckningar från möten, skriva mejl, skapa presentationer, analysera konkurrenter, producera YouTube-innehål och förbättra Claude's minnesfunktion. Användare kan anpassa varje Skill efter sin röst, varumärke, färger, layout och arbetssätt.\n\nSkills är tillgängliga direkt i Claude-gränssnittet, och användare kan både använda befintliga Skills och skapa egna med Skill Creator. Detta gör Claude mer flexibel för kreativa och affärsorienterade användare.",
-  "buzz": 92,
+  "sum": "This is a really easy phone to fall in love with. Beware.",
+  "full": "This is a really easy phone to fall in love with. Beware.",
+  "buzz": 99,
   "cat": "mdl",
-  "date": "2026-07-27T18:47:07Z",
+  "date": "2026-08-01T00:05:00Z",
   "chans": [
-   "Skill Leap AI"
+   "Marques Brownlee"
   ],
-  "deep": "Claude Skills representerar en utveckling av hur AI-assistenter kan anpassas för specifika användarfall. Systemet är utformat för att integrera direkt i Claude-gränssnittet utan att kräva kodning eller komplicerad konfiguration.\n\nSkills-funktionen täcker ett brett spektrum av arbetsuppgifter relevant för både kreatörer och företagsanvändare. För innehållsskapare är funktionaliteten för att konvertera transkriptioner till färdigt innehål, generera YouTube-material och analysera konkurrenter särskilt värdefull. För dataanalytikeroch affärsfolk erbjuder CSV-till-instrumentpanel-funktionen samt PDF-granskning snabbare arbetsflöden.\n\nPersonalisering är en nyckelkomponent – användare kan justera varje Skill för att matcha sitt varumärke, visuell identitet och arbetsmetoder. Detta gör Claude mer adaptivt för olika yrkesgrupper och organisationer. Skill Creator-verktyget låter användare bygga egna lösningar utan att behöva ha teknisk bakgrund.\n\nIntegrationin med Claude's förbättrade minnessystem möjliggör kontinuerlig läring över konversationer, vilket kan öka relevansen och konsistensen i Claude's svar över tid.",
+  "deep": "",
+  "parts": [],
+  "en": null
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "Seedance 2.5 AI-videogenerator recenserad",
+  "meta": "Curious Refuge · 2026-07-31",
+  "plat": "Seedance 2.5",
+  "url": "https://www.youtube.com/watch?v=xjyuNokwAPw",
+  "img": "https://img.youtube.com/vi/xjyuNokwAPw/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generator%20review",
+  "feed": "",
+  "sum": "Curious Refuge testar Dreamina Seedance 2.5 och delar sina tankar om verktyget för AI-videogenerering.",
+  "full": "Curious Refuge har gjort en omfattande granskning av Dreamina Seedance 2.5, en AI-videogenerator som lovar sinematisk och professionell kvalitet. Enligt beskrivningen erbjuder verktyget högkvalitativa visuella resultat med imponerande prestanda.\n\nRecensionen är tydligt kallad \"Seedance 2.5 Is Incredible... Until It Isn't\", vilket antyder att verktyget har både starka sidor och begränsningar. För videokreatörer och YouTubers kan Seedance 2.5 potentiellt spara tid på produktionen genom automatiserad videogenerering, men recensionen tyder på att det finns situationer där verktyget inte fullt ut lever upp till förväntningarna.\n\nKreativt verksamma kan testa Seedance 2.5 direkt via Dreamina-plattformen för att själva utvärdera om det passar deras arbetsflöde.",
+  "buzz": 93,
+  "cat": "film",
+  "date": "2026-07-31T21:50:24Z",
+  "chans": [
+   "Curious Refuge"
+  ],
+  "deep": "Dreamina Seedance 2.5 presenteras som en AI-videogenerator med fokus på cinematisk och professionell visuell kvalitet. Plattformen är utformad för att möjliggöra snabb videoproduktion med högklassig estetik, vilket är särskilt relevant för innehållsskapare som behöver producera video effektivt.\n\nRecensionens titel \"Incredible... Until It Isn't\" signalerar att medan verktyget har imponerande funktioner, finns det gränser för vad det kan leverera. Detta är en vanlig upptäckt vid bedömning av generativ AI – många verktyg excellerar inom specifika användningsfall men kan fallera i andra. För Seedance 2.5 tycks detta innebära att resultatkvaliteten är stark för vissa typer av videogenereringsuppgifter, men möter utmaningar i andra situationer.\n\nSeedance 2.5 är en del av Dreamina-ekosystemet, som är en officiell plattform för verktyget. Att verktyget marknadsförs med \"cinema-grade\" och \"professional-grade\" visuella målsättningar indikerar att det riktar sig mot seriösa kreatörer, inte bara hobbyister. För videokreatörer, YouTubers och filmproducenter kan verktyget potentiellt strömlinjeforma arbetsflöden genom att automatisera viss videoproduktion, men recensionen antyder att manuell justering och utvärdering fortfarande är nödvändig för optimala resultat.",
   "parts": [],
   "en": {
-   "ttl": "Claude Skills Makes Claude 10x Better",
-   "sum": "Anthropic has launched Claude Skills, a system for customizing and automating workflows from data analysis to content creation.",
-   "full": "Anthropic has introduced Claude Skills, a system that makes it possible to customize Claude for specific tasks and workflows. Skills function as specialized add-ons that can save time and improve work results by automating recurring tasks.\n\nThere are Skills for a range of creative and analytical tasks: converting CSV files to dashboards, turning transcripts into content, reviewing PDF reports, testing business ideas, cleaning meeting notes, writing emails, creating presentations, analyzing competitors, producing YouTube content, and improving Claude's memory function. Users can customize each Skill to match their voice, brand, colors, layout, and working methods.\n\nSkills are available directly in the Claude interface, and users can both use existing Skills and create their own with the Skill Creator. This makes Claude more flexible for creative and business-oriented users.",
-   "deep": "Claude Skills represents a development in how AI assistants can be customized for specific use cases. The system is designed to integrate directly into the Claude interface without requiring coding or complicated configuration.\n\nThe Skills feature covers a broad spectrum of tasks relevant to both creators and business users. For content creators, the functionality for converting transcripts into finished content, generating YouTube material, and analyzing competitors is particularly valuable. For data analysts and business professionals, the CSV-to-dashboard feature and PDF review offer faster workflows.\n\nPersonalization is a key component – users can adjust each Skill to match their brand, visual identity, and working methods. This makes Claude more adaptive for different professions and organizations. The Skill Creator tool allows users to build custom solutions without requiring a technical background.\n\nIntegration with Claude's enhanced memory system enables continuous learning across conversations, which can increase the relevance and consistency of Claude's responses over time."
+   "ttl": "Seedance 2.5 AI video generator reviewed",
+   "sum": "Curious Refuge reviews Dreamina Seedance 2.5 and shares honest thoughts on the AI video generation tool.",
+   "full": "Curious Refuge has conducted a comprehensive review of Dreamina Seedance 2.5, an AI video generator that promises cinematic and professional-grade quality. According to the description, the tool offers high-quality visual results with impressive performance.\n\nThe review is notably titled \"Seedance 2.5 Is Incredible... Until It Isn't\", suggesting that the tool has both strengths and limitations. For video creators and YouTubers, Seedance 2.5 could potentially save time on production through automated video generation, but the review indicates there are situations where the tool doesn't fully meet expectations.\n\nCreative professionals can test Seedance 2.5 directly via the Dreamina platform to evaluate whether it fits their workflow.",
+   "deep": "Dreamina Seedance 2.5 is presented as an AI video generator focused on cinematic and professional visual quality. The platform is designed to enable rapid video production with high-class aesthetics, which is particularly relevant for content creators who need to produce video efficiently.\n\nThe review's title \"Incredible... Until It Isn't\" signals that while the tool has impressive features, there are limits to what it can deliver. This is a common finding when evaluating generative AI – many tools excel within specific use cases but can fail in others. For Seedance 2.5, this appears to mean that output quality is strong for certain video generation tasks but encounters challenges in other situations.\n\nSeedance 2.5 is part of the Dreamina ecosystem, which is an official platform for the tool. The fact that the tool is marketed with \"cinema-grade\" and \"professional-grade\" visual goals indicates it targets serious creators, not just hobbyists. For video creators, YouTubers, and filmmakers, the tool could potentially streamline workflows by automating certain video production aspects, but the review suggests that manual adjustments and evaluation are still necessary for optimal results."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "AI-karaktärskonsistens: vilken metod fungerar?",
+  "meta": "Theoretically Media · 2026-07-31",
+  "plat": "Recraft V4.1",
+  "url": "https://www.youtube.com/watch?v=X-rlr3k-2TI",
+  "img": "https://img.youtube.com/vi/X-rlr3k-2TI/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=AI%20character%20consistency%20methods%20comparison%20test",
+  "feed": "",
+  "sum": "Youtuber testar alla populära tekniker för konsistenta AI-karaktärer och avslöjar vilka som faktiskt fungerar och vilka som bara slösar krediter.",
+  "full": "I en omfattande jämförelse testar kanalen Theoretically Media olika metoder för att skapa konsistenta AI-karaktärer. Föreställningen går från traditionella turnaround-sheets till den så kallade \"blacked-out-faces\"-tricket och jämför först-frame-arbetsflöden mot omni-modeller.\n\nDen praktiska testen genomförs med en helt ny karaktär kallad Mercy, en vampyrjägare, som körs igenom varje aktuell konsistensmetod. Resultaten visar vilka tekniker som verkligen förändrar utgångarna och vilka som endast är kreditspegling. Videon täcker även Recrafts möjligheter, modellblandning i flödeskaraktärsscener och en återblick på den historiska Mercy Brown från 1892.\n\nFör kreatörer som arbetar med AI-genererad video och karaktärdesign blir insikterna värdefulla för att optimera arbetsflödet och resursanvändningen.",
+  "buzz": 93,
+  "cat": "film",
+  "date": "2026-07-31T19:33:04Z",
+  "chans": [
+   "Theoretically Media"
+  ],
+  "deep": "Videon presenterar en empirisk test av tre huvudsakliga karaktärkonsistensmetoder. Den första är turnaround-sheettricket som använder ett enkelt prompt för att generera en gratis 360-graders karaktärsheet. Den andra metoden är multi-angle-sheets via Nano Banana och ChatGPT Images 2.0, som erbjuder mer kontroll men kräver fler krediter. Den tredje är den \"blacked-out-faces\"-tekniken, där referensbilder maskeras för att påverka karaktärdesign utan att låsa ansiktsfunktioner.\n\nTesterna visar att first-frame versus omni-modeller är en kritisk skillnad i arbetsflödet. Gossip Goblin-inspirerad workflow och andra experimentella förgreningar undersöks för att identifiera vilka som faktiskt förändrar resultaten. En viktig insikt är att många populära metoder inte ger meningfulla skillnader i konsistensen, vilket kan spara kreatörer från att slösa krediter på ineffektiva tekniker.\n\nKanalen fokuserar också på praktisk implementering av Recrafts funktioner för karaktärkonsistens. Modellblandning i multi-karaktärsscener identifieras som ett centralt problem, och videon presenterar lösningar för att förhindra detta. Detta gör informationen direkt tillämpbar för videoproduktur och animatörer som arbetar med AI-genererade karaktärer.\n\nDet historiska sammanhanget om den verkliga Mercy Brown från 1892 ger ett kulturellt perspektiv på vampyrfiktionen och visar hur AI-karaktärer kan kopplas till reell historia och lore.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Introduktion till karaktärskonsistens",
+    "le": "Intro: Why Character Consistency Matters"
+   },
+   {
+    "t": 38,
+    "l": "Från seed-locking till character sheets",
+    "le": "From Seed Locking to Character Sheets"
+   },
+   {
+    "t": 63,
+    "l": "Recraft setup och dark mode",
+    "le": "Recraft Setup"
+   },
+   {
+    "t": 212,
+    "l": "Mercy-karaktärens historia",
+    "le": "The Lore of Mercy"
+   },
+   {
+    "t": 247,
+    "l": "360-graders videotrick för karaktärer",
+    "le": "360 Video Character Trick"
+   },
+   {
+    "t": 363,
+    "l": "Blacked-out-faces-teknik förklarad",
+    "le": "Blotting Out Faces Technique"
+   },
+   {
+    "t": 474,
+    "l": "Resultat av maskerad vs omaskerad metod",
+    "le": "Did It Make A Difference"
+   },
+   {
+    "t": 495,
+    "l": "Förhindra modellblandning i scener",
+    "le": "Preventing Model Bleed"
+   }
+  ],
+  "en": {
+   "ttl": "AI Character Consistency: Which Method Actually Works?",
+   "sum": "Youtuber tests all popular AI character consistency techniques and reveals which actually deliver results and which waste credits.",
+   "full": "In a comprehensive comparison, the channel Theoretically Media tests different methods for creating consistent AI characters. The presentation spans from traditional turnaround sheets to the so-called \"blacked-out-faces\" trick and compares first-frame workflows against omni-models.\n\nThe practical testing is conducted with a brand-new character called Mercy, a vampire hunter, run through every current consistency method. The results show which techniques actually change outputs and which are merely credit-wasting. The video covers Recraft's capabilities, model blending in multi-character scenes, and a retrospective on the historical Mercy Brown from 1892.\n\nFor creators working with AI-generated video and character design, the insights prove valuable for optimizing workflow and resource usage.",
+   "deep": "The video presents an empirical test of three main character consistency methods. The first is the turnaround sheet trick, using a single prompt to generate a free 360-degree character sheet. The second method is multi-angle sheets via Nano Banana and ChatGPT Images 2.0, offering more control but requiring more credits. The third is the \"blacked-out-faces\" technique, where reference images are masked to influence character design without locking facial features.\n\nThe tests reveal that first-frame versus omni-models is a critical workflow difference. Gossip Goblin-inspired workflows and other experimental branches are examined to identify which actually change results. A key insight is that many popular methods don't yield meaningful consistency improvements, potentially saving creators from wasting credits on ineffective techniques.\n\nThe channel also focuses on practical implementation of Recraft's character consistency features. Model blending in multi-character scenes is identified as a central problem, with the video presenting solutions to prevent it. This makes the information directly applicable to video producers and animators working with AI-generated characters.\n\nThe historical context of the real Mercy Brown from 1892 provides a cultural perspective on vampire fiction and demonstrates how AI characters can be linked to real history and lore."
+  }
+ },
+ {
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "Claude skapar helt video med en prompt",
+  "meta": "AI Samson · 2026-07-29",
+  "plat": "HeyGen",
+  "url": "https://www.youtube.com/watch?v=GDQmZ5d9P-I",
+  "img": "https://img.youtube.com/vi/GDQmZ5d9P-I/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Claude%20AI%20generated%20video%20one%20prompt",
+  "feed": "",
+  "sum": "AI-modellen Claude användes för att generera en helt video automatiskt med endast en prompt, genom integration av HeyGen, ElevenLabs och Higgsfield.",
+  "full": "En ny viral demo visar hur Claude AI-modellen kan skapa en komplett video från en enda textprompt. Videon skapades genom att kombinera flera AI-verktyg: HeyGen för att generera den synliga presentatören, ElevenLabs för röstöversättning och Higgsfield för visuell rendering.\n\nDet framgår att processen kräver betalda konton för alla tre tjänsterna, men skaparen har gjort videokunskapen tillgänglig för gratis nedladdning. Detta demonstrerar hur moderna AI-modeller som Claude kan fungera som dirigent för att automatisera hela videoproduktionsprocessen, något som tidigare krävde manuell redigering och flera separata verktyg.\n\nFunktionen visar potentialen för snabbare videoproduktion för innehållsskapare, även om implementationen fortfarande förlitar sig på att användare har tillgång till flera premiumtjänster.",
+  "buzz": 88,
+  "cat": "film",
+  "date": "2026-07-29T08:10:33Z",
+  "chans": [
+   "AI Samson"
+  ],
+  "deep": "Demonstrationen visar en betydande utveckling inom automatiserad videoproduktion. Genom att använda Claude som övergripande kontrollant kan modellen instruera ElevenLabs att generera naturlig tal, HeyGen att skapa en AI-presentatör med läppsynkronisering, och Higgsfield för visuell rendering — allt koordinerat från en enda initial prompt.\n\nDetta representerar en förändring i hur videoproduktionsarbetsflöden kan struktureras. Istället för att en människor manuellt måste dirigera varje steg, kan Claude analysera prompten och bestämma vilka verktyg som behövs, vilka parametrar som ska användas, och hur man kombinerar resultaten. Processen möjliggör snabb iteration och prototyping för innehållsskapare.\n\nDet finns dock praktiska begränsningar: alla tre verktyg kräver betalda prenumerationer, vilket höjer kostnaderna för användare. Dessutom är detta för närvarande ett manuellt arbetsflöde snarare än en helt integrerad lösning. Trots detta markerar det ett viktigt steg mot meer autonoma videoproduktionssystem där AI kan hantera både kreativa och tekniska beslut.",
+  "parts": [],
+  "en": {
+   "ttl": "Claude Creates Entire Video With One Prompt",
+   "sum": "Claude AI model generates a complete video automatically from a single prompt by integrating HeyGen, ElevenLabs, and Higgsfield.",
+   "full": "A new viral demo shows how Claude AI model can create an entire video from a single text prompt. The video was created by combining multiple AI tools: HeyGen to generate the visible presenter, ElevenLabs for voice synthesis, and Higgsfield for visual rendering.\n\nIt appears that the process requires paid accounts for all three services, but the creator has made the video skill available for free download. This demonstrates how modern AI models like Claude can act as a director to automate the entire video production process, something that previously required manual editing and multiple separate tools.\n\nThe functionality showcases potential for faster video production for content creators, although implementation still relies on users having access to multiple premium services.",
+   "deep": "The demonstration shows significant development in automated video production. By using Claude as an overarching controller, the model can instruct ElevenLabs to generate natural speech, HeyGen to create an AI presenter with lip-sync, and Higgsfield for visual rendering — all coordinated from a single initial prompt.\n\nThis represents a shift in how video production workflows can be structured. Instead of humans manually directing each step, Claude can analyze the prompt and determine which tools are needed, what parameters to use, and how to combine the results. The process enables rapid iteration and prototyping for content creators.\n\nThere are practical limitations, however: all three tools require paid subscriptions, which increases costs for users. Additionally, this is currently a manual workflow rather than a fully integrated solution. Nevertheless, it marks an important step toward more autonomous video production systems where AI can handle both creative and technical decisions."
+  }
+ },
+ {
+  "tag": "mdl",
+  "lab": "Modeller",
+  "ico": "🧠",
+  "ttl": "Claude Chat, Cowork eller Code – vilket ska du välja?",
+  "meta": "Futurepedia · 2026-07-27",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=PtGQaduZwmA",
+  "img": "https://img.youtube.com/vi/PtGQaduZwmA/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Claude%20Chat%20Cowork%20Code%20differences%20which%20use",
+  "feed": "",
+  "sum": "Futurepedia granskar skillnaderna mellan Anthropics tre Claude-produkter och när du bör använda var och en.",
+  "full": "Anthropic erbjuder tre olika versioner av Claude anpassade för olika behov, och det kan vara förvirrande att veta vilken man ska använda. Claude Chat är designad för att tänka och reflektera, Cowork är inriktad på samarbete och delegering av uppgifter, medan Code är optimerad för att skriva och debugga programkod.\n\nI en ny genomgång från Futurepedia presenteras konkreta skillnader mellan produkterna, inklusive prisnivåer, åtkomst och när varje verktyg passar bäst. Kunskapen om rätt Claude-variant hjälper kreatörer och utvecklare att arbeta effektivare genom att matcha rätt verktyg med rätt uppgift.\n\nVideon bryter ned de tre användningsområdena: tänkande och analys, delegering och projektsamarbete, samt kodning och utveckling. För den som arbetar med AI är det väsentligt att förstå dessa distinktioner för att optimera sitt arbetsflöde.",
+  "buzz": 91,
+  "cat": "mdl",
+  "date": "2026-07-27T21:29:19Z",
+  "chans": [
+   "Futurepedia"
+  ],
+  "deep": "Claude är Anthropics AI-assistent som finns i flera varianter, var och en optimerad för specifika arbetsuppgifter. Claude Chat riktar sig till användare som behöver reflektiv analys och tankefulla svar, medan Cowork fokuserar på samarbete mellan människor och AI för att organisera projekt och fördela arbetsuppgifter effektivt. Claude Code är särskilt utformad för utvecklare som behöver hjälp med kodskrivning, debugging och förklaring av komplicerade programmeringskoncept.\n\nPrisnivåerna skiljer sig mellan produkterna beroende på funktionalitet och användningsfall. Futurepedia bryter ned hur man navigerar de olika gränssnitten och vilka uppgifter som löses bäst av varje variant. För kreatörer som arbetar med AI-assisterad utveckling eller projektledning är det kritiskt att förstå dessa distinktioner för att maximera produktiviteten och minimera tid på att söka rätt verktyg.\n\nVideon presenterar en strukturerad ram: \"Tänk, delegera, bygg\" – som sammanfattar Claude Chats reflektiva kapacitet, Coworks samarbetsförmåga, och Codes tekniska specialisering. Den här indelningen gör det enkelt för användare att snabbt identifiera vilken produkt som passar sitt närmaste behov, oavsett om det handlar om brainstorming, projektsamordning eller kodningsuppgifter.",
+  "parts": [
+   {
+    "t": 0,
+    "l": "Introduktion",
+    "le": "Intro"
+   },
+   {
+    "t": 36,
+    "l": "Prissättning och åtkomst",
+    "le": "Pricing & Access"
+   },
+   {
+    "t": 89,
+    "l": "Chat för att tänka",
+    "le": "Chat to Think"
+   },
+   {
+    "t": 190,
+    "l": "Cowork för att delegera",
+    "le": "Cowork to Delegate"
+   },
+   {
+    "t": 446,
+    "l": "Code för att bygga",
+    "le": "Code to Build"
+   },
+   {
+    "t": 588,
+    "l": "Tänk, delegera, bygg",
+    "le": "Think, Delegate, Build"
+   }
+  ],
+  "en": {
+   "ttl": "Claude Chat, Cowork, or Code – Which Should You Use?",
+   "sum": "Futurepedia examines the differences between Anthropic's three Claude products and when to use each one.",
+   "full": "Anthropic offers three distinct versions of Claude tailored for different needs, and it can be confusing knowing which to use. Claude Chat is designed for thinking and reflection, Cowork is focused on collaboration and task delegation, while Code is optimized for writing and debugging computer code.\n\nIn a new breakdown from Futurepedia, the concrete differences between products are presented, including pricing levels, access, and when each tool is best suited. Understanding the right Claude variant helps creators and developers work more efficiently by matching the right tool to the right task.\n\nThe video breaks down the three use cases: thinking and analysis, delegation and project collaboration, and coding and development. For those working with AI, grasping these distinctions is essential for optimizing workflow efficiency.",
+   "deep": "Claude is Anthropic's AI assistant available in multiple variants, each optimized for specific work tasks. Claude Chat targets users needing reflective analysis and thoughtful responses, while Cowork focuses on collaboration between humans and AI to organize projects and distribute work tasks effectively. Claude Code is specifically designed for developers needing help with code writing, debugging, and explaining complex programming concepts.\n\nPricing tiers differ across products depending on functionality and use case. Futurepedia breaks down how to navigate the different interfaces and which tasks are best solved by each variant. For creators working with AI-assisted development or project management, understanding these distinctions is critical for maximizing productivity and minimizing time searching for the right tool.\n\nThe video presents a structured framework: \"Think, Delegate, Build\" – which summarizes Claude Chat's reflective capacity, Cowork's collaboration ability, and Code's technical specialization. This breakdown makes it easy for users to quickly identify which product fits their immediate need, whether that's brainstorming, project coordination, or coding tasks."
   }
  }
 ]
