@@ -1,190 +1,185 @@
 [
  {
-  "tag": "mdl",
-  "lab": "Modeller",
-  "ico": "🧠",
-  "ttl": "GLM 5.3 – ny topprankat open source AI-modell",
-  "meta": "AI Search · 2026-08-17",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=ZSNMw8U5h-c",
-  "img": "https://img.youtube.com/vi/ZSNMw8U5h-c/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GLM%205.3%20open%20source%20language%20model%20review",
+  "tag": "vid",
+  "lab": "Film",
+  "ico": "🎬",
+  "ttl": "LTX 2.5: snabbaste lokala AI-videogeneratorn",
+  "meta": "AI Search · 2026-08-18",
+  "plat": "LTX-2",
+  "url": "https://www.youtube.com/watch?v=ig3PUfSow5Y",
+  "img": "https://img.youtube.com/vi/ig3PUfSow5Y/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=LTX%202.5%20local%20AI%20video%20generator%20ComfyUI",
   "feed": "",
-  "sum": "GLM 5.3 presenteras som en ny ledande open source-språkmodell med förmågor inom kodning, 3D-rendering, musikkomposition och medicinskt diagnostisering.",
-  "full": "En ny open source-språkmodell vid namn GLM 5.3 har lanserats och framställs som branschens bästa alternativ inom sin kategori. Modellen demonstreras genom ett omfattande urval av användningsfall, från Windows-replikering och Blender V8-motorprogrammering till 3D-speldesign och finansiell presentationsautomation.\n\nGLM 5.3 visar sig kapabel att hantera komplexa uppgifter som musikkomposition, affärsidéutveckling, djupgående forskning och till och med medicinsk bildanalys för canceridentifiering. Modellen jämförs mot andra AI-modeller baserat på prestanda och specifikationer, med särskild fokus på dess open source-natur som fördelar utvecklare och organisationer som söker transparens och kontroll över sina AI-system.\n\nFör kreatörer och utvecklare innebär GLM 5.3:s open source-modell möjligheten att bygga egna applikationer utan att förlita sig på proprietära plattformar, med potentialen att integrera modellen i allt från designverktyg till medicinsk programvara.",
-  "buzz": 90,
-  "cat": "mdl",
-  "date": "2026-08-17T03:27:46Z",
+  "sum": "LTX 2.5 är en gratis open source AI-videogenerator som kan köras lokalt via ComfyUI med stöd för text-to-video, image-to-video och advanced funktioner.",
+  "full": "LTX 2.5 lanseras som en av de snabbaste lokala AI-videogeneratorerna och är tillgänglig som gratis open source-modell. Verktyget integreras med ComfyUI och erbjuder flera generationsmöjligheter: text-to-video, image-to-video, first-last-frame-kontroll och LoRA-stöd för anpassning.\n\nFör kreatörer är LTX 2.5 värdefullt eftersom det kan köras lokalt utan molntjänstberoende, vilket ger snabbare bearbetning och bättre datakontroll. Videogeneratorn stöder också upscaling tillsammans med Minimax H3 och kan optimeras för lägre VRAM-system. Användare får tillgång till LTX Director för mer avancerad kontroll över videoinnehållet.",
+  "buzz": 87,
+  "cat": "film",
+  "date": "2026-08-18T03:30:45Z",
   "chans": [
    "AI Search"
   ],
-  "deep": "GLM 5.3 är en open source-språkmodell som lanserades för att konkurrera med proprietära alternativ genom att erbjuda liknande eller överlägsna prestanda utan att kräva API-begränsningar eller licensiering. Modellen demonstreras genom en bred spektrum av praktiska tillämpningar, vilket visar dess mångsidighet inom flera domäner.\n\nI kodningsdomänen kan GLM 5.3 replika ett helt Windows-operativsystem och programmera Blenders V8-motor, vilket indikerar djup förståelse för komplexa systemarkitektur och 3D-renderingsprotokoll. För 3D-design och spelproduktion visar modellen förmåga att generera funktionell spelogik för fightersspel, medan den även kan komponera original musikstycken – en funktion som förut huvudsakligen associerades med specialiserade musikmodeller.\n\nInnom medicin och analys visar GLM 5.3 förmåga att identifiera cancertumörer från medicinska bilder, vilket kräver både visuell analys och domänspecifik kunskap. Modellen kan även utföra finansiell presentationsautomation, cybersäkerhetsbedömningar och komplex forskning, vilket gör den till ett verkligen generalist-orienterat verktyg.\n\nDet öppna sourcen-perspektivet är avgörande – det innebär att utvecklare kan köra modellen lokalt, finjustera den för specifika uppgifter och integrera den i proprietära produkter utan att förlita sig på molnbaserade API:er. Detta reducerar latens, ökar datasekretess och ger full kontroll över AI-systemets beteende, vilket är kritiskt för organisationer i reglerade industrier.",
+  "deep": "LTX 2.5 är en open source AI-videogenerator från Lightricks som fokuserar på lokal körning utan molnberoende. Modellen stöder flera generationsmöjligheter: text-to-video konverterar textbeskrivningar direkt till videoklipp, image-to-video utökar stillbilder till animerad video, och first-last-frame-funktionen ger kontroll över start- och slutramar för bättre narrativ styrning.\n\nVerktygen är optimerade för olika hårdvarukonfigurationer, inklusive en lägre VRAM-variant för mindre GPU-resurser. Integrationen med ComfyUI gör installation och användning tillgänglig för både nybörjare och avancerade användare via drag-and-drop-arbetsflöden. LoRA-stöd möjliggör personalisering av videostil och innehål.\n\nUpscaling kan kombineras med Minimax H3 för förbättrad videokvalitet, och LTX Director erbjuder mer precis kontroll över videogenerering. Som gratis och open source-lösning eliminerar LTX 2.5 prenumerationskostnader och molnberoende, vilket gör det attraktivt för kreatörer som värdesätter dataintegritet och lokala beräkningar.",
   "parts": [
    {
     "t": 0,
-    "l": "GLM 5.3 intro",
-    "le": "GLM 5.3 introduction"
+    "l": "LTX 2.5 nya funktioner",
+    "le": "LTX 2.5 new features"
    },
    {
-    "t": 79,
-    "l": "Windows-replikering",
-    "le": "Windows replica"
+    "t": 113,
+    "l": "Ladda ned modeller",
+    "le": "Downloading the models"
    },
    {
-    "t": 404,
-    "l": "Blender V8-motor",
-    "le": "Blender V8 engine"
+    "t": 350,
+    "l": "Text till video",
+    "le": "Text to video"
    },
    {
-    "t": 533,
-    "l": "3D-fighting game",
-    "le": "3D fighting game"
+    "t": 472,
+    "l": "Bild till video",
+    "le": "Image to video"
    },
    {
-    "t": 785,
-    "l": "Musikkomposition",
-    "le": "Music composition"
+    "t": 641,
+    "l": "Använda LoRAs",
+    "le": "Using LoRAs"
    },
    {
-    "t": 1303,
-    "l": "Canceridentifiering",
-    "le": "Identifying cancer"
+    "t": 900,
+    "l": "Minimax + upscaling",
+    "le": "Minimax + LTX upscaler"
    },
    {
-    "t": 1395,
-    "l": "Specifikationer",
-    "le": "Specs and performance"
-   },
-   {
-    "t": 1740,
-    "l": "Open source-slutsats",
-    "le": "Open source conclusion"
+    "t": 932,
+    "l": "LTX Director",
+    "le": "LTX Director"
    }
   ],
   "en": {
-   "ttl": "GLM 5.3 – New top-ranked open source AI model",
-   "sum": "GLM 5.3 is presented as a leading open source language model with capabilities in coding, 3D rendering, music composition, and medical diagnostics.",
-   "full": "A new open source language model called GLM 5.3 has been released and is positioned as the best in its category within the open source landscape. The model is demonstrated through an extensive range of use cases, from Windows replication and Blender V8 engine programming to 3D game design and financial presentation automation.\n\nGLM 5.3 proves capable of handling complex tasks including music composition, business ideation, deep research, and even medical image analysis for cancer identification. The model is compared against other AI models based on performance and specifications, with particular emphasis on its open source nature, which benefits developers and organizations seeking transparency and control over their AI systems.\n\nFor creators and developers, GLM 5.3's open source nature means the ability to build custom applications without relying on proprietary platforms, with potential to integrate the model into everything from design tools to medical software.",
-   "deep": "GLM 5.3 is an open source language model designed to compete with proprietary alternatives by offering comparable or superior performance without API limitations or licensing constraints. The model is demonstrated across a broad spectrum of practical applications, showcasing its versatility across multiple domains.\n\nIn the coding domain, GLM 5.3 can replicate an entire Windows operating system and program Blender's V8 engine, indicating deep understanding of complex system architecture and 3D rendering protocols. For 3D design and game production, the model shows capability to generate functional game logic for fighting games, while also demonstrating music composition abilities – a function previously associated mainly with specialized music models.\n\nWithin medicine and analysis, GLM 5.3 demonstrates the ability to identify cancer tumors from medical images, requiring both visual analysis and domain-specific knowledge. The model can also perform financial presentation automation, cybersecurity assessments, and complex research, making it a truly generalist-oriented tool.\n\nThe open source perspective is critical – it means developers can run the model locally, fine-tune it for specific tasks, and integrate it into proprietary products without relying on cloud-based APIs. This reduces latency, increases data privacy, and provides full control over the AI system's behavior, which is critical for organizations in regulated industries."
+   "ttl": "LTX 2.5: The fastest local AI video generator",
+   "sum": "LTX 2.5 is a free open source AI video generator that runs locally via ComfyUI with support for text-to-video, image-to-video, and advanced features.",
+   "full": "LTX 2.5 launches as one of the fastest local AI video generators and is available as a free open source model. The tool integrates with ComfyUI and offers several generation capabilities: text-to-video, image-to-video, first-last-frame control, and LoRA support for customization.\n\nFor creators, LTX 2.5 is valuable because it runs locally without cloud service dependency, enabling faster processing and better data control. The video generator also supports upscaling together with Minimax H3 and can be optimized for lower VRAM systems. Users gain access to LTX Director for more advanced control over video content.",
+   "deep": "LTX 2.5 is an open source AI video generator from Lightricks that focuses on local execution without cloud dependency. The model supports multiple generation capabilities: text-to-video converts text descriptions directly into video clips, image-to-video expands still images into animated footage, and first-last-frame functionality provides control over starting and ending frames for better narrative direction.\n\nThe tools are optimized for various hardware configurations, including a lower VRAM variant for smaller GPU resources. Integration with ComfyUI makes installation and usage accessible to both beginners and advanced users via drag-and-drop workflows. LoRA support enables personalization of video style and content.\n\nUpscaling can be combined with Minimax H3 for improved video quality, and LTX Director offers more precise control over video generation. As a free and open source solution, LTX 2.5 eliminates subscription costs and cloud dependency, making it attractive to creators who value data privacy and local computation."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Deepseek V4, Grok 4.6, LTX 2.5 och fler AI-modeller lanseras",
-  "meta": "AI Search · 2026-08-16",
-  "plat": "LTX-2",
-  "url": "https://www.youtube.com/watch?v=62HSUsS0ypo",
-  "img": "https://img.youtube.com/vi/62HSUsS0ypo/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Deepseek%20V4%20Grok%204.6%20LTX%202.5%20AI%20news%202024",
+  "ttl": "Två hemliga AI-videomodeller dyker upp",
+  "meta": "Theoretically Media · 2026-08-17",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=YQTduCzNoqw",
+  "img": "https://img.youtube.com/vi/YQTduCzNoqw/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=Polaris%20Vega%20mystery%20AI%20video%20models",
   "feed": "",
-  "sum": "Flera stora AI-modeller lanserades nyligen, inklusive Deepseek V4 0813, Grok 4.6, Qwen 3.8 och LTX 2.5, tillsammans med nya verktyg för videobearbetning och text-till-tal.",
-  "full": "Ett antal betydande AI-modeller och verktyg har presenterats under den senaste tiden. Bland nyheterna finns Deepseek V4 0813, Grok 4.6 från X.AI, Qwen 3.8 i olika storlekar, GLM 5.3, LTX 2.5 för videogenerering samt Googles Gemini 3.7 Flash. OpenAI presenterade även GPT Ultrafast för snabbare inferens.\n\nUtöver språkmodellerna lanserades flera kreativa verktyg relevanta för innehållsskapare. JoyAI Video Edit erbjuder möjligheter för videobearbetning, medan Index TTS 2.5 förbättrar text-till-tal-funktionalitet. Också presenterades nya 3D-verktyg som Hunyuan3D WorldClaw och Dyna 2, samt Meta Muse Glimmer för kreativt skapande.\n\nDessa uppdateringar representerar framsteg inom både generalistiska AI-modeller och specialiserade verktyg för kreatörer, med fokus på ökad hastighet, effektivitet och nya kreativa möjligheter.",
-  "buzz": 99,
+  "sum": "Två okända AI-videomodeller kallada \"Polaris\" och \"Vega\" har börjat testas på Artificial Analysis-plattformen, möjligen från Meta eller Kling.",
+  "full": "Två nya AI-videomodeller med kodnamnen \"Polaris\" och \"Vega\" har nyligen dykt upp i blindtestningar på Artificial Analysis-arenan utan officiell bekräftelse om skaparen. Baserat på tidpunkten och kvaliteten misstänks det att åtminstone en av modellerna är Metas länge utlovade videomodell, eller eventuellt Kling 4.\n\nI sitt genomgångsvideo testar analysatören båda modellernas prestanda inom områden som flerskötad karakterkonsistens, fysik, text på skärmen, inbyggd ljud och incivilsamverkan. Videon jämför modellernas styrkor och svagheter direkt mot varandra.\n\nDessutom presenteras StillsLab, ett gratis referensbibliotek speciellt utformat för AI-filmmakers. Biblioteket innehåller färgpaletter med hexkoder, kamera- och linsdata för varje bild, samt en visuell sökning som kan matcha AI-genererade verk med verkliga filmklipp i samma visuella familj.",
+  "buzz": 87,
   "cat": "film",
-  "date": "2026-08-16T03:32:29Z",
+  "date": "2026-08-17T21:57:07Z",
   "chans": [
-   "AI Search"
+   "Theoretically Media"
   ],
-  "deep": "Videomaterialet presenterar en omfattande uppdatering av den senaste utvecklingen inom AI-modeller och verktyg. Deepseek V4 0813 representerar en ny version av Deepseeks språkmodell, medan Grok 4.6 från X.AI visar fortsatta förbättringar i Elon Musks AI-assistent. LTX 2.5 är en uppdaterad modell specifikt designad för videogenerering, vilket är särskilt relevant för kreatörer som arbetar med videoinnehål.\n\nPå språkmodellsidan presenteras Qwen 3.8 i flera konfigurationer, inklusive en 27B-version och en större variant, vilket ger flexibilitet för olika användningsfall. GLM 5.3 från Zhipu AI och Gemini 3.7 Flash från Google visar också framsteg inom generalistiska modeller. OpenAIs GPT Ultrafast fokuserar på snabbheten i inferens, en viktig faktor för praktiska tillämpningar.\n\nFör kreativa skapare är lansering av verktyg som JoyAI Video Edit särskilt relevant, då det möjliggör videoredigering med AI-assistans. Index TTS 2.5 förbättrar tal-synthes-kapaciteten med naturligare uttal och bättre språkstöd. De 3D-verktygens utveckling, representerad av Hunyuan3D WorldClaw och Dyna 2, indikerar ett växande fokus på 3D-generering. Meta Muse Glimmer presenteras som ett kreativt verktyg, möjligtvis för konstgenerering eller visuella effekter.",
+  "deep": "De två mystiska AI-videomodellerna Polaris och Vega är okända enheter som testats genom Artificial Analysis blindtestningsarena utan att utvecklaren avslöjat sig. Spekulationen pekar främst mot att åtminstone en är Metas länge väntade videomodell baserat på lanseringstidpunkten och outputkvaliteten, även om Kling 4 eller en okänd konkurrent är möjlig.\n\nPolaris visade sig hantera multi-shot-sekvenser med relativ karakterkonsistens och presenterade fysikaliska simuleringar med varierande framgång. Modellen hade dock svårigheter med rendererad text på skärmen. Vega visade imponerande resultat i visuellt komplexa scener som spegelsalar och kunde hantera italiensk tal nativt, men hade ännu större problem med textrendering.\n\nStillsLab introducerades som ett verktyg för AI-filmmakers med omfattande metadata — inklusive exakta hexkoder för färgpaletter, fullständiga kamera- och linsspecifikationer för varje referensbild, och en unik visuell sökmotorbild som möjliggör matchning av AI-genererade verk mot verkliga filmklipp från motsvarande visuella familj. Detta tillhandahålls helt gratis och är designat specifikt för hur kreatörer arbetar med AI-videoverktyg.",
   "parts": [
    {
     "t": 0,
-    "l": "Deepseek V4 0813 lansering",
-    "le": "Deepseek V4 0813 release"
+    "l": "Två hemliga videomodeller dyker upp",
+    "le": "Two mystery video models appear"
    },
    {
-    "t": 0,
-    "l": "Grok 4.6 uppdatering",
-    "le": "Grok 4.6 update"
+    "t": 25,
+    "l": "Meta på menyn igen",
+    "le": "Meta back on the menu"
    },
    {
-    "t": 0,
-    "l": "LTX 2.5 videogenerering",
-    "le": "LTX 2.5 video generation"
+    "t": 70,
+    "l": "Polaris och Vega presenteras",
+    "le": "Polaris and Vega introduced"
    },
    {
-    "t": 0,
-    "l": "Qwen 3.8 modellvarianter",
-    "le": "Qwen 3.8 model variants"
+    "t": 95,
+    "l": "Polaris: Svettig pilot",
+    "le": "Polaris: The sweaty pilot"
    },
    {
-    "t": 0,
-    "l": "JoyAI Video Edit verktyg",
-    "le": "JoyAI Video Edit tool"
+    "t": 198,
+    "l": "Polaris: Text-test",
+    "le": "Polaris: The banner test"
    },
    {
-    "t": 0,
-    "l": "Index TTS 2.5 text-till-tal",
-    "le": "Index TTS 2.5 text-to-speech"
+    "t": 327,
+    "l": "Vega: Spegelsalssekvens",
+    "le": "Vega: Hall of mirrors"
    },
    {
-    "t": 0,
-    "l": "Hunyuan3D WorldClaw 3D",
-    "le": "Hunyuan3D WorldClaw 3D"
+    "t": 408,
+    "l": "Vegas textproblem",
+    "le": "Vega's text problem"
    },
    {
-    "t": 0,
-    "l": "Meta Muse Glimmer kreativt",
-    "le": "Meta Muse Glimmer creative"
+    "t": 439,
+    "l": "Pilot mot pilot jämförelse",
+    "le": "Pilot vs pilot comparison"
    }
   ],
   "en": {
-   "ttl": "Deepseek V4, Grok 4.6, LTX 2.5 and More AI Models Launch",
-   "sum": "Several major AI models and tools have recently launched, including Deepseek V4 0813, Grok 4.6, Qwen 3.8, and LTX 2.5, alongside new video editing and text-to-speech capabilities.",
-   "full": "A number of significant AI models and tools have been presented recently. Among the news are Deepseek V4 0813, Grok 4.6 from X.AI, Qwen 3.8 in various sizes, GLM 5.3, LTX 2.5 for video generation, and Google's Gemini 3.7 Flash. OpenAI also unveiled GPT Ultrafast for faster inference.\n\nBeyond language models, several creative tools relevant to content creators have launched. JoyAI Video Edit offers video editing capabilities, while Index TTS 2.5 enhances text-to-speech functionality. New 3D tools have also been presented, including Hunyuan3D WorldClaw and Dyna 2, as well as Meta's Muse Glimmer for creative generation.\n\nThese updates represent advances in both generalist AI models and specialized tools for creators, with a focus on increased speed, efficiency, and new creative possibilities.",
-   "deep": "The video material presents a comprehensive update on recent developments in AI models and tools. Deepseek V4 0813 represents a new version of Deepseek's language model, while Grok 4.6 from X.AI demonstrates continued improvements in Elon Musk's AI assistant. LTX 2.5 is an updated model specifically designed for video generation, which is particularly relevant for creators working with video content.\n\nOn the language model side, Qwen 3.8 is presented in multiple configurations, including a 27B version and larger variants, providing flexibility for different use cases. GLM 5.3 from Zhipu AI and Google's Gemini 3.7 Flash also show advances in generalist models. OpenAI's GPT Ultrafast focuses on inference speed, an important factor for practical applications.\n\nFor creative makers, the launch of tools like JoyAI Video Edit is particularly relevant, as it enables video editing with AI assistance. Index TTS 2.5 improves speech synthesis capacity with more natural pronunciation and better language support. The development of 3D tools, represented by Hunyuan3D WorldClaw and Dyna 2, indicates a growing focus on 3D generation. Meta's Muse Glimmer is presented as a creative tool, possibly for art generation or visual effects."
-  }
- },
- {
-  "tag": "img",
-  "lab": "Bild",
-  "ico": "📷",
-  "ttl": "Hank Green AI-debatt: forskning vs skriptskrivning",
-  "meta": "Matt Wolfe · 2026-08-15",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=ZePfpQ7lbcs",
-  "img": "https://img.youtube.com/vi/ZePfpQ7lbcs/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Hank%20Green%20AI%20controversy%20ChatGPT",
-  "feed": "",
-  "sum": "Youtubare Hank Green blev anklagad för AI-användning efter en formulering i en video, men förklarade att han bara använder AI för att hitta forskningsartiklar, inte för att skriva skript.",
-  "full": "Youtubare och vetenskapskommunikatör Hank Green hamnade i en kontrovers när tittare trodde att frasen \"I appreciate the pushback\" i en video var AI-genererad. Green förtydligade senare att han inte använder AI för att skriva sina skript, men väl för att söka efter och identifiera relevanta forskningsartiklar som han sedan läser själv.\n\nDebatten väckte större frågor om gränsen för acceptabel AI-användning bland innehållsskapare. Medan många betraktare är oroad för att AI-assistans kan påverka en skapares autenticitet och original perspektiv, menar Matt Wolfe att användning av AI som ett forskarverktyg eller för att organisera tankar är helt legitim. Han framhåller också att kreatörer står under enormt tryck att producera innehål konsekvent, samtidigt som de hanterar familj och andra arbetsuppgifter.\n\nKontroversen lyfter fram en växande diskussion om hur och när AI-verktyg är lämpliga för professionella innehållsskapare.",
-  "buzz": 85,
-  "cat": "foto",
-  "date": "2026-08-15T13:14:44Z",
-  "chans": [
-   "Matt Wolfe"
-  ],
-  "deep": "Kontroversen kring Hank Green illustrerar en växande debatt om AI-användning bland kreativa människor och innehållsskapare. Utgångspunkten var en formulering som tittare antog var AI-genererad, vilket ledde till anklagelser om att han förlitade sig på artificiell intelligens för sitt arbete. Greens försvar — att han endast använder AI som ett verktyg för att söka och identifiera relevanta vetenskapliga artiklar, inte för att skapa innehåll — pekar på en viktig skillnad mellan olika användningsfall.\n\nMatt Wolfe argumenterar för att denna typ av AI-användning är rimlig och motsvarar att använda en bättre sökning eller forskarbibliotek. Det handlar om effektivitet i en informationssöksprocess snarare än att outsourca kreativt tänkande. Dock förstår Wolfe också varför publik kan vara skeptisk — många följer skapare just för deras unika perspektiv, analytiska förmåga och personliga röst.\n\nDet underliggande problemet är trycket på moderna innehållsskapare att producera kontinuerligt, hålla hög kvalitet, samtidigt som de balanserar flera karriärer och personliga åtaganden. Wolfe menar att industrin behöver ge skapare mer förståelse och utrymme att optimera sina arbetsprocesser, vilket ofta inkluderar AI-verktyg. Frågan blir därmed inte om AI ska användas, utan snarare hur det kan integreras på ett transparent och ansvarsfullt sätt som inte undergräver det originella värdet som skaparen tillför.",
-  "parts": [],
-  "en": {
-   "ttl": "Hank Green AI debate: research versus scriptwriting",
-   "sum": "YouTuber Hank Green was accused of using AI after a phrase in a video seemed AI-generated, but he clarified he only uses AI to find research papers, not to write scripts.",
-   "full": "YouTuber and science communicator Hank Green became embroiled in controversy when viewers believed the phrase \"I appreciate the pushback\" in a video was AI-generated. Green later clarified that he does not use AI to write his scripts, but does use it to search for and identify relevant research articles that he then reads himself.\n\nThe debate raised broader questions about the acceptable boundaries of AI use among content creators. While many viewers worry that AI assistance could compromise a creator's authenticity and original perspective, Matt Wolfe argues that using AI as a research tool or to organize thoughts is entirely legitimate. He also emphasizes that creators face enormous pressure to produce content consistently while managing families and other responsibilities.\n\nThe controversy highlights a growing discussion about how and when AI tools are appropriate for professional content creators.",
-   "deep": "The controversy surrounding Hank Green illustrates a growing debate about AI use among creative professionals and content creators. The initial concern was triggered by a phrase viewers assumed was AI-generated, leading to accusations that he relied on artificial intelligence for his work. Green's defense — that he uses AI solely as a tool to search for and identify relevant scientific papers, not to create content — points to an important distinction between different use cases.\n\nMatt Wolfe argues that this type of AI use is reasonable and equivalent to using better search functionality or research libraries. It concerns efficiency in an information-gathering process rather than outsourcing creative thinking. However, Wolfe also understands why audiences may be skeptical — many follow creators specifically for their unique perspectives, analytical abilities, and personal voice.\n\nThe underlying issue is the pressure on modern content creators to produce continuously, maintain high quality, and balance multiple careers and personal commitments. Wolfe suggests that the industry needs to give creators more grace and space to optimize their workflows, which often includes AI tools. The question therefore becomes not whether AI should be used, but rather how it can be integrated transparently and responsibly without undermining the original value the creator provides."
+   "ttl": "Two mystery AI video models emerge",
+   "sum": "Two unknown AI video models codenamed \"Polaris\" and \"Vega\" have begun testing on Artificial Analysis, possibly from Meta or Kling.",
+   "full": "Two new AI video models with codenames \"Polaris\" and \"Vega\" have recently appeared in blind testing on the Artificial Analysis arena without official confirmation of their creator. Based on timing and quality, speculation suggests at least one model is Meta's long-promised video model, or possibly Kling 4.\n\nThe analyst tests both models' performance across multi-shot character consistency, physics simulation, on-screen text rendering, native audio, and other capabilities. The video provides a direct head-to-head comparison of each model's strengths and weaknesses.\n\nAdditionally, StillsLab is introduced as a free reference library specifically designed for AI filmmakers. The library includes color palettes with hex codes, complete camera and lens data for every image, and a unique visual search function that can match AI-generated content with real film shots from the same visual family.",
+   "deep": "The two mysterious AI video models Polaris and Vega are unidentified entities tested through the Artificial Analysis blind testing arena without the developer being revealed. Speculation points primarily toward at least one being Meta's long-awaited video model based on launch timing and output quality, though Kling 4 or an unknown competitor remains possible.\n\nPolaris demonstrated multi-shot sequences with relative character consistency and presented physics simulations with varying success. The model struggled with rendered on-screen text rendering. Vega showed impressive results in visually complex scenes such as hall of mirrors and could handle Italian speech natively, but exhibited even greater problems with text rendering.\n\nStillsLab was introduced as a tool for AI filmmakers with comprehensive metadata — including precise hex codes for color palettes, complete camera and lens specifications for every reference image, and a unique visual search engine that enables matching AI-generated work against real film footage from corresponding visual families. This is provided entirely free and is specifically designed for how creators work with AI video tools."
   }
  },
  {
   "tag": "mdl",
   "lab": "Modeller",
   "ico": "🧠",
-  "ttl": "GPT-5.6 och Claude Opus i civilisationskris",
+  "ttl": "De 26 bästa AI-verktygen 2026 rankade",
+  "meta": "Skill Leap AI · 2026-08-17",
+  "plat": "",
+  "url": "https://www.youtube.com/watch?v=ieqiNDdXSaw",
+  "img": "https://img.youtube.com/vi/ieqiNDdXSaw/hqdefault.jpg",
+  "more": "https://www.google.com/search?q=best%20AI%20tools%202026%20ranked",
+  "feed": "",
+  "sum": "Youtuber rankar sina 26 favorit-AI-verktyg för produktivitet, innehållsskapande och design efter att ha testat över 1000 verktyg.",
+  "full": "Kanalen Skill Leap AI har sammanställt en omfattande ranking av de 26 bästa AI-verktygen för 2026, baserad på testning av över 1000 olika verktyg. Listan täcker ett brett spektrum av användningsområden inklusive produktivitet, innehållsskapande, forskning, kodning och design.\n\nRankingen omfattar välkända verktyg som ChatGPT, Claude, Google Gemini, Perplexity och Midjourney, tillsammans med specialiserade verktyg som Runway för video, ElevenLabs för ljud, Cursor för kodning och Lovable för webbutveckling. Videon är utformad för att hjälpa användare att orientera sig i det växande utbudet av AI-applikationer och hitta de verktyg som faktiskt levererar värde för deras specifika behov.\n\nDetta är en praktisk vägledning för både nybörjare och erfarna AI-användare som vill hålla sig uppdaterade om vilket verktyg som är värt sin tid och pengar under 2026.",
+  "buzz": 83,
+  "cat": "mdl",
+  "date": "2026-08-17T17:03:08Z",
+  "chans": [
+   "Skill Leap AI"
+  ],
+  "deep": "Videon presenterar en omfattande översikt av AI-verktygslandskapet för 2026, där innehållsskaparen har gjort ett betydande arbete med att testa över 1000 olika AI-applikationer för att identifiera de mest användbara. Rankingen är indelad efter användningsfall, vilket gör det enkelt för tittare att hitta relevant verktyg för sina behov.\n\nDe presenterade verktygen sträcker sig från generella AI-assistenter som ChatGPT och Claude till specialiserade lösningar. För visuell innehållsskapning inkluderas Midjourney för bildgenerering och Runway för videoproduktion. För audio-relaterade uppgifter nämns ElevenLabs, och för kodning presenteras Cursor som ett specialiserat verktyg. Canva AI representerar designsidan, medan Google Gemini, Perplexity och Microsoft Copilot täcker olika aspekter av informationshämtning och produktivitet.\n\nDeepSeek nämns också som ett ledande AI-verktyg, vilket indikerar ett fokus på att inkludera verktyg från olika utvecklare och ekosystem. Denna bredd gör ranking:en användbar för olika typer av kreatörer och kunskapsarbetare som söker att integrera AI i sina arbetsflöden under 2026.",
+  "parts": [],
+  "en": {
+   "ttl": "The 26 Best AI Tools of 2026 Ranked",
+   "sum": "Youtuber ranks 26 top AI tools for productivity, content creation, and design after testing over 1,000 tools.",
+   "full": "The Skill Leap AI channel has compiled a comprehensive ranking of the 26 best AI tools for 2026, based on testing over 1,000 different tools. The list covers a broad spectrum of use cases including productivity, content creation, research, coding, and design.\n\nThe ranking includes well-known tools like ChatGPT, Claude, Google Gemini, Perplexity, and Midjourney, alongside specialized tools such as Runway for video, ElevenLabs for audio, Cursor for coding, and Lovable for web development. The video is designed to help users navigate the growing landscape of AI applications and identify which tools actually deliver value for their specific needs.\n\nThis is a practical guide for both beginners and experienced AI users who want to stay updated on which tools are worth their time and money in 2026.",
+   "deep": "The video presents a comprehensive overview of the AI tools landscape for 2026, with the content creator having made significant effort testing over 1,000 different AI applications to identify the most useful ones. The ranking is organized by use case, making it easy for viewers to find relevant tools for their needs.\n\nThe presented tools range from general AI assistants like ChatGPT and Claude to specialized solutions. For visual content creation, Midjourney is included for image generation and Runway for video production. For audio-related tasks, ElevenLabs is mentioned, and for coding, Cursor is presented as a specialized tool. Canva AI represents the design side, while Google Gemini, Perplexity, and Microsoft Copilot cover various aspects of information retrieval and productivity.\n\nDeepSeek is also mentioned as a leading AI tool, indicating a focus on including tools from different developers and ecosystems. This breadth makes the ranking useful for various types of creators and knowledge workers seeking to integrate AI into their workflows in 2026."
+  }
+ },
+ {
+  "tag": "mdl",
+  "lab": "Modeller",
+  "ico": "🧠",
+  "ttl": "GPT-5.6 och Claude Opus krockar i civilationsspel",
   "meta": "MattVidPro · 2026-08-14",
   "plat": "",
   "url": "https://www.youtube.com/watch?v=9D-t1AZmCCk",
   "img": "https://img.youtube.com/vi/9D-t1AZmCCk/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=GPT-5.6%20Claude%20Opus%20civilization%20game%20simulation",
+  "more": "https://www.google.com/search?q=GPT-5.6%20Claude%20Opus%20civilization%20game%20comparison",
   "feed": "",
-  "sum": "YouTubern MattVidPro byggde ett simulationsspel i Lovable där Claude Opus 5 och GPT-5.6 Sol fick styra identiska städer mot katastrof, med dramatiskt olika resultat.",
-  "full": "MattVidPro har skapat Pocket Providence, ett web-baserat civilisationsspel utvecklat i Lovable där AI-modeller måste hålla en stad med 12 invånare vid liv under sju simulerade dagar med närande naturkatastrof. I det första testet lyckades Claude Opus 5 rädda 11 av 12 medborgare medan GPT-5.6 Sol bara räddade 5, men vid ommatchen med högre resoneringsförmåga blev resultaten närmare varandra och avslöjade olika svagheter hos båda modellerna.\n\nSpelet är byggd från en Plan Mode-prompt i Lovable och utvecklades till en publicerad app med sparade körningar, MCP-verktyg och visuell förfining—komplext nog att få dagens flaggskepps-AI-modeller att misslyckas. Användare kan själva spela Pocket Providence och testa andra AI-modeller för att se om de kan hålla alla 12 medborgare vid liv. Experimentet sponsrades av Lovable och illustrerar både styrkor och svagheter hos moderna språkmodeller när de ställs inför komplexa beslutsscenarier.",
+  "sum": "Två toppmodeller testades i ett webbspel om att rädda en stad från katastrof – Claude räddade 11 av 12 medborgare medan GPT-5.6 räddade bara 5.",
+  "full": "Youtuber MattVidPro skapade ett experiment där han byggt ett litet civilisationsspel kallat Pocket Providence i webbutvecklingsplattformen Lovable. Han gav sedan Claude Opus 5 och OpenAIs GPT-5.6 Sol exakt samma startsituation, resurser och närliggande naturkatastrof – och observerade helt olika strategier.\n\nI första testet lyckas Claude hålla 11 av 12 medborgare vid liv, medan GPT-5.6 endast räddade 5. Vid en omatch med högre resoneringsläge blev resultaten dock betydligt närmare och avslöjade olika misslyckanden hos båda modellerna. Experimentet visar hur AI-modeller med samma uppdrag kan fatta helt olika beslut under press – och erbjuder spelare möjligheten att själva testa sina egna strategier.",
   "buzz": 82,
   "cat": "mdl",
   "date": "2026-08-14T21:13:57Z",
   "chans": [
    "MattVidPro"
   ],
-  "deep": "Pocket Providence är ett intressant test av moderna AI-modellers beslutsfattande under press. Genom att ge Claude Opus 5 och GPT-5.6 Sol identiska utgångspunkter—12 invånare, samma resurser och samma hotande naturkatastrof—kunde MattVidPro jämföra deras strategier direkt. Claudees överlägsna prestation i första omgången (11 av 12 överlevande mot GPT:s 5) antydde olika arkitekturer för problemlösning, men ommatchen med aktiverad högresonering blevmycket tätare, vilket visar att båda modellerna förbättrades när mer tänkande-tid tilldelades.\n\nLovable, plattformen bakom utvecklingen, möjliggorde en iterativ process från enkel prompt-baserad planering till en fullt funktionell webbapp. Implementeringen av MCP-verktyg (Model Context Protocol) samt sparningsmekanismer för körningar visar hur moderna AI-utvecklingsplattformar kan skapa komplexa interaktiva system. Det visuella gränssnittet förfinades för att göra spelet tillgängligt för testning.\n\nExperimentets betydelse ligger i att det demonstrerar både var moderna språkmodeller exceller och fallerar. Medan båda modeller kunde förstå komplexiteten i resurshantering och befolkningsöverlevnad, visade de olika brister i långterminsplanering och riskbedömning. Att öppna spelet för gemensam testning skapar ett värdefull benchmarkingsverktyg för AI-gemenskapen och visar praktiska gränser för nuvarande teknik.",
+  "deep": "Pocket Providence är ett webbbaserat strategispel utvecklat från början med Lovables Plan Mode-funktion och vidareutvecklat med MCP-verktyg (Model Context Protocol), visuell raffinering och en svårighetsgrad som gör att även framstående AI-modeller misslyckas. Spelet är en sandbox-simulering där spelaren måste hantera en grupp på 12 medborgare med begränsade resurser när en naturkatastrof närmar sig.\n\nExperimentet är viktigt för att det visualiserar hur olika AI-modellers beslutsfattande skiljer sig åt under stress och med komplexa problem. Claude Opus 5 demonstrerade bättre övergripande samordning i sitt första försök, men när GPT-5.6 Sol användes med högre reasoning-inställningar blev prestationerna mycket jämförbar, vilket tyder på att modellernas skillnader inte är statiska utan beroende av inställningar och kontext.\n\nSpelet är nu publicerat och tillgängligt för allmänheten via Lovable, där användare kan spela sin egen version, testa sina egna strategier och till och med koppla in andra AI-modeller. Det visar hur moderna webbutvecklingsplattformar möjliggör interaktiva experiment som både testar AI-kapacitet och skapar engagerande användarupplevelser – en blandning av AI-forskning och speldesign.",
   "parts": [
    {
     "t": 0,
@@ -220,88 +215,60 @@
    }
   ],
   "en": {
-   "ttl": "GPT-5.6 and Claude Opus Face Civilization Crisis",
-   "sum": "YouTuber MattVidPro built a simulation game in Lovable where Claude Opus 5 and GPT-5.6 Sol steered identical cities toward disaster with starkly different outcomes.",
-   "full": "MattVidPro has created Pocket Providence, a web-based civilization game developed in Lovable where AI models must keep a city of 12 citizens alive over seven simulated days amid an approaching natural disaster. In the initial test, Claude Opus 5 successfully saved 11 of 12 citizens while GPT-5.6 Sol saved only 5, but a rematch with higher reasoning capability produced much closer results and exposed different weaknesses in both models.\n\nThe game was built from a Plan Mode prompt in Lovable and refined into a published app featuring saved runs, MCP tools, and visual polish—complex enough to make state-of-the-art AI models fail. Users can play Pocket Providence themselves and test other AI models to see whether they can keep all 12 citizens alive. The experiment was sponsored by Lovable and illustrates both the strengths and limitations of modern language models when facing intricate decision-making scenarios under pressure.",
-   "deep": "Pocket Providence serves as a compelling test of modern AI decision-making under duress. By giving Claude Opus 5 and GPT-5.6 Sol identical starting conditions—12 citizens, matching resources, and the same looming natural disaster—MattVidPro was able to directly compare their strategic approaches. Claude's superior initial performance (11 of 12 survivors versus GPT's 5) suggested different architectural approaches to problem-solving, yet the rematch with extended reasoning enabled became much tighter, demonstrating that both models improved when allocated more thinking time.\n\nLovable, the platform underlying development, enabled an iterative process from simple prompt-based planning into a fully functional web application. The implementation of MCP tools (Model Context Protocol) and run-saving mechanics illustrates how modern AI development platforms can construct complex interactive systems. Visual refinement of the interface made the game accessible for community testing.\n\nThe experiment's significance lies in demonstrating where modern language models both excel and fail. While both models could grasp the complexity of resource management and population survival, they exhibited different limitations in long-term planning and risk assessment. Opening the game for community testing creates a valuable benchmarking tool for the AI community and reveals practical boundaries of current technology."
-  }
- },
- {
-  "tag": "mdl",
-  "lab": "Modeller",
-  "ico": "🧠",
-  "ttl": "OpenAI lanserar omstridd skärmläsningsfunktion",
-  "meta": "The AI Advantage · 2026-08-14",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=rzLYEIheLPs",
-  "img": "https://img.youtube.com/vi/rzLYEIheLPs/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=OpenAI%20Computer%20History%20feature%20ChatGPT%20desktop%20app",
-  "feed": "",
-  "sum": "OpenAI har introducerat Computer History, en ny funktion som låter ChatGPT:s skrivbordsapp se nästan allt du gör på din dator.",
-  "full": "OpenAI har släppt en uppdatering kallad Computer History för sin skrivbordsapp. Funktionen ger ChatGPT möjlighet att se och analysera nästan allt som sker på användarens skärm, vilket har väckt betydande debatt om integritet och datasäkerhet.\n\nUppdateringen är avsedd att göra AI-assistenten mer kontextmedveten och användbar för arbetsuppgifter, men funktionen väcker farhågor bland säkerhetsexperter och användare angående vad OpenAI kan se och hur data hanteras. Användare som är intresserade av funktionen kan nu testa den innan de installerar den fullt ut på sin egen dator.\n\nDetta är en av OpenAI:s mest omstridda uppdateringar hittills, och det återstår att se hur företaget adresserar de integritetsbetäcklanden som redan väckts.",
-  "buzz": 90,
-  "cat": "mdl",
-  "date": "2026-08-14T20:08:20Z",
-  "chans": [
-   "The AI Advantage"
-  ],
-  "deep": "Computer History är en ny skärmläsningsfunktion som integreras i ChatGPT:s skrivbordsapp. Funktionen gör att AI-modellen kan analysera och förstå innehållet på användarens skärm i realtid, vilket potentiellt kan ge ChatGPT bättre kontext för att ge mer relevanta och exakta svar.\n\nFunktionen är utformad för att göra ChatGPT mer användbar för arbetsuppgifter där kontextuell förståelse är viktigt – till exempel att få hjälp med kodning, designfeedback eller andra screenbaserade aktiviteter. Istället för att manuellt beskriva vad du ser, kan du helt enkelt låta ChatGPT se det själv.\n\nDock väcker denna teknologi omfattande integritetsfrågor. Genom att ge en AI-tjänst möjlighet att se allt på skärmen öppnas potentiella risker för känslig datainsamling – lösenord, finansiell information, personlig kommunikation, etc. OpenAI har sätt att människor kan testa funktionen innan full installation, vilket tyder på försiktighet, men många användare och experter förväntar sig större transparens kring exakt vad som loggades och lagras.",
-  "parts": [],
-  "en": {
-   "ttl": "OpenAI Launches Controversial Screen-Reading Feature",
-   "sum": "OpenAI has introduced Computer History, a new feature that allows ChatGPT's desktop app to see nearly everything you do on your computer.",
-   "full": "OpenAI has released an update called Computer History for its desktop app. The feature gives ChatGPT the ability to see and analyze almost everything happening on the user's screen, sparking significant debate about privacy and data security.\n\nThe update is intended to make the AI assistant more context-aware and useful for work tasks, but the feature raises concerns among security experts and users about what OpenAI can access and how data is handled. Users interested in the feature can now test it before fully installing it on their own computer.\n\nThis is one of OpenAI's most controversial updates to date, and it remains to be seen how the company will address the privacy concerns already being raised.",
-   "deep": "Computer History is a new screen-reading feature integrated into ChatGPT's desktop app. The feature allows the AI model to analyze and understand the content on a user's screen in real-time, potentially giving ChatGPT better context to provide more relevant and accurate responses.\n\nThe feature is designed to make ChatGPT more useful for work tasks where contextual understanding is important—for example, getting help with coding, design feedback, or other screen-based activities. Instead of manually describing what you see, you can simply let ChatGPT see it itself.\n\nHowever, this technology raises extensive privacy questions. By giving an AI service the ability to see everything on the screen, potential risks for sensitive data collection open up—passwords, financial information, personal communications, etc. OpenAI's approach of allowing people to test the feature before full installation suggests caution, but many users and experts expect greater transparency about exactly what is logged and stored."
+   "ttl": "GPT-5.6 and Claude Opus clash in civilization game",
+   "sum": "Two leading AI models were tested in a web-based city-rescue game—Claude saved 11 of 12 citizens while GPT-5.6 saved only 5.",
+   "full": "YouTuber MattVidPro created an experiment building a small civilization game called Pocket Providence using the Lovable web development platform. He then gave Claude Opus 5 and OpenAI's GPT-5.6 Sol the exact same starting scenario, resources, and approaching natural disaster—observing completely different strategies.\n\nIn the first test, Claude managed to keep 11 of 12 citizens alive, while GPT-5.6 saved only 5. In a rematch using higher reasoning modes, the results became much closer and revealed different failures in both models. The experiment shows how AI models given identical tasks can make vastly different decisions under pressure—and offers players the chance to test their own strategies.\n\nPocket Providence is a web-based strategy game now available to the public via Lovable, where users can play, develop their own approaches, and even connect other AI models to test their performance against the same scenario.",
+   "deep": "Pocket Providence is a web-based strategy simulation developed using Lovable's Plan Mode feature and advanced with MCP (Model Context Protocol) tools, visual refinement, and difficulty tuning that challenges even flagship AI models. The game places players in control of 12 citizens with limited resources facing an approaching natural disaster.\n\nThe experiment is significant because it visualizes how different AI models' decision-making diverges under stress and complex scenarios. Claude Opus 5 demonstrated superior overall coordination in its initial attempt, but when GPT-5.6 Sol was run with higher reasoning settings, performance became remarkably comparable—suggesting that model differences are not fixed but contingent on configuration and context.\n\nThe game is now published and publicly accessible through Lovable, allowing users to play their own versions, test personal strategies, and connect alternative AI models for comparative analysis. It demonstrates how modern web development platforms enable interactive AI experiments that blur the line between AI research and game design, creating both educational insights and engaging user experiences that reveal model behavior in dynamic, real-time scenarios."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Wan 3.0 – AI-videogenerator värd att prova",
+  "ttl": "Wan 3.0 – videogenerator värd att prova",
   "meta": "Curious Refuge · 2026-08-14",
   "plat": "Wan 2.7",
   "url": "https://www.youtube.com/watch?v=aA_AFy-GDwo",
   "img": "https://img.youtube.com/vi/aA_AFy-GDwo/hqdefault.jpg",
   "more": "https://www.google.com/search?q=Wan%203.0%20AI%20video%20generator%20review",
   "feed": "",
-  "sum": "Curious Refuge granskar Wan 3.0, en AI-videogenerator som erbjuder ny funktionalitet för innehållsskapare.",
-  "full": "Curious Refuge har släppt en genomgång av Wan 3.0, en AI-videogenerator som lockar uppmärksamhet från kreatörer som söker alternativ till etablerade verktyg. Videogranskningen ger en ärlig bedömning av plattformens möjligheter och begränsningar.\n\nWan 3.0 är baserat på MiniMax H3 open-weights-modellen, som för närvarande är begränsad till EU, Storbritannien, Sydkorea och USA. För kreatörer som arbetar med filmproduktion och videoinnehåll kan verktyget erbjuda nya möjligheter för att generera material snabbare. Interesting Refuge erbjuder även kostnads fri utbildning i AI-filmproduktion och en dedikerad kurs för YouTubers som vill integrera AI i sitt arbetsflöde.",
-  "buzz": 91,
+  "sum": "Curious Refuge testar AI-videogeneratorn Wan 3.0 och delar sin analys av verktyget.",
+  "full": "Curious Refuge har testat AI-videogeneratorn Wan 3.0 och presenterar sina fynd i en ny video. Verktyget utreds noggrant och recensionen ger en ärlig bedömning av funktioner och prestanda.\n\nWan 3.0 är en videogenerator som erbjuder kreatörer möjligheten att generera videoinnehål med hjälp av AI. För YouTubers och filmmakers kan sådan teknik spara tid i produktionsprocessen och öppna nya möjligheter för experimentering med visuellt innehål.\n\nDen fullständiga analysen finns på Curious Refuges hemsida. Intresserade kan också utforska Wan 3.0 direkt eller ansluta sig till communityns kurs om AI för YouTubers för att lära sig mer om arbetsflöden inom AI-filmmaking.",
+  "buzz": 92,
   "cat": "film",
   "date": "2026-08-14T19:44:20Z",
   "chans": [
    "Curious Refuge"
   ],
-  "deep": "Wan 3.0 bygger på MiniMax H3open-weights-modellen, som utvecklats för videogenerering. Modellen är för närvarande begränsad geografiskt till EU, Storbritannien, Sydkorea och USA, vilket kan påverka tillgängligheten för globala kreatörer. Interesting Refuge presenterar detta som ett alternativ bland befintliga AI-videogeneratorer och fokuserar på dess praktiska tillämpningar för filmproducenter och innehållsskapare.\n\nVideogranskningen är utformad för att ge en praktisk överblick över verktygets möjligheter och användarvänlighet. Plattformen kan nås via create.wan.video/explore. För den som är intresserad av att utforska MiniMax H3 open-weights-modellen direkt är det en licensieringsprocess tillgänglig på Hugging Face, även om denna för närvarande är begränsad till de nämnda regionerna.\n\nInteresting Refuge positionerar detta verktyg som en värd att undersöka för kreatörer som redan är bekanta med andra AI-videogeneratorer. Granskningen är en del av deras bredare satsning på att utbilda innehållsskapare om AI-verktyg, inklusive deras nya kurs för YouTubers.",
+  "deep": "Wan 3.0 positioneras som en videogenerator som Curious Refuge menar många kreatörer inte har provat än. Videot fokuserar på en grundlig granskning av verktygets kapacitet och hur det står sig mot andra lösningar på marknaden.\n\nVerktyget är tillgängligt via create.wan.video och är utformat för att kunna generera videoinnehål från textinstruktioner eller andra inmatningar. För innehållsskapare och filmmakers representerar sådan teknik en potentiell effektiviseringsverktyg i produktionskedjan.\n\nCurious Refuge erbjuder även relaterat material genom sin kurs \"AI for YouTubers\" och ett community-nätverk för de som vill fördjupa sig i AI-filmmaking. Kanalen riktar sig specifikt till kreatörer som söker praktiska arbetsflöden och aktuell information om AI-verktyg.",
   "parts": [],
   "en": {
-   "ttl": "Wan 3.0 – AI Video Generator Worth Trying",
-   "sum": "Curious Refuge reviews Wan 3.0, an AI video generator offering new functionality for content creators.",
-   "full": "Curious Refuge has released a review of Wan 3.0, an AI video generator attracting attention from creators seeking alternatives to established tools. The video review provides an honest assessment of the platform's capabilities and limitations.\n\nWan 3.0 is based on the MiniMax H3 open-weights model, currently limited to the EU, UK, South Korea, and the US. For creators working with film production and video content, the tool can offer new opportunities to generate material faster. Curious Refuge also provides free training in AI filmmaking and a dedicated course for YouTubers looking to integrate AI into their workflow.",
-   "deep": "Wan 3.0 is built on the MiniMax H3 open-weights model, developed for video generation. The model is currently geographically restricted to the EU, UK, South Korea, and the US, which may affect accessibility for global creators. Curious Refuge presents this as an alternative among existing AI video generators, focusing on its practical applications for film producers and content creators.\n\nThe video review is designed to provide a practical overview of the tool's capabilities and user-friendliness. The platform can be accessed via create.wan.video/explore. For those interested in exploring the MiniMax H3 open-weights model directly, a licensing process is available on Hugging Face, although it is currently restricted to the mentioned regions.\n\nCurious Refuge positions this tool as worthwhile to explore for creators already familiar with other AI video generators. The review is part of their broader effort to educate content creators about AI tools, including their new course for YouTubers."
+   "ttl": "Wan 3.0 – video generator worth trying",
+   "sum": "Curious Refuge tests the AI video generator Wan 3.0 and shares their analysis of the tool.",
+   "full": "Curious Refuge has tested the AI video generator Wan 3.0 and presents its findings in a new video. The tool is thoroughly examined and the review provides an honest assessment of features and performance.\n\nWan 3.0 is a video generator that offers creators the opportunity to generate video content using AI. For YouTubers and filmmakers, such technology can save time in the production process and open new possibilities for experimenting with visual content.\n\nThe full analysis is available on Curious Refuge's website. Interested parties can also explore Wan 3.0 directly or join the community's course on AI for YouTubers to learn more about AI filmmaking workflows.",
+   "deep": "Wan 3.0 is positioned as a video generator that Curious Refuge argues many creators have not yet tried. The video focuses on a thorough examination of the tool's capabilities and how it compares against other solutions on the market.\n\nThe tool is available via create.wan.video and is designed to generate video content from text instructions or other inputs. For content creators and filmmakers, such technology represents a potential efficiency tool in the production pipeline.\n\nCurious Refuge also offers related material through its \"AI for YouTubers\" course and a community network for those interested in deepening their knowledge of AI filmmaking. The channel specifically targets creators seeking practical workflows and current information about AI tools."
   }
  },
  {
   "tag": "mdl",
   "lab": "Ljud",
   "ico": "🎵",
-  "ttl": "MiniMax Music3: öppen AI-musikmodell utmanar Suno",
+  "ttl": "MiniMax Music3 utmanar Suno med öppen AI-musikmodell",
   "meta": "MattVidPro · 2026-08-13",
   "plat": "",
   "url": "https://www.youtube.com/watch?v=-Ye71x8Yi3g",
   "img": "https://img.youtube.com/vi/-Ye71x8Yi3g/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=MiniMax%20Music3%20open%20weight%20AI%20music%20generator",
+  "more": "https://www.google.com/search?q=MiniMax%20Music3%20open%20weight%20AI%20music%20model",
   "feed": "",
-  "sum": "MiniMax har lanserat Music3, en öppen musikgenereringsmodell som kan köras lokalt och erbjuder obegränsad produktion när Suno begränsar sina nedladdningar.",
-  "full": "MiniMax har släppt Music3, en öppen AI-musikmodell som kan installeras och köras lokalt på användares datorer. Modellen kan till och med köra på ett 8GB CUDA-grafikkort med minnesoptimering, vilket gör den tillgänglig för många kreatörer. Lanseringen kommer precis när Suno implementerar nya gränser för Pro-abonnenter—max 20 musiknedladdningar per månad från 3 september.\n\nMusic3 imponerar med stark lyrikkvalitet, uttal och användbar ljudkvalitet, enligt testare. Även om Suno V5 fortfarande överträffar den när det gäller klarhet, instrumentering och stilkontroll, är Music3 den bästa öppna musikgenereraren som testats hittills. Fördelarna är betydande: obegränsad lokal produktion utan prenumerationsgebyr.\n\nModellen är tillgänglig på GitHub och HuggingFace med en community-licens, och kan redan användas i ComfyUI. För musikskapare som söker alternativ till abonnemang-baserade tjänster representerar detta ett väsentligt framsteg.",
+  "sum": "MiniMax Music3, en öppen AI-musikmodell, lanserades precis när Suno begränsade sina gratis nedladdningar, och erbjuder användbar kvalitet som kan köras lokalt på modest hårdvara.",
+  "full": "MiniMax Music3 är en ny öppen AI-musikgenerator som lanserats vid en kritisk tidpunkt – strax efter att Suno begränsade sina Pro-nedladdningar till 20 sånger per månad från 3 september. Modellen kan installeras och köras lokalt på vanlig hårdvara, inklusive på GPU-kort med endast 8GB VRAM.\n\nEnligt testning visar MiniMax Music3 stark kvalitet när det gäller textgenering, uttal och användbar ljudkvalitet. Även om Suno V5 fortfarande överträffar det i klarhet, instrumentering och stilkontroll, är Music3 den bästa öppna musikgeneratorn som testats hittills. Det är inte en \"Suno-dödare\", utan snarare ett tecken på att obegränsad lokal AI-musikgenerering nu är god nog för praktisk användning.\n\nModellen är tillgänglig på GitHub och Hugging Face med stöd för ComfyUI, vilket gör den tillgänglig för musiker och kreatörer som söker lokalt kontrollerade alternativ till webbaserade tjänster.",
   "buzz": 91,
   "cat": "ljud",
   "date": "2026-08-13T23:37:41Z",
   "chans": [
    "MattVidPro"
   ],
-  "deep": "MiniMax Music3 är en öppen musikgenereringsmodell som släpptes som alternativ när kommersiella tjänster stramar åt sina villkor. Modellen är designad för att köra lokalt, vilket betyder att användare behåller full kontroll över sin data och produktionen är praktiskt taget obegränsad—ingen månatlig kvot, ingen prenumeration.\n\nTekniskt kan Music3 köras på relativt modest hårdvara. Med 8GB CUDA-RAM och minnesoptimering kan det offloada beräkningar effektivt. Det finns redan integrationer med populära kreativa ramverk som ComfyUI, vilket gör det enkelt för befintliga användare att börja experimentera.\n\nI jämförelse med Suno V5 är skillnaderna nyanserade. Suno behåller överhand när det gäller slutlig audioklarhet, instrumentering och detaljerad stilkontroll. MiniMax Music3 exceller istället med lyrikkvalitet och uttal. För många kreatörer kan denna balanspunkt vara tillräcklig, speciellt med möjligheten till obegränsad lokal generering utan abonnementskostnad.\n\nTidpunkten är kritisk: Suno började begränsa nedladdningar för sina Pro-användare den 3 september, vilket skaper efterfrågan på alternativ. MiniMax Music3 fyller denna lucka genom att erbjuda en helt öppen, lokal lösning för musikgeneration.",
+  "deep": "MiniMax Music3 representerar ett betydande framsteg för öppna AI-musikmodeller och ankommer under ett strategiskt tidpunkt i marknaden. Suno's beslut att begränsa Pro-prenumeranter till 20 nedladdade sånger per månad från september 3 skapade ett tomrum för användare som söker obegränsade alternativ, och MiniMax Music3 fylls denna lucka med imponerande resultat.\n\nTekniskt sett är modellens största fördel dess möjlighet att köras helt lokalt med minimal hårdvara – 8GB CUDA-kort räcker för att generera musik med offloading. Detta är kritiskt för kreatörer som värdesätter integritet, kontroll och oberoende från cloud-tjänster. Textgenering och uttalsklarhet beskrivs som \"genuinely strong\", vilket adresserar historiska svaga punkter hos många öppna musikmodeller.\n\nJämfört med Suno V5 finns fortfarande skillnader: Suno behåller överhand när det gäller överlagd klarhet, instrumentell variation och stilkontroll – områden där den proprietary modellen är tränad på större dataset. Men MiniMax Music3 överträffar andra öppna alternativ och nödvändiggör inte online-beroendet eller användarkvotbegränsningar.\n\nTillgängligheten genom GitHub, Hugging Face och ComfyUI-integration gör Music3 särskilt tilltalande för experimentörer och utvecklare. Lanseringen signalerar att öppenviktiga musikmodeller nu når mognad – tillräckligt bra för att faktiskt konkurrera med webbaserade tjänster, även om de inte helt eliminerar dem.",
   "parts": [
    {
     "t": 0,
@@ -337,47 +304,47 @@
    }
   ],
   "en": {
-   "ttl": "MiniMax Music3: Open AI music model challenges Suno",
-   "sum": "MiniMax has launched Music3, an open music generation model that runs locally and offers unlimited production as Suno implements download limits.",
-   "full": "MiniMax has released Music3, an open-source AI music model that can be installed and run locally on users' computers. The model can even run on an 8GB CUDA graphics card with memory optimization, making it accessible to many creators. The launch comes just as Suno implements new limits for Pro subscribers—maximum 20 music downloads per month starting September 3rd.\n\nMusic3 impresses with strong lyric quality, pronunciation, and usable audio quality according to testers. While Suno V5 still outperforms it in clarity, instrumentation, and style control, Music3 is the best open-source music generator tested so far. The advantages are significant: unlimited local production without subscription fees.\n\nThe model is available on GitHub and HuggingFace with a community license, and can already be used in ComfyUI. For music creators seeking alternatives to subscription-based services, this represents a significant breakthrough.",
-   "deep": "MiniMax Music3 is an open-source music generation model released as an alternative when commercial services tighten their terms. The model is designed to run locally, meaning users retain full control over their data and production is practically unlimited—no monthly quota, no subscription.\n\nTechnically, Music3 can run on relatively modest hardware. With 8GB CUDA RAM and memory optimization, it can efficiently offload computations. Integrations with popular creative frameworks like ComfyUI already exist, making it easy for existing users to start experimenting.\n\nCompared to Suno V5, the differences are nuanced. Suno maintains an edge in final audio clarity, instrumentation, and detailed style control. MiniMax Music3 excels instead with lyric quality and pronunciation. For many creators, this balance point may be sufficient, especially with the ability to generate unlimited music locally without subscription costs.\n\nTiming is critical: Suno began limiting downloads for Pro users on September 3rd, creating demand for alternatives. MiniMax Music3 fills this gap by offering a fully open, local solution for music generation."
+   "ttl": "MiniMax Music3 challenges Suno with open AI music model",
+   "sum": "MiniMax Music3, an open-weight AI music generator, launched precisely when Suno limited free downloads, offering usable quality that runs locally on modest hardware.",
+   "full": "MiniMax Music3 is a new open-weight AI music generator launched at a critical moment—shortly after Suno capped Pro downloads at 20 songs per month starting September 3. The model can be installed and run locally on standard hardware, including GPU cards with just 8GB VRAM.\n\nAccording to testing, MiniMax Music3 demonstrates strong quality in lyrics generation, pronunciation, and usable sound quality. While Suno V5 still surpasses it in clarity, instrumentation, and style control, Music3 is the best open-weight music generator tested so far. It is not a \"Suno killer\", but rather evidence that unlimited local AI music generation is now good enough to matter.\n\nThe model is available on GitHub and Hugging Face with support for ComfyUI, making it accessible to musicians and creators seeking locally-controlled alternatives to web-based services.",
+   "deep": "MiniMax Music3 represents a significant advancement for open-weight AI music models and arrives at a strategically opportune moment in the market. Suno's decision to limit Pro subscribers to 20 downloaded songs per month from September 3 created a void for users seeking unlimited alternatives, and MiniMax Music3 fills this gap with impressive results.\n\nTechnically, the model's greatest advantage is its ability to run entirely locally with minimal hardware—an 8GB CUDA card is sufficient for music generation with offloading. This is critical for creators who value privacy, control, and independence from cloud services. Lyrics generation and pronunciation clarity are described as \"genuinely strong\", addressing historical weak points of many open-weight music models.\n\nCompared to Suno V5, differences persist: Suno maintains an edge in overall clarity, instrumental variety, and style control—areas where the proprietary model is trained on larger datasets. However, MiniMax Music3 outperforms other open alternatives and eliminates the need for online dependency or user quota restrictions.\n\nAvailability through GitHub, Hugging Face, and ComfyUI integration makes Music3 particularly appealing to experimenters and developers. The launch signals that open-weight music models are now reaching maturity—good enough to genuinely compete with web-based services, even if they don't completely replace them."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Claude låser upp Seedance 2.5 för filmproduktion",
+  "ttl": "Claude integrerar Seedance 2.5 för automatiserad filmproduktion",
   "meta": "AI Samson · 2026-08-12",
   "plat": "Seedance 2.5",
   "url": "https://www.youtube.com/watch?v=UEPkmzIiaoI",
   "img": "https://img.youtube.com/vi/UEPkmzIiaoI/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Claude%20Seedance%202.5%20AI%20video%20automation",
+  "more": "https://www.google.com/search?q=Claude%20Seedance%202.5%20AI%20video%20automation%20workflow",
   "feed": "",
-  "sum": "Ny handledning visar hur man integrerar Claude med Seedance 2.5 för att automatisera och förbättra AI-videouppspådning från start till slut.",
-  "full": "AI Samson presenterar en komplett guide för att kombinera Claude med Seedance 2.5 för avancerad videouppspädning. Genom att koppla Claude direkt till Seedance kan kreatörer skriva bättre prompts som undviker generisk AI-estetik och få större kreativ frihet i sitt arbetsflöde.\n\nHandledningen täcker allt från grundläggande prompt-skrivning till att bygga komplexa flerstegs-sekvenser för längre, mer sammanhängande videor. En central del av detta är att automatisera videouppspädning från början till slut genom agentic capabilities, vilket minskar manuellt arbete avsevärt.\n\nTutorialen är utformad för kreatörer som vill gå bortom grundläggande generation och utforska mer sofistikerad AI-videoinnehål. Videon demonstrerar både möjligheterna och begränsningarna med denna kombination, inklusive där arbetsflödet kan brytas ned.",
-  "buzz": 86,
+  "sum": "En guide visar hur man kopplar Claude AI direkt till Seedance 2.5 för att automatisera långformad videoproduktion från prompt till färdig film.",
+  "full": "AI Samson presenterar en komplett arbetsflöde för att integrera Claude med Seedance 2.5, vilket möjliggör automatiserad långformad videokapproduktion. Guiden går från att skriva effektiva prompts som undviker generiska resultat till att koppla Claude direkt till Seedance för sömlös integration.\n\nTutorialen visar hur man ger Claude full kreativ frihet och automatiserar hela processen end-to-end, från idé till färdig film. Genom att ställa in autonoma agentfunktioner kan kreatörer skala från enkla prompts till längre, mer sammanhängande videopiece med minimal manuell input. Videon demonstrerar också praktiska gränser för denna teknik och presenterar ett helt film som Claude skapade själv.",
+  "buzz": 87,
   "cat": "film",
   "date": "2026-08-12T15:30:38Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "Videon presenterar en innovativ integration mellan Claude, en AI-assistent, och Seedance 2.5, en AI-videouppspädningsplattform. Workflowet bygger på att använda Claude för intelligentare prompt-generering och för att automatisera produktionsprocessen. Genom att koppla dessa verktyg direkt kan användare förbättra kvaliteten på sina videor och minska tiden det tar att producera längre, sammanhängande innehål.\n\nEn viktig aspekt är att Claude kan ge full kreativ frihet till videouppspädningen, vilket innebär att den kan agera som en agentic AI som fattar egna kreativa beslut under produktionen. Detta möjliggör semi-automatiserad videoproduktion där Claude kan hantera flera steg i processen med minimal manuell ingång.\n\nHandledningen är framför allt relevant för kreatörer och filmfolk som vill skala sitt arbete och utforska hur AI kan automatisera repetitiva uppgifter. Dock är det viktigt att notera att tutorialen också diskuterar begränsningarna i denna approach – det finns brister och situationer där kombinationen inte fungerar idealt.",
+  "deep": "Videon demonstrerar en praktisk integration mellan Claude AI och Seedance 2.5, två verktyg som tillsammans möjliggör en betydligt mer automatiserad videoproduktionsprocess än vad varje verktyg kan erbjuda separat. Kernkonceptet är att utnyttja Claudes förmåga att skriva välutvecklade, strukturerade prompts samtidigt som Seedance 2.5 hanterar den faktiska videogenereringen.\n\nArbeitsflödet börjar med att instruera Claude om hur man skriver prompts som undviker generiska AI-videomarkörer — detta är kritiskt eftersom standard AI-prompts ofta resulterar i repetitiv, opersonlig output. Genom att koppla Claude direkt till Seedance kan kreatörer sedan automatisera flerstegsprojekt där Claude itererar och förbättrar prompts baserat på feedback, vilket möjliggör utveckling av längre, mer sammanhängande narrativ.\n\nDet mest avancerade steget är implementeringen av autonoma agentfunktioner, där Claude kan driva hela processen med minimal människlig inblandning — från initial konsept till slutlig videofilm. Detta innebär att systemet kan köras på daglig eller regelbunden basis för att producera konsekvent innehål utan manuell intervention. Videon belyser också autentiska begränsningar i denna approach, vilket är värdefullt för kreatörer som försöker förstå var tekniken ännu inte är helt pålitlig, samtidigt som den visar ett konkret exempel på en helt AI-genererad film för att demonstrera systemets potential.",
   "parts": [
    {
     "t": 0,
     "l": "Claude och Seedance möjligheter",
-    "le": "What Claude and Seedance 2.5 can do"
+    "le": "What Claude and Seedance can do"
    },
    {
     "t": 47,
-    "l": "Prompt-skrivning för unika resultat",
-    "le": "Writing prompts that avoid generic AI"
+    "l": "Prompts för mindre generiska resultat",
+    "le": "Writing non-generic prompts"
    },
    {
     "t": 223,
-    "l": "Koppla Claude direkt till Seedance",
-    "le": "Connecting Claude to Seedance directly"
+    "l": "Koppla Claude till Seedance direkt",
+    "le": "Connecting Claude to Seedance"
    },
    {
     "t": 468,
@@ -386,134 +353,106 @@
    },
    {
     "t": 675,
-    "l": "Automatisera daglig videoproduktion",
-    "le": "Automate daily video end to end"
+    "l": "Automatisera daglig videoframställning",
+    "le": "Automating daily video production"
    },
    {
     "t": 810,
-    "l": "Begränsningar och brister",
-    "le": "Where this approach breaks down"
+    "l": "Där systemet inte fungerar",
+    "le": "Where the workflow breaks"
    },
    {
     "t": 885,
-    "l": "Claudeproducerad film",
-    "le": "The film Claude made independently"
+    "l": "Claudes självskapad film",
+    "le": "Film created by Claude alone"
    }
   ],
   "en": {
-   "ttl": "Claude Unlocks Seedance 2.5 For Filmmaking",
-   "sum": "New tutorial demonstrates how to integrate Claude with Seedance 2.5 to automate and enhance AI video generation from start to finish.",
-   "full": "AI Samson presents a comprehensive guide for combining Claude with Seedance 2.5 for advanced video generation. By connecting Claude directly to Seedance, creators can write better prompts that avoid generic AI aesthetics and gain greater creative freedom in their workflow.\n\nThe tutorial covers everything from basic prompt writing to building complex multi-stage sequences for longer, more cohesive videos. A key component is automating video generation end-to-end through agentic capabilities, significantly reducing manual work.\n\nThe tutorial is designed for creators wanting to move beyond basic generation and explore more sophisticated AI video content. The video demonstrates both the possibilities and limitations of this combination, including where the workflow breaks down.",
-   "deep": "The video presents an innovative integration between Claude, an AI assistant, and Seedance 2.5, an AI video generation platform. The workflow leverages Claude for more intelligent prompt generation and to automate the production process. By connecting these tools directly, users can improve video quality and reduce the time required to produce longer, more cohesive content.\n\nA key aspect is that Claude can provide full creative freedom to the video generation process, meaning it can act as an agentic AI making its own creative decisions during production. This enables semi-automated video production where Claude can handle multiple steps in the process with minimal manual input.\n\nThe tutorial is particularly relevant for creators and filmmakers wanting to scale their work and explore how AI can automate repetitive tasks. However, it's important to note that the tutorial also discusses the limitations of this approach – there are shortcomings and situations where the combination doesn't work ideally."
-  }
- },
- {
-  "tag": "mdl",
-  "lab": "Modeller",
-  "ico": "🧠",
-  "ttl": "SpaceX lanserar Grokbot – AI-agent för praktiskt arbete",
-  "meta": "The AI Advantage · 2026-08-11",
-  "plat": "",
-  "url": "https://www.youtube.com/watch?v=ifToIqwU3Jg",
-  "img": "https://img.youtube.com/vi/ifToIqwU3Jg/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Grokbot%20SpaceX%20X.ai%20agent%20release",
-  "feed": "",
-  "sum": "X.ai presenterar Grokbot, en ny AI-agent designad för att utföra konkreta arbetsuppgifter och marknerar nästa fas inom AI-automatisering.",
-  "full": "X.ai, som ägs av Elon Musk och SpaceX-kretsen, har lanserat Grokbot – en ny typ av AI-agent som fokuserar på att utföra verkligt arbete snarare än bara att svara på frågor. Enligt The AI Advantage representerar detta nästa steg i AI-utvecklingen för användare som söker automatisering och effektivitet.\n\nGrokbot skiljer sig från traditionella chatbot-gränssnitt genom att den är designad för att fungera som en arbetsagent – den kan ta initiativ och genomföra uppgifter på egen hand. Detta är relevant för kreatörer och yrkesverksamma som vill automatisera repetitiva processer och få mer done med mindre manuellt arbete.\n\nAgenten är nu tillgänglig för användare via x.ai/bot, och många ser denna utveckling som ett viktigt skritt mot praktiska AI-system som kan integrera med verklig arbetsflöde snarare än att bara generera innehåll eller information.",
-  "buzz": 90,
-  "cat": "mdl",
-  "date": "2026-08-11T23:40:42Z",
-  "chans": [
-   "The AI Advantage"
-  ],
-  "deep": "Grokbot representerar en skiftning från passiv AI-interaktion (användaren ställer frågor, AI svarar) till aktiv agentfunktionalitet. Enligt presentationen är fokus på att AI-agenter kan initieras för att lösa arbetsuppgifter med minimal övervakning. Detta skiljer sig från de flesta befintliga AI-verktygen som kräver tydliga instruktioner för varje handling.\n\nI kontexten av kreativ AI är detta mindre relevant för bildgenerering, video eller 3D-modellering, men extremt relevant för att automatisera arbetsflöden omkring dessa verktyg – exempelvis kan en agent hämta bilder från Midjourney, redigera dem i batch och publicera dem automatiskt. Grokbots arkitektur verkar bygga på X.ai:s Grok-modell och är tillgänglig direkt via web-interface.\n\nLansering genom x.ai/bot gör det tillgängligt utan API-komplexitet för många användare. För kreatörer betyder detta potentiella tidsbesparingar genom att delegera administrativ och repetitiv logistik till AI-agenter, medan människor fokuserar på det faktiska kreativa arbetet.",
-  "parts": [],
-  "en": {
-   "ttl": "SpaceX Launches Grokbot – AI Agent for Practical Work",
-   "sum": "X.ai introduces Grokbot, a new AI agent designed to execute concrete tasks and mark the next phase in AI automation.",
-   "full": "X.ai, owned by Elon Musk and SpaceX circles, has launched Grokbot – a new type of AI agent focused on executing actual work rather than just answering questions. According to The AI Advantage, this represents the next step in AI evolution for users seeking automation and efficiency.\n\nGrokbot differs from traditional chatbot interfaces by being designed to function as a work agent – it can take initiative and complete tasks independently. This is relevant for creators and professionals who want to automate repetitive processes and accomplish more with less manual labor.\n\nThe agent is now available to users via x.ai/bot, and many see this development as an important step toward practical AI systems that can integrate with real workflows rather than just generating content or information.",
-   "deep": "Grokbot represents a shift from passive AI interaction (user asks questions, AI responds) to active agent functionality. According to the presentation, the focus is on AI agents that can be initiated to solve work tasks with minimal oversight. This differs from most existing AI tools that require explicit instructions for each action.\n\nIn the context of creative AI, this is less relevant for image generation, video, or 3D modeling, but extremely relevant for automating workflows around these tools – for example, an agent could fetch images from Midjourney, batch edit them, and publish them automatically. Grokbot's architecture appears to be built on X.ai's Grok model and is available directly via web interface.\n\nLaunch through x.ai/bot makes it accessible without API complexity for many users. For creators, this means potential time savings by delegating administrative and repetitive logistics to AI agents, while humans focus on the actual creative work."
+   "ttl": "Claude Integrates Seedance 2.5 for Automated Film Production",
+   "sum": "A comprehensive guide demonstrates how to connect Claude AI directly to Seedance 2.5 to automate long-form video production from prompt to finished film.",
+   "full": "AI Samson presents a complete workflow for integrating Claude with Seedance 2.5, enabling automated long-form video content production. The guide progresses from writing effective prompts that avoid generic results to connecting Claude directly to Seedance for seamless integration.\n\nThe tutorial shows how to grant Claude full creative freedom and automate the entire process end-to-end, from concept to finished film. By setting up autonomous agent capabilities, creators can scale from simple prompts to longer, more cohesive video pieces with minimal manual input. The video also demonstrates practical limitations of this approach and showcases a complete film that Claude created entirely on its own.",
+   "deep": "The video demonstrates a practical integration between Claude AI and Seedance 2.5, two tools that together enable a significantly more automated video production process than either tool can offer individually. The core concept leverages Claude's ability to write well-developed, structured prompts while Seedance 2.5 handles the actual video generation.\n\nThe workflow begins by instructing Claude on how to write prompts that avoid generic AI-video markers — this is critical because standard AI prompts often result in repetitive, impersonal output. By connecting Claude directly to Seedance, creators can then automate multi-stage projects where Claude iterates and improves prompts based on feedback, enabling the development of longer, more cohesive narratives.\n\nThe most advanced step involves implementing autonomous agent functions, where Claude can drive the entire process with minimal human involvement — from initial concept to final video film. This means the system can run on a daily or regular basis to produce consistent content without manual intervention. The video honestly highlights authentic limitations in this approach, which is valuable for creators trying to understand where the technology is not yet fully reliable, while demonstrating a concrete example of a fully AI-generated film to showcase the system's potential."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "Seedance 2.5 visar 50+ överraskande videofunktioner",
+  "ttl": "Seedance 2.5 överraskar med 50+ nya videoeffekter",
   "meta": "AI Samson · 2026-08-09",
   "plat": "Seedance 2.5",
   "url": "https://www.youtube.com/watch?v=_tyfMINqtDY",
   "img": "https://img.youtube.com/vi/_tyfMINqtDY/hqdefault.jpg",
   "more": "https://www.google.com/search?q=Seedance%202.5%20AI%20video%20generation%20features",
   "feed": "",
-  "sum": "AI-videoverktygen Seedance 2.5 kan skapa lippsynk, kamerakoreografi, multireferenskontroll och annonsinnehål – funktioner som kreatörer redan använder i stor skala.",
-  "full": "Seedance 2.5 har lanserat en rad funktioner som överskrider tidigare förväntningar på vad AI-videomodeller kan åstadkomma. I sin första vecka har kreatörer demonstrerat möjligheten att skapa innehål med avancerad lippsynk, professionell kamerakoreografi och annonsrelaterat material genom multireferenskontroll.\n\nVerktygen möjliggör för innehållsskapare att få betydande kontroll över videogenereringen genom att använda flera referensobjekt samtidigt, vilket öppnar nya möjligheter för reklam- och produktionskvalitet. Plattformen utgör nu ett konkurrenskraftigt alternativ för kreatörer som söker både flexibilitet och återgivningskvalitet.\n\nVideoöversikten presenterar dessutom den nya MiniMax H3-modellen, vilket indikerar fortsatt utveckling inom AI-videolandskapet. För kreatörer som arbetar med video, animering och annonsproduktion representerar dessa funktioner praktiska verktyg för att snabbare producera professionellt innehål.",
+  "sum": "Seedance 2.5 visar nya möjligheter inom AI-videogenerering med lipsync, kamerakoreografi och annonserbjudanden.",
+  "full": "Seedance 2.5 har lanserats med omfattande nya funktioner som demonstreras genom över 50 exempel från kreatörer som redan experimenterar med verktyget. Plattformen kan nu hantera lipsync, multi-referenskontroll, avancerad kamerakoreografi och annonsproduktion på nya sätt.\n\nFör kreatörer inom film och annonsering öppnar detta nya möjligheter att producera videomaterial snabbare och med mer kontroll över rörelse och synkronisering. Användare kan kombinera flera referensbilder för att styra utgången och skapa sofistikerad kamerarörelser utan manuell editing.\n\nI videon presenteras också MiniMax H3-modellen, en ny konkurrent inom AI-videogenerering som erbjuder ytterligare alternativ för innehållsskapare.",
   "buzz": 90,
   "cat": "film",
   "date": "2026-08-09T02:25:34Z",
   "chans": [
    "AI Samson"
   ],
-  "deep": "Seedance 2.5 presenteras som ett betydande steg framåt för AI-videomodeller genom att kombinera flera avancerade funktioner som tidigare varit svåra att implementera tillsammans. Lippsynkfunktionen möjliggör synkronisering mellan talad röst och animated tal-ansiktsmimik, vilket är kritiskt för videoproduktion av högre kvalitet. Kamerakoreografi-verktygen tillåter användare att definiera kamerarörelser, perspektivskift och framing automatiskt, något som sparar betydande tid i produktionsfasen jämfört med manuell animering.\n\nMultireferenskontrollsystemet är särskilt kraftfullt för kreatörer – det gör det möjligt att använda flera referensbilder eller videor för att leda genereringen, vilket ger mycket större kontroll över slutresultatet än enkla text-till-video-modeller. Detta är särskilt värdefullt för annonsörer och varumärkesproducenter som behöver upprätthålla visuell konsistens över flera videoklipp.\n\nIntroduktionen av MiniMax H3-modellen i slutet av videon signalerar att ekosystemet omkring Seedance 2.5 växer och att nya alternativ utvecklas parallellt. För kreatörer betyder detta ökad konkurrens och innovation som slutligen förbättrar verktygens kvalitet och tillgänglighet. De 50+ exempel som visas från användare under första veckan indikerar att plattformen redan har nått en kritisk massa av adaption bland professionella innehållsskapare.",
+  "deep": "Seedance 2.5 representerar ett betydande steg framåt i AI-videogenerering med fokus på kreatörkontroll och praktisk tillämpning. Lipsync-funktionen möjliggör synkronisering mellan röst och munrörelse, vilket är kritiskt för allt från presentationer till animerad innehål. Kamerakoreografi-verktyget låter användare definiera hur kameran rör sig genom scener, vilket tidigare krävde manuell efterbearbetning eller 3D-modelleringskunskap.\n\nMulti-referenskontroll är en avancerad funktion som tillåter kreatörer att mata in flera referensbilder för att dirigera utgången, vilket ger mycket mer precision än enkel textprompt-baserad generation. Detta är särskilt värdefullt för annonsörer och filmmakers som behöver konsistent visuell stil över flera videor.\n\nMiniMax H3-modellen som visas i videons slut representerar växande konkurrens på marknaden. Seedance 2.5 verkar positionera sig för professionell produktion snarare än endast hobbybruk, med fokus på verkliga use-cases inom reklam och innehållsskapning. De 50+ exemplen från tidiga användare visarbredden av möjligheter, från musikvideor till produktdemonstration.",
   "parts": [
    {
     "t": 0,
     "l": "AI-videogenerering gränser",
-    "le": "AI video generation limits"
+    "le": "Pushing the limits of AI video"
    },
    {
     "t": 83,
-    "l": "Ljud och lippsynk",
-    "le": "Audio and lip sync"
+    "l": "Ljud och lipsync",
+    "le": "Audio and lip sync mastering"
    },
    {
     "t": 324,
-    "l": "Avancerad kamerakoreografi",
-    "le": "Advanced camera choreography"
+    "l": "Kamerarörelser och koreografi",
+    "le": "Camera movements and choreography"
    },
    {
     "t": 459,
-    "l": "AI-annonsering",
-    "le": "AI advertising"
+    "l": "Annonsering med AI",
+    "le": "AI advertising revolution"
    },
    {
     "t": 719,
-    "l": "Multireferenskontroll",
-    "le": "Multiple reference control"
+    "l": "Multi-referenskontroll",
+    "le": "Multiple references for control"
    },
    {
     "t": 1541,
-    "l": "MiniMax H3-modell",
-    "le": "MiniMax H3 model"
+    "l": "MiniMax H3-modellen",
+    "le": "MiniMax H3 model overview"
    }
   ],
   "en": {
-   "ttl": "Seedance 2.5 Shows 50+ Surprising Video Capabilities",
-   "sum": "The AI video tool Seedance 2.5 can generate lip sync, camera choreography, multi-reference control, and advertising content – features already being leveraged by creators at scale.",
-   "full": "Seedance 2.5 has launched a range of capabilities that exceed previous expectations for what AI video models can achieve. In its first week, creators have demonstrated the ability to produce content with advanced lip sync, professional camera choreography, and advertising-related material through multi-reference control.\n\nThe tools enable content creators to gain significant control over video generation by utilizing multiple reference objects simultaneously, opening new possibilities for advertising and production quality. The platform now represents a competitive option for creators seeking both flexibility and rendering quality.\n\nThe video overview also presents the new MiniMax H3 model, indicating continued development within the AI video landscape. For creators working with video, animation, and advertising production, these features represent practical tools for faster production of professional-quality content.",
-   "deep": "Seedance 2.5 is presented as a significant step forward for AI video models by combining multiple advanced features that were previously difficult to implement together. The lip sync feature enables synchronization between spoken voice and animated facial speech, which is critical for higher-quality video production. Camera choreography tools allow users to define camera movements, perspective shifts, and framing automatically – something that saves significant time in the production phase compared to manual animation.\n\nThe multi-reference control system is particularly powerful for creators – it enables the use of multiple reference images or videos to guide generation, providing much greater control over the final output compared to simple text-to-video models. This is especially valuable for advertisers and brand producers who need to maintain visual consistency across multiple video clips.\n\nThe introduction of the MiniMax H3 model at the end of the video signals that the ecosystem around Seedance 2.5 is growing and new alternatives are being developed in parallel. For creators, this means increased competition and innovation that ultimately improves tool quality and accessibility. The 50+ examples shown from users in the first week indicate that the platform has already reached critical mass adoption among professional content creators."
+   "ttl": "Seedance 2.5 Surprises with 50+ New Video Effects",
+   "sum": "Seedance 2.5 reveals new possibilities in AI video generation with lip sync, camera choreography, and advertising capabilities.",
+   "full": "Seedance 2.5 has launched with extensive new features demonstrated through over 50 examples from creators already experimenting with the tool. The platform can now handle lip sync, multi-reference control, advanced camera choreography, and advertising production in new ways.\n\nFor filmmakers and advertisers, this opens new possibilities to produce video content faster and with greater control over movement and synchronization. Users can combine multiple reference images to guide the output and create sophisticated camera movements without manual editing.\n\nThe video also presents the MiniMax H3 model, a new competitor in AI video generation offering additional options for content creators.",
+   "deep": "Seedance 2.5 represents a significant step forward in AI video generation with a focus on creator control and practical application. The lip sync feature enables synchronization between voice and mouth movement, which is critical for everything from presentations to animated content. The camera choreography tool lets users define how cameras move through scenes, which previously required manual post-production or 3D modeling expertise.\n\nMulti-reference control is an advanced feature allowing creators to input multiple reference images to direct the output, providing much more precision than simple text-prompt-based generation. This is particularly valuable for advertisers and filmmakers needing consistent visual style across multiple videos.\n\nThe MiniMax H3 model shown at the video's end represents growing competition in the market. Seedance 2.5 appears to position itself for professional production rather than hobby use, focusing on real-world use cases in advertising and content creation. The 50+ examples from early users demonstrate the breadth of possibilities, from music videos to product demonstrations."
   }
  },
  {
   "tag": "vid",
   "lab": "Film",
   "ico": "🎬",
-  "ttl": "NotebookLM blir Gemini Notebook med stora uppdateringar",
+  "ttl": "Gemini Notebook får stora uppdateringar",
   "meta": "Futurepedia · 2026-08-08",
   "plat": "",
   "url": "https://www.youtube.com/watch?v=TGlPNGaHo6I",
   "img": "https://img.youtube.com/vi/TGlPNGaHo6I/hqdefault.jpg",
-  "more": "https://www.google.com/search?q=Gemini%20Notebook%20NotebookLM%20new%20features%202024",
+  "more": "https://www.google.com/search?q=Gemini%20Notebook%20NotebookLM%20new%20features",
   "feed": "",
-  "sum": "Google har döpt om NotebookLM till Gemini Notebook och lanserat flera nya funktioner som gör verktyget mer kraftfullt för att analysera källor, skapa infografik och generera videösammanfattningar.",
-  "full": "Google har officiellt bytt namn på NotebookLM till Gemini Notebook och introducerat betydande nya funktioner. Uppdateringarna gör verktyget mer användarvänligt och kraftfullt för innehållsskapare och forskare.\n\nDe nya funktionerna inkluderar möjligheten att identifiera luckor i dina källor, skapa infografik direkt från dina anteckningar samt generera cinematic videöversikter av ditt material. Gemini Notebook kan nu även användas direkt inom Gemini-appen, vilket integrerar processen bättre i Googles AI-ekosystem.\n\nFör kreatörer och content creators innebär detta ett kraftfullare verktyg för att strukturera forskning, visualisera data och producera professionellt material baserat på sina källdokument.",
+  "sum": "Google döper om NotebookLM till Gemini Notebook och lanserar flera nya funktioner som infografik, videösammanfattningar och integrering med Gemini-appen.",
+  "full": "Google har döpt om sin AI-tjänst NotebookLM till Gemini Notebook och lanserat betydande uppdateringar som gör verktyget mer kraftfullt och användarvänligt. Bland nyheterna finns möjligheter att skapa infografik, cinematic videööversikter av dina källor och bättre integration med Gemini-appen.\n\nGemini Notebook är utformat för att hitta luckor i dina källmaterial och presentera innehållet på nya sätt. Med de nya studioverktygen kan kreatörer och innehållsskapare snabbt omvandla sina anteckningar och forskningsmaterial till visuellt engagerande format. Funktionerna gör det möjligt att arbeta mer effektivt när man sammanfattar, strukturerar och presenterar information för olika ändamål.",
   "buzz": 98,
   "cat": "film",
   "date": "2026-08-08T20:38:07Z",
   "chans": [
    "Futurepedia"
   ],
-  "deep": "Gemini Notebook (tidigare NotebookLM) är Googles AI-verktyg designat för att hjälpa användare att organisera, analysera och presentera information från sina källor. Verktyget använder Googles avancerade språkmodeller för att intelligentsmält innehål och generera ny kreativt material.\n\nKärnfunktionaliteten bygger på att användare kan ladda upp dokument, PDFer och andra källor som Gemini sedan analyserar. AI:n identifierar automatiskt luckor eller motsägelser i materialet och kan ge rekommendationer om vad som saknas. Studio-panelen är särskilt intressant för kreatörer – här kan man generera infografik direkt från sin forskning utan att behöva exportera data till andra verktyg.\n\nDen nya videofunktionen som nämns – \"cinematic video overviews\" – tyder på att Gemini Notebook nu kan generera videoöversikter av anteckningsinnehållet, vilket är en betydande expansion för visuell content creation. Integreringen med Gemini-appen gör att användare kan få tillgång till sina notebooks direkt i chatten, vilket skapar ett mer sömlöst arbetsflöde.\n\nFör kreatörer och forskare innebär detta att Gemini Notebook blir ett all-in-one verktyg för research-to-production-processen, där samma plattform kan hantera allt från källanalys till slutlig visuell presentation.",
+  "deep": "Gemini Notebook, tidigare känt som NotebookLM, representerar Googles satsning på AI-assisterad forskning och innehållssammanfattning. Omnamningen signalerar en djupare integration med Googles bredare Gemini AI-ekosystem. Verktyget är primärt utformat för att ta användarnas egna källor – dokument, anteckningar, forskningsartiklar – och använda AI för att analysera och presentera innehållet på nya sätt.\n\nDe nya studioverktygen möjliggör skapandet av infografik och cinematic videööversikter direkt från käll­material. Detta är särskilt värdefullt för innehållsskapare, journalister och lärare som behöver omvandla komplexa informationsmängder till visuellt tilltalande format. Chat-panelen låter användare ställa frågor om sina källor för att identifiera luckor och få djupare insikter.\n\nDen förbättrade integreringen med Gemini-appen betyder att arbetet man gör i Gemini Notebook nu kan nås och fortsättas direkt i Gemini, vilket skapar ett sömlösare arbetsflöde. Detta gör verktyget mer praktiskt för dagligt bruk och integrerad forskning över flera plattformar.",
   "parts": [
    {
     "t": 0,
@@ -522,35 +461,35 @@
    },
    {
     "t": 21,
-    "l": "Huvudsyfte och grundläggande",
-    "le": "Core purpose and basics"
+    "l": "Kärnfunktionalitet",
+    "le": "Core Purpose"
    },
    {
     "t": 105,
     "l": "Arbeta med källor",
-    "le": "Working with sources"
+    "le": "Sources"
    },
    {
     "t": 503,
-    "l": "Chat-funktioner",
-    "le": "Chat panel features"
+    "l": "Chat-panelen",
+    "le": "Chat Panel"
    },
    {
     "t": 568,
-    "l": "Studio-panel och skapande",
-    "le": "Studio panel creation"
+    "l": "Studio-panelen",
+    "le": "Studio Panel"
    },
    {
     "t": 1186,
-    "l": "Integration med Gemini-app",
-    "le": "Notebooks in Gemini app"
+    "l": "Integration med Gemini",
+    "le": "Notebooks in Gemini"
    }
   ],
   "en": {
-   "ttl": "NotebookLM Renamed to Gemini Notebook with Major Updates",
-   "sum": "Google has renamed NotebookLM to Gemini Notebook and launched several new features that make the tool more powerful for analyzing sources, creating infographics, and generating video summaries.",
-   "full": "Google has officially renamed NotebookLM to Gemini Notebook and introduced significant new features. The updates make the tool more user-friendly and powerful for content creators and researchers.\n\nThe new features include the ability to identify gaps in your sources, create infographics directly from your notes, and generate cinematic video overviews of your material. Gemini Notebook can now also be used directly within the Gemini app, better integrating the process into Google's AI ecosystem.\n\nFor creators and content producers, this represents a more powerful tool for structuring research, visualizing data, and producing professional material based on source documents.",
-   "deep": "Gemini Notebook (formerly NotebookLM) is Google's AI tool designed to help users organize, analyze, and present information from their sources. The tool uses Google's advanced language models to intelligently synthesize content and generate new creative material.\n\nThe core functionality allows users to upload documents, PDFs, and other sources that Gemini then analyzes. The AI automatically identifies gaps or contradictions in the material and can provide recommendations about what's missing. The Studio panel is particularly interesting for creators – here you can generate infographics directly from your research without needing to export data to other tools.\n\nThe new video feature mentioned – \"cinematic video overviews\" – suggests that Gemini Notebook can now generate video summaries of notebook content, which is a significant expansion for visual content creation. The integration with the Gemini app allows users to access their notebooks directly in the chat, creating a more seamless workflow.\n\nFor creators and researchers, this makes Gemini Notebook an all-in-one tool for the research-to-production process, where the same platform can handle everything from source analysis to final visual presentation."
+   "ttl": "Gemini Notebook Receives Major Updates",
+   "sum": "Google renames NotebookLM to Gemini Notebook and launches new features including infographics, cinematic video summaries, and Gemini app integration.",
+   "full": "Google has rebranded its AI service NotebookLM to Gemini Notebook and introduced significant updates that make the tool more powerful and user-friendly. New features include the ability to create infographics, cinematic video overviews of your sources, and enhanced integration with the Gemini app.\n\nGemini Notebook is designed to identify gaps in your source materials and present content in innovative ways. With the new Studio tools, creators and content makers can quickly transform their notes and research materials into visually engaging formats. These features enable more efficient workflows when summarizing, organizing, and presenting information for various purposes.",
+   "deep": "Gemini Notebook, formerly known as NotebookLM, represents Google's commitment to AI-assisted research and content summarization. The rebranding signals deeper integration with Google's broader Gemini AI ecosystem. The tool is primarily designed to take users' own sources—documents, notes, research articles—and leverage AI to analyze and present the content in new ways.\n\nThe new Studio tools enable the creation of infographics and cinematic video overviews directly from source material. This is particularly valuable for content creators, journalists, and educators who need to transform complex information sets into visually appealing formats. The Chat panel allows users to ask questions about their sources to identify gaps and gain deeper insights.\n\nThe improved integration with the Gemini app means that work done in Gemini Notebook can now be accessed and continued directly in Gemini, creating a seamless workflow. This makes the tool more practical for daily use and integrated research across multiple platforms."
   }
  }
 ]
