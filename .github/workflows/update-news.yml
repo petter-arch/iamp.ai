@@ -2,17 +2,28 @@ name: Update news feed
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    # Tiderna är UTC. Svensk sommartid = UTC+2, vintertid = UTC+1.
+    # Udda minuttal (:40) för att undvika kön som byggs upp på hel timme.
+    - cron: "40 2 * * *"    # ~04:45-05:15 svensk sommartid (morgon)
+    - cron: "40 14 * * *"   # ~16:45-17:15 svensk sommartid (kväll)
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Hindrar att morgon- och kvällskörning krockar om en blir hängande
+concurrency:
+  group: update-news
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -28,5 +39,11 @@ jobs:
           git config user.name "news-bot"
           git config user.email "actions@github.com"
           git add news.json
-          git diff --cached --quiet || git commit -m "Uppdatera nyheter"
+          if git diff --cached --quiet; then
+            echo "Inga ändringar i news.json — hoppar över commit."
+            exit 0
+          fi
+          git commit -m "Uppdatera nyheter"
+          # Hämta ev. commits du gjort själv sedan checkout, annars kan push nekas
+          git pull --rebase origin main
           git push
