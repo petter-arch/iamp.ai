@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-09-09T10:44:07.437Z",
+  "startedAt": "2026-09-09T17:58:00.108Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "checkedAt": "2026-09-09T17:58:00.108Z",
       "found": 1
     }
   },
   "selection": {
-    "fetched": 125,
-    "relevant": 37,
-    "supported": 30
+    "fetched": 127,
+    "relevant": 40,
+    "supported": 36
   },
   "rejected": [
     {
@@ -44,16 +44,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         5,
-        6
-      ]
-    },
-    {
-      "video": "81wg425C8z0",
-      "title": "DLSS 5.0 is out... kinda.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
+        6,
+        24
       ]
     },
     {
@@ -62,7 +54,7 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         12,
-        9,
+        15,
         16
       ]
     },
@@ -71,17 +63,9 @@
       "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
       "stage": "classification-evidence",
       "evidenceIds": [
+        6,
         11,
-        39
-      ]
-    },
-    {
-      "video": "DPWm5wGvTu0",
-      "title": "Did Photoshop Finally Solve Hair Masking? Insane New Feature!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        7
+        12
       ]
     },
     {
@@ -89,18 +73,30 @@
       "title": "GPT-6 Astra Changes Everything",
       "stage": "classification-evidence",
       "evidenceIds": [
+        4,
         7,
-        10,
-        19
+        12
       ]
     },
     {
-      "video": "4pVu4tkMuYE",
-      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "video": "iSXeiUXiln8",
+      "title": "Turn ONE Photo Into An Entire 3D World",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "9mZ87JbLR30",
+      "title": "Is ChatGPT 6 Really That Good? See for Yourself",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "K_iUGDw2Sho",
+      "title": "This Robot Can Learn Almost ANY Task",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "UZZ53F_kEAA",
+      "title": "GPT-6 Astra will Make you Think BIGGER.",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "fX-g6XNrkiA",
@@ -108,8 +104,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "UZZ53F_kEAA",
-      "title": "GPT-6 Astra will Make you Think BIGGER.",
+      "video": "LdyDpIspChs",
+      "title": "Install DLSS 5 EARLY & your Games will Look DISTURBINGLY Real.",
       "stage": "insufficient-article-source"
     },
     {
@@ -123,8 +119,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "K_iUGDw2Sho",
-      "title": "This Robot Can Learn Almost ANY Task",
+      "video": "Itx4PdkEA4A",
+      "title": "ChatGPT Images 2.5: Better Editing, Sketch & New Features",
       "stage": "insufficient-article-source"
     },
     {
@@ -133,38 +129,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "1sCp5VrIt7U",
-      "title": "ChatGPT Images 2.5 launches with sharper, faster image generation and editing",
+      "video": "T1MzbHBdWS4",
+      "title": "GPT-6 Astra Just Built All of This Overnight 🤯 #shorts #ai #tech",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "MmmKrPBO2CU",
-      "title": "Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai​ #chatgpt​",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "BZ-M_56oobU",
-      "title": "PromeAI 3D model generator ｜Image to 3D #ai3d #aitools #promeai  #imageto3d  #3dmodeling #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QM2fWKzSjIk",
-      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6F3EIac-lXg",
-      "title": "ChatGPT Image 2.5 (You Can't Miss These Features)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tu5W1b2mKO8",
-      "title": "ChatGPT Image 2.5 Update Is INSANE! New AI Image Generator & Editing Features",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-CImrA_kFpo",
-      "title": "3D model generation using AI foundation model",
+      "video": "F_-tLUxJQNo",
+      "title": "ChatGPT Images 2.5 Explained | New AI Image Generation & Editing Features",
       "stage": "insufficient-article-source"
     },
     {
@@ -173,8 +144,28 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "LBYLvNU7f3s",
+      "title": "ChatGPT SHORTCUT | PART 4 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Iso-LzH5g2o",
+      "title": "ChatGPT images 2.5: la rivoluzione di editing e generazione di immagini #ai #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QM2fWKzSjIk",
+      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "JDvQSaToT2g",
       "title": "AI vs human creativity — who will win the future of filmmaking? 🤖🎬 #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "OyL4oIY43G0",
+      "title": "Meshy AI 50% OFF Discount Code 2026 | Best AI 3D Model Generator - Meshy AI Review - Meshy AI Promo",
       "stage": "insufficient-article-source"
     },
     {
@@ -183,18 +174,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "SZtP_zKsrlI",
-      "title": "【速報】最高の画像生成AIモデル「ChatGPT Image 2.5」登場！実演８選と新機能解説！",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5XjaLy4zW5A",
-      "title": "Meshy 7 vs Neural4D – Which AI Creates Better 3D Models? 🤯 | Image to 3D",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "i0P2dXp-RsU",
       "title": "Future of filmmaking with AI | DHH and Lex Fridman",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "mPN2dNxGR_E",
+      "title": "AI से 3D Models बनाओ 🤯🔥 | Day 59",
       "stage": "insufficient-article-source"
     },
     {
@@ -203,20 +189,35 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "8lxWkOGt2-0",
-      "title": "5 Free AI Audio Tools That Feel Illegal To Know in 2026",
+      "video": "uXd5ag1K4Os",
+      "title": "AI से बनेगी पूरी 4K फिल्म? 😱 Hollywood-Bollywood का क्या होगा? #AI #AIFilm #hollywood  #Bollywood",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "uXd5ag1K4Os",
-      "title": "AI से बनेगी पूरी 4K फिल्म? 😱 Hollywood-Bollywood का क्या होगा? #AI #AIFilm #hollywood  #Bollywood",
+      "video": "-CImrA_kFpo",
+      "title": "3D model generation using AI foundation model",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "BZ-M_56oobU",
+      "title": "PromeAI 3D model generator ｜Image to 3D #ai3d #aitools #promeai  #imageto3d  #3dmodeling #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4pVu4tkMuYE",
+      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
       "stage": "insufficient-article-source"
     },
     {
       "video": "L_51G-l1cDo",
       "title": "Adobe Firefly का नया AI कमाल! 😳 अब Music + Voice + SFX #ai #shorts",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "8lxWkOGt2-0",
+      "title": "5 Free AI Audio Tools That Feel Illegal To Know in 2026",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 6
 }
