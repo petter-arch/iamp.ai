@@ -1,156 +1,222 @@
 {
-  "startedAt": "2026-09-09T10:15:48.881Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-09T10:44:07.437Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-09T10:44:07.437Z",
+      "found": 1
+    }
+  },
+  "selection": {
+    "fetched": 125,
+    "relevant": 37,
+    "supported": 30
+  },
+  "rejected": [
     {
-      "platform": "higgsfield",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"You can generate without a paid plan, but access is limited to a small set of models and doesn't include credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
+      "video": "nek3Z9A9BRU",
+      "title": "The Secret to Realistic VFX",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        6
+      ]
     },
     {
-      "platform": "higgsfield",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/blog/seedance-2-5-pricing-2026\",\"quote\":\"The same credits run 50+ image, video, and audio models, and Seedance runs inside Higgsfield's own tooling rather than as a standalone generator\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
+      "video": "81wg425C8z0",
+      "title": "DLSS 5.0 is out... kinda.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "higgsfield",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"Mid and top plans include Unlimited access to selected models: generations on those models don't deduct credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
+      "video": "RmlP_nqOhsk",
+      "title": "Claude Fable 5.1 is savage",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        12,
+        9,
+        16
+      ]
     },
     {
-      "platform": "higgsfield",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "_AyXuJKm8iw",
+      "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        11,
+        39
+      ]
     },
     {
-      "platform": "higgsfield",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"You can generate without a paid plan, but access is limited to a small set of models and doesn't include credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
+      "video": "DPWm5wGvTu0",
+      "title": "Did Photoshop Finally Solve Hair Masking? Insane New Feature!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        7
+      ]
     },
     {
-      "platform": "higgsfield",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"Unused subscription credits do not carry over to the next billing cycle.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
+      "video": "eVBJIUxv8N8",
+      "title": "GPT-6 Astra Changes Everything",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        7,
+        10,
+        19
+      ]
     },
     {
-      "platform": "higgsfield",
-      "message": "Invalid independent fact check"
+      "video": "4pVu4tkMuYE",
+      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "krea-ai",
-      "field": "price",
-      "message": "fetch failed"
+      "video": "fX-g6XNrkiA",
+      "title": "DLSS 5 is NOT What We Expected",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "sub",
-      "message": "fetch failed"
+      "video": "UZZ53F_kEAA",
+      "title": "GPT-6 Astra will Make you Think BIGGER.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "-IroKDDCkPA",
+      "title": "Our AI Course Enrollment for September is Open!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "deep",
-      "message": "fetch failed"
+      "video": "kr4iyqaaktc",
+      "title": "This changed everything for me...",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "pros",
-      "message": "Invalid official citation"
+      "video": "K_iUGDw2Sho",
+      "title": "This Robot Can Learn Almost ANY Task",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "cons",
-      "message": "fetch failed"
+      "video": "tqUEnRj0NbM",
+      "title": "This AI Turns Insane Ideas Into 3D Objects",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "tags",
-      "message": "fetch failed"
+      "video": "1sCp5VrIt7U",
+      "title": "ChatGPT Images 2.5 launches with sharper, faster image generation and editing",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "krea-ai",
-      "field": "caps",
-      "message": "fetch failed"
+      "video": "MmmKrPBO2CU",
+      "title": "Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai​ #chatgpt​",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "spline-ai",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://spline.design/pricing\",\"quote\":\"Hobby $12$15 / per seat / month … Pro $25$30 / per seat / month … Max $60$70 / per seat / month … Enterprise Custom Pricing\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+      "video": "BZ-M_56oobU",
+      "title": "PromeAI 3D model generator ｜Image to 3D #ai3d #aitools #promeai  #imageto3d  #3dmodeling #shorts",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "spline-ai",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://docs.spline.design/generate/ai-3d-generation\",\"quote\":\"AI 3D Generation draws on your workspace's monthly AI credits, which are included with every paid plan — there is no separate AI subscription.\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+      "video": "QM2fWKzSjIk",
+      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "spline-ai",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://spline.design/pricing\",\"quote\":\"Apple & Android exports … Export Video … No watermark on web exports\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+      "video": "6F3EIac-lXg",
+      "title": "ChatGPT Image 2.5 (You Can't Miss These Features)",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "spline-ai",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://docs.spline.design/generate/ai-3d-generation\",\"quote\":\"AI 3D Generation is a paid feature. It runs on your workspace's monthly AI credits, included with every paid plan — Hobby, Pro and Max.\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+      "video": "tu5W1b2mKO8",
+      "title": "ChatGPT Image 2.5 Update Is INSANE! New AI Image Generator & Editing Features",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "spline-ai",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "-CImrA_kFpo",
+      "title": "3D model generation using AI foundation model",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "sub",
-      "message": "Source outside official domain"
+      "video": "4wjHNgMLeyY",
+      "title": "Ox Alpha reveal, realtime Minimax, Qwen Next, Hy4, robot olympics: AI NEWS",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "long",
-      "message": "Source outside official domain"
+      "video": "JDvQSaToT2g",
+      "title": "AI vs human creativity — who will win the future of filmmaking? 🤖🎬 #shorts",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "deep",
-      "message": "Source outside official domain"
+      "video": "Pm2-17_n930",
+      "title": "PicLumen Just Changed AI Filmmaking | Wan 3.0, Seedance 2.5, Seedream 5.0, Canvas & More",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://pika.art/pricing\",\"quote\":\"Pikaframes ... Duration 5s10s10-15s15-20s20-25s\",\"retrieved\":[\"https://pika.art\",\"https://pika.art/pricing\"]}"
+      "video": "SZtP_zKsrlI",
+      "title": "【速報】最高の画像生成AIモデル「ChatGPT Image 2.5」登場！実演８選と新機能解説！",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "tags",
-      "message": "Source outside official domain"
+      "video": "5XjaLy4zW5A",
+      "title": "Meshy 7 vs Neural4D – Which AI Creates Better 3D Models? 🤯 | Image to 3D",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "pros",
-      "message": "Source outside official domain"
+      "video": "i0P2dXp-RsU",
+      "title": "Future of filmmaking with AI | DHH and Lex Fridman",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://pika.art/pricing\",\"quote\":\"Access to Pika 2.5 (all resolutions), Pikaframes ... Paid\",\"retrieved\":[\"https://pika.art\",\"https://pika.art/pricing\"]}"
+      "video": "juERfFUUi4s",
+      "title": "AI Video Generation: The Filmmaking Revolution: A Deep Dive | Agent Amigos Talk | AGENT AMIGOS",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pika-2-5",
-      "message": "Invalid independent fact check"
+      "video": "8lxWkOGt2-0",
+      "title": "5 Free AI Audio Tools That Feel Illegal To Know in 2026",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Lumera",
-      "message": "Invalid model identity"
+      "video": "uXd5ag1K4Os",
+      "title": "AI से बनेगी पूरी 4K फिल्म? 😱 Hollywood-Bollywood का क्या होगा? #AI #AIFilm #hollywood  #Bollywood",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "SQuadGen",
-      "message": "Invalid model identity"
+      "video": "L_51G-l1cDo",
+      "title": "Adobe Firefly का नया AI कमाल! 😳 अब Music + Voice + SFX #ai #shorts",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 3
 }
