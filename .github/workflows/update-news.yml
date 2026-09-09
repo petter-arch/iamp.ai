@@ -1,49 +1,63 @@
 name: Update news feed
-
 on:
   schedule:
-    # Tiderna är UTC. Svensk sommartid = UTC+2, vintertid = UTC+1.
-    # Udda minuttal (:40) för att undvika kön som byggs upp på hel timme.
-    - cron: "40 2 * * *"    # ~04:45-05:15 svensk sommartid (morgon)
-    - cron: "40 14 * * *"   # ~16:45-17:15 svensk sommartid (kväll)
+    - cron: '40 2,14 * * *'
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
-# Hindrar att morgon- och kvällskörning krockar om en blir hängande
+  pages: write
+  id-token: write
 concurrency:
-  group: update-news
+  group: iamp-content
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-
-      - name: Bygg news.json
-        run: node ai-news.mjs
+          node-version: '22'
+      - run: node --test *.test.mjs *.test.cjs
+      - name: Update and verify content
+        run: node update.mjs 
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Committa om något ändrats
+          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
+          PROFILE_MODEL: ${{ vars.PROFILE_MODEL }}
+      - name: Save checked data
         run: |
-          git config user.name "news-bot"
-          git config user.email "actions@github.com"
-          git add news.json
-          if git diff --cached --quiet; then
-            echo "Inga ändringar i news.json — hoppar över commit."
-            exit 0
+          git config user.name 'iamp.ai updater'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site-data.json news.json update-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update creative news, channels and trends'
+            git pull --rebase
+            git push
           fi
-          git commit -m "Uppdatera nyheter"
-          # Hämta ev. commits du gjort själv sedan checkout, annars kan push nekas
-          git pull --rebase origin main
-          git push
+      - run: node publish-data.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: news-preview
+          path: |
+            _site/
+            update-report.json
+          retention-days: 7
+      - uses: actions/configure-pages@v5
+        if: github.ref == 'refs/heads/main'
+      - uses: actions/upload-pages-artifact@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

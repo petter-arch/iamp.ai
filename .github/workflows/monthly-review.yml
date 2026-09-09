@@ -1,32 +1,63 @@
-name: Monthly topplista review
-
+name: Update Trendar models
 on:
   schedule:
-    - cron: "0 7 1 * *"
+    - cron: '20 5 * * *'
   workflow_dispatch: {}
-
 permissions:
-  contents: read
-  issues: write
-
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: iamp-content
+  cancel-in-progress: false
 jobs:
-  review:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
-
-      - name: Granska topplistan
-        run: node ai-review.mjs
+          node-version: '22'
+      - run: node --test *.test.mjs *.test.cjs
+      - name: Update and verify content
+        run: node update.mjs --profiles
         env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Skapa ärende med rapporten
-        env:
-          GH_TOKEN: ${{ github.token }}
+          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
+          PROFILE_MODEL: ${{ vars.PROFILE_MODEL }}
+      - name: Save checked data
         run: |
-          gh issue create \
-            --title "Månadsgranskning topplista $(date +%Y-%m)" \
-            --body-file review-report.md
+          git config user.name 'iamp.ai updater'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site-data.json news.json update-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update creative news, channels and trends'
+            git pull --rebase
+            git push
+          fi
+      - run: node publish-data.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: models-preview
+          path: |
+            _site/
+            update-report.json
+          retention-days: 7
+      - uses: actions/configure-pages@v5
+        if: github.ref == 'refs/heads/main'
+      - uses: actions/upload-pages-artifact@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
