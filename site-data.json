@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T10:04:19.976Z",
+  "updatedAt": "2026-09-09T10:15:48.881Z",
   "newsCheckedAt": "2026-09-09T09:52:57.495Z",
   "news": [
     {
@@ -3801,7 +3801,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Krea AI",
@@ -3847,7 +3849,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Spline AI",
@@ -3858,12 +3862,15 @@
       "bdg": "",
       "pct": 54,
       "price": "Gratis / betal",
-      "sub": "3D-design och animation i webbläsaren",
+      "sub": "3D-design och animation i webbläsaren med AI-agent och realtidssamarbete",
       "long": "Skapa interaktiva 3D-scener och animationer direkt i webbläsaren utan specialprogramvara. Stödjer AI-genererade 3D-objekt från text, realtidsrendering och export till webb, AR och film. Populär bland UI-designers och annonsörer.",
       "pros": [
-        "3D direkt i webbläsaren",
-        "AI-objekt från text",
-        "Export till webb & AR"
+        "3D direkt i webbläsaren – ingen installation krävs",
+        "AI-agent bygger och redigerar hela scener",
+        "Text-till-3D och bild-till-3D inbyggt",
+        "WebGPU-rendering med PBR och IBL",
+        "Export till webb, iOS, Android & AR",
+        "MCP-stöd för externa agenter (Cursor, Claude Code)"
       ],
       "cons": [
         "Inte för tung produktion",
@@ -3873,7 +3880,11 @@
         "3D",
         "Animation",
         "Webb",
-        "AR"
+        "AR",
+        "iOS",
+        "Android",
+        "AI-agent",
+        "WebGPU"
       ],
       "url": "https://spline.design",
       "tech": 75,
@@ -3893,7 +3904,53 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-09T10:15:48.881Z",
+          "sources": [
+            {
+              "url": "https://spline.design",
+              "quote": "A web-based, collaborative 3D design tool for production-ready, real-time interactive experiences — with an AI agent working alongside you."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-09T10:15:48.881Z",
+          "sources": [
+            {
+              "url": "https://updates.spline.design/changelog/introducing-spline-v2",
+              "quote": "New pricing plans - Restructured to Hobby/Pro/Max with per-plan credit selection, replacing the AI addon."
+            },
+            {
+              "url": "https://spline.design/pricing",
+              "quote": "Apple & Android exports"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-09T10:15:48.881Z",
+          "sources": [
+            {
+              "url": "https://spline.design",
+              "quote": "A web-based, collaborative 3D design tool for production-ready, real-time interactive experiences — with an AI agent working alongside you."
+            },
+            {
+              "url": "https://updates.spline.design/changelog/introducing-spline-v2",
+              "quote": "AI Chat agent - Generate or edit 3d scenes using AI agents within the 3D editor. Generated scenes are fully editable."
+            },
+            {
+              "url": "https://updates.spline.design/changelog/introducing-spline-v2",
+              "quote": "WebGPU renderer - New TSL-based WebGPU backend by the default, WebGL as fallback."
+            },
+            {
+              "url": "https://updates.spline.design/changelog/introducing-spline-v2",
+              "quote": "MCP access - External agents (Claude Code, Cursor, etc.) drive the 3D editor through MCP tools."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Pika 2.5",
@@ -3938,7 +3995,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Recraft V4.1",
@@ -5230,14 +5289,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ouACKu1cwoU"
       ],
-      "firstSeen": "2026-09-09T10:04:19.976Z"
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "status": "retry",
+      "error": "Invalid model identity"
     },
     {
       "name": "SQuadGen",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ouACKu1cwoU"
       ],
-      "firstSeen": "2026-09-09T10:04:19.976Z"
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
+      "status": "retry",
+      "error": "Invalid model identity"
     },
     {
       "name": "TriFlow",
@@ -5918,34 +5983,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-09T10:04:19.976Z",
+    "calculatedAt": "2026-09-09T10:15:48.881Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.8374475880824659,
+      "chatgpt-images-2-0": 0.8367866523731156,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.828438007076401,
-      "google-veo-3-1": 0.828438007076401,
+      "runway-gen-4-5": 0.8277841819658488,
+      "google-veo-3-1": 0.8277841819658488,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.37642514148242795,
+      "heygen": 0.37612805683922945,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.0759660612972577,
+      "adobe-firefly": 1.0751168805221498,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 1.4435171995473763,
+      "higgsfield": 1.442377937726315,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6623609493342351,
+      "meshy-ai": 0.6618381966149914,
       "magnific-ai": 0,
-      "seedance-2-5": 0.8521456796665174,
+      "seedance-2-5": 0.8514731438358875,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -5955,10 +6020,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.755920414599482,
+      "rodin-hyper3d": 0.7553238222842785,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.7516227474302966,
+      "trellis-2": 1.7502403205900237,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,

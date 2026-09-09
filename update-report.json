@@ -1,163 +1,156 @@
 {
-  "startedAt": "2026-09-09T10:04:19.976Z",
+  "startedAt": "2026-09-09T10:15:48.881Z",
   "mode": "profiles",
   "errors": [
     {
-      "platform": "leonardo-ai",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://www.leonardo.ai/pricing\",\"quote\":\"Create across image, video, design, and motion — One subscription, all platforms\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\",\"quote\":\"3D Generation ... Rodin V2 ... Audio Generation ... Remove Background\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\",\"quote\":\"3D Generation ... Audio Generation\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://www.leonardo.ai/pricing\",\"quote\":\"Create across image, video, design, and motion — One subscription, all platforms\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "cons",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "leonardo-ai",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
-    },
-    {
-      "platform": "luma-ray3",
+      "platform": "higgsfield",
       "field": "price",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/pricing\",\"quote\":\"Plus $30/month — $25/month $300 billed yearly · 10,000 credits\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"You can generate without a paid plan, but access is limited to a small set of models and doesn't include credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
     },
     {
-      "platform": "luma-ray3",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/llm-info\",\"quote\":\"The current video model is Ray3.2, released June 2026.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
-    },
-    {
-      "platform": "luma-ray3",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/api\",\"quote\":\"Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates in your users' Resolve or Nuke.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
-    },
-    {
-      "platform": "luma-ray3",
+      "platform": "higgsfield",
       "field": "long",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/llm-info\",\"quote\":\"The current video model is Ray3.2, released June 2026.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/blog/seedance-2-5-pricing-2026\",\"quote\":\"The same credits run 50+ image, video, and audio models, and Seedance runs inside Higgsfield's own tooling rather than as a standalone generator\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
     },
     {
-      "platform": "luma-ray3",
+      "platform": "higgsfield",
       "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/api\",\"quote\":\"Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates in your users' Resolve or Nuke.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"Mid and top plans include Unlimited access to selected models: generations on those models don't deduct credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
     },
     {
-      "platform": "luma-ray3",
-      "field": "tier",
-      "message": "Missing evidence"
-    },
-    {
-      "platform": "luma-ray3",
-      "field": "free",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "suno-v5-5",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"v5.5 Our newest model — richer arrangements, sharper vocals, and more dynamic sound across every genre.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
-    },
-    {
-      "platform": "suno-v5-5",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"10,000 credits (up to 2,000 songs), refreshes monthly … Access to Suno Studio, now with MIDI, effects, automation\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
-    },
-    {
-      "platform": "suno-v5-5",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://help.suno.com/en/articles/11362305\",\"quote\":\"Voices also captures the essence of your voice so you can finally hear what you sound like in your Suno songs.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
-    },
-    {
-      "platform": "suno-v5-5",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"v5.5 Our newest model — richer arrangements, sharper vocals, and more dynamic sound across every genre.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
-    },
-    {
-      "platform": "suno-v5-5",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"Free Plan … No commercial use … Access to v4.5-all\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
-    },
-    {
-      "platform": "suno-v5-5",
+      "platform": "higgsfield",
       "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "message": "Invalid official citation"
     },
     {
-      "platform": "suno-v5-5",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
-    },
-    {
-      "platform": "stable-diffusion-3-5",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"These models are highly customizable for their size, run on consumer hardware, and are free for both commercial and non-commercial use under the permissive Stability AI Community License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
-    },
-    {
-      "platform": "stable-diffusion-3-5",
-      "field": "deep",
-      "message": "Official source unavailable"
-    },
-    {
-      "platform": "stable-diffusion-3-5",
+      "platform": "higgsfield",
       "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"free for both commercial and non-commercial use under the permissive Stability AI Community License\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"You can generate without a paid plan, but access is limited to a small set of models and doesn't include credits.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
     },
     {
-      "platform": "stable-diffusion-3-5",
+      "platform": "higgsfield",
       "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"For organizations with annual revenue more than $1M, please contact us here to inquire about an Enterprise License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work\",\"quote\":\"Unused subscription credits do not carry over to the next billing cycle.\",\"retrieved\":[\"https://higgsfield.ai\",\"https://higgsfield.ai/pricing\"]}"
     },
     {
-      "platform": "stable-diffusion-3-5",
+      "platform": "higgsfield",
+      "message": "Invalid independent fact check"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "price",
+      "message": "fetch failed"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "sub",
+      "message": "fetch failed"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "long",
+      "message": "Invalid official citation"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "deep",
+      "message": "fetch failed"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "pros",
+      "message": "Invalid official citation"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "cons",
+      "message": "fetch failed"
+    },
+    {
+      "platform": "krea-ai",
       "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"You can download all Stable Diffusion 3.5 models from Hugging Face and the inference code on GitHub now.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+      "message": "fetch failed"
     },
     {
-      "platform": "stable-diffusion-3-5",
+      "platform": "krea-ai",
       "field": "caps",
-      "message": "Official source unavailable"
+      "message": "fetch failed"
     },
     {
-      "platform": "stable-diffusion-3-5",
+      "platform": "spline-ai",
       "field": "price",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"For organizations with annual revenue more than $1M, please contact us here to inquire about an Enterprise License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+      "message": "Quote not found: {\"url\":\"https://spline.design/pricing\",\"quote\":\"Hobby $12$15 / per seat / month … Pro $25$30 / per seat / month … Max $60$70 / per seat / month … Enterprise Custom Pricing\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
     },
     {
-      "platform": "stable-diffusion-3-5",
+      "platform": "spline-ai",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://docs.spline.design/generate/ai-3d-generation\",\"quote\":\"AI 3D Generation draws on your workspace's monthly AI credits, which are included with every paid plan — there is no separate AI subscription.\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://spline.design/pricing\",\"quote\":\"Apple & Android exports … Export Video … No watermark on web exports\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://docs.spline.design/generate/ai-3d-generation\",\"quote\":\"AI 3D Generation is a paid feature. It runs on your workspace's monthly AI credits, included with every paid plan — Hobby, Pro and Max.\",\"retrieved\":[\"https://spline.design\",\"https://spline.design/pricing\"]}"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
       "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"free for both commercial and non-commercial use under the permissive Stability AI Community License\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+      "message": "Source outside official domain"
     },
     {
-      "candidate": "Tencent HY 3D",
-      "message": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+      "platform": "pika-2-5",
+      "field": "long",
+      "message": "Source outside official domain"
     },
     {
-      "candidate": "Pixal3D Multiview",
-      "message": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+      "platform": "pika-2-5",
+      "field": "deep",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://pika.art/pricing\",\"quote\":\"Pikaframes ... Duration 5s10s10-15s15-20s20-25s\",\"retrieved\":[\"https://pika.art\",\"https://pika.art/pricing\"]}"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "tags",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "pros",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://pika.art/pricing\",\"quote\":\"Access to Pika 2.5 (all resolutions), Pikaframes ... Paid\",\"retrieved\":[\"https://pika.art\",\"https://pika.art/pricing\"]}"
+    },
+    {
+      "platform": "pika-2-5",
+      "message": "Invalid independent fact check"
+    },
+    {
+      "candidate": "Lumera",
+      "message": "Invalid model identity"
+    },
+    {
+      "candidate": "SQuadGen",
+      "message": "Invalid model identity"
     }
   ],
   "categories": {},
   "checked": 4,
-  "updated": 3,
+  "updated": 1,
   "newModels": 0
 }
