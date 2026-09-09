@@ -1,36 +1,26 @@
 {
-  "startedAt": "2026-09-09T09:14:40.144Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 8
+  "startedAt": "2026-09-09T09:20:18.646Z",
+  "mode": "profiles",
+  "errors": [
+    {
+      "platform": "chatgpt-images-2-0",
+      "message": "Official source unavailable"
     },
-    "film": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 8
+    {
+      "platform": "mai-image-2-6",
+      "message": "Quote not found in retrieved source"
     },
-    "ljud": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 4
+    {
+      "platform": "midjourney-v8-2",
+      "message": "Official source unavailable"
     },
-    "3d": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-09T09:14:40.144Z",
-      "found": 1
+    {
+      "platform": "runway-gen-4-5",
+      "message": "Official source unavailable"
     }
-  },
-  "accepted": 7
+  ],
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }
