@@ -10,13 +10,13 @@ Originalets utseende, utförliga nyhetskort, videokapitel, Snabbfakta, Funktione
 - Bevakningen hämtar de utvalda kanalernas senaste videor och kompletterar med ämnessökningar. Relevans klassificeras före det slutliga urvalet. Det finns ingen lägsta visningsgräns.
 - Alla kapitel som faktiskt finns i videobeskrivningen kan visas, utan gränsen på åtta. Inga kapitel eller transkript hittas på. Texten grundas på hela publicistens beskrivning, inte på att agenten har sett videon.
 - Nya modeller och versioner upptäcks i källmaterialet. Upp till två kandidater per dag undersöks. Kompletta profiler publiceras först när den officiella identiteten och faktakällorna kan beläggas. Otillräckligt underlag sparas för senare försök.
-- Fyra befintliga modellprofiler per dag kontrolleras. Varje ändrat fält behöver en officiell källa och ett citat som också återfinns på den hämtade sidan. Tidigare fakta behålls vid fel. AI-tolkningar kan fortfarande bli fel; källspårningen gör ändringarna granskningsbara.
+- Fyra befintliga modellprofiler per dag kontrolleras. Varje ändrat fält behöver en officiell källa och ett citat som också återfinns på den hämtade sidan. Tidigare fakta behålls vid fel. Officiella sidor läses direkt eller via webbhämtningsverktygets källtext. AI-tolkningar kan fortfarande bli fel; källspårningen gör ändringarna granskningsbara.
 - Trendar sorteras efter unika färska videoomnämnanden under 30 dagar, med halverad vikt efter sju dagar och högst tre videor per kanal/modell. Detta mäter uppmärksamhet i bevakningen, inte hela marknaden.
 - Originalets redaktionella betyg behålls. Nya profiler får **—** tills ett jämförbart kvalitetsunderlag finns; de får aldrig påhittade eller ärvda betyg. Pris, funktioner och dokumenterade styrkor/begränsningar går fortfarande att jämföra.
 
 ## Kanaler
 
-`sources.json` är källregistret för både bevakning och kanalfliken. Det inkluderar originalkanalerna, de tidigare nyhetskällorna samt PiXimperfect, The Dor Brothers, William Faucher, Venus Theory och Two Minute Papers. Kanalbeskrivningar är redaktionella; prenumerantantal hämtas från YouTube. Varje video filtreras efter sidans ämnen, även från en favoritkanal.
+`sources.json` är källregistret för både bevakning och kanalfliken. Det inkluderar originalkanalerna, de tidigare nyhetskällorna samt PiXimperfect, The Dor Brothers, William Faucher, Venus Theory och Two Minute Papers. Kanalbeskrivningar är redaktionella; prenumerantantal hämtas från YouTube. Varje video filtreras efter sidans ämnen, även från en favoritkanal. AI måste vara huvudämnet, med ett citat från källan. Genererade texter kontrolleras för svenska. Artiklar markerade för omgranskning bevaras i underlaget men visas inte och påverkar inte Trendar.
 
 Nya rekommendationer kontrollerades mot [PiXimperfect](https://www.piximperfect.com/), [The Dor Brothers](https://www.thedorbrothers.com/), [William Faucher](https://www.artstation.com/will_faucher), [Venus Theory](https://venustheory.com/) och [Two Minute Papers](https://users.cg.tuwien.ac.at/zsolnai/gfx/two-minute-papers-awesome-research-for-everyone/).
 

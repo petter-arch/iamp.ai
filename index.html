@@ -917,7 +917,7 @@ function adoptData(data){
   if(PLATS.some(function(p){return !byId[p.id];}))throw Error('Modell saknas');
   if(data.updatedAt&&!Number.isFinite(Date.parse(data.updatedAt)))throw Error('Ogiltigt datum');
   if(!Array.isArray(data.sources)||data.sources.some(function(c){return !c.n||!c.group||!c.desc||!/^https:\/\/www\.youtube\.com\//.test(c.url);}))throw Error('Ogiltiga kanaler');
-  NEWS=data.news;
+  NEWS=data.news.filter(function(n){return !n.editorialStatus||n.editorialStatus==='approved';});
   applySources(data.sources);buildTutorials();
   // Keep array indices stable while compare selections are open.
   PLATS=PLATS.map(function(p){return byId[p.id];});

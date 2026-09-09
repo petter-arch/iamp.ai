@@ -58,3 +58,15 @@ test('New models retain full facts but never inherit or invent quality scores',(
  assert.throws(()=>validateNewProfile({...model,caps:[]}));
  assert.throws(()=>validateNewProfile({...model,url:'javascript:alert(1)'}));
 });
+
+
+test('Publication filters reject English copy, unrelated film sources and invented AI evidence', async()=>{
+ const {isSwedishArticle,supportedAIQuote,retainSourceOnFailure}=await import('./data-core.mjs');
+ assert.equal(isSwedishArticle("Film Riot's latest episode explores realistic VFX and controlled imperfection rather than flawless execution."),false);
+ assert.equal(isSwedishArticle('Enligt kanalen är detta en ny AI-funktion som kan användas för bildbehandling och den har stöd för masker.'),true);
+ assert.equal(supportedAIQuote('An innovative colour engine powers this LED light','A lamp review','An innovative colour engine powers this LED light'),false);
+ assert.equal(supportedAIQuote('AI generates hair behind the mask','New Photoshop feature','AI generates hair behind the mask'),true);
+ assert.equal(supportedAIQuote('AI generates hair behind the mask','A lamp review','Full spectrum LED lighting'),false);
+ const source=retainSourceOnFailure({handle:'@correct',subscriberCount:null,checkedAt:null},{handle:'@old',subscriberCount:123,checkedAt:'2026-09-01'},'HTTP 503');
+ assert.equal(source.handle,'@correct');assert.equal(source.subscriberCount,123);assert.equal(source.checkedAt,'2026-09-01');
+});

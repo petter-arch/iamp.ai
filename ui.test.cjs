@@ -16,7 +16,7 @@ context.adoptData(state);
 assert(context.PLATS.length>=48);
 for(const n of state.news){const card=context.newsCard(n,false);for(const part of n.parts||[])assert(card.includes(context.escapeHtml(context.T(part.l))));assert(card.includes(n.full.split('\n\n')[0]));}
 for(const p of state.platforms){const detail=context.platDetail(p,state.platforms.indexOf(p));for(const k of ['pros','cons','tags','caps'])for(const v of p[k])assert(detail.includes(v));}
-context.showArchive=true;context.feedCat='alla';assert.equal(context.feedData().length,state.news.length);
+context.showArchive=true;context.feedCat='alla';assert.equal(context.feedData().length,state.news.filter(n=>!n.editorialStatus||n.editorialStatus==='approved').length);assert(context.feedData().every(n=>!n.editorialStatus||n.editorialStatus==='approved'));assert.equal(context.siteState.news.length,state.news.length);
 context.feedCat='tech';assert(context.feedData().every(n=>n.cat==='tech'||n.cat==='robot'));
 context.cmpToggle(0);context.cmpToggle(1);context.renderCmpCols();assert(els['cmp-cols'].innerHTML.includes(state.platforms[0].caps[0]));
 assert.throws(()=>context.adoptData({...state,news:[]}));

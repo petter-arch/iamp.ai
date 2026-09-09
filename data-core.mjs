@@ -48,6 +48,7 @@ export function trends(news, platforms, now) {
   const seen = new Set(), scores = Object.fromEntries(platforms.map(p => [idFor(p), 0]));
   const channels = {};
   for (const n of news) {
+    if(n.editorialStatus && n.editorialStatus!=='approved')continue;
     const age = ageDays(n.date, now), key = articleKey(n);
     if (!Number.isFinite(age) || age < 0 || age > 30 || seen.has(key)) continue;
     seen.add(key);
@@ -105,4 +106,18 @@ export function mergeProfile(p, patch, evidence, now) {
   next.fieldChecks = checked;
   next.lastAttemptAt = now;
   return next;
+}
+
+export function isSwedishArticle(text) {
+  const words=new Set(String(text).toLowerCase().match(/[a-zåäö]+/g)||[]);
+  return ['och','att','är','som','enligt','för','med','till','kan','inte','har','på','av','nya','den','det','ett'].filter(w=>words.has(w)).length>=5;
+}
+export function supportedAIQuote(quote,title,description) {
+  if(typeof quote!=='string'||quote.length<15||quote.length>700)return false;
+  const norm=x=>String(x).toLowerCase().replace(/\s+/g,' ').trim();
+  const source=norm(title+' '+description);
+  return source.includes(norm(quote)) && /\b(ai|artificial intelligence|machine learning|generative|neural|diffusion|llm)\b/i.test(quote);
+}
+export function retainSourceOnFailure(source,previous,message) {
+  return {...source,youtubeId:previous?.youtubeId||null,subscriberCount:previous?.subscriberCount??null,checkedAt:previous?.checkedAt??null,lastError:message};
 }
