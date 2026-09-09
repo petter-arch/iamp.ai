@@ -78,3 +78,9 @@ test('Evidence selects actual source segments without accepting invented or abbr
  assert.equal(selectedAIProof([2],segments),null);
  assert.equal(selectedAIProof([1],segments).quote,'This generative AI feature expands hair edges.');
 });
+test('Model responses tolerate explanatory braces and fenced JSON without corrupting quoted text',async()=>{
+ const {parseModelJSON}=await import('./data-core.mjs');
+ assert.deepEqual(parseModelJSON(['First I need {official sources}.','```json\n{"verified":false}\n```']),{verified:false});
+ assert.deepEqual(parseModelJSON(['Here is {a template}. Final: {"verified":true,"profile":{"n":"Model {test}"}}']),{verified:true,profile:{n:'Model {test}'}});
+ assert.throws(()=>parseModelJSON(['{not valid JSON}']));
+});

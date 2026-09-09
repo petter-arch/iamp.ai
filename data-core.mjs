@@ -131,3 +131,21 @@ export function selectedAIProof(ids,segments) {
  if(!/\b(ai|artificial intelligence|machine learning|generative|neural|diffusion|llm|gpt|chatgpt|claude|midjourney|seedance|firefly|elevenlabs|suno|udio)\b/i.test(text))return null;
  return {ids,quote:text.split(/\s+/).slice(0,25).join(' ')};
 }
+export function parseModelJSON(blocks) {
+ for(const text of [...blocks].reverse()) {
+  let last;
+  for(let start=0;start<text.length;start++) {
+   if(text[start]!=='{')continue;
+   let depth=0,quoted=false,escape=false;
+   for(let end=start;end<text.length;end++) {
+    const c=text[end];
+    if(quoted){if(escape)escape=false;else if(c==='\\')escape=true;else if(c==='"')quoted=false;continue;}
+    if(c==='"'){quoted=true;continue;}
+    if(c==='{')depth++;
+    if(c==='}'&&--depth===0){try{last=JSON.parse(text.slice(start,end+1));start=end;}catch{}break;}
+   }
+  }
+  if(last)return last;
+ }
+ throw Error('No valid structured model response');
+}
