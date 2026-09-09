@@ -1,191 +1,163 @@
 {
-  "startedAt": "2026-09-09T09:52:57.495Z",
-  "mode": "news",
+  "startedAt": "2026-09-09T10:04:19.976Z",
+  "mode": "profiles",
   "errors": [
     {
-      "video": "Amlr3BfcH-0",
-      "message": "Article not Swedish"
+      "platform": "leonardo-ai",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://www.leonardo.ai/pricing\",\"quote\":\"Create across image, video, design, and motion — One subscription, all platforms\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\",\"quote\":\"3D Generation ... Rodin V2 ... Audio Generation ... Remove Background\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\",\"quote\":\"3D Generation ... Audio Generation\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://www.leonardo.ai/pricing\",\"quote\":\"Create across image, video, design, and motion — One subscription, all platforms\",\"retrieved\":[\"https://www.leonardo.ai/pricing\",\"https://docs.leonardo.ai/docs/pricing-and-plans-faq\"]}"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "cons",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "deep",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/pricing\",\"quote\":\"Plus $30/month — $25/month $300 billed yearly · 10,000 credits\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/llm-info\",\"quote\":\"The current video model is Ray3.2, released June 2026.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/api\",\"quote\":\"Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates in your users' Resolve or Nuke.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/llm-info\",\"quote\":\"The current video model is Ray3.2, released June 2026.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/api\",\"quote\":\"Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates in your users' Resolve or Nuke.\",\"retrieved\":[\"https://lumalabs.ai\",\"https://lumalabs.ai/pricing\"]}"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "free",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"v5.5 Our newest model — richer arrangements, sharper vocals, and more dynamic sound across every genre.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"10,000 credits (up to 2,000 songs), refreshes monthly … Access to Suno Studio, now with MIDI, effects, automation\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://help.suno.com/en/articles/11362305\",\"quote\":\"Voices also captures the essence of your voice so you can finally hear what you sound like in your Suno songs.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"v5.5 Our newest model — richer arrangements, sharper vocals, and more dynamic sound across every genre.\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://suno.com/pricing\",\"quote\":\"Free Plan … No commercial use … Access to v4.5-all\",\"retrieved\":[\"https://suno.com/pricing\",\"https://help.suno.com/en/articles/11362305\"]}"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"These models are highly customizable for their size, run on consumer hardware, and are free for both commercial and non-commercial use under the permissive Stability AI Community License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "deep",
+      "message": "Official source unavailable"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"free for both commercial and non-commercial use under the permissive Stability AI Community License\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"For organizations with annual revenue more than $1M, please contact us here to inquire about an Enterprise License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "tags",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"You can download all Stable Diffusion 3.5 models from Hugging Face and the inference code on GitHub now.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "caps",
+      "message": "Official source unavailable"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"For organizations with annual revenue more than $1M, please contact us here to inquire about an Enterprise License.\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"free for both commercial and non-commercial use under the permissive Stability AI Community License\",\"retrieved\":[\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\"]}"
+    },
+    {
+      "candidate": "Tencent HY 3D",
+      "message": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+    },
+    {
+      "candidate": "Pixal3D Multiview",
+      "message": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
     }
   ],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-09T09:52:57.495Z",
-      "found": 1
-    }
-  },
-  "selection": {
-    "fetched": 136,
-    "relevant": 47,
-    "supported": 38
-  },
-  "rejected": [
-    {
-      "video": "K56c3_6Sw4k",
-      "title": "VFX Artists React to Bad & Great CGi 241",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3
-      ]
-    },
-    {
-      "video": "iIIZBNHNJbs",
-      "title": "What makes a good ROTOSCOPE?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "nek3Z9A9BRU",
-      "title": "The Secret to Realistic VFX",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        6
-      ]
-    },
-    {
-      "video": "81wg425C8z0",
-      "title": "DLSS 5.0 is out... kinda.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "RmlP_nqOhsk",
-      "title": "Claude Fable 5.1 is savage",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        12,
-        16
-      ]
-    },
-    {
-      "video": "4wjHNgMLeyY",
-      "title": "Ox Alpha reveal, realtime Minimax, Qwen Next, Hy4, robot olympics: AI NEWS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        21,
-        22,
-        23
-      ]
-    },
-    {
-      "video": "_AyXuJKm8iw",
-      "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        6,
-        11,
-        12
-      ]
-    },
-    {
-      "video": "DPWm5wGvTu0",
-      "title": "Did Photoshop Finally Solve Hair Masking? Insane New Feature!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        7
-      ]
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "UZZ53F_kEAA",
-      "title": "GPT-6 Astra will Make you Think BIGGER.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "fX-g6XNrkiA",
-      "title": "DLSS 5 is NOT What We Expected",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LdyDpIspChs",
-      "title": "Install DLSS 5 EARLY & your Games will Look DISTURBINGLY Real.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kr4iyqaaktc",
-      "title": "This changed everything for me...",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-CImrA_kFpo",
-      "title": "3D model generation using AI foundation model",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6F3EIac-lXg",
-      "title": "ChatGPT Image 2.5 (You Can't Miss These Features)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tu5W1b2mKO8",
-      "title": "ChatGPT Image 2.5 Update Is INSANE! New AI Image Generator & Editing Features",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "SZtP_zKsrlI",
-      "title": "【速報】最高の画像生成AIモデル「ChatGPT Image 2.5」登場！実演８選と新機能解説！",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Pm2-17_n930",
-      "title": "PicLumen Just Changed AI Filmmaking | Wan 3.0, Seedance 2.5, Seedream 5.0, Canvas & More",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        4,
-        5,
-        6
-      ]
-    },
-    {
-      "video": "juERfFUUi4s",
-      "title": "AI Video Generation: The Filmmaking Revolution: A Deep Dive | Agent Amigos Talk | AGENT AMIGOS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "i0P2dXp-RsU",
-      "title": "Future of filmmaking with AI | DHH and Lex Fridman",
-      "stage": "insufficient-article-source"
-    }
-  ],
-  "accepted": 12
+  "categories": {},
+  "checked": 4,
+  "updated": 3,
+  "newModels": 0
 }

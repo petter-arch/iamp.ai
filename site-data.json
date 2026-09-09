@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T09:52:57.495Z",
+  "updatedAt": "2026-09-09T10:04:19.976Z",
   "newsCheckedAt": "2026-09-09T09:52:57.495Z",
   "news": [
     {
@@ -3520,6 +3520,8 @@
       ],
       "tags": [
         "Bildgen",
+        "Videogen",
+        "3D",
         "Game Assets",
         "Gratisnivå",
         "Canvas"
@@ -3541,7 +3543,23 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "tags": {
+          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "sources": [
+            {
+              "url": "https://www.leonardo.ai/pricing",
+              "quote": "Create across image, video, design, and motion"
+            },
+            {
+              "url": "https://docs.leonardo.ai/docs/pricing-and-plans-faq",
+              "quote": "3D Generation ... Rodin V2"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Luma Ray3",
@@ -3561,13 +3579,16 @@
       ],
       "cons": [
         "Mindre kontroll än Runway",
-        "Variabel kvalitet mellan kreationer"
+        "Variabel kvalitet mellan kreationer",
+        "Ray3 saknar inbyggt ljud (audio genereras separat)"
       ],
       "tags": [
         "Videogen",
         "HDR",
         "3D",
-        "Ray3.14"
+        "Ray3",
+        "Ray3.14",
+        "Ray3.2"
       ],
       "url": "https://lumalabs.ai",
       "tech": 85,
@@ -3578,9 +3599,11 @@
       "caps": [
         "Text-till-video",
         "Bild-till-video",
-        "Video-till-video",
-        "HDR 16-bit",
-        "3D från foton"
+        "Video-till-video (upp till 20 sek)",
+        "HDR 16-bit + EXR-export",
+        "3D från foton",
+        "Multi-Keyframe (upp till 16 nyckelbilder)",
+        "Reframe"
       ],
       "free": null,
       "id": "luma-ray3",
@@ -3588,7 +3611,41 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "tags": {
+          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/llm-info",
+              "quote": "Previously released versions of Ray3 include Ray3, Ray3 Modify, and Ray3.14."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/llm-info",
+              "quote": "Video via Ray3.2: the full control surface, including Multi-Keyframe (up to 16 keyframes), V2V up to 20 seconds, and Reframe"
+            },
+            {
+              "url": "https://lumalabs.ai/api",
+              "quote": "Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates"
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
+              "quote": "Ray3 does not currently support audio"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Suno v5.5",
@@ -3614,7 +3671,9 @@
         "Musik",
         "Text-till-musik",
         "Röstkloning",
-        "Soundtrack"
+        "Soundtrack",
+        "Custom Models",
+        "Personalisering"
       ],
       "url": "https://suno.com",
       "tech": 88,
@@ -3634,7 +3693,23 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "tags": {
+          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "sources": [
+            {
+              "url": "https://help.suno.com/en/articles/11362305",
+              "quote": "Custom Models let you tune v5.5 to your style and sound by uploading your own tracks made outside of Suno."
+            },
+            {
+              "url": "https://help.suno.com/en/articles/11362305",
+              "quote": "Available to all users, My Taste is established using your preferences"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Stable Diffusion 3.5",
@@ -3681,7 +3756,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Higgsfield",
@@ -5129,7 +5206,56 @@
       "fieldChecks": {}
     }
   ],
-  "candidates": [],
+  "candidates": [
+    {
+      "name": "Tencent HY 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=fWkK_ggWXxs"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "status": "retry",
+      "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+    },
+    {
+      "name": "Pixal3D Multiview",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "status": "retry",
+      "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+    },
+    {
+      "name": "Lumera",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z"
+    },
+    {
+      "name": "SQuadGen",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z"
+    },
+    {
+      "name": "TriFlow",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z"
+    },
+    {
+      "name": "Miniface",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+      ],
+      "firstSeen": "2026-09-09T10:04:19.976Z"
+    }
+  ],
   "sourceChecks": {},
   "sources": [
     {
@@ -5794,34 +5920,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-09T09:52:57.495Z",
+    "calculatedAt": "2026-09-09T10:04:19.976Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.8381028753631977,
+      "chatgpt-images-2-0": 0.8374475880824659,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.8290862445262873,
-      "google-veo-3-1": 0.8290862445262873,
+      "runway-gen-4-5": 0.828438007076401,
+      "google-veo-3-1": 0.828438007076401,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.37671968720788157,
+      "heygen": 0.37642514148242795,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.0768079848808956,
+      "adobe-firefly": 1.0759660612972577,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 1.4446467251127277,
+      "higgsfield": 1.4435171995473763,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6628792345517566,
+      "meshy-ai": 0.6623609493342351,
       "magnific-ai": 0,
-      "seedance-2-5": 0.8528124679326281,
+      "seedance-2-5": 0.8521456796665174,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -5831,10 +5957,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.7565119083717272,
+      "rodin-hyper3d": 0.755920414599482,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.7529933599000989,
+      "trellis-2": 1.7516227474302966,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
