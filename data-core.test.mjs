@@ -70,3 +70,11 @@ test('Publication filters reject English copy, unrelated film sources and invent
  const source=retainSourceOnFailure({handle:'@correct',subscriberCount:null,checkedAt:null},{handle:'@old',subscriberCount:123,checkedAt:'2026-09-01'},'HTTP 503');
  assert.equal(source.handle,'@correct');assert.equal(source.subscriberCount,123);assert.equal(source.checkedAt,'2026-09-01');
 });
+
+test('Evidence selects actual source segments without accepting invented or abbreviated quotes', async()=>{
+ const {sourceSegments,selectedAIProof}=await import('./data-core.mjs');
+ const segments=sourceSegments('Photoshop update','This generative AI feature expands hair edges.\nAn LED light review.');
+ assert.equal(selectedAIProof([999],segments),null);
+ assert.equal(selectedAIProof([2],segments),null);
+ assert.equal(selectedAIProof([1],segments).quote,'This generative AI feature expands hair edges.');
+});

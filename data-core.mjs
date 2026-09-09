@@ -121,3 +121,13 @@ export function supportedAIQuote(quote,title,description) {
 export function retainSourceOnFailure(source,previous,message) {
   return {...source,youtubeId:previous?.youtubeId||null,subscriberCount:previous?.subscriberCount??null,checkedAt:previous?.checkedAt??null,lastError:message};
 }
+
+export function sourceSegments(title,description) {
+ return [title,...String(description).split(/\n+/)].flatMap(t=>String(t).match(/.{1,450}(?:\s|$)|.+/g)||[]).map(t=>t.trim()).filter(Boolean).map((text,id)=>({id,text}));
+}
+export function selectedAIProof(ids,segments) {
+ if(!Array.isArray(ids)||!ids.length||ids.length>3||ids.some(id=>!Number.isInteger(id)||!segments.some(s=>s.id===id)))return null;
+ const text=ids.map(id=>segments.find(s=>s.id===id).text).join(' ');
+ if(!/\b(ai|artificial intelligence|machine learning|generative|neural|diffusion|llm|gpt|chatgpt|claude|midjourney|seedance|firefly|elevenlabs|suno|udio)\b/i.test(text))return null;
+ return {ids,quote:text.split(/\s+/).slice(0,25).join(' ')};
+}
