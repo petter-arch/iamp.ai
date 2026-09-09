@@ -68,19 +68,20 @@ async function updateNews() {
     if(!Array.isArray(result.videos)||result.videos.length!==batch.length||new Set(result.videos.map(x=>x.id)).size!==batch.length||result.videos.some(x=>!batch.some(v=>v.id===x.id)||typeof x.relevant!=='boolean'||(x.relevant&&!CATS.includes(x.cat))))throw Error('Invalid classification: '+JSON.stringify(result.videos?.map(x=>({id:x.id,relevant:x.relevant,cat:x.cat}))));
     for(const item of result.videos)if(item.relevant){report.selection.relevant++;const v=batch.find(v=>v.id===item.id);if(!selectedAIProof(item.evidenceIds,sourceSegments(v.snippet.title,v.snippet.description.slice(0,2400)))){report.rejected.push({video:v.id,title:v.snippet.title,stage:'classification-evidence',evidenceIds:item.evidenceIds});continue;}report.selection.supported++;classified.push({...v,cat:item.cat,date:v.snippet.publishedAt,trusted:discovered.get(v.id).trusted});}
   }
-  for(const v of focusedSelection(classified,policy.maxSummaries||36)) {
-    const s=v.snippet;if(!s?.description)continue;
+  async function summarize(v) {
+    const s=v.snippet;if(!s?.description)return;
     const duration=durationSeconds(v.contentDetails?.duration);
-    if(duration<90)continue;
+    if(duration<90)return;
     // Full YouTube description, not the former 1,600-character slice.
     const sourceParts=chapters(s.description,duration);
     try {
       const a=await claude(`Write ttl, sum, full and deep in SWEDISH (sv), with separate English translations only inside en. Write a detailed AI news article grounded ONLY in this video title and full publisher description. You have NOT watched the video. Attribute claims to the named channel, never claim an independent test. Reject ALL ordinary lighting/gear, non-AI VFX, historical animation, 3D printing and generic film tutorials. A substantive AI development or workflow must be the main subject; incidental sponsor mentions, affiliate links and generic lists of AI tools are NOT article content or trending mentions. Reject anything where the description lacks enough substance for a detailed article. Do not fill gaps with prior knowledge. Video upload date is NOT the product release date. Preserve detail, concrete features, caveats and creator use cases where supported. No invented benefits, statistics, chapters or release dates.\nReturn {publish:boolean,evidenceIds:[],cat:one of ${CATS.join('|')},ttl,sum,full,deep,platformIds:[],newPlatforms:[],en:{ttl,sum,full,deep}}. evidenceIds must identify 1 to 3 supplied source segments demonstrating the main AI subject. Do not write quotations; the system extracts the selected source passages itself. full should contain several useful paragraphs, deep adds source-supported detail without repeating full. If not enough evidence, publish:false. Use plain text only, no HTML. newPlatforms must list exact product/model/version names explicitly present in the supplied source, only if absent from the registry. Do not infer new version numbers. Platform IDs must be exact matches to the supplied registry; omit ambiguous or newer versions.\nRegistry: ${JSON.stringify(old.platforms.map(p=>({id:p.id,n:p.n,aliases:p.aliases||[]})))}\nSource: ${JSON.stringify({title:s.title,channel:s.channelTitle,uploaded:s.publishedAt,segments:sourceSegments(s.title,s.description)})}`);
-      if(!a.publish){report.rejected.push({video:v.id,title:s.title,stage:'insufficient-article-source'});continue;}
-      const aiProof=selectedAIProof(a.evidenceIds,sourceSegments(s.title,s.description));if(!aiProof){report.rejected.push({video:v.id,title:s.title,stage:'article-evidence',evidenceIds:a.evidenceIds});continue;}
+      if(!a.publish){report.rejected.push({video:v.id,title:s.title,stage:'insufficient-article-source'});return;}
+      const aiProof=selectedAIProof(a.evidenceIds,sourceSegments(s.title,s.description));if(!aiProof){report.rejected.push({video:v.id,title:s.title,stage:'article-evidence',evidenceIds:a.evidenceIds});return;}
       if(!isSwedishArticle(a.full+' '+a.deep))throw Error('Article not Swedish');
       if(!CATS.includes(a.cat))throw Error('Unknown category');
       if(!Array.isArray(a.platformIds)||a.platformIds.some(id=>!old.platforms.some(p=>p.id===id)))throw Error('Unknown platform ID');
+      a.platformIds=a.platformIds.filter(id=>{const p=old.platforms.find(p=>p.id===id);const source=(s.title+' '+s.description).toLowerCase();return [p.n,...(p.aliases||[])].some(name=>source.includes(name.toLowerCase()));});
       if(!a.en||['ttl','sum','full','deep'].some(k=>typeof a.en[k]!=='string'||/[<>]/.test(a.en[k])))throw Error('Missing translation');
       if(a.full.length<450||a.deep.length<250)throw Error('Insufficient detail');
       const [tag,lab,ico]=labels[a.cat];
@@ -90,6 +91,8 @@ async function updateNews() {
       accepted.push(validateArticle(article,now));
     }catch(e){report.errors.push({video:v.id,message:e.message});}
   }
+  const summaryQueue=focusedSelection(classified,policy.maxSummaries||36);
+  for(let i=0;i<summaryQueue.length;i+=3)await Promise.all(summaryQueue.slice(i,i+3).map(summarize));
   // Malformed API responses never become fallback articles and never erase old articles.
   if(report.errors.some(e=>e.video)&&!accepted.length)throw Error('No valid new summaries; retain last published package. See workflow log.');
   const selected=focusedSelection(accepted,policy.maxNewArticles||20);
