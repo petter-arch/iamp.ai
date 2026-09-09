@@ -1,36 +1,26 @@
 {
-  "startedAt": "2026-09-09T09:30:59.583Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 8
+  "startedAt": "2026-09-09T09:35:32.529Z",
+  "mode": "profiles",
+  "errors": [
+    {
+      "platform": "google-veo-3-1",
+      "message": "Quote not found in retrieved source"
     },
-    "film": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 8
+    {
+      "platform": "flux-2",
+      "message": "Quote not found in retrieved source"
     },
-    "ljud": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 4
+    {
+      "platform": "elevenlabs",
+      "message": "Quote not found in retrieved source"
     },
-    "3d": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-09T09:30:59.583Z",
-      "found": 1
+    {
+      "platform": "elevenmusic",
+      "message": "Quote not found in retrieved source"
     }
-  },
-  "accepted": 0
+  ],
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }
