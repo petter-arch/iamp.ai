@@ -100,6 +100,7 @@ async function updateNews() {
   report.accepted=selected.length;
 }
 
+function quoteInSource(source,quote){const normalize=s=>String(s).normalize('NFKC').replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/\*\*/g,'').replace(/\s+/g,' ').trim().toLowerCase();return normalize(source).includes(normalize(quote));}
 function officialHosts(p) {const host=new URL(p.url).hostname.replace(/^www\./,'');return host==='chatgpt.com'?['chatgpt.com','openai.com']:host==='microsoft.ai'?['microsoft.ai','microsoft.com']:[host];}
 function officialURL(url,host) {
   if(Array.isArray(host))return host.some(h=>officialURL(url,h));
@@ -146,7 +147,7 @@ async function discoverProfiles() {
         for(const e of proofs) {
           if(!officialURL(e.url,host)||typeof e.quote!=='string'||e.quote.length<10)throw Error('Invalid evidence URL');
           if(!cache.has(e.url))cache.set(e.url,await sourceText(e.url,host));
-          if(!cache.get(e.url).toLowerCase().includes(e.quote.replace(/\s+/g,' ').trim().toLowerCase()))throw Error('Evidence quote missing');
+          if(!quoteInSource(cache.get(e.url),e.quote))throw Error('Evidence quote missing');
         }
         fieldChecks[field]={checkedAt:now,sources:proofs};
       }
@@ -159,34 +160,44 @@ async function discoverProfiles() {
 async function updateProfiles() {
   // Four per day: all 48 original profiles are revisited about every 12 days.
   const batch=[...old.platforms].sort((a,b)=>(a.lastAttemptAt||'').localeCompare(b.lastAttemptAt||'')).slice(0,4);
-  const changed=new Map();
+  const changed=new Map();let updatedCount=0;
   for(const p of batch) {
     try {
       const host=officialHosts(p);
       const data=await claude(`Check this EXACT model/version on its official website. Do not silently replace it with another version. Preserve rich, detailed Swedish descriptions and pros/cons. Search official current pricing, documentation and release notes. Use web_fetch to retrieve relevant official documentation BEFORE writing evidence quotes. Copy quotes exactly from the fetched text. Prefer publicly readable help/documentation pages over login-protected product apps. Return ONLY changed fields that the retrieved source supports. Do not erase a field. Do not update ratings, speed/tech/value scores, name, ID or URL. Never interpret missing evidence as a removed feature. Don't transform marketing claims into independent verdicts. If the exact model is no longer documented, return an empty patch.\nReturn {patch:{},evidence:{field:[{url,quote}]}}. Allowed patch fields: price,sub,long,deep,tags,caps,pros,cons,tier,free. Every changed field requires one or more short verbatim source quotes (at most 25 words per source in total), with URL. If changing price/free/tier they must be internally consistent. Do not rewrite long/deep to a short summary.\nOriginal profile: ${JSON.stringify(p)}`,{model:profileModel,tools:[{type:'web_search_20250305',name:'web_search',max_uses:4,allowed_domains:host},{type:'web_fetch_20250910',name:'web_fetch',max_uses:3,allowed_domains:host,max_content_tokens:12000}]});
       if(!data.patch||!data.evidence)throw Error('Missing profile result');
-      const cache=new Map(Object.entries(data._retrieved||{}));
-      for(const [field,proofs] of Object.entries(data.evidence)) {
-        if(!Array.isArray(proofs))throw Error('Invalid evidence');
-        for(const proof of proofs) {
-          if(!officialURL(proof.url,host)||typeof proof.quote!=='string'||proof.quote.length<15)throw Error('Invalid official citation');
-          if(!cache.has(proof.url))cache.set(proof.url,await sourceText(proof.url,host));
-          if(!cache.get(proof.url).toLowerCase().includes(proof.quote.replace(/\s+/g,' ').trim().toLowerCase()))throw Error('Quote not found in retrieved source');
-          proof.fetched=true;
-        }
+      const cache=new Map(Object.entries(data._retrieved||{})),verifiedPatch={},verifiedEvidence={};
+      for(const [field,value] of Object.entries(data.patch)) {
+        if(!['price','sub','long','deep','tags','caps','pros','cons','tier','free'].includes(field))continue;
+        try {
+          const proofs=data.evidence[field];
+          if(!Array.isArray(proofs)||!proofs.length)throw Error('Missing evidence');
+          for(const proof of proofs) {
+            if(!officialURL(proof.url,host)||typeof proof.quote!=='string'||proof.quote.length<15)throw Error('Invalid official citation');
+            if(!cache.has(proof.url))cache.set(proof.url,await sourceText(proof.url,host));
+            if(!quoteInSource(cache.get(proof.url),proof.quote))throw Error('Quote not found: '+JSON.stringify({url:proof.url,quote:proof.quote,retrieved:Object.keys(data._retrieved||{}),sample:cache.get(proof.url).slice(0,400)}));
+            proof.fetched=true;
+          }
+          if(['long','deep'].includes(field)&&value.length<Math.min(200,(p[field]||'').length*.7))throw Error('Detail would be lost');
+          mergeProfile(p,{[field]:value},{[field]:proofs},now);
+          verifiedPatch[field]=value;verifiedEvidence[field]=proofs;
+        }catch(e){report.errors.push({platform:p.id,field,message:e.message});}
       }
-      if(['price','tier','free'].some(k=>k in data.patch)&&!['price','tier','free'].every(k=>k in data.patch))throw Error('Incomplete pricing update');
-      for(const f of ['long','deep'])if(data.patch[f]&&data.patch[f].length<Math.min(200,(p[f]||'').length*.7))throw Error('Detail would be lost');
-      const updated=mergeProfile(p,data.patch,data.evidence,now);
-      delete updated.lastCheckError;
+      if(['price','tier','free'].some(k=>k in verifiedPatch)&&!['price','tier','free'].every(k=>k in verifiedPatch)) {
+        for(const k of ['price','tier','free']){delete verifiedPatch[k];delete verifiedEvidence[k];}
+        report.errors.push({platform:p.id,field:'pricing',message:'Incomplete pricing evidence; previous price retained'});
+      }
+      const updated=mergeProfile(p,verifiedPatch,verifiedEvidence,now);
+      const fieldErrors=report.errors.filter(e=>e.platform===p.id);
+      if(fieldErrors.length)updated.lastCheckError='Some fields could not be verified';else delete updated.lastCheckError;
       changed.set(p.id,updated);
-      if(Object.keys(data.patch).length)next.updatedAt=now;
+      if(Object.keys(verifiedPatch).length){next.updatedAt=now;updatedCount++;}
     }catch(e){report.errors.push({platform:p.id,message:e.message});changed.set(p.id,{...p,lastAttemptAt:now,lastCheckError:e.message});}
   }
   // A failed field check leaves the complete previous profile in place.
   next.platforms=old.platforms.map(p=>changed.get(p.id)||p);
   report.checked=batch.length;
-  report.updated=[...changed.values()].filter(p=>!p.lastCheckError).length;
+  report.updated=updatedCount;
 }
 
 try {
