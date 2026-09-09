@@ -1,277 +1,100 @@
 {
-  "startedAt": "2026-09-09T09:42:07.159Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-09T09:42:07.159Z",
-      "found": 1
-    }
-  },
-  "selection": {
-    "fetched": 136,
-    "relevant": 44,
-    "supported": 6
-  },
-  "rejected": [
+  "startedAt": "2026-09-09T09:46:52.894Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "K_iUGDw2Sho",
-      "title": "This Robot Can Learn Almost ANY Task",
-      "stage": "classification-evidence",
-      "quote": "robot can learn almost ANY TASK...from a single video demonstration"
+      "platform": "heygen",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.heygen.com/pricing\",\"quote\":\"Creator $29 / mo ... Yearly ... $24/month if you pay annually\",\"retrieved\":[\"https://www.heygen.com/pricing\"],\"sample\":\"--- canonical: https://www.heygen.com/pricing meta-description: Discover flexible pricing plans for creators and marketers using HeyGen's AI video generator, AI video maker, and more. Start for free at $0/mo with unlimited capabilities. Join over 100,000 businesses today! meta-facebook-domain-verification: ep3m9dtx07k73m9o1ebljy51w69ite meta-keywords: pricing plans for creators and marketers, ai v\"}"
     },
     {
-      "video": "UZZ53F_kEAA",
-      "title": "GPT-6 Astra will Make you Think BIGGER.",
-      "stage": "classification-evidence",
-      "quote": "GPT-6 Astra helped me build a playable jelly game in Unreal Engine...autonomous RPG...AI...working on...3D projects"
+      "platform": "heygen",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://www.heygen.com/pricing\",\"quote\":\"Avatar IV Gen Minutes ... Access to Avatar IV\",\"retrieved\":[\"https://www.heygen.com/pricing\"],\"sample\":\"--- canonical: https://www.heygen.com/pricing meta-description: Discover flexible pricing plans for creators and marketers using HeyGen's AI video generator, AI video maker, and more. Start for free at $0/mo with unlimited capabilities. Join over 100,000 businesses today! meta-facebook-domain-verification: ep3m9dtx07k73m9o1ebljy51w69ite meta-keywords: pricing plans for creators and marketers, ai v\"}"
     },
     {
-      "video": "LdyDpIspChs",
-      "title": "Install DLSS 5 EARLY & your Games will Look DISTURBINGLY Real.",
-      "stage": "classification-evidence",
-      "quote": "experimental, unofficial DLSS 5 Neural Rendering mod...makes game characters and lighting look almost like live-action footage"
+      "platform": "heygen",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://www.heygen.com/pricing\",\"quote\":\"Creator at $29/mo ($24/mo annual) — 600 credits/mo, videos up to 30 min, 1080p, watermark removal\",\"retrieved\":[\"https://www.heygen.com/pricing\"],\"sample\":\"--- canonical: https://www.heygen.com/pricing meta-description: Discover flexible pricing plans for creators and marketers using HeyGen's AI video generator, AI video maker, and more. Start for free at $0/mo with unlimited capabilities. Join over 100,000 businesses today! meta-facebook-domain-verification: ep3m9dtx07k73m9o1ebljy51w69ite meta-keywords: pricing plans for creators and marketers, ai v\"}"
     },
     {
-      "video": "W4RLaKsHR9k",
-      "title": "New H3 \"Max\" 3-Second Gens VS Local H3 Turbo",
-      "stage": "classification-evidence",
-      "quote": "H3 Max generated a five-second 768p AI video...put fal's new post-trained model against...local MiniMax H3 setup"
+      "platform": "heygen",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://www.heygen.com/blog/heygen-august-2025-release\",\"quote\":\"Avatar V ... studio-quality videos from a simple 15-second recording with lifelike motion\",\"retrieved\":[\"https://www.heygen.com/pricing\"],\"sample\":\"August 2025 Release for Enterprise Video Creation | HeyGen | Platform Use cases Developers Resources Enterprise Research Pricing EN Book a demo Sign in Home / Blog Product Updates HeyGen August 2025 product release Written by Tony Faccenda Last Updated May 4th, 2026 Summarize with: ChatGPT Perplexity Claude Gemini Grok Create AI videos, starring you in 177+ languages and dialects. Get started for \"}"
     },
     {
-      "video": "-IroKDDCkPA",
-      "title": "Our AI Course Enrollment for September is Open!",
-      "stage": "classification-evidence",
-      "quote": "AI Filmmaking, Advanced AI Filmmaking 2.0, AI Animation, AI VFX, AI Advertising, AI Documentary, AI Screenwriting"
+      "platform": "heygen",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-explained\",\"quote\":\"Premium features include Avatar IV, Video Translation with lip-sync, Video Agent\",\"retrieved\":[\"https://www.heygen.com/pricing\"],\"sample\":\"HeyGen Credit-Based Pricing Plans & Subscriptions Explained | HeyGen Help Center Copyright (c) 2023, Intercom, Inc. ( [email&#160;protected] ) with Reserved Font Name &quot;Inter&quot;. This Font Software is licensed under the SIL Open Font License, Version 1.1. Copyright (c) 2023, Intercom, Inc. ( [email&#160;protected] ) with Reserved Font Name &quot;Inter&quot;. This Font Software is licensed u\"}"
     },
     {
-      "video": "l476IMMyavM",
-      "title": "ATLAS Model - The Future of 3D AI Space",
-      "stage": "classification-evidence",
-      "quote": "World Labs Atlas is a new omni world model...generates, reconstructs, and simulates 3D worlds from text, images, video...3D Gaussian splats"
+      "platform": "kling-3-0",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://klingai.com/blog/kling-video-3-0-credit-cost-guide\",\"quote\":\"Basic $0; free forever ... Standard $6.99 / Month ... Pro $25.99 / Month ... Ultra $127.99 / Month\",\"retrieved\":[\"https://klingai.com/blog/kling-video-3-0-credit-cost-guide\"],\"sample\":\"--- canonical: https://kling.ai/blog/kling-video-3-0-credit-cost-guide meta-apple-mobile-web-app-status-bar-style: default meta-apple-mobile-web-app-title: Kling AI meta-article:published_time: 2026-07-28T13:57:59.019Z meta-buildId: 103519852 meta-description: Understand your Kling VIDEO 3.0 credit cost options. Learn how credits are consumed for 4K mode, Omni audio, and multi-shot videos. meta-in\"}"
     },
     {
-      "video": "kr4iyqaaktc",
-      "title": "This changed everything for me...",
-      "stage": "classification-evidence",
-      "quote": "how to create interesting, deep, rich ART with AI...visual examples...Midjourney, OpenAI GPT Image, Google Gemini image models, Ideogram, Adobe Firefly"
+      "platform": "kling-3-0",
+      "field": "long",
+      "message": "Source outside official domain"
     },
     {
-      "video": "fX-g6XNrkiA",
-      "title": "DLSS 5 is NOT What We Expected",
-      "stage": "classification-evidence",
-      "quote": "Nvidia claims DLSS 5 is 'reinventing' computer graphics...AI technology...visual homogeneity...future of gaming"
+      "platform": "kling-3-0",
+      "field": "deep",
+      "message": "Source outside official domain"
     },
     {
-      "video": "81wg425C8z0",
-      "title": "DLSS 5.0 is out... kinda.",
-      "stage": "classification-evidence",
-      "quote": "NVIDIA's new DLSS 5.0"
+      "platform": "kling-3-0",
+      "field": "caps",
+      "message": "Source outside official domain"
     },
     {
-      "video": "4wjHNgMLeyY",
-      "title": "Ox Alpha reveal, realtime Minimax, Qwen Next, Hy4, robot olympics: AI NEWS",
-      "stage": "classification-evidence",
-      "quote": "Block 3D, One Video One World, FixAnything - AI video and 3D generation models"
+      "platform": "kling-3-0",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://klingai.com/blog/kling-video-3-0-credit-cost-guide\",\"quote\":\"Basic $0; free forever\",\"retrieved\":[\"https://klingai.com/blog/kling-video-3-0-credit-cost-guide\"],\"sample\":\"--- canonical: https://kling.ai/blog/kling-video-3-0-credit-cost-guide meta-apple-mobile-web-app-status-bar-style: default meta-apple-mobile-web-app-title: Kling AI meta-article:published_time: 2026-07-28T13:57:59.019Z meta-buildId: 103519852 meta-description: Understand your Kling VIDEO 3.0 credit cost options. Learn how credits are consumed for 4K mode, Omni audio, and multi-shot videos. meta-in\"}"
     },
     {
-      "video": "8-aupryfLSI",
-      "title": "I Let Claude Turn a 15-Minute Video Into a YouTube Short",
-      "stage": "classification-evidence",
-      "quote": "Claude can automatically turn your long form videos that were made in Premiere Pro into shorts"
+      "platform": "freepik-ai",
+      "field": "sub",
+      "message": "Invalid official citation"
     },
     {
-      "video": "hOlcXXtZebo",
-      "title": "I Let Claude Edit a 3-Camera Podcast in Premiere Pro",
-      "stage": "classification-evidence",
-      "quote": "Claude fully edits a three-camera podcast inside Premiere Pro through BuzzRolls Studio"
+      "platform": "freepik-ai",
+      "field": "long",
+      "message": "Source outside official domain"
     },
     {
-      "video": "_AyXuJKm8iw",
-      "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
-      "stage": "classification-evidence",
-      "quote": "Five-Minute Science Film Created, Van Gogh World Created, Final Cut Prep Automated"
+      "platform": "freepik-ai",
+      "field": "deep",
+      "message": "Source outside official domain"
     },
     {
-      "video": "DPWm5wGvTu0",
-      "title": "Did Photoshop Finally Solve Hair Masking? Insane New Feature!",
-      "stage": "classification-evidence",
-      "quote": "Enhance Edge feature uses AI to expand edges behind hair without altering your original layer mask"
+      "platform": "freepik-ai",
+      "field": "caps",
+      "message": "Invalid official citation"
     },
     {
-      "video": "XXumkzBQg80",
-      "title": "Top 20 New Features in 20 Mins: Photoshop & Camera Raw (September 2026 Update)",
-      "stage": "classification-evidence",
-      "quote": "new AI Assisted Editor...Generative Expand directly on RAW files...Firefly 5 Context Edit"
+      "platform": "freepik-ai",
+      "field": "tags",
+      "message": "Invalid official citation"
     },
     {
-      "video": "AhJ1yZGh7bg",
-      "title": "OpenAI Launches ChatGPT Images 2.5: 50% Faster with Precision Editing! 🖼️🚀 | @OpenAI",
-      "stage": "classification-evidence",
-      "quote": "ChatGPT Images 2.5...Direct Sketch Input...Turn-by-Turn Consistency...localized edits...transparent background support"
+      "platform": "freepik-ai",
+      "field": "pros",
+      "message": "Invalid official citation"
     },
     {
-      "video": "MmmKrPBO2CU",
-      "title": "Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai​ #chatgpt​",
-      "stage": "classification-evidence",
-      "quote": "Chatgpt Photo Editing...how to edit photos using gemini al"
+      "platform": "freepik-ai",
+      "field": "cons",
+      "message": "Source outside official domain"
     },
     {
-      "video": "6F3EIac-lXg",
-      "title": "ChatGPT Image 2.5 (You Can't Miss These Features)",
-      "stage": "classification-evidence",
-      "quote": "ChatGPT Image 2.5...How to use ChatGPT Images 2.5 for free...Sketch feature...image generation"
-    },
-    {
-      "video": "tu5W1b2mKO8",
-      "title": "ChatGPT Image 2.5 Update Is INSANE! New AI Image Generator & Editing Features",
-      "stage": "classification-evidence",
-      "quote": "ChatGPT Image 2.5...powerful new image generation and editing capabilities...AI image editing"
-    },
-    {
-      "video": "SZtP_zKsrlI",
-      "title": "【速報】最高の画像生成AIモデル「ChatGPT Image 2.5」登場！実演８選と新機能解説！",
-      "stage": "classification-evidence",
-      "quote": "ChatGPT Image 2.5...画像生成AIモデル...新機能「スケッチ機能」...編集機能で画像編集"
-    },
-    {
-      "video": "N_bM6gdLfso",
-      "title": "Gemini’s AI Image Editor Is CRAZY! 🤯 | Generate & Edit Photos With AI",
-      "stage": "classification-evidence",
-      "quote": "Gemini's AI Image Editor...Generate & Edit Photos With AI...Remove...Edit Text"
-    },
-    {
-      "video": "MR5_bDMAQ18",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "classification-evidence",
-      "quote": "ChatGPT Photo Editing Prompt...Ai Photo Editing...ultra-realistic cinematic vertical portrait"
-    },
-    {
-      "video": "QM2fWKzSjIk",
-      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
-      "stage": "classification-evidence",
-      "quote": "ai filmmaking...AI Filmmaking Cohort...6 professional ai filmmakers"
-    },
-    {
-      "video": "JDvQSaToT2g",
-      "title": "AI vs human creativity — who will win the future of filmmaking? 🤖🎬 #shorts",
-      "stage": "classification-evidence",
-      "quote": "AI filmmaking...Artificial intelligence is changing the way movies, videos and cinematic stories are created"
-    },
-    {
-      "video": "Amlr3BfcH-0",
-      "title": "How to FIX Your AI Filmmaking Workflow (Seedance 2.5 + Topview)",
-      "stage": "classification-evidence",
-      "quote": "AI Filmmaking Workflow...Seedance 2.5...AI Video Generation...generating with Seedance 2.5"
-    },
-    {
-      "video": "Pm2-17_n930",
-      "title": "PicLumen Just Changed AI Filmmaking | Wan 3.0, Seedance 2.5, Seedream 5.0, Canvas & More",
-      "stage": "classification-evidence",
-      "quote": "AI Filmmaking...Wan 3.0, Seedance 2.5, Seedream 5.0...AI creators...production workflow"
-    },
-    {
-      "video": "juERfFUUi4s",
-      "title": "AI Video Generation: The Filmmaking Revolution: A Deep Dive | Agent Amigos Talk | AGENT AMIGOS",
-      "stage": "classification-evidence",
-      "quote": "AI Video Generation: The Filmmaking Revolution...AI Video Generation...every side of the subject"
-    },
-    {
-      "video": "eL0CYTnrIfc",
-      "title": "Top AI Video Generation Models 2026 | Text to Video AI ఎలా పనిచేస్తుంది? Complete Guide | PythonLife",
-      "stage": "classification-evidence",
-      "quote": "AI Video Generation Models, Text-to-Video, Image-to-Video, Video-to-Video, AI filmmaking and latest Video Generation Models"
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
-      "stage": "classification-evidence",
-      "quote": "новый УБИЙЦА по клонированию голоса — Fish Audio"
-    },
-    {
-      "video": "Kj9U8jKx1uA",
-      "title": "Adobe Firefly Just Got Much More Powerful — AI Music, Speech & Sound Effects #aitools  #ai",
-      "stage": "classification-evidence",
-      "quote": "Adobe Firefly's latest audio capabilities bring Generate Music, Generate Speech, and Generate Sound Effects"
-    },
-    {
-      "video": "8lxWkOGt2-0",
-      "title": "5 Free AI Audio Tools That Feel Illegal To Know in 2026",
-      "stage": "classification-evidence",
-      "quote": "5 Free AI Audio Tools: Adobe Podcast Enhance, Udio AI, ElevenLabs, LALAL.AI, AudioCraft"
-    },
-    {
-      "video": "fWkK_ggWXxs",
-      "title": "AI 3D Model Generation in Chaos Cosmos (Beta): From Image to 3D Asset",
-      "stage": "classification-evidence",
-      "quote": "AI 3D Model Generation in Chaos Cosmos: generate custom 3D models from a single reference image"
-    },
-    {
-      "video": "-CImrA_kFpo",
-      "title": "3D model generation using AI foundation model",
-      "stage": "classification-evidence",
-      "quote": "การสร้างแบบจำลองอาคาร 3 มิติด้วยการผสานเทคโนโลยี AI Foundation Model"
-    },
-    {
-      "video": "8MUk-tQTiwE",
-      "title": "New Absolute King of 3D & Blender - GPT-6 Astra",
-      "stage": "classification-evidence",
-      "quote": "GPT-6 works in Blender completely on its own, creates complete scenes, rig and animate 3D characters"
-    },
-    {
-      "video": "ouACKu1cwoU",
-      "title": "GPT-6 Shapes the New Era of 3D AI, Next-Gen AI Animation, & Much More! | 3D AI News #19",
-      "stage": "classification-evidence",
-      "quote": "GPT-6 Astra can now build full 3D scenes and games, Pixal3D multiview, Kimodo and SkinTokens run locally"
-    },
-    {
-      "video": "5XjaLy4zW5A",
-      "title": "Meshy 7 vs Neural4D – Which AI Creates Better 3D Models? 🤯 | Image to 3D",
-      "stage": "classification-evidence",
-      "quote": "Meshy 7 vs Neural4D – Which AI Creates Better 3D Models? Image to 3D comparison"
-    },
-    {
-      "video": "7f4toXv6CGc",
-      "title": "Meshy 7 Review: Is This the Best AI 3D Modeling Tool in 2026?",
-      "stage": "classification-evidence",
-      "quote": "Meshy 7: AI 3D model generator designed to turn simple text prompts and images into detailed 3D models"
-    },
-    {
-      "video": "Z0Gdh0GrsH4",
-      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
-      "stage": "classification-evidence",
-      "quote": "Every move it makes is a policy trained with reinforcement learning: train it in a simulator, export to ONNX, drop it straight onto the real robot"
-    },
-    {
-      "video": "DMV6y4ZaNYQ",
-      "title": "I Tested Every New AI Video Model So You Don't Have To...",
-      "stage": "article-evidence",
-      "quote": "Three new AI video models tested side by side on identical prompts... a new model that has rapidly climbed two major AI video leaderboards and review a specific Google release capable of generating 40-second clips... a third contender designed to challenge existing solutions like Seadance 2.5"
+      "platform": "freepik-ai",
+      "field": "price",
+      "message": "Source outside official domain"
     }
   ],
-  "accepted": 0
+  "categories": {},
+  "checked": 4,
+  "updated": 3,
+  "newModels": 0
 }

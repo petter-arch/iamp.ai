@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T09:14:40.144Z",
+  "updatedAt": "2026-09-09T09:46:52.894Z",
   "newsCheckedAt": "2026-09-09T09:42:07.159Z",
   "news": [
     {
@@ -2383,8 +2383,9 @@
       "sub": "AI-avatarer & talande video — bäst videoöversättning",
       "long": "HeyGen är den ledande plattformen för AI-avatarer och talande huvuden. Du skriver ett manus, väljer en digital presentatör och får en färdig video — perfekt för produktdemos, utbildning och marknadsföring utan kamera eller studio. Avatar IV/V ger naturlig läppsynk och mikrouttryck, Digital Twin skapar en avatar av dig själv från ett par minuters film, och videoöversättning med läppsynk till 175+ språk är bäst i klassen. Körs på ett kreditsystem där premium-avatarer drar krediter per minut.",
       "pros": [
-        "Bäst videoöversättning + läppsynk",
-        "Egen digital avatar (Digital Twin)",
+        "Bäst videoöversättning + läppsynk (175+ språk)",
+        "Eigen digital avatar — Avatar IV/V med full-body & mikrouttryck",
+        "Video Agent: hel video från en enda prompt",
         "Snabbt utan kamera eller studio"
       ],
       "cons": [
@@ -2396,7 +2397,8 @@
         "Avatarer",
         "Talande video",
         "175+ språk",
-        "Voiceover"
+        "Voiceover",
+        "Video Agent"
       ],
       "url": "https://www.heygen.com",
       "tech": 86,
@@ -2408,7 +2410,9 @@
         "Avatarer",
         "Videoöversättning",
         "Lip-sync",
-        "Digital Twin"
+        "Digital Twin",
+        "Video Agent",
+        "LiveAvatar"
       ],
       "free": "tier",
       "id": "heygen",
@@ -2416,7 +2420,49 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "tags": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://www.heygen.com/blog/heygen-september-2025-release",
+              "quote": "public release of Video Agent, the world's first creative operating system for video"
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://www.heygen.com/blog/heygen-october-2025-release",
+              "quote": "LiveAvatar by HeyGen, offering hyper-realistic, real-time interactive avatars"
+            },
+            {
+              "url": "https://www.heygen.com/blog/heygen-september-2025-release",
+              "quote": "public release of Video Agent, the world's first creative operating system for video"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://www.heygen.com/pricing",
+              "quote": "175 languages & dialects"
+            },
+            {
+              "url": "https://www.heygen.com/blog/heygen-august-2025-release",
+              "quote": "Digital Twin now represents your full body presence, not just your upper frame"
+            },
+            {
+              "url": "https://www.heygen.com/blog/heygen-september-2025-release",
+              "quote": "Video Agent handles the entire production workflow—scripting, visuals, voiceovers, avatars, editing, and delivery"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Kling 3.0",
@@ -2427,7 +2473,7 @@
       "bdg": "",
       "pct": 70,
       "price": "Gratisnivå + betal",
-      "sub": "Native 4K 60fps, 600M videos globalt",
+      "sub": "Native 4K (30 credits/sek), upp till 15 s, Native Audio, Multi-Shot",
       "long": "Kling 3.0 producerar native 4K i 60fps för klipp upp till 15 sekunder, med flerspråkig lip-sync på sju språk. Ljud och bild genereras gemensamt så dialog hålls i synk. Kuaishou rapporterar 60 miljoner creators och 600 miljoner genererade videos globalt. Har en riktig gratisnivå.",
       "pros": [
         "Native 4K 60fps",
@@ -2435,13 +2481,16 @@
         "Gratisnivå finns"
       ],
       "cons": [
-        "Kötider på gratis",
-        "Gränssnitt delvis på kinesiska"
+        "Kötider på gratisnivån",
+        "4K kostar 30 credits/sek — kräver planering",
+        "Kommersiell användning kräver betald plan"
       ],
       "tags": [
         "Videogen",
-        "4K 60fps",
+        "4K",
+        "Native Audio",
         "Lip Sync",
+        "Multi-Shot",
         "Gratisnivå"
       ],
       "url": "https://klingai.com",
@@ -2464,7 +2513,49 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "The 4K release introduced cinema-grade native 4K video output for the Kling VIDEO 3.0 series at 30 credits per second."
+            },
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "Kling VIDEO 3.0 series supports up to 15 seconds of generation, with flexible duration from 3 to 15 seconds."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "Native Audio supports dialogue, ambience, sound effects, and lip movement"
+            },
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "Multi-Shot helps creators build scenes with more shots and coverage in one generation."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "The 4K release introduced cinema-grade native 4K video output for the Kling VIDEO 3.0 series at 30 credits per second."
+            },
+            {
+              "url": "https://klingai.com/blog/kling-video-3-0-credit-cost-guide",
+              "quote": "Element Creation Quantity: 30; generated content is not for commercial use"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Freepik AI",
@@ -2510,7 +2601,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Adobe Firefly",
@@ -2521,7 +2614,7 @@
       "bdg": "",
       "pct": 66,
       "price": "Ingår i Creative Cloud",
-      "sub": "100% kommersiellt säker, i Creative Cloud",
+      "sub": "100% kommersiellt säker – generera bilder, video, ljud och mer med 30+ AI-modeller",
       "long": "Tränad uteslutande på licensierat innehåll och det enda verktyget med formell kommersiell skadeersättning från leverantören. Integrerad direkt i Photoshop, Illustrator och Premiere. Det trygga valet för byråer och företag som inte vill ha juridisk osäkerhet.",
       "pros": [
         "Juridiskt trygg för kommersiellt bruk",
@@ -2535,6 +2628,7 @@
       "tags": [
         "Bildgen",
         "Video",
+        "Audio",
         "Adobe CC",
         "Enterprise"
       ],
@@ -2548,7 +2642,9 @@
         "Text-till-bild",
         "Generative Fill",
         "Text-till-video",
-        "Licensierad data"
+        "Text-till-ljud",
+        "Licensierad data",
+        "30+ generativa modeller"
       ],
       "free": null,
       "id": "adobe-firefly",
@@ -2556,7 +2652,36 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://firefly.adobe.com/",
+              "quote": "Generate images, video, audio and more with 30+ AI models, all in one place."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://firefly.adobe.com/",
+              "quote": "Generate images, video, audio and more with 30+ AI models, all in one place."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "sources": [
+            {
+              "url": "https://firefly.adobe.com/",
+              "quote": "Generate images, video, audio and more with 30+ AI models, all in one place."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-09T09:46:52.894Z"
     },
     {
       "n": "Leonardo AI",
@@ -4854,11 +4979,11 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-09T09:42:07.159Z",
+    "calculatedAt": "2026-09-09T09:46:52.894Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.8387277755610083,
+      "chatgpt-images-2-0": 0.8384531588024074,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
@@ -4874,14 +4999,14 @@
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 0.6107499890046444,
+      "higgsfield": 0.6105500168716317,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
       "meshy-ai": 0,
       "magnific-ai": 0,
-      "seedance-2-5": 0.47644776157685514,
+      "seedance-2-5": 0.47629176276086344,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
