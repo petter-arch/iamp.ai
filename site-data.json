@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T17:58:00.108Z",
+  "updatedAt": "2026-09-10T09:48:18.251Z",
   "newsCheckedAt": "2026-09-09T17:58:00.108Z",
   "news": [
     {
@@ -4468,11 +4468,13 @@
       "pct": 66,
       "price": "Gratis / betal",
       "sub": "Topp-3 globalt — bäst utanför Big Tech",
-      "long": "Recraft V4 (feb 2026) byggdes om från grunden för visuell 'smak' — komposition, färg och detalj som känns avsiktlig snarare än AI-generisk. Uppföljaren V4.1 (maj 2026) klev in som nummer tre i Artificial Analysis Image Arena — högst rankade modell från ett bolag som inte ägs av ett stort techbolag. Fortsatt stark på riktiga vektorer/SVG, ikoner och brand kits.",
+      "long": "Recraft V4 (feb 2026) byggdes om från grunden för visuell 'smak' — komposition, färg och detalj som känns avsiktlig snarare än AI-generisk. Uppföljaren V4.1 (14 maj 2026) levererar tystare och mer realistisk fotorealism, skarpare illustrationsstilar och förmågan att läsa korta promptar rätt utan långa instruktioner. V4.1 Utility Pro rankades som det tredje labbet i Artificial Analysis Image Arena och högst rankad modell utanför Google och OpenAI — över xAI, ByteDance och Microsoft. Modellen finns i åtta versioner: V4.1, V4.1 Pro, V4.1 Utility, V4.1 Utility Pro, V4.1 Vector, V4.1 Vector Pro, V4.1 Utility Vector och V4.1 Utility Pro Vector. API-pris från $0,035 per bild (raster) och $0,08 per bild (vektor). Alla versioner är tillgängliga för testning på alla planer inklusive gratisplanen.",
       "pros": [
-        "Topp-3 på oberoende ledtavla",
-        "Genererar riktiga vektorer/SVG",
-        "Konsekventa brand-stilar"
+        "Högst rankad modell utanför Big Tech (Artificial Analysis Image Arena)",
+        "Genererar riktiga vektorer/SVG exporterbara för redesign",
+        "Konsekventa brand-stilar",
+        "Åtta modellvarianter — Standard, Pro, Utility och Vector",
+        "Förstår korta promptar utan långa instruktioner"
       ],
       "cons": [
         "Smalare användningsområde än generalistverktyg",
@@ -4482,18 +4484,24 @@
         "Bildgen",
         "Vektor/SVG",
         "Brand",
-        "Design"
+        "Design",
+        "3D",
+        "Mockup"
       ],
       "url": "https://www.recraft.ai",
       "tech": 85,
       "speed": 82,
       "pricev": 70,
       "rating": 84,
-      "deep": "Genererar riktiga vektorer (SVG) och håller en konsekvent brand-stil — idealiskt för logotyper, ikoner och illustrationer som behöver skalas.",
+      "deep": "Genererar riktiga vektorer (SVG) och håller en konsekvent brand-stil — idealiskt för logotyper, ikoner och illustrationer som behöver skalas. V4.1 Vector är byggd för arbete där skönheten lever i linjen: logotyper, typografi och illustrationer hanteras med precision och intention. Utility-varianten fokuserar på platt belysning och frontala kompositioner — perfekt för mockups och produktbilder. Modellen renderar 3D på ett sätt som känns som om det hör hemma i ett galleri, med naturlig ljusinfångning och riktigt djup och tyngd i kompositionerna. Gradientarbetet är i en egen liga med mjuka övergångar och drömska färgblandningar.",
       "caps": [
         "Text-till-bild",
         "Vektor/SVG",
-        "Brand-stilar"
+        "Brand-stilar",
+        "3D-rendering",
+        "Mockups",
+        "Karaktärsreferensblad",
+        "Illustrationsstilar"
       ],
       "free": "tier",
       "id": "recraft-v4-1",
@@ -4501,7 +4509,103 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "long": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "V4.1, released on May 14, 2026, makes images feel more alive, more purposeful, and more natural. The photorealism is quieter and more realistic."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "Recraft V4.1 text-to-image models are available in eight versions"
+            },
+            {
+              "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
+              "quote": "V4.1 Utility Pro outranks every other text-to-image model on the benchmark, including those from xAI, and ByteDance and Microsoft."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "All versions of Recraft V4.1 are available to test on all plan types, including the Free plan."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "V4.1 Vector is built for work where beauty lives in the line. Logos, typography, and illustrations are all crafted with the kind of precision and intention"
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "Utility focuses on flat lighting, front-facing composition, and simple scenes."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "It renders 3D in a way that feels like it belongs in a gallery. Chrome catches light naturally. Compositions have real depth and weight."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "The gradient work is in its own league too. Soft transitions, dreamy color blends, and surfaces that feel smooth rather than processed."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "It renders 3D in a way that feels like it belongs in a gallery."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "making them perfect for mockups or product listing photos."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "The Vector models deliver fully exportable vectors that you can reshape, recolor, and tweak until they're perfect."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "V4.1 creates a proper reference sheet with a front, profile, back, and 3/4 view, as well as adding character notes and color swatches."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "The Utility models are the ones to go for when simplicity matters more than creative surprise, making them perfect for mockups or product listing photos."
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
+              "quote": "the third-ranked lab worldwide and the highest-ranked text-to-image model from any lab not part of a Big Tech parent"
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "The Vector models deliver fully exportable vectors that you can reshape, recolor, and tweak until they're perfect."
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "Recraft V4.1 text-to-image models are available in eight versions"
+            },
+            {
+              "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+              "quote": "this model can read a short prompt and get the aesthetic right, all without the instructions of War and Peace to get there."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Meshy AI",
@@ -4516,8 +4620,8 @@
       "long": "Meshy omvandlar text eller bilder till textade 3D-modeller på under 30 sekunder. Populärt bland spelutvecklare, arkitekter och VR/AR-skapare. Exporterar till OBJ, FBX, GLB och fler format. Ett av de snabbast växande 3D-verktygen.",
       "pros": [
         "Text/bild till 3D på ~30 s",
-        "Game-ready format",
-        "Daglig gratis-kredit"
+        "Game-ready format (FBX, GLB, OBJ, USDZ, STL, BLEND)",
+        "100 gratis-krediter per månad, inget kort krävs"
       ],
       "cons": [
         "Topologi behöver ofta städas",
@@ -4527,7 +4631,9 @@
         "3D",
         "Text-till-3D",
         "Game Assets",
-        "AR/VR"
+        "AR/VR",
+        "3D-utskrift",
+        "Animation"
       ],
       "url": "https://www.meshy.ai",
       "tech": 78,
@@ -4538,7 +4644,10 @@
       "caps": [
         "Text-till-3D",
         "Bild-till-3D",
-        "Game-format"
+        "Game-format",
+        "AI-texturering (PBR)",
+        "Animation & Auto-rigging",
+        "3D-utskrift (STL/3MF)"
       ],
       "free": "tier",
       "id": "meshy-ai",
@@ -4546,7 +4655,61 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "tags": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "Auto-rig and animate any 3D character in seconds."
+            },
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "Meshy 3D models are generated with printing in mind — watertight, manifold, and ready to slice."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.meshy.ai/pricing",
+              "quote": "For Text to 3D and Image to 3D, we support downloading models in .fbx, .obj, .usdz, .glb, .stl, and .blend formats."
+            },
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "Add realistic PBR textures to any 3D model with AI."
+            },
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "Auto-rig and animate any 3D character in seconds."
+            },
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "Meshy 3D models are generated with printing in mind — watertight, manifold, and ready to slice."
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://www.meshy.ai/pricing",
+              "quote": "The Free plan is available with no credit card required. You get 100 credits/month."
+            },
+            {
+              "url": "https://www.meshy.ai",
+              "quote": "turns text and images into production-ready 3D models in 20-30 seconds"
+            },
+            {
+              "url": "https://www.meshy.ai/pricing",
+              "quote": "For Text to 3D and Image to 3D, we support downloading models in .fbx, .obj, .usdz, .glb, .stl, and .blend formats."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Magnific AI",
@@ -4590,7 +4753,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z"
     },
     {
       "n": "Seedance 2.5",
@@ -4601,37 +4765,46 @@
       "bdg": "hot",
       "pct": 90,
       "price": "API öppnar 7 aug 2026 · tidiga uppskattningar ~$0,14/sek",
-      "sub": "Native 30-sekundersvideo i en enda tagning",
-      "long": "ByteDances Seedance 2.5 (släppt 31 juli 2026) genererar upp till 30 sekunder sammanhängande video i en enda generering — ingen manuell ihopklippning behövs. Tar emot upp till 50 referensinputs (bild, video, ljud, text) för stark karaktärs- och scenkonsistens, stödjer upp till 4K, och har regionsbaserad redigering som ändrar en del av bilden utan att göra om hela klippet.",
+      "sub": "Native 30-sekunders audio-video i en enda tagning, med stöd för flervidsextension",
+      "long": "ByteDances Seedance 2.5 (officiellt lanserad 31 juli 2026) är en nästa generations audio-video-modell som genererar upp till 30 sekunder sammanhängande video i en enda pass — ingen manuell ihopklippning behövs. Stödjer dessutom flera rundor av extension, så att man kan producera flerminnuters innehåll med sammanhållet audiovisuellt språk. Tar emot upp till 30 referensbilder, 10 videoklipp och 10 ljudklipp i ett enda pass för stark karaktärs- och scenkonsistens. Erbjuder tidsstämpelbaserad redigering (timestamp-level control) för precisionsredigering av specifika sekunder i klippet, samt avancerade funktioner som green screen, kameraperspektivredigering och clay render-referens för professionella produktionsflöden. Modellen rullas ut på Jimeng AI och Doubao Pro, med API-åtkomst kommande via BytePlus ModelArk.",
       "pros": [
-        "Native 30 sek i en tagning",
-        "Upp till 4K-upplösning",
-        "Regionsredigering utan omgenerering"
+        "Native 30 sek i en tagning med stöd för flervidsextension",
+        "Upp till 30 bilder + 10 video + 10 ljud som referens i ett pass",
+        "Tidsstämpelbaserad precision — redigera exakt sekund utan att göra om hela klippet",
+        "Avancerade proffsverktyg: green screen, clay render, kameraperspektiv"
       ],
       "cons": [
-        "API-pris inte officiellt satt än",
-        "Rullas ut gradvis, Kina-lansering först"
+        "API-pris inte officiellt kommunicerat — 'coming soon via BytePlus ModelArk'",
+        "Rullas ut gradvis via Jimeng AI och Doubao Pro",
+        "Officiella sidor nämner inte 4K-stöd för Seedance 2.5",
+        "Komplex rörelse och flerpersonsinteraktion erkänns fortfarande som förbättringsområden"
       ],
       "tags": [
         "Video",
         "Lång video",
         "Referensstyrd",
-        "4K"
+        "Audio-video",
+        "Proffsredigering",
+        "Green screen"
       ],
       "url": "https://seed.bytedance.com/",
       "tech": 93,
       "speed": 80,
       "pricev": 76,
       "rating": 92,
-      "deep": "Störst nytta för längre, sammanhängande scener där du tidigare fick klippa ihop flera korta genereringar. Prissättningen är fortfarande osäker så räkna med det innan du planerar ett större projekt.",
+      "deep": "Störst nytta för längre, sammanhängande scener och komplexa flerpersonsscener där du tidigare fick klippa ihop flera korta genereringar. Multirundsextensionen gör att du kan bygga ut ett klipp i efterhand utan att tappa kontinuitet i karaktärer, miljö och narrativ rytm. Timestamp-styrningen och clay render-referensen ger filmproduktionsnivå av kontroll. API-prissättning är ännu inte officiellt kommunicerad — räkna med osäkerhet kring kostnad innan du planerar ett större projekt.",
       "caps": [
         "Text-till-video",
         "Bild-till-video",
-        "Referensbilder",
-        "Referensvideo",
-        "Referensljud",
-        "4K",
-        "30 sek video"
+        "Referensbilder (upp till 30)",
+        "Referensvideo (upp till 10 klipp)",
+        "Referensljud (upp till 10 klipp)",
+        "30 sek video",
+        "Flervidsextension",
+        "Tidsstämpelbaserad redigering",
+        "Green screen-redigering",
+        "Clay render-referens",
+        "Kameraperspektivredigering"
       ],
       "free": null,
       "id": "seedance-2-5",
@@ -4639,7 +4812,117 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/seedance2_5",
+              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model, built for 30-second storytelling with precise reference control"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "supports multiple rounds of extension"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Seedance 2.5 can generate high-quality, 30-second audio-video clips in a single pass and supports multiple rounds of extension."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Today, Seedance 2.5 is rolling out on Jimeng AI, Doubao Pro, and other platforms, with API access coming soon via BytePlus ModelArk."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "users can smoothly append subsequent shots to existing video outputs ... maintains the consistency of main characters, environments, and narrative pacing"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "we recognize there is still room for improvement, particularly regarding the physical plausibility of complex motions and the stability of scenes involving interactions among multiple subjects"
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/seedance2_5",
+              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/seedance2_5",
+              "quote": "Provides advanced capabilities such as white-model control and green-screen editing"
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/seedance2_5",
+              "quote": "Provides advanced capabilities such as white-model control and green-screen editing, combined with professional camera movement and performance blocking"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Seedance 2.5 can generate high-quality, 30-second audio-video clips in a single pass and supports multiple rounds of extension."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content, notably improving efficiency and controllability."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "API access coming soon via BytePlus ModelArk"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+              "quote": "we recognize there is still room for improvement, particularly regarding the physical plausibility of complex motions"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Ideogram V3",
@@ -5768,14 +6051,27 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ouACKu1cwoU"
       ],
-      "firstSeen": "2026-09-09T10:04:19.976Z"
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Miniface",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ouACKu1cwoU"
       ],
-      "firstSeen": "2026-09-09T10:04:19.976Z"
+      "firstSeen": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "status": "insufficient-evidence"
+    },
+    {
+      "name": "ChatGPT Images 2.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X1dJjPFLNWQ",
+        "https://www.youtube.com/watch?v=xNSX8ZHpTpM"
+      ],
+      "firstSeen": "2026-09-10T09:48:18.251Z"
     }
   ],
   "sourceChecks": {},
@@ -6442,34 +6738,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-09T17:58:00.108Z",
+    "calculatedAt": "2026-09-10T09:48:18.251Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.8106099829357807,
+      "chatgpt-images-2-0": 0.7593325814538214,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.8018891311361984,
-      "google-veo-3-1": 0.8018891311361984,
+      "runway-gen-4-5": 0.7511633915241959,
+      "google-veo-3-1": 0.7511633915241959,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.3643618799026528,
+      "heygen": 0.3413131501882423,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.993616098201581,
+      "adobe-firefly": 1.8675043364167794,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.149112927780429,
+      "higgsfield": 2.0131647791667735,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6411343294528422,
+      "meshy-ai": 0.6005775843999941,
       "magnific-ai": 0,
-      "seedance-2-5": 1.7248219485702214,
+      "seedance-2-5": 1.6157135124497928,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -6479,10 +6775,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.7316955032163212,
+      "rodin-hyper3d": 0.6854100578470407,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.6954886557803042,
+      "trellis-2": 1.5882357791309407,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,

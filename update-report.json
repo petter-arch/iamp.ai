@@ -1,223 +1,39 @@
 {
-  "startedAt": "2026-09-09T17:58:00.108Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 1
-    }
-  },
-  "selection": {
-    "fetched": 127,
-    "relevant": 40,
-    "supported": 36
-  },
-  "rejected": [
+  "startedAt": "2026-09-10T09:48:18.251Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "nek3Z9A9BRU",
-      "title": "The Secret to Realistic VFX",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        6,
-        24
-      ]
+      "platform": "recraft-v4-1",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://www.recraft.ai/docs/recraft-models/recraft-v4-1\",\"quote\":\"Recraft V4.1 Vector Pro … Cost (USD) $0.30 … Per image\",\"retrieved\":[\"https://www.recraft.ai/docs/recraft-models/recraft-v4-1\",\"https://www.recraft.ai/pricing\"]}"
     },
     {
-      "video": "RmlP_nqOhsk",
-      "title": "Claude Fable 5.1 is savage",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        12,
-        15,
-        16
-      ]
+      "platform": "recraft-v4-1",
+      "field": "sub",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "_AyXuJKm8iw",
-      "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        6,
-        11,
-        12
-      ]
+      "platform": "recraft-v4-1",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "eVBJIUxv8N8",
-      "title": "GPT-6 Astra Changes Everything",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        7,
-        12
-      ]
+      "platform": "meshy-ai",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://help.meshy.ai/en/articles/12062933-which-meshy-plan-is-right-for-you-free-vs-pro-vs-premium-vs-ultra\",\"quote\":\"Compare Meshy plans — Free ($0), Pro ($20/mo), Premium ($40/mo), Ultra ($100/mo)\",\"retrieved\":[\"https://www.meshy.ai\",\"https://www.meshy.ai/pricing\"]}"
     },
     {
-      "video": "iSXeiUXiln8",
-      "title": "Turn ONE Photo Into An Entire 3D World",
-      "stage": "insufficient-article-source"
+      "platform": "seedance-2-5",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "9mZ87JbLR30",
-      "title": "Is ChatGPT 6 Really That Good? See for Yourself",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "K_iUGDw2Sho",
-      "title": "This Robot Can Learn Almost ANY Task",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UZZ53F_kEAA",
-      "title": "GPT-6 Astra will Make you Think BIGGER.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "fX-g6XNrkiA",
-      "title": "DLSS 5 is NOT What We Expected",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LdyDpIspChs",
-      "title": "Install DLSS 5 EARLY & your Games will Look DISTURBINGLY Real.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-IroKDDCkPA",
-      "title": "Our AI Course Enrollment for September is Open!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kr4iyqaaktc",
-      "title": "This changed everything for me...",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Itx4PdkEA4A",
-      "title": "ChatGPT Images 2.5: Better Editing, Sketch & New Features",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tqUEnRj0NbM",
-      "title": "This AI Turns Insane Ideas Into 3D Objects",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "T1MzbHBdWS4",
-      "title": "GPT-6 Astra Just Built All of This Overnight 🤯 #shorts #ai #tech",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "F_-tLUxJQNo",
-      "title": "ChatGPT Images 2.5 Explained | New AI Image Generation & Editing Features",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4wjHNgMLeyY",
-      "title": "Ox Alpha reveal, realtime Minimax, Qwen Next, Hy4, robot olympics: AI NEWS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LBYLvNU7f3s",
-      "title": "ChatGPT SHORTCUT | PART 4 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Iso-LzH5g2o",
-      "title": "ChatGPT images 2.5: la rivoluzione di editing e generazione di immagini #ai #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QM2fWKzSjIk",
-      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JDvQSaToT2g",
-      "title": "AI vs human creativity — who will win the future of filmmaking? 🤖🎬 #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "OyL4oIY43G0",
-      "title": "Meshy AI 50% OFF Discount Code 2026 | Best AI 3D Model Generator - Meshy AI Review - Meshy AI Promo",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Pm2-17_n930",
-      "title": "PicLumen Just Changed AI Filmmaking | Wan 3.0, Seedance 2.5, Seedream 5.0, Canvas & More",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "i0P2dXp-RsU",
-      "title": "Future of filmmaking with AI | DHH and Lex Fridman",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "mPN2dNxGR_E",
-      "title": "AI से 3D Models बनाओ 🤯🔥 | Day 59",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "juERfFUUi4s",
-      "title": "AI Video Generation: The Filmmaking Revolution: A Deep Dive | Agent Amigos Talk | AGENT AMIGOS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "uXd5ag1K4Os",
-      "title": "AI से बनेगी पूरी 4K फिल्म? 😱 Hollywood-Bollywood का क्या होगा? #AI #AIFilm #hollywood  #Bollywood",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-CImrA_kFpo",
-      "title": "3D model generation using AI foundation model",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "BZ-M_56oobU",
-      "title": "PromeAI 3D model generator ｜Image to 3D #ai3d #aitools #promeai  #imageto3d  #3dmodeling #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "Это новый УБИЙЦА по клонированию голоса — Fish Audio",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "L_51G-l1cDo",
-      "title": "Adobe Firefly का नया AI कमाल! 😳 अब Music + Voice + SFX #ai #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "8lxWkOGt2-0",
-      "title": "5 Free AI Audio Tools That Feel Illegal To Know in 2026",
-      "stage": "insufficient-article-source"
+      "candidate": "TriFlow",
+      "message": "Evidence quote missing"
     }
   ],
-  "accepted": 6
+  "categories": {},
+  "checked": 4,
+  "updated": 3,
+  "newModels": 0
 }
