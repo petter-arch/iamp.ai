@@ -1,8 +1,425 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T09:48:18.251Z",
-  "newsCheckedAt": "2026-09-09T17:58:00.108Z",
+  "updatedAt": "2026-09-11T07:28:18.838Z",
+  "newsCheckedAt": "2026-09-11T07:28:18.838Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Google has officially introduced Google Pics, integrating native AI image generation and granular editing controls directly inside Google Workspace. Built to offer a seamless drag-and-drop",
+      "evidenceIds": [
+        1,
+        3,
+        7
+      ],
+      "id": "FzivhyiLrns",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Google Workspace introducerar Google Pics med precisions-AI-redigering",
+      "sum": "Google har lanserat Google Pics, en inbyggd AI-bildgenereringsplattform inom Google Workspace som möjliggör granulär redigering utan att behöva regenerera hela bilden. Tjänsten drivs av Nano Banana och erbjuder funktioner för objektmanipulation, textändringar, belysnings- och bakgrundskontroll samt bildförhållandeanpassning.",
+      "full": "Google Workspace har officiellt introducerat Google Pics, en ny AI-bildgenereringstjänst som är integrerad direkt i Google Workspace-miljön. Plattformen löser ett centralt problem med AI-genererade bilder: behovet av att starta helt om med en ny prompt för att ändra detaljer.\n\nGoogle Pics bygger på Nanos Banana-modeller för att generera högupplösta, anpassningsbara bilder. Systemet erbjuder en drag-and-drop-designupplevelse med flera avancerade redigeringsfunktioner. Användare kan flytta, skala och transformera enskilda objekt inom en bild samtidigt som resten av bildinnehållet förblir intakt, vilket eliminerar behovet för fullständig omgenerering.\n\nPlattformen inkluderar smart textmanipulation som gör det möjligt att enkelt redigera, uppdatera eller översätta text som renderats direkt inom grafiker. Belysnings- och bakgrundskontroller låter användare finjustera omgivningsljus, justera färgpaletter eller byta bakgrunder direkt. Bildförhållandeanpassning möjliggör sömlös omformatering av bilder för att matcha dokument, presentationer och webbmiljöer.\n\nGoogle Pics är tillgänglig på högre Google Workspace-nivåer. TechCos rapporterar att tjänsten kan testas på workspace.google.com/products/pics/.",
+      "deep": "Segment 7 bekräftar att Google Pics drivs av Nano Banana, Googles specialiserade imaging-modeller. Detta är viktigt eftersom Nano Banana är en registrerad plattform i AI-ekosystemet för bildgenerering. Implementeringen inom Workspace skiljer sig från fristående AI-bildverktyg genom att erbjuda granulär kontroll över enskilda bildelement utan fullständig regenerering – en workflow-förbättring som TechCos identifierar som lösningen på ett känt smärtpunkt inom AI-bildgenerering. Segmenten 3-6 dokumenterar de specifika redigeringsfunktionerna: objektomflyttning och skalning, textmanipulation, belysning/bakgrundsjustering och bildförhållandeanpassning. Tillgängligheten är begränsad till högre Workspace-nivåer enligt segment 8.",
+      "en": {
+        "ttl": "Google Workspace introduces Google Pics with precision AI editing",
+        "sum": "Google has launched Google Pics, an integrated AI image generation platform within Google Workspace that enables granular editing without regenerating entire images. Powered by Nano Banana, the service offers object manipulation, text editing, lighting and background control, and aspect ratio adjustment.",
+        "full": "Google Workspace has officially introduced Google Pics, a new AI image generation service integrated directly into the Google Workspace environment. The platform addresses a core limitation of AI-generated images: the need to restart with an entirely new prompt to change individual details.\n\nGoogle Pics is built on Nano Banana models to generate high-fidelity, customizable images. The system provides a drag-and-drop design experience with several advanced editing capabilities. Users can move, scale, and transform individual objects within an image while preserving the rest of the image content, eliminating the need for full regeneration.\n\nThe platform includes smart text manipulation that enables straightforward editing, updating, or translation of text rendered directly within graphics. Lighting and background controls allow users to fine-tune ambient lighting, adjust color palettes, or replace backgrounds instantly. Aspect ratio adjustment enables seamless reformatting of images to match documents, presentations, and web layouts.\n\nGoogle Pics is available on higher Google Workspace tiers. TechCos reports the service can be tested at workspace.google.com/products/pics/.",
+        "deep": "Segment 7 confirms that Google Pics is powered by Nano Banana, Google's specialized imaging models. This is significant because Nano Banana is a registered platform in the AI image generation ecosystem. The Workspace implementation differs from standalone AI image tools by offering granular control over individual image elements without full regeneration – a workflow improvement that TechCos identifies as addressing a known pain point in AI image generation. Segments 3–6 document the specific editing features: object movement and scaling, text manipulation, lighting/background adjustment, and aspect ratio adjustment. Availability is restricted to higher Workspace tiers according to segment 8."
+      },
+      "cat": "foto",
+      "date": "2026-09-10T20:19:34Z",
+      "meta": "TechCos · 2026-09-10",
+      "url": "https://www.youtube.com/watch?v=FzivhyiLrns",
+      "img": "https://i.ytimg.com/vi/FzivhyiLrns/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "TechCos"
+      ],
+      "parts": [],
+      "views": 32,
+      "buzz": 38,
+      "sourceCheckedAt": "2026-09-11T07:28:18.838Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5a52ae1bcc8e161aa8c2610fd3a59e0be3161c4a6d698342c9cd4d7b4c643eb6",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "I tested Automatic3D, an AI 3D model generator that can create detailed and 3D-printable models from text and images .",
+      "evidenceIds": [
+        1
+      ],
+      "id": "7C90UPnrS1E",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Automatic3D – AI-driven 3D-modellgenerator testad för text- och bildbaserad modelltillverkning",
+      "sum": "Kanalen 3D Prints&Builds testade Automatic3D, en AI-baserad 3D-modellgenerator som skapar detaljerade och 3D-utskrivbara modeller från textbeskrivningar och bilder.",
+      "full": "Automatic3D är en AI-baserad 3D-modellgenerator som enligt kanalen 3D Prints&Builds kan skapa detaljerade 3D-modeller från både textinmatning och bilder. Testet demonstrerade flera arbetsflöden: generering av modeller via textprompts, skapande av modeller från bildöverföringar, och kombinerad text- och bildbaserad modellgenerering. Kanalen visade även hur de genererade modellerna kan slicas (förberedas för utskrift) och sedan 3D-skrivas ut fysiskt. Testaren inkluderade även exempel på modellering av videospelskaraktärer (från GTA VI) via AI:n. Plattformen erbjuder ett webbaserat gränssnitt för modelltillverkning och möjligheten att ladda ned bonus-modeller via ett registerprogram.",
+      "deep": "Automatic3D presenteras som en komplett arbetsflödesverktyg för 3D-modellgeneration. Testet täcker flera användningsscenarier: direktgenering från textbeskrivningar producerade modeller som bedömdes ha tillräcklig detaljgrad för 3D-utskrift, bildbaserad konvertering demonstrerade möjligheten att omvandla 2D-bilder till 3D-geometri, och det kombinerade arbetsflödet visade flexibilitet i inmatningsformat. De slicade modellerna skrevs sedan ut på Bambu Lab X1C och H2D-printrar, vilket bekräftar att de AI-genererade modellerna var funktionella för additiv tillverkning. Kanalen noterade överraskning över systemets kapacitet, men specifikationer för modellupplösning, filformat eller precisionsparametrar är inte tillgängliga från beskrivningen.",
+      "en": {
+        "ttl": "Automatic3D – AI-powered 3D model generator tested for text and image-based model creation",
+        "sum": "The channel 3D Prints&Builds tested Automatic3D, an AI-based 3D model generator that creates detailed and 3D-printable models from text descriptions and images.",
+        "full": "Automatic3D is an AI-based 3D model generator that according to the 3D Prints&Builds channel can create detailed 3D models from both text input and images. The test demonstrated several workflows: generating models via text prompts, creating models from image uploads, and combined text and image-based model generation. The channel also showed how the generated models can be sliced (prepared for printing) and then physically 3D-printed. The tester included examples of modeling video game characters (from GTA VI) via the AI. The platform offers a web-based interface for model creation and the ability to download bonus models through a registration program.",
+        "deep": "Automatic3D is presented as a complete 3D model generation workflow tool. The test covers multiple use cases: direct generation from text descriptions produced models deemed to have sufficient detail for 3D printing, image-based conversion demonstrated the ability to transform 2D images into 3D geometry, and the combined workflow showed flexibility in input formats. The sliced models were then printed on Bambu Lab X1C and H2D printers, confirming that the AI-generated models were functional for additive manufacturing. The channel noted surprise at the system's capacity, but specifications for model resolution, file formats, or precision parameters are not available from the description."
+      },
+      "cat": "3d",
+      "date": "2026-09-10T13:01:57Z",
+      "meta": "3D Prints&Builds · 2026-09-10",
+      "url": "https://www.youtube.com/watch?v=7C90UPnrS1E",
+      "img": "https://i.ytimg.com/vi/7C90UPnrS1E/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "3D Prints&Builds"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 12,
+          "l": "Interface"
+        },
+        {
+          "t": 49,
+          "l": "Generating models via text"
+        },
+        {
+          "t": 195,
+          "l": "3D models showcase"
+        },
+        {
+          "t": 246,
+          "l": "Generating models via image"
+        },
+        {
+          "t": 256,
+          "l": "GTA VI Character 3d models"
+        },
+        {
+          "t": 399,
+          "l": "Models via text and image"
+        },
+        {
+          "t": 424,
+          "l": "Slicing models"
+        },
+        {
+          "t": 440,
+          "l": "3D printing"
+        },
+        {
+          "t": 463,
+          "l": "3D printed models"
+        },
+        {
+          "t": 525,
+          "l": "Thoughts and opinion"
+        }
+      ],
+      "views": 698,
+      "buzz": 54,
+      "sourceCheckedAt": "2026-09-11T07:28:18.838Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "d47410693dbfcd6a549926f302cd25f95cc2693af24b027917f74c02a64dcf7a",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Automatic3D"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "GPT Image 2.5 review. ChatGPT Images 2.5 vs 2 vs Nano Banana 2 #ai #aitools #aiart #imagegenerator #aiphoto #agi #singularity GPT Image 2.5 release page",
+      "evidenceIds": [
+        1,
+        3,
+        5
+      ],
+      "id": "q9tpIc8PVKM",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "ChatGPT Images 2.5 – ny bildgenerator med skiss-, annoterings- och multiturn-redigering",
+      "sum": "AI Search presenterar ChatGPT Images 2.5, OpenAIs uppdaterade bildgenereringssystem med nya funktioner för sketch, annotations och iterativ redigering. Kanalen jämför versionen mot tidigare ChatGPT Images 2 och Nano Banana 2, och demonstrerar användningsfall från design till animation.",
+      "full": "AI Search har publicerat en översiktlig granskning av ChatGPT Images 2.5, OpenAIs senaste bildgenereringsmodell. Enligt kanalens demonstration innehåller den nya versionen flera substantiella funktionsuppdateringar jämfört med tidigare versioner. Sketch-funktionen och annotations-möjligheten möjliggör mer direktkontroll över bildkomposition. Multiturn-redigering tillåter iterativ förfining av genererade bilder genom successiv feedback, vilket adresserar ett vanligt workflow-problem i bildgenerering.\n\nKanalen jämför ChatGPT Images 2.5 direkt mot ChatGPT Images 2 och Nano Banana 2 genom en rad praktiska test. Transparenstest, anime-postergenering och window desktop-rendering ingår bland de demoner som visas. Användningsfall sträcker sig från fashion-guidegenerering till branding-arbete, storyboard-produktion för reklam och geografiska förståelsetest. Kanalen testar även systemets spatial understanding genom chess diagram-generering, consistency-hantering för referensmaterial och specifika utmaningar som \"FROG TEST\" och \"Where's Waldo\"-scenarier.\n\nAI Search presenterar också resultat från mer avancerade användningsfall såsom spritesheet-animation, manga-generering, webbsideredesign och tabel-till-graf-konvertering. Kanalen evaluerar modellens förmåga att generera text-tung content som typografi-design och alfabetdjur-illustrationer. Specs och tillgänglighet presenteras avslutningsvis, tillsammans med jämförelse mot andra tool i kategorin.",
+      "deep": "Sketch-funktionen i ChatGPT Images 2.5 möjliggör att användare kan rita eller markera områden direkt i gränssnittet för att styra bildgenereringen, vilket representerar ett skift från rent text-baserad promptning. Annotations-verktyget förbättrar kontexten genom att låta användare markera och kommentera specifika delar av sitt skissarbete. Multiturn-redigering-flödet tillåter att användare iterativt anpassar en redan genererad bild utan att starta från början, vilket AI Search demonstrerar genom flera efterföljande justeringar. Transparenshantering testas explicit, vilket tyder på att modellen stöder genomskinlig bakgrund—en praktisk funktion för designarbete.\n\nAI Search inkluder omfattande tester av rumslig förståelse och referenskonsistens, inklusive chess diagram-generering och Where's Waldo-scenarier. Dessa test indikerar att ChatGPT Images 2.5 adresserar tidigare begränsningar i geometrisk korrekthet och spatial logik. Spritesheet-animationstestet antyder möjligheten att generera flera frames eller keyframes i ett enda artefakt, relevant för spelutveckling och animation. Tabel-till-graf-konvertering demonstreras som ett informationsdesign-use case. Webbredaktöring och storyboard-skapande för kommersiell produktion presenteras som arbetsflöden där modellen kan ersätta eller påskynda designiteration.",
+      "en": {
+        "ttl": "ChatGPT Images 2.5 – new image generator with sketch, annotations, and multiturn editing",
+        "sum": "AI Search presents ChatGPT Images 2.5, OpenAI's updated image generation system featuring new sketch, annotations, and iterative editing capabilities. The channel compares the version against earlier ChatGPT Images 2 and Nano Banana 2, demonstrating use cases from design to animation.",
+        "full": "AI Search has published a comprehensive review of ChatGPT Images 2.5, OpenAI's latest image generation model. According to the channel's demonstration, the new version includes several substantive feature updates compared to earlier versions. The sketch function and annotations capability enable more direct control over image composition. Multiturn editing allows iterative refinement of generated images through successive feedback, addressing a common workflow problem in image generation.\n\nThe channel compares ChatGPT Images 2.5 directly against ChatGPT Images 2 and Nano Banana 2 through a series of practical tests. Transparency tests, anime poster generation, and Windows desktop rendering are among the demonstrations shown. Use cases range from fashion guide generation to branding work, storyboard production for commercials, and geographic understanding tests. The channel also tests the system's spatial understanding through chess diagram generation, consistency handling for reference materials, and specific challenges such as \"FROG TEST\" and \"Where's Waldo\" scenarios.\n\nAI Search also presents results from more advanced use cases including spritesheet animation, manga generation, webpage redesign, and table-to-graph conversion. The channel evaluates the model's ability to generate text-heavy content such as typography design and alphabet animal illustrations. Specs and availability are presented in conclusion, along with comparison against other tools in the category.",
+        "deep": "The sketch function in ChatGPT Images 2.5 enables users to draw or mark areas directly in the interface to direct image generation, representing a shift from purely text-based prompting. The annotations tool enhances context by allowing users to mark and comment on specific parts of their sketch work. The multiturn editing workflow allows users to iteratively adjust an already-generated image without starting from scratch, which AI Search demonstrates through several successive refinements. Transparency handling is tested explicitly, suggesting the model supports transparent backgrounds—a practical feature for design work.\n\nAI Search includes extensive tests of spatial understanding and reference consistency, including chess diagram generation and Where's Waldo scenarios. These tests suggest ChatGPT Images 2.5 addresses previous limitations in geometric correctness and spatial logic. The spritesheet animation test hints at the possibility of generating multiple frames or keyframes in a single artifact, relevant for game development and animation. Table-to-graph conversion is demonstrated as an information design use case. Web redesign and storyboard creation for commercial production are presented as workflows where the model can replace or accelerate design iteration."
+      },
+      "cat": "foto",
+      "date": "2026-09-10T03:29:16Z",
+      "meta": "AI Search · 2026-09-10",
+      "url": "https://www.youtube.com/watch?v=q9tpIc8PVKM",
+      "img": "https://i.ytimg.com/vi/q9tpIc8PVKM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Search"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "GPT Image 2.5 intro"
+        },
+        {
+          "t": 60,
+          "l": "Sketch feature and annotations"
+        },
+        {
+          "t": 127,
+          "l": "Multi turn editing"
+        },
+        {
+          "t": 163,
+          "l": "Transparency tests"
+        },
+        {
+          "t": 280,
+          "l": "Anime posters"
+        },
+        {
+          "t": 370,
+          "l": "Windows desktop"
+        },
+        {
+          "t": 488,
+          "l": "Youtube screenshot"
+        },
+        {
+          "t": 560,
+          "l": "Brand design board"
+        },
+        {
+          "t": 650,
+          "l": "Fashion outfit guide"
+        },
+        {
+          "t": 715,
+          "l": "Higgsfield GPT Astra"
+        },
+        {
+          "t": 795,
+          "l": "Spritesheet animation"
+        },
+        {
+          "t": 853,
+          "l": "Table to graphs"
+        },
+        {
+          "t": 982,
+          "l": "Tiktok livestream"
+        },
+        {
+          "t": 1026,
+          "l": "Typography design"
+        },
+        {
+          "t": 1080,
+          "l": "Electronic dissection"
+        },
+        {
+          "t": 1106,
+          "l": "Manga"
+        },
+        {
+          "t": 1158,
+          "l": "Redesign webpage"
+        },
+        {
+          "t": 1194,
+          "l": "Storyboard for commercial"
+        },
+        {
+          "t": 1230,
+          "l": "City street test"
+        },
+        {
+          "t": 1291,
+          "l": "Gameplay test"
+        },
+        {
+          "t": 1332,
+          "l": "Biology homework"
+        },
+        {
+          "t": 1372,
+          "l": "FROG TEST"
+        },
+        {
+          "t": 1422,
+          "l": "Geographic understanding"
+        },
+        {
+          "t": 1495,
+          "l": "Spatial understanding"
+        },
+        {
+          "t": 1555,
+          "l": "Chess diagrams"
+        },
+        {
+          "t": 1582,
+          "l": "Alphabet animals"
+        },
+        {
+          "t": 1633,
+          "l": "Clock and wine"
+        },
+        {
+          "t": 1654,
+          "l": "Wheres Waldo"
+        },
+        {
+          "t": 1706,
+          "l": "Reference consistency"
+        },
+        {
+          "t": 1796,
+          "l": "Specs and availability"
+        }
+      ],
+      "views": 143937,
+      "buzz": 82,
+      "sourceCheckedAt": "2026-09-11T07:28:18.838Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "61b0ed362d0a1fd137da1fe3c46887fd8366eb19aaf877dbf0911ac45c47785e",
+      "trusted": true,
+      "sourceId": "theaisearch",
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "OpenAI dropped GPT Image 2.5 (ChatGPT Images 2.5) — and honestly? It's the 0.5 update. A few of Image 2's nagging issues are better (that",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ],
+      "id": "VsmL_KROmyI",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "GPT-IMAGE 2.5: OpenAI:s ny bildgenereringsmodell med förbättrad intelligens och konversationell redigering",
+      "sum": "Theoretically Media presenterar GPT-IMAGE 2.5, OpenAI:s uppdaterade bildgenereringsmodell som lanserades som en 0.5-uppdatering till GPT Image 2. Modellen erbjuder två varianter — Flare för snabb bildgenerering och Sunburst för precisare redigeringar — och integreras med GPT-6 Astra för intelligent konversationell redigering. Kanalen testar modellens förmåga att hantera komplexa scenkompositioner, referenskällor och iterativ redigering.",
+      "full": "OpenAI har lanserat GPT-IMAGE 2.5, en uppdaterad bildgenereringsmodell som presenteras som en mindre uppdatering (0.5-version) till GPT Image 2. Enligt Theoretically Media är huvudförskjutningen i denna version förbättrad intelligens och konversationell redigeringsfunktionalitet, drivna av GPT-6 Astra som \"hjärnan\" bakom systemet.\n\nModellen finns i två versioner: Flare, utformad för snabb bildgenerering, och Sunburst, en kraftfullare variant optimerad för precisa redigeringar. Båda versionerna är tillgängliga för alla ChatGPT- och Codex-användare samt via API till samma pris som GPT Image 2. Native output-upplösningen för ChatGPT/Codex rapporteras vara 1672×941 pixlar.\n\nTheoreticallyMedia testar modellens prestanda genom flera standardtester och avancerade fall: stilkonsistens (blå affärsdräkt), tidsjustering (\"12 år senare\"-edit), kompositionell komplexitet (pelikanen på cykel, samt kombination av flera element), spegeltest, flervinkade grid-kompositioner och filmstilreferenser. Kanalen konstaterar att støjmönstret från tidigare versioner är reducerat men inte eliminerat helt.\n\nEn betydande integration är användningen av Astra för kontextbaserad redigering: modellen kan genomföra forskning om användaren för att personalisera resultatet, applicera färgkvaliteter baserat på filmreferenser (War of the Worlds), och transformera stillbilder från Rockstar Games GTA VI till autentiska fotografier av skådespelare. Kanalen noterar att Astra har ersatt Fable 5.1 som sitt dagliga arbetsverktyg.",
+      "deep": "Theoretically Media framhåller att GPT-IMAGE 2.5 inte är en större genombrytning utan snarare en fokuserad refinering. Reduceringen av støjmönster är märkbar men inte fullständig. Intelligensförbättringarna är dock substansiella — särskilt när det gäller förståelse av komplext sammanhang.\n\nI testning med Astra-integrationen visar modellen förmåga att hantera narrativ redigering på ett sätt som Theoretically Media beskriver som överraskande effektivt (\"12 years later\"-editionen \"hit harder than expected\"). Systemet kan inte bara generera bilder utan också tolka och reagera på iterativa instruktioner.\n\nI jämförande tester hävdar kanalen att GPT-IMAGE 2.5 (särskilt med 4-angle grid-metoden) överträffar konkurrenter som Nano Banana 2 och Nano Banana Pro. Vid filmisk referensarbete (War of the Worlds färgkvalitet, Fury Road-still) måste användare dock ibland \"argue with it\" för att uppnå önskad estetik.\n\nFlare vs Sunburst-skillnaden är substantiell för precision: medan Flare prioriterar hastighet är Sunburst utformad för detaljkontroll. Theoretically Media noterar att de inte kunnat identifiera vilken variant ChatGPT och Codex använder som standard (gissningen är Flare), vilket kan påverka förväntningar om utgångskvalitet. Native 1672×941-upplösningen indikerar att uppskalning ofta är nödvändig för produktionsarbete.",
+      "en": {
+        "ttl": "GPT-IMAGE 2.5: OpenAI's New Image Generator with Enhanced Intelligence and Conversational Editing",
+        "sum": "Theoretically Media presents GPT-IMAGE 2.5, OpenAI's updated image generation model released as a 0.5 update to GPT Image 2. The model offers two variants — Flare for rapid generation and Sunburst for precise edits — and integrates with GPT-6 Astra for intelligent conversational editing. The channel tests the model's ability to handle complex scene compositions, reference sources, and iterative editing.",
+        "full": "OpenAI has launched GPT-IMAGE 2.5, an updated image generation model presented as a minor (0.5) update to GPT Image 2. According to Theoretically Media, the primary shift in this version is improved intelligence and conversational editing capabilities, driven by GPT-6 Astra as the system's \"brain\".\n\nThe model comes in two variants: Flare, designed for rapid image generation, and Sunburst, a more powerful variant optimized for precise edits. Both versions are available to all ChatGPT and Codex users and via API at the same price as GPT Image 2. Native output resolution for ChatGPT/Codex is reported as 1672×941 pixels.\n\nTheoreticallyMedia tests the model's performance through multiple standard tests and advanced scenarios: style consistency (blue business suit), temporal editing (\"12 years later\" edit), compositional complexity (pelican on bicycle, plus combinations of multiple elements), mirror tests, multi-angle grid compositions, and film style references. The channel notes that noise patterns from earlier versions are reduced but not entirely eliminated.\n\nA significant integration is the use of Astra for context-based editing: the model can research the user to personalize results, apply color grades based on film references (War of the Worlds), and transform Rockstar Games GTA VI stills into authentic photographs of actors never previously shot. The channel notes that Astra has replaced Fable 5.1 as its daily driver.",
+        "deep": "Theoretically Media emphasizes that GPT-IMAGE 2.5 is not a major breakthrough but rather a focused refinement. The reduction in noise patterns is noticeable but not complete. Intelligence improvements are nonetheless substantial — particularly regarding complex contextual understanding.\n\nIn testing with Astra integration, the model demonstrates capability in narrative editing in ways Theoretically Media describes as surprisingly effective (the \"12 years later\" edit \"hit harder than expected\"). The system can not only generate images but also interpret and respond to iterative instructions.\n\nIn comparative tests, the channel claims GPT-IMAGE 2.5 (particularly with the 4-angle grid method) outperforms competitors such as Nano Banana 2 and Nano Banana Pro. When working with film reference material (War of the Worlds color grade, Fury Road stills), users must sometimes \"argue with it\" to achieve desired aesthetics.\n\nThe Flare vs Sunburst distinction is substantive for precision: while Flare prioritizes speed, Sunburst is designed for detail control. Theoretically Media notes they could not identify which variant ChatGPT and Codex use by default (the guess is Flare), which may affect expectations regarding native output quality. The native 1672×941 resolution indicates that upscaling is often necessary for production work."
+      },
+      "cat": "foto",
+      "date": "2026-09-09T22:35:38Z",
+      "meta": "Theoretically Media · 2026-09-09",
+      "url": "https://www.youtube.com/watch?v=VsmL_KROmyI",
+      "img": "https://i.ytimg.com/vi/VsmL_KROmyI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Theoretically Media"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 25,
+          "l": "GPT Image 2.5 Just Dropped: Game Changer or 0.5 Update?"
+        },
+        {
+          "t": 81,
+          "l": "Flare vs Sunburst: The Specs (and Which One You're Probably Getting)"
+        },
+        {
+          "t": 159,
+          "l": "The Blue Suit Test (and That Pasted-In Look)"
+        },
+        {
+          "t": 240,
+          "l": "Wine Glass at 5:15: Why Thinking Models Get Details Right"
+        },
+        {
+          "t": 328,
+          "l": "Adding Astra: The Drunken Wine Glass Edit"
+        },
+        {
+          "t": 379,
+          "l": "Pelican on a Bicycle"
+        },
+        {
+          "t": 436,
+          "l": "Pelican + Bike + 5:15 + Wine: Where It Breaks Down"
+        },
+        {
+          "t": 478,
+          "l": "The \"12 Years Later\" Edit"
+        },
+        {
+          "t": 523,
+          "l": "Welcome to Tim Square: Astra Researches Who I Am"
+        },
+        {
+          "t": 575,
+          "l": "The Mirror Test (Flamethrower Girl Returns)"
+        },
+        {
+          "t": 643,
+          "l": "The 4-Angle Grid: Beats Nano Banana 2 and Pro"
+        },
+        {
+          "t": 699,
+          "l": "Tales From the Loop 2x2: Storytelling With Zero Direction"
+        },
+        {
+          "t": 768,
+          "l": "Grade It Like War of the Worlds (Astra Does the Research)"
+        },
+        {
+          "t": 814,
+          "l": "GTA VI Stills as Real Photos (Astra Finds the Actors)"
+        },
+        {
+          "t": 917,
+          "l": "Fury Road Stills: Bland First Pass (and That Grain Again)"
+        },
+        {
+          "t": 973,
+          "l": "\"These Don't Feel Cinematic\" — Argue With It and It Delivers"
+        },
+        {
+          "t": 1038,
+          "l": "Flare vs Sunburst at Max Quality: Is There a Difference?"
+        },
+        {
+          "t": 1116,
+          "l": "The Verdict"
+        },
+        {
+          "t": 1130,
+          "l": "Astra Replaced Fable 5.1 as My Daily Driver (The Bridge Remake)"
+        }
+      ],
+      "views": 50939,
+      "buzz": 76,
+      "sourceCheckedAt": "2026-09-11T07:28:18.838Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "a9cae3532619974cad8524f754ca6a484e24c6b3b6103549abb8015993f94079",
+      "trusted": true,
+      "sourceId": "theoreticallymedia",
+      "newPlatforms": [
+        "ChatGPT Images 2.5"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "In this video, we’re putting Meshy 7 to the test and taking a single image of a futuristic drone through the complete AI 3D workflow.",
@@ -2138,6 +2555,88 @@
         9,
         10
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "I installed an experimental, unofficial DLSS 5 Neural Rendering mod in The Elder Scrolls IV: Oblivion Remastered and Cyberpunk 2077 before NVIDIA's official release. Codex",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "LdyDpIspChs",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "MattVidPro testar experimentell DLSS 5 Neural Rendering i Oblivion Remastered och Cyberpunk 2077",
+      "sum": "MattVidPro kanal installerade en tidig, inofficiell DLSS 5 Neural Rendering-mod genom RenoDX/ReShade-verktyg på ett experimentellt sätt innan NVIDIA:s officiella lansering. Modden använder en Neural Rendering DLL från NBA 2K27 early-access-filer och kan få spelvärld och belysning att se nästan fotorealistisk ut, men påvisar även skimrande artefakter, ghosting, reflektionsproblem och betydande prestandakostnad.",
+      "full": "MattVidPro installerade en experimentell, inofficiell DLSS 5 Neural Rendering-mod i The Elder Scrolls IV: Oblivion Remastered och Cyberpunk 2077 före NVIDIA:s officiella släpp. Detta är inte NVIDIA:s slutförda DLSS 5-implementering utan en tidig gemenskapsexperiment byggt kring en Neural Rendering DLL som upptäcktes i NBA 2K27 early-access-filer. Modden integrerades genom RenoDX/ReShade-verktyg.\n\nRapporterade visuella resultat visar att speltecken och belysning vid sitt bästa kan se nästan som livefilm-footage ut. Kanalen MattVidPro identifierade dock flera begränsningar i denna frühe experimentella version: skimrande artefakter, ghosting-effekter, reflektionsinkonsistenser och en betydande prestandakostnad. Sedan inspelningen genomfördes har modders även anpassat den experimentella DLL:en för att fungera på RTX 40-serien GPU:er.\n\nArbetsflödet med OpenAI Codex assisterade installeringen och kunde köra processen på ungefär åtta minuter enligt presentationen.",
+      "deep": "Kanalen MattVidPro betonade explicit att detta experimentella Neural Rendering-tillvägagångssätt inte representerar NVIDIA:s slutgiltiga DLSS 5-produkt utan en gemenskapsdrivet tidigt försök. Modden använder RenoDX och ReShade som integreringsverktyg för att applicera en Neural Rendering DLL hämtad från NBA 2K27 early-access-material. De konkreta visuella artefakterna som rapporterades inkluderar skimrande fel, ghosting-distortioner och reflektionsinkonsistenser—begränsningar som tyder på att denna tidiga neuralbaserad renderingsmetod ännu inte är helt stabil. Prestandan påverkades märkbar negativt. Kanalen noterade att OpenAI Codex användes för att underlätta arbetsflödesinstallationen. Den tidig RTX 40-serien port gjordes av modulatörer efter originalinspelningen, vilket indikerar fortlöpande gemenskapsutveckling kring detta experimentella system.",
+      "en": {
+        "ttl": "MattVidPro tests experimental DLSS 5 Neural Rendering in Oblivion Remastered and Cyberpunk 2077",
+        "sum": "MattVidPro channel installed an early, unofficial DLSS 5 Neural Rendering mod via RenoDX/ReShade tools before NVIDIA's official release. The mod uses a Neural Rendering DLL from NBA 2K27 early-access files and can render game worlds and lighting with near-photorealistic appearance, but exhibits shimmer artifacts, ghosting, reflection inconsistencies, and significant performance cost.",
+        "full": "MattVidPro installed an experimental, unofficial DLSS 5 Neural Rendering mod in The Elder Scrolls IV: Oblivion Remastered and Cyberpunk 2077 prior to NVIDIA's official release. This is not NVIDIA's finished DLSS 5 implementation but an early community experiment built around a Neural Rendering DLL discovered in NBA 2K27 early-access files. The mod was integrated through RenoDX/ReShade tooling.\n\nReported visual results show that at its best, game characters and lighting can appear nearly like live-action footage. However, the MattVidPro channel identified several limitations in this early experimental version: shimmer artifacts, ghosting effects, reflection inconsistencies, and significant performance cost. Since recording, modders have also adapted the experimental DLL to run on RTX 40-series GPUs.\n\nThe workflow with OpenAI Codex assisted the installation and reportedly ran the process in approximately eight minutes.",
+        "deep": "The MattVidPro channel explicitly emphasized that this experimental Neural Rendering approach does not represent NVIDIA's final DLSS 5 product but rather a community-driven early attempt. The mod uses RenoDX and ReShade as integration tools to apply a Neural Rendering DLL sourced from NBA 2K27 early-access materials. The specific visual artifacts reported include shimmer errors, ghosting distortions, and reflection inconsistencies—limitations suggesting this early neural-based rendering method is not yet fully stable. Performance was noticeably impacted. The channel noted that OpenAI Codex was used to facilitate workflow installation. The early RTX 40-series port was created by modders after the original recording, indicating ongoing community development around this experimental system."
+      },
+      "cat": "film",
+      "date": "2026-08-28T23:23:01Z",
+      "meta": "MattVidPro · 2026-08-28",
+      "url": "https://www.youtube.com/watch?v=LdyDpIspChs",
+      "img": "https://i.ytimg.com/vi/LdyDpIspChs/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "MattVidPro"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "I installed DLSS 5 before release"
+        },
+        {
+          "t": 61,
+          "l": "Oblivion Remastered with Neural Rendering"
+        },
+        {
+          "t": 161,
+          "l": "Settings, DLAA and frame generation"
+        },
+        {
+          "t": 279,
+          "l": "Reflections, artifacts and early limitations"
+        },
+        {
+          "t": 304,
+          "l": "DLSS 5 styles and intensity controls"
+        },
+        {
+          "t": 445,
+          "l": "Low vs Ultra graphics"
+        },
+        {
+          "t": 582,
+          "l": "Cyberpunk 2077 looks almost real"
+        },
+        {
+          "t": 776,
+          "l": "Does photorealism ruin art direction?"
+        },
+        {
+          "t": 847,
+          "l": "Codex installed the mod in eight minutes"
+        },
+        {
+          "t": 890,
+          "l": "My honest DLSS 5 verdict"
+        }
+      ],
+      "views": 119086,
+      "buzz": 81,
+      "sourceCheckedAt": "2026-09-11T07:28:18.838Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "ac1c5e39172fc0d6a7ccb7cd4a40c375b889e3008aa90a62d6a0528e937fe53a",
+      "trusted": true,
+      "sourceId": "mattvidpro",
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -6089,7 +6588,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7170000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -6107,7 +6606,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -6125,7 +6624,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -6143,7 +6642,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 380000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -6161,7 +6660,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6030000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -6179,7 +6678,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -6197,7 +6696,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 621000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -6215,7 +6714,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3440000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -6233,7 +6732,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 543000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -6250,8 +6749,8 @@
       "id": "cgboost",
       "group": "🧊 3D",
       "enabled": true,
-      "subscriberCount": 412000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 413000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -6269,7 +6768,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -6287,7 +6786,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 844000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -6305,7 +6804,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -6323,7 +6822,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -6341,7 +6840,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1010000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -6359,7 +6858,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -6376,8 +6875,8 @@
       "id": "curiousrefuge",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": 273000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 274000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -6395,7 +6894,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -6413,7 +6912,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21200000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -6431,7 +6930,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -6449,7 +6948,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3680000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -6467,7 +6966,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1260000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -6484,8 +6983,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 730000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 731000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -6503,7 +7002,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 275000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -6521,7 +7020,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 750000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -6539,7 +7038,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -6557,7 +7056,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 338000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -6574,8 +7073,8 @@
       "av": "🎬",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 194000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 195000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -6592,8 +7091,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 480000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 481000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -6610,8 +7109,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 447000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "subscriberCount": 448000,
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -6629,7 +7128,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -6647,7 +7146,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -6665,7 +7164,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -6683,7 +7182,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -6701,7 +7200,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -6709,63 +7208,63 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 4
+      "checkedAt": "2026-09-11T07:28:18.838Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
+      "checkedAt": "2026-09-11T07:28:18.838Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-09T17:58:00.108Z",
-      "found": 1
+      "checkedAt": "2026-09-11T07:28:18.838Z",
+      "found": 3
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-10T09:48:18.251Z",
+    "calculatedAt": "2026-09-11T07:28:18.838Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.7593325814538214,
+      "chatgpt-images-2-0": 0.6943979497466182,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.7511633915241959,
-      "google-veo-3-1": 0.7511633915241959,
+      "runway-gen-4-5": 0.6869273513859343,
+      "google-veo-3-1": 0.6869273513859343,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.3413131501882423,
+      "heygen": 0.3121256186037746,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.8675043364167794,
+      "adobe-firefly": 1.707803950500699,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.0131647791667735,
+      "higgsfield": 1.8410081817890838,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6005775843999941,
+      "meshy-ai": 0.5492189502426803,
       "magnific-ai": 0,
-      "seedance-2-5": 1.6157135124497928,
+      "seedance-2-5": 1.4775451203146803,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -6775,10 +7274,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.6854100578470407,
+      "rodin-hyper3d": 0.6267969405361813,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.5882357791309407,
+      "trellis-2": 1.452417156433868,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
