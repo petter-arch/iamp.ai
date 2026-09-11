@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T07:28:18.838Z",
+  "updatedAt": "2026-09-11T09:46:36.015Z",
   "newsCheckedAt": "2026-09-11T07:28:18.838Z",
   "news": [
     {
@@ -5432,31 +5432,43 @@
       "bdg": "",
       "pct": 70,
       "price": "Gratis / betalplaner",
-      "sub": "Bast i klassen pa text i bild",
+      "sub": "Fotorealism, laslig text och konsekvent stilkontroll",
       "long": "Ideogram V3 ar specialiserad pa att rendera korrekt, laslig text i bilder med 90-95% traffsakerhet. Det gor den oslagbar for logotyper, affischer, forpackningar och UI-mockups. Kombineras ofta med mer konstnarliga modeller for de delar dar exakt text inte behovs.",
       "pros": [
-        "Overlagsen textrendering",
-        "Bra for logotyper och affischer",
+        "Overlagsen textrendering i bilder",
+        "Bra for logotyper, affischer och varumarkesarbete",
+        "Style References och Style Codes for konsekvent stilkontroll",
+        "Fotorealistiska bilder med korrekt ljusfysik",
+        "Batch Generation for flera varianter pa en gang",
         "Gratisniva finns"
       ],
       "cons": [
         "Mindre konstnarlig an Midjourney",
-        "Svagare pa komplexa scener"
+        "Svagare pa komplexa scener",
+        "Ersatt av Ideogram 4.0 som primär modell — nu listad som 'Earlier and Legacy'"
       ],
       "tags": [
         "Bildgen",
         "Text-i-bild",
-        "Logotyper"
+        "Logotyper",
+        "Fotorealism",
+        "Stilkontroll",
+        "Varumärke"
       ],
       "url": "https://ideogram.ai",
       "tech": 84,
       "speed": 82,
       "pricev": 72,
       "rating": 80,
-      "deep": "Den hoga textnoggrannheten gor den till ett sjalvklart val nar bilden maste innehalla exakt, laslig text — logotyper, skyltar och produktomslag.",
+      "deep": "Den hoga textnoggrannheten gor den till ett sjalvklart val nar bilden maste innehalla exakt, laslig text — logotyper, skyltar och produktomslag. Utover textrendering erbjuder Ideogram 3.0 fotorealism i toppklass, konsekvent stilkontroll via Style References och Style Codes, samt komplett varumarkesproduktion (logotyper, reklamaffischer, landningssidor, produktfotografering). Modellen ar nu klassad som 'Earlier and Legacy' i Ideograms officiella dokumentation, men finns fortsatt tillganglig i plattformen.",
       "caps": [
         "Text-till-bild",
-        "Text-i-bild"
+        "Text-i-bild",
+        "Style References",
+        "Style Codes",
+        "Batch Generation",
+        "Fotorealism",
+        "Varumärkestillgångar"
       ],
       "free": "tier",
       "id": "ideogram-v3",
@@ -5464,7 +5476,92 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Photorealism. Legible text. Reusable style control."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Professional logos, promotional posters, landing pages, product photography. Ideogram 3.0 generates complete brand assets"
+            },
+            {
+              "url": "https://docs.ideogram.ai/using-ideogram/generation-settings/available-models",
+              "quote": "Older models may still appear where your account, plan, endpoint, or workflow supports them."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Photorealistic images, legible text, and precise style control in a single generation for design systems, campaigns, and brand work."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Ideogram 3.0 introduces Style References."
+            },
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Use Batch Generation to create multiple variants in a single session."
+            },
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Professional logos, promotional posters, landing pages, product photography."
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Stylized, accurate text with remarkable precision, including complex and lengthy compositions that other models struggle with."
+            },
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Upload up to 3 reference images to control generations to follow your preferred aesthetics."
+            },
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Natural skin tones, accurate reflections, proper lighting physics."
+            },
+            {
+              "url": "https://ideogram.ai/models/3.0/",
+              "quote": "Use Batch Generation to create multiple variants in a single session."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-11T09:46:36.015Z",
+          "sources": [
+            {
+              "url": "https://docs.ideogram.ai/using-ideogram/generation-settings/available-models",
+              "quote": "Ideogram 4.0 is the current Ideogram model for prompt fidelity, crystal-clear type, reliable editing"
+            },
+            {
+              "url": "https://docs.ideogram.ai/using-ideogram/generation-settings/available-models",
+              "quote": "Older models may still appear where your account, plan, endpoint, or workflow supports them."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Wan 2.7",
@@ -5509,7 +5606,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z"
     },
     {
       "n": "Wan 3.0",
@@ -5558,7 +5656,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z"
     },
     {
       "n": "Nano Banana Pro",
@@ -5604,7 +5703,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Nano Banana 2",
@@ -6568,9 +6669,23 @@
       "name": "ChatGPT Images 2.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=X1dJjPFLNWQ",
-        "https://www.youtube.com/watch?v=xNSX8ZHpTpM"
+        "https://www.youtube.com/watch?v=xNSX8ZHpTpM",
+        "https://www.youtube.com/watch?v=VsmL_KROmyI"
       ],
-      "firstSeen": "2026-09-10T09:48:18.251Z"
+      "firstSeen": "2026-09-10T09:48:18.251Z",
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "status": "retry",
+      "error": "Official source unavailable"
+    },
+    {
+      "name": "Automatic3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=7C90UPnrS1E"
+      ],
+      "firstSeen": "2026-09-11T09:46:36.015Z",
+      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     }
   ],
   "sourceChecks": {},
@@ -7237,34 +7352,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-11T07:28:18.838Z",
+    "calculatedAt": "2026-09-11T09:46:36.015Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.6943979497466182,
+      "chatgpt-images-2-0": 0.6878260761330566,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.6869273513859343,
-      "google-veo-3-1": 0.6869273513859343,
+      "runway-gen-4-5": 0.680426180498759,
+      "google-veo-3-1": 0.680426180498759,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.3121256186037746,
+      "heygen": 0.3091716206581193,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.707803950500699,
+      "adobe-firefly": 1.6916410690815835,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 1.8410081817890838,
+      "higgsfield": 1.8235846379887808,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.5492189502426803,
+      "meshy-ai": 0.5440210697931702,
       "magnific-ai": 0,
-      "seedance-2-5": 1.4775451203146803,
+      "seedance-2-5": 1.4635614387779103,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -7274,10 +7389,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.6267969405361813,
+      "rodin-hyper3d": 0.6208648517734281,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.452417156433868,
+      "trellis-2": 1.4386712892553506,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,

@@ -1,237 +1,53 @@
 {
-  "startedAt": "2026-09-11T07:28:18.838Z",
-  "mode": "news",
+  "startedAt": "2026-09-11T09:46:36.015Z",
+  "mode": "profiles",
   "errors": [
     {
-      "video": "91Qn01hMPg8",
-      "message": "Insufficient detail"
+      "platform": "ideogram-v3",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://docs.ideogram.ai/using-ideogram/generation-settings/available-models\",\"quote\":\"Ideogram 3.0 Latest ... Older models may still appear where your account, plan, endpoint, or workflow supports them.\",\"retrieved\":[\"https://ideogram.ai/models/3.0/\",\"https://docs.ideogram.ai/using-ideogram/generation-settings/available-models\"]}"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://gemini.google/subscriptions/\",\"quote\":\"Free $0/ month with a Google Account\",\"retrieved\":[\"https://gemini.google/overview/image-generation/\",\"https://gemini.google/subscriptions/\"]}"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://gemini.google/tm/overview/image-generation/?hl=en-GB\",\"quote\":\"Once you hit your limit using Nano Banana Pro, you will automatically default to using the Nano Banana image model\",\"retrieved\":[\"https://gemini.google/overview/image-generation/\",\"https://gemini.google/subscriptions/\"]}"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "sub",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "candidate": "ChatGPT Images 2.5",
+      "message": "Official source unavailable"
+    },
+    {
+      "candidate": "Automatic3D",
+      "message": "Evidence quote missing"
     }
   ],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-11T07:28:18.838Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 135,
-    "relevant": 38,
-    "supported": 30
-  },
-  "rejected": [
-    {
-      "video": "nek3Z9A9BRU",
-      "title": "The Secret to Realistic VFX",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        6
-      ]
-    },
-    {
-      "video": "RmlP_nqOhsk",
-      "title": "Claude Fable 5.1 is savage",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        12,
-        16,
-        40
-      ]
-    },
-    {
-      "video": "4wjHNgMLeyY",
-      "title": "Ox Alpha reveal, realtime Minimax, Qwen Next, Hy4, robot olympics: AI NEWS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        22,
-        40,
-        21
-      ]
-    },
-    {
-      "video": "mOvtumfyjCs",
-      "title": "I Never Thought I’d See This Happen",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        6
-      ]
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "jb1jr3mYZjs",
-      "title": "What's New in Isaac Lab-Arena 0.3 | Robotics Office Hours",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        6
-      ]
-    },
-    {
-      "video": "K1qxC7ngB6U",
-      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        6
-      ]
-    },
-    {
-      "video": "Z0Gdh0GrsH4",
-      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
-    {
-      "video": "j-o0umbbge0",
-      "title": "GPT-6 Astra Crushes Water Physics",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "bbmgWQKZ5ZU",
-      "title": "ChatGPT Image 2.5 Is The New King (Fully Tested)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "e24bFPEYooY",
-      "title": "GPT-6 Astra Can Edit Better Than You Can",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ajuGqkvRLXc",
-      "title": "GPT-6 Astra is Truly Science Fiction",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_UabiRJc2Gc",
-      "title": "GPT-6 Astra Creates Magic in Blender",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "StekaJYCn_g",
-      "title": "ChatGPT Images 2.5 + Astra Mode: The AI Image Upgrade Is INSANE",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "vu-zx5wIkRQ",
-      "title": "How AI Creates a DIGITAL ACTOR 🤯 | AI Filmmaking & VFX #Shorts #MovieMagic #AIActor",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "NPlRNoFlsmA",
-      "title": "AI is Coming for Cinema: Rajkumar Hirani’s Shocking Prediction! (High Curiosity)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9mZ87JbLR30",
-      "title": "Is ChatGPT 6 Really That Good? See for Yourself",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "iSXeiUXiln8",
-      "title": "This AI Makes Any Photo 3D",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "mG5M6gPFlU8",
-      "title": "🎬 Cinema Studio AI Review 2026 | AI Film Making With Cinema Studio AI",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "K_iUGDw2Sho",
-      "title": "This Robot Can Learn Almost ANY Task",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JDvQSaToT2g",
-      "title": "AI vs human creativity — who will win the future of filmmaking? 🤖🎬 #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QM2fWKzSjIk",
-      "title": "AI MAKERS GENERATION - October AI Filmmaking Cohort - Enroll Now!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UMR71hr1nBA",
-      "title": "ChatGPT Images 2.5 Just Changed AI Image Editing 🤯",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tqUEnRj0NbM",
-      "title": "This AI Turns Insane Ideas Into 3D Objects",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UZZ53F_kEAA",
-      "title": "GPT-6 Astra will Make you Think BIGGER.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Pm2-17_n930",
-      "title": "PicLumen Just Changed AI Filmmaking | Wan 3.0, Seedance 2.5, Seedream 5.0, Canvas & More",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "hk21B_dI-gA",
-      "title": "Hi3D V3.0 Is INSANE! The New AI 3D Model Generator Just Got Better",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "K_AomdwDfxU",
-      "title": "Meshy 7 vs Tripo 3D – Which AI Creates Better 3D Models from Images? 🤯",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "mPN2dNxGR_E",
-      "title": "AI से 3D Models बनाओ 🤯🔥 | Day 59",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "BZ-M_56oobU",
-      "title": "PromeAI 3D model generator ｜Image to 3D #ai3d #aitools #promeai  #imageto3d  #3dmodeling #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "OyL4oIY43G0",
-      "title": "Meshy AI 50% OFF Discount Code 2026 | Best AI 3D Model Generator - Meshy AI Review - Meshy AI Promo",
-      "stage": "insufficient-article-source"
-    }
-  ],
-  "accepted": 5
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }
