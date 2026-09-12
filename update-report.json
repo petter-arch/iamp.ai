@@ -1,53 +1,34 @@
 {
-  "startedAt": "2026-09-11T09:46:36.015Z",
+  "startedAt": "2026-09-12T09:25:03.709Z",
   "mode": "profiles",
   "errors": [
     {
-      "platform": "ideogram-v3",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://docs.ideogram.ai/using-ideogram/generation-settings/available-models\",\"quote\":\"Ideogram 3.0 Latest ... Older models may still appear where your account, plan, endpoint, or workflow supports them.\",\"retrieved\":[\"https://ideogram.ai/models/3.0/\",\"https://docs.ideogram.ai/using-ideogram/generation-settings/available-models\"]}"
+      "platform": "nano-banana-2",
+      "message": "Source/API HTTP 400"
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://gemini.google/subscriptions/\",\"quote\":\"Free $0/ month with a Google Account\",\"retrieved\":[\"https://gemini.google/overview/image-generation/\",\"https://gemini.google/subscriptions/\"]}"
+      "platform": "seedream-4",
+      "message": "Source/API HTTP 400"
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://gemini.google/tm/overview/image-generation/?hl=en-GB\",\"quote\":\"Once you hit your limit using Nano Banana Pro, you will automatically default to using the Nano Banana image model\",\"retrieved\":[\"https://gemini.google/overview/image-generation/\",\"https://gemini.google/subscriptions/\"]}"
+      "platform": "hailuo-3-0",
+      "message": "Source/API HTTP 400"
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "sub",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "platform": "happy-horse-1-0",
+      "message": "Source/API HTTP 400"
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "candidate": "Tencent HY 3D",
+      "message": "Source/API HTTP 400"
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "nano-banana-pro",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "candidate": "ChatGPT Images 2.5",
-      "message": "Official source unavailable"
-    },
-    {
-      "candidate": "Automatic3D",
-      "message": "Evidence quote missing"
+      "candidate": "Pixal3D Multiview",
+      "message": "Source/API HTTP 400"
     }
   ],
   "categories": {},
   "checked": 4,
-  "updated": 1,
+  "updated": 0,
   "newModels": 0
 }

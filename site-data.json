@@ -5750,7 +5750,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
+      "lastCheckError": "Source/API HTTP 400"
     },
     {
       "n": "Seedream 4",
@@ -5793,7 +5795,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
+      "lastCheckError": "Source/API HTTP 400"
     },
     {
       "n": "Hailuo 3.0",
@@ -5842,7 +5846,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
+      "lastCheckError": "Source/API HTTP 400"
     },
     {
       "n": "Happy Horse 1.0",
@@ -5885,7 +5891,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
+      "lastCheckError": "Source/API HTTP 400"
     },
     {
       "n": "Grok Imagine",
@@ -6612,9 +6620,9 @@
         "https://www.youtube.com/watch?v=fWkK_ggWXxs"
       ],
       "firstSeen": "2026-09-09T10:04:19.976Z",
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
       "status": "retry",
-      "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+      "error": "Source/API HTTP 400"
     },
     {
       "name": "Pixal3D Multiview",
@@ -6622,9 +6630,9 @@
         "https://www.youtube.com/watch?v=ouACKu1cwoU"
       ],
       "firstSeen": "2026-09-09T10:04:19.976Z",
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
       "status": "retry",
-      "error": "Expected property name or '}' in JSON at position 1 (line 1 column 2)"
+      "error": "Source/API HTTP 400"
     },
     {
       "name": "Lumera",
@@ -7352,34 +7360,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-11T09:46:36.015Z",
+    "calculatedAt": "2026-09-12T09:25:03.709Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.6878260761330566,
+      "chatgpt-images-2-0": 0.6239037225262705,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.680426180498759,
-      "google-veo-3-1": 0.680426180498759,
+      "runway-gen-4-5": 0.6171915279864824,
+      "google-veo-3-1": 0.6171915279864824,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.3091716206581193,
+      "heygen": 0.2804390989543792,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.6916410690815835,
+      "adobe-firefly": 1.534430282306066,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 1.8235846379887808,
+      "higgsfield": 1.6541118219583624,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.5440210697931702,
+      "meshy-ai": 0.49346307497511094,
       "magnific-ai": 0,
-      "seedance-2-5": 1.4635614387779103,
+      "seedance-2-5": 1.3275469795111454,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -7389,10 +7397,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.6208648517734281,
+      "rodin-hyper3d": 0.5631654652944997,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.4386712892553506,
+      "trellis-2": 1.30496996843203,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
