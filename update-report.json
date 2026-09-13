@@ -1,108 +1,129 @@
 {
-  "startedAt": "2026-09-13T09:08:03.910Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-13T09:23:17.115Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-13T09:23:17.115Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 123,
+    "relevant": 27,
+    "supported": 24
+  },
+  "rejected": [
     {
-      "platform": "grok-imagine",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "i57VBGiVvuo",
+      "title": "5 free 3D models a month, no card needed",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "grok-imagine",
-      "field": "deep",
-      "message": "Invalid official citation"
+      "video": "K1qxC7ngB6U",
+      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        6,
+        7
+      ]
     },
     {
-      "platform": "grok-imagine",
-      "field": "pros",
-      "message": "Invalid official citation"
+      "video": "Z0Gdh0GrsH4",
+      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "grok-imagine",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "WfYwhIQ8xR0",
+      "title": "Our AI Horror Film Competition is Back 👻",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "grok-imagine",
-      "field": "free",
-      "message": "Invalid official citation"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "grok-imagine",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "grok-imagine",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "rodin-hyper3d",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://docs.hyper3d.ai/en/api-specification/rodin-gen2\",\"quote\":\"Base Gen-2 generation | `0.5 credits`\",\"retrieved\":[]}"
+      "video": "Y9AUjH2szLg",
+      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "rodin-hyper3d",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "fhr3otX1k3s",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "tripo-3-1",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "YXiZP5QXJsE",
+      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "tripo-3-1",
-      "field": "cons",
-      "message": "Official source unavailable"
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "tripo-3-1",
-      "field": "free",
-      "message": "Invalid official citation"
+      "video": "32xiItcJM-A",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "tripo-3-1",
-      "field": "sub",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "pFb1a-MhxCI",
+      "title": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye? #ai",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        7
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "tripo-3-1",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "tripo-3-1",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "tripo-3-1",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "tripo-3-1",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "candidate": "ChatGPT",
-      "message": "Official source unavailable"
-    },
-    {
-      "candidate": "Tripo AI",
-      "message": "Official source unavailable"
+      "video": "sGULyAry3-4",
+      "title": "Instagram Viral 80s trend Girl Photo Prompt | How to edit 80s trend photo #trending #prompt #shorts",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 2
 }
