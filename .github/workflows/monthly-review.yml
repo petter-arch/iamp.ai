@@ -24,9 +24,9 @@ jobs:
         run: node update.mjs --profiles
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NEWS_MODEL: ${{ vars.NEWS_MODEL }}
-          PROFILE_MODEL: ${{ vars.PROFILE_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_NEWS_MODEL: ${{ vars.OPENAI_NEWS_MODEL }}
+          OPENAI_PROFILE_MODEL: ${{ vars.OPENAI_PROFILE_MODEL }}
       - name: Save checked data
         run: |
           git config user.name 'iamp.ai updater'
