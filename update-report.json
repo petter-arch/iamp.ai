@@ -1,129 +1,73 @@
 {
-  "startedAt": "2026-09-13T09:23:17.115Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-13T09:23:17.115Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 123,
-    "relevant": 27,
-    "supported": 24
-  },
-  "rejected": [
+  "startedAt": "2026-09-13T10:20:02.015Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "i57VBGiVvuo",
-      "title": "5 free 3D models a month, no card needed",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "trellis-2",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "K1qxC7ngB6U",
-      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        6,
-        7
-      ]
+      "platform": "trellis-2",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Z0Gdh0GrsH4",
-      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "platform": "trellis-2",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "WfYwhIQ8xR0",
-      "title": "Our AI Horror Film Competition is Back 👻",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "pros",
+      "message": "Official source unavailable"
     },
     {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "cons",
+      "message": "Official source unavailable"
     },
     {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "tags",
+      "message": "Official source unavailable"
     },
     {
-      "video": "xILj0L1v1io",
-      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "caps",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Y9AUjH2szLg",
-      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "fhr3otX1k3s",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10715838-create-your-first-song\",\"quote\":\"Think about the style, mood, or theme you want, then type a short description, Prompt.\",\"retrieved\":[]}"
     },
     {
-      "video": "YXiZP5QXJsE",
-      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"Remix crafts something similar to what you've uploaded. Style creates a song that matches the vibe of what you uploaded.\",\"retrieved\":[]}"
     },
     {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "insufficient-article-source"
+      "platform": "pixverse-v4-5",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "32xiItcJM-A",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
+      "candidate": "GPT‑6 Astra",
+      "message": "Official source unavailable"
     },
     {
-      "video": "pFb1a-MhxCI",
-      "title": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye? #ai",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        7
-      ]
-    },
-    {
-      "video": "sGULyAry3-4",
-      "title": "Instagram Viral 80s trend Girl Photo Prompt | How to edit 80s trend photo #trending #prompt #shorts",
-      "stage": "insufficient-article-source"
+      "candidate": "IF STUDIO",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }

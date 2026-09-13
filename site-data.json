@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T09:23:17.115Z",
+  "updatedAt": "2026-09-13T10:20:02.015Z",
   "newsCheckedAt": "2026-09-13T09:23:17.115Z",
   "news": [
     {
@@ -6961,7 +6961,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Udio",
@@ -7006,7 +7008,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Reve 2.1",
@@ -7052,7 +7056,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z"
     },
     {
       "n": "PixVerse V4.5",
@@ -7088,7 +7093,9 @@
       "caps": [
         "Text-till-video",
         "Bild-till-video",
-        "Effekter"
+        "Effekter",
+        "Övergång (första/sista bild)",
+        "Förlängning"
       ],
       "free": "tier",
       "id": "pixverse-v4-5",
@@ -7096,7 +7103,19 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "caps": {
+          "checkedAt": "2026-09-13T10:20:02.015Z",
+          "sources": [
+            {
+              "url": "https://docs.platform.pixverse.ai/pricing-796039m0",
+              "quote": "Text-to-video / Image-to-video / Effects / Transition(First-last frame) / Extend"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Vidu Q3",
@@ -7565,14 +7584,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=unVd0k2FEwA"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "IF STUDIO",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=yfNItPaLPJU"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Meshy 7",
@@ -8281,34 +8306,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-13T09:23:17.115Z",
+    "calculatedAt": "2026-09-13T10:20:02.015Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.5651534034054271,
+      "chatgpt-images-2-0": 0.5629523159720844,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.5590732672377497,
-      "google-veo-3-1": 0.5590732672377497,
+      "runway-gen-4-5": 0.556895859943695,
+      "google-veo-3-1": 0.556895859943695,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.25403136012759603,
+      "heygen": 0.25304199116850884,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.389939609307443,
+      "adobe-firefly": 1.3845262496979684,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.336195192463043,
+      "higgsfield": 2.3270964772310703,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2182920121049912,
+      "meshy-ai": 1.213547163676533,
       "magnific-ai": 0,
-      "seedance-2-5": 1.2025376136776096,
+      "seedance-2-5": 1.1978541234718734,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -8318,10 +8343,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.5101346055491536,
+      "rodin-hyper3d": 0.5081477983162472,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.182086582229329,
+      "trellis-2": 1.1774827420939074,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
