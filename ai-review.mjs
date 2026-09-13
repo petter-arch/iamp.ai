@@ -1,16 +1,17 @@
+import {responseText} from './openai.mjs';
 // ai-review.mjs — Månadsgranskning av Topplistan (halvautomatisk, nivå 2)
-// Läser PLATS ur index.html, låter Claude med webbsökning granska aktualiteten
+// Läser PLATS ur index.html, låter OpenAI med webbsökning granska aktualiteten
 // och skriver en ändringsrapport (review-report.md). INGET ändras automatiskt —
 // rapporten blir ett GitHub-ärende som du läser och godkänner.
 //
-// Krav: ANTHROPIC_API_KEY i miljön. Körs av .github/workflows/monthly-review.yml
+// Krav: OPENAI_API_KEY i miljön. Äldre manuellt rapportscript; används inte av nuvarande workflows
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const API_KEY = process.env.ANTHROPIC_API_KEY;
-if (!API_KEY) { console.error("ANTHROPIC_API_KEY saknas"); process.exit(1); }
+const API_KEY = process.env.OPENAI_API_KEY;
+if (!API_KEY) { console.error("OPENAI_API_KEY saknas"); process.exit(1); }
 
-const MODEL = process.env.REVIEW_MODEL || "claude-sonnet-4-6";
+const MODEL = process.env.OPENAI_PROFILE_MODEL || "gpt-5.6-terra";
 
 // ---- 1. Läs topplistan ur sajtfilen ----
 const html = readFileSync("index.html", "utf8");
@@ -23,7 +24,7 @@ const compact = PLATS.map(p => ({
   namn: p.n, betyg: p.rating, pris: p.price, kategorier: p.cats, taggar: p.tags
 }));
 
-// ---- 2. Be Claude granska med webbsökning ----
+// ---- 2. Be OpenAI granska med webbsökning ----
 const prompt = `Du är redaktör för iamp.ai, en svensk topplista över kreativa AI-verktyg (bild, video, 3D, ljud).
 Här är hela nuvarande topplistan (namn, betyg 0-100, pris, kategorier, taggar):
 
@@ -41,30 +42,13 @@ Granska därefter listans AKTUALITET med webbsökning (max ~10 sökningar totalt
 
 Viktigt: var källkritisk — vikta ned aggregator-sajter som marknadsför egna tjänster. Svara på svenska i ren Markdown med rubrikerna ovan. Var koncis och konkret; varje punkt ska gå att agera på.`;
 
-const body = {
-  model: MODEL,
-  max_tokens: 4000,
-  messages: [{ role: "user", content: prompt }],
-  tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 8 }]
-};
-
-const res = await fetch("https://api.anthropic.com/v1/messages", {
-  method: "POST",
-  headers: {
-    "content-type": "application/json",
-    "x-api-key": API_KEY,
-    "anthropic-version": "2023-06-01"
-  },
-  body: JSON.stringify(body)
+const report = await responseText({
+  apiKey: API_KEY, model: MODEL, max_output_tokens: 8000,
+  input: prompt, max_tool_calls: 8, tools: [{type: 'web_search'}]
 });
-
-if (!res.ok) { console.error("API-fel:", res.status, await res.text()); process.exit(1); }
-const data = await res.json();
-const report = (data.content || []).filter(b => b.type === "text").map(b => b.text).join("\n").trim();
-if (!report) { console.error("Tomt svar från modellen"); process.exit(1); }
 
 // ---- 3. Skriv rapporten ----
 const head = `# Månadsgranskning av Topplistan — ${new Date().toISOString().slice(0, 10)}\n\n` +
-  `> Automatisk granskning (modell: ${MODEL}). Läs igenom och be Claude i chatten göra de ändringar du godkänner.\n\n`;
+  `> Automatisk granskning (modell: ${MODEL}). Läs igenom och be OpenAI i chatten göra de ändringar du godkänner.\n\n`;
 writeFileSync("review-report.md", head + report + "\n");
 console.log("review-report.md skriven (" + report.length + " tecken)");

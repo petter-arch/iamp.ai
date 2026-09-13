@@ -10,7 +10,7 @@ Originalets utseende, utförliga nyhetskort, videokapitel, Snabbfakta, Funktione
 - Bevakningen hämtar de utvalda kanalernas senaste videor och kompletterar med ämnessökningar. Relevans klassificeras före det slutliga urvalet. Det finns ingen lägsta visningsgräns.
 - Alla kapitel som faktiskt finns i videobeskrivningen kan visas, utan gränsen på åtta. Inga kapitel eller transkript hittas på. Texten grundas på hela publicistens beskrivning, inte på att agenten har sett videon.
 - Nya modeller och versioner upptäcks i källmaterialet. Upp till två kandidater per dag undersöks. Kompletta profiler publiceras först när den officiella identiteten och faktakällorna kan beläggas. Otillräckligt underlag sparas för senare försök.
-- Fyra befintliga modellprofiler per dag kontrolleras. Varje ändrat fält behöver en officiell källa och ett citat som också återfinns på den hämtade sidan. En andra AI-kontroll granskar att hela påståendet stöds. Tidigare fakta behålls vid fel. Officiella sidor läses direkt eller via webbhämtningsverktygets källtext. AI-tolkningar kan fortfarande bli fel; källspårningen gör ändringarna granskningsbara.
+- Fyra befintliga modellprofiler per dag kontrolleras. Varje ändrat fält behöver en officiell källa och ett citat som också återfinns på den hämtade sidan. En andra AI-kontroll granskar att hela påståendet stöds. Tidigare fakta behålls vid fel. Officiella sidor läses direkt för citatkontrollen. Om en sida blockerar direkthämtning behålls tidigare fakta; sökresultat ersätter inte källtext. AI-tolkningar kan fortfarande bli fel; källspårningen gör ändringarna granskningsbara.
 - Trendar sorteras efter unika färska videoomnämnanden under 30 dagar, med halverad vikt efter sju dagar och högst tre videor per kanal/modell. Detta mäter uppmärksamhet i bevakningen, inte hela marknaden.
 - Originalets redaktionella betyg behålls. Nya profiler får **—** tills ett jämförbart kvalitetsunderlag finns; de får aldrig påhittade eller ärvda betyg. Pris, funktioner och dokumenterade styrkor/begränsningar går fortfarande att jämföra.
 
@@ -25,20 +25,31 @@ Nya rekommendationer kontrollerades mot [PiXimperfect](https://www.piximperfect.
 - `index.html`: originalets sida med förbättrad dataladdning, Trendar och gemensamt kanalregister.
 - `site-data.json`: ett sammanhängande paket med arkiv, modeller, kanalfakta och källkontroller.
 - `news.json`: nyhetsarkiv för bakåtkompatibilitet.
-- `update.mjs`, `data-core.mjs`: uppdatering och regler.
+- `update.mjs`, `data-core.mjs`: uppdatering och regler. `openai.mjs`: Responses API via inbyggd fetch, utan nya paket.
 - `publish-data.mjs`: samlar endast besökarfiler i `_site/`.
 - `*.test.mjs`, `*.test.cjs`: automatiska kontroller.
 - `.github/workflows/update-news.yml`: nyheter och kanaler.
 - `.github/workflows/monthly-review.yml`: trots det gamla filnamnet körs nu daglig modelluppdatering. Det gamla rapportjobbet ersätts.
 
-De äldre skripten `ai-news.mjs` och `ai-review.mjs` ligger kvar för historik, men används inte av de nya jobben.
+De äldre skripten `ai-news.mjs` och `ai-review.mjs` ligger kvar som äldre manuella verktyg och använder också OpenAI, men används inte av de nya jobben.
 
 ## Publicering och test
 
-Behåll befintliga GitHub-hemligheter `YOUTUBE_API_KEY` och `ANTHROPIC_API_KEY`. Valfria variabler `NEWS_MODEL` och `PROFILE_MODEL` väljer API-modell. Inga nycklar ska finnas i webbplatsens filer. Standardbegränsningen är 36 fördjupade sammanfattningar och högst 20 publicerade nya artiklar per nyhetskörning; API-kostnaden beror på källornas mängd och vald modell.
+Behåll befintlig GitHub-hemlighet `YOUTUBE_API_KEY` och lägg till `OPENAI_API_KEY`. Valfria variabler `OPENAI_NEWS_MODEL` och `OPENAI_PROFILE_MODEL` väljer API-modell; standard är `gpt-5.6-luna` för nyheter och `gpt-5.6-terra` för webbaserad profilkontroll. Gamla modellvariabler används inte. API-nyckeln behöver åtkomst till båda modellerna och tillgängligt API-saldo. Inga nycklar ska finnas i webbplatsens filer. Standardbegränsningen är 36 fördjupade sammanfattningar och högst 20 publicerade nya artiklar per nyhetskörning; API-kostnaden beror på källornas mängd och vald modell.
 
 Arbetsflödena kan köras manuellt på en arbetsgren. De sparar resultat och en nedladdningsbar förhandsversion, men publicerar **bara från main**. Publiceringsmiljön är github-pages. GitHub Pages behöver använda GitHub Actions som källa; domänen iamp.ai och CNAME behålls.
 
 Kör `node --test *.test.mjs *.test.cjs` för kontroller. Kör sedan båda arbetsflödena på arbetsgrenen och granska deras rapporter innan sammanslagning med main. Att testerna passerar är inte samma sak som att externa API:er och källor har verifierats i en riktig körning.
 
 Käll/API-fel får inte radera tidigare artiklar eller fullständiga modellfakta. Jobben delar en kö för att undvika att de skriver över varandra. Schemalagda GitHub-körningar kan fördröjas. Fel framgår av Actions och `update-report.json`.
+
+## Aktivera OpenAI-bytet
+
+1. Lägg till en repository secret med namnet `OPENAI_API_KEY` i Settings → Secrets and variables → Actions. Klistra bara in nyckeln där. Behåll `YOUTUBE_API_KEY`.
+2. För över ändrade kodfiler, båda workflows och de nya filerna `openai.mjs` och `openai.test.mjs` till repot. Använd gärna en arbetsgren först. Datafiler och sidans HTML behöver inte bytas ut.
+3. Kör Actions → Update news feed → Run workflow på arbetsgrenen, därefter Update Trendar models. Kontrollera både jobbstatus och `update-report.json` (profilfel kan loggas även om jobbet är grönt).
+4. Efter granskning: slå samman ändringen till main för att använda den i det befintliga schemat. En manuell körning på main kan publicera på iamp.ai.
+
+OpenAI använder Responses API med `store: false`. Textsvar, avbrutna svar, vägran, HTTP-fel och misslyckad webbsökning kontrolleras innan JSON tas emot. 429 och serverfel försöks upp till tre gånger. Webbsökning har separat kostnad. Ett riktigt API-test kräver din nyckel och har inte utförts i den lokala migreringen.
+
+Dokumentation: [Responses-textsvar](https://developers.openai.com/api/docs/guides/text), [webbsökning](https://developers.openai.com/api/docs/guides/tools-web-search), [Luna](https://developers.openai.com/api/docs/models/gpt-5.6-luna), [Terra](https://developers.openai.com/api/docs/models/gpt-5.6-terra).

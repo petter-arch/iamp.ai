@@ -1,34 +1,108 @@
 {
-  "startedAt": "2026-09-12T09:25:03.709Z",
+  "startedAt": "2026-09-13T09:08:03.910Z",
   "mode": "profiles",
   "errors": [
     {
-      "platform": "nano-banana-2",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "platform": "seedream-4",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "deep",
+      "message": "Invalid official citation"
     },
     {
-      "platform": "hailuo-3-0",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "pros",
+      "message": "Invalid official citation"
     },
     {
-      "platform": "happy-horse-1-0",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "caps",
+      "message": "Invalid official citation"
     },
     {
-      "candidate": "Tencent HY 3D",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "free",
+      "message": "Invalid official citation"
     },
     {
-      "candidate": "Pixal3D Multiview",
-      "message": "Source/API HTTP 400"
+      "platform": "grok-imagine",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://docs.hyper3d.ai/en/api-specification/rodin-gen2\",\"quote\":\"Base Gen-2 generation | `0.5 credits`\",\"retrieved\":[]}"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "long",
+      "message": "Invalid official citation"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "price",
+      "message": "Invalid official citation"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "cons",
+      "message": "Official source unavailable"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "free",
+      "message": "Invalid official citation"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "sub",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "deep",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
+    },
+    {
+      "candidate": "ChatGPT",
+      "message": "Official source unavailable"
+    },
+    {
+      "candidate": "Tripo AI",
+      "message": "Official source unavailable"
     }
   ],
   "categories": {},
   "checked": 4,
-  "updated": 0,
+  "updated": 1,
   "newModels": 0
 }
