@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {responseText} from './openai.mjs';
 // ai-news.mjs — daglig nyhetsmotor för iamp.ai (KANAL-LÄGE)
 // ----------------------------------------------------------------------------
 // Källor, i prioritetsordning:
@@ -10,8 +11,8 @@
 // nyheten) och plattformskoppling (plat) när videon handlar om ett verktyg på
 // Topplistan — då visas verktygets fakta + "Besök"-knapp i kortet.
 //
-// Miljövariabler (GitHub secrets): YOUTUBE_API_KEY, ANTHROPIC_API_KEY
-// Kör lokalt:  YOUTUBE_API_KEY=xxx ANTHROPIC_API_KEY=yyy node ai-news.mjs
+// Miljövariabler (GitHub secrets): YOUTUBE_API_KEY, OPENAI_API_KEY
+// Kör lokalt:  YOUTUBE_API_KEY=xxx OPENAI_API_KEY=yyy node ai-news.mjs
 // ----------------------------------------------------------------------------
 
 import { writeFile, readFile } from "node:fs/promises";
@@ -23,7 +24,7 @@ const MAX_ITEMS    = 14;    // max nyheter totalt
 const PER_CHANNEL  = 2;     // senaste videor per kanal
 const MIN_SECONDS  = 90;    // hoppa över Shorts
 const OUT_LANG     = "sv";  // språk på de skrivna nyheterna
-const MODEL        = "claude-haiku-4-5-20251001";
+const MODEL        = process.env.OPENAI_NEWS_MODEL || "gpt-5.6-luna";
 
 // --- 1) DINA KANALER — klistra in @handtag eller kanal-ID (UC...) -----------
 // Ex: "@TheAIAdvantage", "@mattvidpro", "UCxxxxxxxxxxxxxxxxxxxxxx"
@@ -55,7 +56,7 @@ const TOPICS = [
 // ============================================================================
 
 const YT = process.env.YOUTUBE_API_KEY;
-const AK = process.env.ANTHROPIC_API_KEY;
+const AK = process.env.OPENAI_API_KEY;
 if (!YT) { console.error("Saknar YOUTUBE_API_KEY"); process.exit(1); }
 
 const sinceISO = new Date(Date.now() - DAYS * 86400000).toISOString();
@@ -166,21 +167,15 @@ async function summarize(v, platformNames) {
   if (!AK) return fallbackSummary(v);
   const sys = 'Du är redaktör för en svensk nyhetssida om kreativ AI. Utifrån videons titel och beskrivning: skriv en kort saklig nyhet på ' + (OUT_LANG === "sv" ? "svenska" : "engelska") + '. Hitta inte på fakta. Svara ENBART med giltig JSON: {"ttl": rubrik max ~9 ord, "sum": en mening, "full": en utförlig nyhetsartikel i 2-3 korta stycken (totalt ca 120-180 ord) åtskilda med \\n\\n — förklara vad som hänt/lanserats, varför det är viktigt för kreatörer, och vad man konkret kan göra med det, "cat": en av foto|film|3d|ljud|mdl|robot, "plat": EXAKT ett namn ur plattformslistan om videon tydligt handlar om det verktyget, annars tom sträng, "q": bra engelsk Google-sökfras (3-6 ord) för att läsa mer om just denna nyhet, "rel": 0-10 hur relevant nyheten är för KREATIV AI (bild, film/video, 3D, visualisering, ljud/musik). Ren teknik-/prylrecension utan AI-vinkel = 0-2, brett AI-företagsnytt = 4-5, kreativa AI-verktyg/modeller = 8-10, "parts": om beskrivningen innehåller kapitel/tidsstämplar (t.ex. 0:00, 12:34): upp till 8 viktigaste delarna som [{"t":"mm:ss","l":"kort svensk etikett max 7 ord","le":"samma etikett på engelska"}], annars [], "deep": en fördjupning i 2-4 stycken (ca 150-250 ord) med detaljerna: konkreta siffror, funktioner, hur tekniken fungerar och jämförelser — baserat ENBART på videons titel/beskrivning, hitta inte på, "en": {"ttl": rubriken på engelska, "sum": sum på engelska, "full": hela artikeln på engelska samma stycken, "deep": fördjupningen på engelska}}.';
   const body = {
-    model: MODEL, max_tokens: 3600, system: sys,
-    messages: [{ role: "user", content:
+    model: MODEL, max_output_tokens: 3600, instructions: sys,
+    input: [{ role: "user", content:
       "Plattformslista: " + platformNames.join(", ") +
       "\nKanal: " + v.snippet.channelTitle +
       "\nTitel: " + v.snippet.title +
       "\nBeskrivning:\n" + (v.snippet.description || "").slice(0, 1600) }],
   };
   try {
-    const r = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": AK, "anthropic-version": "2023-06-01" },
-      body: JSON.stringify(body),
-    });
-    const d = await r.json();
-    const txt = (d.content || []).map(c => c.text || "").join("").replace(/```json|```/g, "").trim();
+    const txt = (await responseText({apiKey: AK, ...body})).replace(/```json|```/g, "").trim();
     const j = JSON.parse(txt);
     return {
       ttl: j.ttl || v.snippet.title, sum: j.sum || "", full: j.full || j.sum || "",
