@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T08:38:47.196Z",
+  "updatedAt": "2026-09-13T09:08:03.910Z",
   "newsCheckedAt": "2026-09-13T08:38:47.196Z",
   "news": [
     {
@@ -6642,7 +6642,7 @@
       "bdg": "",
       "pct": 72,
       "price": "Via X / xAI",
-      "sub": "Audio-video direkt i X-ekosystemet",
+      "sub": "Bild- och videogenerering i Grok; Imagine Video 1.5 finns också via API.",
       "long": "xAI:s Grok Imagine genererar video med native ljud och distribueras via X och xAI:s API (samt Higgsfield). Snabbt och socialt-först — värt att hålla koll på om du redan lever i X-ekosystemet.",
       "pros": [
         "Native ljud-video",
@@ -6674,7 +6674,23 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-13T09:08:03.910Z",
+          "sources": [
+            {
+              "url": "https://docs.x.ai/grok/overview",
+              "quote": "Create images and video with Grok Imagine."
+            },
+            {
+              "url": "https://x.ai/news/grok-imagine-video-1-5",
+              "quote": "generally available in the xAI API"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Rodin (Hyper3D)",
@@ -6720,7 +6736,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Tripo 3.1",
@@ -6766,7 +6784,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Hunyuan3D",
@@ -6812,7 +6832,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z"
     },
     {
       "n": "TRELLIS 2",
@@ -7416,7 +7437,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=X1dJjPFLNWQ",
         "https://www.youtube.com/watch?v=xNSX8ZHpTpM",
-        "https://www.youtube.com/watch?v=VsmL_KROmyI"
+        "https://www.youtube.com/watch?v=VsmL_KROmyI",
+        "https://www.youtube.com/watch?v=Q5-LJDxZlrg"
       ],
       "firstSeen": "2026-09-10T09:48:18.251Z",
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
@@ -7432,6 +7454,83 @@
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
       "status": "retry",
       "error": "Evidence quote missing"
+    },
+    {
+      "name": "ChatGPT",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=D99-cPP2C3k",
+        "https://www.youtube.com/watch?v=xpEJdMdZJGs"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "status": "retry",
+      "error": "Official source unavailable"
+    },
+    {
+      "name": "Tripo AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=8xrC-zEsY0o"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "status": "retry",
+      "error": "Official source unavailable"
+    },
+    {
+      "name": "GPT‑6 Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=unVd0k2FEwA"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "IF STUDIO",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=yfNItPaLPJU"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Meshy 7",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=W7q4-rm6GWk"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Hi3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=W7q4-rm6GWk"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Grok Imagine Video 1.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=91Qn01hMPg8"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Hi3D V3.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hk21B_dI-gA"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Cinema Studio AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mG5M6gPFlU8"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Tripo 2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tqUEnRj0NbM"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z"
     }
   ],
   "sourceChecks": {},
@@ -8098,34 +8197,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-13T08:38:47.196Z",
+    "calculatedAt": "2026-09-13T09:08:03.910Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.5668853828642482,
+      "chatgpt-images-2-0": 0.5657452042672939,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.560786613400043,
-      "google-veo-3-1": 0.560786613400043,
+      "runway-gen-4-5": 0.559658701279913,
+      "google-veo-3-1": 0.559658701279913,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.2548098692810157,
+      "heygen": 0.25429736928008245,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.3941992436612596,
+      "adobe-firefly": 1.3913950857387523,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.34335473898751,
+      "higgsfield": 2.3386415412243844,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2220256120923523,
+      "meshy-ai": 1.2195677476104747,
       "magnific-ai": 0,
-      "seedance-2-5": 1.2062229324473437,
+      "seedance-2-5": 1.203796851951525,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -8135,10 +8234,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.511697973393567,
+      "rodin-hyper3d": 0.5106687934305553,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.185709226393962,
+      "trellis-2": 1.1833244051884568,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
