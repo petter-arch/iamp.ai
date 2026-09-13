@@ -1,34 +1,150 @@
 {
-  "startedAt": "2026-09-12T09:25:03.709Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-13T08:38:47.196Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-13T08:38:47.196Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 138,
+    "relevant": 40,
+    "supported": 35
+  },
+  "rejected": [
     {
-      "platform": "nano-banana-2",
-      "message": "Source/API HTTP 400"
+      "video": "iSXeiUXiln8",
+      "title": "This AI Makes Any Photo 3D",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        3
+      ]
     },
     {
-      "platform": "seedream-4",
-      "message": "Source/API HTTP 400"
+      "video": "nZYJdwM-_nI",
+      "title": "New Deepseek, human genome map, Navier Stokes, GPT finance, Suno v6, YuE2: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        23,
+        31
+      ]
     },
     {
-      "platform": "hailuo-3-0",
-      "message": "Source/API HTTP 400"
+      "video": "RmlP_nqOhsk",
+      "title": "Claude Fable 5.1 is savage",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        10,
+        13,
+        15
+      ]
     },
     {
-      "platform": "happy-horse-1-0",
-      "message": "Source/API HTTP 400"
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "candidate": "Tencent HY 3D",
-      "message": "Source/API HTTP 400"
+      "video": "K1qxC7ngB6U",
+      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        6,
+        7
+      ]
     },
     {
-      "candidate": "Pixal3D Multiview",
-      "message": "Source/API HTTP 400"
+      "video": "WfYwhIQ8xR0",
+      "title": "Our AI Horror Film Competition is Back 👻",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GfPZm9yucQo",
+      "title": "AI News: The Most Insane Week So Far This Year!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Y9AUjH2szLg",
+      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "32xiItcJM-A",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pFb1a-MhxCI",
+      "title": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye? #ai",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "video": "YrAgOEATH0k",
+      "title": "The Anti-Subscription Starter Pack",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Usa_yWswNL8",
+      "title": "Trending 80s AI Image Kaise Banaye | 80s Retro AI Photo Editing Tutorial 2026",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "sGULyAry3-4",
+      "title": "Instagram Viral 80s trend Girl Photo Prompt | How to edit 80s trend photo #trending #prompt #shorts",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 16
 }
