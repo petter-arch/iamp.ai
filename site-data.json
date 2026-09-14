@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T08:06:02.251Z",
+  "updatedAt": "2026-09-14T10:44:18.176Z",
   "newsCheckedAt": "2026-09-14T08:06:02.251Z",
   "news": [
     {
@@ -7508,7 +7508,7 @@
       "bdg": "",
       "pct": 72,
       "price": "Gratis / betalplaner",
-      "sub": "Snabb video med bra upplösning",
+      "sub": "Referens-till-video med integrerad ljud- och videogenerering, kameraväxling och klipp på upp till 16 sekunder.",
       "long": "Vidu Q3 är ett snabbt videoalternativ med bra upplösning, populärt för effektiv produktion och referensstyrd generering.",
       "pros": [
         "Snabb generering",
@@ -7521,15 +7521,17 @@
       ],
       "tags": [
         "Videogen",
-        "Snabb",
-        "Referens"
+        "Referens-till-video",
+        "Inbyggt ljud",
+        "Kameraväxling",
+        "Upp till 16 s"
       ],
       "url": "https://www.vidu.com",
       "tech": 81,
       "speed": 86,
       "pricev": 70,
       "rating": 78,
-      "deep": "Ett av de snabbare videoalternativen — bra när du vill iterera mycket utan långa väntetider.",
+      "deep": "Ett alternativ för berättande videoklipp där referensstyrning, synkroniserat ljud och bild samt kameraväxling är centrala. Vidu beskriver Q3 som kapabel att skapa upp till 16 sekunder per generering och att stödja engelska, japanska och kinesiska i videoutdata.",
       "caps": [
         "Text-till-video",
         "Bild-till-video",
@@ -7541,7 +7543,49 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-14T10:44:18.176Z",
+          "sources": [
+            {
+              "url": "https://platform.vidu.com/docs/reference-to-video",
+              "quote": "viduq3: Supports intelligent camera switching, supports simultaneous audio and video output"
+            },
+            {
+              "url": "https://go.vidu.com/vidu-q3",
+              "quote": "Up to 16 seconds per generation."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-14T10:44:18.176Z",
+          "sources": [
+            {
+              "url": "https://go.vidu.com/vidu-q3",
+              "quote": "English, Japanese, and Chinese."
+            },
+            {
+              "url": "https://go.vidu.com/vidu-q3",
+              "quote": "Supports natural multi-person conversations."
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-14T10:44:18.176Z",
+          "sources": [
+            {
+              "url": "https://platform.vidu.com/docs/reference-to-video",
+              "quote": "viduq3: Supports intelligent camera switching, supports simultaneous audio and video output"
+            },
+            {
+              "url": "https://go.vidu.com/vidu-q3",
+              "quote": "Up to 16 seconds per generation."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "LTX-2",
@@ -7586,7 +7630,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z"
     },
     {
       "n": "Luma Genie",
@@ -7630,7 +7675,8 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z"
     },
     {
       "n": "Hitem3D",
@@ -7673,7 +7719,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Stable Audio 3.0",
@@ -7986,14 +8034,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Hi3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Grok Imagine Video 1.5",
@@ -8005,7 +8059,8 @@
     {
       "name": "Hi3D V3.0",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=hk21B_dI-gA"
+        "https://www.youtube.com/watch?v=hk21B_dI-gA",
+        "https://www.youtube.com/watch?v=OvkxZS_bBXE"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z"
     },
@@ -8022,6 +8077,20 @@
         "https://www.youtube.com/watch?v=tqUEnRj0NbM"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z"
+    },
+    {
+      "name": "Google Pics",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=AIzQNLZ9BY4"
+      ],
+      "firstSeen": "2026-09-14T10:44:18.176Z"
+    },
+    {
+      "name": "ChatGPT Image 2.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_WfWe4aG-ME"
+      ],
+      "firstSeen": "2026-09-14T10:44:18.176Z"
     }
   ],
   "sourceChecks": {},
@@ -8688,34 +8757,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-14T08:06:02.251Z",
+    "calculatedAt": "2026-09-14T10:44:18.176Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.5145990678977007,
+      "chatgpt-images-2-0": 0.5090290208072713,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.5090628145800623,
-      "google-veo-3-1": 0.5090628145800623,
+      "runway-gen-4-5": 0.5035526921836472,
+      "google-veo-3-1": 0.5035526921836472,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.23130764205036144,
+      "heygen": 0.22880395609566237,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.2656061576799766,
+      "adobe-firefly": 1.2519071707676717,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.1272168958454274,
+      "higgsfield": 2.1041917894653834,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.1093128521897926,
+      "meshy-ai": 1.097305592149547,
       "magnific-ai": 0,
-      "seedance-2-5": 1.0949677227131436,
+      "seedance-2-5": 1.0831157351008673,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -8725,10 +8794,10 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.464501834256201,
+      "rodin-hyper3d": 0.4594740422297448,
       "tripo-3-1": 0,
       "hunyuan3d": 0,
-      "trellis-2": 1.0763460853711102,
+      "trellis-2": 1.064695659330486,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
