@@ -1,53 +1,198 @@
 {
-  "startedAt": "2026-09-14T10:44:18.176Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-14T19:34:47.105Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-14T19:34:47.105Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 128,
+    "relevant": 40,
+    "supported": 35
+  },
+  "rejected": [
     {
-      "platform": "vidu-q3",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/pricing\",\"quote\":\"Vidu Q3 | - reference2video | 3-16S | 540P | 7 /Second | $0.035 / Second\",\"retrieved\":[]}"
+      "video": "pvSdeU13hKc",
+      "title": "This GPU can be Hacked to Unlock Secret Memory ",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        28,
+        34
+      ]
     },
     {
-      "platform": "vidu-q3",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "mOvtumfyjCs",
+      "title": "I Never Thought I’d See This Happen",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        4
+      ]
     },
     {
-      "platform": "vidu-q3",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "i57VBGiVvuo",
+      "title": "5 free 3D models a month, no card needed",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        4
+      ]
     },
     {
-      "platform": "vidu-q3",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "K1qxC7ngB6U",
+      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6,
+        7
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "Z0Gdh0GrsH4",
+      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        3
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "long",
-      "message": "Source outside official domain"
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "hitem3d",
-      "field": "cons",
-      "message": "Invalid official citation"
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Meshy 7",
-      "message": "Evidence quote missing"
+      "video": "WfYwhIQ8xR0",
+      "title": "Our AI Horror Film Competition is Back 👻",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Hi3D",
-      "message": "Evidence quote missing"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "j-o0umbbge0",
+      "title": "GPT-6 Astra Crushes Water Physics",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "e24bFPEYooY",
+      "title": "GPT-6 Astra Can Edit Better Than You Can",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GfPZm9yucQo",
+      "title": "AI News: The Most Insane Week So Far This Year!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_UabiRJc2Gc",
+      "title": "GPT-6 Astra Creates Magic in Blender",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3fE9r6CK5rA",
+      "title": "ChatGPT SHORTCUT | PART 5 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "zptyHlExR9o",
+      "title": "【最新AIニュース】画像生成も仕事も激変！GPT-6 Astra＆Images 2.5登場でクリエイターはどう変わる？",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Y9AUjH2szLg",
+      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "32xiItcJM-A",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "fhr3otX1k3s",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Y9wQjzPllWM",
+      "title": "Instagram Viral 90s LOOK Ai Photo Editing In Chatgpt | Trending 90s Look Ai Photo Kaise Banaye?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "eVBJIUxv8N8",
+      "title": "GPT-6 Astra Changes Everything",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ajuGqkvRLXc",
+      "title": "GPT-6 Astra is Truly Science Fiction",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QmTXweHPWE4",
+      "title": "GPT‑6 Astra vs Tripo｜Which AI Creates Better 3D Models?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 3
 }

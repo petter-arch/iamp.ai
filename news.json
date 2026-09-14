@@ -1,6 +1,183 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Which AI 3D tools actually produce usable topology? Eleven generators, sorted into three tiers by whether the mesh survives contact with a real pipeline —",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "z27HM89qojY",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Endast tre AI-verktyg för 3D-modeller får användbar topologi",
+    "sum": "Kanalen 3dcrumbs har jämfört elva AI-generatorer för 3D-modeller utifrån hur väl deras mesh fungerar i en riktig pipeline med UV-mappning, riggning och subdivision. Tripo utses till bästa helhetsval, Hunyuan3D till verktyget med renast rågeometri och Rodin till starkast för fotorealistiska karaktärer.",
+    "full": "AI-genererade 3D-former kan se imponerande ut i en rendering, men det betyder inte att modellen fungerar i produktion. Det är skillnaden mellan en snygg bild och användbar topologi som står i centrum för videon från kanalen 3dcrumbs. Kanalen bedömer elva verktyg efter om deras mesh klarar en verklig arbetsprocess med UV-mappning, riggning och subdivision.\n\nEnligt kanalens sammanfattning är Tripo det bästa helhetsvalet. Hunyuan3D har den renaste rågeometrin, men kan kräva egen drift, medan Rodin (Hyper3D) är bäst på fotorealistiska karaktärer och svagare inom andra typer av modeller. Videon lyfter också fram att den renaste topologin för hårda ytor kommer från ett verktyg utvecklat för tillverkning snarare än för konstnärliga arbetsflöden.\n\nVerktygen delas in i tre nivåer. Luma Genie och 3D AI Studio placeras i den svaga nivån. Meshy, TRELLIS 2 och Hitem3D hamnar i mellannivån. Rodin, Hunyuan3D och Tripo AI listas i nivån för användbara resultat. Videon tar även upp Kaedim, Polycam och RapidDirect utanför huvudrankningen, men av olika skäl: Kaedim använder delvis mänsklig medverkan, Polycam är en särskild skanner och RapidDirect är ett tillverkningsverktyg.\n\nKanalens bedömning bygger enligt beskrivningen på publicerade riktmärken, verktygsdokumentation och licensvillkor från september 2026, inte på en personlig testkörning. Priserna anges vara aktuella vid inspelningstillfället och kan förändras. Beskrivningen nämner också en fullständig poängtabell med polygonantal, priser, licensvillkor och resultatkvalitet.",
+    "deep": "Videons huvudfråga är inte om en AI-generator kan skapa en form, utan om resultatet kan bearbetas vidare. Topologin avgör enligt kanalens upplägg hur modellen fungerar med UV-mappning, riggning och subdivision. Det gör meshens struktur till ett centralt arbetsflödesproblem för 3D-artister, spelutvecklare och andra som behöver redigerbara modeller.\n\nHunyuan3D 2.1 och TRELLIS 2 beskrivs som fria och öppen källkod. Kanalen uppger samtidigt att två av de tre verktyg som rekommenderas inte ger kanalen någon ersättning. RapidDirects plats i jämförelsen motiveras av att verktyget är inriktat på tillverkning, vilket gör dess hårdytetopologi särskilt intressant.\n\nRankningen ska läsas med kanalens begränsningar i åtanke. Den bygger på publicerade källor och licensvillkor, och priser ändras ofta. Kaedim jämförs inte direkt eftersom tjänsten delvis använder mänsklig medverkan och riktar sig mot studior. Polycam fungerar endast som kontroll i avsnittet om foto till 3D och beskrivs inte som en generator. Kanalen säger dessutom att poängtabellen uppdateras när fel upptäcks.",
+    "en": {
+      "ttl": "Only three AI 3D model generators produce usable topology",
+      "sum": "The channel 3dcrumbs compares eleven AI 3D model generators by how well their meshes work in a real pipeline involving UVs, rigging and subdivision. Tripo is named the best all-round choice, Hunyuan3D has the cleanest raw geometry, and Rodin is strongest for photorealistic characters.",
+      "full": "AI-generated 3D shapes can look impressive in a render without being useful in production. That difference between an attractive image and usable topology is the focus of the video from 3dcrumbs. The channel evaluates eleven tools based on whether their meshes survive a real workflow involving UVs, rigging and subdivision.\n\nAccording to the channel’s summary, Tripo is the best all-round choice. Hunyuan3D produces the cleanest raw geometry but may require self-hosting, while Rodin (Hyper3D) is strongest for photorealistic characters and weaker in other areas. The video also highlights the cleanest hard-surface topology as coming from a tool built for manufacturing rather than artistic work.\n\nThe tools are divided into three tiers. Luma Genie and 3D AI Studio are placed in the weak tier. Meshy, TRELLIS 2 and Hitem3D are in the middle tier. Rodin, Hunyuan3D and Tripo AI are listed as usable. Kaedim, Polycam and RapidDirect are discussed outside the main ranking for different reasons: Kaedim is partly human-in-the-loop, Polycam is a dedicated scanner, and RapidDirect is a manufacturing tool.\n\nThe description says the ranking is based on published benchmarks, tool documentation and licence terms as of September 2026, not a personal test run. Prices were accurate at recording and may change. The video also references a full scorecard covering polygon counts, prices, licence terms and output quality.",
+      "deep": "The video’s central question is not whether an AI generator can create a shape, but whether the result can be developed further. In the channel’s framework, topology determines how the model behaves with UVs, rigging and subdivision. Mesh structure is therefore a core workflow issue for 3D artists, game developers and others who need editable models.\n\nHunyuan3D 2.1 and TRELLIS 2 are described as free and open source. The channel also says that two of the three tools it actually recommends earn it no money. RapidDirect’s inclusion is justified by its manufacturing focus, which makes its hard-surface topology particularly interesting.\n\nThe ranking has explicit limitations. It is based on published sources and licence terms, while prices change frequently. Kaedim is not ranked because it is partly human-in-the-loop and priced for studios. Polycam appears only as a control in the photo-to-3D section and is not described as a generator. The channel says the scorecard is updated when errors are found."
+    },
+    "cat": "3d",
+    "date": "2026-09-14T16:54:30Z",
+    "meta": "3dcrumbs · 2026-09-14",
+    "url": "https://www.youtube.com/watch?v=z27HM89qojY",
+    "img": "https://i.ytimg.com/vi/z27HM89qojY/hqdefault.jpg",
+    "plat": "Rodin (Hyper3D)",
+    "platformIds": [
+      "rodin-hyper3d",
+      "hunyuan3d",
+      "trellis-2",
+      "luma-genie",
+      "hitem3d"
+    ],
+    "chans": [
+      "3dcrumbs"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Why the render looks great and the wireframe doesn't"
+      },
+      {
+        "t": 40,
+        "l": "What topology actually is, and why it decides everything"
+      },
+      {
+        "t": 75,
+        "l": "How the eleven tools were sorted"
+      },
+      {
+        "t": 120,
+        "l": "Weak tier: Luma Genie, 3D AI Studio"
+      },
+      {
+        "t": 170,
+        "l": "Middle tier: Meshy, TRELLIS 2, Hitem3D"
+      },
+      {
+        "t": 220,
+        "l": "Usable tier: Rodin, Hunyuan3D, Tripo AI"
+      },
+      {
+        "t": 260,
+        "l": "The hard-surface winner nobody expects"
+      },
+      {
+        "t": 280,
+        "l": "What to actually use, and what this means for your job"
+      }
+    ],
+    "views": 0,
+    "buzz": 20,
+    "sourceCheckedAt": "2026-09-14T19:34:47.105Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "3a8b402a721842069ccfe73c8ebcb42a3442abe38af8a7f762edab3e33c0886d",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "3D AI Studio",
+      "Kaedim",
+      "Polycam",
+      "RapidDirect"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "THE BRIDGE is a dark fantasy AI short film made with Seedance 2.5 and GPT Image 2, with a healthy assist from Astra (OpenAI GPT-6).",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "f8FHas1dmt8",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Theoretically Media visar en ny version av THE BRIDGE med Seedance 2.5 och Astra",
+    "sum": "Theoretically Media presenterar THE BRIDGE, en mörk fantasy-kortfilm som gjorts om med Seedance 2.5, GPT Image 2 och Astra, med ett arbetsflöde via Runway och MCP.",
+    "full": "Theoretically Media har publicerat THE BRIDGE, en mörk fantasy-kortfilm som enligt kanalens beskrivning har skapats med Seedance 2.5 och GPT Image 2, med hjälp av Astra, som beskrivs som OpenAI GPT-6. Fokus ligger på en ny AI-baserad version av filmen och på hur flera verktyg kombineras i produktionen.\n\nFilmen är en fullständig nyversion av en kortfilm från 2025. Theoretically Media uppger att originalet skapades med Veo 2, medan den nya versionen genererades på Runway via deras MCP-verktyg. Beskrivningen anger därmed ett arbetsflöde där AI används för att skapa den nya filmversionen, snarare än enbart för enstaka visuella effekter.\n\nEfter genereringen klipptes materialet i Adobe Premiere Pro och färdigställdes i DaVinci Resolve. Kanalen skriver också att det fanns delar där skaparen inte behövde röra tangentbordet, men ger inga ytterligare detaljer om vilka moment det gällde.\n\nTheoretically Media meddelar att en fullständig bakom kulisserna-genomgång ska publiceras senare. Den utlovade genomgången ska även ta upp hur arbetsflödet och möjligheterna har förändrats under de senaste två åren, men dessa detaljer finns inte i den aktuella beskrivningen.",
+    "deep": "Den tillgängliga informationen pekar på ett sammansatt AI-filmworkflow: Seedance 2.5 och GPT Image 2 anges som centrala skapandeverktyg, Astra anges som assistans, och Runway används för generering via ett MCP-verktyg. Därefter sker traditionell efterbearbetning i Adobe Premiere Pro och DaVinci Resolve.\n\nBeskrivningen ger inte tillräckligt underlag för att bedöma filmens visuella kvalitet, hur konsekventa figurer eller miljöer är, vilka promptar som användes eller hur mycket mänsklig redigering som krävdes. Den anger inte heller någon produktlansering eller versionshistorik för verktygen. Uppgifterna ska därför förstås som Theoretically Medias beskrivning av det egna projektet, inte som ett oberoende test.\n\nProjektets mest konkreta användningsfall är en ny AI-baserad remake av en tidigare kortfilm. Skillnaden mellan versionerna kopplas i beskrivningen till ett förändrat arbetsflöde: originalet gjordes med Veo 2, medan nyversionen skapades med Seedance 2.5, GPT Image 2, Astra och Runway innan klippning och färdigställande i etablerade videoprogram.",
+    "en": {
+      "ttl": "Theoretically Media presents a new version of THE BRIDGE with Seedance 2.5 and Astra",
+      "sum": "Theoretically Media presents THE BRIDGE, a dark fantasy short film remade with Seedance 2.5, GPT Image 2 and Astra, using a workflow through Runway and MCP.",
+      "full": "Theoretically Media has published THE BRIDGE, a dark fantasy AI short film that the channel says was made with Seedance 2.5 and GPT Image 2, with assistance from Astra, described as OpenAI GPT-6. The focus is a new AI-based version of the film and the combination of several tools in its production.\n\nThe film is a complete remake of a 2025 short film. Theoretically Media says the original was created with Veo 2, while the new version was generated on Runway through its MCP tool. The description therefore outlines a workflow in which AI is used to create the new film version, rather than only for isolated visual effects.\n\nAfter generation, the material was edited in Adobe Premiere Pro and finished in DaVinci Resolve. The channel also writes that there were parts where the creator did not need to touch the keyboard, but provides no further details about those steps.\n\nTheoretically Media says a full behind-the-scenes breakdown will be published later. That promised breakdown will also discuss how the workflow and capabilities have changed over the past two years, but those details are not included in the current description.",
+      "deep": "The available information points to a combined AI filmmaking workflow: Seedance 2.5 and GPT Image 2 are named as core creation tools, Astra is described as assistance, and Runway is used for generation through an MCP tool. Traditional post-production then takes place in Adobe Premiere Pro and DaVinci Resolve.\n\nThe description does not provide enough information to assess visual quality, character or environment consistency, the prompts used, or how much human editing was required. It also does not state a product launch or version history for the tools. The claims should therefore be understood as Theoretically Media’s description of its own project, not as an independent test.\n\nThe clearest use case is an AI-based remake of an earlier short film. The description links the difference between the versions to a changed workflow: the original was made with Veo 2, while the new version was created with Seedance 2.5, GPT Image 2, Astra and Runway before editing and finishing in established video applications."
+    },
+    "cat": "film",
+    "date": "2026-09-14T16:51:33Z",
+    "meta": "Theoretically Media · 2026-09-14",
+    "url": "https://www.youtube.com/watch?v=f8FHas1dmt8",
+    "img": "https://i.ytimg.com/vi/f8FHas1dmt8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Theoretically Media"
+    ],
+    "parts": [],
+    "views": 2995,
+    "buzz": 62,
+    "sourceCheckedAt": "2026-09-14T19:34:47.105Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "d54d5f00ae585cd6b119f936e042bfba1e82744724a9397f1e0d516d05e55feb",
+    "trusted": true,
+    "sourceId": "theoreticallymedia",
+    "newPlatforms": [
+      "Seedance 2.5",
+      "GPT Image 2",
+      "Astra",
+      "OpenAI GPT-6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "We tested two AI 3D model generators head-to-head, same prompt, same clock: Fast3D vs. Hyper3D | Rodin Rodin. Fast3D got there in under a minute,",
+    "evidenceIds": [
+      1,
+      2,
+      4
+    ],
+    "id": "sZgl9TmRjgI",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Fast3D och Rodin jämförs i AI-generering av 3D-modeller",
+    "sum": "3Dnatives jämför Fast3D och Hyper3D | Rodin med samma prompt och tidsgräns. Fast3D genererade en modell på under en minut i ett enda steg, medan Rodin erbjöd stilförhandsvisningar efter mindre än fem sekunder men behövde nästan tre minuter för hela arbetsflödet till en färdig utskrivbar mesh.",
+    "full": "Kanalen 3Dnatives jämför i videon två AI-baserade generatorer för 3D-modeller: Fast3D och Hyper3D | Rodin. Båda verktygen körs mot samma prompt och under samma tidsram, med fokus på hur de hanterar arbetsflödet fram till en färdig modell.\n\nFast3D blir klar på under en minut och använder ett enda genereringssteg utan mellanliggande moment. Hyper3D | Rodin visar däremot stilförhandsvisningar på mindre än fem sekunder. Därefter kräver verktyget ytterligare steg, från val av stil till den slutliga utskrivbara meshen, och hela processen tar nära tre minuter enligt 3Dnatives.\n\nVideon är det första avsnittet i en ny serie där 3Dnatives kör samma prompt genom sex AI-generatorer för 3D-modeller. Syftet är att visa vad verktygen faktiskt producerar innan användaren når en betalvägg. Jämförelsen ställer därmed snabb generering mot ett arbetsflöde som ger möjlighet att förhandsgranska stil innan den slutliga modellen skapas.",
+    "deep": "Den konkreta skillnaden i videobeskrivningen gäller främst arbetsflödets struktur och tidsåtgång. Fast3D når resultatet i en enda genereringspassering och utan mellanliggande steg. Rodin delar i stället upp processen genom att först visa stilalternativ och därefter skapa den slutliga meshen.\n\nRodins stilförhandsvisningar visas enligt 3Dnatives på under fem sekunder, men det är inte samma sak som att hela modellen är färdig. När stilvalet räknas in tar vägen till den slutliga utskrivbara meshen nära tre minuter. Beskrivningen anger inte kvalitetsskillnader mellan resultaten, någon oberoende verifiering eller vilken av generatorerna som är bäst i andra avseenden än den presenterade avvägningen mellan snabbhet och stilförhandsvisning.",
+    "en": {
+      "ttl": "Fast3D and Rodin compared in AI 3D model generation",
+      "sum": "3Dnatives compares Fast3D and Hyper3D | Rodin using the same prompt and clock. Fast3D generated a model in under a minute in one pass, while Rodin offered style previews in under five seconds but took close to three minutes for the full workflow to a final printable mesh.",
+      "full": "In the video, the channel 3Dnatives compares two AI-based 3D model generators: Fast3D and Hyper3D | Rodin. Both tools are run with the same prompt and under the same time limit, focusing on how they handle the workflow through to a finished model.\n\nFast3D finishes in under a minute and uses one generation pass with no intermediate steps. Hyper3D | Rodin, by contrast, shows style previews in under five seconds. The tool then requires additional steps, from selecting a style to producing the final printable mesh, and the full process takes close to three minutes according to 3Dnatives.\n\nThe video is Episode 1 of a new series in which 3Dnatives runs the same prompt through six AI 3D model generators. The aim is to show what the tools actually produce before users reach a paywall. The comparison therefore weighs fast generation against a workflow that allows style previews before the final model is created.",
+      "deep": "The concrete difference described in the video concerns workflow structure and time. Fast3D reaches a result in a single generation pass and without intermediate steps. Rodin instead separates the process by showing style options first and then generating the final mesh.\n\nAccording to 3Dnatives, Rodin’s style previews appear in under five seconds, but that is not the same as having the complete model ready. Including style selection, the route to the final printable mesh takes close to three minutes. The description does not state quality differences between the results, provide independent verification, or identify a broader winner beyond the presented trade-off between speed and style previews."
+    },
+    "cat": "3d",
+    "date": "2026-09-14T12:07:03Z",
+    "meta": "3Dnatives · 2026-09-14",
+    "url": "https://www.youtube.com/watch?v=sZgl9TmRjgI",
+    "img": "https://i.ytimg.com/vi/sZgl9TmRjgI/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "3Dnatives"
+    ],
+    "parts": [],
+    "views": 316,
+    "buzz": 50,
+    "sourceCheckedAt": "2026-09-14T19:34:47.105Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "05822dbc1bb7d7b345e7de95baed759235a0aa6bed8be94b88ea1227e145ab31",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Fast3D"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Google has officially launched Google Pics, a pro-level AI image editor and generator natively integrated into Google Workspace! Built on the Nano Banana engine, Google",
     "evidenceIds": [
       1
