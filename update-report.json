@@ -1,143 +1,131 @@
 {
-  "startedAt": "2026-09-15T10:07:38.861Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-15T18:27:51.102Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 128,
+    "relevant": 31,
+    "supported": 28
+  },
+  "rejected": [
     {
-      "platform": "stable-audio-3-0",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://stableaudio.com/about\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
+      "video": "pvSdeU13hKc",
+      "title": "This GPU can be Hacked to Unlock Secret Memory ",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        28,
+        34
+      ]
     },
     {
-      "platform": "stable-audio-3-0",
-      "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://stableaudio.com/about\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "stable-audio-3-0",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://stableaudio.com/about\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
+      "video": "K1qxC7ngB6U",
+      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6,
+        7
+      ]
     },
     {
-      "platform": "synthesia",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/pricing?country=7\",\"quote\":\"Starter\\n\\n$29/mo\",\"retrieved\":[]}"
+      "video": "HhJJobhLUm0",
+      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/features\",\"quote\":\"AI Avatar Generator160+ Languages\",\"retrieved\":[]}"
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/features\",\"quote\":\"AI Avatar Generator160+ Languages\",\"retrieved\":[]}"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/features\",\"quote\":\"AI Avatar Generator160+ Languages\",\"retrieved\":[]}"
+      "video": "WfYwhIQ8xR0",
+      "title": "Our AI Horror Film Competition is Back 👻",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/features\",\"quote\":\"AI Avatar Generator160+ Languages\",\"retrieved\":[]}"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "tier",
-      "message": "Invalid official citation"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "synthesia",
-      "field": "free",
-      "message": "Invalid official citation"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "0",
+        "2",
+        "6"
+      ]
     },
     {
-      "platform": "topaz-labs",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://docs.topazlabs.com/sales-account-licensing/before-you-buy/app-and-collection-options\",\"quote\":\"Topaz Studio | $399/yr\",\"retrieved\":[]}"
+      "video": "ayRUQFH41OA",
+      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "topaz-labs",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://docs.topazlabs.com/other-apps/legacy\",\"quote\":\"Topaz Photo: Combines sharpening, Super Focus, noise reduction, upscaling, face recovery, text recovery, object removal, lighting correction, and color balancing.\",\"retrieved\":[]}"
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "topaz-labs",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://www.topazlabs.com/topaz-video\",\"quote\":\"Topaz Video is a professional-grade desktop application for enhancing video quality.\",\"retrieved\":[]}"
+      "video": "zptyHlExR9o",
+      "title": "【最新AIニュース】画像生成も仕事も激変！GPT-6 Astra＆Images 2.5登場でクリエイターはどう変わる？",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "topaz-labs",
-      "field": "sub",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "topaz-labs",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "topaz-labs",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing\",\"quote\":\"Google AI Studio usage is free of charge in all available regions.\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/changelog\",\"quote\":\"fast, conversational video generation and editing model.\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/changelog\",\"quote\":\"Interpolation (first + last frame)\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/video\",\"quote\":\"supporting text, images, audio, and video inputs simultaneously\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/changelog\",\"quote\":\"Video extension: Seamlessly extend existing videos\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "free",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing\",\"quote\":\"Google AI Studio usage is free of charge in all available regions.\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "platform": "gemini-omni-flash",
-      "field": "cons",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "candidate": "Grok Imagine Video 1.5",
-      "message": "Invalid evidence URL"
-    },
-    {
-      "candidate": "Hi3D V3.0",
-      "message": "Invalid evidence URL"
+      "video": "YXiZP5QXJsE",
+      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 4
 }
