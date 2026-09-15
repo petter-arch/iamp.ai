@@ -1,6 +1,167 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "YuE2 installation tutorial. How to run YuE2 in ComfyUI and make cover songs. Best AI music generator and editor. #ai #aitools #aimusic #suno #aicover Thanks",
+    "evidenceIds": [
+      1,
+      18,
+      22
+    ],
+    "id": "9RtywbN--QE",
+    "tag": "aud",
+    "lab": "Ljud",
+    "ico": "🎵",
+    "ttl": "YuE2 ger lokal AI-musik i ComfyUI och kan skapa coverlåtar",
+    "sum": "Kanalen AI Search visar hur YuE2 installeras och körs lokalt i ComfyUI för text-till-musik, instrumentala spår, referensljud och coverlåtar. Beskrivningen nämner även agentbaserad iterativ redigering och flera musikaliska exempel.",
+    "full": "AI Search presenterar YuE2 som en lokal AI-musikgenerator och visar enligt beskrivningen hur modellen installeras och körs i ComfyUI. Arbetsflödet stöds av ett officiellt kodförråd, en färdig ComfyUI-konfiguration och modeller som listas separat för nedladdning.\n\nDet beskrivna arbetsflödet omfattar flera sätt att skapa musik. YuE2 används för text-till-musik, för instrumentala produktioner och med referensljud. Kanalen tar också upp hur man gör coverlåtar, vilket placerar modellen i ett arbetsflöde där befintligt musikaliskt material kan fungera som utgångspunkt.\n\nAI Search listar demonstrationer i jazz, boogie woogie, spansk flamenco, folktronika och koreansk emo-rock. Beskrivningen nämner dessutom coverversioner av Beethoven och en mindre cover samt ett moment med agentbaserad iterativ redigering.\n\nVideon innehåller även avsnitt om hur YuE2 fungerar, benchmarkresultat, installation och licens. Beskrivningen anger däremot inte några specifika resultatvärden, systemkrav eller licensvillkor, så sådana detaljer kan inte fastställas här.",
+    "deep": "Det lokala upplägget är den centrala tekniska delen: YuE2 körs genom ComfyUI i stället för att enbart användas som en fjärrbaserad musiktjänst. AI Search hänvisar till YuE:s officiella repository, en fullständig ComfyUI-workflow och en modellkatalog på Hugging Face. Det ger ett konkret underlag för att återskapa det visade arbetsflödet, men beskrivningen bekräftar inte hur installationen gick till steg för steg.\n\nDe angivna användningsfallen sträcker sig från promptbaserad musikskapande till redigering med referensljud och coverlåtar. Tidsmarkeringarna visar att både musikskapande, referensbaserat arbete, agentbaserad iterativ redigering och instrumentalt läge behandlas. Beskrivningen säger inte vilka parametrar, promptar eller kvalitetsnivåer som användes i exemplen.\n\nLuma förekommer som sponsor i beskrivningen och är inte en del av den dokumenterade YuE2-funktionen. Inte heller den uppräknade dator- och ljudutrustningen utgör artikelns ämne.",
+    "en": {
+      "ttl": "YuE2 brings local AI music generation to ComfyUI and can create cover songs",
+      "sum": "AI Search shows how YuE2 is installed and run locally in ComfyUI for text-to-music, instrumental tracks, reference audio and cover songs. The description also mentions agent-based iterative editing and several musical examples.",
+      "full": "AI Search presents YuE2 as a local AI music generator and, according to the description, shows how to install and run the model in ComfyUI. The workflow is supported by an official code repository, a ready-made ComfyUI configuration and separately listed model files.\n\nThe described workflow covers several ways to create music. YuE2 is used for text-to-music generation, instrumental productions and reference audio. The channel also addresses cover songs, placing the model in a workflow where existing musical material can serve as a starting point.\n\nAI Search lists demonstrations in jazz, boogie woogie, Spanish flamenco, folktronica and Korean emo rock. The description also mentions Beethoven and another cover, as well as an agent-based iterative editing segment.\n\nThe video includes sections on how YuE2 works, benchmark results, installation and licensing. However, the description provides no specific benchmark figures, system requirements or license terms, so those details cannot be established here.",
+      "deep": "The local setup is the central technical element: YuE2 runs through ComfyUI rather than being used only as a remote music service. AI Search links to YuE's official repository, a complete ComfyUI workflow and a model directory on Hugging Face. This provides concrete material for recreating the demonstrated workflow, but the description does not confirm the installation steps in detail.\n\nThe stated use cases range from prompt-based music creation to reference-audio editing and cover songs. The timestamps show that the video covers music generation, reference-based work, agent-based iterative editing and instrumental mode. The description does not specify the parameters, prompts or quality levels used in the examples.\n\nLuma appears as a sponsor in the description and is not part of the documented YuE2 functionality. The listed computer and audio equipment are likewise not the subject of the article."
+    },
+    "cat": "ljud",
+    "date": "2026-09-15T03:24:28Z",
+    "meta": "AI Search · 2026-09-15",
+    "url": "https://www.youtube.com/watch?v=9RtywbN--QE",
+    "img": "https://i.ytimg.com/vi/9RtywbN--QE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Search"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "YuE2 intro"
+      },
+      {
+        "t": 20,
+        "l": "Jazz demo"
+      },
+      {
+        "t": 96,
+        "l": "Boogie woogie"
+      },
+      {
+        "t": 162,
+        "l": "Spanish flamenco"
+      },
+      {
+        "t": 234,
+        "l": "Folktronica"
+      },
+      {
+        "t": 275,
+        "l": "Korean emo rock"
+      },
+      {
+        "t": 315,
+        "l": "Making cover songs"
+      },
+      {
+        "t": 385,
+        "l": "Beethoven cover"
+      },
+      {
+        "t": 424,
+        "l": "Minor cover"
+      },
+      {
+        "t": 474,
+        "l": "Agent iterative editing"
+      },
+      {
+        "t": 557,
+        "l": "How it works"
+      },
+      {
+        "t": 595,
+        "l": "Benchmarks"
+      },
+      {
+        "t": 620,
+        "l": "Luma"
+      },
+      {
+        "t": 712,
+        "l": "How to install YuE2"
+      },
+      {
+        "t": 870,
+        "l": "Text to music"
+      },
+      {
+        "t": 1170,
+        "l": "Instrumental only"
+      },
+      {
+        "t": 1236,
+        "l": "How to use reference audio"
+      },
+      {
+        "t": 1397,
+        "l": "License"
+      }
+    ],
+    "views": 20154,
+    "buzz": 72,
+    "sourceCheckedAt": "2026-09-15T08:00:56.454Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "890e004918a912c212f6a14cb8e35ac7d1cb2428e3f89f1dcc7c50bd62a1ed3b",
+    "trusted": true,
+    "sourceId": "theaisearch",
+    "newPlatforms": [
+      "YuE2"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "लेकिन ये एक AI-Generated 4D Cinema Video है! 🤯🎬 ऐसी Next-Level AI Videos अभी Viral Trend बन रही हैं और इस वीडियो में बताया गया",
+    "evidenceIds": [
+      2,
+      3,
+      9
+    ],
+    "id": "iixnU96ZEAM",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Google Flow används för den nya 4D-trenden inom AI-video",
+    "sum": "Kanalen Monetize Gyan™ beskriver en ny trend med AI-genererade 4D-biovideor och visar hur Google Flow kan användas för att skapa filmiskt AI-innehåll med text-till-video och AI-prompter.",
+    "full": "Enligt YouTube-kanalen Monetize Gyan™ växer en ny trend fram kring AI-genererade 4D-biovideor. Beskrivningen framställer videorna som så realistiska att de vid första anblick kan uppfattas som verkliga, men betonar att materialet är AI-genererat.\n\nKanalens huvudsakliga fokus är ett arbetsflöde i Google Flow för att skapa filmiska AI-videor. Beskrivningen nämner AI-videogenerering, text-till-video och användning av AI-prompter, samt kopplar arbetsflödet till Google Veo AI.\n\nMonetize Gyan™ uppger också att videons fullständiga prompter och process finns tillgängliga i kanalens kostnadsfria community. Beskrivningen ger däremot inga uppgifter om ett separat produktlanseringsdatum, tekniska prestandamått eller en oberoende jämförelse med andra videogeneratorer.",
+    "deep": "Det konkreta användningsområdet som stöds av beskrivningen är skapande av filmiska AI-videor för sociala medier, inklusive Instagram och virala reels. Arbetsflödet presenteras som en metod för AI-filmskapande, där textprompter används för att generera videoinnehåll med ett 4D-biouttryck.\n\nBeskrivningen nämner både Google Flow och Google Veo AI, men specificerar inte vilken Veo-version som används. Den anger inte heller upplösning, videolängd, kamerakontroller, rörelsesystem, ljudfunktioner eller andra tekniska detaljer. Därför går det inte att dra slutsatser om kvalitet, stabilitet eller praktiska begränsningar utöver det som kanaler beskriver.\n\nVideon har publiceringsdatumet 15 september 2026, men detta ska inte tolkas som ett lanseringsdatum för Google Flow eller någon annan produkt. Innehållet är en kanalbeskrivning av ett AI-baserat videoflöde, inte en självständig test eller verifiering.",
+    "en": {
+      "ttl": "Google Flow is used for the new AI video 4D trend",
+      "sum": "The channel Monetize Gyan™ describes a new trend involving AI-generated 4D cinema videos and explains how Google Flow can be used to create cinematic AI content with text-to-video generation and AI prompts.",
+      "full": "According to the YouTube channel Monetize Gyan™, a new trend is emerging around AI-generated 4D cinema videos. The description presents the videos as realistic enough to appear real at first glance, while emphasizing that they are AI-generated.\n\nThe channel’s main focus is a workflow in Google Flow for creating cinematic AI videos. The description mentions AI video generation, text-to-video generation and the use of AI prompts, while also connecting the workflow to Google Veo AI.\n\nMonetize Gyan™ also says that the complete prompts and process are available in its free community. The description does not provide a separate product release date, technical performance measurements or an independent comparison with other video generators.",
+      "deep": "The supported use case is the creation of cinematic AI videos for social media, including Instagram and viral reels. The workflow is presented as a method for AI filmmaking in which text prompts are used to generate video content with a 4D cinema style.\n\nThe description mentions both Google Flow and Google Veo AI, but does not specify which Veo version is used. It also gives no details about resolution, video length, camera controls, motion systems, audio features or other technical capabilities. It is therefore not possible to draw conclusions about quality, stability or practical limitations beyond the channel’s description.\n\nThe video was uploaded on September 15, 2026, but this should not be interpreted as a release date for Google Flow or any other product. The material is a channel description of an AI-based video workflow, not an independent test or verification."
+    },
+    "cat": "film",
+    "date": "2026-09-15T02:26:10Z",
+    "meta": "Monetize Gyan™ · 2026-09-15",
+    "url": "https://www.youtube.com/watch?v=iixnU96ZEAM",
+    "img": "https://i.ytimg.com/vi/iixnU96ZEAM/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Monetize Gyan™"
+    ],
+    "parts": [],
+    "views": 141,
+    "buzz": 46,
+    "sourceCheckedAt": "2026-09-15T08:00:56.454Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "aef096094834dd680cfbbd1debddda1e83a8f04213ac020c75360d4930999715",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Google Flow"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Which AI 3D tools actually produce usable topology? Eleven generators, sorted into three tiers by whether the mesh survives contact with a real pipeline —",
     "evidenceIds": [
       1,
@@ -767,6 +928,49 @@
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "GPT‑6 Astra and Tripo turn the same reference images into detailed 3D characters and creatures. See how their results compare in shape, details, textures, and",
+    "evidenceIds": [
+      1,
+      2
+    ],
+    "id": "QmTXweHPWE4",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "GPT‑6 Astra jämförs med Tripo för att skapa 3D-modeller från referensbilder",
+    "sum": "Tripo AI visar hur GPT‑6 Astra och Tripo omvandlar samma referensbilder till detaljerade 3D-karaktärer och varelser. Jämförelsen fokuserar på form, detaljer, texturer och produktionsberedskap.",
+    "full": "Tripo AI publicerar en jämförelse mellan GPT‑6 Astra och Tripo, där båda systemen får samma referensbilder som underlag för att skapa 3D-karaktärer och varelser. Videon handlar därmed om ett AI-baserat arbetsflöde från bildreferens till 3D-modell.\n\nEnligt kanalens beskrivning bedöms resultaten utifrån flera konkreta aspekter: modellernas form, detaljnivå, texturer och hur väl resultaten är lämpade för produktion. Beskrivningen anger inte vilka tekniska metoder som används, hur lång processen tar eller vilka filformat som stöds.\n\nJämförelsen riktar sig till personer som arbetar med eller planerar ett 3D-projekt och vill avgöra vilket av de två alternativen som passar bäst för deras behov. Tripo AI avslutar med en fråga om vilket system tittaren skulle välja för nästa 3D-projekt.",
+    "deep": "Det centrala arbetsflödet som beskrivs är att samma referensbilder används i båda systemen, vilket gör jämförelsen inriktad på deras respektive resultat snarare än på olika bildunderlag. Kanalen nämner särskilt form, detaljer och texturer som jämförelsepunkter.\n\nVideon tar också upp produktionsberedskap, men den tillgängliga beskrivningen preciserar inte vilka kriterier som används för den bedömningen. Det finns därför inget stöd i källan för slutsatser om att något av systemen är bäst, mest exakt eller färdigt för ett visst produktionsändamål.\n\nTripo AI:s beskrivning nämner både GPT‑6 Astra och Tripo. Tripo förekommer även i en länk till tjänsten, men länken i sig ger inga ytterligare uppgifter om funktioner eller versioner.",
+    "en": {
+      "ttl": "GPT‑6 Astra compared with Tripo for creating 3D models from reference images",
+      "sum": "Tripo AI shows how GPT‑6 Astra and Tripo turn the same reference images into detailed 3D characters and creatures. The comparison focuses on shape, details, textures, and production readiness.",
+      "full": "Tripo AI publishes a comparison between GPT‑6 Astra and Tripo, with both systems using the same reference images to create 3D characters and creatures. The video therefore focuses on an AI-based workflow from image reference to 3D model.\n\nAccording to the channel’s description, the results are assessed across several concrete aspects: model shape, level of detail, textures, and suitability for production. The description does not state which technical methods are used, how long the process takes, or which file formats are supported.\n\nThe comparison is aimed at people working on or planning a 3D project who want to determine which of the two options best fits their needs. Tripo AI ends by asking viewers which system they would choose for their next 3D project.",
+      "deep": "The core workflow described uses the same reference images in both systems, making the comparison about their respective results rather than different source material. The channel specifically identifies shape, details, and textures as comparison points.\n\nThe video also addresses production readiness, but the available description does not specify the criteria used for that assessment. The source therefore does not support claims that either system is best, most accurate, or ready for a particular production use.\n\nTripo AI’s description names both GPT‑6 Astra and Tripo. Tripo also appears in a service link, but the link itself provides no further information about features or versions."
+    },
+    "cat": "3d",
+    "date": "2026-09-11T15:00:28Z",
+    "meta": "Tripo AI · 2026-09-11",
+    "url": "https://www.youtube.com/watch?v=QmTXweHPWE4",
+    "img": "https://i.ytimg.com/vi/QmTXweHPWE4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Tripo AI"
+    ],
+    "parts": [],
+    "views": 8599,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-09-15T08:00:56.454Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "2fa47f56739297743da79f1ed4d294d2ddfb2ab3caec9a611b9872a453dccbdd",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "GPT‑6 Astra"
+    ]
   },
   {
     "editorialStatus": "approved",
