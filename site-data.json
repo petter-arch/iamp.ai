@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T08:00:56.454Z",
+  "updatedAt": "2026-09-15T10:07:38.861Z",
   "newsCheckedAt": "2026-09-15T08:00:56.454Z",
   "news": [
     {
@@ -8147,7 +8147,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Synthesia",
@@ -8159,15 +8161,17 @@
       "pct": 80,
       "price": "Från ca $29 mån",
       "sub": "AI-avatarer för utbildning och företag",
-      "long": "Synthesia är den ledande plattformen för AI-avatar-video i företag och utbildning: skriv ett manus, välj en avatar och få en talande presentatör på 140+ språk. Stark för intern utbildning och produktinfo.",
+      "long": "Synthesia är en AI-videoplattform för företag där du kan skapa professionella videor utan mikrofoner, kameror, skådespelare eller studio. Plattformen kombinerar AI-avatarer, röster, manusdriven videoproduktion och AI-dubbning för skalbar internkommunikation, utbildning och lokaliserat videoinnehåll på 160+ språk.",
       "pros": [
         "Proffsiga avatarer",
         "140+ språk",
         "Enkelt manus-till-video"
       ],
       "cons": [
-        "Abonnemang krävs",
-        "Mindre kreativ frihet"
+        "Mindre lämpligt för traditionellt filmat innehåll",
+        "Detaljerade fysiska demonstrationer kan kräva verkligt filmat material",
+        "Full redigering fungerar bäst på dator",
+        "Krediter och användningsgränser kräver planering"
       ],
       "tags": [
         "Avatar",
@@ -8180,7 +8184,7 @@
       "speed": 82,
       "pricev": 56,
       "rating": 82,
-      "deep": "Standardvalet för avatar-baserad utbildnings- och företagsvideo — manus in, talande presentatör ut, på över 140 språk.",
+      "deep": "Ett företagsinriktat verktyg för manusdriven AI-video med avatarer, röster och lokaliseringsfunktioner. Särskilt relevant när videor ska produceras och dubbning hanteras i större skala, men mindre lämpligt för innehåll som främst kräver traditionell filmning eller detaljerade fysiska demonstrationer.",
       "caps": [
         "Avatarer",
         "Manus-till-video",
@@ -8192,7 +8196,53 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {
+        "long": {
+          "checkedAt": "2026-09-15T10:07:38.861Z",
+          "sources": [
+            {
+              "url": "https://www.synthesia.io/features",
+              "quote": "create professional videos without mics, cameras, actors, or studios."
+            },
+            {
+              "url": "https://www.synthesia.io/pricing?country=7",
+              "quote": "Create engaging videos with AI avatars and voiceovers in 160+ languages."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-15T10:07:38.861Z",
+          "sources": [
+            {
+              "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
+              "quote": "Not ideal for live-action-first content"
+            },
+            {
+              "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
+              "quote": "Usage needs planning"
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-15T10:07:38.861Z",
+          "sources": [
+            {
+              "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
+              "quote": "Not ideal for live-action-first content"
+            },
+            {
+              "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
+              "quote": "Desktop is best for full editing"
+            },
+            {
+              "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
+              "quote": "Usage needs planning"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Topaz Labs",
@@ -8237,7 +8287,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Gemini Omni Flash",
@@ -8283,7 +8335,9 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {}
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastCheckError": "Some fields could not be verified"
     }
   ],
   "candidates": [
@@ -8393,7 +8447,8 @@
     {
       "name": "GPT‑6 Astra",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=unVd0k2FEwA"
+        "https://www.youtube.com/watch?v=unVd0k2FEwA",
+        "https://www.youtube.com/watch?v=QmTXweHPWE4"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T10:20:02.015Z",
@@ -8435,7 +8490,10 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=91Qn01hMPg8"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Hi3D V3.0",
@@ -8443,7 +8501,10 @@
         "https://www.youtube.com/watch?v=hk21B_dI-gA",
         "https://www.youtube.com/watch?v=OvkxZS_bBXE"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Cinema Studio AI",
@@ -8472,6 +8533,76 @@
         "https://www.youtube.com/watch?v=_WfWe4aG-ME"
       ],
       "firstSeen": "2026-09-14T10:44:18.176Z"
+    },
+    {
+      "name": "YuE2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=9RtywbN--QE"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Google Flow",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=iixnU96ZEAM"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "3D AI Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Kaedim",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Polycam",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "RapidDirect",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "GPT Image 2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f8FHas1dmt8"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f8FHas1dmt8"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "OpenAI GPT-6",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f8FHas1dmt8"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Fast3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=sZgl9TmRjgI"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z"
     }
   ],
   "sourceChecks": {},
@@ -9138,34 +9269,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-15T08:00:56.454Z",
+    "calculatedAt": "2026-09-15T10:07:38.861Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.46624792919824176,
+      "chatgpt-images-2-0": 0.4622031846978912,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.4612318558978935,
-      "google-veo-3-1": 0.4612318558978935,
+      "runway-gen-4-5": 0.4572306263037213,
+      "google-veo-3-1": 0.4572306263037213,
       "flux-2": 0,
       "elevenlabs": 0,
       "elevenmusic": 0,
-      "heygen": 0.20957424107722725,
+      "heygen": 0.20775616488658352,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.1466912534636347,
+      "adobe-firefly": 1.136743599328156,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 1.9273460340596822,
+      "higgsfield": 1.9106261265097637,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.0050830878483157,
+      "meshy-ai": 0.9963638978264735,
       "magnific-ai": 0,
-      "seedance-2-5": 0.992085810298062,
+      "seedance-2-5": 0.9834793728775695,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -9175,17 +9306,17 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 1.3604295670574564,
+      "rodin-hyper3d": 1.348627713011837,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.9395717928381839,
-      "trellis-2": 1.9147856334988471,
+      "hunyuan3d": 0.9314209194427743,
+      "trellis-2": 1.8981746886014343,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.9395717928381839,
-      "hitem3d": 0.9395717928381839,
+      "luma-genie": 0.9314209194427743,
+      "hitem3d": 0.9314209194427743,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
