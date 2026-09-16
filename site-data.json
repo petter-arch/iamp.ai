@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T18:27:51.102Z",
+  "updatedAt": "2026-09-16T09:59:51.512Z",
   "newsCheckedAt": "2026-09-16T07:53:58.364Z",
   "news": [
     {
@@ -5571,9 +5571,9 @@
       "sub": "Hetaste bildverktyget — inbyggt i ChatGPT",
       "long": "GPT Image 2 lanserades 21 april 2026 och toppade Image Arena med det största Elo-gapet i ledtavlans historia. Den gör tre saker bättre än alla andra: renderar läsbar text i bilder, redigerar iterativt via vanlig chatt (\"gör bakgrunden mörkare\") och förstår komplexa prompter. Eftersom den bor i ChatGPT behöver du ingen separat app — perfekt för marknadsförare, lärare och alla som vill skapa konversationellt.",
       "pros": [
-        "Bäst på text i bild",
-        "Redigera genom att chatta",
-        "Inga nya verktyg att lära"
+        "Snabb bildgenerering och redigering",
+        "Flexibla bildstorlekar",
+        "Stöd för högupplösta bildinmatningar"
       ],
       "cons": [
         "Låg gratisgräns per dygn",
@@ -5603,9 +5603,19 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:20:18.646Z",
-      "lastCheckError": "Official source unavailable"
+      "fieldChecks": {
+        "pros": {
+          "checkedAt": "2026-09-16T09:59:51.512Z",
+          "sources": [
+            {
+              "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+              "quote": "It supports flexible image sizes and high-fidelity image inputs."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "MAI-Image-2.6",
@@ -5652,8 +5662,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:20:18.646Z",
-      "lastCheckError": "Quote not found in retrieved source"
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Midjourney V8.2",
@@ -5702,8 +5712,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:20:18.646Z",
-      "lastCheckError": "Official source unavailable"
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Runway Gen-4.5",
@@ -5714,7 +5724,7 @@
       "bdg": "",
       "pct": 83,
       "price": "Från $12 mån",
-      "sub": "Proffsverktyget för film — bäst kontroll",
+      "sub": "Avancerad videogenerering med text- och bildstyrning",
       "long": "Har den mest avancerade kontrollytan för professionell film: rörelseborstar (motion brush), scenkonsekvens och References-systemet som håller karaktärer och miljöer konsekventa över flera tagningar. Gen-4.5 har native ljud. Används av riktiga studios — valet när du vill regissera, inte bara generera.",
       "pros": [
         "Riktig kontroll över rörelse",
@@ -5752,9 +5762,19 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:20:18.646Z",
-      "lastCheckError": "Official source unavailable"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-16T09:59:51.512Z",
+          "sources": [
+            {
+              "url": "https://academy.runwayml.com/models-pricing",
+              "quote": "Most advanced video generation with high realism and cinematography"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Google Veo 3.1",
@@ -8731,14 +8751,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=mG5M6gPFlU8"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile"
     },
     {
       "name": "Tripo 2.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tqUEnRj0NbM"
       ],
-      "firstSeen": "2026-09-13T09:08:03.910Z"
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-16T09:59:51.512Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Google Pics",
@@ -8764,7 +8789,8 @@
     {
       "name": "Google Flow",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=iixnU96ZEAM"
+        "https://www.youtube.com/watch?v=iixnU96ZEAM",
+        "https://www.youtube.com/watch?v=shu68GIvZI8"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z"
     },
@@ -8823,6 +8849,62 @@
         "https://www.youtube.com/watch?v=sZgl9TmRjgI"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z"
+    },
+    {
+      "name": "Veo 3.1 Fast",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=shu68GIvZI8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Veo 3.1 Lite",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=shu68GIvZI8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "GPT Image 2.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nYCuS1j28w8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Flare",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nYCuS1j28w8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Sunburst",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nYCuS1j28w8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Syntx AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nYCuS1j28w8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "GPT-6 Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Tripo P2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z"
     }
   ],
   "sourceChecks": {},
@@ -9489,34 +9571,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-16T07:53:58.364Z",
+    "calculatedAt": "2026-09-16T09:59:51.512Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.42249417805814893,
+      "chatgpt-images-2-0": 0.4188526469388571,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.41794882432380764,
-      "google-veo-3-1": 0.41794882432380764,
+      "runway-gen-4-5": 0.41434647018713816,
+      "google-veo-3-1": 0.41434647018713816,
       "flux-2": 0,
-      "elevenlabs": 0.9189910680499955,
+      "elevenlabs": 0.9110701670140654,
       "elevenmusic": 0,
-      "heygen": 0.18990732436783847,
+      "heygen": 0.18827048895712242,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 1.0390831750216678,
+      "adobe-firefly": 1.0301271848237314,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.667681916955201,
+      "higgsfield": 2.6446888268217146,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.9107638371945861,
+      "meshy-ai": 0.9029138477090192,
       "magnific-ai": 0,
-      "seedance-2-5": 0.8989862533133433,
+      "seedance-2-5": 0.8912377763229561,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -9526,17 +9608,17 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 1.2327638060040758,
+      "rodin-hyper3d": 1.2221384577852359,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.8514002690036758,
-      "trellis-2": 1.7350978561422812,
+      "hunyuan3d": 0.8440619416714503,
+      "trellis-2": 1.7201428267802221,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.8514002690036758,
-      "hitem3d": 0.8514002690036758,
+      "luma-genie": 0.8440619416714503,
+      "hitem3d": 0.8440619416714503,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
