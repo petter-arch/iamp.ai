@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-09-15T18:27:51.102Z",
+  "startedAt": "2026-09-16T07:53:58.364Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-15T18:27:51.102Z",
+      "checkedAt": "2026-09-16T07:53:58.364Z",
       "found": 3
     }
   },
   "selection": {
     "fetched": 128,
-    "relevant": 31,
-    "supported": 28
+    "relevant": 38,
+    "supported": 35
   },
   "rejected": [
     {
@@ -49,14 +49,6 @@
       ]
     },
     {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
       "video": "K1qxC7ngB6U",
       "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
       "stage": "classification-evidence",
@@ -65,6 +57,31 @@
         6,
         7
       ]
+    },
+    {
+      "video": "Z0Gdh0GrsH4",
+      "title": "Hugging Face's robot sold out: a $399 robot duck did $2.6M in 24 hours #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "HhJJobhLUm0",
@@ -77,18 +94,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
       "stage": "insufficient-article-source"
     },
     {
       "video": "WfYwhIQ8xR0",
       "title": "Our AI Horror Film Competition is Back 👻",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
       "stage": "insufficient-article-source"
     },
     {
@@ -99,16 +111,26 @@
     {
       "video": "dZnsz2RYoAQ",
       "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "0",
-        "2",
-        "6"
-      ]
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QC7a1YWSq1M",
+      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "ayRUQFH41OA",
       "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GfPZm9yucQo",
+      "title": "AI News: The Most Insane Week So Far This Year!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "26PgYL5x_Ys",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing |Chatgpt New Photo Editing Prompt #ai#viral",
       "stage": "insufficient-article-source"
     },
     {
@@ -117,15 +139,45 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "3fE9r6CK5rA",
+      "title": "ChatGPT SHORTCUT | PART 5 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_3Fs541y4_s",
+      "title": "Testing GPT-6 Astra & Tripo 3D - Image to 3D Model Generation.",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "zptyHlExR9o",
       "title": "【最新AIニュース】画像生成も仕事も激変！GPT-6 Astra＆Images 2.5登場でクリエイターはどう変わる？",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "UE5YGR2VbYo",
+      "title": "The End of Movies Industry😱 (Runway Gen 3 & Google Veo)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Y9AUjH2szLg",
+      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
       "stage": "insufficient-article-source"
     },
     {
       "video": "YXiZP5QXJsE",
       "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "fhr3otX1k3s",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 0
 }
