@@ -1,113 +1,152 @@
 {
-  "startedAt": "2026-09-16T09:59:51.512Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-16T18:25:06.708Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 135,
+    "relevant": 33,
+    "supported": 31
+  },
+  "rejected": [
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "sub",
-      "message": "Invalid official citation"
+      "video": "K1qxC7ngB6U",
+      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6,
+        7
+      ]
     },
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-quality-and-speed-at-production-scale/4550970\",\"quote\":\"MAI-Image-2.6 pricing starts at $5 USD per 1M tokens for text input, $8 USD per 1M tokens for image input\",\"retrieved\":[]}"
+      "video": "-KcHn0QcSb0",
+      "title": "I Asked GPT-6 Astra to Build an AI Slop Detector",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "long",
-      "message": "Detail would be lost"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image\",\"quote\":\"MAI-Image-2.6 (Preview) | 2026-07-31 | Text-to-image generation Image-to-image edits\",\"retrieved\":[]}"
+      "video": "HhJJobhLUm0",
+      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "tags",
-      "message": "Official source unavailable"
+      "video": "QC7a1YWSq1M",
+      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "cons",
-      "message": "Official source unavailable"
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "tier",
-      "message": "Official source unavailable"
+      "video": "26PgYL5x_Ys",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing |Chatgpt New Photo Editing Prompt #ai#viral",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "message": "Invalid independent fact check"
+      "video": "3fE9r6CK5rA",
+      "title": "ChatGPT SHORTCUT | PART 5 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "ayRUQFH41OA",
+      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "UE5YGR2VbYo",
+      "title": "The End of Movies Industry😱 (Runway Gen 3 & Google Veo)",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "Y9AUjH2szLg",
+      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "tags",
-      "message": "Official source unavailable"
+      "video": "YXiZP5QXJsE",
+      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "caps",
-      "message": "Official source unavailable"
+      "video": "fhr3otX1k3s",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "tier",
-      "message": "Official source unavailable"
+      "video": "_3Fs541y4_s",
+      "title": "Testing GPT-6 Astra & Tripo 3D - Image to 3D Model Generation.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "free",
-      "message": "fetch failed"
-    },
-    {
-      "candidate": "Cinema Studio AI",
-      "message": "Incomplete independent verification of new profile"
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 2
 }
