@@ -1,75 +1,63 @@
 {
-  "startedAt": "2026-09-16T18:25:06.708Z",
+  "startedAt": "2026-09-17T07:58:13.657Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-16T18:25:06.708Z",
+      "checkedAt": "2026-09-17T07:58:13.657Z",
       "found": 2
     }
   },
   "selection": {
-    "fetched": 135,
-    "relevant": 33,
-    "supported": 31
+    "fetched": 137,
+    "relevant": 36,
+    "supported": 34
   },
   "rejected": [
     {
+      "video": "pvSdeU13hKc",
+      "title": "This GPU can be Hacked to Unlock Secret Memory ",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        28
+      ]
+    },
+    {
+      "video": "z9g5ivC5D1o",
+      "title": "Cybercab 3D model test: Astra + Tripo workflow. #Tripo3D #Astra #TextTo3D #TeslaCybercab",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
       "video": "_fSIhcZqm2g",
       "title": "Video Editing Is About to Change Forever",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "K1qxC7ngB6U",
-      "title": "Hugging Face 🤗's $399 robot duck: 10,000 orders in 5 days",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        6,
-        7
-      ]
-    },
-    {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-KcHn0QcSb0",
-      "title": "I Asked GPT-6 Astra to Build an AI Slop Detector",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
       "stage": "insufficient-article-source"
     },
     {
@@ -83,6 +71,16 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "WfYwhIQ8xR0",
+      "title": "Our AI Horror Film Competition is Back 👻",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "pEYqorQrc4U",
       "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
       "stage": "insufficient-article-source"
@@ -93,8 +91,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QC7a1YWSq1M",
-      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "video": "j-o0umbbge0",
+      "title": "GPT-6 Astra Crushes Water Physics",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "H2tsuziBpxk",
+      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -103,23 +106,21 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "26PgYL5x_Ys",
-      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing |Chatgpt New Photo Editing Prompt #ai#viral",
+      "video": "eVBJIUxv8N8",
+      "title": "GPT-6 Astra Changes Everything",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "3fE9r6CK5rA",
-      "title": "ChatGPT SHORTCUT | PART 5 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
-      "stage": "insufficient-article-source"
+      "video": "kC12eMs0SF0",
+      "title": "Seedance 2.5 Is INSANE for Realistic AI Filmmaking (Full Workflow)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "3"
+      ]
     },
     {
-      "video": "ayRUQFH41OA",
-      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UE5YGR2VbYo",
-      "title": "The End of Movies Industry😱 (Runway Gen 3 & Google Veo)",
+      "video": "3v1NaleMmhE",
+      "title": "Jab Zid pe Aa Gayi Parvati song Ai video editing | Trending Parvati Ai Video Editing Tutorial",
       "stage": "insufficient-article-source"
     },
     {
@@ -128,13 +129,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "YXiZP5QXJsE",
-      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "fhr3otX1k3s",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "video": "QC7a1YWSq1M",
+      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ayRUQFH41OA",
+      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
       "stage": "insufficient-article-source"
     },
     {
@@ -148,5 +154,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2
+  "accepted": 3
 }
