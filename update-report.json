@@ -1,158 +1,58 @@
 {
-  "startedAt": "2026-09-17T07:58:13.657Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 137,
-    "relevant": 36,
-    "supported": 34
-  },
-  "rejected": [
+  "startedAt": "2026-09-17T10:02:21.710Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "pvSdeU13hKc",
-      "title": "This GPU can be Hacked to Unlock Secret Memory ",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        28
-      ]
+      "platform": "google-veo-3-1",
+      "field": "cons",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "z9g5ivC5D1o",
-      "title": "Cybercab 3D model test: Astra + Tripo workflow. #Tripo3D #Astra #TextTo3D #TeslaCybercab",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "flux-2",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://bfl.ai/pricing?category=flux.2\",\"quote\":\"FLUX.2 [max] $0.07\",\"retrieved\":[]}"
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "insufficient-article-source"
+      "platform": "flux-2",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose\",\"quote\":\"Highest quality with grounding search\",\"retrieved\":[]}"
     },
     {
-      "video": "HhJJobhLUm0",
-      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
-      "stage": "insufficient-article-source"
+      "platform": "elevenlabs",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
-      "stage": "insufficient-article-source"
+      "platform": "elevenmusic",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
+      "platform": "elevenmusic",
+      "field": "sub",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "WfYwhIQ8xR0",
-      "title": "Our AI Horror Film Competition is Back 👻",
-      "stage": "insufficient-article-source"
+      "platform": "elevenmusic",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
+      "platform": "elevenmusic",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "insufficient-article-source"
+      "candidate": "Google Pics",
+      "message": "Invalid evidence URL"
     },
     {
-      "video": "j-o0umbbge0",
-      "title": "GPT-6 Astra Crushes Water Physics",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "H2tsuziBpxk",
-      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "NruzIzLJxmM",
-      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "eVBJIUxv8N8",
-      "title": "GPT-6 Astra Changes Everything",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kC12eMs0SF0",
-      "title": "Seedance 2.5 Is INSANE for Realistic AI Filmmaking (Full Workflow)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "3"
-      ]
-    },
-    {
-      "video": "3v1NaleMmhE",
-      "title": "Jab Zid pe Aa Gayi Parvati song Ai video editing | Trending Parvati Ai Video Editing Tutorial",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Y9AUjH2szLg",
-      "title": "Gemini Car Lover Photo Edit I Ai Photo Editing I Ai Trending Photo Editing | Car Prompt Gemini Ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xILj0L1v1io",
-      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QC7a1YWSq1M",
-      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ayRUQFH41OA",
-      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_3Fs541y4_s",
-      "title": "Testing GPT-6 Astra & Tripo 3D - Image to 3D Model Generation.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "insufficient-article-source"
+      "candidate": "ChatGPT Image 2.5",
+      "message": "Official source unavailable"
     }
   ],
-  "accepted": 3
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }

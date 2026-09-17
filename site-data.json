@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T07:58:13.657Z",
+  "updatedAt": "2026-09-17T10:02:21.710Z",
   "newsCheckedAt": "2026-09-17T07:58:13.657Z",
   "news": [
     {
@@ -6113,8 +6113,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:35:32.529Z",
-      "lastCheckError": "Quote not found in retrieved source"
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "FLUX.2",
@@ -6125,31 +6125,39 @@
       "bdg": "",
       "pct": 80,
       "price": "Gratis (klein, open weight) till API per bild (pro)",
-      "sub": "Fyra modellvarianter — från on-device till moln",
+      "sub": "Fem modellvarianter — från lokal realtidskörning till maximal kvalitet",
       "long": "FLUX.2 efterträder 1.1 Pro med fyra varianter: pro, flex, dev och klein. Klein (jan 2026) genererar och redigerar bilder på under en sekund på vanlig konsumenthårdvara, medan hela familjen håller stil och karaktär konsekvent över flera referensbilder och kan redigera bilder upp till 4 megapixel.",
       "pros": [
-        "Fyra varianter för olika behov",
-        "Klein kör lokalt, mycket snabbt",
-        "Öppna vikter för flex/dev/klein"
+        "Fem varianter för hastighet, kvalitet, typografi och utveckling",
+        "Upp till tio referensbilder för generation och redigering",
+        "Klein 4B kan köras lokalt på konsument-GPU och är Apache 2.0-licensierad"
       ],
       "cons": [
-        "Pro-varianten kräver API/moln",
-        "Nyare familj — mindre dokumentation ännu"
+        "Max är långsammare än övriga alternativ",
+        "Klein 9B använder FLUX Non-Commercial License",
+        "Dev är gratis endast för icke-kommersiell användning"
       ],
       "tags": [
         "Bildgen",
+        "Bildredigering",
+        "Multi-reference",
         "Open Weight",
         "On-device",
-        "API"
+        "API",
+        "4MP"
       ],
       "url": "https://bfl.ai",
       "tech": 90,
       "speed": 88,
       "pricev": 78,
       "rating": 87,
-      "deep": "Välj klein för snabba, lokala utkast utan kostnad, och pro via API när du behöver toppkvalitet. Fortfarande svagare på lång, exakt text jämfört med GPT Image 2.",
+      "deep": "Välj klein för interaktiva eller lokala flöden: 4B körs på konsument-GPU med omkring 13 GB VRAM och har Apache 2.0-licens. Välj pro för produktionsarbete i skala, flex när läsbar typografi är central och max för slutmaterial där högsta kvalitet samt grounding search behövs. Dev är ett alternativ för lokal utveckling, forskning och anpassning, men dess kostnadsfria användning är icke-kommersiell.",
       "caps": [
         "Text-till-bild",
+        "Bildredigering",
+        "Multi-reference",
+        "Upp till 10 referensbilder",
+        "Upp till 4 MP",
         "Open weights",
         "On-device",
         "API",
@@ -6161,9 +6169,96 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:35:32.529Z",
-      "lastCheckError": "Quote not found in retrieved source"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "FLUX.2 offers five model variants"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
+              "quote": "runs on consumer hardware with as little as 13GB VRAM."
+            },
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "Best for: E-commerce, content platforms, automated pipelines"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "Best for: Posters, advertisements, social media graphics with text"
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+              "quote": "It supports image generation & image editing."
+            },
+            {
+              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+              "quote": "Local deployment - Run [klein] / [dev] on your own hardware"
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+              "quote": "Both generation modes in a unified architecture"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+              "quote": "Use up to 10 source images simultaneously to guide generation"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+              "quote": "Higher resolution output - Up to 4 megapixels"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "FLUX.2 offers five model variants"
+            },
+            {
+              "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
+              "quote": "Fully open under Apache 2.0."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "[max] Highest quality final assets Slower"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "requires ~24GB VRAM, FLUX Non-Commercial License"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "Free for non-commercial use."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "ElevenLabs",
@@ -6174,22 +6269,23 @@
       "bdg": "hot",
       "pct": 72,
       "price": "Gratis / från $5 mån",
-      "sub": "#1 AI-röst och ljudgenerering",
-      "long": "Det ledande verktyget för AI-röst och text-till-tal 2026. Erbjuder röstkloning, dubbning på 29 språk och mycket realistiska röster. Används av filmproducenter, podcasters och spelskapare för voiceover och karaktärsröster.",
+      "sub": "AI-röster, röstkloning och dubbning",
+      "long": "ElevenLabs erbjuder AI-röster, röstkloning och dubbning för ljud och video. Dubbning stöder översättning över 90 språk med röstöversättning, talarigenkänning och ljuddubbning. Instant Voice Cloning använder korta ljudprov, medan Professional Voice Cloning finjusterar modellen med röstprov.",
       "pros": [
-        "Bäst röstkvalitet & kloning",
-        "29-språkig dubbning",
-        "Generös gratisnivå"
+        "Dubbning på över 90 språk",
+        "Instant Voice Cloning från korta ljudprov",
+        "Gratisplan med 10 000 krediter per månad"
       ],
       "cons": [
-        "Röstkloning kräver samtycke",
-        "Kostnad skalar med minuter"
+        "Brusiga, korta eller lågkvalitativa inspelningar kan försämra röstklonen",
+        "Professional Voice Cloning kräver Creator-plan eller högre",
+        "Gratisdubbning förses automatiskt med vattenstämpel"
       ],
       "tags": [
         "Ljud",
         "Röstkloning",
-        "29 språk",
-        "Voiceover"
+        "90+ språk",
+        "Dubbning"
       ],
       "url": "https://elevenlabs.io",
       "tech": 90,
@@ -6209,9 +6305,79 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:35:32.529Z",
-      "lastCheckError": "Quote not found in retrieved source"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/overview/capabilities/voices",
+              "quote": "Learn how to create, customize, and manage voices with ElevenLabs."
+            },
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+              "quote": "Translate audio and video files with ElevenLabs dubbing."
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+              "quote": "Dubbing allows you to translate content across 90+ languages"
+            },
+            {
+              "url": "https://elevenlabs.io/pricing",
+              "quote": "Professional Voice Cloning"
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+              "quote": "across 90+ languages"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+              "quote": "voice translation, speaker detection, and audio dubbing."
+            },
+            {
+              "url": "https://elevenlabs.io/docs/eleven-api/concepts/voice-cloning",
+              "quote": "It works from short samples."
+            },
+            {
+              "url": "https://elevenlabs.io/pricing",
+              "quote": "10k credits per month"
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/eleven-api/concepts/voice-cloning",
+              "quote": "poor quality recordings, short samples, or noisy audio will all degrade the clone."
+            },
+            {
+              "url": "https://elevenlabs.io/docs/eleven-api/concepts/voice-cloning",
+              "quote": "PVC requires a Creator plan or above"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+              "quote": "Dubs generated on free plans are automatically watermarked"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "ElevenMusic",
@@ -6257,8 +6423,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:35:32.529Z",
-      "lastCheckError": "Quote not found in retrieved source"
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "HeyGen",
@@ -8937,7 +9103,8 @@
         "https://www.youtube.com/watch?v=X1dJjPFLNWQ",
         "https://www.youtube.com/watch?v=xNSX8ZHpTpM",
         "https://www.youtube.com/watch?v=VsmL_KROmyI",
-        "https://www.youtube.com/watch?v=Q5-LJDxZlrg"
+        "https://www.youtube.com/watch?v=Q5-LJDxZlrg",
+        "https://www.youtube.com/watch?v=2bSaEc0zOzQ"
       ],
       "firstSeen": "2026-09-10T09:48:18.251Z",
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
@@ -9061,19 +9228,26 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=AIzQNLZ9BY4"
       ],
-      "firstSeen": "2026-09-14T10:44:18.176Z"
+      "firstSeen": "2026-09-14T10:44:18.176Z",
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "ChatGPT Image 2.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=_WfWe4aG-ME"
       ],
-      "firstSeen": "2026-09-14T10:44:18.176Z"
+      "firstSeen": "2026-09-14T10:44:18.176Z",
+      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "YuE2",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=9RtywbN--QE"
+        "https://www.youtube.com/watch?v=9RtywbN--QE",
+        "https://www.youtube.com/watch?v=dQVmJog7au8"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z"
     },
@@ -9196,6 +9370,41 @@
         "https://www.youtube.com/watch?v=h_mR2BRibZ8"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
+    },
+    {
+      "name": "Suno V6",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dQVmJog7au8"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z"
+    },
+    {
+      "name": "Pinokio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dQVmJog7au8"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z"
+    },
+    {
+      "name": "Wan2GP",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dQVmJog7au8"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z"
+    },
+    {
+      "name": "CoreTV.ai",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=xTKCgxLyzxM"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z"
+    },
+    {
+      "name": "Gemini AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=L049uPaPQ4A"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z"
     }
   ],
   "sourceChecks": {},
@@ -9862,34 +10071,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-17T07:58:13.657Z",
+    "calculatedAt": "2026-09-17T10:02:21.710Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.38255102987585426,
+      "chatgpt-images-2-0": 0.3792994565405985,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.3784353997854842,
-      "google-veo-3-1": 0.3784353997854842,
+      "runway-gen-4-5": 0.3752188081180701,
+      "google-veo-3-1": 0.3752188081180701,
       "flux-2": 0,
-      "elevenlabs": 0.8321084592101786,
+      "elevenlabs": 0.8250357774848498,
       "elevenmusic": 0,
-      "heygen": 0.17195323933643797,
+      "heygen": 0.17049168643428356,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 0.9408469024548366,
+      "adobe-firefly": 0.9328499753479538,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.4154758046676523,
+      "higgsfield": 2.394944957525607,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.824659041442509,
+      "meshy-ai": 0.817649677618022,
       "magnific-ai": 0,
-      "seedance-2-5": 0.8139949256340338,
+      "seedance-2-5": 0.8070762037158519,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -9899,17 +10108,17 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 1.116216715099043,
+      "rodin-hyper3d": 1.1067291952030418,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7709077820691488,
-      "trellis-2": 1.571059451880213,
+      "hunyuan3d": 0.7643552884346898,
+      "trellis-2": 1.5577059000063804,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.7709077820691488,
-      "hitem3d": 0.7709077820691488,
+      "luma-genie": 0.7643552884346898,
+      "hitem3d": 0.7643552884346898,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
