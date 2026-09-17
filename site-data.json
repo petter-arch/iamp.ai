@@ -1,8 +1,185 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T10:02:21.710Z",
-  "newsCheckedAt": "2026-09-17T07:58:13.657Z",
+  "updatedAt": "2026-09-17T18:32:03.336Z",
+  "newsCheckedAt": "2026-09-17T18:32:03.336Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "The full cinematic AI film workflow: GPT-6 (Astra) in Codex running Runway and Seedance 2.5, then DaVinci Resolve. That's the actual AI filmmaking pipeline I",
+      "evidenceIds": [
+        1,
+        2,
+        15
+      ],
+      "id": "WKO-YgMQhLI",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "AI-filmworkflow kopplar GPT-6 (Astra) till Runway och Seedance 2.5",
+      "sum": "Theoretically Media beskriver ett AI-baserat filmflöde där GPT-6 (Astra) i Codex kopplas till Runway via MCP och används för manus, karaktärer, bildrutor, produktion och delar av efterarbetet. Enligt kanalen återskapades en tidigare AI-film på ungefär ett och ett halvt dygn, men arbetsflödet hade också tydliga begränsningar: agenten missade funktioner i Runway och kunde inte effektivt ersätta den manuella första klippningen.",
+      "full": "Theoretically Media presenterar ett sammanhängande arbetsflöde för AI-filmskapande där GPT-6, kallad Astra, körs i Codex och kopplas till Runway via Runway MCP. Kanalen uppger att arbetsflödet användes för att återskapa en av kanalens tidiga AI-filmer på ungefär ett och ett halvt dygn. Processen omfattade manus, karaktärer, bildrutor, färgsättning, titlar och ljudmix.\n\nEn central del är en så kallad studiofilmfärdighet: en mappstruktur som beskriver hur filmerna är uppbyggda och hur modellen ska genomföra arbetet. Kanalen beskriver också ett produktionsdashboard i form av en vanlig HTML-fil på datorn. Dashboarden pekar mot projektmappen och samlar bildrutor, promptar, storyboardmaterial, referenser och platser. Astra skrev dessutom en sessionsdagbok efter varje arbetstillfälle för att kunna återkalla sådant som annars kunde glömmas.\n\nArbetssättet bygger på röststyrning. Enligt Theoretically Media kunde regissören ge vardagliga, konversationsbaserade instruktioner och få dem omvandlade till strukturerade promptar. Karaktärsreferenser skapades i Midjourney, varefter 360-graders vändningar genererades som video. Kanalen framhåller detta som en del av arbetsflödet, men beskriver också att agenten inte automatiskt hittade alla relevanta utdataalternativ som fanns tillgängliga i Runway. Därför behövde användaren själv hålla uppsikt över plattformen.\n\nEfter produktionssteget testades agentstyrning av en Premiere-tidslinje genom datoranvändning. Det blev enligt kanalen snabbt frustrerande, och den första klippningen gjordes därför manuellt. I DaVinci Resolve genomfördes därefter färgkorrigering, mindre klipp och övergångar, Fusion-titlar samt en full ljudmix för dialog, musik och atmosfär. Theoretically Media uppger att musen inte användes under Resolve-arbetet. Videon tar även upp Ruby, Runways SDR-till-HDR-modell, i samband med färggradering.",
+      "deep": "Källbeskrivningen visar ett arbetsflöde där AI-agenten inte bara används för att generera enskilda bilder eller videoklipp, utan för att samordna projektets struktur och flera produktionsmoment. GPT-6 (Astra) i Codex pekas ut som den koordinerande komponenten, medan Runway och Seedance 2.5 ingår i den generativa delen av flödet. Runway MCP används för kopplingen mellan Codex och Runway.\n\nDen praktiska organisationen är viktig i kanalens beskrivning. Studiofilmfärdigheten fungerar som en instruktionerad mappstruktur för projektet, och dashboarden ger en samlad vy över varje bildruta, prompt, storyboard, referens och plats. Sessionsdagboken är ytterligare ett minnesstöd som dokumenterar vad som gjordes under respektive session.\n\nKanalen beskriver dock inte en helt autonom produktion. Agenten missade funktioner i Runway som var synliga på plattformen, vilket gjorde mänsklig kontroll nödvändig. Försöket att låta Astra arbeta direkt med en Premiere-tidslinje fungerade inte tillräckligt bra för den första klippningen. Den slutliga processen kombinerade därför agentbaserad generering och styrning med manuell redigering samt ett efterarbete i DaVinci Resolve. Ruby nämns specifikt som ett verktyg för att konvertera SDR till HDR och ge större spelrum vid färggradering.",
+      "en": {
+        "ttl": "AI film workflow connects GPT-6 (Astra) to Runway and Seedance 2.5",
+        "sum": "Theoretically Media describes an AI-based film workflow in which GPT-6 (Astra) in Codex connects to Runway through MCP and is used for scripting, characters, shots, production and parts of post-production. The channel says it remade an earlier AI film in about a day and a half, but the workflow also had clear limitations: the agent missed Runway features and could not effectively replace the manual first edit.",
+        "full": "Theoretically Media presents an integrated workflow for AI filmmaking in which GPT-6, called Astra, runs in Codex and connects to Runway through Runway MCP. The channel says the workflow was used to remake one of its early AI films in about a day and a half. The process covered the script, characters, shots, grading, titles and audio mix.\n\nA central component is a so-called studio film skill: a folder structure that describes how the films are built and how the model should execute the work. The channel also describes a production dashboard in the form of a plain HTML file on the desktop. The dashboard points to the project folder and collects shots, prompts, storyboards, references and locations. Astra also wrote a session diary after each work period so it could recall details that might otherwise be forgotten.\n\nThe workflow uses voice direction. According to Theoretically Media, the director could provide conversational instructions and have them converted into structured prompts. Character references were created in Midjourney, followed by 360-degree turnarounds generated as video. The channel presents this as part of the workflow, but also says the agent did not automatically find every relevant output option available in Runway. The user therefore still had to monitor the platform.\n\nThe post-production stage included a test in which the agent operated a Premiere timeline through computer use. The process became frustrating quickly, according to the channel, so the first edit was completed manually. DaVinci Resolve was then used for grading, small trims and dissolves, Fusion titles, and a full audio mix for dialogue, music and ambience. Theoretically Media says the mouse was not used during the Resolve work. The video also discusses Ruby, Runway's SDR-to-HDR model, in connection with color grading.",
+        "deep": "The source description presents a workflow in which an AI agent is used not only to generate individual images or video clips, but also to coordinate the project's structure and several production stages. GPT-6 (Astra) in Codex is identified as the coordinating component, while Runway and Seedance 2.5 are part of the generative workflow. Runway MCP provides the connection between Codex and Runway.\n\nProject organization is central to the channel's account. The studio film skill acts as an instruction-based folder structure for the project, while the dashboard provides a consolidated view of each shot, prompt, storyboard, reference and location. The session diary adds another memory aid by documenting what was done during each session.\n\nThe channel does not describe a fully autonomous production. The agent missed features that were visible in Runway, making human supervision necessary. The attempt to let Astra work directly on a Premiere timeline did not perform well enough for the first edit. The resulting process therefore combined agent-based generation and control with manual editing and finishing in DaVinci Resolve. Ruby is specifically mentioned as a tool for converting SDR to HDR and providing more latitude during grading."
+      },
+      "cat": "film",
+      "date": "2026-09-17T14:20:28Z",
+      "meta": "Theoretically Media · 2026-09-17",
+      "url": "https://www.youtube.com/watch?v=WKO-YgMQhLI",
+      "img": "https://i.ytimg.com/vi/WKO-YgMQhLI/hqdefault.jpg",
+      "plat": "Runway Gen-4.5",
+      "platformIds": [
+        "runway-gen-4-5"
+      ],
+      "chans": [
+        "Theoretically Media"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "A whole film in about a day"
+        },
+        {
+          "t": 49,
+          "l": "The original vs. the remake"
+        },
+        {
+          "t": 112,
+          "l": "The old, hard way"
+        },
+        {
+          "t": 177,
+          "l": "GPT-6, Codex and Runway MCP"
+        },
+        {
+          "t": 231,
+          "l": "My film studio skill"
+        },
+        {
+          "t": 297,
+          "l": "Rebuilding the script and characters"
+        },
+        {
+          "t": 330,
+          "l": "360 character turnarounds"
+        },
+        {
+          "t": 380,
+          "l": "Why I built a production tracker"
+        },
+        {
+          "t": 409,
+          "l": "Inside the production dashboard"
+        },
+        {
+          "t": 476,
+          "l": "Astra's session diary"
+        },
+        {
+          "t": 512,
+          "l": "Directing by voice"
+        },
+        {
+          "t": 565,
+          "l": "What the agent missed in Runway"
+        },
+        {
+          "t": 626,
+          "l": "The wait, and editing it myself"
+        },
+        {
+          "t": 732,
+          "l": "A look inside Runway"
+        },
+        {
+          "t": 844,
+          "l": "Color grading in DaVinci Resolve"
+        },
+        {
+          "t": 919,
+          "l": "Ruby and HDR"
+        },
+        {
+          "t": 957,
+          "l": "Small edits and Fusion titles"
+        },
+        {
+          "t": 1009,
+          "l": "The audio mix"
+        },
+        {
+          "t": 1035,
+          "l": "How much usage it took"
+        },
+        {
+          "t": 1089,
+          "l": "Where this goes next"
+        },
+        {
+          "t": 1127,
+          "l": "The real takeaway"
+        }
+      ],
+      "views": 3199,
+      "buzz": 62,
+      "sourceCheckedAt": "2026-09-17T18:32:03.336Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "a4c2f2c05103b01040365e9a955ac47c9f9e85ee5e1326e85aca64707c28b612",
+      "trusted": true,
+      "sourceId": "theoreticallymedia",
+      "newPlatforms": [
+        "GPT-6 (Astra)",
+        "Codex",
+        "Runway MCP",
+        "Seedance 2.5",
+        "Ruby"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "General artificial intelligence arrived in the tools first — models that The same shift is rewriting advertising. A brand no longer buys access to takes",
+      "evidenceIds": [
+        7,
+        16,
+        19
+      ],
+      "id": "uTRaloPsqcM",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "GEN AGI – filmskapandet har förlorat sina grindvakter",
+      "sum": "Help Studio beskriver hur generativ AI sänker kostnaderna för filmskapande och reklamproduktion genom verktyg som kan hålla ihop en bildsekvens, skapa eget ljud och följa instruktioner i naturligt språk. Samtidigt framhåller kanalen att mänskligt omdöme och smak fortfarande krävs för att avgöra vilka idéer som bör förverkligas.",
+      "full": "I videon GEN AGI — Filmmaking Just Lost Its Gatekeepers hävdar Help Studio att generativ AI håller på att förändra vilka som får möjlighet att skapa film. Enligt kanalen har tröskeln länge bestått av kostnader för utrustning, filmteam och produktionsbolag snarare än av någon fysisk begränsning. AI-verktyg gör nu delar av denna produktion tillgängliga genom att låta en idé och en eftermiddag ersätta mycket av den tidigare resursåtgången.\n\nHelp Studio beskriver verktyg som kan hålla ihop en sammanhängande bildsekvens, generera eget ljud och svara på en mening i stället för på en produktionsbudget. Beskrivningen anger inte vilka modeller eller plattformar som används, och kanalen presenterar därför ingen oberoende jämförelse eller test av enskilda produkter.\n\nEnligt Help Studio påverkar utvecklingen även reklam. I stället för att främst köpa tillgång till produktion handlar uppdraget mer om att bedöma vilka idéer som förtjänar att förverkligas. Kanalen betonar samtidigt att billigare verktyg inte automatiskt höjer den kreativa standarden.\n\nHelp Studio uppger att deras kommersiella produktion kombinerar en människa med en AI-agent vid fem kontrollpunkter för varje koncept innan det publiceras. Det framställer mänsklig smak och bedömning som den centrala kvarvarande kvalitetsfaktorn, även när AI tar över fler praktiska delar av arbetsflödet.",
+      "deep": "Videons huvudtes är att AI förändrar urvalssystemet kring filmskapande, inte bara effektiviteten i enskilda produktionsmoment. Help Studio kopplar utvecklingen till modeller som enligt kanalens beskrivning kan bevara sammanhang i en scen, skapa ljud och följa en kort instruktion. Några tekniska specifikationer, modellnamn, priser eller verifierade resultat anges inte.\n\nKanalen placerar också AI-arbetsflödet i ett kommersiellt sammanhang. Reklamköpare sägs i högre grad behöva fatta beslut om vilka koncept som ska existera, medan produktionstillgången blir billigare. Samtidigt gör Help Studios formulering om fem mänskliga och AI-baserade kontrollpunkter tydligt att deras påstående inte är att mänsklig medverkan har blivit överflödig, utan att den flyttas mot granskning, urval och kreativ riktning.",
+      "en": {
+        "ttl": "GEN AGI – filmmaking has lost its gatekeepers",
+        "sum": "Help Studio describes how generative AI lowers the cost of filmmaking and advertising production through tools that can maintain shot coherence, generate their own sound and follow natural-language instructions. The channel also stresses that human judgment and taste are still needed to decide which ideas should be made.",
+        "full": "In GEN AGI — Filmmaking Just Lost Its Gatekeepers, Help Studio argues that generative AI is changing who gets the opportunity to make films. According to the channel, the barrier has long been the cost of equipment, crews and production companies rather than a physical limitation. AI tools are now making parts of production more accessible by allowing an idea and an afternoon to replace much of the previous resource requirement.\n\nHelp Studio describes tools that can maintain a coherent shot, generate their own sound and respond to a sentence instead of a production budget. The description does not identify the models or platforms involved, so the channel provides no independent comparison or test of specific products.\n\nAccording to Help Studio, the shift is also affecting advertising. Rather than primarily buying access to production, clients increasingly buy judgment about which ideas deserve to exist. The channel simultaneously emphasizes that cheaper tools do not automatically raise the creative standard.\n\nHelp Studio says its commercial production combines a human with an AI agent at five gates for every concept before release. This presents human taste and judgment as the remaining central quality factor, even as AI takes over more practical parts of the workflow.",
+        "deep": "The video's main thesis is that AI is changing the selection system around filmmaking, not merely the efficiency of individual production steps. Help Studio connects the shift to models that, according to the channel's description, can preserve scene coherence, create sound and follow a short instruction. No technical specifications, model names, prices or verified results are provided.\n\nThe channel also places the AI workflow in a commercial context. Advertising clients are said to be making more decisions about which concepts should exist, while production access becomes cheaper. At the same time, Help Studio's reference to five human and AI-based gates makes clear that its claim is not that human involvement has become unnecessary, but that it is moving toward review, selection and creative direction."
+      },
+      "cat": "film",
+      "date": "2026-09-17T10:51:43Z",
+      "meta": "Help Studio · 2026-09-17",
+      "url": "https://www.youtube.com/watch?v=uTRaloPsqcM",
+      "img": "https://i.ytimg.com/vi/uTRaloPsqcM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Help Studio"
+      ],
+      "parts": [],
+      "views": 0,
+      "buzz": 20,
+      "sourceCheckedAt": "2026-09-17T18:32:03.336Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "8851852a971f0ff6c76a689f3b6fce46d3d889301fb32d065644a80dffb011a2",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Welcome to the EX Epic AI Film Festival at EX Epic Academy — a hands-on creative experiment exploring how artificial intelligence is changing filmmaking, corporate",
@@ -131,6 +308,50 @@
         "Suno V6",
         "Pinokio",
         "Wan2GP"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Testing a ridiculously complex prompt: a U.S. map with every national park pinned, plus arrows pointing to retro posters. The model nails the concept, but",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "vEpkDv8B4T8",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Futurepedia testar en mycket komplex prompt i GPT Image 2.5",
+      "sum": "Futurepedia testar GPT Image 2.5 med en prompt som kombinerar en karta över USA, alla nationalparker, kartnålar, pilar och retroaffischer. Enligt kanalen klarar modellen den övergripande omfattningen och återger retroaffischerna korrekt, men har problem med kartprecision och pilarnas placering.",
+      "full": "Futurepedia har testat GPT Image 2.5 med en ovanligt komplex bildprompt: en karta över USA där varje nationalpark ska markeras med en kartnål, samtidigt som pilar pekar mot retroaffischer. Testet fokuserar därmed på hur modellen hanterar flera visuella krav i samma bild, inklusive geografisk placering, grafiska relationer och affischdesign.\n\nEnligt Futurepedia lyckades GPT Image 2.5 fånga den övergripande idén trots promptens omfattning. Kanalen beskriver det som anmärkningsvärt att modellen försökte genomföra hela kompositionen, och retroaffischerna uppges dessutom se korrekta ut.\n\nPrecisionen är däremot en tydlig svaghet i testet. Futurepedia uppger att många kartnålar inte hamnade i rätt delstat och att ungefär hälften av pilarna pekade långt från den nationalpark de skulle hänvisa till. Resultatet visar därför en skillnad mellan att förstå en komplex bilds helhetskoncept och att placera många detaljer exakt.",
+      "deep": "Testet ger ett konkret exempel på en AI-baserad bildgenereringsworkflow där en enda prompt kräver att modellen samordnar en geografisk karta, samtliga nationalparker, kartnålar, riktningspilar och retroinspirerade affischer. Futurepedias bedömning är att GPT Image 2.5 hanterar konceptets omfattning bättre än detaljernas exakta geografi.\n\nDet mest lyckade delmomentet enligt kanalens beskrivning är retroaffischerna, som faktiskt ser korrekta ut. De geografiska relationerna fungerar däremot sämre: kartnålarna placeras ofta i fel delstater och pilarna kopplar inte tillförlitligt ihop parker och affischer. Beskrivningen stöder därför inte slutsatsen att modellen kan användas för exakta kartografiska illustrationer utan kontroll eller efterbearbetning.",
+      "en": {
+        "ttl": "Futurepedia tests a highly complex prompt in GPT Image 2.5",
+        "sum": "Futurepedia tests GPT Image 2.5 with a prompt combining a map of the United States, all national parks, map pins, arrows and retro posters. According to the channel, the model captures the overall scope and renders the retro posters accurately, but struggles with geographic precision and arrow placement.",
+        "full": "Futurepedia tested GPT Image 2.5 with an unusually complex image prompt: a map of the United States in which every national park is marked with a pin, while arrows point toward retro posters. The test therefore examines how the model handles multiple visual requirements in one image, including geographic positioning, graphic relationships and poster design.\n\nAccording to Futurepedia, GPT Image 2.5 captured the overall idea despite the prompt’s scope. The channel describes it as remarkable that the model attempted the complete composition, and says the retro posters actually look accurate.\n\nPrecision is a clear weakness in the test, however. Futurepedia reports that many map pins were not placed in the correct states and that about half of the arrows pointed far away from the national park they were meant to reference. The result therefore shows a gap between understanding the overall concept of a complex image and placing many details accurately.",
+        "deep": "The test provides a concrete example of an AI image-generation workflow in which a single prompt asks the model to coordinate a geographic map, every national park, map pins, directional arrows and retro-style posters. Futurepedia’s assessment is that GPT Image 2.5 handles the scope of the concept better than the exact geographic details.\n\nAccording to the channel’s description, the strongest part is the retro posters, which look accurate. The geographic relationships are less reliable: the pins are often placed in the wrong states, and the arrows do not consistently connect parks and posters. The description therefore does not support using the model for precise cartographic illustrations without verification or further editing."
+      },
+      "cat": "foto",
+      "date": "2026-09-16T15:03:07Z",
+      "meta": "Futurepedia · 2026-09-16",
+      "url": "https://www.youtube.com/watch?v=vEpkDv8B4T8",
+      "img": "https://i.ytimg.com/vi/vEpkDv8B4T8/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Futurepedia"
+      ],
+      "parts": [],
+      "views": 1808,
+      "buzz": 59,
+      "sourceCheckedAt": "2026-09-17T18:32:03.336Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "21d02d22f5ad88d67e24d8e3f67fb3317be337a5d6630aa46a5fae4cc3ac4e42",
+      "trusted": true,
+      "sourceId": "futurepedia_io",
+      "newPlatforms": [
+        "GPT Image 2.5"
       ]
     },
     {
@@ -807,6 +1028,49 @@
       "newPlatforms": [
         "Fast3D"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Seedance 2.5 Is INSANE for Realistic AI Filmmaking (Full Workflow) Want to create cinematic AI videos with Seedance 2.5? In this Seedance 2.5 tutorial, I",
+      "evidenceIds": [
+        0,
+        3
+      ],
+      "id": "kC12eMs0SF0",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Seedance 2.5 visas för realistiskt AI-filmskapande",
+      "sum": "Kanalen Affiliation beskriver ett komplett arbetsflöde för att skapa filmiska AI-videor med Seedance 2.5, från realistiska scener till en färdig kortfilm.",
+      "full": "Kanalen Affiliation presenterar Seedance 2.5 som verktyget i ett komplett arbetsflöde för realistiskt AI-filmskapande. Beskrivningen fokuserar på hur man går från att generera realistiska AI-videosekvenser till att bygga en färdig AI-kortfilm.\n\nMaterialet beskrivs som en genomgång av hela processen, snarare än en presentation av en enskild scen. Enligt kanalen omfattar arbetsflödet tekniker för att skapa filmiska AI-videor och sammanställa resultaten till en färdig kortfilm med Seedance 2.5.\n\nBeskrivningen riktar sig både till personer som lär sig AI-filmskapande och till skapare som vill göra egna AI-filmer. Den anger dock inga specifika uppgifter om modellens lansering, prestanda, begränsningar eller resultat från ett oberoende test.",
+      "deep": "Kanalens beskrivning nämner två centrala steg: generering av realistiska AI-videosekvenser och uppbyggnad av en färdig AI-kortfilm. Den framställer genomgången som en fullständig arbetsprocess och inte enbart som en lista över verktyg.\n\nOpenArt nämns i källmaterialet som platsen där tittaren kan prova Seedance 2.5, men detta är en sponsrings- eller hänvisningsuppgift och utgör inte artikelns huvudämne. Beskrivningen hänvisar också till filer och arbetsflöden via en Skool-grupp, utan att specificera deras innehåll.",
+      "en": {
+        "ttl": "Seedance 2.5 is presented for realistic AI filmmaking",
+        "sum": "The Affiliation channel describes a complete workflow for creating cinematic AI videos with Seedance 2.5, from realistic scenes to a finished short film.",
+        "full": "The Affiliation channel presents Seedance 2.5 as the tool in a complete workflow for realistic AI filmmaking. The description focuses on moving from generating realistic AI video scenes to building a finished AI short film.\n\nThe material is described as a walkthrough of the full process rather than a presentation of a single scene. According to the channel, the workflow covers techniques for creating cinematic AI videos and assembling the results into a finished short film with Seedance 2.5.\n\nThe description is aimed at people learning AI filmmaking and creators who want to make their own AI films. However, it provides no specific information about the model’s release, performance, limitations, or results from an independent test.",
+        "deep": "The channel’s description identifies two central steps: generating realistic AI video scenes and building a finished AI short film. It presents the walkthrough as a complete production process rather than merely a list of tools.\n\nOpenArt is mentioned as a place where viewers can try Seedance 2.5, but this is a sponsorship or referral detail and is not the article’s main subject. The description also refers to files and workflows through a Skool group without specifying their contents."
+      },
+      "cat": "film",
+      "date": "2026-09-13T14:17:53Z",
+      "meta": "Affiliation · 2026-09-13",
+      "url": "https://www.youtube.com/watch?v=kC12eMs0SF0",
+      "img": "https://i.ytimg.com/vi/kC12eMs0SF0/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5"
+      ],
+      "chans": [
+        "Affiliation"
+      ],
+      "parts": [],
+      "views": 24365,
+      "buzz": 73,
+      "sourceCheckedAt": "2026-09-17T18:32:03.336Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5c1e5d2f56cfd198d645c9287ddf1364c58a8e545de9ae9374521b5994870a4f",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -9422,7 +9686,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7170000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -9440,7 +9704,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -9458,7 +9722,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -9476,7 +9740,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 380000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -9494,7 +9758,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6030000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -9512,7 +9776,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -9530,7 +9794,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 621000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -9548,7 +9812,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3440000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -9566,7 +9830,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 543000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -9584,7 +9848,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 413000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -9602,7 +9866,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -9620,7 +9884,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 844000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -9638,7 +9902,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -9656,7 +9920,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -9674,7 +9938,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1010000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -9692,7 +9956,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -9710,7 +9974,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 274000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -9728,7 +9992,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -9746,7 +10010,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21200000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -9764,7 +10028,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -9782,7 +10046,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -9800,7 +10064,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1260000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -9818,7 +10082,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 735000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -9836,7 +10100,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -9854,7 +10118,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 752000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -9872,7 +10136,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -9890,7 +10154,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 338000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -9908,7 +10172,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 195000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -9926,7 +10190,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 482000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -9944,7 +10208,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 449000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -9962,7 +10226,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -9980,7 +10244,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -9998,7 +10262,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -10016,7 +10280,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -10034,7 +10298,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -10042,63 +10306,63 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-17T07:58:13.657Z",
+      "checkedAt": "2026-09-17T18:32:03.336Z",
       "found": 2
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-17T10:02:21.710Z",
+    "calculatedAt": "2026-09-17T18:32:03.336Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.3792994565405985,
+      "chatgpt-images-2-0": 0.36623570442240705,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.3752188081180701,
-      "google-veo-3-1": 0.3752188081180701,
+      "runway-gen-4-5": 1.34514398100072,
+      "google-veo-3-1": 0.362295600834716,
       "flux-2": 0,
-      "elevenlabs": 0.8250357774848498,
+      "elevenlabs": 0.7966200687358768,
       "elevenmusic": 0,
-      "heygen": 0.17049168643428356,
+      "heygen": 0.1646196476233038,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 0.9328499753479538,
+      "adobe-firefly": 0.900720952668739,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.394944957525607,
+      "higgsfield": 2.312458766938413,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.817649677618022,
+      "meshy-ai": 0.7894883593674178,
       "magnific-ai": 0,
-      "seedance-2-5": 0.8070762037158519,
+      "seedance-2-5": 1.4405694836127736,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -10108,17 +10372,17 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 1.1067291952030418,
+      "rodin-hyper3d": 1.0686114609991424,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7643552884346898,
-      "trellis-2": 1.5577059000063804,
+      "hunyuan3d": 0.7380295243289068,
+      "trellis-2": 1.5040557209728402,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.7643552884346898,
-      "hitem3d": 0.7643552884346898,
+      "luma-genie": 0.7380295243289068,
+      "hitem3d": 0.7380295243289068,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,

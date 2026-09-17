@@ -1,58 +1,159 @@
 {
-  "startedAt": "2026-09-17T10:02:21.710Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-17T18:32:03.336Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-17T18:32:03.336Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 136,
+    "relevant": 38,
+    "supported": 36
+  },
+  "rejected": [
     {
-      "platform": "google-veo-3-1",
-      "field": "cons",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "flux-2",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://bfl.ai/pricing?category=flux.2\",\"quote\":\"FLUX.2 [max] $0.07\",\"retrieved\":[]}"
+      "video": "z9g5ivC5D1o",
+      "title": "Cybercab 3D model test: Astra + Tripo workflow. #Tripo3D #Astra #TextTo3D #TeslaCybercab",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "flux-2",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose\",\"quote\":\"Highest quality with grounding search\",\"retrieved\":[]}"
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "elevenlabs",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "HhJJobhLUm0",
+      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "elevenmusic",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "elevenmusic",
-      "field": "sub",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "elevenmusic",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "elevenmusic",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Google Pics",
-      "message": "Invalid evidence URL"
+      "video": "235JPVOKsko",
+      "title": "How I Created this Viral 3D VFX using Blender | Episode 3",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "ChatGPT Image 2.5",
-      "message": "Official source unavailable"
+      "video": "QC7a1YWSq1M",
+      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_KjoGTlmKCg",
+      "title": "🌄Night petrol pump TREND  Trending Photo Editing || Chatgpt Editing #gemini #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lEt-2d3B4yk",
+      "title": "How to Use Google Nano Banana AI Image Editor and Generator [2026 Guide]",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ayRUQFH41OA",
+      "title": "Tripo AI Review 2026 | AI 3D Model Generator, Features & Pricing",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "H2tsuziBpxk",
+      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "26PgYL5x_Ys",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing |Chatgpt New Photo Editing Prompt #ai#viral",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_3Fs541y4_s",
+      "title": "Testing GPT-6 Astra & Tripo 3D - Image to 3D Model Generation.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3v1NaleMmhE",
+      "title": "Jab Zid pe Aa Gayi Parvati song Ai video editing | Trending Parvati Ai Video Editing Tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3fE9r6CK5rA",
+      "title": "ChatGPT SHORTCUT | PART 5 | AI TOOLS | IMAGE GENERATION #editing #aishorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "YXiZP5QXJsE",
+      "title": "Best Youtube Channels to Learn AI Filmmaking 🤯 #shorts #ai #ytshorts #trending",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 4
 }
