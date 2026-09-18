@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T07:36:26.128Z",
+  "updatedAt": "2026-09-18T09:49:39.277Z",
   "newsCheckedAt": "2026-09-18T07:36:26.128Z",
   "news": [
     {
@@ -6895,9 +6895,9 @@
       "sub": "AI-avatarer & talande video — bäst videoöversättning",
       "long": "HeyGen är den ledande plattformen för AI-avatarer och talande huvuden. Du skriver ett manus, väljer en digital presentatör och får en färdig video — perfekt för produktdemos, utbildning och marknadsföring utan kamera eller studio. Avatar IV/V ger naturlig läppsynk och mikrouttryck, Digital Twin skapar en avatar av dig själv från ett par minuters film, och videoöversättning med läppsynk till 175+ språk är bäst i klassen. Körs på ett kreditsystem där premium-avatarer drar krediter per minut.",
       "pros": [
-        "Stöd för 175 språk och dialekter",
-        "Digital Twin med helkropp",
-        "Video Agent hanterar manus, bild, voiceover, avatarer, redigering och leverans"
+        "Avatar V fångar rörelser, gester och naturliga uttryck från en kort referensvideo",
+        "Röstklonen kan användas i 177+ språk och dialekter med fonemnivå-läppsynk",
+        "Video Agent hanterar hela arbetsflödet från manus och visuellt material till voiceover, avatarer, redigering och leverans"
       ],
       "cons": [
         "Kreditsystem kan ta slut fort",
@@ -6955,24 +6955,24 @@
           ]
         },
         "pros": {
-          "checkedAt": "2026-09-09T09:46:52.894Z",
+          "checkedAt": "2026-09-18T09:49:39.277Z",
           "sources": [
             {
-              "url": "https://www.heygen.com/pricing",
-              "quote": "175 languages & dialects"
+              "url": "https://help.heygen.com/en/articles/14602974-avatar-v-is-now-available-on-heygen",
+              "quote": "captures your motion, gestures, and natural expressiveness from a short reference video"
             },
             {
-              "url": "https://www.heygen.com/blog/heygen-august-2025-release",
-              "quote": "Digital Twin now represents your full body presence, not just your upper frame"
+              "url": "https://www-redesign.heygen.com/tool/ai-voice-cloning",
+              "quote": "same voice clone carries across 177+ languages and dialects"
             },
             {
               "url": "https://www.heygen.com/blog/heygen-september-2025-release",
-              "quote": "Video Agent handles the entire production workflow—scripting, visuals, voiceovers, avatars, editing, and delivery"
+              "quote": "Video Agent handles the entire production workflow—scripting, visuals, voiceovers, avatars, editing, and delivery."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -7065,7 +7065,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -7113,8 +7113,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T09:46:52.894Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z"
     },
     {
       "n": "Adobe Firefly",
@@ -7191,7 +7190,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T09:46:52.894Z"
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z"
     },
     {
       "n": "Leonardo AI",
@@ -9592,7 +9591,8 @@
     {
       "name": "Tripo AI",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=8xrC-zEsY0o"
+        "https://www.youtube.com/watch?v=8xrC-zEsY0o",
+        "https://www.youtube.com/watch?v=luG8o7cP5Uo"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -9706,7 +9706,10 @@
         "https://www.youtube.com/watch?v=9RtywbN--QE",
         "https://www.youtube.com/watch?v=dQVmJog7au8"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Google Flow",
@@ -9714,7 +9717,10 @@
         "https://www.youtube.com/watch?v=iixnU96ZEAM",
         "https://www.youtube.com/watch?v=shu68GIvZI8"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "3D AI Studio",
@@ -9789,7 +9795,8 @@
     {
       "name": "GPT Image 2.5",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=nYCuS1j28w8"
+        "https://www.youtube.com/watch?v=nYCuS1j28w8",
+        "https://www.youtube.com/watch?v=vEpkDv8B4T8"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
@@ -9862,6 +9869,48 @@
         "https://www.youtube.com/watch?v=L049uPaPQ4A"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z"
+    },
+    {
+      "name": "GPT 6 Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=luG8o7cP5Uo"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "Smart Mesh 2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=luG8o7cP5Uo"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "GPT-6 (Astra)",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=WKO-YgMQhLI"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "Codex",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=WKO-YgMQhLI"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "Runway MCP",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=WKO-YgMQhLI"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "Ruby",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=WKO-YgMQhLI"
+      ],
+      "firstSeen": "2026-09-18T09:49:39.277Z"
     }
   ],
   "sourceChecks": {},
@@ -10528,34 +10577,34 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-18T07:36:26.128Z",
+    "calculatedAt": "2026-09-18T09:49:39.277Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.3470051282024208,
+      "chatgpt-images-2-0": 0.3438408128032015,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 1.2745121623628115,
-      "google-veo-3-1": 0.34327191449860184,
+      "runway-gen-4-5": 1.2628899754437053,
+      "google-veo-3-1": 0.3401416420130212,
       "flux-2": 0,
-      "elevenlabs": 0.7547905508455979,
+      "elevenlabs": 0.7479076688098238,
       "elevenmusic": 0,
-      "heygen": 0.15597567697079762,
+      "heygen": 0.1545533457242852,
       "kling-3-0": 0,
       "freepik-ai": 0,
-      "adobe-firefly": 0.8534252282921317,
+      "adobe-firefly": 0.8456429035583264,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.191034465494843,
+      "higgsfield": 2.171054576046808,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.7480333185664365,
+      "meshy-ai": 0.7412120552573591,
       "magnific-ai": 0,
-      "seedance-2-5": 1.3649269918505569,
+      "seedance-2-5": 1.3524803184498015,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
@@ -10565,17 +10614,17 @@
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 1.0125000171881013,
+      "rodin-hyper3d": 1.0032671006237412,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6992765222353761,
-      "trellis-2": 1.425079646734282,
+      "hunyuan3d": 0.6928998687285981,
+      "trellis-2": 1.4120844454972425,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.6992765222353761,
-      "hitem3d": 0.6992765222353761,
+      "luma-genie": 0.6928998687285981,
+      "hitem3d": 0.6928998687285981,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
