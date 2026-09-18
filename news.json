@@ -1,6 +1,433 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "AI video generation can become expensive when the camera movement keeps failing. Build a rough 3D scene in Blender, animate the camera, and create a",
+    "evidenceIds": [
+      1
+    ],
+    "id": "WdmSvISHQm4",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Förhandsgranska AI-kamerarörelser i Blender innan du betalar",
+    "sum": "MeaQllpa beskriver ett arbetsflöde där en grov 3D-scen i Blender används för att förhandsgranska och förbättra AI-genererade kamerarörelser innan en kostsam videogenerering körs.",
+    "full": "AI-videogenerering kan bli dyr när kamerarörelsen misslyckas upprepade gånger, enligt kanalen MeaQllpa. I videobeskrivningen presenteras därför ett arbetsflöde för att kontrollera kameran innan den slutliga AI-genereringen.\n\nArbetsflödet börjar med att man bygger en grov 3D-scen i Blender och animerar kameran där. Därefter skapas en snabb förhandsvisning i visningsfönstret. Denna förhandsvisning gör det möjligt att upptäcka och justera kamerarörelsen innan man betalar för en fullständig AI-videogenerering.\n\nMeaQllpa framhåller att förhandsvisningen kan användas för att förfina bildutsnittet, förbättra prompten eller vägleda en AI-modell som accepterar videoreferenser. Beskrivningen anger inte vilken AI-modell som används eller visar någon oberoende testning, så artikelns uppgifter gäller endast det arbetsflöde som kanalen beskriver.",
+    "deep": "Det centrala i arbetsflödet är att separera planeringen av kameran från den kostsamma AI-genereringen. Blender används för en enkel scen och en animerad kamera, medan en snabb vyportförhandsvisning fungerar som kontrollmaterial. Enligt MeaQllpa kan detta material sedan ligga till grund för ändringar i kamerarörelsen, mer precisa promptar eller videoreferensbaserad styrning i en AI-modell. Källbeskrivningen innehåller inga uppgifter om specifika modeller, kostnader, kvalitetsresultat eller tidsvinster.",
+    "en": {
+      "ttl": "Preview AI Camera Moves in Blender Before Paying",
+      "sum": "MeaQllpa describes a workflow that uses a rough 3D scene in Blender to preview and improve AI-generated camera moves before running an expensive video generation.",
+      "full": "AI video generation can become expensive when the camera movement repeatedly fails, according to the channel MeaQllpa. The video description presents a workflow for checking the camera before starting the final AI generation.\n\nThe workflow begins by building a rough 3D scene in Blender and animating the camera there. A fast viewport preview is then created. This preview makes it possible to identify and adjust the camera movement before paying for a full AI video generation.\n\nMeaQllpa says the preview can be used to refine the framing, improve the prompt, or guide an AI model that accepts video references. The description does not identify the AI model or provide an independent test, so the article covers only the workflow described by the channel.",
+      "deep": "The core of the workflow is separating camera planning from costly AI generation. Blender is used for a simple scene and an animated camera, while a quick viewport preview serves as control material. According to MeaQllpa, this material can then support changes to the camera movement, more precise prompts, or video-reference guidance in an AI model. The source description provides no specific model, cost, quality-result, or time-saving details."
+    },
+    "cat": "film",
+    "date": "2026-09-18T17:15:23Z",
+    "meta": "MeaQllpa · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=WdmSvISHQm4",
+    "img": "https://i.ytimg.com/vi/WdmSvISHQm4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "MeaQllpa"
+    ],
+    "parts": [],
+    "views": 3,
+    "buzz": 27,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "597efaa343c207ce4e75122572b88e1159e7318c33d2bfff8c8bd9ae6fb0f073",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Blender"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Character sheets are basically solved with this AI. GPT Image 2.5 holds a character consistent across angles, expressions, lighting, and textures, even on wildly detailed",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "yZbwnggURYs",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "GPT Image 2.5 håller karaktärer konsekventa i avancerade character sheets",
+    "sum": "Futurepedia beskriver hur GPT Image 2.5 bevarar samma karaktär över vinklar, uttryck, ljussättning och texturer, även i mycket detaljrika designer. Kanalen lyfter också stilöverföring från en unik MidJourney-stil till nya karaktärer och scener.",
+    "full": "Futurepedia beskriver GPT Image 2.5 som ett AI-verktyg för character sheets där en karaktär kan hållas konsekvent genom flera visuella variationer. Enligt kanalens beskrivning fungerar detta över olika kameravinklar, ansiktsuttryck, ljussättningar och texturer, även när designen innehåller mycket detaljer.\n\nDet gör arbetsflödet relevant för att utveckla och dokumentera en figur genom flera vyer och situationer utan att karaktärens visuella identitet förändras mellan bilderna. Beskrivningen anger dock inte hur resultatet har testats, vilka indata som användes eller vilka begränsningar som gäller.\n\nFuturepedia lyfter dessutom GPT Image 2.5:s stilöverföring. Kanalen uppger att en unik MidJourney-stil kan matas in och överföras till en helt ny karaktär och scen, samtidigt som den ursprungliga känslan bevaras. Det pekar på ett arbetsflöde där både karaktärens utformning och det övergripande visuella uttrycket kan utvecklas med AI.",
+    "deep": "Kärnpåståendet från Futurepedia är att GPT Image 2.5 bevarar karaktärskontinuitet över fyra specifika variationer: vinklar, uttryck, ljussättning och texturer. Kanalen framhåller att detta även gäller mycket detaljrika designer, men videobeskrivningen innehåller inga exempel på vilka designtyper som avses.\n\nStilöverföringen beskrivs separat som en stark funktion. Enligt Futurepedia kan en unik MidJourney-stil användas som grund för att skapa en ny karaktär och scen utan att den visuella känslan går förlorad. Källan specificerar inte hur exakt stilen återges, hur processen genomförs eller vilka begränsningar som kan uppstå mellan olika motiv.",
+    "en": {
+      "ttl": "GPT Image 2.5 keeps characters consistent in advanced character sheets",
+      "sum": "Futurepedia describes how GPT Image 2.5 preserves the same character across angles, expressions, lighting, and textures, even in highly detailed designs. The channel also highlights style transfer from a unique MidJourney look to new characters and scenes.",
+      "full": "Futurepedia describes GPT Image 2.5 as an AI tool for character sheets in which a character can remain consistent across multiple visual variations. According to the channel’s description, this works across different camera angles, facial expressions, lighting conditions, and textures, even when the design contains extensive detail.\n\nThis makes the workflow relevant for developing and documenting a character through multiple views and situations without changing the character’s visual identity from image to image. However, the description does not state how the result was tested, what inputs were used, or what limitations apply.\n\nFuturepedia also highlights GPT Image 2.5’s style transfer. The channel says that a unique MidJourney look can be provided and transferred to an entirely new character and scene while preserving the original feel. This points to an AI workflow in which both the character design and the broader visual expression can be developed together.",
+      "deep": "Futurepedia’s central claim is that GPT Image 2.5 preserves character continuity across four specific variations: angles, expressions, lighting, and textures. The channel says this also applies to highly detailed designs, but the video description gives no examples of the design types involved.\n\nStyle transfer is presented as a separate strength. According to Futurepedia, a unique MidJourney style can serve as the basis for a new character and scene without losing the visual feel. The source does not specify how precisely the style is reproduced, how the process is performed, or what limitations may occur across different subjects."
+    },
+    "cat": "foto",
+    "date": "2026-09-18T15:35:02Z",
+    "meta": "Futurepedia · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=yZbwnggURYs",
+    "img": "https://i.ytimg.com/vi/yZbwnggURYs/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Futurepedia"
+    ],
+    "parts": [],
+    "views": 83,
+    "buzz": 43,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "90ff344e716bc78fbd6ce15a35e2790f7a7c62a96f15a99db5492659525c046d",
+    "trusted": true,
+    "sourceId": "futurepedia_io",
+    "newPlatforms": [
+      "GPT Image 2.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, we'll put Apple Intelligence to the test by comparing the brand-new Clean Up, Extend, and Reframe features in the iPhone and macOS",
+    "evidenceIds": [
+      3,
+      4
+    ],
+    "id": "HEfezRylrg8",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Apple Intelligence ställs mot Photoshop i nya AI-verktyg för bildredigering",
+    "sum": "PiXimperfect jämför de nya verktygen Clean Up, Extend, Reframe och Spatial Reframing i iPhone och macOS 27 Photos med Photoshops Generative Expand och Remove Tool. Enligt kanalens genomgång ger Extend i vissa fall naturligare resultat än Firefly, medan Clean Up kan ge ett renare resultat utan generativa krediter. Videon granskar också begränsningar, upplösning, dagliga gränser och framtida kostnader.",
+    "full": "PiXimperfect undersöker om de nya kostnadsfria bildredigeringsverktygen i iOS 27 och macOS 27 Photos kan konkurrera med Photoshop. Genomgången fokuserar på Apple Intelligence-funktionerna Clean Up, Extend och Reframe och jämför dem direkt med Photoshops Generative Expand och Remove Tool.\n\nEnligt PiXimperfect kan Extend i vissa jämförelser skapa mer naturliga resultat än Firefly. Kanalen framhåller samtidigt att Apples verktyg har en gräns på 25 procent och lägre upplösning. Clean Up beskrivs också som ett verktyg som ofta lämnar ett renare resultat än Photoshops motsvarande funktion, utan att använda generativa krediter.\n\nVideon tar dessutom upp Spatial Reframing, som enligt kanalen saknar direkt motsvarighet i Photoshop. Funktionen ska göra det möjligt att ändra kameravinkeln efter att bilden har tagits, vilket ger ett annat arbetsflöde än traditionell beskärning eller utökning av bildens kanter.\n\nPiXimperfect granskar även Apples villkor för att avgöra om redigeringen verkligen är kostnadsfri över tid. Genomgången tar upp dagliga begränsningar och möjligheten att framtida avgifter kan tillkomma. Slutsatserna gäller kanalens egen jämförelse, inte ett oberoende test.",
+    "deep": "Jämförelsen omfattar både bildutökning och borttagning av objekt. För Extend ställs Apples resultat mot Photoshops Generative Expand, medan Clean Up jämförs med Remove Tool. PiXimperfect beskriver kvalitetsskillnaderna som situationsberoende men pekar på naturligare resultat från Extend i vissa exempel och renare resultat från Clean Up i andra.\n\nBeskrivningen anger att Apple-funktionerna testas på iPhone samt i Photos-appen på macOS 27. Den nämner också en särskild 25-procentsgräns för Extend och lägre upplösning som viktiga begränsningar. För användare som planerar ett återkommande arbetsflöde är kanalens genomgång av dagliga gränser och framtida avgifter därför central.\n\nSpatial Reframing är den mest särpräglade delen av arbetsflödet enligt PiXimperfect. Funktionen beskrivs som ett sätt att förändra kameravinkeln i efterhand, snarare än att bara fylla ut en bild eller ta bort ett objekt. Beskrivningen specificerar inte hur tekniken är implementerad eller vilka motiv som fungerar bäst.",
+    "en": {
+      "ttl": "Apple Intelligence put against Photoshop in new AI image-editing tools",
+      "sum": "PiXimperfect compares the new Clean Up, Extend, Reframe and Spatial Reframing tools in iPhone and macOS 27 Photos with Photoshop’s Generative Expand and Remove Tool. According to the channel, Extend can produce more natural results than Firefly in some comparisons, while Clean Up can leave a cleaner result without generative credits. The video also examines limitations, resolution, daily limits and possible future costs.",
+      "full": "PiXimperfect examines whether the new free image-editing tools in iOS 27 and macOS 27 Photos can compete with Photoshop. The coverage focuses on the Apple Intelligence features Clean Up, Extend and Reframe, comparing them directly with Photoshop’s Generative Expand and Remove Tool.\n\nAccording to PiXimperfect, Extend can create more natural results than Firefly in some comparisons. The channel also notes that Apple’s tool has a 25 percent limit and lower resolution. Clean Up is described as often leaving a cleaner result than Photoshop’s corresponding function, without using generative credits.\n\nThe video also covers Spatial Reframing, which the channel says Photoshop does not have as a direct counterpart. The feature is described as allowing users to change the camera angle after the image has been taken, creating a workflow different from conventional cropping or extending the image edges.\n\nPiXimperfect also examines Apple’s terms to determine whether the editing is genuinely free over time. The coverage discusses daily limits and the possibility of future fees. These conclusions reflect the channel’s comparison, not an independent test.",
+      "deep": "The comparison covers both image extension and object removal. Extend is compared with Photoshop’s Generative Expand, while Clean Up is compared with Remove Tool. PiXimperfect describes the quality differences as dependent on the situation, highlighting more natural results from Extend in some examples and cleaner results from Clean Up in others.\n\nThe description states that the Apple features are tested on iPhone and in the Photos app on macOS 27. It also identifies a specific 25 percent limit for Extend and lower resolution as important constraints. For users planning a recurring workflow, the channel’s discussion of daily limits and possible future fees is therefore significant.\n\nSpatial Reframing is the most distinctive part of the workflow according to PiXimperfect. The feature is described as a way to change the camera angle afterward rather than simply filling an image or removing an object. The description does not specify how the technology is implemented or which subjects work best."
+    },
+    "cat": "foto",
+    "date": "2026-09-18T15:06:00Z",
+    "meta": "PiXimperfect · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=HEfezRylrg8",
+    "img": "https://i.ytimg.com/vi/HEfezRylrg8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "PiXimperfect"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Apple vs Adobe"
+      },
+      {
+        "t": 15,
+        "l": "Quality Test for Expand Image - iPhone"
+      },
+      {
+        "t": 106,
+        "l": "Extend Image - Apple vs Photoshop"
+      },
+      {
+        "t": 256,
+        "l": "Quality Test for Clean Up - iPhone"
+      },
+      {
+        "t": 315,
+        "l": "Clean Up - Apple vs Photoshop"
+      },
+      {
+        "t": 388,
+        "l": "Does It Work on Desktop?"
+      },
+      {
+        "t": 456,
+        "l": "Quality Test - Reframe"
+      },
+      {
+        "t": 525,
+        "l": "Is It Really Free?"
+      }
+    ],
+    "views": 6515,
+    "buzz": 66,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f2e9c4856475e879b8f03c63517c31749145e550933d6f5f7953d0ff5972fddf",
+    "trusted": true,
+    "sourceId": "piximperfect",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "ChatGPT Images 2.5 is here with powerful new AI image generation and photo editing features! In this video, I will show you step-by-step how to",
+    "evidenceIds": [
+      1,
+      2,
+      15
+    ],
+    "id": "IR3Af9gmK34",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "ChatGPT Images 2.5 får AI-bildskapande och bildredigering",
+    "sum": "AI Telugu Creations beskriver ChatGPT Images 2.5 som en uppdatering med AI-bildgenerering, fotoredigering, skiss-till-bild och mallar. Kanalen visar även arbetsflöden för miniatyrkoncept, bakgrundsbyten med bevarat ansikte och förbättringar med uppföljningsprompter.",
+    "full": "AI Telugu Creations presenterar ChatGPT Images 2.5 som en uppdatering för AI-bildskapande och fotoredigering. Enligt kanalens beskrivning omfattar uppdateringen snabbare bildgenerering, skarpare detaljer, mer precis redigering, mallar samt funktioner för att omvandla skisser till bilder och redigera eller dela resultat.\n\nDet beskrivna arbetsflödet bygger på enkla prompter och uppföljningsprompter. Kanalen visar hur användaren kan skapa AI-bilder, redigera foton och förbättra resultat stegvis i ChatGPT. Ett särskilt exempel är att byta bakgrund samtidigt som ansiktet behålls, vilket beskrivs som en av funktionerna som demonstreras.\n\nBeskrivningen tar också upp skapande av YouTube-miniatyrkoncept och filmiska AI-bakgrunder. Målgruppen är bland annat YouTube-skapare, AI-innehållsskapare, skapare av ansiktslösa kanaler, miniatyrdesigners, studenter, nybörjare och sociala medier-skapare. AI Telugu Creations uppger att videon visar funktionerna praktiskt med liveexempel och konkreta prompter, men den här artikeln bygger enbart på den publicerade beskrivningen och inte på en egen testning.",
+    "deep": "Enligt AI Telugu Creations kombinerar ChatGPT Images 2.5 flera delar av ett bildarbetsflöde: generering från text, redigering av befintliga foton, skiss-till-bild och iterativa förbättringar via uppföljningsprompter. Beskrivningen anger att användaren kan utgå från en enkel prompt och därefter fortsätta justera bilden, men specificerar inte vilka tekniska modeller eller redigeringsparametrar som används.\n\nKanalen nämner även mallar och nya sätt att redigera och dela bilder. För kreatörer innebär det enligt beskrivningen ett arbetsflöde som sträcker sig från idé och skiss till färdigt bildkoncept, inklusive material för YouTube-miniatyrer och bakgrunder. Påståendena om snabbare generering, skarpare detaljer och mer precis redigering tillskrivs kanalen; ingen oberoende prestandamätning eller jämförelse presenteras här.",
+    "en": {
+      "ttl": "ChatGPT Images 2.5 brings AI image generation and photo editing",
+      "sum": "AI Telugu Creations describes ChatGPT Images 2.5 as an update with AI image generation, photo editing, sketch-to-image and templates. The channel also demonstrates workflows for thumbnail concepts, background changes that preserve the face, and refinements using follow-up prompts.",
+      "full": "AI Telugu Creations presents ChatGPT Images 2.5 as an update for AI image creation and photo editing. According to the channel’s description, the update includes faster image generation, sharper details, more precise editing, templates, sketch-to-image creation, and new ways to edit and share results.\n\nThe described workflow uses simple prompts followed by iterative prompts. The channel shows how users can generate AI images, edit photos, and improve results step by step inside ChatGPT. One highlighted example is changing the background while keeping the face the same.\n\nThe description also covers YouTube thumbnail concepts and cinematic AI backgrounds. The intended audience includes YouTube creators, AI content creators, faceless channel creators, thumbnail designers, students, beginners, and social media creators. AI Telugu Creations says the video demonstrates the features with live examples and practical prompts, but this article relies only on the published description and not on independent testing.",
+      "deep": "AI Telugu Creations describes ChatGPT Images 2.5 as supporting several stages of an image workflow: text-based generation, editing existing photos, sketch-to-image conversion, and iterative improvements through follow-up prompts. The description says users can begin with a simple prompt and continue adjusting the image, but it does not specify the technical models or editing parameters involved.\n\nThe channel also mentions templates and new ways to edit and share images. For creators, the described workflow runs from an initial idea or sketch to a finished visual concept, including YouTube thumbnail material and backgrounds. Claims about faster generation, sharper details, and more precise editing are attributed to the channel; no independent performance measurement or comparison is provided here."
+    },
+    "cat": "foto",
+    "date": "2026-09-18T13:29:05Z",
+    "meta": "AI Telugu Creations · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=IR3Af9gmK34",
+    "img": "https://i.ytimg.com/vi/IR3Af9gmK34/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Telugu Creations"
+    ],
+    "parts": [],
+    "views": 643,
+    "buzz": 54,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "18f448d45b96e139fe602ab774d4a9835ca0fc8672df1af2139c6cbb52e528d6",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "ChatGPT Images 2.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Pixal3D Multiview is finally here — the best local open source 3D AI generator now lets you upload multiple views for much more accurate results.",
+    "evidenceIds": [
+      8,
+      16,
+      17
+    ],
+    "id": "_lgyED4IkJg",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Pixal3D Multiview gör lokal 3D-generering möjlig med 8 GB VRAM",
+    "sum": "PixelArtistry beskriver Pixal3D Multiview som en lokal och öppen 3D AI-generator för ComfyUI, där flera vyer kan laddas upp för mer träffsäkra resultat. Arbetsflödet kan köras med 8–12 GB VRAM i standardläge, medan högre inställningar kräver 12–16 GB.",
+    "full": "Enligt YouTube-kanalen PixelArtistry är Pixal3D Multiview nu tillgängligt som ett lokalt, öppet arbetsflöde för AI-baserad 3D-generering. Den centrala nyheten är stöd för flera vyer: användaren kan ladda upp flera bilder av samma objekt eller figur för att förbättra den visuella överensstämmelsen i den genererade 3D-modellen. Arbetsflödet är integrerat i ComfyUI och kan hämtas som kostnadsfria Pixal3D Multiview-arbetsflöden.\n\nKanalen beskriver ett praktiskt upplägg där användaren först konfigurerar ComfyUI, laddar ner Pixal3D Multiview-modellen från Hugging Face och öppnar arbetsflödet via ComfyUI:s mallar. Det går även att generera en konsekvent multivybild, använda egna vyer manuellt och jämföra resultat från en enda vy med resultat från flera vyer. PixelArtistry nämner också Retexturing av en befintlig mesh som ett användningsfall.\n\nMaskinvarukraven varierar beroende på inställningarna. Standardläget med fyra vyer anges kräva 8–12 GB VRAM. Högre inställningar, med 50 steg och hög upplösning, anges kräva 12–16 GB VRAM. Ett läge där textureringsfasen hoppas över anges kunna köras med 6–8 GB VRAM, men kanalen uppger att någon GGUF-version ännu inte finns för detta läge.\n\nPixelArtistry beskriver även ett arbetsflöde med Trellis 2 och Pixal3D, inklusive lokala ComfyUI-konfigurationer och GGUF-installationer. Kanalens genomgång tar upp resultatjämförelser samt begränsningar, bland annat problem med hål och facetterade ansikten. Dessa punkter presenteras som delar av kanalens test- och byggprocess, inte som ett oberoende test.",
+    "deep": "Källbeskrivningen anger att Pixal3D Multiview är nativt integrerat i ComfyUI och att modellen finns via Pixal3D:s Hugging Face-nedladdningar. Den specificerar ett standardarbetsflöde med fyra vyer och skiljer det från ett högupplöst läge med 50 steg. Beskrivningen anger inte vilken GPU som användes, någon körtid, kvalitetsmätning eller ett oberoende jämförelseunderlag.\n\nDe användningsfall som uttryckligen nämns är generering av konsekventa multivybilder, uppladdning av egna vyer, jämförelse mellan enkel vy och multivy i Blender samt omtexturering av en befintlig mesh. PixelArtistry nämner också Flux Klein i samband med kostnadsfri multivygenerering, men källbeskrivningen ger inga ytterligare tekniska specifikationer för det arbetsflödet.\n\nBeskrivningen innehåller länkar till ComfyUI Desktop, ComfyUI Easy Install och VisualBruno's Trellis2 Pixal3D-repo. Den innehåller dessutom sponsrings- och affiliateinformation samt länkar till andra 3D-tjänster, men dessa är inte huvudämnet för artikeln.",
+    "en": {
+      "ttl": "Pixal3D Multiview enables local 3D generation with 8 GB of VRAM",
+      "sum": "PixelArtistry describes Pixal3D Multiview as a local, open 3D AI generator for ComfyUI that accepts multiple views for more accurate results. The workflow is specified at 8–12 GB of VRAM in standard mode, while higher settings require 12–16 GB.",
+      "full": "According to the YouTube channel PixelArtistry, Pixal3D Multiview is now available as a local, open workflow for AI-based 3D generation. Its main development is support for multiple views: users can upload several images of the same object or character to improve visual consistency in the generated 3D model. The workflow is integrated into ComfyUI, and free Pixal3D Multiview workflows are available.\n\nThe channel describes a practical setup in which users configure ComfyUI, download the Pixal3D Multiview model from Hugging Face, and open the workflow through ComfyUI templates. Users can also generate a consistent multiview image, manually add their own views, and compare single-view results with multiview results. PixelArtistry also identifies retexturing an existing mesh as a use case.\n\nHardware requirements vary with the settings. The source specifies 8–12 GB of VRAM for the default four-view mode. Higher settings with 50 steps and high resolution are specified at 12–16 GB. A mode that bypasses the texturing phase is specified at 6–8 GB of VRAM, although the channel says there is not yet a GGUF version for that mode.\n\nPixelArtistry also describes a Trellis 2 and Pixal3D workflow, including local ComfyUI and GGUF setups. The video description says the walkthrough covers result comparisons and limitations, including holes and faceted faces. These points are presented as part of the channel’s testing and building process, not as an independent test.",
+      "deep": "The source description states that Pixal3D Multiview is natively integrated into ComfyUI and that the model is available through Pixal3D downloads on Hugging Face. It specifies a default workflow with four views and distinguishes it from a high-resolution mode using 50 steps. The description does not provide the GPU used, runtime, quality measurements, or an independent comparison basis.\n\nThe explicitly listed use cases are consistent multiview generation, uploading custom views, comparing single-view and multiview results in Blender, and retexturing an existing mesh. PixelArtistry also mentions Flux Klein in connection with free multiview generation, but the source description provides no further technical specifications for that workflow.\n\nThe description links to ComfyUI Desktop, ComfyUI Easy Install, and VisualBruno's Trellis2 Pixal3D repository. It also contains sponsorship and affiliate information and links to other 3D services, but those are not the article’s main subject."
+    },
+    "cat": "3d",
+    "date": "2026-09-18T12:00:31Z",
+    "meta": "PixelArtistry · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=_lgyED4IkJg",
+    "img": "https://i.ytimg.com/vi/_lgyED4IkJg/hqdefault.jpg",
+    "plat": "TRELLIS 2",
+    "platformIds": [
+      "trellis-2",
+      "hitem3d"
+    ],
+    "chans": [
+      "PixelArtistry"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro: Pixal3D Multiview is finally here"
+      },
+      {
+        "t": 37,
+        "l": "What's new and how the community picked it up"
+      },
+      {
+        "t": 97,
+        "l": "Setting up ComfyUI for the Multiview workflow"
+      },
+      {
+        "t": 155,
+        "l": "Downloading the Pixal3D Multiview model from Hugging Face"
+      },
+      {
+        "t": 227,
+        "l": "Loading the workflow from ComfyUI templates"
+      },
+      {
+        "t": 293,
+        "l": "Generating a character turnaround sheet (ComfyUI template)"
+      },
+      {
+        "t": 327,
+        "l": "Running the Pixal3D Multiview workflow"
+      },
+      {
+        "t": 384,
+        "l": "VRAM requirements (6–16GB depending on settings)"
+      },
+      {
+        "t": 430,
+        "l": "Free multiview generation with Flux Klein (no credits needed)"
+      },
+      {
+        "t": 543,
+        "l": "Uploading your own views manually into the workflow"
+      },
+      {
+        "t": 590,
+        "l": "Results comparison and fixing holes/faceted faces"
+      },
+      {
+        "t": 708,
+        "l": "Single view vs multiview side by side comparison in Blender"
+      },
+      {
+        "t": 829,
+        "l": "VisualBruno's Trellis2 Pixal3D Multiview workflow"
+      },
+      {
+        "t": 947,
+        "l": "Retexturing an existing mesh with Pixal3D Multiview"
+      },
+      {
+        "t": 1021,
+        "l": "Building test and limitations"
+      },
+      {
+        "t": 1052,
+        "l": "Outro"
+      }
+    ],
+    "views": 8160,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "602ef9926abaa836774cd620d78de387c0fd66441a6dbbef2e7a7b8655ba5558",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Pixal3D Multiview",
+      "Pixal3D",
+      "Flux Klein",
+      "ComfyUI Desktop",
+      "ComfyUI Easy Install",
+      "VisualBruno's Trellis2 Pixal3D"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, I put Meshy 7 to the test against Tripo to see how well it performs as a Best AI 3D model generator",
+    "evidenceIds": [
+      6,
+      7,
+      12
+    ],
+    "id": "Z7qur9NODzE",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Mewtix AI jämför Meshy 7 med Tripo för AI-generering av 3D-modeller",
+    "sum": "Mewtix AI beskriver en jämförelse mellan Meshy 7 och Tripo, där samma referensbild används för att bedöma geometri, proportioner, texturplacering och övergripande 3D-överensstämmelse.",
+    "full": "Mewtix AI granskar Meshy 7 som verktyg för AI-baserad 3D-generering och jämför det med Tripo. Upplägget använder samma referensbild i båda systemen, med fokus på hur väl resultaten återskapar originalets geometri, proportioner, yt detaljer, texturplacering och visuella helhet.\n\nEnligt kanalens beskrivning omfattar arbetsflödet bild-till-3D-generering och funktioner för texturgenerering med upp till 8K-upplösning. Meshy 7 beskrivs också med stöd för retopologi med fyrkantig eller triangulär topologi, uppdelning av modeller i individuella delar samt generering av 3D-modeller från flera vyer.\n\nBeskrivningen tar dessutom upp karaktärsriggning och Text to Motion. Resultaten kan enligt Mewtix AI föras vidare till arbetsflöden i Blender, Unreal Engine och Maya, bland annat via Meshy's DCC Bridge för kompatibla 3D-arbetsflöden.\n\nVideon riktar sig till spelutvecklare, 3D-konstnärer, filmskapare, motion designers och andra 3D-skapare som undersöker AI-baserad modellering, bild-till-3D och snabbare skapande av 3D-tillgångar. Beskrivningen redovisar däremot inte vilka modeller som presterar bäst eller resultat från en oberoende testning; jämförelsen och slutsatserna tillskrivs Mewtix AI.",
+    "deep": "Jämförelsen är utformad för att bedöma mer än en modells visuella intryck. Mewtix AI anger specifikt geometri, proportioner, ytdetaljer, texturernas placering och 3D-överensstämmelse som jämförelsepunkter när samma referensbild används för Meshy 7 och Tripo.\n\nDet beskrivna Meshy 7-arbetsflödet sträcker sig från generering till efterbearbetning och användning i andra program. Funktionerna som nämns är upp till 8K-texturer, retopologi med Quad- och Triangle-topologi, uppdelning av modeller i separata delar, karaktärsriggning, Text to Motion och generering från flera vyer. Beskrivningen nämner även arbetsflöden för Blender, Unreal Engine och Maya samt Meshy's DCC Bridge.\n\nKanalens beskrivning placerar verktyget i sammanhang där AI används för att skapa 3D-tillgångar, karaktärer och animerat material. Den innehåller inga detaljer om testdata, exakta poäng, tidsvinster eller villkor som skulle stödja en oberoende slutsats om Meshy 7:s kvalitet jämfört med Tripo.",
+    "en": {
+      "ttl": "Mewtix AI compares Meshy 7 with Tripo for AI 3D model generation",
+      "sum": "Mewtix AI describes a comparison between Meshy 7 and Tripo using the same reference image to assess geometry, proportions, texture placement, and overall 3D alignment.",
+      "full": "Mewtix AI reviews Meshy 7 as an AI-powered 3D generation tool and compares it with Tripo. The setup uses the same reference image in both systems, focusing on how closely the results reproduce the original geometry, proportions, surface details, texture placement, and overall visual consistency.\n\nAccording to the channel description, the workflow includes image-to-3D generation and texture generation with support for up to 8K textures. Meshy 7 is also described as supporting retopology with quad or triangle topology, splitting models into individual parts, and generating 3D models from multiple views.\n\nThe description also mentions character rigging and Text to Motion. Results can be taken into workflows in Blender, Unreal Engine, and Maya, including through Meshy's DCC Bridge for supported 3D workflows.\n\nThe video is aimed at game developers, 3D artists, filmmakers, motion designers, and other 3D creators exploring AI-powered modeling, image-to-3D generation, and faster 3D asset creation. The description does not state which model performs best or provide an independent test; the comparison and conclusions are attributed to Mewtix AI.",
+      "deep": "The comparison is designed to assess more than a model's visual appearance. Mewtix AI specifically identifies geometry, proportions, surface details, texture placement, and 3D alignment as comparison criteria when the same reference image is used for Meshy 7 and Tripo.\n\nThe described Meshy 7 workflow extends from generation to further processing and use in other software. The listed capabilities include up to 8K textures, retopology with Quad and Triangle topology, splitting models into separate parts, character rigging, Text to Motion, and multi-view generation. The description also mentions workflows for Blender, Unreal Engine, and Maya, as well as Meshy's DCC Bridge.\n\nThe channel's description places the tool in workflows where AI is used to create 3D assets, characters, and animated content. It provides no test data, exact scores, time savings, or conditions that would support an independent conclusion about Meshy 7's quality compared with Tripo."
+    },
+    "cat": "3d",
+    "date": "2026-09-18T11:14:43Z",
+    "meta": "Mewtix AI · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=Z7qur9NODzE",
+    "img": "https://i.ytimg.com/vi/Z7qur9NODzE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Mewtix AI"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "🎬 Intro: Can AI actually match the reference?"
+      },
+      {
+        "t": 45,
+        "l": "⚔️ Meshy 7 vs Tripo: Same image to 3D model"
+      },
+      {
+        "t": 150,
+        "l": "🔍 Geometry alignment: Proportion & surface details"
+      },
+      {
+        "t": 240,
+        "l": "🎨 Texture alignment & style fidelity"
+      }
+    ],
+    "views": 578,
+    "buzz": 53,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "3fbbb53f652c2df56d58bf933b9202ac11c45d7e6aac000b5610a5583af3a7b0",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Meshy 7"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "🚀 Luma Ray 3.2 & Luma Agents: Powerful AI Video Creation 🎬🤖 In this short video, discover how Luma Ray 3.2 enables creators to work",
+    "evidenceIds": [
+      2,
+      4,
+      5
+    ],
+    "id": "GrTf2MSzFco",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Luma Ray 3.2 och Luma Agents fokuserar på AI-video och agentiska arbetsflöden",
+    "sum": "MiviCAI beskriver Luma Ray 3.2 som ett verktyg för text-till-video, bild-till-video, sekvenser med flera nyckelbilder, videoredigering, omformatering och filmisk visuell kontroll. Videon tar även upp Luma Agents, ett agentiskt kreativt arbetsflöde för att planera, generera, iterera och förfina projekt med större kontext.",
+    "full": "MiviCAI beskriver Luma Ray 3.2 som en vidareutveckling för filmisk AI-videoproduktion. Enligt kanalens beskrivning omfattar arbetsflödet både text-till-video och bild-till-video, vilket ger kreatörer två sätt att utgå från idéer och visuellt material.\n\nEn central del är sekvenser med flera nyckelbilder. Beskrivningen lyfter även fram filmisk kamerakontroll, AI-videoredigering och omformatering. Det innebär enligt MiviCAI att Ray 3.2 är inriktat på att skapa och bearbeta videosekvenser med mer kontroll över förlopp, bildutsnitt och visuellt uttryck, snarare än enbart generera en fristående videoklipp.\n\nVideon behandlar dessutom Luma Agents, som MiviCAI beskriver som ett agentiskt kreativt arbetsflöde. Det är utformat för att hjälpa användare att planera, generera, iterera och förfina kreativa projekt med större kontext. Kanalen kopplar funktionerna till användningsområden för kreatörer, filmskapare och utvecklare.\n\nUnderlaget består av videons titel och publicerarens beskrivning. Det ger stöd för funktionerna och arbetsflödena ovan, men innehåller inga oberoende testresultat, jämförelser, prestandamätningar eller detaljer om lanseringsdatum.",
+    "deep": "MiviCAI nämner särskilt multi-keyframe-videogenerering och filmisk kamerakontroll som delar av Luma Ray 3.2. Beskrivningen anger också stöd för AI-baserad redigering och omformatering, vilket placerar verktyget i ett bredare produktionsflöde där material kan skapas, ändras och anpassas.\n\nLuma Agents beskrivs inte som en enskild genereringsfunktion, utan som ett agentiskt upplägg för kreativa projekt. De angivna stegen är planering, generering, iteration och förfining, med större kontext som stöd för arbetsflödet. Några konkreta exempel på projekt, kvalitetsnivåer eller vilka utvecklarverktyg som används anges inte i källbeskrivningen.",
+    "en": {
+      "ttl": "Luma Ray 3.2 and Luma Agents focus on AI video and agentic workflows",
+      "sum": "MiviCAI describes Luma Ray 3.2 as a tool for text-to-video, image-to-video, multi-keyframe sequencing, video editing, reframing and cinematic visual control. The video also covers Luma Agents, an agentic creative workflow for planning, generating, iterating and refining projects with greater context.",
+      "full": "MiviCAI describes Luma Ray 3.2 as an advancement for cinematic AI video production. According to the channel’s description, the workflow includes both text-to-video and image-to-video, giving creators two ways to start from ideas and visual material.\n\nA central feature is multi-keyframe sequencing. The description also highlights cinematic camera control, AI video editing and reframing. According to MiviCAI, this positions Ray 3.2 as a system for creating and processing video sequences with more control over progression, framing and visual direction, rather than simply generating a standalone clip.\n\nThe video also covers Luma Agents, which MiviCAI describes as an agentic creative workflow. It is designed to help users plan, generate, iterate and refine creative projects with greater context. The channel connects these capabilities to use cases for creators, filmmakers and developers.\n\nThe source material consists of the video title and publisher description. It supports the features and workflows above, but provides no independent test results, comparisons, performance measurements or release-date details.",
+      "deep": "MiviCAI specifically mentions multi-keyframe video generation and cinematic camera control as parts of Luma Ray 3.2. The description also states that the system supports AI-based editing and reframing, placing it within a broader production workflow in which material can be created, changed and adapted.\n\nLuma Agents is described not as a single generation feature, but as an agentic setup for creative projects. The stated stages are planning, generation, iteration and refinement, with greater context supporting the workflow. The source description provides no concrete project examples, quality measurements or details about the developer tools involved."
+    },
+    "cat": "film",
+    "date": "2026-09-18T09:26:55Z",
+    "meta": "MiviCAI · 2026-09-18",
+    "url": "https://www.youtube.com/watch?v=GrTf2MSzFco",
+    "img": "https://i.ytimg.com/vi/GrTf2MSzFco/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "MiviCAI"
+    ],
+    "parts": [],
+    "views": 7,
+    "buzz": 31,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "733c199acec37c201549bf20c4f85eb3653bcc47162cf3359c16979499a6b4ff",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Luma Ray 3.2",
+      "Luma Agents"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "We’re excited to officially announce our newest course, AI for Micro-Dramas! 🎉 Everyone in Hollywood seems to be talking about micro-dramas right now. With the",
     "evidenceIds": [
       1,
@@ -368,6 +795,71 @@
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "ついに３D生成AIもAgent時代へ！ 00:00 - Hi3D Agentが決めた設計は、実物で動く？Hi3D Agentの紹介（GPT-6 Astra搭載） 00:48 -ヒンジ付きケースを日本語で依頼",
+    "evidenceIds": [
+      1,
+      32,
+      33
+    ],
+    "id": "W_9whxaNXdg",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Hi3D Agent tar 3D-generering till agentbaserad design",
+    "sum": "TokyoMakers 東京九段工作ラボ beskriver Hi3D Agent som ett nytt steg för 3D-genererande AI, där AI:n får ansvara för konstruktionen och hanterar detaljer som axlar och spel. Videon visar arbetsflöden för en gångjärnsförsedd ask, en spöklampa och ett spelbart 3D-spel.",
+    "full": "Kanalen TokyoMakers 東京九段工作ラボ presenterar Hi3D Agent som en agentbaserad utveckling inom 3D-genererande AI. Enligt videobeskrivningen är tanken att användaren ska kunna lämna över själva konstruktionsarbetet till AI:n, inklusive detaljer som axlar och spel mellan delar.\n\nVideon fokuserar på praktiska användningsfall snarare än enbart bildrenderingar. Ett av arbetsflödena börjar med en instruktion på japanska om att skapa en gångjärnsförsedd ask. Beskrivningen anger också ett exempel med en spöklampa samt framställning av ett spelbart 3D-spel.\n\nI videons innehållsförteckning anges att kanalen undersöker om en konstruktion som Hi3D Agent bestämmer faktiskt fungerar som fysisk modell. Det innebär att arbetsflödet kopplas till tillverkning och montering, men beskrivningen innehåller inga oberoende testresultat eller detaljerade mått på funktion, precision eller lyckandefrekvens.\n\nHi3D V3.0 nämns i samband med en lanseringskampanj, medan Hi3D Agent presenteras som den centrala nyheten. Beskrivningen anger även att introduktionen omfattar GPT-6 Astra, men specificerar inte vilka delar av agentens funktionalitet som bygger på denna komponent.",
+    "deep": "Det stödda underlaget beskriver ett konkret steg från textbaserad idé till AI-assisterad 3D-konstruktion. De exempel som nämns är en gångjärnsförsedd ask, en spöklampa och ett spelbart 3D-spel. Särskilt konstruktionens mekaniska aspekter lyfts fram genom hänvisningen till axlar och spel, vilket skiljer arbetsflödet från en ren visuell 3D-generering.\n\nKanalen kopplar presentationen till fysisk framställning och frågar om den AI-bestämda designen fungerar i verkligheten. Däremot framgår det inte av beskrivningen vilka material, utskriftsinställningar eller monteringsmetoder som används, och det finns inget underlag för att bedöma resultatet som ett oberoende test.\n\nBeskrivningen innehåller en kampanj för Hi3D V3.0 med rabatt och krediter, men kampanjvillkoren är inte en del av den tekniska bedömningen. Inte heller de uppräknade 3D-skrivarna utgör artikelns huvudämne.",
+    "en": {
+      "ttl": "Hi3D Agent brings agent-based design to 3D generation",
+      "sum": "TokyoMakers 東京九段工作ラボ describes Hi3D Agent as a new step for generative 3D AI, with the AI handling construction details such as shafts and clearances. The video presents workflows for a hinged case, a ghost lamp and a playable 3D game.",
+      "full": "The channel TokyoMakers 東京九段工作ラボ presents Hi3D Agent as an agent-based development in generative 3D AI. According to the description, the idea is to hand the construction work over to the AI, including details such as shafts and clearances.\n\nThe video focuses on practical use cases rather than only visual renders. One workflow begins with a Japanese-language request to create a hinged case. The description also mentions a ghost lamp and the creation of a playable 3D game.\n\nThe video outline says that the channel examines whether a design decided by Hi3D Agent actually works as a physical model. This connects the workflow to manufacturing and assembly, but the description contains no independent test results or detailed measurements of function, accuracy or success rate.\n\nHi3D V3.0 is mentioned in connection with a launch campaign, while Hi3D Agent is presented as the central development. The description also states that the introduction includes GPT-6 Astra, but it does not specify which parts of the agent’s functionality rely on that component.",
+      "deep": "The available source describes a concrete step from a text-based idea to AI-assisted 3D construction. The examples named are a hinged case, a ghost lamp and a playable 3D game. Mechanical aspects are highlighted through the reference to shafts and clearances, distinguishing the workflow from purely visual 3D generation.\n\nThe channel connects the presentation to physical production and asks whether the AI-determined design works in reality. However, the description does not state which materials, printing settings or assembly methods are used, and it does not support treating the result as an independent test.\n\nThe description includes a Hi3D V3.0 campaign with discounts and credits, but those terms are not part of the technical assessment. The listed 3D printers are also not the article’s main subject."
+    },
+    "cat": "3d",
+    "date": "2026-09-17T10:40:58Z",
+    "meta": "TokyoMakers 東京九段工作ラボ · 2026-09-17",
+    "url": "https://www.youtube.com/watch?v=W_9whxaNXdg",
+    "img": "https://i.ytimg.com/vi/W_9whxaNXdg/hqdefault.jpg",
+    "plat": "Hitem3D",
+    "platformIds": [
+      "hitem3d"
+    ],
+    "chans": [
+      "TokyoMakers 東京九段工作ラボ"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Hi3D Agentが決めた設計は、実物で動く？Hi3D Agentの紹介（GPT-6 Astra搭載）"
+      },
+      {
+        "t": 48,
+        "l": "-ヒンジ付きケースを日本語で依頼"
+      },
+      {
+        "t": 151,
+        "l": "おばけランプ"
+      },
+      {
+        "t": 273,
+        "l": "遊べる3Dゲームを制作"
+      }
+    ],
+    "views": 5007,
+    "buzz": 64,
+    "sourceCheckedAt": "2026-09-18T17:51:44.973Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1febf92b4edc886c0d0ed9a4916b412315de29660fdc122a969ee74e2469d776",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Hi3D Agent",
+      "Hi3D V3.0",
+      "GPT-6 Astra"
+    ]
   },
   {
     "editorialStatus": "approved",

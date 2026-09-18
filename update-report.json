@@ -1,73 +1,150 @@
 {
-  "startedAt": "2026-09-18T09:49:39.277Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-18T17:51:44.973Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-18T17:51:44.973Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 141,
+    "relevant": 44,
+    "supported": 41
+  },
+  "rejected": [
     {
-      "platform": "heygen",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://www.heygen.com/pricing\",\"quote\":\"$24/month if you pay annually.\",\"retrieved\":[]}"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        5,
+        6
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://www-redesign.heygen.com/tool/ai-voice-cloning\",\"quote\":\"Phoneme-level lip-sync keeps mouth movement accurate in 177+ languages and dialects\",\"retrieved\":[]}"
+      "video": "4pVu4tkMuYE",
+      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://www.heygen.com/pricing\",\"quote\":\"Monthly subscribers' unused credits roll over for one more month.\",\"retrieved\":[]}"
+      "video": "z9g5ivC5D1o",
+      "title": "Cybercab 3D model test: Astra + Tripo workflow. #Tripo3D #Astra #TextTo3D #TeslaCybercab",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "price",
-      "message": "Source outside official domain"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "sub",
-      "message": "Source outside official domain"
+      "video": "HhJJobhLUm0",
+      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "long",
-      "message": "Source outside official domain"
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "pros",
-      "message": "Source outside official domain"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "deep",
-      "message": "Source outside official domain"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "tags",
-      "message": "Source outside official domain"
+      "video": "9dmu5hgi44k",
+      "title": "TRIPO AI – Generowanie modeli 3D z AI! 🤯 Jak działa Tripo?",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "YuE2",
-      "message": "Invalid evidence URL"
+      "video": "_KjoGTlmKCg",
+      "title": "🌄Night petrol pump TREND  Trending Photo Editing || Chatgpt Editing #gemini #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Google Flow",
-      "message": "Invalid evidence URL"
+      "video": "H2tsuziBpxk",
+      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "26PgYL5x_Ys",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing |Chatgpt New Photo Editing Prompt #ai#viral",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KT7ynouL9eQ",
+      "title": "Ganesh Chaturthi Ai Photo Editing | Ganpati Bappa Ai Photo Editing Prompt #viral #prompt #ganesh",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "heq5HMPDpdk",
+      "title": "Trending Srk Dance Ai Video Editing | Janam Janam Shahrukh Khan Dance Ai Video Editing Tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QC7a1YWSq1M",
+      "title": "Text To 3D Model In Seconds? 3 Best AI Tools! 🤯 #TechShorts #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "9CuW6QYdYiQ",
+      "title": "🕉️ Ganesh ji TREND  Trending Photo Editing || Chatgpt Photo Editing #gemini #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 8
 }
