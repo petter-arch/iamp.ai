@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T07:31:48.534Z",
+  "updatedAt": "2026-09-19T09:34:19.351Z",
   "newsCheckedAt": "2026-09-19T07:31:48.534Z",
   "news": [
     {
@@ -7904,7 +7904,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -7916,17 +7916,17 @@
       "bdg": "",
       "pct": 62,
       "price": "Från $7.99 mån",
-      "sub": "Första native 16-bit HDR video + 3D",
+      "sub": "Resonerande HDR-videomodell med Draft Mode för snabb iteration",
       "long": "Luma Ray3 var första AI-videomodellen med native 16-bit HDR (exporterbar som EXR) för professionella färgpipelines. Ray3 Modify möjliggör video-till-video-redigering av riktig film. Luma leder även 3D-rekonstruktion från foton. Lägst startpris i klassen.",
       "pros": [
-        "Native 16-bit HDR",
-        "Video-till-video-redigering",
-        "3D från foton"
+        "Native HDR med EXR för produktionspipelines",
+        "Resonemangsdriven videogenerering",
+        "Draft Mode för snabb iteration"
       ],
       "cons": [
-        "Mindre kontroll än Runway",
-        "Variabel kvalitet mellan kreationer",
-        "Ray3 saknar inbyggt ljud (audio genereras separat)"
+        "Saknar inbyggt ljud",
+        "Modify Video och Reframe är inte tillgängliga i Ray3",
+        "Karaktärskonsistens kan variera mellan genereringar"
       ],
       "tags": [
         "Videogen",
@@ -7981,16 +7981,42 @@
           ]
         },
         "cons": {
-          "checkedAt": "2026-09-09T10:04:19.976Z",
+          "checkedAt": "2026-09-19T09:34:19.351Z",
           "sources": [
             {
-              "url": "https://lumalabs.ai/learning-hub/dream-machine-credit-system",
-              "quote": "Ray3 does not currently support audio"
+              "url": "https://lumalabs.ai/learning-hub/ray3-faqs",
+              "quote": "No, audio is currently not supported"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/ray3-faqs",
+              "quote": "Modify Video and Reframe currently uses the Ray2 model and are not available on Ray3"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/ray3-faqs",
+              "quote": "Character consistency can vary between generations"
+            }
+          ]
+        },
+        "sub": {
+          "checkedAt": "2026-09-19T09:34:19.351Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/ray3-faqs",
+              "quote": "Ray3 is the world’s first multimodal reasoning video model system"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-19T09:34:19.351Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/ray3-user-guide",
+              "quote": "Ray3 offers visuals ready for high-end creative production pipelines."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -8054,7 +8080,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -8069,9 +8095,9 @@
       "sub": "Gratis, lokalt, total kontroll",
       "long": "Open source-grunden för hela ekosystemet. Kör lokalt helt gratis, finjustera med LoRA-adaptrar och styr kompositionen exakt med ControlNet. SD 3.5 konkurrerar med stängda modeller på benchmarks. Tusentals community-modeller. Kräver dock teknik och ett grafikkort.",
       "pros": [
-        "Helt gratis lokalt",
-        "Total kontroll (LoRA, ControlNet)",
-        "Ingen bildgräns"
+        "Gratis Community License för privat användning och kommersiell användning under 1 MUSD i årsomsättning",
+        "Self-hosting samt finjustering för anpassade arbetsflöden",
+        "ControlNet för SD 3.5 Large: Blur, Canny och Depth"
       ],
       "cons": [
         "Kräver eget grafikkort",
@@ -8092,9 +8118,9 @@
       "deep": "Med ControlNet styr du pose, djup och kanter exakt; LoRA-modeller ger egen stil eller karaktär. Kräver grafikkort men ger maximal kontroll och noll kostnad per bild.",
       "caps": [
         "Text-till-bild",
-        "Self-host",
-        "LoRA",
-        "ControlNet"
+        "Self-hosting",
+        "Finjustering",
+        "ControlNet för SD 3.5 Large (Blur, Canny, Depth)"
       ],
       "free": "open",
       "id": "stable-diffusion-3-5",
@@ -8102,8 +8128,43 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T10:04:19.976Z",
+      "fieldChecks": {
+        "caps": {
+          "checkedAt": "2026-09-19T09:34:19.351Z",
+          "sources": [
+            {
+              "url": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+              "quote": "the model weights are available on Hugging Face now for self-hosting"
+            },
+            {
+              "url": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+              "quote": "Easily fine-tune the model"
+            },
+            {
+              "url": "https://stability.ai/news-updates/sd3-5-large-controlnets",
+              "quote": "three ControlNets: Blur, Canny, and Depth."
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-09-19T09:34:19.351Z",
+          "sources": [
+            {
+              "url": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+              "quote": "Free for commercial use (up to $1M in annual revenue)"
+            },
+            {
+              "url": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+              "quote": "Easily fine-tune the model"
+            },
+            {
+              "url": "https://stability.ai/news-updates/sd3-5-large-controlnets",
+              "quote": "three ControlNets: Blur, Canny, and Depth."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -10159,7 +10220,8 @@
     {
       "name": "Pixal3D Multiview",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=ouACKu1cwoU"
+        "https://www.youtube.com/watch?v=ouACKu1cwoU",
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
       ],
       "firstSeen": "2026-09-09T10:04:19.976Z",
       "lastAttemptAt": "2026-09-12T09:25:03.709Z",
@@ -10212,7 +10274,8 @@
         "https://www.youtube.com/watch?v=xNSX8ZHpTpM",
         "https://www.youtube.com/watch?v=VsmL_KROmyI",
         "https://www.youtube.com/watch?v=Q5-LJDxZlrg",
-        "https://www.youtube.com/watch?v=2bSaEc0zOzQ"
+        "https://www.youtube.com/watch?v=2bSaEc0zOzQ",
+        "https://www.youtube.com/watch?v=IR3Af9gmK34"
       ],
       "firstSeen": "2026-09-10T09:48:18.251Z",
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
@@ -10275,7 +10338,8 @@
     {
       "name": "Meshy 7",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=W7q4-rm6GWk"
+        "https://www.youtube.com/watch?v=W7q4-rm6GWk",
+        "https://www.youtube.com/watch?v=Z7qur9NODzE"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -10306,7 +10370,8 @@
       "name": "Hi3D V3.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hk21B_dI-gA",
-        "https://www.youtube.com/watch?v=OvkxZS_bBXE"
+        "https://www.youtube.com/watch?v=OvkxZS_bBXE",
+        "https://www.youtube.com/watch?v=W_9whxaNXdg"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-15T10:07:38.861Z",
@@ -10379,14 +10444,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=z27HM89qojY"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile"
     },
     {
       "name": "Kaedim",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=z27HM89qojY"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Polycam",
@@ -10448,7 +10519,8 @@
       "name": "GPT Image 2.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nYCuS1j28w8",
-        "https://www.youtube.com/watch?v=vEpkDv8B4T8"
+        "https://www.youtube.com/watch?v=vEpkDv8B4T8",
+        "https://www.youtube.com/watch?v=yZbwnggURYs"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
@@ -10476,7 +10548,8 @@
     {
       "name": "GPT-6 Astra",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=h_mR2BRibZ8"
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
+        "https://www.youtube.com/watch?v=W_9whxaNXdg"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
@@ -10563,6 +10636,76 @@
         "https://www.youtube.com/watch?v=WKO-YgMQhLI"
       ],
       "firstSeen": "2026-09-18T09:49:39.277Z"
+    },
+    {
+      "name": "Seedream 5.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=P3XJ7JQy8RA"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Blender",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=WdmSvISHQm4"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Pixal3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Flux Klein",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "ComfyUI Desktop",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "ComfyUI Easy Install",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "VisualBruno's Trellis2 Pixal3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Luma Ray 3.2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GrTf2MSzFco"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Luma Agents",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GrTf2MSzFco"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Hi3D Agent",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=W_9whxaNXdg"
+      ],
+      "firstSeen": "2026-09-19T09:34:19.351Z"
     }
   ],
   "sourceChecks": {},
@@ -11229,54 +11372,54 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-19T07:31:48.534Z",
+    "calculatedAt": "2026-09-19T09:34:19.351Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.31439076186322956,
+      "chatgpt-images-2-0": 0.31175327095403754,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 1.154723135663449,
-      "google-veo-3-1": 0.3110084259691697,
+      "runway-gen-4-5": 1.1450359179001262,
+      "google-veo-3-1": 0.30839931019453803,
       "flux-2": 0,
-      "elevenlabs": 0.6838491913845405,
+      "elevenlabs": 0.6781122352003135,
       "elevenmusic": 0,
-      "heygen": 0.1413158133109111,
-      "kling-3-0": 0.9473818685273313,
+      "heygen": 0.14013028492348745,
+      "kling-3-0": 0.9394340807139564,
       "freepik-ai": 0,
-      "adobe-firefly": 0.7732133790240399,
+      "adobe-firefly": 0.7667267276798482,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.932485081393083,
+      "higgsfield": 2.9078838408932746,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6777270587943469,
+      "meshy-ai": 0.67204146248137,
       "magnific-ai": 0,
-      "seedance-2-5": 2.1840219120867483,
+      "seedance-2-5": 2.1656996881623987,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.9473818685273313,
+      "nano-banana-pro": 0.9394340807139564,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.9173370244966875,
+      "rodin-hyper3d": 0.9096412892644041,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6335528230303421,
-      "trellis-2": 2.213753883552756,
+      "hunyuan3d": 0.6282378137681984,
+      "trellis-2": 2.1951822318017453,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.6335528230303421,
-      "hitem3d": 2.3872430949410073,
+      "luma-genie": 0.6282378137681984,
+      "hitem3d": 2.3672160053292663,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
