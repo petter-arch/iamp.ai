@@ -1,8 +1,143 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T09:34:19.351Z",
-  "newsCheckedAt": "2026-09-19T07:31:48.534Z",
+  "updatedAt": "2026-09-19T17:25:51.472Z",
+  "newsCheckedAt": "2026-09-19T17:25:51.472Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "🔥 Turn one photo into a completely new AI photo using Google Gemini! In this video, I show you how to upload your reference photo",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ],
+      "id": "GK0YdIum3jY",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Skapa en ny AI-bild från ett foto med Google Gemini och en enkel prompt",
+      "sum": "Ghori Studio visar hur ett referensfoto kan omvandlas till en ny AI-genererad bild med annan klädsel, pose och miljö, samtidigt som personen ska förbli igenkännbar.",
+      "full": "Kanalen Ghori Studio beskriver ett arbetsflöde där ett befintligt foto laddas upp till Google Gemini och kombineras med en enkel AI-prompt. Resultatet ska bli en helt ny, realistisk bild baserad på referensfotot.\n\nEnligt kanalens beskrivning kan användaren ange förändringar som annan klädsel, pose och miljö. Målet är att behålla personen igenkännbar medan bildens visuella sammanhang förändras. Arbetsflödet består av att ladda upp referensbilden, lägga till prompten och generera den nya bilden.\n\nGhori Studio presenterar metoden som AI-fotoredigering och bildgenerering för användning med egna foton. Beskrivningen anger inte vilka promptformuleringar som används i detalj, hur många försök som krävs eller hur konsekventa resultaten blir mellan olika bilder. Kanalen nämner att tittare kan be om den exakta prompten i kommentarerna.",
+      "deep": "Det centrala i arbetsflödet är kombinationen av en källbild och textinstruktioner. Källbilden fungerar som visuell referens, medan prompten styr de önskade förändringarna. Den beskrivna användningen fokuserar på att ändra tre delar av motivet: kläder, pose och plats eller bakgrund.\n\nGhori Studio framställer tekniken som ett sätt att skapa realistiska AI-foton utan att börja från en helt tom bildbeskrivning. Samtidigt ger källmaterialet inga oberoende testresultat, tekniska specifikationer eller uppgifter om Googles modellversion. Därför går det inte att dra slutsatser om bildkvalitet, identitetsbevarande eller verktygets begränsningar utöver kanalens egen beskrivning.",
+      "en": {
+        "ttl": "Create a New AI Image from a Photo with Google Gemini and a Simple Prompt",
+        "sum": "Ghori Studio shows how a reference photo can be transformed into a new AI-generated image with different clothing, pose, and setting while keeping the person recognizable.",
+        "full": "Ghori Studio describes a workflow in which an existing photo is uploaded to Google Gemini and combined with a simple AI prompt. The result is intended to be a completely new, realistic image based on the reference photo.\n\nAccording to the channel’s description, the user can request changes such as different clothing, pose, and setting. The goal is to keep the person recognizable while changing the image’s visual context. The workflow consists of uploading the reference image, adding the prompt, and generating the new image.\n\nGhori Studio presents the method as AI photo editing and image generation for use with personal photos. The description does not specify the exact prompt wording, how many attempts are needed, or how consistent the results are across different images. The channel says viewers can request the exact prompt in the comments.",
+        "deep": "The key part of the workflow is the combination of a source image and text instructions. The source image acts as a visual reference, while the prompt directs the requested changes. The described use focuses on changing three aspects of the subject: clothing, pose, and location or background.\n\nGhori Studio presents the technique as a way to create realistic AI photos without starting from an entirely empty image description. However, the source material provides no independent test results, technical specifications, or information about Google’s model version. It is therefore not possible to draw conclusions about image quality, identity preservation, or tool limitations beyond the channel’s own description."
+      },
+      "cat": "foto",
+      "date": "2026-09-19T15:30:39Z",
+      "meta": "Ghori Studio · 2026-09-19",
+      "url": "https://www.youtube.com/watch?v=GK0YdIum3jY",
+      "img": "https://i.ytimg.com/vi/GK0YdIum3jY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Ghori Studio"
+      ],
+      "parts": [],
+      "views": 28,
+      "buzz": 38,
+      "sourceCheckedAt": "2026-09-19T17:25:51.472Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "705b5feac05ff9c1b924b4954c15067bc5ae5e4d6df404ff1bafc25fe3713e4b",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "The era of manual AI video editing is over. AIQORA has just launched the new Cinema Agent—the easiest way to produce high-quality music videos and",
+      "evidenceIds": [
+        3,
+        5,
+        7
+      ],
+      "id": "KsaEx3nQmwo",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Technomics visar AIQORA Cinema Agent för automatiserad musikvideoproduktion",
+      "sum": "Kanalen Technomics beskriver AIQORA Cinema Agent som en samlad arbetsprocess för att skapa musikvideor och dokumentärer från en enda plattform. Enligt beskrivningen analyserar verktyget ljudets struktur, fastställer en visuell stil och renderar en färdig, läppsynkroniserad musikvideo med hjälp av flera AI-modeller.",
+      "full": "Technomics presenterar AIQORA Cinema Agent som ett AI-baserat produktionsverktyg för musikvideor och dokumentärer. Enligt kanalens beskrivning ska användaren kunna gå från rå ljudfil till en färdig, publiceringsklar musikvideo i samma plattform, i stället för att skapa separata klipp på flera webbplatser och därefter sammanfoga dem manuellt.\n\nArbetsflödet börjar med att ljudet importeras och analyseras strukturellt. Därefter kan användaren låsa en egen visuell stil innan systemet renderar videon. Beskrivningen framhäver särskilt automatisk läppsynkronisering, vilket kopplas till en produktionsprocess för musikvideor snarare än enbart generering av fristående videoklipp.\n\nAIQORA Cinema Agent uppges samordna flera modeller i arbetsflödet. Technomics nämner MiniMax H3 för videogenerering och läppsynkronisering samt Nano Banana 2 för fotorealistiska startbilder. Kanalen beskriver därmed tjänsten som ett automatiserat produktionslager som orkestrerar olika AI-funktioner inom samma process.\n\nVideon är sponsrad av AIQORA, och Technomics betonar att demonstrationen gäller Cinema Agents funktioner vid inspelningstillfället. Beskrivningen innehåller också en tydlig reservation: generativa AI-modeller kan uppdateras och resultatet kan variera beroende på promptens utformning och den inmatade ljudfilen. Påståendena återges därför som kanalens presentation, inte som ett oberoende test.",
+      "deep": "Enligt Technomics omfattar den automatiserade kedjan fyra centrala moment: import av rå ljudfil, strukturell analys av musikspåret, fastställande av en anpassad visuell stil och rendering av en komplett musikvideo med läppsynkronisering. Beskrivningen anger inte vilka specifika analysparametrar som används, hur lång processen är eller vilka exportformat som stöds.\n\nKanalens beskrivning placerar AIQORA Cinema Agent i ett scenario där flera separata AI-tjänster annars skulle behöva kombineras manuellt. MiniMax H3 anges för videogenerering och läppsynkronisering, medan Nano Banana 2 anges för fotorealistiska startbilder. Det framgår inte av källan exakt hur modellerna kopplas samman, vilka användarkontroller som finns eller hur systemet hanterar omtagningar och redigering.\n\nBeskrivningen hävdar att plattformen kan användas för både högkvalitativa musikvideor och fullängdsdokumentärer, men ger inga konkreta exempel på dokumentärernas längd, struktur eller slutresultat. Technomics uppger dessutom att den kreativa riktningen och åsikterna i videon är kanalens egna, samtidigt som sponsringen av AIQORA redovisas. Individuella resultat kan enligt källan påverkas av både promptstruktur och ljudinmatning.",
+      "en": {
+        "ttl": "Technomics presents AIQORA Cinema Agent for automated music video production",
+        "sum": "The channel Technomics describes AIQORA Cinema Agent as a unified workflow for creating music videos and documentaries from a single platform. According to the description, it analyzes audio structure, establishes a visual style and renders a finished, lip-synced music video using several AI models.",
+        "full": "Technomics presents AIQORA Cinema Agent as an AI-based production tool for music videos and documentaries. According to the channel’s description, users can move from a raw audio file to a finished, upload-ready music video within one platform, rather than generating separate clips across multiple websites and assembling them manually.\n\nThe workflow starts by ingesting and structurally analyzing the audio. Users can then lock in a custom visual style before the system renders the video. The description particularly highlights automated lip synchronization, framing the process as a music video production workflow rather than simple generation of individual video clips.\n\nAIQORA Cinema Agent is said to coordinate several models in the workflow. Technomics names MiniMax H3 for video generation and lip synchronization, and Nano Banana 2 for photorealistic start frames. The channel therefore presents the service as an automated production layer that orchestrates multiple AI functions within one process.\n\nThe video is sponsored by AIQORA, and Technomics emphasizes that the demonstration reflects Cinema Agent’s capabilities at the time of recording. The description also includes a clear caveat: generative AI models may be updated, and results may vary depending on prompt structure and the audio input. These claims are therefore attributed to the channel’s presentation, not treated as an independent test.",
+        "deep": "According to Technomics, the automated chain includes four central stages: importing a raw audio file, structurally analyzing the track, establishing a custom visual style and rendering a complete music video with lip synchronization. The source does not specify which analysis parameters are used, how long the process takes or which export formats are supported.\n\nThe channel’s description positions AIQORA Cinema Agent as a solution for workflows that would otherwise require several separate AI services to be combined manually. MiniMax H3 is named for video generation and lip synchronization, while Nano Banana 2 is named for photorealistic start frames. The source does not explain exactly how the models are connected, which user controls are available or how revisions and editing are handled.\n\nThe description claims that the platform can be used for both high-quality music videos and full-length documentaries, but provides no concrete examples of documentary length, structure or final output. Technomics also states that the creative direction and opinions in the video are the channel’s own, while disclosing the AIQORA sponsorship. According to the source, individual results may be affected by both prompt structure and the audio input."
+      },
+      "cat": "film",
+      "date": "2026-09-19T14:00:27Z",
+      "meta": "Technomics · 2026-09-19",
+      "url": "https://www.youtube.com/watch?v=KsaEx3nQmwo",
+      "img": "https://i.ytimg.com/vi/KsaEx3nQmwo/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Technomics"
+      ],
+      "parts": [],
+      "views": 122,
+      "buzz": 45,
+      "sourceCheckedAt": "2026-09-19T17:25:51.472Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "c8a2dadfa0fa6cbe4528305fca5db5d81f6081e1d3177cb17506106928556b1d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "AIQORA Cinema Agent",
+        "MiniMax H3"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Learn how to make AI videos look cinematic and get better results from your AI video generator. In this AI video generation tutorial, I use",
+      "evidenceIds": [
+        2,
+        3,
+        4
+      ],
+      "id": "QW2nS4DO-s8",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så förbättrar du AI-video med filmiska arbetsflöden i Topview Film Studio och Seedance 2.5",
+      "sum": "Noble Goose visar hur Topview Film Studio och Seedance 2.5 används för att förvandla enkel AI-animation till en dramatisk anime-scen genom färg och ljussättning, medvetna kamerarörelser och storyboard-planering.",
+      "full": "Kanalen Noble Goose beskriver ett arbetsflöde för att förbättra AI-genererad video i Topview Film Studio med Seedance 2.5. I stället för att enbart förlita sig på grundläggande AI-animation bygger genomgången en dramatisk anime-scen och fokuserar på hur kreativa beslut kan påverka resultatet.\n\nArbetsflödet utgår från en spänd kontrollstationsscen vid midnatt. Enligt kanalens beskrivning används färg och ljussättning för att etablera stämningen, medan avsiktliga kamerarörelser ska bidra till att bygga upp spänning. En storyboard används för att planera hur handlingen utvecklas innan scenen färdigställs.\n\nNoble Goose jämför den grundläggande versionen med den färdiga filmiska scenen. Beskrivningen anger inte några mätresultat eller oberoende tester, utan presenterar innehållet som en praktisk genomgång av AI-videogenerering och filmiskt beslutsfattande.\n\nÄven om genomgången använder Topview Film Studio och Seedance 2.5 framhåller kanalen att idéerna kan tillämpas på andra AI-videoverktyg. Fokus ligger därmed både på verktygskombinationen och på ett planeringsbaserat sätt att arbeta med färg, ljus, kamera och scenens dramaturgi.",
+      "deep": "Kanalens beskrivning specificerar fyra centrala delar i arbetsflödet: en dramatisk anime-scen, en kontrollstation vid midnatt, färg och ljussättning för stämningsskapande, samt medvetna kamerarörelser för att bygga spänning. Storyboarden används för att planera hur handlingen ska utvecklas. Därefter jämförs en basversion med den färdiga filmiska scenen.\n\nTopview Film Studio nämns som arbetsmiljö och Seedance 2.5 som AI-videogenerator i genomgången. Videon är sponsrad av Topview och innehåller en affiliatelänk, men sponsorinformationen är inte en del av det redaktionella arbetsflödet. Beskrivningen lämnar däremot inga uppgifter om videons exakta promptar, tekniska inställningar, exportformat, kostnader eller kvantitativa jämförelser.",
+      "en": {
+        "ttl": "How to improve AI video with cinematic workflows in Topview Film Studio and Seedance 2.5",
+        "sum": "Noble Goose shows how Topview Film Studio and Seedance 2.5 are used to transform basic AI animation into a dramatic anime scene through color and lighting, deliberate camera moves, and storyboard planning.",
+        "full": "The channel Noble Goose describes a workflow for improving AI-generated video in Topview Film Studio with Seedance 2.5. Instead of relying only on basic AI animation, the walkthrough builds a dramatic anime scene and focuses on how creative decisions can affect the result.\n\nThe workflow centers on a tense midnight checkpoint scene. According to the channel’s description, color and lighting are used to establish the mood, while deliberate camera moves help build suspense. A storyboard is used to plan how the action unfolds before the scene is finalized.\n\nNoble Goose compares the basic version with the finished cinematic scene. The description provides no measurements or independent testing; it presents the video as a practical walkthrough of AI video generation and cinematic decision-making.\n\nAlthough the walkthrough uses Topview Film Studio and Seedance 2.5, the channel says the ideas can also be applied to other AI video tools. The focus is therefore both on the tool combination and on a planning-based approach to color, lighting, camera work, and scene structure.",
+        "deep": "The channel’s description identifies four central parts of the workflow: a dramatic anime scene, a midnight checkpoint, color and lighting for mood, and deliberate camera moves to build suspense. The storyboard is used to plan how the action develops. A basic version is then compared with the finished cinematic scene.\n\nTopview Film Studio is named as the working environment and Seedance 2.5 as the AI video generator used in the walkthrough. The video is sponsored by Topview and includes an affiliate link, but that sponsorship information is not part of the editorial workflow. The description does not provide the exact prompts, technical settings, export format, costs, or quantitative comparisons."
+      },
+      "cat": "film",
+      "date": "2026-09-19T13:00:30Z",
+      "meta": "Noble Goose · 2026-09-19",
+      "url": "https://www.youtube.com/watch?v=QW2nS4DO-s8",
+      "img": "https://i.ytimg.com/vi/QW2nS4DO-s8/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5"
+      ],
+      "chans": [
+        "Noble Goose"
+      ],
+      "parts": [],
+      "views": 443,
+      "buzz": 52,
+      "sourceCheckedAt": "2026-09-19T17:25:51.472Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "4d4ef83efa22d1c89b934f572c45deecfabcb33eb7ce791a0e66df6b528ff79b",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Topview Film Studio"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "This cinematic Moon mission video is an example of how AI can be used to create realistic characters, environments, camera shots, and complete visual stories.",
@@ -1614,6 +1749,47 @@
       "newPlatforms": [
         "ChatGPT Images 2.5"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Turn your normal photo into a cinematic night-time petrol pump scene with this trending AI photo editing prompt. Create a realistic DSLR-style composite with natural",
+      "evidenceIds": [
+        2,
+        4
+      ],
+      "id": "_95Hgwr0TO8",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "AI-prompt förvandlar vanliga bilder till realistiska nattbilder vid en bensinstation",
+      "sum": "Harish Tech beskriver ett AI-baserat fotoredigeringsprompt som gör om en vanlig bild till en filmisk nattbild vid en bensinstation, med realistiska skuggor, reflektioner och ett blå-rött ljussken.",
+      "full": "Harish Tech presenterar ett AI-arbetsflöde för att förvandla en vanlig bild till en filmisk nattbild vid en bensinstation. Enligt kanalens beskrivning bygger resultatet på ett redigeringsprompt som skapar en realistisk komposition med nattkänsla och bensinstationsmiljö.\n\nBeskrivningen lyfter fram ett DSLR-liknande uttryck, naturlig belysning, skuggor och reflektioner. Den nämner också ett tydligt blå-rött ljussken från bensinstationen som en del av bildens visuella stil. Arbetsflödet är därmed inriktat på AI-genererad bildredigering och komposition snarare än vanlig fotografering eller traditionell ljussättning.\n\nKanalen kopplar tekniken till flera användningsfall, bland annat nattbilder, realistiska fotokompositer, porträtt av par och bilder avsedda för sociala medier. Beskrivningen nämner även ChatGPT i samband med promptbaserad bildredigering, men specificerar inte exakt vilket verktyg som genererar slutbilden eller vilka steg som används i praktiken.",
+      "deep": "Det underlag som Harish Tech har publicerat anger inte hur prompten är formulerad i detalj, vilket bildverktyg som används, vilka inmatningsbilder som krävs eller hur redigeringen genomförs steg för steg. Det finns inte heller uppgifter om modellversion, releasedatum, bildupplösning, bearbetningstid eller någon oberoende jämförelse av resultatet.\n\nDe stödda visuella målen är en nattlig bensinstationsscen, realistisk komposition, naturliga skuggor, reflektioner, DSLR-liknande bildkänsla samt blått och rött ljus. Beskrivningen använder ord som \"trending\" och \"viral\" i metadata, men ger inga verifierbara uppgifter om räckvidd eller faktisk popularitet. Därför bör presentationen förstås som kanalens beskrivning av ett promptbaserat AI-redigeringskoncept, inte som ett oberoende test eller en bekräftelse av resultatets kvalitet.",
+      "en": {
+        "ttl": "AI prompt transforms ordinary photos into realistic petrol-station night scenes",
+        "sum": "Harish Tech describes an AI photo-editing prompt that turns an ordinary image into a cinematic petrol-station night scene with realistic shadows, reflections and blue-red lighting.",
+        "full": "Harish Tech presents an AI workflow for transforming an ordinary photo into a cinematic night image set at a petrol station. According to the channel’s description, the process uses an editing prompt to create a realistic composite with a nighttime atmosphere and petrol-station setting.\n\nThe description highlights a DSLR-style look, natural lighting, shadows and reflections. It also mentions a distinct blue-red petrol-station glow as part of the visual style. The workflow is therefore focused on AI-based image editing and compositing rather than ordinary photography or conventional lighting.\n\nThe channel connects the technique to use cases including night photos, realistic photo composites, couple portraits and images intended for social media. The description also mentions ChatGPT in connection with prompt-based photo editing, but does not specify which tool generates the final image or what practical steps are used.",
+        "deep": "The material published by Harish Tech does not state the exact prompt wording, which image tool is used, what input images are required or how the edit is performed step by step. It also provides no model version, release date, image-resolution information, processing time or independent comparison of the results.\n\nThe supported visual targets are a nighttime petrol-station scene, realistic compositing, natural shadows, reflections, a DSLR-style appearance and blue-red lighting. The description uses terms such as \"trending\" and \"viral\" in its metadata, but provides no verifiable reach or popularity figures. The presentation should therefore be understood as the channel’s description of a prompt-based AI editing concept, not as an independent test or confirmation of image quality."
+      },
+      "cat": "foto",
+      "date": "2026-09-14T17:51:03Z",
+      "meta": "Harish Tech · 2026-09-14",
+      "url": "https://www.youtube.com/watch?v=_95Hgwr0TO8",
+      "img": "https://i.ytimg.com/vi/_95Hgwr0TO8/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Harish Tech"
+      ],
+      "parts": [],
+      "views": 4798,
+      "buzz": 64,
+      "sourceCheckedAt": "2026-09-19T17:25:51.472Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1ee093926d5cfe4ab1635f0fb425faed5675a3231a00d68e9710151f155c04b9",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -10723,7 +10899,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7170000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -10741,7 +10917,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -10759,7 +10935,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -10777,7 +10953,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 380000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -10794,8 +10970,8 @@
       "id": "petermckinnon",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": 6030000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "subscriberCount": 6040000,
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -10813,7 +10989,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -10831,7 +11007,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 621000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -10849,7 +11025,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3440000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -10867,7 +11043,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 543000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -10885,7 +11061,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 413000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -10903,7 +11079,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -10921,7 +11097,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 844000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -10939,7 +11115,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -10957,7 +11133,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -10975,7 +11151,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1010000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -10993,7 +11169,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -11011,7 +11187,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 274000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -11029,7 +11205,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -11047,7 +11223,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21300000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -11065,7 +11241,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -11083,7 +11259,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -11101,7 +11277,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -11119,7 +11295,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 739000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -11137,7 +11313,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -11155,7 +11331,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 753000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -11173,7 +11349,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -11191,7 +11367,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 339000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -11209,7 +11385,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 195000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -11227,7 +11403,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 483000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -11245,7 +11421,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 450000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -11263,7 +11439,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -11281,7 +11457,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -11299,7 +11475,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -11317,7 +11493,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -11335,7 +11511,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -11343,83 +11519,83 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
-      "found": 2
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-19T07:31:48.534Z",
+      "checkedAt": "2026-09-19T17:25:51.472Z",
       "found": 2
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-19T09:34:19.351Z",
+    "calculatedAt": "2026-09-19T17:25:51.472Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.31175327095403754,
+      "chatgpt-images-2-0": 0.3018068177660121,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 1.1450359179001262,
-      "google-veo-3-1": 0.30839931019453803,
+      "runway-gen-4-5": 1.1085036752033672,
+      "google-veo-3-1": 0.2985598647488428,
       "flux-2": 0,
-      "elevenlabs": 0.6781122352003135,
+      "elevenlabs": 0.6564771402965568,
       "elevenmusic": 0,
-      "heygen": 0.14013028492348745,
-      "kling-3-0": 0.9394340807139564,
+      "heygen": 0.1356594438800213,
+      "kling-3-0": 0.9094615416016573,
       "freepik-ai": 0,
-      "adobe-firefly": 0.7667267276798482,
+      "adobe-firefly": 0.7422643973198889,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.9078838408932746,
+      "higgsfield": 2.815108132682903,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.67204146248137,
+      "meshy-ai": 0.6506000549011794,
       "magnific-ai": 0,
-      "seedance-2-5": 2.1656996881623987,
+      "seedance-2-5": 3.0785215269803805,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.9394340807139564,
+      "nano-banana-pro": 0.9094615416016573,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.9096412892644041,
+      "rodin-hyper3d": 0.8806192858259945,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6282378137681984,
-      "trellis-2": 2.1951822318017453,
+      "hunyuan3d": 0.6081939566934347,
+      "trellis-2": 2.1251451885945216,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.6282378137681984,
-      "hitem3d": 2.3672160053292663,
+      "luma-genie": 0.6081939566934347,
+      "hitem3d": 2.2916902438484077,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,

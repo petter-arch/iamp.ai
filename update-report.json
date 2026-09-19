@@ -1,83 +1,128 @@
 {
-  "startedAt": "2026-09-19T09:34:19.351Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-19T17:25:51.472Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-19T17:25:51.472Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 140,
+    "relevant": 42,
+    "supported": 42
+  },
+  "rejected": [
     {
-      "platform": "leonardo-ai",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "6QC6nOotxrU",
+      "title": "This AI Trick Magically Creates New Camera Angles",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "luma-ray3",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "luma-ray3",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/news/ray3\",\"quote\":\"Ray3 introduces breakthrough new reasoning capabilities, native HDR EXR generations, and Draft Mode\",\"retrieved\":[]}"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "luma-ray3",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "luma-ray3",
-      "field": "free",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "HhJJobhLUm0",
+      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "suno-v5-5",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "suno-v5-5",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://suno.com/blog/v5-5\",\"quote\":\"Custom models let you tune v5.5 to music that you've created.\",\"retrieved\":[]}"
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "suno-v5-5",
-      "field": "cons",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "j-o0umbbge0",
+      "title": "GPT-6 Astra Crushes Water Physics",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"While the model weights are available on Hugging Face now for self-hosting.\",\"retrieved\":[]}"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"This open release includes multiple model variants, including Stable Diffusion 3.5 Large and Stable Diffusion 3.5 Large Turbo.\",\"retrieved\":[]}"
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://stability.ai/news-updates/introducing-stable-diffusion-3-5\",\"quote\":\"Easily fine-tune the model to meet your specific creative needs.\",\"retrieved\":[]}"
+      "video": "9dmu5hgi44k",
+      "title": "TRIPO AI – Generowanie modeli 3D z AI! 🤯 Jak działa Tripo?",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://platform.stability.ai/docs/api-reference\",\"quote\":\"SD 3.5 Large Turbo: Flat rate of 4 credits per successful generation.\",\"retrieved\":[]}"
+      "video": "gBe-Q4BfHKw",
+      "title": "📸 Instagram Trending AI Photos Prompt 🔥 | Viral AI Editing Prompts | Gemini AI",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "3D AI Studio",
-      "message": "Incomplete independent verification of new profile"
+      "video": "_KjoGTlmKCg",
+      "title": "🌄Night petrol pump TREND  Trending Photo Editing || Chatgpt Editing #gemini #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Kaedim",
-      "message": "Evidence quote missing"
+      "video": "xn8aU3pDJRo",
+      "title": "Part 15, Create a 3D Printable Model with AI: Text to 3D Model",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NruzIzLJxmM",
+      "title": "Still Shooting? | MiniMax H3 AI Video Generation | VinaAI (2026) #animation #aifilmmaking #aivideo",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "H2tsuziBpxk",
+      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 4
 }
