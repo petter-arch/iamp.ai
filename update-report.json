@@ -1,147 +1,67 @@
 {
-  "startedAt": "2026-09-20T07:54:58.905Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-20T07:54:58.905Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 136,
-    "relevant": 38,
-    "supported": 37
-  },
-  "rejected": [
+  "startedAt": "2026-09-20T09:50:23.089Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "vIHw_2VjSUw",
-      "title": "DeepSeek’s Insane New Architecture",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2
-      ]
+      "platform": "higgsfield",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/blog/ai-video-camera-control\",\"quote\":\"Higgsfield's AI-native creative suite\",\"retrieved\":[]}"
     },
     {
-      "video": "0geOeaTgXu0",
-      "title": "GPT Image 2.5 vs. Gemini 2: which model nails a camouflaged spider in one shot?",
-      "stage": "insufficient-article-source"
+      "platform": "higgsfield",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/credits/how-credits-work\",\"quote\":\"Credits are deducted for all generations on web: images, videos, re-rolls, and upscaling.\",\"retrieved\":[]}"
     },
     {
-      "video": "6QC6nOotxrU",
-      "title": "This AI Trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
+      "platform": "higgsfield",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "hygMRgnDD7w",
-      "title": "OpenAI hacked, Jev, Google’s RSI, Qwen 3.8 Omni, Bonsai 2, new Gemini Live: AI NEWS",
-      "stage": "insufficient-article-source"
+      "platform": "higgsfield",
+      "field": "deep",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "insufficient-article-source"
+      "platform": "higgsfield",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
-      "stage": "insufficient-article-source"
+      "platform": "higgsfield",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "ja8hDC1_5ss",
-      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
-      "stage": "insufficient-article-source"
+      "platform": "krea-ai",
+      "field": "long",
+      "message": "fetch failed"
     },
     {
-      "video": "HhJJobhLUm0",
-      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
-      "stage": "insufficient-article-source"
+      "platform": "krea-ai",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://pika.art/pricing?interval=month\",\"quote\":\"Price / mo | $0 | $10 | $35 | $95–$880\",\"retrieved\":[]}"
     },
     {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "enuB-_PheUg",
-      "title": "Instagram  Trending Ai Photo Editing | Gemini Photo Edit | Trending Instagram Viral Ai Photo Editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rSPaGtEz9a4",
-      "title": "Gemini Photo Edit | Trending Instagram  Photo Editing | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "H2tsuziBpxk",
-      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_KjoGTlmKCg",
-      "title": "🌄Night petrol pump TREND  Trending Photo Editing || Chatgpt Editing #gemini #chatgpt #photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "P59WU-9to_o",
-      "title": "5 Best New AI Tools: AI Co-Founder, Video, Game & 3D Maker",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9dmu5hgi44k",
-      "title": "TRIPO AI – Generowanie modeli 3D z AI! 🤯 Jak działa Tripo?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "PFnox_FM2JE",
-      "title": "Tripo's Speedy 3D Models #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "insufficient-article-source"
+      "candidate": "Polycam",
+      "message": "Official source unavailable"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }

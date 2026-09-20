@@ -8597,8 +8597,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
-      "lastCheckError": "Invalid independent fact check"
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Krea AI",
@@ -8645,8 +8645,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Spline AI",
@@ -8744,8 +8744,8 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Pika 2.5",
@@ -8791,8 +8791,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-09T10:15:48.881Z",
-      "lastCheckError": "Invalid independent fact check"
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Recraft V4.1",
@@ -10850,14 +10850,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=z27HM89qojY"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "RapidDirect",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=z27HM89qojY"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-20T09:50:23.089Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "GPT Image 2",
@@ -10947,9 +10952,11 @@
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
     {
-      "name": "Suno V6",
+      "name": "Suno v6",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=dQVmJog7au8"
+        "https://www.youtube.com/watch?v=dQVmJog7au8",
+        "https://www.youtube.com/watch?v=AoLovH6ybrQ",
+        "https://www.youtube.com/watch?v=_lHvWn2SNC4"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z"
     },
@@ -11092,6 +11099,50 @@
         "https://www.youtube.com/watch?v=W_9whxaNXdg"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z"
+    },
+    {
+      "name": "Google Gemini",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GK0YdIum3jY"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "AIQORA Cinema Agent",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=KsaEx3nQmwo"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "MiniMax H3",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=KsaEx3nQmwo"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "Topview Film Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QW2nS4DO-s8"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "v6-wild",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=AoLovH6ybrQ",
+        "https://www.youtube.com/watch?v=_lHvWn2SNC4"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "v6-mini",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=AoLovH6ybrQ",
+        "https://www.youtube.com/watch?v=_lHvWn2SNC4"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z"
     }
   ],
   "sourceChecks": {},
@@ -11758,54 +11809,54 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-20T07:54:58.905Z",
+    "calculatedAt": "2026-09-20T09:50:23.089Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.28429777123759575,
+      "chatgpt-images-2-0": 0.2820506129247981,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 1.044194848220195,
-      "google-veo-3-1": 0.28123918723035807,
+      "runway-gen-4-5": 1.0359412797059435,
+      "google-veo-3-1": 0.2790162047049658,
       "flux-2": 0,
-      "elevenlabs": 0.6183922193548254,
+      "elevenlabs": 0.6135042977568357,
       "elevenmusic": 0,
-      "heygen": 0.1277892853047571,
-      "kling-3-0": 0.8566999619740749,
+      "heygen": 0.12677920790067126,
+      "kling-3-0": 0.8499283983675683,
       "freepik-ai": 0,
-      "adobe-firefly": 0.6992026071149481,
+      "adobe-firefly": 0.6936759406762054,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.6517922087998245,
+      "higgsfield": 2.630831802111175,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6128560876940284,
+      "meshy-ai": 0.6080119250190444,
       "magnific-ai": 0,
-      "seedance-2-5": 2.89992391592038,
+      "seedance-2-5": 2.877002216232854,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.8566999619740749,
+      "nano-banana-pro": 0.8499283983675683,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.8295309632908087,
+      "rodin-hyper3d": 0.822974150017995,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.572910140493156,
-      "trellis-2": 2.0018568339371736,
+      "hunyuan3d": 0.5683817202417734,
+      "trellis-2": 1.9860336735732003,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.572910140493156,
-      "hitem3d": 2.158739930117032,
+      "luma-genie": 0.5683817202417734,
+      "hitem3d": 2.1416767278343922,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
