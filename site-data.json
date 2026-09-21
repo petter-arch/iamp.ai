@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T08:12:07.433Z",
+  "updatedAt": "2026-09-21T10:47:30.467Z",
   "newsCheckedAt": "2026-09-21T08:12:07.433Z",
   "news": [
     {
@@ -9947,8 +9947,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
     },
     {
       "n": "Meshy AI",
@@ -9960,15 +9959,16 @@
       "pct": 51,
       "price": "Gratis (daglig) / betal",
       "sub": "Text till 3D-modeller på under 30 sekunder",
-      "long": "Meshy omvandlar text eller bilder till textade 3D-modeller på under 30 sekunder. Populärt bland spelutvecklare, arkitekter och VR/AR-skapare. Exporterar till OBJ, FBX, GLB och fler format. Ett av de snabbast växande 3D-verktygen.",
+      "long": "Meshy är en AI-plattform för 3D-produktion med text- och bildbaserad generering, efterbearbetning och export. Du kan generera eller regenerera PBR-texturer på både Meshy-genererade och egna modeller, och dokumentationen listar sex exportformat: GLB, FBX, OBJ, STL, USDZ och 3MF. För karaktärer finns automatisk riggning för humanoider och fyrbenta modeller samt över 500 animationsförinställningar för vidare export till bland annat Unity, Unreal och Blender.",
       "pros": [
-        "Text/bild till 3D på ~30 s",
-        "Game-ready format (FBX, GLB, OBJ, USDZ, STL, BLEND)",
-        "100 gratis-krediter per månad, inget kort krävs"
+        "AI-texturering kan användas på både egna och Meshy-genererade 3D-modeller",
+        "Sex dokumenterade exportformat för spel, webben, AR och 3D-utskrift",
+        "Automatisk riggning och över 500 animationsförinställningar för kompatibla karaktärer"
       ],
       "cons": [
-        "Topologi behöver ofta städas",
-        "Detaljnivå varierar"
+        "Meshy rekommenderar ren topologi och Remesh före riggning för bästa resultat",
+        "Auto-riggning omfattar inte rekvisita, byggnader eller fordon",
+        "Komplexa specialriggar, exempelvis ansiktsuttryck eller svansfysik, kräver manuell riggning i externa DCC-verktyg"
       ],
       "tags": [
         "3D",
@@ -9983,7 +9983,7 @@
       "speed": 80,
       "pricev": 68,
       "rating": 74,
-      "deep": "Text eller bild till 3D på under en minut med game-ready format (GLB/FBX/OBJ). Räkna med viss städning av topologi innan produktion.",
+      "deep": "Meshy täcker ett brett AI-baserat 3D-flöde, från generering och PBR-texturering till export, riggning och standardanimationer. Räkna dock med kvalitetskontroll före produktion: Meshy rekommenderar ren topologi före riggning, och dess egen textureringsguide visar att bristfälliga UV:er kan ge synliga sömmar och förvrängning. Auto-riggningen är avsedd för humanoider och fyrbenta karaktärer; mer komplexa specialriggar behöver färdigställas i externa DCC-verktyg.",
       "caps": [
         "Text-till-3D",
         "Bild-till-3D",
@@ -10034,24 +10034,67 @@
           ]
         },
         "pros": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "checkedAt": "2026-09-21T10:47:30.467Z",
           "sources": [
             {
-              "url": "https://www.meshy.ai/pricing",
-              "quote": "The Free plan is available with no credit card required. You get 100 credits/month."
+              "url": "https://docs.meshy.ai/en/webapp/guides/platform/export-formats",
+              "quote": "FBX for Unity and Unreal; GLB is best for web and AR."
             },
             {
-              "url": "https://www.meshy.ai",
-              "quote": "turns text and images into production-ready 3D models in 20-30 seconds"
+              "url": "https://docs.meshy.ai/en/webapp/guides/animate",
+              "quote": "Exports rigged and animated models as FBX or GLB, compatible with Unity/Unreal/Blender."
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-21T10:47:30.467Z",
+          "sources": [
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/ai-texturing",
+              "quote": "Generate or regenerate high-quality PBR textures for any 3D model"
             },
             {
-              "url": "https://www.meshy.ai/pricing",
-              "quote": "For Text to 3D and Image to 3D, we support downloading models in .fbx, .obj, .usdz, .glb, .stl, and .blend formats."
+              "url": "https://docs.meshy.ai/en/webapp/guides/platform/export-formats",
+              "quote": "Supports 6 major export formats: GLB, FBX, OBJ, STL, USDZ, 3MF."
+            },
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/animate",
+              "quote": "Auto-rig humanoid and quadruped characters and apply 500+ animation presets"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-21T10:47:30.467Z",
+          "sources": [
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/rigging",
+              "quote": "Depends on clean topology: Remesh first, then Rig for best results."
+            },
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/ai-texturing",
+              "quote": "Texture seams and distortion visible."
+            },
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/rigging",
+              "quote": "for complex custom skeletons, export the model and rig manually in a DCC tool like Blender or Maya."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-21T10:47:30.467Z",
+          "sources": [
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/rigging",
+              "quote": "Props, buildings, and vehicles cannot be rigged."
+            },
+            {
+              "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/rigging",
+              "quote": "Not directly — for complex custom skeletons, export the model and rig manually in a DCC tool like Blender or Maya."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -10097,7 +10140,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-10T09:48:18.251Z"
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
     },
     {
       "n": "Seedance 2.5",
@@ -10108,7 +10151,7 @@
       "bdg": "hot",
       "pct": 90,
       "price": "API öppnar 7 aug 2026 · tidiga uppskattningar ~$0,14/sek",
-      "sub": "Native 30-sekunders audio-video i en enda tagning, med stöd för flervidsextension",
+      "sub": "Audio-video-modell för berättande på 30 sekunder, med möjlighet att förlänga två gånger.",
       "long": "ByteDances Seedance 2.5 (officiellt lanserad 31 juli 2026) är en nästa generations audio-video-modell som genererar upp till 30 sekunder sammanhängande video i en enda pass — ingen manuell ihopklippning behövs. Stödjer dessutom flera rundor av extension, så att man kan producera flerminnuters innehåll med sammanhållet audiovisuellt språk. Tar emot upp till 30 referensbilder, 10 videoklipp och 10 ljudklipp i ett enda pass för stark karaktärs- och scenkonsistens. Erbjuder tidsstämpelbaserad redigering (timestamp-level control) för precisionsredigering av specifika sekunder i klippet, samt avancerade funktioner som green screen, kameraperspektivredigering och clay render-referens för professionella produktionsflöden. Modellen rullas ut på Jimeng AI och Doubao Pro, med API-åtkomst kommande via BytePlus ModelArk.",
       "pros": [
         "Native 30 sek i en tagning med stöd för flervidsextension",
@@ -10157,15 +10200,15 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
+          "checkedAt": "2026-09-21T10:47:30.467Z",
           "sources": [
             {
               "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model, built for 30-second storytelling with precise reference control"
+              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model, built for 30-second storytelling"
             },
             {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "supports multiple rounds of extension"
+              "url": "https://seed.bytedance.com/en/seedance2_5",
+              "quote": "with the option to extend twice"
             }
           ]
         },
@@ -10264,8 +10307,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-10T09:48:18.251Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
     },
     {
       "n": "Ideogram V3",
@@ -11742,7 +11784,8 @@
     {
       "name": "Hi3D",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=W7q4-rm6GWk"
+        "https://www.youtube.com/watch?v=W7q4-rm6GWk",
+        "https://www.youtube.com/watch?v=c87kDohpi1E"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -11876,14 +11919,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=f8FHas1dmt8"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Astra",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=f8FHas1dmt8"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-21T10:47:30.467Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "OpenAI GPT-6",
@@ -11918,7 +11967,9 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nYCuS1j28w8",
         "https://www.youtube.com/watch?v=vEpkDv8B4T8",
-        "https://www.youtube.com/watch?v=yZbwnggURYs"
+        "https://www.youtube.com/watch?v=yZbwnggURYs",
+        "https://www.youtube.com/watch?v=dETVHy04aCM",
+        "https://www.youtube.com/watch?v=D8qiNmxPSuc"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
@@ -11947,7 +11998,8 @@
       "name": "GPT-6 Astra",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=h_mR2BRibZ8",
-        "https://www.youtube.com/watch?v=W_9whxaNXdg"
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z"
     },
@@ -11963,7 +12015,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=dQVmJog7au8",
         "https://www.youtube.com/watch?v=AoLovH6ybrQ",
-        "https://www.youtube.com/watch?v=_lHvWn2SNC4"
+        "https://www.youtube.com/watch?v=_lHvWn2SNC4",
+        "https://www.youtube.com/watch?v=8f5yk81N8Y4"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z"
     },
@@ -12103,7 +12156,8 @@
     {
       "name": "Hi3D Agent",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=W_9whxaNXdg"
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z"
     },
@@ -12150,6 +12204,167 @@
         "https://www.youtube.com/watch?v=_lHvWn2SNC4"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z"
+    },
+    {
+      "name": "OpenArt",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dETVHy04aCM"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Meshwright",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=c87kDohpi1E"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "ComfyUI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=c87kDohpi1E"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Runway AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=e-Hd2gESwK0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Qwen-Image-2.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=gXB6r4NchuI"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Prism Desktop v1.0.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=qoJU6x9e-QE"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Qwen Image 2.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=63MkFYtjqYk"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Qwen3.8-LiveTranslate",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=63MkFYtjqYk"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Tripo Smart UV",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Meshy 7.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Miora 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "WorldSculpt",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "KaiNinja",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Snap3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "HKTex",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Google Omni",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=fQuJdcdLpEY"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Seedance 2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=fQuJdcdLpEY"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Grok",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=fQuJdcdLpEY"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Dola AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hBfQdqwY-tc"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Gemini 3.8 Live",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hygMRgnDD7w"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Qwen 3.8 Omni Flash",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hygMRgnDD7w"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Qwen 3.8 Live Translate",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hygMRgnDD7w"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Jev",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hygMRgnDD7w"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z"
     }
   ],
   "sourceChecks": {},
@@ -12816,54 +13031,54 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-21T08:12:07.433Z",
+    "calculatedAt": "2026-09-21T10:47:30.467Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.25719186978740444,
+      "chatgpt-images-2-0": 0.2544584266168143,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.9446378150171462,
-      "google-veo-3-1": 0.2544249014207552,
+      "runway-gen-4-5": 0.9345981750150179,
+      "google-veo-3-1": 0.25172086567580143,
       "flux-2": 0,
-      "elevenlabs": 0.5594326345419411,
+      "elevenlabs": 0.5534869671475637,
       "elevenmusic": 0,
-      "heygen": 0.1156054269551737,
-      "kling-3-0": 0.775019319032119,
+      "heygen": 0.11437676889123496,
+      "kling-3-0": 0.7667823896671476,
       "freepik-ai": 0,
-      "adobe-firefly": 0.6325382893481533,
+      "adobe-firefly": 0.625815652786645,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.2833061119297975,
+      "higgsfield": 4.237783001697426,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.527450079075599,
+      "meshy-ai": 1.5112162922513195,
       "magnific-ai": 0,
-      "seedance-2-5": 3.5135968513892135,
+      "seedance-2-5": 3.4762542350554404,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.775019319032119,
+      "nano-banana-pro": 0.7667823896671476,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.7504407036557745,
+      "rodin-hyper3d": 0.7424649965774897,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.5182869693707748,
-      "trellis-2": 1.810993100388082,
+      "hunyuan3d": 0.5127785993822388,
+      "trellis-2": 1.7917458095373506,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.5182869693707748,
-      "hitem3d": 1.9529184368720391,
+      "luma-genie": 0.5127785993822388,
+      "hitem3d": 1.9321627591424129,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,

@@ -1,153 +1,28 @@
 {
-  "startedAt": "2026-09-21T08:12:07.433Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 5
-    },
-    "3d": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-21T08:12:07.433Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 146,
-    "relevant": 41,
-    "supported": 38
-  },
-  "rejected": [
+  "startedAt": "2026-09-21T10:47:30.467Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "meshy-ai",
+      "field": "caps",
+      "message": "Invalid official citation"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "meshy-ai",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "jb1jr3mYZjs",
-      "title": "What's New in Isaac Lab-Arena 0.3 | Robotics Office Hours",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "candidate": "GPT Image 2",
+      "message": "Evidence quote missing"
     },
     {
-      "video": "0geOeaTgXu0",
-      "title": "GPT Image 2.5 vs. Gemini 2: which model nails a camouflaged spider in one shot?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "qsmDdOi07fI",
-      "title": "Testing Viral AI 3D Products",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HhJJobhLUm0",
-      "title": "ChatGPT's new Image 2.5 just dethroned the competition.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "j-o0umbbge0",
-      "title": "GPT-6 Astra Crushes Water Physics",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xILj0L1v1io",
-      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-YpcLtkCyzU",
-      "title": "🔥 Explore the New CapCut Pro Features! 🔥✨ Advanced AI Tools🎬 AI Video & Image Generation",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "pjfZ7qi_ai8",
-      "title": "Trending photo editing chatgpt //chatgpt ai photo editing new trend  📷 //ai photo prompt new trend?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "OnDonAbxAOo",
-      "title": "❤️Instagram viral couple photo editing chat GPT ||  trending couple photo editing prompt #shorts #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "enuB-_PheUg",
-      "title": "Instagram  Trending Ai Photo Editing | Gemini Photo Edit | Trending Instagram Viral Ai Photo Editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9dmu5hgi44k",
-      "title": "TRIPO AI – Generowanie modeli 3D z AI! 🤯 Jak działa Tripo?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rSPaGtEz9a4",
-      "title": "Gemini Photo Edit | Trending Instagram  Photo Editing | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xn8aU3pDJRo",
-      "title": "Part 15, Create a 3D Printable Model with AI: Text to 3D Model",
-      "stage": "insufficient-article-source"
+      "candidate": "Astra",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 10
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }
