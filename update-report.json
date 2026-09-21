@@ -1,72 +1,49 @@
 {
-  "startedAt": "2026-09-20T17:40:03.027Z",
+  "startedAt": "2026-09-21T08:12:07.433Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-20T17:40:03.027Z",
+      "checkedAt": "2026-09-21T08:12:07.433Z",
       "found": 3
     }
   },
   "selection": {
-    "fetched": 138,
-    "relevant": 38,
-    "supported": 34
+    "fetched": 146,
+    "relevant": 41,
+    "supported": 38
   },
   "rejected": [
     {
-      "video": "SuIhqDP2VHw",
-      "title": "Linus vs Robot",
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1,
-        2
-      ]
-    },
-    {
-      "video": "MImgH4KMtj8",
-      "title": "Deepseek just did the impossible",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        7,
-        25
-      ]
-    },
-    {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        5,
-        6
+        1
       ]
     },
     {
@@ -78,13 +55,22 @@
       ]
     },
     {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
+      "video": "jb1jr3mYZjs",
+      "title": "What's New in Isaac Lab-Arena 0.3 | Robotics Office Hours",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
       "video": "0geOeaTgXu0",
       "title": "GPT Image 2.5 vs. Gemini 2: which model nails a camouflaged spider in one shot?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qsmDdOi07fI",
+      "title": "Testing Viral AI 3D Products",
       "stage": "insufficient-article-source"
     },
     {
@@ -93,8 +79,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
+      "video": "_UheElPMdo0",
+      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
       "stage": "insufficient-article-source"
     },
     {
@@ -103,13 +89,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ja8hDC1_5ss",
-      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
       "stage": "insufficient-article-source"
     },
     {
@@ -118,8 +99,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "j-o0umbbge0",
+      "title": "GPT-6 Astra Crushes Water Physics",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xILj0L1v1io",
+      "title": "Muzim is the fully-local AI organizer for all of your data—documents, photos, videos, and more!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-YpcLtkCyzU",
+      "title": "🔥 Explore the New CapCut Pro Features! 🔥✨ Advanced AI Tools🎬 AI Video & Image Generation",
       "stage": "insufficient-article-source"
     },
     {
@@ -128,13 +124,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "enuB-_PheUg",
-      "title": "Instagram  Trending Ai Photo Editing | Gemini Photo Edit | Trending Instagram Viral Ai Photo Editing",
+      "video": "OnDonAbxAOo",
+      "title": "❤️Instagram viral couple photo editing chat GPT ||  trending couple photo editing prompt #shorts #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "OnDonAbxAOo",
-      "title": "❤️Instagram viral couple photo editing chat GPT ||  trending couple photo editing prompt #shorts #ai",
+      "video": "enuB-_PheUg",
+      "title": "Instagram  Trending Ai Photo Editing | Gemini Photo Edit | Trending Instagram Viral Ai Photo Editing",
       "stage": "insufficient-article-source"
     },
     {
@@ -148,20 +144,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "H2tsuziBpxk",
-      "title": "CHET GPT se photo editing? instagram vairal photo editing? #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4pVu4tkMuYE",
-      "title": "БЕСПЛАТНАЯ ИИ по клонированию голоса — Fish Audio",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "PFnox_FM2JE",
-      "title": "Tripo's Speedy 3D Models #shorts",
+      "video": "xn8aU3pDJRo",
+      "title": "Part 15, Create a 3D Printable Model with AI: Text to 3D Model",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 10
 }
