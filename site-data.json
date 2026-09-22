@@ -11298,7 +11298,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -11345,7 +11345,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-11T09:46:36.015Z"
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z"
     },
     {
       "n": "Wan 3.0",
@@ -11395,7 +11395,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-11T09:46:36.015Z"
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z"
     },
     {
       "n": "Nano Banana Pro",
@@ -11442,7 +11442,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-11T09:46:36.015Z",
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12594,7 +12594,8 @@
       "name": "Tripo AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=8xrC-zEsY0o",
-        "https://www.youtube.com/watch?v=luG8o7cP5Uo"
+        "https://www.youtube.com/watch?v=luG8o7cP5Uo",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -12637,7 +12638,8 @@
       "name": "Hi3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk",
-        "https://www.youtube.com/watch?v=c87kDohpi1E"
+        "https://www.youtube.com/watch?v=c87kDohpi1E",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -12720,7 +12722,8 @@
       "name": "Google Flow",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=iixnU96ZEAM",
-        "https://www.youtube.com/watch?v=shu68GIvZI8"
+        "https://www.youtube.com/watch?v=shu68GIvZI8",
+        "https://www.youtube.com/watch?v=btK3d1q09Pc"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -12769,7 +12772,8 @@
     {
       "name": "GPT Image 2",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=f8FHas1dmt8"
+        "https://www.youtube.com/watch?v=f8FHas1dmt8",
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-21T10:47:30.467Z",
@@ -12791,14 +12795,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=f8FHas1dmt8"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Fast3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=sZgl9TmRjgI"
       ],
-      "firstSeen": "2026-09-15T10:07:38.861Z"
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Veo 3.1 Fast",
@@ -12896,7 +12905,8 @@
     {
       "name": "Gemini AI",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=L049uPaPQ4A"
+        "https://www.youtube.com/watch?v=L049uPaPQ4A",
+        "https://www.youtube.com/watch?v=PJBadOeNi1o"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z"
     },
@@ -13030,7 +13040,8 @@
     {
       "name": "MiniMax H3",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=KsaEx3nQmwo"
+        "https://www.youtube.com/watch?v=KsaEx3nQmwo",
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z"
     },
@@ -13067,14 +13078,16 @@
     {
       "name": "Meshwright",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=c87kDohpi1E"
+        "https://www.youtube.com/watch?v=c87kDohpi1E",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
     {
       "name": "ComfyUI",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=c87kDohpi1E"
+        "https://www.youtube.com/watch?v=c87kDohpi1E",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -13102,7 +13115,8 @@
     {
       "name": "Qwen Image 2.1",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=63MkFYtjqYk"
+        "https://www.youtube.com/watch?v=63MkFYtjqYk",
+        "https://www.youtube.com/watch?v=S_DgpfaEmnE"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -13217,6 +13231,69 @@
         "https://www.youtube.com/watch?v=hygMRgnDD7w"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
+    },
+    {
+      "name": "Tripo P2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mYNbxioF6I8"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Dreamina",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Seed Audio 1.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "BytePlus Dramagic",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Images 2.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=fSexP0HGy4Q"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "invideo Agent 2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=9oCppy1gZpo"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Google Flow AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tfMt8z0J8so"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Cinema Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M73BrFnVPA8"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "Soul ID",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M73BrFnVPA8"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z"
     }
   ],
   "sourceChecks": {},
@@ -13883,58 +13960,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-22T07:56:36.276Z",
+    "calculatedAt": "2026-09-22T10:02:19.819Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.2331934887864657,
+      "chatgpt-images-2-0": 0.23118610931082695,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.856494367048069,
-      "google-veo-3-1": 0.23068470416853015,
+      "runway-gen-4-5": 0.8491214801704818,
+      "google-veo-3-1": 0.2286989208479858,
       "flux-2": 0,
-      "elevenlabs": 0.5072323938453982,
+      "elevenlabs": 0.5028660288062923,
       "elevenmusic": 0,
-      "heygen": 0.10481837103408362,
-      "kling-3-0": 0.702702846055757,
+      "heygen": 0.10391607205576017,
+      "kling-3-0": 0.696653829515947,
       "freepik-ai": 0,
-      "adobe-firefly": 0.573516614681661,
+      "adobe-firefly": 0.5685796608788728,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.668426147491535,
+      "higgsfield": 5.619631121666143,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.315505603659185,
+      "meshy-ai": 2.295573235698567,
       "magnific-ai": 0,
-      "seedance-2-5": 4.14585867768174,
+      "seedance-2-5": 4.1101702386014445,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.6628157665257028,
+      "nano-banana-pro": 1.6485018924168557,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.6804176428963874,
+      "rodin-hyper3d": 0.6745604621563907,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.4699259999160909,
-      "trellis-2": 1.6420106887391086,
+      "hunyuan3d": 0.46588077630281755,
+      "trellis-2": 1.627875909193987,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.4699259999160909,
-      "hitem3d": 1.770693078230053,
+      "luma-genie": 0.46588077630281755,
+      "hitem3d": 1.7554505731267072,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.9010942228503225
+      "gemini-omni-flash": 0.89333741086565
     }
   }
 }
