@@ -1,78 +1,183 @@
 {
-  "startedAt": "2026-09-23T10:02:36.801Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-23T18:36:36.112Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-23T18:36:36.112Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 140,
+    "relevant": 33,
+    "supported": 25
+  },
+  "rejected": [
     {
-      "platform": "nano-banana-2",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://gemini.google/subscriptions/\",\"quote\":\"$0/ month with a Google Account\",\"retrieved\":[]}"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "nano-banana-2",
-      "field": "free",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "seedream-4",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://seed.bytedance.com/en/blog/seedream-4-0-officially-released-beyond-drawing-into-imagination\",\"quote\":\"supports diverse modes including text-to-image generation, image-to-image translation, single-image editing, multi-image editing, and image composition\",\"retrieved\":[]}"
+      "video": "rJ6NrYS-uGc",
+      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
     },
     {
-      "platform": "seedream-4",
-      "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://seed.bytedance.com/models?view_from=homepage_tab\",\"quote\":\"Seedream 4.0 A new-generation image creation model can flexibly handle complex multimodal tasks, producing high-definition images at up to 4K resolution.\",\"retrieved\":[]}"
+      "video": "gzLaOSggSIg",
+      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3,
+        4
+      ]
     },
     {
-      "platform": "seedream-4",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://seed.bytedance.com/zh/seedream-4-0\",\"quote\":\"文生图、图生图、图像编辑、多图编辑、组图生成\",\"retrieved\":[]}"
+      "video": "kkbO0kAzn-U",
+      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "hailuo-3-0",
-      "field": "free",
-      "message": "Invalid profile field free"
+      "video": "iFtSZfu50e8",
+      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "hailuo-3-0",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
+      "video": "6vc1-BrfLNU",
+      "title": "Qwen-Image 2.1: MELHOR que o Nano Banana 2 e roda LOCAL",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "happy-horse-1-0",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/model-pricing\",\"quote\":\"happyhorse-1.0-i2v | Global | 720P | $0.123769/second\",\"retrieved\":[]}"
+      "video": "u1EPEKlQRfw",
+      "title": "The New Free AI Image Generator You Need to Try: Qwen-Image-2.1",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        15
+      ]
     },
     {
-      "platform": "happy-horse-1-0",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model\",\"quote\":\"### HappyHorse 1.0\",\"retrieved\":[]}"
+      "video": "qsmDdOi07fI",
+      "title": "Testing Viral AI 3D Products",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "happy-horse-1-0",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model\",\"quote\":\"Audio | 720P, 1080P. 3–15s. 24 fps, MP4\",\"retrieved\":[]}"
+      "video": "6QC6nOotxrU",
+      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "happy-horse-1-0",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model\",\"quote\":\"`happyhorse-1.0-video-edit` | Video editing\",\"retrieved\":[]}"
+      "video": "0geOeaTgXu0",
+      "title": "GPT Image 2.5 vs. Gemini 2: which model nails a camouflaged spider in one shot?",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "happy-horse-1-0",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model\",\"quote\":\"`happyhorse-1.0-t2v` | Text-to-video\",\"retrieved\":[]}"
+      "video": "9dmu5hgi44k",
+      "title": "TRIPO AI – Generowanie modeli 3D z AI! 🤯 Jak działa Tripo?",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Veo 3.1 Fast",
-      "message": "Invalid evidence URL"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Veo 3.1 Lite",
-      "message": "Invalid evidence URL"
+      "video": "dZnsz2RYoAQ",
+      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "YuYh8OQu42M",
+      "title": "Instagram Viral Ai Photo Editing 🔥 Prompt 💭 💯 #aiphotoediting #photoediting #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LClQeq8bBSs",
+      "title": "AIతో ఒక్క వ్యక్తి Movie Studioలా పని చేయగలడా 🤯🎬  AI Filmmaking Future",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "c_haPBDTX74",
+      "title": "Ai Se Photo Kaise Banaye | ChatGPT Se Ai Photo Editing | Ai Character | Ai Influencer | Ai Thumbnail",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "oiLwFakeAfY",
+      "title": "AI Video Generation: The Future of Filmmaking Is Here 🔥",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-L0Xp0OXqJw",
+      "title": "Novo ChatGPT Images 2.5 (Revolução na Criação de Imagens com IA)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        2,
+        4,
+        5
+      ]
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 3
 }
