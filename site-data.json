@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T07:57:22.415Z",
+  "updatedAt": "2026-09-23T10:02:36.801Z",
   "newsCheckedAt": "2026-09-23T07:57:22.415Z",
   "news": [
     {
@@ -11772,7 +11772,7 @@
       "bdg": "new",
       "pct": 95,
       "price": "I Gemini / betala per bild (API)",
-      "sub": "Pro-kvalitet i Flash-hastighet — Googles snabba bildmodell",
+      "sub": "Googles senaste toppmodell för bilder — avancerad kunskap, kvalitet och resonemang i hög hastighet.",
       "long": "Nano Banana 2 (Gemini 3.1 Flash Image, februari 2026) ger nära Pro-kvalitet i betydligt högre hastighet och till lägre pris. Stark textrendering, 4K-stöd och flera referensbilder — ett smart förstaval när volym och fart betyder mer än absolut toppkvalitet.",
       "pros": [
         "Mycket snabb",
@@ -11806,9 +11806,19 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
-      "lastCheckError": "Source/API HTTP 400"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-23T10:02:36.801Z",
+          "sources": [
+            {
+              "url": "https://gemini.google/overview/image-generation/",
+              "quote": "Our latest state of the art image model."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Seedream 4",
@@ -11819,7 +11829,7 @@
       "bdg": "",
       "pct": 78,
       "price": "Betalplaner / API",
-      "sub": "ByteDances snabba, fotorealistiska bildmodell",
+      "sub": "ByteDances enhetliga modell för bildgenerering och bildredigering",
       "long": "Seedream 4 från ByteDance är en av de mest populära bildmodellerna 2026, känd för snabb generering, stark fotorealism och bra promptföljning. Hanterar referensbilder väl för konsekventa motiv.",
       "pros": [
         "Snabb",
@@ -11840,7 +11850,7 @@
       "speed": 88,
       "pricev": 62,
       "rating": 84,
-      "deep": "Utmärker sig på hastighet och fotorealism, och håller motiv konsekventa mellan generationer tack vare god referenshantering.",
+      "deep": "Modellen är dokumenterad för komplexa multimodala uppgifter, där kunskapsbaserad generering, komplex slutledning och konsekvens mot referensbilder ingår. Den har även stöd för batchvis arbete med flera referensbilder och flera resultat samt promptbaserad bildredigering.",
       "caps": [
         "Text-till-bild",
         "Referensbilder"
@@ -11851,9 +11861,32 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
-      "lastCheckError": "Source/API HTTP 400"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-23T10:02:36.801Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/seedream4_0",
+              "quote": "Seedream 4.0 integrates image generation and image editing capabilities into a single, unified architecture."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-23T10:02:36.801Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/zh/seedream4_0",
+              "quote": "新增知识生图、复杂推理和参考图一致性等"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/seedream4_0",
+              "quote": "Upload multiple reference images and generate several outputs in one go"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Hailuo 3.0",
@@ -11903,8 +11936,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
-      "lastCheckError": "Source/API HTTP 400"
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Happy Horse 1.0",
@@ -11948,8 +11981,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-12T09:25:03.709Z",
-      "lastCheckError": "Source/API HTTP 400"
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Grok Imagine",
@@ -13041,7 +13074,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=iixnU96ZEAM",
         "https://www.youtube.com/watch?v=shu68GIvZI8",
-        "https://www.youtube.com/watch?v=btK3d1q09Pc"
+        "https://www.youtube.com/watch?v=btK3d1q09Pc",
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -13132,14 +13166,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=shu68GIvZI8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Veo 3.1 Lite",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=shu68GIvZI8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "GPT Image 2.5",
@@ -13405,7 +13445,8 @@
       "name": "ComfyUI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=c87kDohpi1E",
-        "https://www.youtube.com/watch?v=2XYp_fmku_U"
+        "https://www.youtube.com/watch?v=2XYp_fmku_U",
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -13434,7 +13475,8 @@
       "name": "Qwen Image 2.1",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=63MkFYtjqYk",
-        "https://www.youtube.com/watch?v=S_DgpfaEmnE"
+        "https://www.youtube.com/watch?v=S_DgpfaEmnE",
+        "https://www.youtube.com/watch?v=BaE6UBfNdQk"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -13612,6 +13654,76 @@
         "https://www.youtube.com/watch?v=M73BrFnVPA8"
       ],
       "firstSeen": "2026-09-22T10:02:19.819Z"
+    },
+    {
+      "name": "H3.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=yLu46X7a-cs"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Smart Mesh",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=yLu46X7a-cs"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Sora 2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=6L6WxVCBghM"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Claude AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Nano Banana",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Flow Agent",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "goyAIcanvas Advanced",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "G70",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "LM Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "goyAI Assistant",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z"
     }
   ],
   "sourceChecks": {},
@@ -14278,58 +14390,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-23T07:57:22.415Z",
+    "calculatedAt": "2026-09-23T10:02:36.801Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.21119769296349988,
+      "chatgpt-images-2-0": 0.20938665478799443,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.7757061970217579,
-      "google-veo-3-1": 0.208925547518069,
+      "runway-gen-4-5": 0.7690544504232506,
+      "google-veo-3-1": 0.20713399318296083,
       "flux-2": 0,
-      "elevenlabs": 1.3747673076894764,
+      "elevenlabs": 1.3629785611282497,
       "elevenmusic": 0,
-      "heygen": 0.09493145909773548,
-      "kling-3-0": 1.5696427803496444,
+      "heygen": 0.09411741376385888,
+      "kling-3-0": 1.5561829600399075,
       "freepik-ai": 0,
-      "adobe-firefly": 0.5194201027110038,
+      "adobe-firefly": 0.5149660311634648,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.133756226703331,
+      "higgsfield": 5.089733830531108,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.097097324980108,
+      "meshy-ai": 2.079114537100196,
       "magnific-ai": 0,
-      "seedance-2-5": 3.7548037581824127,
+      "seedance-2-5": 3.7226059966814145,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.5059719529096232,
+      "nano-banana-pro": 1.493058115359176,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.6162377739584635,
+      "rodin-hyper3d": 0.6109534826474776,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.42560059271948436,
-      "trellis-2": 1.4871292980253847,
+      "hunyuan3d": 0.4219510314476861,
+      "trellis-2": 1.4743770378427792,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.42560059271948436,
-      "hitem3d": 1.6036738204601608,
+      "luma-genie": 0.4219510314476861,
+      "hitem3d": 1.589922181087784,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.8160992058530034
+      "gemini-omni-flash": 0.8091010857691117
     }
   }
 }
