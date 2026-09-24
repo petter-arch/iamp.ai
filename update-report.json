@@ -1,175 +1,58 @@
 {
-  "startedAt": "2026-09-24T07:48:10.544Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-24T07:48:10.544Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 136,
-    "relevant": 39,
-    "supported": 32
-  },
-  "rejected": [
+  "startedAt": "2026-09-24T10:05:38.488Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "grok-imagine",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://x.ai/news/grok-imagine-video-1-5\",\"quote\":\"Imagine Video 1.5 is out of preview and generally available in the xAI API as `grok-imagine-video-1.5`.\",\"retrieved\":[]}"
     },
     {
-      "video": "SuIhqDP2VHw",
-      "title": "Linus vs Robot",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "grok-imagine",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://docs.x.ai/developers/model-capabilities/video/generation\",\"quote\":\"Reference-to-video ... Generates video guided by reference images and/or a preset voice.\",\"retrieved\":[]}"
     },
     {
-      "video": "rJ6NrYS-uGc",
-      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3,
-        4
-      ]
+      "platform": "grok-imagine",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "gzLaOSggSIg",
-      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
+      "platform": "rodin-hyper3d",
+      "field": "long",
+      "message": "Invalid official citation"
     },
     {
-      "video": "kkbO0kAzn-U",
-      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
+      "platform": "rodin-hyper3d",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "rodin-hyper3d",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "1j3VsaQ74Ow",
-      "title": "Now 3D AI Can Generate 4096³ Geometry - Meshy 7.1",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        5
-      ]
+      "platform": "tripo-3-1",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://docs.tripo3d.ai/get-started/pricing.html\",\"quote\":\"Text to model | 10 | 20\",\"retrieved\":[]}"
     },
     {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
+      "platform": "tripo-3-1",
+      "field": "free",
+      "message": "Invalid profile field free"
     },
     {
-      "video": "_UheElPMdo0",
-      "title": "GPT-6 Astra Made a 3D Van Gogh World!",
-      "stage": "insufficient-article-source"
+      "candidate": "GPT Image 2.5",
+      "message": "Official source unavailable"
     },
     {
-      "video": "ja8hDC1_5ss",
-      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dZnsz2RYoAQ",
-      "title": "ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "YuYh8OQu42M",
-      "title": "Instagram Viral Ai Photo Editing 🔥 Prompt 💭 💯 #aiphotoediting #photoediting #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "c_haPBDTX74",
-      "title": "Ai Se Photo Kaise Banaye | ChatGPT Se Ai Photo Editing | Ai Character | Ai Influencer | Ai Thumbnail",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rWncDNqHXgg",
-      "title": "New Creative 💫 Ai Photo Editing 🔥💯 Prompt 💭 #aiphotoediting #chatgpt #photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "oiLwFakeAfY",
-      "title": "AI Video Generation: The Future of Filmmaking Is Here 🔥",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "nSOH33sRye0",
-      "title": "New Trending Photo Editing | Chatgpt Photo Editing Prompt For Girls | Ai Photo Editing #ai#viral",
-      "stage": "insufficient-article-source"
+      "candidate": "Flare",
+      "message": "Evidence quote missing"
     }
   ],
-  "accepted": 5
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T07:48:10.544Z",
+  "updatedAt": "2026-09-24T10:05:38.488Z",
   "newsCheckedAt": "2026-09-24T07:48:10.544Z",
   "news": [
     {
@@ -12465,7 +12465,7 @@
       "pct": 72,
       "price": "Via X / xAI",
       "sub": "Bild- och videogenerering i Grok; Imagine Video 1.5 finns också via API.",
-      "long": "xAI:s Grok Imagine genererar video med native ljud och distribueras via X och xAI:s API (samt Higgsfield). Snabbt och socialt-först — värt att hålla koll på om du redan lever i X-ekosystemet.",
+      "long": "xAI:s dokumenterade `grok-imagine-video-1.5` skapar video från text- eller bildreferenser med förinställda röster och upplösning upp till 1080p. Det ger en konkret väg från prompt eller stillbild till videoklipp i xAI:s API.",
       "pros": [
         "Native ljud-video",
         "Snabbt och socialt",
@@ -12509,9 +12509,18 @@
               "quote": "generally available in the xAI API"
             }
           ]
+        },
+        "long": {
+          "checkedAt": "2026-09-24T10:05:38.488Z",
+          "sources": [
+            {
+              "url": "https://docs.x.ai/developers/model-capabilities/imagine",
+              "quote": "Create videos from text or image references, with preset voices — up to 1080p."
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12559,7 +12568,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12571,8 +12580,8 @@
       "bdg": "hot",
       "pct": 85,
       "price": "Från ca $11,94/mån",
-      "sub": "Etta på 3D-rankningen — snabbare och bättre rakt igenom",
-      "long": "Tripo 3.1 (mars 2026) toppar Top3D AI:s oberoende ELO-rankning bland 20+ verktyg, med skarpare geometri, HD-texturer och renare quad-topologi än 3.0. Fortfarande det prisvärda game-dev-valet: auto-rigging, stiliserade lägen (voxel, tecknat) och en textursatt modell på omkring 10 sekunder till 1,5 minut.",
+      "sub": "Tripo v3.1 — högupplöst 3D-generering med upp till 2 miljoner polygoner",
+      "long": "Tripo v3.1 lanserades i API:ts release notes den 11 mars 2026 för högdetaljerad 3D-generering, med stöd för upp till 2 miljoner polygoner. Tripo positionerar versionen för 3D-utskrift, hero assets och högdetaljerade visuella tillämpningar. API:t har separata arbetsflöden för text-, bild- och multivy-till-modell, och kreditförbrukningen varierar med uppgift och valda tillägg. Detta är leverantörens egen produktbeskrivning, inte en oberoende kvalitetsjämförelse.",
       "pros": [
         "Etta på Top3D AI:s ELO-rankning",
         "Renare quad-topologi",
@@ -12606,8 +12615,27 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T09:08:03.910Z",
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-24T10:05:38.488Z",
+          "sources": [
+            {
+              "url": "https://docs.tripo3d.ai/get-started/changelog.html",
+              "quote": "Released Tripo v3.1 for high-fidelity 3D generation"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-24T10:05:38.488Z",
+          "sources": [
+            {
+              "url": "https://docs.tripo3d.ai/get-started/changelog.html",
+              "quote": "supporting up to 2M polygons for 3D printing, hero assets, and high-detail visuals."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12655,7 +12683,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T09:08:03.910Z"
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z"
     },
     {
       "n": "TRELLIS 2",
@@ -13449,7 +13477,8 @@
       "name": "Meshy 7",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk",
-        "https://www.youtube.com/watch?v=Z7qur9NODzE"
+        "https://www.youtube.com/watch?v=Z7qur9NODzE",
+        "https://www.youtube.com/watch?v=Xo-lL0hR68g"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -13606,7 +13635,8 @@
     {
       "name": "Astra",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=f8FHas1dmt8"
+        "https://www.youtube.com/watch?v=f8FHas1dmt8",
+        "https://www.youtube.com/watch?v=qsmDdOi07fI"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-21T10:47:30.467Z",
@@ -13661,14 +13691,20 @@
         "https://www.youtube.com/watch?v=dETVHy04aCM",
         "https://www.youtube.com/watch?v=D8qiNmxPSuc"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "Flare",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nYCuS1j28w8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Sunburst",
@@ -14195,6 +14231,48 @@
         "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
       ],
       "firstSeen": "2026-09-23T10:02:36.801Z"
+    },
+    {
+      "name": "Resonance",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ZLekK6xylDI"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "Claude",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ZLekK6xylDI"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "Grok Imagine AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "ChatGPT image generation",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "Suno AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "CapCut",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z"
     }
   ],
   "sourceChecks": {},
@@ -14861,58 +14939,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-24T07:48:10.544Z",
+    "calculatedAt": "2026-09-24T10:05:38.488Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.1914077729077331,
+      "chatgpt-images-2-0": 0.18960696277809735,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.7030199692016627,
-      "google-veo-3-1": 0.1893485349807945,
+      "runway-gen-4-5": 0.6964057891052001,
+      "google-veo-3-1": 0.18756709865433208,
       "flux-2": 0,
-      "elevenlabs": 1.245947078961133,
+      "elevenlabs": 1.2342249106985892,
       "elevenmusic": 0,
-      "heygen": 0.08603606843337738,
-      "kling-3-0": 1.422562077415075,
+      "heygen": 0.08522662051391625,
+      "kling-3-0": 1.4091782729847313,
       "freepik-ai": 0,
-      "adobe-firefly": 0.4707487267893669,
+      "adobe-firefly": 0.4663198101218915,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.5629415359748275,
+      "higgsfield": 5.510604050843626,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.9005923924300574,
+      "meshy-ai": 1.8827111644077947,
       "magnific-ai": 0,
-      "seedance-2-5": 3.402966268118708,
+      "seedance-2-5": 3.370950347169715,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.364857416400651,
+      "nano-banana-pro": 1.352016511229326,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.5584942630760348,
+      "rodin-hyper3d": 0.5532398154064745,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.38572041416535024,
-      "trellis-2": 1.3477803803949386,
+      "hunyuan3d": 0.3820914642095349,
+      "trellis-2": 1.3351001400647329,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.38572041416535024,
-      "hitem3d": 1.4534042968819958,
+      "luma-genie": 0.3820914642095349,
+      "hitem3d": 1.4397303214706478,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.7396280199475924
+      "gemini-omni-flash": 0.7326694225497423
     }
   }
 }
