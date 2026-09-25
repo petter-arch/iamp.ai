@@ -13030,7 +13030,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13077,7 +13077,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13125,7 +13125,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-13T10:20:02.015Z"
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z"
     },
     {
       "n": "PixVerse V4.5",
@@ -13182,7 +13182,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-13T10:20:02.015Z",
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13714,7 +13714,8 @@
         "https://www.youtube.com/watch?v=VsmL_KROmyI",
         "https://www.youtube.com/watch?v=Q5-LJDxZlrg",
         "https://www.youtube.com/watch?v=2bSaEc0zOzQ",
-        "https://www.youtube.com/watch?v=IR3Af9gmK34"
+        "https://www.youtube.com/watch?v=IR3Af9gmK34",
+        "https://www.youtube.com/watch?v=Hu6NS4V8d50"
       ],
       "firstSeen": "2026-09-10T09:48:18.251Z",
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
@@ -13735,7 +13736,8 @@
       "name": "ChatGPT",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=D99-cPP2C3k",
-        "https://www.youtube.com/watch?v=xpEJdMdZJGs"
+        "https://www.youtube.com/watch?v=xpEJdMdZJGs",
+        "https://www.youtube.com/watch?v=dfw2_4Rrkl4"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -14013,14 +14015,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nYCuS1j28w8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Syntx AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nYCuS1j28w8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-25T10:14:15.598Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "GPT-6 Astra",
@@ -14575,6 +14583,20 @@
         "https://www.youtube.com/watch?v=f1nSkWhkIpY"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
+    },
+    {
+      "name": "Ima Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QLA5_KDM89M"
+      ],
+      "firstSeen": "2026-09-25T10:14:15.598Z"
+    },
+    {
+      "name": "AKOOL",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=B81HOzNnkRg"
+      ],
+      "firstSeen": "2026-09-25T10:14:15.598Z"
     }
   ],
   "sourceChecks": {},
@@ -15241,58 +15263,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-25T08:10:19.455Z",
+    "calculatedAt": "2026-09-25T10:14:15.598Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.17309871337052646,
+      "chatgpt-images-2-0": 0.17162976696113946,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.6357727812927207,
-      "google-veo-3-1": 0.17123645129902382,
+      "runway-gen-4-5": 0.6303775006110739,
+      "google-veo-3-1": 0.16978330837615618,
       "flux-2": 0,
-      "elevenlabs": 1.1267663429734442,
+      "elevenlabs": 1.11720440376835,
       "elevenmusic": 0,
-      "heygen": 0.07780631122256014,
-      "kling-3-0": 1.2864872807905925,
+      "heygen": 0.07714603305369021,
+      "kling-3-0": 1.2755699213542213,
       "freepik-ai": 0,
-      "adobe-firefly": 0.42571938270935694,
+      "adobe-firefly": 0.4221066524558468,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.030819845006405,
+      "higgsfield": 4.988127414752596,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.6327012594458634,
+      "meshy-ai": 2.61035968921262,
       "magnific-ai": 0,
-      "seedance-2-5": 3.9995258902358284,
+      "seedance-2-5": 3.9655852035529846,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.2343023437562222,
+      "nano-banana-pro": 1.2238278349591658,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.5050716430930073,
+      "rodin-hyper3d": 0.5007855154716161,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.3488244306826227,
-      "trellis-2": 1.2188588070812725,
+      "hunyuan3d": 0.3458642446420662,
+      "trellis-2": 1.2085153548779088,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.3488244306826227,
-      "hitem3d": 1.3143792959690404,
+      "luma-genie": 0.3458642446420662,
+      "hitem3d": 1.3032252399405966,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.6688790986948777
+      "gemini-omni-flash": 0.6632028719268678
     }
   }
 }
