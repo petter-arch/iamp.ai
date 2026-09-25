@@ -1,103 +1,218 @@
 {
-  "startedAt": "2026-09-25T10:14:15.598Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-25T18:52:05.103Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 1
+    },
+    "tech": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 140,
+    "relevant": 44,
+    "supported": 34
+  },
+  "rejected": [
     {
-      "platform": "trellis-2",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "SuIhqDP2VHw",
+      "title": "Linus vs Robot",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "PCvnuGFasa8",
+      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        5,
+        6
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "pros",
-      "message": "Official source unavailable"
+      "video": "rJ6NrYS-uGc",
+      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "cons",
-      "message": "Official source unavailable"
+      "video": "gzLaOSggSIg",
+      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3,
+        4
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "tags",
-      "message": "Official source unavailable"
+      "video": "kkbO0kAzn-U",
+      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "caps",
-      "message": "Official source unavailable"
+      "video": "iFtSZfu50e8",
+      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "tier",
-      "message": "Official source unavailable"
+      "video": "626RBjfqmfM",
+      "title": "Qwen Image 2.1 🤯 وصل  ودخل المنافسة بقوة!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3,
+        12
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "1j3VsaQ74Ow",
+      "title": "Now 3D AI Can Generate 4096³ Geometry - Meshy 7.1",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
     },
     {
-      "platform": "udio",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10739134-credits-and-credit-limits\",\"quote\":\"\\\"Create\\\", \\\"Extend\\\", \\\"Remix\\\", \\\"Inpaint\\\" or \\\"Edit\\\"\",\"retrieved\":[]}"
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "udio",
-      "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10739134-credits-and-credit-limits\",\"quote\":\"\\\"Create\\\", \\\"Extend\\\", \\\"Remix\\\", \\\"Inpaint\\\" or \\\"Edit\\\"\",\"retrieved\":[]}"
+      "video": "SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "udio",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10739134-credits-and-credit-limits\",\"quote\":\"\\\"Create\\\", \\\"Extend\\\", \\\"Remix\\\", \\\"Inpaint\\\" or \\\"Edit\\\"\",\"retrieved\":[]}"
+      "video": "U4231qULtm8",
+      "title": "Meta Won? Alibaba's \"Seedance Killer\" & AI Audio Levels Up!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        12,
+        13,
+        16
+      ]
     },
     {
-      "platform": "udio",
-      "field": "price",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "MVdCJoEoelw",
+      "title": "Meshy 7 vs Hitem 3D - The Best AI 3D Generator in 2026",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "udio",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "6QC6nOotxrU",
+      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "udio",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "udio",
-      "field": "cons",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "pixverse-v4-5",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://docs.platform.pixverse.ai/fusionreference-to-video-generation-19884194e0\",\"quote\":\"\\\"model\\\": \\\"v4.5\\\"\",\"retrieved\":[]}"
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Sunburst",
-      "message": "Invalid evidence URL"
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Syntx AI",
-      "message": "Invalid evidence URL"
+      "video": "Re0tBxvbgDI",
+      "title": "I make $800 Budget Ai Film For with Dola Ai || Ai Film making master class 1",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pEYqorQrc4U",
+      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "x4otpzqlzlA",
+      "title": "New Trending aesthetic ai photo prompt 😉 For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ooc3SKlk6zs",
+      "title": "🔥 INSTAGRAM TRENDING PROMPTS 🔥 | VIRAL AI PHOTO EDITING PROMPTS | NEW PROMPT Collections ",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "PUem-wrpMiU",
+      "title": "New Aesthetic 😉 Ai Photo Editing 🔥 Prompt 💭 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "YuYh8OQu42M",
+      "title": "Instagram Viral Ai Photo Editing 🔥 Prompt 💭 💯 #aiphotoediting #photoediting #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "c_haPBDTX74",
+      "title": "Ai Se Photo Kaise Banaye | ChatGPT Se Ai Photo Editing | Ai Character | Ai Influencer | Ai Thumbnail",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 3
 }
