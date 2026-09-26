@@ -1,40 +1,40 @@
 {
-  "startedAt": "2026-09-25T18:52:05.103Z",
+  "startedAt": "2026-09-26T07:59:11.007Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
-      "found": 1
+      "checkedAt": "2026-09-26T07:59:11.007Z",
+      "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-25T18:52:05.103Z",
+      "checkedAt": "2026-09-26T07:59:11.007Z",
       "found": 3
     }
   },
   "selection": {
-    "fetched": 140,
-    "relevant": 44,
+    "fetched": 137,
+    "relevant": 46,
     "supported": 34
   },
   "rejected": [
@@ -43,7 +43,6 @@
       "title": "This Robot Looks DEMONIC... On Purpose?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
         2,
         3
       ]
@@ -53,6 +52,7 @@
       "title": "Linus vs Robot",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         2
       ]
@@ -62,8 +62,8 @@
       "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         2,
-        5,
         6
       ]
     },
@@ -72,8 +72,8 @@
       "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         3,
-        4,
         5
       ]
     },
@@ -82,8 +82,8 @@
       "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         2,
-        3,
         4
       ]
     },
@@ -92,8 +92,17 @@
       "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         2,
         3
+      ]
+    },
+    {
+      "video": "1e47LYTJyV8",
+      "title": "Auto-Remove Blemishes with Camera Raw in Photoshop!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
       ]
     },
     {
@@ -102,6 +111,16 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0
+      ]
+    },
+    {
+      "video": "SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        4,
+        12
       ]
     },
     {
@@ -134,11 +153,6 @@
       ]
     },
     {
-      "video": "SA9kdAX2Zj0",
-      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "U4231qULtm8",
       "title": "Meta Won? Alibaba's \"Seedance Killer\" & AI Audio Levels Up!",
       "stage": "article-evidence",
@@ -149,18 +163,8 @@
       ]
     },
     {
-      "video": "MVdCJoEoelw",
-      "title": "Meshy 7 vs Hitem 3D - The Best AI 3D Generator in 2026",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "6QC6nOotxrU",
       "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "I0eNp0FRJBw",
-      "title": "ChatGPT Images 2.5 is Underrated!",
       "stage": "insufficient-article-source"
     },
     {
@@ -169,8 +173,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
       "stage": "insufficient-article-source"
     },
     {
@@ -179,18 +183,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Re0tBxvbgDI",
-      "title": "I make $800 Budget Ai Film For with Dola Ai || Ai Film making master class 1",
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pEYqorQrc4U",
-      "title": "OpenAI’s New Image Model Is Brilliant… Until You Look Closer",
-      "stage": "insufficient-article-source"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        5,
+        8,
+        18
+      ]
     },
     {
       "video": "x4otpzqlzlA",
       "title": "New Trending aesthetic ai photo prompt 😉 For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Re0tBxvbgDI",
+      "title": "I make $800 Budget Ai Film For Free with Dola Ai || Ai Film making master class 1",
       "stage": "insufficient-article-source"
     },
     {
@@ -199,13 +213,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "PUem-wrpMiU",
-      "title": "New Aesthetic 😉 Ai Photo Editing 🔥 Prompt 💭 #aiphotoediting #chatgpt #photoediting",
+      "video": "YuYh8OQu42M",
+      "title": "Instagram Viral Ai Photo Editing 🔥 Prompt 💭 💯 #aiphotoediting #photoediting #chatgpt",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "YuYh8OQu42M",
-      "title": "Instagram Viral Ai Photo Editing 🔥 Prompt 💭 💯 #aiphotoediting #photoediting #chatgpt",
+      "video": "PUem-wrpMiU",
+      "title": "New Aesthetic 😉 Ai Photo Editing 🔥 Prompt 💭 #aiphotoediting #chatgpt #photoediting",
       "stage": "insufficient-article-source"
     },
     {
@@ -214,5 +228,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 5
 }
