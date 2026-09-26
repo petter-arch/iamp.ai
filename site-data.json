@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T07:59:11.007Z",
+  "updatedAt": "2026-09-26T09:55:18.711Z",
   "newsCheckedAt": "2026-09-26T07:59:11.007Z",
   "news": [
     {
@@ -13784,7 +13784,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13831,7 +13831,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-14T10:44:18.176Z"
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Luma Genie",
@@ -13842,8 +13843,8 @@
       "bdg": "free",
       "pct": 66,
       "price": "Gratis",
-      "sub": "Snabbaste gratisvägen till 3D-koncept",
-      "long": "Luma Genie är det snabbaste gratisalternativet för att få fram 3D-koncept från text eller bild — bra för snabba idéer och previz.",
+      "sub": "Generativ 3D med quad-meshar och material i Luma-appen",
+      "long": "Luma Genie är en generativ 3D-modell för att skapa 3D-objekt. Enligt Luma kan den generera quad-meshar och material vid valfritt polygonantal i standardformat. Genies kärnfunktioner är fortfarande fullt stödda i Luma-appen, medan Genie-innehåll och konton hålls åtskilda från Dream Machine.",
       "pros": [
         "Gratis",
         "Mycket snabb",
@@ -13864,7 +13865,7 @@
       "speed": 90,
       "pricev": 96,
       "rating": 75,
-      "deep": "Snabbaste sättet att få ett 3D-utkast gratis — perfekt för att testa en idé innan du renderar i ett tyngre verktyg.",
+      "deep": "Genie är fortsatt en separat 3D-funktion i Luma-appen. Tidigare Genie-skapelser hanteras i appens Assets-del, och Luma beskriver modellen som kapabel att leverera quad-meshar och material i standardformat vid valfritt polygonantal.",
       "caps": [
         "Text-till-3D",
         "Bild-till-3D"
@@ -13875,8 +13876,44 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-14T10:44:18.176Z"
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-26T09:55:18.711Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/series-b",
+              "quote": "Genie can generate quad meshes and materials at any polygon count in standard formats"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-26T09:55:18.711Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/series-b",
+              "quote": "Genie can generate quad meshes and materials at any polygon count in standard formats"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/genie-capture",
+              "quote": "the features of Genie and Capture are still fully supported within the Luma app."
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-09-26T09:55:18.711Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/genie-capture",
+              "quote": "Navigate to the Assets section, where you can view and manage your old Genie and Capture creations."
+            },
+            {
+              "url": "https://lumalabs.ai/series-b",
+              "quote": "Genie can generate quad meshes and materials at any polygon count in standard formats"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z"
     },
     {
       "n": "Hitem3D",
@@ -13920,7 +13957,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-14T10:44:18.176Z",
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14251,7 +14288,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=D99-cPP2C3k",
         "https://www.youtube.com/watch?v=xpEJdMdZJGs",
-        "https://www.youtube.com/watch?v=dfw2_4Rrkl4"
+        "https://www.youtube.com/watch?v=dfw2_4Rrkl4",
+        "https://www.youtube.com/watch?v=gVatlvyPAxI"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -14296,7 +14334,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk",
         "https://www.youtube.com/watch?v=Z7qur9NODzE",
-        "https://www.youtube.com/watch?v=Xo-lL0hR68g"
+        "https://www.youtube.com/watch?v=Xo-lL0hR68g",
+        "https://www.youtube.com/watch?v=MVdCJoEoelw"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -14507,7 +14546,8 @@
         "https://www.youtube.com/watch?v=vEpkDv8B4T8",
         "https://www.youtube.com/watch?v=yZbwnggURYs",
         "https://www.youtube.com/watch?v=dETVHy04aCM",
-        "https://www.youtube.com/watch?v=D8qiNmxPSuc"
+        "https://www.youtube.com/watch?v=D8qiNmxPSuc",
+        "https://www.youtube.com/watch?v=0geOeaTgXu0"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z",
       "lastAttemptAt": "2026-09-24T10:05:38.488Z",
@@ -14549,16 +14589,23 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=h_mR2BRibZ8",
         "https://www.youtube.com/watch?v=W_9whxaNXdg",
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Tripo P2",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=h_mR2BRibZ8"
       ],
-      "firstSeen": "2026-09-16T09:59:51.512Z"
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "Suno v6",
@@ -14595,7 +14642,8 @@
       "name": "Gemini AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=L049uPaPQ4A",
-        "https://www.youtube.com/watch?v=PJBadOeNi1o"
+        "https://www.youtube.com/watch?v=PJBadOeNi1o",
+        "https://www.youtube.com/watch?v=gVatlvyPAxI"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z"
     },
@@ -15111,6 +15159,55 @@
         "https://www.youtube.com/watch?v=B81HOzNnkRg"
       ],
       "firstSeen": "2026-09-25T10:14:15.598Z"
+    },
+    {
+      "name": "Anthropic Opus 5.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "GPT-6 Sol",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "GPT-6 Luna",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "Microsoft TRELLIS.2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=JxO5SJVBi2k"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "Hitem 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MVdCJoEoelw"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "N4D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=KVlN8SswVvw"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "Gemini 2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=0geOeaTgXu0"
+      ],
+      "firstSeen": "2026-09-26T09:55:18.711Z"
     }
   ],
   "sourceChecks": {},
@@ -15777,58 +15874,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-26T07:59:11.007Z",
+    "calculatedAt": "2026-09-26T09:55:18.711Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.15689975467491432,
+      "chatgpt-images-2-0": 0.15565181740409478,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.5762757646863058,
-      "google-veo-3-1": 0.15521176718806495,
+      "runway-gen-4-5": 0.5716922265761789,
+      "google-veo-3-1": 0.15397725570304024,
       "flux-2": 0,
-      "elevenlabs": 1.9428384740830107,
+      "elevenlabs": 1.9273856739941022,
       "elevenmusic": 0,
-      "heygen": 0.07052502531805839,
-      "kling-3-0": 1.166094968692069,
+      "heygen": 0.06996408876463775,
+      "kling-3-0": 1.1568201716998046,
       "freepik-ai": 0,
-      "adobe-firefly": 0.3858796256011182,
+      "adobe-firefly": 0.3828104457427096,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.395303997559497,
+      "higgsfield": 5.352391241195371,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.32523216112074,
+      "meshy-ai": 3.298784183833663,
       "magnific-ai": 0,
-      "seedance-2-5": 3.625241451972676,
+      "seedance-2-5": 3.596407283729328,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.11879361295702,
+      "nano-banana-pro": 1.1098950378709298,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.45780592675417225,
+      "rodin-hyper3d": 0.45416466498176034,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.3161806724788695,
-      "trellis-2": 1.1047953164449835,
+      "hunyuan3d": 0.3136658588240192,
+      "trellis-2": 1.09600807993926,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.3161806724788695,
-      "hitem3d": 1.191376787682369,
+      "luma-genie": 0.3136658588240192,
+      "hitem3d": 1.1819009060914865,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.6062839200182837
+      "gemini-omni-flash": 0.6014617053369606
     }
   }
 }
