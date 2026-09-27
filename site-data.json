@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T06:19:25.540Z",
+  "updatedAt": "2026-09-27T10:35:26.679Z",
   "newsCheckedAt": "2026-09-27T08:32:35.743Z",
   "news": [
     {
@@ -14682,7 +14682,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14775,7 +14775,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14787,7 +14787,7 @@
       "bdg": "",
       "pct": 72,
       "price": "Engångsköp / abonnemang",
-      "sub": "Proffsuppskalning av bild och video",
+      "sub": "AI-uppskalning och förbättring för bild och video",
       "long": "Topaz Labs är proffsverktyget för att skala upp och förbättra bild och video — skärpa, brusreducering och uppskalning till 4K eller 8K. Branschstandard för efterbearbetning.",
       "pros": [
         "Bäst på uppskalning",
@@ -14795,8 +14795,8 @@
         "Lokal bearbetning"
       ],
       "cons": [
-        "Tungt att köra",
-        "Kostar"
+        "Abonnemang",
+        "Höga hårdvarukrav för vissa videomodeller"
       ],
       "tags": [
         "Uppskalning",
@@ -14811,9 +14811,10 @@
       "rating": 80,
       "deep": "Branschstandard för att rädda och skala upp material i efterhand — kör lokalt och klarar både foto och video upp till 8K.",
       "caps": [
-        "Upscaling",
-        "Video",
-        "Lokal bearbetning"
+        "Bild- och videouppskalning",
+        "Brusreducering och skärpning",
+        "Lokal rendering",
+        "Molnrendering"
       ],
       "free": null,
       "id": "topaz-labs",
@@ -14821,8 +14822,36 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "sources": [
+            {
+              "url": "https://www.topazlabs.com/api",
+              "quote": "image upscaling, image denoise, image sharpen, video upscaling, and video frame interpolation."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "sources": [
+            {
+              "url": "https://docs.topazlabs.com/topaz-video/quick-start",
+              "quote": "Topaz Video is a desktop application that you install and run directly on your computer."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "sources": [
+            {
+              "url": "https://docs.topazlabs.com/sales-account-licensing/before-you-buy/app-and-collection-options",
+              "quote": "All of our Collections, Desktop Apps, and Web Apps will have an Individual or a Pro subscription option:"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14870,7 +14899,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
       "lastCheckError": "Some fields could not be verified"
     }
   ],
@@ -14944,7 +14973,8 @@
         "https://www.youtube.com/watch?v=Q5-LJDxZlrg",
         "https://www.youtube.com/watch?v=2bSaEc0zOzQ",
         "https://www.youtube.com/watch?v=IR3Af9gmK34",
-        "https://www.youtube.com/watch?v=Hu6NS4V8d50"
+        "https://www.youtube.com/watch?v=Hu6NS4V8d50",
+        "https://www.youtube.com/watch?v=Y2jjA_4fQe8"
       ],
       "firstSeen": "2026-09-10T09:48:18.251Z",
       "lastAttemptAt": "2026-09-11T09:46:36.015Z",
@@ -15293,14 +15323,20 @@
         "https://www.youtube.com/watch?v=_lHvWn2SNC4",
         "https://www.youtube.com/watch?v=8f5yk81N8Y4"
       ],
-      "firstSeen": "2026-09-17T10:02:21.710Z"
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Pinokio",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=dQVmJog7au8"
       ],
-      "firstSeen": "2026-09-17T10:02:21.710Z"
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Wan2GP",
@@ -15463,7 +15499,8 @@
     {
       "name": "Topview Film Studio",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=QW2nS4DO-s8"
+        "https://www.youtube.com/watch?v=QW2nS4DO-s8",
+        "https://www.youtube.com/watch?v=Ys8Nt4Fz14I"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z"
     },
@@ -15886,6 +15923,189 @@
         "https://www.youtube.com/watch?v=0geOeaTgXu0"
       ],
       "firstSeen": "2026-09-26T09:55:18.711Z"
+    },
+    {
+      "name": "Gemini 3.8 TTS",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Mimo V2.6",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Step 5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "OpenMuse",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Grok 4.7",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "GPT 6 Sol Luna",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "WorldCrafter",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Ming Image",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Mira Scene",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Flux 3 Action",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "GAE",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "CLM",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Ovis Embedding",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Limite 1B",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Aikido Altar",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Project Suncatcher",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Supra2 Img",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Qwen Image Edit",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=8vYHNg8Ql1M"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Qwen-Image-Edit-2511",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=8vYHNg8Ql1M"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Tripo Smart Mesh P2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GCbVaPz2Mj0"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Buzzy Canvas",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=F_mgx4G4kAM"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "CapCut PC",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=EiyKZA6uXS4"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Video Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=EiyKZA6uXS4"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Seed Audio 1.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=EiyKZA6uXS4",
+        "https://www.youtube.com/watch?v=U4231qULtm8"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
+    },
+    {
+      "name": "Fish Audio Drama 3",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=U4231qULtm8"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z"
     }
   ],
   "sourceChecks": {},
@@ -16552,58 +16772,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-27T08:32:35.743Z",
+    "calculatedAt": "2026-09-27T10:35:26.679Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.14178169126776377,
+      "chatgpt-images-2-0": 0.1405890128040169,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.5207487591241701,
-      "google-veo-3-1": 0.14025634968121906,
+      "runway-gen-4-5": 0.516368180613103,
+      "google-veo-3-1": 0.13907650250791495,
       "flux-2": 0,
-      "elevenlabs": 1.7556364271333826,
+      "elevenlabs": 1.7408678788244403,
       "elevenmusic": 0,
-      "heygen": 0.06372959210174522,
-      "kling-3-0": 1.0537359805472364,
+      "heygen": 0.06319349388396071,
+      "kling-3-0": 1.0448718726413684,
       "freepik-ai": 0,
-      "adobe-firefly": 0.34869822490707414,
+      "adobe-firefly": 0.3457649486887224,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.875439909148668,
+      "higgsfield": 4.834427334612849,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.0048296801896663,
+      "meshy-ai": 2.979552822403978,
       "magnific-ai": 0,
-      "seedance-2-5": 4.141359305584262,
+      "seedance-2-5": 4.106521873400724,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.010992343189302,
+      "nano-banana-pro": 1.0024877980399733,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.413694073021966,
+      "rodin-hyper3d": 0.410214046743106,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.2857151088802843,
-      "trellis-2": 0.9983428514265114,
+      "hunyuan3d": 0.2833116514657084,
+      "trellis-2": 0.9899447147722991,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.2857151088802843,
-      "hitem3d": 1.0765817718755724,
+      "luma-genie": 0.2833116514657084,
+      "hitem3d": 1.0675254834204324,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.5478654810311535
+      "gemini-omni-flash": 0.5432567945751419
     }
   }
 }
