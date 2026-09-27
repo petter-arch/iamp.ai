@@ -1,73 +1,189 @@
 {
-  "startedAt": "2026-09-26T09:55:18.711Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-27T06:19:25.540Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-27T06:19:25.540Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 137,
+    "relevant": 43,
+    "supported": 34
+  },
+  "rejected": [
     {
-      "platform": "vidu-q3",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/pricing\",\"quote\":\"Vidu Q3 | - reference2video | 3-16S | 540P | 7 /Second | $0.035 / Second | 4 /Second | $0.02 / Second\",\"retrieved\":[]}"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "vidu-q3",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/pricing\",\"quote\":\"Vidu Q3 | - reference2video\",\"retrieved\":[]}"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        10,
+        11,
+        16
+      ]
     },
     {
-      "platform": "ltx-2",
-      "field": "price",
-      "message": "Unsupported source"
+      "video": "PCvnuGFasa8",
+      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ]
     },
     {
-      "platform": "ltx-2",
-      "field": "sub",
-      "message": "Unsupported source"
+      "video": "rJ6NrYS-uGc",
+      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ]
     },
     {
-      "platform": "ltx-2",
-      "field": "long",
-      "message": "Unsupported source"
+      "video": "gzLaOSggSIg",
+      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "price",
-      "message": "Source outside official domain"
+      "video": "kkbO0kAzn-U",
+      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "sub",
-      "message": "Invalid official citation"
+      "video": "iFtSZfu50e8",
+      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "_KhljLvd5dI",
+      "title": "Tripo AI 3D Model Generator Review: Features, Export Formats & Pricing 2026",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "deep",
-      "message": "Source outside official domain"
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "tags",
-      "message": "Invalid official citation"
+      "video": "aDpIra7NFuE",
+      "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "hitem3d",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "51KzSFNAiJQ",
+      "title": "【衝撃】Tripo AIでロボットの3Dモデル生成したらスゴすぎたwww #TripoAI #3Dモデル #AI #3D #PR",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "GPT-6 Astra",
-      "message": "Invalid evidence URL"
+      "video": "I0eNp0FRJBw",
+      "title": "ChatGPT Images 2.5 is Underrated!",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Tripo P2",
-      "message": "Official source unavailable"
+      "video": "6QC6nOotxrU",
+      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "rnZXSc8azc0",
+      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ja8hDC1_5ss",
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qU_87oxVnw0",
+      "title": "AI + Filmmaking = Anything Is Possible 🎬 | SATISH AIFM",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lcxL2kqbI-M",
+      "title": "Viral Aesthetic 😉 Ai Photo Prompt 💭💯 ChatGPT 🔥 #chatgpt #ytshorts #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "VTlzZbFUtWY",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Re0tBxvbgDI",
+      "title": "I make $800 Budget Ai Film For Free with Dola Ai || Ai Film making master class 1",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "x4otpzqlzlA",
+      "title": "New Trending aesthetic ai photo prompt 😉 For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 10
 }
