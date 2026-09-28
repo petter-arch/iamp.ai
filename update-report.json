@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-09-27T18:38:31.514Z",
+  "startedAt": "2026-09-28T08:56:48.337Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
+      "checkedAt": "2026-09-28T08:56:48.337Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
+      "checkedAt": "2026-09-28T08:56:48.337Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
-      "found": 3
+      "checkedAt": "2026-09-28T08:56:48.337Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
+      "checkedAt": "2026-09-28T08:56:48.337Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
+      "checkedAt": "2026-09-28T08:56:48.337Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
+      "checkedAt": "2026-09-28T08:56:48.337Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-27T18:38:31.514Z",
-      "found": 3
+      "checkedAt": "2026-09-28T08:56:48.337Z",
+      "found": 4
     }
   },
   "selection": {
-    "fetched": 128,
-    "relevant": 35,
-    "supported": 26
+    "fetched": 130,
+    "relevant": 39,
+    "supported": 24
   },
   "rejected": [
     {
@@ -57,12 +57,22 @@
       ]
     },
     {
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        6,
+        8,
+        10
+      ]
+    },
+    {
       "video": "PCvnuGFasa8",
       "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
+        5,
         6
       ]
     },
@@ -71,8 +81,8 @@
       "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         3,
+        4,
         5
       ]
     },
@@ -81,9 +91,9 @@
       "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -91,9 +101,18 @@
       "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
         3
+      ]
+    },
+    {
+      "video": "L0-ezCnX0gs",
+      "title": "Claude Opus 5.5 - 5 Real Uses and One BIG Website Showdown!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        16,
+        17,
+        18
       ]
     },
     {
@@ -105,8 +124,46 @@
       ]
     },
     {
+      "video": "9O5qSS07TbQ",
+      "title": "Qwen-Image-2.1: Generate, Edit & Export Real Transparent PNGs | AI | AI Agent | LLM",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        13
+      ]
+    },
+    {
       "video": "WKzVEG-vyuw",
       "title": "A 7B model beat Google. The license stops you shipping it.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "video": "UICjXJlrpDw",
+      "title": "Hyper3D Rodin vs Meshy Review: AI 3D Generator Features & Key Differences (2026)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "_KhljLvd5dI",
+      "title": "Tripo AI 3D Model Generator Review: Features, Export Formats & Pricing 2026",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
@@ -118,14 +175,8 @@
       "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
       ]
-    },
-    {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "_fSIhcZqm2g",
@@ -133,8 +184,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "rnZXSc8azc0",
-      "title": "Master AI Video Creation:  Your 5 Level Roadmap",
+      "video": "6QC6nOotxrU",
+      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "uGnG1tbdmvA",
+      "title": "How to Turn Any Image into a 3D Model with Hi3D V3.0",
       "stage": "insufficient-article-source"
     },
     {
@@ -143,24 +199,20 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "lcxL2kqbI-M",
-      "title": "Viral Aesthetic 😉 Ai Photo Prompt 💭💯 ChatGPT 🔥 #chatgpt #ytshorts #photoediting",
+      "video": "ZxG5jLe9K1s",
+      "title": "AI Se 3D Model Kaise Banaye 🤯 | AI 3D Model Generator #Shorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_dRmQ10lw6M",
-      "title": "💗 Try This ChatGPT Prompt | Chatgpt Photo Editing | Viral AI Photo Prompt #aiphotoediting #chatgpt",
+      "video": "Re0tBxvbgDI",
+      "title": "I make $800 Budget Ai Film For Free with Dola Ai || Ai Film making master class 1",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_KhljLvd5dI",
-      "title": "Tripo AI 3D Model Generator Review: Features, Export Formats & Pricing 2026",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "video": "ooc3SKlk6zs",
+      "title": "🔥 INSTAGRAM TRENDING PROMPTS 🔥 | VIRAL AI PHOTO EDITING PROMPTS | NEW PROMPT Collections ",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 3
 }
