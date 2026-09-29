@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-09-28T20:46:59.915Z",
+  "startedAt": "2026-09-29T09:01:03.105Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
+      "checkedAt": "2026-09-29T09:01:03.105Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-28T20:46:59.915Z",
-      "found": 4
+      "checkedAt": "2026-09-29T09:01:03.105Z",
+      "found": 5
     }
   },
   "selection": {
-    "fetched": 132,
-    "relevant": 42,
-    "supported": 30
+    "fetched": 131,
+    "relevant": 39,
+    "supported": 26
   },
   "rejected": [
     {
@@ -43,9 +43,18 @@
       "title": "This Robot Looks DEMONIC... On Purpose?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
         2,
         3
+      ]
+    },
+    {
+      "video": "_fSIhcZqm2g",
+      "title": "Video Editing Is About to Change Forever",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
       ]
     },
     {
@@ -127,13 +136,12 @@
       ]
     },
     {
-      "video": "uGnG1tbdmvA",
-      "title": "How to Turn Any Image into a 3D Model with Hi3D V3.0",
+      "video": "UICjXJlrpDw",
+      "title": "Hyper3D Rodin vs Meshy Review: AI 3D Generator Features & Key Differences (2026)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        5,
-        7,
-        9
+        2,
+        3
       ]
     },
     {
@@ -142,8 +150,7 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        2,
-        5
+        2
       ]
     },
     {
@@ -156,9 +163,14 @@
       ]
     },
     {
-      "video": "uKgcxH46Ca4",
-      "title": "The Ultimate 100 Photoshop Tricks: 10 Years of PiXimperfect",
-      "stage": "insufficient-article-source"
+      "video": "xiTzwUKWQhU",
+      "title": "AI 3D model generator: a loot chest made with Meshy AI",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        10,
+        9
+      ]
     },
     {
       "video": "6QC6nOotxrU",
@@ -166,8 +178,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
+      "video": "3Szf5srPHcE",
+      "title": "🫨Trending Spotify Playlist Chatgpt image generator | Trending edit 2026 #aiphotography #new",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "8DwCcTUH3iw",
+      "title": "Chatgpt Photo Editing | Vintage Style Poster Photo Editing #vintage #chatgpt #shorts #new #trending",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ZxG5jLe9K1s",
+      "title": "AI Se 3D Model Kaise Banaye 🤯 | AI 3D Model Generator #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lxuMBEWoJ8M",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -176,14 +203,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "3Szf5srPHcE",
-      "title": "Trending Spotify Playlist Chatgpt image generator | Ai image generator #chatgpt #aiphotography #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "n3BsRYtZjjg",
-      "title": "Did AI just break cinema? 💀 #ai #cinema #shorts",
-      "stage": "insufficient-article-source"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        5,
+        15,
+        18
+      ]
     },
     {
       "video": "Re0tBxvbgDI",
@@ -191,25 +218,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "xiTzwUKWQhU",
-      "title": "AI 3D model generator: a loot chest made with Meshy AI",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        9,
-        10
-      ]
-    },
-    {
-      "video": "ZxG5jLe9K1s",
-      "title": "AI Se 3D Model Kaise Banaye 🤯 | AI 3D Model Generator #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ooc3SKlk6zs",
-      "title": "🔥 INSTAGRAM TRENDING PROMPTS 🔥 | VIRAL AI PHOTO EDITING PROMPTS | NEW PROMPT Collections ",
+      "video": "n3BsRYtZjjg",
+      "title": "Did AI just break cinema? 💀 #ai #cinema #shorts",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 1
 }
