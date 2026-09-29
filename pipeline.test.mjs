@@ -9,7 +9,7 @@ const run=promisify(execFile);
 test('News pipeline preserves history, runs at most three writers together and deduplicates reruns',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-pipeline-'));
  try {
-  for(const file of ['update.mjs','data-core.mjs','openai.mjs'])await copyFile(file,join(dir,file));
+  for(const file of ['update.mjs','data-core.mjs','openai.mjs','successor.mjs'])await copyFile(file,join(dir,file));
   const previous={id:'old-video',url:'https://www.youtube.com/watch?v=old-video',ttl:'Tidigare nyhet',sum:'Sammanfattning',full:'Hela tidigare texten ska bevaras.',deep:'Tidigare fördjupning',date:new Date(Date.now()-86400000).toISOString(),cat:'foto'};
   await writeFile(join(dir,'site-data.json'),JSON.stringify({schemaVersion:1,platforms:[],news:[previous],sources:[]}));
   await writeFile(join(dir,'sources.json'),JSON.stringify({channels:[{id:'fixture',handle:'@fixture',enabled:true}],maxSummaries:6,maxNewArticles:20}));

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T20:46:59.915Z",
+  "updatedAt": "2026-09-29T07:06:37.074Z",
   "newsCheckedAt": "2026-09-28T20:46:59.915Z",
   "news": [
     {
@@ -12109,62 +12109,305 @@
   ],
   "platforms": [
     {
-      "n": "ChatGPT Images 2.0",
-      "ico": "✨",
-      "bg": "rgba(74,222,128,.13)",
-      "tier": "lim",
+      "n": "ChatGPT Images 2.5",
+      "url": "https://chatgpt.com/images",
       "cats": "image",
-      "bdg": "hot",
-      "pct": 97,
-      "price": "Gratis / $20 mån",
-      "sub": "Hetaste bildverktyget — inbyggt i ChatGPT",
-      "long": "GPT Image 2 lanserades 21 april 2026 och toppade Image Arena med det största Elo-gapet i ledtavlans historia. Den gör tre saker bättre än alla andra: renderar läsbar text i bilder, redigerar iterativt via vanlig chatt (\"gör bakgrunden mörkare\") och förstår komplexa prompter. Eftersom den bor i ChatGPT behöver du ingen separat app — perfekt för marknadsförare, lärare och alla som vill skapa konversationellt.",
+      "sub": "Bildgenerering och redigering i ChatGPT",
+      "long": "OpenAI presenterade ChatGPT Images 2.5 den 8 september 2026. Enligt OpenAI ger versionen skarpare detaljer, snabbare generering och mer precis redigering än tidigare. Företaget beskriver även bättre förmåga att behålla motiv från referensbilder och följa ändringar genom flera redigeringssteg. Det är tillverkarens uppgifter, inte ett oberoende kvalitetstest.",
+      "deep": "Du kan skapa bilder från en beskrivning eller ladda upp en bild och be om ändringar. Redigeringen kan styras genom att markera ett område eller beskriva ändringen direkt i chatten. OpenAI påpekar att markeringarna inte alltid är exakta och att ändringar kan hamna utanför valt område.",
+      "price": "Tillgänglig på alla ChatGPT-nivåer; se aktuella planvillkor",
+      "tier": "lim",
       "pros": [
-        "Snabb bildgenerering och redigering",
-        "Flexibla bildstorlekar",
-        "Stöd för högupplösta bildinmatningar"
+        "Bildgenerering och redigering i samma chatt",
+        "Redigering med referensbilder"
       ],
       "cons": [
-        "Låg gratisgräns per dygn",
-        "Mindre konstnärlig stil än Midjourney"
+        "Ändringar kan påverka områden utanför markeringen"
       ],
       "tags": [
-        "Bildgen",
-        "Text-i-bild",
+        "Bild",
         "ChatGPT",
-        "API"
+        "Redigering"
       ],
-      "url": "https://chatgpt.com",
-      "tech": 92,
-      "speed": 78,
-      "pricev": 70,
-      "rating": 95,
-      "deep": "Bäst när du vill iterera i dialog: be om ändringar i naturligt språk och behåll samma motiv mellan versioner. Stark på infografik, skyltar och mockups där exakt text krävs.",
       "caps": [
         "Text-till-bild",
         "Redigering i chatt",
-        "Text-i-bild",
         "Referensbilder"
       ],
-      "free": "tier",
-      "id": "chatgpt-images-2-0",
+      "id": "chatgpt-images-2-5",
+      "ico": "📷",
+      "bg": "rgba(121,184,230,.14)",
+      "rating": null,
+      "tech": null,
+      "speed": null,
+      "pricev": null,
+      "pct": null,
+      "bdg": "new",
+      "free": true,
       "ratingBasis": {
-        "type": "original-editorial",
+        "type": "unrated",
         "checkedAt": null
       },
+      "aliases": [
+        "ChatGPT Images 2.0"
+      ],
+      "idAliases": [
+        "chatgpt-images-2-0"
+      ],
       "fieldChecks": {
-        "pros": {
-          "checkedAt": "2026-09-16T09:59:51.512Z",
+        "n": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
           "sources": [
             {
-              "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
-              "quote": "It supports flexible image sizes and high-fidelity image inputs."
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+              "quote": "Introducing ChatGPT Images 2.5"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+              "quote": "Sharper details, faster generation, more precise editing, and better tools for creating and sharing."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "url": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "cats": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "sub": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "long": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+              "quote": "Introducing ChatGPT Images 2.5"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+              "quote": "Sharper details, faster generation, more precise editing, and better tools for creating and sharing."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "deep": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "price": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "tier": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "pros": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "cons": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "tags": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        },
+        "caps": {
+          "checkedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "ChatGPT Images is available on all tiers."
+            },
+            {
+              "url": "https://help.openai.com/en/articles/11084440-images-in-chatgpt",
+              "quote": "Highlights are not always precise, and edits may extend beyond the area you selected."
+            }
+          ],
+          "reviewMethod": "editorial-review-of-official-pages"
+        }
+      },
+      "versionHistory": [
+        {
+          "profile": {
+            "n": "ChatGPT Images 2.0",
+            "ico": "✨",
+            "bg": "rgba(74,222,128,.13)",
+            "tier": "lim",
+            "cats": "image",
+            "bdg": "hot",
+            "pct": 97,
+            "price": "Gratis / $20 mån",
+            "sub": "Hetaste bildverktyget — inbyggt i ChatGPT",
+            "long": "GPT Image 2 lanserades 21 april 2026 och toppade Image Arena med det största Elo-gapet i ledtavlans historia. Den gör tre saker bättre än alla andra: renderar läsbar text i bilder, redigerar iterativt via vanlig chatt (\"gör bakgrunden mörkare\") och förstår komplexa prompter. Eftersom den bor i ChatGPT behöver du ingen separat app — perfekt för marknadsförare, lärare och alla som vill skapa konversationellt.",
+            "pros": [
+              "Snabb bildgenerering och redigering",
+              "Flexibla bildstorlekar",
+              "Stöd för högupplösta bildinmatningar"
+            ],
+            "cons": [
+              "Låg gratisgräns per dygn",
+              "Mindre konstnärlig stil än Midjourney"
+            ],
+            "tags": [
+              "Bildgen",
+              "Text-i-bild",
+              "ChatGPT",
+              "API"
+            ],
+            "url": "https://chatgpt.com",
+            "tech": 92,
+            "speed": 78,
+            "pricev": 70,
+            "rating": 95,
+            "deep": "Bäst när du vill iterera i dialog: be om ändringar i naturligt språk och behåll samma motiv mellan versioner. Stark på infografik, skyltar och mockups där exakt text krävs.",
+            "caps": [
+              "Text-till-bild",
+              "Redigering i chatt",
+              "Text-i-bild",
+              "Referensbilder"
+            ],
+            "free": "tier",
+            "id": "chatgpt-images-2-0",
+            "ratingBasis": {
+              "type": "original-editorial",
+              "checkedAt": null
+            },
+            "fieldChecks": {
+              "pros": {
+                "checkedAt": "2026-09-16T09:59:51.512Z",
+                "sources": [
+                  {
+                    "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+                    "quote": "It supports flexible image sizes and high-fidelity image inputs."
+                  }
+                ]
+              }
+            },
+            "lastAttemptAt": "2026-09-28T11:44:53.630Z",
+            "lastCheckError": "Some fields could not be verified"
+          },
+          "replacedAt": "2026-09-29T07:06:37.074Z",
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+              "quote": "This post introduced ChatGPT Images 2.0. For the latest image experience: Learn about ChatGPT Images 2.5"
             }
           ]
         }
+      ],
+      "successorCheck": {
+        "status": "migrated",
+        "from": "ChatGPT Images 2.0",
+        "to": "ChatGPT Images 2.5",
+        "checkedAt": "2026-09-29T07:06:37.074Z",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+            "quote": "This post introduced ChatGPT Images 2.0. For the latest image experience: Learn about ChatGPT Images 2.5"
+          }
+        ],
+        "reviewMethod": "editorial-review-of-official-pages"
       },
-      "lastAttemptAt": "2026-09-28T11:44:53.630Z",
-      "lastCheckError": "Some fields could not be verified"
+      "addedAt": "2026-09-29T07:06:37.074Z",
+      "lastAttemptAt": "2026-09-29T07:06:37.074Z"
     },
     {
       "n": "MAI-Image-2.6",
@@ -17418,58 +17661,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-28T20:46:59.915Z",
+    "calculatedAt": "2026-09-29T07:06:37.074Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.12209098471085969,
+      "chatgpt-images-2-5": 0.11699821378237232,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.44842693171402315,
-      "google-veo-3-1": 0.12077748326609303,
+      "runway-gen-4-5": 0.4297217370037634,
+      "google-veo-3-1": 0.1157395023123796,
       "flux-2": 0,
-      "elevenlabs": 1.511812831870946,
+      "elevenlabs": 1.448750710964146,
       "elevenmusic": 0,
-      "heygen": 0.05487879701074344,
-      "kling-3-0": 0.9073926424485125,
+      "heygen": 0.05258964238832344,
+      "kling-3-0": 0.8695426498292451,
       "freepik-ai": 0,
-      "adobe-firefly": 0.3002708548978433,
+      "adobe-firefly": 0.2877456821005453,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.141675659030972,
+      "higgsfield": 4.9272013767402925,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.587517550837579,
+      "meshy-ai": 2.479584649886177,
       "magnific-ai": 0,
-      "seedance-2-5": 3.5662054186204055,
+      "seedance-2-5": 3.4174485933398526,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.8705852611252188,
+      "nano-banana-pro": 0.8342706116928458,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.3562400497036669,
+      "rodin-hyper3d": 0.341380238612862,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.230572544101824,
-      "trellis-2": 0.859692536602034,
+      "hunyuan3d": 1.1792417755537752,
+      "trellis-2": 0.8238322544672553,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.24603486302110178,
-      "hitem3d": 0.9270655997593946,
+      "luma-genie": 0.23577203156998655,
+      "hitem3d": 0.8883949907341944,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.4717776707985334
+      "gemini-omni-flash": 0.4520984486819921
     }
   }
 }

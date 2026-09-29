@@ -51,7 +51,7 @@ test('Responses transport handles mixed output, authentication and error cases',
 test('Profile workflow verifies actual fetched text and retains facts on source/API failure', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'iamp-openai-profile-'));
   try {
-    for (const file of ['update.mjs', 'data-core.mjs', 'openai.mjs']) await copyFile(file, join(dir, file));
+    for (const file of ['update.mjs', 'data-core.mjs', 'openai.mjs', 'successor.mjs']) await copyFile(file, join(dir, file));
     const shipped = JSON.parse(await readFile('site-data.json', 'utf8'));
     const profile = {...shipped.platforms[0], url: 'https://example.com', sub: 'Tidigare text'};
     const state = {schemaVersion: 1, platforms: [profile], news: [], candidates: [], sources: []};
@@ -72,7 +72,7 @@ globalThis.fetch=async(url,options)=>{
  let result;
  if(body.input.startsWith('Check this EXACT')){
   if(body.model!=='gpt-5.6-terra'||body.tools[0].type!=='web_search'||body.tools[0].filters.allowed_domains[0]!=='example.com'||body.reasoning.effort!=='low')throw Error('Invalid profile API configuration');
-  result={patch:{sub:'Stöd för bildredigering'},evidence:{sub:[{url:'https://example.com/docs',quote:'This creative model supports image editing.'}]},_retrieved:{'https://example.com/docs':'Untrusted model-generated cache'}};
+  result={successor:{status:'none'},patch:{sub:'Stöd för bildredigering'},evidence:{sub:[{url:'https://example.com/docs',quote:'This creative model supports image editing.'}]},_retrieved:{'https://example.com/docs':'Untrusted model-generated cache'}};
  }else if(body.input.startsWith('Independently verify')){
   if(!body.input.includes('This creative model supports image editing.'))throw Error('Missing actual source');
   result={approvedFields:['sub']};
