@@ -84,3 +84,14 @@ test('Model responses tolerate explanatory braces and fenced JSON without corrup
  assert.deepEqual(parseModelJSON(['Here is {a template}. Final: {"verified":true,"profile":{"n":"Model {test}"}}']),{verified:true,profile:{n:'Model {test}'}});
  assert.throws(()=>parseModelJSON(['{not valid JSON}']));
 });
+
+test('Shipped Images successor preserves historical references and separately sourced facts',async()=>{
+ const d=JSON.parse(await readFile('site-data.json','utf8'));
+ const p=d.platforms.find(p=>p.id==='chatgpt-images-2-5');
+ assert.equal(p.n,'ChatGPT Images 2.5');assert(p.idAliases.includes('chatgpt-images-2-0'));
+ assert(p.aliases.includes('ChatGPT Images 2.0'));assert.equal(p.rating,null);
+ assert.equal(p.versionHistory[0].profile.n,'ChatGPT Images 2.0');
+ assert(p.versionHistory[0].sources.some(s=>s.url==='https://openai.com/index/introducing-chatgpt-images-2-0/'));
+ for(const f of ['n','url','cats','sub','long','deep','price','tier','pros','cons','tags','caps'])assert(p.fieldChecks[f]?.sources.length,f);
+ const ids=d.platforms.flatMap(p=>[p.id,...(p.idAliases||[])]);assert.equal(ids.length,new Set(ids).size);
+});

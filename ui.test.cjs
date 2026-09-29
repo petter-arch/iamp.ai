@@ -22,10 +22,22 @@ context.cmpToggle(0);context.cmpToggle(1);context.renderCmpCols();assert(els['cm
 assert.throws(()=>context.adoptData({...state,news:[]}));
 assert.throws(()=>context.adoptData({...state,platforms:state.platforms.slice(1)}));
 context.adoptData({...state,updatedAt:'2026-09-09T08:00:00Z'});
-context.fetchNews().then(ok=>{assert.equal(ok,false);assert.equal(context.lastUpdated.toISOString(),'2026-09-09T08:00:00.000Z');});
+
 assert.equal(context.CHANNELS.reduce((a,g)=>a+g.items.length,0),state.sources.length);
 for(const name of ['PiXimperfect','The Dor Brothers','William Faucher','Venus Theory','Two Minute Papers'])assert(els.tgrid.innerHTML.includes(name));
 const unrated={...state.platforms[0],rating:null,tech:null,speed:null,pricev:null};
 assert(context.platCard(unrated,0).includes('—'));assert(!context.platCard(unrated,0).includes('>null<'));
 context.PLATS[0]=unrated;context.renderCmpCols();assert(!els['cmp-chart'].innerHTML.includes('>null<'));
 console.log('PASS: full details, all chapters, new channels, comparisons and last-good fallback.');
+// A new data package must resolve the embedded/previous ID and preserve comparison indices.
+const original=state.platforms[0];
+const migrated={...original,id:'fixture-successor',n:'Fixture successor',idAliases:[original.id].concat(original.idAliases||[]),aliases:[original.n].concat(original.aliases||[])};
+context.adoptData({...state,platforms:[migrated,...state.platforms.slice(1)]});
+assert.equal(context.PLATS[0].id,migrated.id);
+assert.equal(context.PLATS.length,state.platforms.length);
+context.NEWS=[{id:'legacy-id',platformIds:[original.id,migrated.id],date:new Date().toISOString()}];
+assert(context.trendValue(migrated)>.99&&context.trendValue(migrated)<=1);
+assert.throws(()=>context.adoptData({...state,platforms:[migrated,{...state.platforms[1],idAliases:[original.id]},...state.platforms.slice(2)]}),/Tvetydigt/);
+
+const stampBeforeFailure=context.lastUpdated.toISOString();
+context.fetchNews().then(ok=>{assert.equal(ok,false);assert.equal(context.lastUpdated.toISOString(),stampBeforeFailure);});

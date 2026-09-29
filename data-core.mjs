@@ -55,7 +55,7 @@ export function trends(news, platforms, now) {
     for (const p of platforms) {
       const id = idFor(p), names = [p.n,...(p.aliases || [])];
       // Exact resolved references, never a substring such as "Flux" inside "Flux Pro".
-      if (!(n.platformIds || []).includes(id) && !names.includes(n.plat)) continue;
+      if (!(n.platformIds || []).some(ref => [id,...(p.idAliases || [])].includes(ref)) && !names.includes(n.plat)) continue;
       const channel = n.chans?.[0] || n.meta?.split(' · ')[0] || key;
       const ck = id + ':' + channel;
       if ((channels[ck] || 0) >= 3) continue;

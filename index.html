@@ -900,7 +900,7 @@ var showArchive=false;
 function trendValue(p){
   var score=0,seen={},channels={},aliases=[p.n].concat(p.aliases||[]);
   NEWS.forEach(function(n){var age=(Date.now()-Date.parse(n.date))/864e5;
-    var key=n.id||n.url||n.ttl,match=(n.platformIds||[]).indexOf(p.id)>-1||aliases.indexOf(n.plat)>-1;
+    var key=n.id||n.url||n.ttl,match=(n.platformIds||[]).some(function(id){return [p.id].concat(p.idAliases||[]).indexOf(id)>-1;})||aliases.indexOf(n.plat)>-1;
     if(!match||!Number.isFinite(age)||age<0||age>30||seen[key])return;seen[key]=1;
     var channel=(n.chans||[])[0]||n.meta||key;if((channels[channel]||0)>=3)return;channels[channel]=(channels[channel]||0)+1;
     score+=Math.pow(.5,age/7);
@@ -913,7 +913,7 @@ function adoptData(data){
   if(!data||data.schemaVersion!==1||!Array.isArray(data.news)||!data.news.length||!Array.isArray(data.platforms)||data.platforms.length<PLATS.length)throw Error('Ogiltig uppdatering');
   if(data.news.some(function(n){return !n.ttl||!n.full||!Number.isFinite(Date.parse(n.date));}))throw Error('Ogiltiga nyheter');
   if(data.platforms.some(function(p){return !p.n||!p.long||!p.url||!Array.isArray(p.pros)||!Array.isArray(p.cons)||!Array.isArray(p.tags)||!Array.isArray(p.caps);}))throw Error('Ofullständiga modelldetaljer');
-  var byId={};data.platforms.forEach(function(p){byId[p.id]=p;});
+  var byId=Object.create(null);data.platforms.forEach(function(p){[p.id].concat(p.idAliases||[]).forEach(function(id){if(byId[id]&&byId[id]!==p)throw Error('Tvetydigt modell-ID');byId[id]=p;});});
   if(PLATS.some(function(p){return !byId[p.id];}))throw Error('Modell saknas');
   if(data.updatedAt&&!Number.isFinite(Date.parse(data.updatedAt)))throw Error('Ogiltigt datum');
   if(!Array.isArray(data.sources)||data.sources.some(function(c){return !c.n||!c.group||!c.desc||!/^https:\/\/www\.youtube\.com\//.test(c.url);}))throw Error('Ogiltiga kanaler');
