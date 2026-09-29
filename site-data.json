@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T09:01:03.105Z",
+  "updatedAt": "2026-09-29T11:23:53.895Z",
   "newsCheckedAt": "2026-09-29T09:01:03.105Z",
   "news": [
     {
@@ -12414,8 +12414,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "FLUX.2",
@@ -12427,11 +12427,12 @@
       "pct": 80,
       "price": "Gratis (klein, open weight) till API per bild (pro)",
       "sub": "Fem modellvarianter — från lokal realtidskörning till maximal kvalitet",
-      "long": "FLUX.2 efterträder 1.1 Pro med fyra varianter: pro, flex, dev och klein. Klein (jan 2026) genererar och redigerar bilder på under en sekund på vanlig konsumenthårdvara, medan hela familjen håller stil och karaktär konsekvent över flera referensbilder och kan redigera bilder upp till 4 megapixel.",
+      "long": "FLUX.2 är en familj med fem varianter: klein, max, pro, flex och dev. Den kombinerar bildgenerering och bildredigering, inklusive multi-reference-arbete, och stöder utdata upp till 4 MP. Klein är inriktad på realtid och lokal körning, pro på produktionsflöden, flex på typografi och finstyrning, max på högsta kvalitet med grounding search och dev på lokal utveckling med öppna vikter.",
       "pros": [
-        "Fem varianter för hastighet, kvalitet, typografi och utveckling",
+        "Fem varianter för realtid, högsta kvalitet, produktionsarbete, typografi och utveckling",
         "Upp till tio referensbilder för generation och redigering",
-        "Klein 4B kan köras lokalt på konsument-GPU och är Apache 2.0-licensierad"
+        "Klein 4B kan köras lokalt på konsument-GPU och är Apache 2.0-licensierad",
+        "Max har exklusiv grounding search som använder webbinformation i bildgenereringen"
       ],
       "cons": [
         "Max är långsammare än övriga alternativ",
@@ -12452,7 +12453,7 @@
       "speed": 88,
       "pricev": 78,
       "rating": 87,
-      "deep": "Välj klein för interaktiva eller lokala flöden: 4B körs på konsument-GPU med omkring 13 GB VRAM och har Apache 2.0-licens. Välj pro för produktionsarbete i skala, flex när läsbar typografi är central och max för slutmaterial där högsta kvalitet samt grounding search behövs. Dev är ett alternativ för lokal utveckling, forskning och anpassning, men dess kostnadsfria användning är icke-kommersiell.",
+      "deep": "Välj klein för interaktiva eller lokala flöden: 4B-varianten är Apache 2.0-licensierad, körs på konsument-GPU och är gjord för snabb generering. Välj pro för produktionsarbete i skala, flex när läsbar typografi och justerbara steg eller guidance är viktiga, och max när högsta kvalitet eller grounding search med webbinformation behövs. Dev är en open-weight-modell för lokal utveckling; den är gratis för icke-kommersiell användning.",
       "caps": [
         "Text-till-bild",
         "Bildredigering",
@@ -12462,7 +12463,9 @@
         "Open weights",
         "On-device",
         "API",
-        "Self-host"
+        "Self-host",
+        "Grounding search (max)",
+        "Justerbara steg och guidance (flex)"
       ],
       "free": "open",
       "id": "flux-2",
@@ -12481,19 +12484,19 @@
           ]
         },
         "deep": {
-          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "checkedAt": "2026-09-29T11:23:53.895Z",
           "sources": [
             {
               "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
               "quote": "runs on consumer hardware with as little as 13GB VRAM."
             },
             {
-              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
-              "quote": "Best for: E-commerce, content platforms, automated pipelines"
+              "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+              "quote": "Maximum control with adjustable inference steps (up to 50) and guidance scale."
             },
             {
-              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
-              "quote": "Best for: Posters, advertisements, social media graphics with text"
+              "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+              "quote": "Free for non-commercial use. Run locally on your own infrastructure."
             }
           ]
         },
@@ -12511,24 +12514,24 @@
           ]
         },
         "caps": {
-          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "checkedAt": "2026-09-29T11:23:53.895Z",
           "sources": [
-            {
-              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
-              "quote": "Both generation modes in a unified architecture"
-            },
             {
               "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
               "quote": "Use up to 10 source images simultaneously to guide generation"
             },
             {
-              "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
-              "quote": "Higher resolution output - Up to 4 megapixels"
+              "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+              "quote": "Grounding search, performs web searches to incorporate real-time information"
+            },
+            {
+              "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+              "quote": "adjustable inference steps (up to 50) and guidance scale"
             }
           ]
         },
         "pros": {
-          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "checkedAt": "2026-09-29T11:23:53.895Z",
           "sources": [
             {
               "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
@@ -12537,6 +12540,10 @@
             {
               "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
               "quote": "Fully open under Apache 2.0."
+            },
+            {
+              "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+              "quote": "performs web searches to incorporate real-time information into generated images."
             }
           ]
         },
@@ -12556,9 +12563,22 @@
               "quote": "Free for non-commercial use."
             }
           ]
+        },
+        "long": {
+          "checkedAt": "2026-09-29T11:23:53.895Z",
+          "sources": [
+            {
+              "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+              "quote": "FLUX.2 offers five model variants"
+            },
+            {
+              "url": "https://bfl.ai/blog/flux-2",
+              "quote": "ability to combine up to 10 images into a novel output, an output resolution of up to 4MP"
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12677,7 +12697,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -12689,8 +12709,8 @@
       "bdg": "new",
       "pct": 72,
       "price": "Gratis (7 låtar/dag) / $9,99 mån",
-      "sub": "Kommersiellt säker AI-musik — licensierad från start",
-      "long": "ElevenMusic (ElevenLabs Music v2) är den enda stora musikgeneratorn som byggts på licensierad träningsdata från första dagen — via avtal med Merlin, Kobalt och Believe. Det gör den till det juridiskt trygga valet för film, reklam, poddar och sociala medier. Fristående app sedan april 2026 med genre-skiftning, sektion-för-sektion-komposition och remix-funktioner; över 14 miljoner låtar skapade.",
+      "sub": "AI-musik för skapande, upptäckt och remix — Free och Pro finns",
+      "long": "ElevenMusic är en separat AI-musikplattform för oberoende artister och musikälskare, tillgänglig som iOS-app och på webben. Den samlar musikupptäckt, skapande och remix i en tjänst, och varje spår på plattformen bygger på ElevenLabs Music-modell. Free omfattar fem låtar per dag, medan Pro omfattar 400 låtar per månad samt ytterligare funktioner. ElevenMusic är skilt från ElevenCreative Music och kräver ett separat konto.",
       "pros": [
         "Licensierad träningsdata — kommersiellt tryggt",
         "Stark sång-AI (ElevenLabs röstteknik)",
@@ -12702,8 +12722,10 @@
       ],
       "tags": [
         "Musik",
-        "Licensierad",
-        "Kommersiellt säker"
+        "Skapande",
+        "Upptäckt",
+        "Remix",
+        "Music v2.5"
       ],
       "url": "https://elevenlabs.io/music",
       "tech": 82,
@@ -12723,8 +12745,44 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-17T10:02:21.710Z",
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-09-29T11:23:53.895Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+              "quote": "Free and Pro subscriptions are available"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-09-29T11:23:53.895Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+              "quote": "a separate product from ElevenCreative Music"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+              "quote": "available as an iOS app and on the web"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+              "quote": "music discovery, creation, and remixing in a single place"
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-09-29T11:23:53.895Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+              "quote": "music discovery, creation, and remixing"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -15744,7 +15802,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hk21B_dI-gA",
         "https://www.youtube.com/watch?v=OvkxZS_bBXE",
-        "https://www.youtube.com/watch?v=W_9whxaNXdg"
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=NsT93NvHUgI"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-15T10:07:38.861Z",
@@ -16031,16 +16090,22 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=L049uPaPQ4A",
         "https://www.youtube.com/watch?v=PJBadOeNi1o",
-        "https://www.youtube.com/watch?v=gVatlvyPAxI"
+        "https://www.youtube.com/watch?v=gVatlvyPAxI",
+        "https://www.youtube.com/watch?v=6rUH26AUaCY"
       ],
-      "firstSeen": "2026-09-17T10:02:21.710Z"
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "GPT 6 Astra",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=luG8o7cP5Uo"
       ],
-      "firstSeen": "2026-09-18T09:49:39.277Z"
+      "firstSeen": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile"
     },
     {
       "name": "Smart Mesh 2.0",
@@ -16094,7 +16159,8 @@
     {
       "name": "Pixal3D",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=_lgyED4IkJg"
+        "https://www.youtube.com/watch?v=_lgyED4IkJg",
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z"
     },
@@ -16265,7 +16331,8 @@
     {
       "name": "Meshy 7.1",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -16795,6 +16862,188 @@
         "https://www.youtube.com/watch?v=4G-LiRlM1Og"
       ],
       "firstSeen": "2026-09-28T11:44:53.630Z"
+    },
+    {
+      "name": "GPT Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=JWEAmLHp7Sg"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "YVO3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "VARCO",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Triverse",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Tripo3D 3.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Hi3D 3.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Hyper3D Rodin 2.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Seed3D 2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Stable Fast 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "GrandpaCAD",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Meta SAM 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Prompt2CAD",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Polycam AI 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Everything Universe",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Wonder 3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Sloyd",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Furnimesh",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Forge Gen-2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Hunyuan 3D 2.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "TRELLIS.2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Lychee Gen",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Alpha3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Neural4D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Prism 3.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Hunyuan 3.1 Pro",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Miora3D 1.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
+      ],
+      "firstSeen": "2026-09-29T11:23:53.895Z"
     }
   ],
   "sourceChecks": {},
@@ -17461,58 +17710,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-29T09:01:03.105Z",
+    "calculatedAt": "2026-09-29T11:23:53.895Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.11608116791271735,
+      "chatgpt-images-2-0": 0.1149465097087194,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.4263535270860182,
-      "google-veo-3-1": 0.11483232237244549,
+      "runway-gen-4-5": 0.4221860506898867,
+      "google-veo-3-1": 0.11370987125477575,
       "flux-2": 0,
-      "elevenlabs": 1.4373952311435683,
+      "elevenlabs": 1.423345128782168,
       "elevenmusic": 0,
-      "heygen": 0.052177438536830864,
-      "kling-3-0": 0.8627270714564164,
+      "heygen": 0.0516674199027667,
+      "kling-3-0": 0.8542941760346956,
       "freepik-ai": 0,
-      "adobe-firefly": 0.28549029733225995,
+      "adobe-firefly": 0.28269971627717067,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.88858138823429,
+      "higgsfield": 4.840796988078681,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.4601493714479297,
+      "meshy-ai": 2.436102157609827,
       "magnific-ai": 0,
-      "seedance-2-5": 3.390662226129922,
+      "seedance-2-5": 3.357519531401376,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.827731499736397,
+      "nano-banana-pro": 0.819640675412596,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.33870445983230657,
+      "rodin-hyper3d": 0.33539372648089516,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.169998738718976,
-      "trellis-2": 0.8173749595921982,
+      "hunyuan3d": 1.1585623559583118,
+      "trellis-2": 0.8093853673067282,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.23392402243598734,
-      "hitem3d": 0.8814316454784251,
+      "luma-genie": 0.23163748607576762,
+      "hitem3d": 0.8728159185195309,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.4485548474453748
+      "gemini-omni-flash": 0.4441703598773341
     }
   }
 }

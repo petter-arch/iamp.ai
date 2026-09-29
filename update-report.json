@@ -1,227 +1,58 @@
 {
-  "startedAt": "2026-09-29T09:01:03.105Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-29T09:01:03.105Z",
-      "found": 5
-    }
-  },
-  "selection": {
-    "fetched": 131,
-    "relevant": 39,
-    "supported": 26
-  },
-  "rejected": [
+  "startedAt": "2026-09-29T11:23:53.895Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "platform": "google-veo-3-1",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
-      ]
+      "platform": "flux-2",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://help.bfl.ai/articles/7986977817-what-are-the-costs-associated-with-using-your-models\",\"quote\":\"FLUX.2 [klein] 4B | from $0.014 | from $0.014\",\"retrieved\":[]}"
     },
     {
-      "video": "PCvnuGFasa8",
-      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        6
-      ]
+      "platform": "flux-2",
+      "field": "tags",
+      "message": "Quote not found: {\"url\":\"https://help.bfl.ai/articles/4292391522-what-is-flux-2\",\"quote\":\"Grounding search | No | Yes ([max] only)\",\"retrieved\":[]}"
     },
     {
-      "video": "rJ6NrYS-uGc",
-      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3,
-        5
-      ]
+      "platform": "elevenlabs",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "gzLaOSggSIg",
-      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
+      "platform": "elevenmusic",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "kkbO0kAzn-U",
-      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
+      "platform": "elevenmusic",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://elevenlabs.io/blog/music-v2-5-model\",\"quote\":\"Downloads are blocked on tracks that reference other artists' songs.\",\"retrieved\":[]}"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "elevenmusic",
+      "field": "caps",
+      "message": "Official source unavailable"
     },
     {
-      "video": "9O5qSS07TbQ",
-      "title": "Qwen-Image-2.1: Generate, Edit & Export Real Transparent PNGs | AI | AI Agent | LLM",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        13
-      ]
+      "platform": "elevenmusic",
+      "field": "pros",
+      "message": "Official source unavailable"
     },
     {
-      "video": "WKzVEG-vyuw",
-      "title": "A 7B model beat Google. The license stops you shipping it.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        5
-      ]
+      "platform": "elevenmusic",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://elevenlabs.io/blog/music-v2-5-model\",\"quote\":\"Downloads are blocked on tracks that reference other artists' songs.\",\"retrieved\":[]}"
     },
     {
-      "video": "AFLBUUU3_es",
-      "title": "I Tested Every AI 3D Model in FLORA AI (Here's What Each One Is For)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        6,
-        7
-      ]
-    },
-    {
-      "video": "UICjXJlrpDw",
-      "title": "Hyper3D Rodin vs Meshy Review: AI 3D Generator Features & Key Differences (2026)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
-    {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "xiTzwUKWQhU",
-      "title": "AI 3D model generator: a loot chest made with Meshy AI",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        10,
-        9
-      ]
-    },
-    {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3Szf5srPHcE",
-      "title": "🫨Trending Spotify Playlist Chatgpt image generator | Trending edit 2026 #aiphotography #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "8DwCcTUH3iw",
-      "title": "Chatgpt Photo Editing | Vintage Style Poster Photo Editing #vintage #chatgpt #shorts #new #trending",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ZxG5jLe9K1s",
-      "title": "AI Se 3D Model Kaise Banaye 🤯 | AI 3D Model Generator #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "lxuMBEWoJ8M",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "zYUzfuCKwBE",
-      "title": "Bí kíp tối ưu thời gian render video không phải chờ lâu | AI Cinema Studio #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gX0L0aFA2xg",
-      "title": "Claude Opus 5.5 is ridiculous",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        5,
-        15,
-        18
-      ]
-    },
-    {
-      "video": "Re0tBxvbgDI",
-      "title": "I make $800 Budget Ai Film For Free with Dola Ai || Ai Film making master class 1",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "n3BsRYtZjjg",
-      "title": "Did AI just break cinema? 💀 #ai #cinema #shorts",
-      "stage": "insufficient-article-source"
+      "candidate": "GPT 6 Astra",
+      "message": "Incomplete independent verification of new profile"
     }
   ],
-  "accepted": 1
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }
