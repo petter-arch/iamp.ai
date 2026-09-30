@@ -1,53 +1,43 @@
 {
-  "startedAt": "2026-09-29T19:37:41.112Z",
+  "startedAt": "2026-09-30T08:59:38.928Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 1
     },
     "3d": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-29T19:37:41.112Z",
+      "checkedAt": "2026-09-30T08:59:38.928Z",
       "found": 5
     }
   },
   "selection": {
-    "fetched": 131,
-    "relevant": 34,
-    "supported": 25
+    "fetched": 134,
+    "relevant": 35,
+    "supported": 26
   },
   "rejected": [
-    {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
-    },
     {
       "video": "PCvnuGFasa8",
       "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
@@ -63,8 +53,8 @@
       "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
         3,
+        4,
         5
       ]
     },
@@ -83,9 +73,16 @@
       "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
         2,
         3
+      ]
+    },
+    {
+      "video": "uapAA5hx5uI",
+      "title": "ChatGPT Just Entered a New Era (How This Affects Normal People)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2
       ]
     },
     {
@@ -97,13 +94,13 @@
       ]
     },
     {
-      "video": "9O5qSS07TbQ",
-      "title": "Qwen-Image-2.1: Generate, Edit & Export Real Transparent PNGs | AI | AI Agent | LLM",
+      "video": "bLP1UeCMDXc",
+      "title": "Qwen Image 2.1 Is Here! Local AI Image Generation Is Getting REALLY Good",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
         2,
-        13
+        3
       ]
     },
     {
@@ -111,7 +108,7 @@
       "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
+        0,
         2,
         7
       ]
@@ -126,8 +123,18 @@
       ]
     },
     {
-      "video": "gr9fEEKrO5Y",
-      "title": "20+ Insane Opus 5.5 Video Use Cases (Changes Everything)",
+      "video": "QX8jKDqO1mQ",
+      "title": "Hi3D: How To Use AI For 3D Creation! Why Every 3D Artist Needs To Try this Now",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "084IvH5k0E8",
+      "title": "The Best AI Workflow for a 2D + Live Action Film",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "aDpIra7NFuE",
+      "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
       "stage": "insufficient-article-source"
     },
     {
@@ -141,33 +148,13 @@
       ]
     },
     {
-      "video": "_fSIhcZqm2g",
-      "title": "Video Editing Is About to Change Forever",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "6QC6nOotxrU",
       "title": "Camera Angles Are Becoming a Thing of the Past",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "AFLBUUU3_es",
-      "title": "I Tested Every AI 3D Model in FLORA AI (Here's What Each One Is For)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        5,
-        6,
-        7
-      ]
-    },
-    {
-      "video": "8DwCcTUH3iw",
-      "title": "Chatgpt Photo Editing | Vintage Style Poster Photo Editing #vintage #chatgpt #shorts #new #trending",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3Szf5srPHcE",
-      "title": "🫨Trending Spotify Playlist Chatgpt image generator | Trending edit 2026 #aiphotography #new",
+      "video": "RN4YcskUMPk",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -180,25 +167,20 @@
       ]
     },
     {
-      "video": "zYUzfuCKwBE",
-      "title": "Bí kíp tối ưu thời gian render video không phải chờ lâu | AI Cinema Studio #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "lxuMBEWoJ8M",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6W0wJD97_QQ",
-      "title": "Use this new ai photo prompt 😮 Chatgpt 🔥 #aiphotoediting #ytshorts #chatgpt",
+      "video": "8DwCcTUH3iw",
+      "title": "Chatgpt Photo Editing | Vintage Style Poster Photo Editing #vintage #chatgpt #shorts #new #trending",
       "stage": "insufficient-article-source"
     },
     {
       "video": "n3BsRYtZjjg",
       "title": "Did AI just break cinema? 💀 #ai #cinema #shorts",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3Szf5srPHcE",
+      "title": "🫨Trending Spotify Playlist Chatgpt image generator | Trending edit 2026 #aiphotography #new",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }
