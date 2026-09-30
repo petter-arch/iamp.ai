@@ -13305,7 +13305,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13398,7 +13398,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -13446,7 +13446,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-18T09:49:39.277Z"
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z"
     },
     {
       "n": "Adobe Firefly",
@@ -13523,7 +13523,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-18T09:49:39.277Z"
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z"
     },
     {
       "n": "Leonardo AI",
@@ -16151,7 +16151,8 @@
         "https://www.youtube.com/watch?v=xpEJdMdZJGs",
         "https://www.youtube.com/watch?v=dfw2_4Rrkl4",
         "https://www.youtube.com/watch?v=gVatlvyPAxI",
-        "https://www.youtube.com/watch?v=FKIg7Wtsyp0"
+        "https://www.youtube.com/watch?v=FKIg7Wtsyp0",
+        "https://www.youtube.com/watch?v=T1Thl6mofGQ"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -16522,7 +16523,8 @@
         "https://www.youtube.com/watch?v=L049uPaPQ4A",
         "https://www.youtube.com/watch?v=PJBadOeNi1o",
         "https://www.youtube.com/watch?v=gVatlvyPAxI",
-        "https://www.youtube.com/watch?v=6rUH26AUaCY"
+        "https://www.youtube.com/watch?v=6rUH26AUaCY",
+        "https://www.youtube.com/watch?v=DyIloGSzTKk"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z",
       "lastAttemptAt": "2026-09-29T11:23:53.895Z",
@@ -16543,14 +16545,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=luG8o7cP5Uo"
       ],
-      "firstSeen": "2026-09-18T09:49:39.277Z"
+      "firstSeen": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "GPT-6 (Astra)",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=WKO-YgMQhLI"
       ],
-      "firstSeen": "2026-09-18T09:49:39.277Z"
+      "firstSeen": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Codex",
@@ -17475,6 +17482,41 @@
         "https://www.youtube.com/watch?v=p_5Usk7ALT4"
       ],
       "firstSeen": "2026-09-29T11:23:53.895Z"
+    },
+    {
+      "name": "Playground AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=LKzummHSXMI"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z"
+    },
+    {
+      "name": "Kling 4.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MbxDhjoH-V4"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z"
+    },
+    {
+      "name": "Kling 4.0 Flash",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MbxDhjoH-V4"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z"
+    },
+    {
+      "name": "Opus 5.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=gr9fEEKrO5Y"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z"
+    },
+    {
+      "name": "GPT6 Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=gr9fEEKrO5Y"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z"
     }
   ],
   "sourceChecks": {},
@@ -18141,58 +18183,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-09-30T08:59:38.928Z",
+    "calculatedAt": "2026-09-30T11:11:53.377Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.10514760420072883,
+      "chatgpt-images-2-0": 0.10419578008515357,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.3861957346029936,
-      "google-veo-3-1": 0.10401638611481936,
+      "runway-gen-4-5": 0.3826997879637752,
+      "google-veo-3-1": 0.10307480208661779,
       "flux-2": 0,
-      "elevenlabs": 1.302008478739133,
+      "elevenlabs": 1.2902223512456192,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.7814677115495745,
+      "kling-3-0": 0.7743936577083067,
       "freepik-ai": 0,
-      "adobe-firefly": 0.2586002650284511,
+      "adobe-firefly": 0.2562593465603676,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.288596115647384,
+      "higgsfield": 6.231670068863102,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.228430477010551,
+      "meshy-ai": 2.2082581308689093,
       "magnific-ai": 0,
-      "seedance-2-5": 3.956573432093665,
+      "seedance-2-5": 3.920757475692779,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.7497683361025458,
+      "nano-banana-pro": 0.7429812334498334,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.3068022412580094,
+      "rodin-hyper3d": 0.3040249856642022,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.059797782071565,
-      "trellis-2": 0.7403872676350921,
+      "hunyuan3d": 1.0502042103085494,
+      "trellis-2": 0.7336850849124634,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.21189096359399134,
-      "hitem3d": 0.7984105213211667,
+      "luma-genie": 0.20997287016186508,
+      "hitem3d": 0.7911830966537274,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.4063059358342087
+      "gemini-omni-flash": 0.4026279462978035
     }
   }
 }

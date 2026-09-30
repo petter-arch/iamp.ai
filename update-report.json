@@ -1,186 +1,59 @@
 {
-  "startedAt": "2026-09-30T08:59:38.928Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 1
-    },
-    "3d": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-09-30T08:59:38.928Z",
-      "found": 5
-    }
-  },
-  "selection": {
-    "fetched": 134,
-    "relevant": 35,
-    "supported": 26
-  },
-  "rejected": [
+  "startedAt": "2026-09-30T11:11:53.377Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "PCvnuGFasa8",
-      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        6
-      ]
+      "platform": "heygen",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained\",\"quote\":\"Credits can be used for video generation, translation and asset creation across HeyGen.\",\"retrieved\":[]}"
     },
     {
-      "video": "rJ6NrYS-uGc",
-      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        5
-      ]
+      "platform": "heygen",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained\",\"quote\":\"Avatar V (Photo Look & Video Look) | 1 minute = 48 credits\",\"retrieved\":[]}"
     },
     {
-      "video": "gzLaOSggSIg",
-      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3,
-        4
-      ]
+      "platform": "heygen",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "kkbO0kAzn-U",
-      "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "platform": "heygen",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "uapAA5hx5uI",
-      "title": "ChatGPT Just Entered a New Era (How This Affects Normal People)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2
-      ]
+      "platform": "heygen",
+      "field": "deep",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "heygen",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "bLP1UeCMDXc",
-      "title": "Qwen Image 2.1 Is Here! Local AI Image Generation Is Getting REALLY Good",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "heygen",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        7
-      ]
+      "platform": "heygen",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
+      "platform": "kling-3-0",
+      "field": "sub",
+      "message": "Source outside official domain"
     },
     {
-      "video": "QX8jKDqO1mQ",
-      "title": "Hi3D: How To Use AI For 3D Creation! Why Every 3D Artist Needs To Try this Now",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "084IvH5k0E8",
-      "title": "The Best AI Workflow for a 2D + Live Action Film",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "aDpIra7NFuE",
-      "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xiTzwUKWQhU",
-      "title": "AI 3D model generator: a loot chest made with Meshy AI",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        10,
-        9
-      ]
-    },
-    {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "RN4YcskUMPk",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UICjXJlrpDw",
-      "title": "Hyper3D Rodin vs Meshy Review: AI 3D Generator Features & Key Differences (2026)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
-    {
-      "video": "8DwCcTUH3iw",
-      "title": "Chatgpt Photo Editing | Vintage Style Poster Photo Editing #vintage #chatgpt #shorts #new #trending",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "n3BsRYtZjjg",
-      "title": "Did AI just break cinema? 💀 #ai #cinema #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3Szf5srPHcE",
-      "title": "🫨Trending Spotify Playlist Chatgpt image generator | Trending edit 2026 #aiphotography #new",
-      "stage": "insufficient-article-source"
+      "candidate": "Smart Mesh 2.0",
+      "message": "Official source unavailable"
     }
   ],
-  "accepted": 4
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }
