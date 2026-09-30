@@ -1,6 +1,216 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Transfer textures from an AI-generated 3D model to a retopologized and optimized mesh in 3ds Max. In this video, I show how ai2tex transfers the",
+    "evidenceIds": [
+      1,
+      5,
+      6
+    ],
+    "id": "Q5RqjIBgIJU",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Så överför ai2tex texturer från AI-genererade 3D-modeller i 3ds Max",
+    "sum": "Kanalen Plugins & Scripts visar ett arbetsflöde där ai2tex överför originaltexturen från en tät AI-genererad 3D-modell till ett retopologiserat och optimerat nät i 3ds Max.",
+    "full": "Kanalen Plugins & Scripts beskriver ett arbetsflöde för att göra AI-genererade 3D-modeller mer användbara i 3ds Max. Utgångspunkten är en AI-genererad modell med tät geometri. Modellen retopologiseras därefter med Quad Remesher och får en ny UV-layout med UVW Unwrap.\n\nDet centrala steget är ai2tex, ett kostnadsfritt 3ds Max-skript som enligt kanalens beskrivning överför originaltexturen till den nya UV-layouten efter retopologiseringen. På så sätt kan texturinformationen från den ursprungliga, täta modellen bakas över till den optimerade meshen.\n\nArbetsflödet som anges av kanalen består av AI-generering av 3D-modellen med Hunyuan AI model generation, retopologisering med Quad Remesher, UVW Unwrap och texturbakning med ai2tex. Därefter används Corona Physical Material, och slutresultatet visas i Corona Renderer.\n\nBeskrivningen framställer ai2tex som ett verktyg för att överföra texturer från täta AI-genererade modeller till optimerade nät. Kanalen länkar till en kostnadsfri nedladdning på ai2tex.toritex.com.",
+    "deep": "Källan anger inte modellens exakta polygonantal, vilka texturkanaler som stöds, hur lång överföringen tar eller vilka begränsningar skriptet har. Den beskriver inte heller någon oberoende testning eller jämförelse med andra metoder. Det som uttryckligen stöds är funktionen att flytta den ursprungliga texturen till en ny UV-layout efter retopologisering i 3ds Max, inom ett arbetsflöde som avslutas med materialinställning och rendering i Corona.",
+    "en": {
+      "ttl": "How ai2tex transfers textures from AI-generated 3D models in 3ds Max",
+      "sum": "The Plugins & Scripts channel presents a workflow in which ai2tex transfers the original texture from a dense AI-generated 3D model to a retopologized and optimized mesh in 3ds Max.",
+      "full": "The Plugins & Scripts channel describes a workflow for making AI-generated 3D models more usable in 3ds Max. The process starts with an AI-generated model containing dense geometry. The model is then retopologized with Quad Remesher and given a new UV layout using UVW Unwrap.\n\nThe central step is ai2tex, a free 3ds Max script that, according to the channel’s description, transfers the original texture to the new UV layout after retopology. This allows texture information from the original dense model to be baked onto the optimized mesh.\n\nThe workflow listed by the channel consists of AI 3D model generation with Hunyuan AI model generation, retopology with Quad Remesher, UVW Unwrap and texture baking with ai2tex. Corona Physical Material is then used, and the final result is shown in Corona Renderer.\n\nThe description presents ai2tex as a tool for transferring textures from dense AI-generated models to optimized meshes. The channel links to a free download at ai2tex.toritex.com.",
+      "deep": "The source does not specify the model’s polygon count, which texture channels are supported, how long the transfer takes or what limitations the script has. It also does not describe independent testing or comparisons with other methods. The supported claim is that the tool moves the original texture to a new UV layout after retopology in 3ds Max, within a workflow that ends with material setup and rendering in Corona."
+    },
+    "cat": "3d",
+    "date": "2026-09-30T16:44:41Z",
+    "meta": "Plugins & Scripts · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=Q5RqjIBgIJU",
+    "img": "https://i.ytimg.com/vi/Q5RqjIBgIJU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Plugins & Scripts"
+    ],
+    "parts": [],
+    "views": 3,
+    "buzz": 27,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a464fa37ad0c6043c73941df11a46291465cf76f739fcf8b3ba6e6d031fdd838",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Hunyuan AI model generation",
+      "Quad Remesher",
+      "3ds Max",
+      "Corona Renderer",
+      "Corona Physical Material",
+      "ai2tex"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Can AI create cinematic video shots from simple shot instructions? In this video, I use 3 different camera strategies to create a continuous cinematic scene",
+    "evidenceIds": [
+      1,
+      3,
+      4
+    ],
+    "id": "BISWhsKjqxg",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI-video skapar tre filmiska bildutsnitt i en tom mataffär",
+    "sum": "Kanalen Mask of AI visar ett experiment där strukturerade bildinstruktioner används för att skapa en sammanhängande filmisk scen i en tom mataffär med tre olika kamerast strategier.",
+    "full": "Kanalen Mask of AI undersöker hur AI kan skapa filmiska videobilder från enkla, men strukturerade, instruktioner. Experimentet utspelar sig i en tom mataffär och fokuserar på att bygga en sammanhängande scen genom att variera bildutsnitt och kamerahantering, snarare än att bara be AI att skapa en ”filmisk video”.\n\nVideon visar tre angreppssätt: en tracking shot, en statisk komposition samt kamerarörelse och bildinramning. Enligt kanalens beskrivning är målet att demonstrera hur olika kamer strategier påverkar den AI-genererade videon och hur tydliga instruktioner kan styra resultatet.\n\nArbetsflödet är inriktat på AI-filmskapande och AI-videoskapande. Tyngdpunkten ligger på shot design: skaparen testar hur scenens kontinuitet och det filmiska uttrycket kan planeras genom att specificera kamerans rörelse, komposition och inramning. Beskrivningen anger inte vilket AI-verktyg som används eller hur resultaten bedöms, så artikeln kan inte dra slutsatser om en viss produkts prestanda.",
+    "deep": "Mask of AI beskriver innehållet som ett experiment med tre olika kamer strategier i samma miljö. Den tomma mataffären fungerar som den kontinuerliga scen där tracking shot, statisk komposition samt kamerarörelse och bildinramning jämförs.\n\nDet centrala AI-arbetsflödet består enligt beskrivningen av att använda strukturerade shot-instruktioner för att kontrollera AI-videogenerering. Källan framhåller en metod där shot design står i centrum, i stället för en allmän uppmaning att skapa något filmiskt. Den namngivna kanalen presenterar detta som praktiskt AI-filmskapande på Telugu, men källan ger inga uppgifter om modell, release, tekniska begränsningar eller oberoende testresultat.",
+    "en": {
+      "ttl": "AI video creates three cinematic shots in an empty supermarket",
+      "sum": "The Mask of AI channel presents an experiment using structured shot instructions to create a continuous cinematic scene in an empty supermarket with three different camera strategies.",
+      "full": "The Mask of AI channel examines how AI can create cinematic video shots from simple but structured instructions. The experiment takes place in an empty supermarket and focuses on building a continuous scene by varying shot design and camera handling, rather than simply asking AI to create a cinematic video.\n\nThe video presents three approaches: a tracking shot, a static composition, and camera movement and framing. According to the channel’s description, the aim is to demonstrate how different camera strategies affect AI-generated video and how clear instructions can guide the result.\n\nThe workflow is focused on AI filmmaking and AI video creation. Its main idea is shot design: the creator tests how scene continuity and cinematic presentation can be planned by specifying camera movement, composition, and framing. The description does not identify the AI tool used or explain how the results are evaluated, so no conclusions about a specific product’s performance can be drawn.",
+      "deep": "Mask of AI describes the video as an experiment with three different camera strategies in the same environment. The empty supermarket serves as the continuous scene in which the tracking shot, static composition, and camera movement and framing are explored.\n\nAccording to the description, the central AI workflow uses structured shot instructions to control AI video generation. The source emphasizes a method centered on shot design instead of a broad request to make something cinematic. The named channel presents this as practical AI filmmaking in Telugu, but the source provides no model name, release information, technical limitations, or independent test results."
+    },
+    "cat": "film",
+    "date": "2026-09-30T14:09:01Z",
+    "meta": "Mask of AI · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=BISWhsKjqxg",
+    "img": "https://i.ytimg.com/vi/BISWhsKjqxg/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Mask of AI"
+    ],
+    "parts": [],
+    "views": 597,
+    "buzz": 53,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "294a963cbfc7e271ec4d17d660dd0ebf70f3617c560e0a8cd92f73935f0173f5",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Chatgpt Photo Editing Prompt For Girls #ai #trendingnow #chatgpt #prompt #ytshorts Use the uploaded photo as the face reference and preserve the exact facial features,",
+    "evidenceIds": [
+      0,
+      3,
+      5
+    ],
+    "id": "vhhGPVmcOm8",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Kajal Tech visar AI-redigering av porträtt med bevarad identitet",
+    "sum": "Kajal Tech delar en prompt för AI-baserad porträttredigering där ett uppladdat foto används som ansiktsreferens. Prompten instruerar modellen att bevara ansiktsdrag, frisyr, hudton, uttryck och identitet, samtidigt som motivet placeras i en ny modeporträttmiljö.",
+    "full": "Kanalen Kajal Tech visar en AI-baserad metod för att omarbeta ett befintligt porträtt med hjälp av en detaljerad prompt. Arbetsflödet utgår från ett uppladdat foto som ansiktsreferens och instruerar bildmodellen att bevara personens exakta ansiktsdrag, frisyr, hudton, uttryck och identitet.\n\nPrompten beskriver därefter en ny komposition: personen ska sitta på en modern svart stenbänk framför en strukturerad betongvägg och gröna buskar. Den angivna posen ska behållas, med blicken nedåt, ett milt leende, ena handen i håret och den andra vilande på sarin.\n\nÄven kläder och bildstil specificeras på detaljnivå. Resultatet ska föreställa en djupviolett saree i satin och siden med silverfärgad vågig kant, en matchande svart blus, långt svart hår, diskreta silverörhängen och minimal makeup. Prompten anger dessutom ett modeeditorialt uttryck med realistisk tygstruktur, kort skärpedjup, mjuk bakgrundsoskärpa, HDR, skarp fokus och bildformatet 9:16.\n\nBeskrivningen visar därmed främst en promptbaserad AI-redigering av ett porträtt, där identitetsbevarande kombineras med förändrad miljö, klädsel och visuell presentation. Kajal Techs publicerade material är underlaget för uppgifterna; någon oberoende testning eller verifiering av resultatet framgår inte.",
+    "deep": "Den centrala tekniken i den beskrivna metoden är att separera identitetsbevarande instruktioner från den nya scenens visuella egenskaper. Ansiktsreferensen ska styra personens utseende, medan texten samtidigt anger posering, miljö, kläder, ljus och bildspråk.\n\nPrompten innehåller också konkreta fotografiska parametrar: 85 mm, f/1.8, gyllene timmesbelysning, filmisk färggradering, naturliga skuggor, realistiska material och ett vertikalt förhållande på 9:16. Källan beskriver dessa som önskade bildegenskaper i prompten, inte som resultat av en oberoende kameratest eller verifierad produktfunktion.\n\nKällbeskrivningen nämner ChatGPT i titel och taggar samt flera andra sökfraser, men specificerar inte en namngiven modellversion, releasedatum eller mätbara kvalitetsresultat. Därför kan innehållet endast beläggas som ett exempel på AI-styrd porträttredigering med en detaljerad textprompt.",
+    "en": {
+      "ttl": "Kajal Tech demonstrates AI portrait editing with preserved identity",
+      "sum": "Kajal Tech shares a prompt for AI-based portrait editing that uses an uploaded photo as a face reference. The prompt instructs the image model to preserve facial features, hairstyle, skin tone, expression and identity while placing the subject in a new fashion-portrait setting.",
+      "full": "The channel Kajal Tech presents an AI-based method for reworking an existing portrait with a detailed prompt. The workflow starts with an uploaded photo used as a face reference, while the image model is instructed to preserve the person’s exact facial features, hairstyle, skin tone, expression and identity.\n\nThe prompt then describes a new composition: the subject should sit on a modern black stone bench in front of a textured concrete wall and green bushes. The original pose is to remain, with the subject looking down, smiling gently, touching her hair with one hand and resting the other on the saree.\n\nClothing and visual style are also specified in detail. The requested result features a deep violet satin silk saree with a silver scalloped border, a matching black blouse, long black hair, minimal makeup and subtle silver earrings. The prompt further asks for a fashion-editorial look with realistic fabric texture, shallow depth of field, soft background bokeh, HDR, sharp focus and a 9:16 aspect ratio.\n\nThe description therefore primarily covers prompt-based AI portrait editing, combining identity preservation with changes to the environment, clothing and visual presentation. Kajal Tech’s published material is the basis for these details; no independent testing or verification of the result is provided.",
+      "deep": "The core technique described is to separate identity-preservation instructions from the visual properties of the new scene. The face reference is intended to guide the subject’s appearance, while the text specifies the pose, environment, clothing, lighting and image style.\n\nThe prompt also includes concrete photographic parameters: 85mm, f/1.8, golden-hour lighting, cinematic color grading, natural shadows, realistic materials and a vertical 9:16 format. The source presents these as requested prompt attributes, not as the result of an independent camera test or a verified product capability.\n\nThe source description mentions ChatGPT in the title and tags and includes several other search phrases, but it does not identify a named model version, release date or measurable quality results. The content can therefore only be supported as an example of AI-driven portrait editing using a detailed text prompt."
+    },
+    "cat": "foto",
+    "date": "2026-09-30T12:00:20Z",
+    "meta": "Kajal Tech · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=vhhGPVmcOm8",
+    "img": "https://i.ytimg.com/vi/vhhGPVmcOm8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Kajal Tech"
+    ],
+    "parts": [],
+    "views": 1947,
+    "buzz": 59,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "834283d66518156a8e8e0e24d7e2843ce6a2e870c231f868682739befab8030a",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "ChatGPT"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "0:43 Cinema Studio 1:17 ロケーション作成 3:39 AIキャストでキャラクター生成",
+    "evidenceIds": [
+      4,
+      5,
+      6
+    ],
+    "id": "akmjXYMoW3g",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Så skapar Junichi Yasuda AI-film med Higgsfield Cinema Studio",
+    "sum": "YouTube-kanalen Junichi Yasuda visar ett arbetsflöde i Higgsfield Cinema Studio för att skapa AI-film med konsekventa karaktärer och miljöer. Beskrivningen omfattar skapande av inspelningsplatser, generering av AI-skådespelare, karaktärsarbete i Coul Cinema och videogenerering.",
+    "full": "I videon visar Junichi Yasuda hur Higgsfield Cinema Studio kan användas i ett AI-baserat filmarbetsflöde. Videons titel lyfter särskilt fram målet att hålla både personer och platser konsekventa genom filmproduktionen.\n\nEnligt kanalens kapitel börjar arbetsflödet med att skapa en inspelningsmiljö. Därefter genereras karaktärer som AI-skådespelare, vilket placerar rollfigurerna som en central del av processen snarare än som ett separat bildexperiment.\n\nBeskrivningen anger också ett moment där karaktärer skapas med Coul Cinema. Efter karaktärsarbetet går processen vidare till videogenerering. Detaljerna visar därmed ett sammanhängande upplägg från miljö och rollfigurer till färdig AI-video.\n\nMaterialet räcker för att beskriva ett konkret AI-filmflöde, men innehåller inga uppgifter om resultatens kvalitet, tekniska begränsningar, kostnad, exportformat eller oberoende testning. Påståendena bör därför förstås som Junichi Yasudas presentation av verktygen och arbetsmetoden, inte som verifierade prestandaresultat.",
+    "deep": "Kanalens kapitel placerar Cinema Studio tidigt i videon, följt av lokationsskapande vid 1:17 och generering av AI-cast vid 3:39. Vid 5:38 nämns Coul Cinema för karaktärsskapande, och vid 6:33 börjar videogenereringen. Den angivna ordningen stöder ett produktionsflöde där miljöer och personer etableras innan själva videon skapas.\n\nVideon är publicerad av Junichi Yasuda och beskrivningen innehåller en Higgsfield-länk samt hashtaggar för AI-filmskapande, AI-bildgenerering och AI-video. Några specifika funktioner utöver konsekvens i personer och platser anges inte, och beskrivningen ger inte tillräckligt underlag för att bedöma hur konsekvensen uppnås eller hur väl den fungerar i praktiken.",
+    "en": {
+      "ttl": "How Junichi Yasuda creates AI films with Higgsfield Cinema Studio",
+      "sum": "The YouTube channel Junichi Yasuda presents an AI filmmaking workflow in Higgsfield Cinema Studio for creating consistent characters and locations. The description covers location creation, AI cast generation, character creation in Coul Cinema, and video generation.",
+      "full": "In the video, Junichi Yasuda demonstrates how Higgsfield Cinema Studio can be used in an AI-based filmmaking workflow. The title particularly emphasizes keeping both people and locations consistent throughout a film production.\n\nAccording to the channel’s chapters, the workflow begins by creating a location. It then moves to generating characters as AI actors, making the cast a central part of the process rather than a separate image experiment.\n\nThe description also includes a character-creation step using Coul Cinema. After the character work, the process moves on to video generation. The details therefore indicate a connected workflow from locations and characters to finished AI video.\n\nThe source is sufficient to describe a concrete AI filmmaking workflow, but it provides no information about output quality, technical limitations, pricing, export formats, or independent testing. The claims should therefore be understood as Junichi Yasuda’s presentation of the tools and method, not as independently verified performance results.",
+      "deep": "The channel’s chapters place Cinema Studio near the beginning of the video, followed by location creation at 1:17 and AI cast generation at 3:39. Coul Cinema is mentioned for character creation at 5:38, and video generation begins at 6:33. This order supports a production workflow in which locations and people are established before the video is created.\n\nThe video was published by Junichi Yasuda, and the description includes a Higgsfield link and hashtags for AI filmmaking, AI image generation, and AI video. No specific capabilities beyond consistency in people and locations are stated, so the description does not support an assessment of how that consistency is achieved or how well it works in practice."
+    },
+    "cat": "film",
+    "date": "2026-09-30T10:00:21Z",
+    "meta": "Junichi Yasuda · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=akmjXYMoW3g",
+    "img": "https://i.ytimg.com/vi/akmjXYMoW3g/hqdefault.jpg",
+    "plat": "Higgsfield",
+    "platformIds": [
+      "higgsfield"
+    ],
+    "chans": [
+      "Junichi Yasuda"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "オープニング"
+      },
+      {
+        "t": 43,
+        "l": "Cinema Studio"
+      },
+      {
+        "t": 77,
+        "l": "ロケーション作成"
+      },
+      {
+        "t": 219,
+        "l": "AIキャストでキャラクター生成"
+      },
+      {
+        "t": 338,
+        "l": "Coul Cinemaでキャラクター作成"
+      },
+      {
+        "t": 393,
+        "l": "映像の生成"
+      },
+      {
+        "t": 574,
+        "l": "エンディング"
+      }
+    ],
+    "views": 238,
+    "buzz": 49,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "d654422f606b0317c18acff905fa072e058d7f8166dd9ce5052da1cd4a761bb0",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Coul Cinema"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Looking for a complete playground ai tutorial to level up your designs? In this deep-dive playground ai review, we explore how to use this powerful",
     "evidenceIds": [
       1,
@@ -118,6 +328,132 @@
   },
   {
     "editorialStatus": "approved",
+    "aiEvidence": "✨ Step into the viral Times Square photo editing trend! Transform your photos into stunning New York City moments with vibrant lights, iconic streets, and",
+    "evidenceIds": [
+      1,
+      2,
+      5
+    ],
+    "id": "tN-0Gzj6i2Q",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Magic AI Trends visar AI-redigering för Times Square-bilder med Nano Banana",
+    "sum": "Magic AI Trends beskriver ett arbetsflöde där Nano Banana används i en app för att omvandla foton till realistiska, filmiska New York-miljöer med Times Square-inspirerad belysning och stadskänsla.",
+    "full": "Magic AI Trends lyfter fram en trend för AI-redigering av foton med Times Square som motiv. Enligt kanalens beskrivning kan användare omvandla befintliga bilder till scener som föreställer New York med starka ljus, ikoniska gatumiljöer och en stiliserad urban känsla.\n\nArbetsflödet använder Nano Banana AI-modellen i kanalens nya app. Magic AI Trends beskriver resultatet som realistiska och filmiska stadsomvandlingar, men uppgifterna bygger enbart på kanalens presentation och inte på ett oberoende test.\n\nKanalen riktar användningen till kreativa foton, resebilder, profilbilder och virala transformationsformat. Beskrivningen nämner särskilt möjligheten att skapa Times Square-inspirerade bilder, placera en persons utseende i ikoniska New York-miljöer och göra stiliserade AI-transformationer.\n\nBeskrivningen hänvisar också till ett arbetsflöde för Gemini-bildredigering, men specificerar inte vilka redigeringssteg, inmatningar eller inställningar som används. Den anger inte heller någon produktlansering eller något releasedatum för Nano Banana.",
+    "deep": "Det centrala AI-elementet är användningen av Nano Banana för bildtransformationer snarare än traditionell fotografering eller ljussättning. Den angivna användningen omfattar att föra över personbilder till Times Square-liknande stadsmiljöer och att behålla ett fokus på mode, profilbilder och sociala mediers transformationsformat.\n\nMagic AI Trends uppger att modellen finns inbyggd i kanalens nya app och marknadsför appen som ett sätt att skapa Times Square-inspirerade foton och prova Nano Banana-modellen. Källan ger dock inga verifierbara uppgifter om modellens tekniska kapacitet, bildkvalitet, begränsningar, pris eller tillgänglighet utöver denna beskrivning.",
+    "en": {
+      "ttl": "Magic AI Trends presents AI editing for Times Square photos with Nano Banana",
+      "sum": "Magic AI Trends describes a workflow using Nano Banana in an app to transform photos into realistic, cinematic New York scenes with Times Square-inspired lighting and an urban style.",
+      "full": "Magic AI Trends highlights an AI photo-editing trend centered on Times Square. According to the channel’s description, users can transform existing images into New York-inspired scenes with vibrant lights, iconic streets and a stylized city atmosphere.\n\nThe workflow uses the Nano Banana AI model inside the channel’s new app. Magic AI Trends describes the results as realistic and cinematic city transformations, but these claims come only from the channel’s presentation and not from an independent test.\n\nThe channel presents the workflow for creative photos, travel images, profile photos and viral transformation formats. The description specifically mentions creating Times Square-inspired images, placing a person’s appearance in iconic New York scenes and making stylish AI transformations.\n\nThe description also refers to a Gemini photo-editing workflow, but does not specify the editing steps, inputs or settings. It does not provide a product launch date or release date for Nano Banana.",
+      "deep": "The main AI element is the use of Nano Banana for image transformation rather than conventional photography or lighting. The stated use cases include moving portrait images into Times Square-like city environments while targeting fashion, profile-photo and social-media transformation formats.\n\nMagic AI Trends says the model is built into its new app and promotes the app as a way to create Times Square-inspired photos and try the Nano Banana model. The source provides no verifiable information about the model’s technical capabilities, image quality, limitations, pricing or availability beyond this description."
+    },
+    "cat": "foto",
+    "date": "2026-09-30T03:58:23Z",
+    "meta": "Magic AI Trends · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=tN-0Gzj6i2Q",
+    "img": "https://i.ytimg.com/vi/tN-0Gzj6i2Q/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Magic AI Trends"
+    ],
+    "parts": [],
+    "views": 8,
+    "buzz": 31,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1f80cc3b49b325cd34c98b5354de84bbb042ea50738c32e2b677aba65d31db72",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "OpenAI DevDay 2026 just dropped a LOT: Dots (always-on agents), ChatGPT Space, GPT-6.1 Sol, Ultrafast, the Decisions API, the Agents API and Codex fully in",
+    "evidenceIds": [
+      1,
+      7,
+      8
+    ],
+    "id": "NQ4Aoe8wTC0",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "OpenAI visar GPT-6.1 Sol som filmskapare i DevDay 2026-reaktion",
+    "sum": "MattVidPro beskriver GPT-6.1 Sol, Ultrafast och flera nya OpenAI-funktioner efter DevDay 2026. I kanalens praktiska genomgång används GPT-6.1 Sol i Work mode för att skapa en 60 sekunder lång VHS/CRT-film från en enda prompt.",
+    "full": "MattVidPro rapporterar att OpenAI DevDay 2026 innehöll flera nya AI-funktioner, däribland Dots, ChatGPT Space, GPT-6.1 Sol, Ultrafast, Decisions API, Agents API och Codex i molnet. Den mest konkreta kreativa demonstrationen i beskrivningen gäller GPT-6.1 Sol i Work mode, där modellen enligt kanalen bygger en komplett 60 sekunder lång VHS/CRT-film från en enda prompt.\n\nKanalen beskriver GPT-6.1 Sol som en modell med intelligens nära GPT-6 Astra, men till en femtedel av priset. Den angivna prissättningen är 2 dollar per inmatning, 0,10 dollar för cachad inmatning och 10 dollar per utmatning. Beskrivningen specificerar inte hur filmen produceras tekniskt eller vilka mellanliggande steg som ingår, så resultatet bör förstås som MattVidPros hands-on-demonstration snarare än ett oberoende test.\n\nEn annan nyhet är Ultrafast, som enligt MattVidPro ska vara åtta gånger snabbare och nå upp till 300 token per sekund. Beskrivningen nämner också Dots som alltid aktiva agenter, ChatGPT Space som samlar sidor, filer, teammedlemmar och agenter på en plats samt Decisions API och Agents API med datoranvändning.\n\nVideon placerar den kreativa demonstrationen i ett bredare OpenAI-arbetsflöde. Codex ska enligt beskrivningen finnas helt i molnet, och Codex Security Cloud nämns som ytterligare en uppdatering. MattVidPro tar dessutom upp en förändring av Pro-planen och att Claude Sonnet 5.5 lanserades samma dag, men dessa punkter är sammanhang kring DevDay-reaktionen och inte själva filmarbetsflödets huvudfokus.",
+    "deep": "Den angivna arbetsprocessen består av att MattVidPro först reagerar på DevDay-nyheterna och därefter testar GPT-6.1 Sol praktiskt i Work mode. Kanalens beskrivning säger uttryckligen att en enda prompt används för att skapa en fullständig 60 sekunder lång VHS/CRT-film. Den ger däremot inga detaljer om promptens formulering, bildspråkets styrning, ljud, klippning, exportformat eller om filmen kräver mänsklig efterbearbetning.\n\nTillgången till Dots anges för Pro, Business Premium och Enterprise, men inte för Plus enligt beskrivningen. ChatGPT Space beskrivs som en gemensam miljö för sidor, filer, teammedlemmar och agenter. Agents API ska ha datoranvändning, medan Decisions API nämns utan närmare funktionsbeskrivning i det tillgängliga källmaterialet.\n\nPris- och hastighetsuppgifterna kommer från kanalens publicerarbeskrivning: GPT-6.1 Sol anges till 2 dollar per inmatning, 0,10 dollar för cachad inmatning och 10 dollar per utmatning, medan Ultrafast anges vara åtta gånger snabbare med upp till 300 token per sekund. Inga oberoende mätningar eller verifieringar finns i materialet.",
+    "en": {
+      "ttl": "OpenAI presents GPT-6.1 Sol as a filmmaker in a DevDay 2026 reaction",
+      "sum": "MattVidPro describes GPT-6.1 Sol, Ultrafast and several new OpenAI features after DevDay 2026. In the channel's hands-on demonstration, GPT-6.1 Sol uses Work mode to create a 60-second VHS/CRT film from a single prompt.",
+      "full": "MattVidPro reports that OpenAI DevDay 2026 introduced several AI features, including Dots, ChatGPT Space, GPT-6.1 Sol, Ultrafast, Decisions API, Agents API and Codex in the cloud. The most concrete creative demonstration in the description concerns GPT-6.1 Sol in Work mode, where the model reportedly builds a complete 60-second VHS/CRT film from a single prompt.\n\nThe channel describes GPT-6.1 Sol as offering intelligence close to GPT-6 Astra at one-fifth the price. The listed pricing is $2 per input, $0.10 for cached input and $10 per output. The description does not specify the technical production process or any intermediate steps, so this should be understood as MattVidPro's hands-on demonstration rather than an independent test.\n\nAnother announcement is Ultrafast, which MattVidPro says is eight times faster and can reach up to 300 tokens per second. The description also mentions Dots as always-on agents, ChatGPT Space as a place combining pages, files, teammates and agents, and Decisions API and Agents API with computer use.\n\nThe video places the creative demonstration within a broader OpenAI workflow. Codex is described as being fully in the cloud, and Codex Security Cloud is also mentioned. MattVidPro additionally discusses a change to the Pro plan and Claude Sonnet 5.5 launching the same day, but these points provide context for the DevDay reaction rather than forming the main focus of the film workflow.",
+      "deep": "The stated workflow consists of MattVidPro first reacting to the DevDay announcements and then testing GPT-6.1 Sol hands-on in Work mode. The channel's description explicitly says that a single prompt is used to create a full 60-second VHS/CRT film. It does not provide the prompt wording, details about controlling the visual style, audio, editing, export format or whether human post-production is required.\n\nAccess to Dots is listed for Pro, Business Premium and Enterprise, but not Plus according to the description. ChatGPT Space is described as a shared environment for pages, files, teammates and agents. Agents API is said to include computer use, while Decisions API is mentioned without further functional detail in the available source material.\n\nThe pricing and speed figures come from the channel's publisher description: GPT-6.1 Sol is listed at $2 per input, $0.10 for cached input and $10 per output, while Ultrafast is described as eight times faster with up to 300 tokens per second. No independent measurements or verification are provided in the source."
+    },
+    "cat": "film",
+    "date": "2026-09-30T00:00:56Z",
+    "meta": "MattVidPro · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=NQ4Aoe8wTC0",
+    "img": "https://i.ytimg.com/vi/NQ4Aoe8wTC0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "MattVidPro"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "DevDay 2026 goes live: Dots"
+      },
+      {
+        "t": 66,
+        "l": "ChatGPT Space"
+      },
+      {
+        "t": 117,
+        "l": "GPT-6.1 Sol and Ultrafast"
+      },
+      {
+        "t": 178,
+        "l": "Decisions API, Codex in the cloud and Agents API"
+      },
+      {
+        "t": 297,
+        "l": "Viktor: from viewer comments to a filming plan"
+      },
+      {
+        "t": 400,
+        "l": "Hands-on: GPT-6.1 Sol makes a 60-second VHS film"
+      },
+      {
+        "t": 682,
+        "l": "Decisions API, Codex updates and the Pro plan change"
+      },
+      {
+        "t": 797,
+        "l": "Sonnet 5.5 and final thoughts"
+      }
+    ],
+    "views": 7938,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "61a30cd68637c6476ba8191aa527d9262ac33045436bd26846450c0e9bd8c551",
+    "trusted": true,
+    "sourceId": "mattvidpro",
+    "newPlatforms": [
+      "GPT-6.1 Sol",
+      "Ultrafast",
+      "Dots",
+      "ChatGPT Space",
+      "Decisions API",
+      "Agents API",
+      "Codex",
+      "Codex Security Cloud"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "2027: the cut disappears and editing becomes a conversation. 2028: the first generated feature wins its box office weekend, and video stops working as evidence.",
     "evidenceIds": [
       4,
@@ -205,6 +541,93 @@
     "newPlatforms": [
       "Kling 4.0",
       "Kling 4.0 Flash"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Agentic filmmaking often has hidden \"agentic thinking\" costs that eat up your credits. What if you could see (and approve) your actual spend in real",
+    "evidenceIds": [
+      1,
+      2,
+      15
+    ],
+    "id": "LP7deVI4DPY",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "fal Agent låter AI-filmskapande följa en fast budget",
+    "sum": "AI Video School beskriver hur fal Agent kan styra ett filmprojekt inom en angiven budget, med modellval, ljudreferenser och automatisk FFmpeg-sammansättning. I ett sci-fi-projekt använde skaparen en budget på 50 dollar och kunde följa samt godkänna den faktiska kostnaden i realtid.",
+    "full": "AI Video School beskriver fal Agent som ett agentbaserat arbetsflöde för filmskapande där användaren kan kombinera kreativ regi med kostnadskontroll. I kanalens demonstration fick fal Agent ett manus och en strikt budget på 50 dollar för att regissera en sci-fi-film. Enligt beskrivningen hanterade agenten modellval, ljudreferenser och automatisk sammansättning med FFmpeg inom den angivna budgeten.\n\nArbetsflödet fokuserar därmed inte enbart på att skriva promptar. Skaparen beskriver i stället en process där användaren kan styra scener, följa utgifterna i realtid och godkänna den faktiska kostnaden i dollar. Beskrivningen framhåller att även agentens interna resursförbrukning kan påverka krediterna, vilket gör budgetöverblick till en central del av arbetsflödet.\n\nEnligt kanalens kapitel behandlar demonstrationen bland annat strategier för generering och modellval, röstsignaturer, ljudutvinning, kontinuitet och kedjning av bildrutor. Den tar också upp röstbaserad regi, där skaparen talar med fal Agent för att styra en scen, samt automatisk redigering med sammansättning och klippdetektering.\n\nEfter testet med 50 dollars begränsning beskriver AI Video School en jämförelse utan budgettak. Där användes dyrare modeller, bland annat Seedance 2.5 och GPT Image 2. Beskrivningen ger däremot inga oberoende mätningar eller fullständiga resultatdata, så jämförelsen bör förstås som kanalens egen demonstration snarare än ett självständigt test.",
+    "deep": "AI Video School uppger att fal Agent fick både manus och budgetramar och därefter skötte flera delar av produktionskedjan. De nämnda funktionerna omfattar val av modeller, hantering av ljudreferenser och automatisk FFmpeg-sammansättning. Kanalen beskriver också att användaren behöll kontrollen över både kreativ regi och utgifter.\n\nDet angivna scenariot är en sci-fi-film med en budget på 50 dollar. Efter budgettestet ändrades upplägget till obegränsad budget för att jämföra dyrare modeller, där Seedance 2.5 och GPT Image 2 uttryckligen nämns. Källbeskrivningen anger inte exakt vilka scener, kostnader per modell eller slutliga kvalitetsresultat jämförelsen gav. fal Agent och GPT Image 2 finns inte som exakta poster i det tillhandahållna registret; GPT Image 2 läggs därför inte till som en registrerad plattform eller ny plattform eftersom beskrivningen inte anger en fullständig, entydig produktversion enligt registret.",
+    "en": {
+      "ttl": "fal Agent lets AI filmmaking follow a fixed budget",
+      "sum": "AI Video School describes how fal Agent can manage a film project within a defined budget, handling model selection, audio references and automated FFmpeg assembly. In a sci-fi project, the creator used a 50-dollar budget and could monitor and approve actual spending in real time.",
+      "full": "AI Video School describes fal Agent as an agentic filmmaking workflow that combines creative direction with spending control. In the channel's demonstration, fal Agent received a script and a strict 50-dollar budget to direct a sci-fi film. According to the description, the agent handled model selection, audio references and automated FFmpeg assembly within the specified budget.\n\nThe workflow is therefore presented as more than prompt writing. The creator describes a process in which the user can direct scenes, monitor spending in real time and approve the actual cost in dollars. The description emphasizes that the agent's internal resource use can also consume credits, making budget visibility a central part of the workflow.\n\nThe channel's chapters cover generation strategy and model selection, voice signatures, audio extraction, continuity and shot chaining. They also cover voice directing, where the creator talks to fal Agent to direct a scene, as well as automated editing with assembly and cut detection.\n\nAfter the 50-dollar test, AI Video School describes a comparison without budget limits. More expensive models, including Seedance 2.5 and GPT Image 2, were used. The description does not provide independent measurements or complete result data, so the comparison should be understood as the channel's own demonstration rather than an independent test.",
+      "deep": "AI Video School says fal Agent received both the script and budget constraints, then managed several parts of the production pipeline. The named functions include model selection, audio-reference handling and automated FFmpeg assembly. The channel also says the user retained control of both creative direction and spending.\n\nThe stated scenario is a sci-fi film with a 50-dollar budget. After the budget test, the setup changed to an unlimited budget to compare more expensive models, explicitly including Seedance 2.5 and GPT Image 2. The source description does not state the exact scenes, per-model costs or final quality results. fal Agent and GPT Image 2 do not appear as exact entries in the supplied registry; GPT Image 2 is therefore not added as a registered or new platform because the description does not provide a complete, unambiguous product version matching the registry."
+    },
+    "cat": "film",
+    "date": "2026-09-29T14:00:16Z",
+    "meta": "AI Video School · 2026-09-29",
+    "url": "https://www.youtube.com/watch?v=LP7deVI4DPY",
+    "img": "https://i.ytimg.com/vi/LP7deVI4DPY/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Video School"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "fal Agent for AI Filmmaking (Prompting vs. Directing)"
+      },
+      {
+        "t": 66,
+        "l": "Setting Up the $50 Budget & Script Constraints"
+      },
+      {
+        "t": 225,
+        "l": "Generation Strategy & Model Selection"
+      },
+      {
+        "t": 398,
+        "l": "Voice Signatures & Audio Extraction"
+      },
+      {
+        "t": 522,
+        "l": "Managing Continuity & Shot Chaining"
+      },
+      {
+        "t": 598,
+        "l": "Voice Directing (Talking to fal Agent to Direct the Scene)"
+      },
+      {
+        "t": 713,
+        "l": "Automated Assembly Editing & Cut Detection"
+      },
+      {
+        "t": 791,
+        "l": "$50 Budget Breakdown & Results"
+      },
+      {
+        "t": 826,
+        "l": "Testing Without Budget Limits (Seedance 2.5)"
+      },
+      {
+        "t": 1067,
+        "l": "Final Scene: Space Mining Conspiracy"
+      }
+    ],
+    "views": 4678,
+    "buzz": 64,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a03503590793bf876e4daec9e5e136e281012ed6e45366b56dbace09eb053882",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "fal Agent",
+      "Seedance 2.5",
+      "GPT Image 2"
     ]
   },
   {
@@ -382,6 +805,50 @@
     "sourceCheckedAt": "2026-09-29T19:37:41.112Z",
     "sourceBasis": "publisher-description",
     "sourceHash": "e900e01a2040a61cf181c05f0d055c4f4984a55a8839bea30c3c55c104e0bda1",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Higgsfield is an AI platform designed for creators, bringing together a wide range of AI tools for image, video, and audio generation, video production, and",
+    "evidenceIds": [
+      11,
+      12,
+      13
+    ],
+    "id": "VC5lyuWZfzM",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Higgsfield visar AI-videor med fri kamerakontroll i Cinema Studio",
+    "sum": "Kanalen ティップスマッシュ / TipSmash visar grunderna i Higgsfields Cinema Studio, ett AI-arbetsflöde för att skapa video och styra kamerarörelser mer precist. Plattformen samlar även verktyg för bild-, video- och ljudgenerering samt funktioner för karaktärskontinuitet och reklamproduktion.",
+    "full": "Kanalen ティップスマッシュ / TipSmash beskriver Higgsfield som en AI-plattform för kreatörer som samlar verktyg för bild-, video- och ljudgenerering, videoproduktion och reklammaterial i ett gemensamt arbetsutrymme. Videons huvudfokus är Cinema Studio, där skapare kan arbeta med AI-genererade videor och kontrollera kamerans rörelser.\n\nEnligt kanalens beskrivning är Cinema Studio utformat för mer precis styrning av kamerarörelser. TipSmash säger att videon går igenom grunderna i hur funktionen används, men beskrivningen innehåller inga uppgifter om ett specifikt projekt, en fullständig produktionsprocess eller resultat från ett självständigt test.\n\nCinema Studio ingår i ett större Higgsfield-ekosystem. Plattformen erbjuder enligt beskrivningen bild- och videogenerering med flera AI-modeller samt verktyg för visuell produktion. Soul ID används för att bevara karaktärskontinuitet, medan Marketing Studio är inriktat på att skapa reklammaterial mer effektivt. Higgsfield uppges också ha Supercomputer och MCP för att delegera mer komplexa produktionsuppgifter till AI.\n\nFör kreatörer innebär det beskrivna arbetsflödet att kamerakontroll står i centrum för videogenereringen, medan andra funktioner täcker återkommande behov som konsekventa karaktärer och reklamproduktion. Artikeln bygger enbart på kanalens publicerade beskrivning; den fastställer därför inte bildkvalitet, precision eller prestanda genom ett oberoende test.",
+    "deep": "TipSmashs beskrivning placerar Cinema Studio i ett samlat AI-arbetsflöde snarare än som ett fristående kameraverktyg. Higgsfield uppges kombinera flera AI-modeller för bild och video med ljudgenerering och funktioner för videoproduktion och reklam. Den konkreta utvecklingen som lyfts fram i videon är möjligheten att styra kamerarörelser i AI-genererat material.\n\nBeskrivningen nämner tre kompletterande delar av plattformen: Soul ID för att upprätthålla karaktärskontinuitet, Marketing Studio för reklamrelaterade skapandeuppgifter samt Supercomputer och MCP för att överlåta komplexa produktionsuppgifter till AI. Det framgår däremot inte vilka modeller eller tekniska metoder som används bakom funktionerna, vilka exportformat som stöds eller hur Cinema Studio jämförs med andra videotjänster.",
+    "en": {
+      "ttl": "Higgsfield demonstrates AI video with free camera control in Cinema Studio",
+      "sum": "The channel ティップスマッシュ / TipSmash presents the basics of Higgsfield’s Cinema Studio, an AI workflow for creating video and controlling camera movement more precisely. The platform also combines tools for image, video and audio generation with features for character consistency and advertising production.",
+      "full": "The channel ティップスマッシュ / TipSmash describes Higgsfield as an AI platform for creators that combines tools for image, video and audio generation, video production and advertising creatives in a single workspace. The video focuses on Cinema Studio, where creators can work with AI-generated videos and control camera movement.\n\nAccording to the channel’s description, Cinema Studio is designed for more precise camera-movement control. TipSmash says the video covers the basics of using the feature, but the description gives no details about a specific project, a complete production workflow or the results of an independent test.\n\nCinema Studio is part of a broader Higgsfield ecosystem. The platform is described as offering image and video generation with multiple AI models, along with visual-production tools. Soul ID is used to maintain character consistency, while Marketing Studio is aimed at creating advertising creatives more efficiently. Higgsfield is also said to include Supercomputer and MCP for delegating more complex production tasks to AI.\n\nFor creators, the described workflow places camera control at the centre of video generation, while the other features address recurring needs such as consistent characters and advertising production. This article relies solely on the channel’s published description and therefore does not establish image quality, precision or performance through an independent test.",
+      "deep": "TipSmash’s description positions Cinema Studio as part of an integrated AI workflow rather than as a standalone camera tool. Higgsfield is described as combining multiple AI models for image and video with audio generation and features for video production and advertising. The specific development highlighted by the video is the ability to control camera movement in AI-generated material.\n\nThe description names three complementary parts of the platform: Soul ID for maintaining character consistency, Marketing Studio for advertising-related creative tasks, and Supercomputer and MCP for handing complex production tasks over to AI. It does not state which models or technical methods power these features, which export formats are supported, or how Cinema Studio compares with other video services."
+    },
+    "cat": "film",
+    "date": "2026-09-29T09:00:21Z",
+    "meta": "ティップスマッシュ / TipSmash【図解で学ぶAfterEffectsのTips】 · 2026-09-29",
+    "url": "https://www.youtube.com/watch?v=VC5lyuWZfzM",
+    "img": "https://i.ytimg.com/vi/VC5lyuWZfzM/hqdefault.jpg",
+    "plat": "Higgsfield",
+    "platformIds": [
+      "higgsfield"
+    ],
+    "chans": [
+      "ティップスマッシュ / TipSmash【図解で学ぶAfterEffectsのTips】"
+    ],
+    "parts": [],
+    "views": 565,
+    "buzz": 53,
+    "sourceCheckedAt": "2026-09-30T19:37:01.100Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1ab51178a7293293a7b95531129ec5352474d99c8457e92aa9f74744574307fb",
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []

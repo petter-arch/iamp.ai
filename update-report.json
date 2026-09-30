@@ -1,59 +1,169 @@
 {
-  "startedAt": "2026-09-30T11:11:53.377Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-09-30T19:37:01.100Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "found": 4
+    }
+  },
+  "selection": {
+    "fetched": 130,
+    "relevant": 36,
+    "supported": 29
+  },
+  "rejected": [
     {
-      "platform": "heygen",
-      "field": "sub",
-      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained\",\"quote\":\"Credits can be used for video generation, translation and asset creation across HeyGen.\",\"retrieved\":[]}"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained\",\"quote\":\"Avatar V (Photo Look & Video Look) | 1 minute = 48 credits\",\"retrieved\":[]}"
+      "video": "PCvnuGFasa8",
+      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "price",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "gzLaOSggSIg",
+      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "iFtSZfu50e8",
+      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "OBZDYDFay9o",
+      "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "bLP1UeCMDXc",
+      "title": "Qwen Image 2.1 Is Here! Local AI Image Generation Is Getting REALLY Good",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "QX8jKDqO1mQ",
+      "title": "Hi3D: How To Use AI For 3D Creation! Why Every 3D Artist Needs To Try this Now",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        5,
+        7
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "084IvH5k0E8",
+      "title": "The Best AI Workflow for a 2D + Live Action Film",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "kling-3-0",
-      "field": "sub",
-      "message": "Source outside official domain"
+      "video": "AFqtMLqT7yE",
+      "title": "DevDay Was Bigger Than You Think (The New OpenAI)",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Smart Mesh 2.0",
-      "message": "Official source unavailable"
+      "video": "uKgcxH46Ca4",
+      "title": "The Ultimate 100 Photoshop Tricks: 10 Years of PiXimperfect",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "6QC6nOotxrU",
+      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qS-r0bgJjzA",
+      "title": "The AI Video Boom: Why Filmmaking Will Never Be the Same",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xiTzwUKWQhU",
+      "title": "AI 3D model generator: a loot chest made with Meshy AI",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        10,
+        9
+      ]
+    },
+    {
+      "video": "AFLBUUU3_es",
+      "title": "I Tested Every AI 3D Model in FLORA AI (Here's What Each One Is For)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "video": "pHNretO3KAQ",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "video": "RN4YcskUMPk",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 8
 }
