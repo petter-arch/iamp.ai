@@ -1,6 +1,220 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "AI video models have a dirty secret: they copy exactly what they are shown. Pass them a basic, unpolished 3D layout as an environment reference,",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "88eu410QAas",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "RevaultAI presenterar gratis arbetsflöde för konsekventa AI-videomiljöer",
+    "sum": "RevaultAI beskriver Revault AI v24 och den webbläsarbaserade Rehearsal Soundstage, där filmskapare kan bygga miljöer i rätt skala, placera kameror och skapa ett lokalt transformerat referensfoto innan videogenerering.",
+    "full": "Kanalen RevaultAI beskriver Revault AI v24 som ett arbetsflöde för att minska problemet med inkonsekventa bakgrunder i AI-genererad video. Enligt kanalens beskrivning kan videogeneratorer återge det som visas för dem på ett missvisande sätt: en enkel och obearbetad 3D-layout som miljöreferens kan därför leda till bilder med leksaksliknande personer och plastiga hus.\n\nSom lösning lyfter RevaultAI fram den webbläsarbaserade Rehearsal Soundstage. Där ska användaren kunna bygga och klä scenografiska miljöer i rätt skala, placera kameror och köra en lokal bildtransformering. Resultatet är enligt kanalen ett arkitektoniskt exakt platsfoto som skapas innan några videogenereringskrediter används.\n\nBeskrivningen presenterar också Revault AI som en samlad programvarumiljö för berättande filmproduktion. Enligt RevaultAI ingår 15 verktyg för planering, kontinuitet och diagnostik, och verktygen uppges vara kostnadsfria utan krav på inloggning eller konto. Arbetsflödet är därmed inriktat på att kontrollera miljö och berättelse före själva videogenereringen, snarare än att låta textbaserad slump styra klippens utformning.",
+    "deep": "RevaultAI:s centrala påstående är att bakgrundskonsistens utgör en flaskhals i AI-video när modeller får svaga eller alltför enkla miljöreferenser. Den föreslagna processen börjar därför med en scenisk layout och en lokal bildtransformering som ska ge en mer färdig platsreferens före användning av videogenereringskrediter.\n\nRehearsal Soundstage beskrivs som webbläsarbaserad och omfattar tre konkreta moment: scenografi i verklig skala, kamerastyrning och skapande av ett platsfoto med lokal bildtransformering. RevaultAI kopplar dessa funktioner till arkitektonisk precision, men källbeskrivningen innehåller inga oberoende testresultat eller kvantitativa mått som verifierar resultatet.\n\nDen angivna kostnadsmodellen gäller enligt kanalen alla 15 planerings-, kontinuitets- och diagnostikverktyg, som ska vara gratis och tillgängliga utan konto eller inloggning. Beskrivningen nämner hashtaggarna KlingAI och Seedance, men anger inte versionsnummer eller någon specifik integration, så de kopplas inte till registrerade plattforms-ID:n här.",
+    "en": {
+      "ttl": "RevaultAI presents a free workflow for consistent AI video environments",
+      "sum": "RevaultAI describes Revault AI v24 and the browser-native Rehearsal Soundstage, where filmmakers can build environments at true scale, position cameras, and create a locally transformed reference photograph before video generation.",
+      "full": "The channel RevaultAI describes Revault AI v24 as a workflow intended to reduce inconsistent backgrounds in AI-generated video. According to the channel’s description, video generators can misleadingly reproduce what they are shown: using a basic, unpolished 3D layout as an environment reference can result in images with toy-like people and plastic-looking houses.\n\nAs a solution, RevaultAI highlights the browser-native Rehearsal Soundstage. It is described as allowing users to dress environments at true scale, position cameras, and run a local image transformation. The result is said by the channel to be an architecturally accurate location photograph created before any video-generation tokens are used.\n\nThe description also presents Revault AI as a unified software environment for narrative filmmaking. According to RevaultAI, it includes 15 tools for planning, continuity, and diagnostics, and the tools are described as free with no sign-in or account requirement. The workflow therefore focuses on controlling environment and narrative before video generation, rather than allowing text-based randomness to dictate the cuts.",
+      "deep": "RevaultAI’s central claim is that background consistency is a bottleneck in AI video when models receive weak or overly simple environment references. The proposed process therefore begins with a scene layout and a local image transformation intended to produce a more finished location reference before video-generation tokens are used.\n\nRehearsal Soundstage is described as browser-native and includes three specific steps: dressing sets at true scale, controlling cameras, and creating a location photograph through local image transformation. RevaultAI links these functions to architectural accuracy, but the source description provides no independent test results or quantitative measurements verifying that outcome.\n\nAccording to the channel, the stated free tier covers all 15 planning, continuity, and diagnostic tools, with no account or sign-in required. The description includes the hashtags KlingAI and Seedance, but gives no version numbers or specific integrations, so no registered platform IDs are assigned here."
+    },
+    "cat": "film",
+    "date": "2026-10-01T03:43:20Z",
+    "meta": "RevaultAI · 2026-10-01",
+    "url": "https://www.youtube.com/watch?v=88eu410QAas",
+    "img": "https://i.ytimg.com/vi/88eu410QAas/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "RevaultAI"
+    ],
+    "parts": [],
+    "views": 7,
+    "buzz": 31,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "480806a69b6a176087b0d02553809d9c6fef19ac92c67da0f9ded5e1f40ecb04",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Revault AI v24",
+      "Rehearsal Soundstage"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this tutorial, I’ll show you how to use Claude AI to create a custom 3D terrain/model and then import the generated OBJ file directly",
+    "evidenceIds": [
+      2,
+      6,
+      9
+    ],
+    "id": "K3HhSfoyJk0",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Prismavisuals visar AI-arbetsflöde från Claude AI till Prisma3D i mobilen",
+    "sum": "Prismavisuals beskriver ett mobilt arbetsflöde där Claude AI används för att skapa en anpassad 3D-terräng eller modell som exporteras som en OBJ-fil och importeras direkt i Prisma3D.",
+    "full": "Prismavisuals visar i en tutorial hur Claude AI kan användas tillsammans med Prisma3D för att skapa 3D-innehåll från en mobil enhet. Arbetsflödet börjar med att ett Prisma3D-projekt sparas, varefter projektfilen och en textur tillhandahålls Claude AI.\n\nDärefter skriver användaren en prompt för att generera en 3D-terräng. Enligt kanalens beskrivning skapar AI-modellen 3D-modellen, som sedan laddas ned som en OBJ-fil. Filen importeras direkt till Prisma3D, där den färdiga modellen och texturen kontrolleras.\n\nKanalen riktar sig särskilt till mobila 3D-artister och användare som arbetar med animation i Prisma3D. Det beskrivna användningsområdet är att skapa anpassade 3D-tillgångar snabbare genom att kombinera Claude AI:s modellgenerering med Prisma3D:s mobila projektmiljö.",
+    "deep": "Det centrala i Prismavisuals beskrivning är inte en fristående AI-modell för 3D, utan ett konkret arbetsflöde mellan Claude AI och Prisma3D. Källan anger att användaren förser Claude AI med en projektfil och en textur, formulerar en prompt för terrängen och därefter laddar ned resultatet som OBJ.\n\nImporten till Prisma3D sker enligt beskrivningen direkt efter nedladdningen. Källan nämner även en avslutande kontroll av modell och textur, men ger inga uppgifter om modellens kvalitet, geometrisk precision, kompatibilitet utöver OBJ-formatet, tidsbesparingar eller resultat från ett oberoende test. Beskrivningen specificerar inte heller vilken Claude-version som används.",
+    "en": {
+      "ttl": "Prismavisuals shows a mobile AI workflow from Claude AI to Prisma3D",
+      "sum": "Prismavisuals describes a mobile workflow in which Claude AI creates a custom 3D terrain or model that is exported as an OBJ file and imported directly into Prisma3D.",
+      "full": "Prismavisuals presents a tutorial on using Claude AI with Prisma3D to create 3D content from a mobile device. The workflow starts by saving a Prisma3D project, after which the project file and a texture are provided to Claude AI.\n\nThe user then writes a prompt to generate 3D terrain. According to the channel’s description, the AI generates the 3D model, which is downloaded as an OBJ file. The file is imported directly into Prisma3D, where the final model and texture are checked.\n\nThe channel specifically targets mobile 3D artists and people who use Prisma3D for animation. The described use case is creating custom 3D assets faster by combining Claude AI’s model generation with Prisma3D’s mobile project environment.",
+      "deep": "The central point in Prismavisuals’ description is not a standalone AI 3D model, but a concrete workflow between Claude AI and Prisma3D. The source says that the user provides Claude AI with a project file and a texture, writes a prompt for the terrain, and then downloads the result as an OBJ file.\n\nThe description says that the file is imported directly into Prisma3D after download. The source also mentions a final check of the model and texture, but gives no information about quality, geometric accuracy, compatibility beyond the OBJ format, time savings, or results from an independent test. It also does not specify which Claude version is used."
+    },
+    "cat": "3d",
+    "date": "2026-10-01T02:39:07Z",
+    "meta": "Prismavisuals · 2026-10-01",
+    "url": "https://www.youtube.com/watch?v=K3HhSfoyJk0",
+    "img": "https://i.ytimg.com/vi/K3HhSfoyJk0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Prismavisuals"
+    ],
+    "parts": [],
+    "views": 0,
+    "buzz": 20,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "5cf991e92b68f58069295aeb868d4700da6f340a04eb4318d8da0bdcdb8f9a44",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Claude AI",
+      "Prisma3D"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, we test all of the top AI Creative Agents against the work from a real AI artist to see how AI holds",
+    "evidenceIds": [
+      1,
+      2
+    ],
+    "id": "aVVxF88J2co",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI-agenter jämförs med en verklig AI-konstnär i kreativt test",
+    "sum": "Curious Refuge jämför AI-agenter med arbetet från en verklig AI-konstnär och undersöker ny AI-filmteknik som kan förändra kreativt arbete.",
+    "full": "Curious Refuge beskriver ett test där flera ledande AI-agenter ställs mot arbetet från en verklig AI-konstnär. Syftet är att undersöka hur AI står sig mot mänsklig kreativitet, med fokus på resultatet från de kreativa agenterna och konstnärens arbete.\n\nVideon tar också upp ny AI-filmteknik. Enligt kanalens beskrivning kan utvecklingen på sikt göra delar av dagens AI-kreativa arbete mindre nödvändiga. Beskrivningen anger dock inte vilka verktyg eller modeller som används, hur testet genomförs eller vilka kriterier som används för jämförelsen.\n\nDet innebär att videon främst presenteras som en jämförande genomgång av AI-agenter, mänsklig kreativitet och nya arbetsflöden inom AI-film. Curious Refuge står för testet och slutsatserna; texten innehåller ingen oberoende verifiering av resultaten.",
+    "deep": "Kanalens centrala fråga är om AI-agenter kan mäta sig med en mänsklig AI-konstnär i kreativt arbete. Beskrivningen specificerar inte agenternas namn, uppgifternas utformning, konstnärens metod eller resultatens kvalitet.\n\nDen andra delen gäller ny AI-filmteknik som enligt Curious Refuge kan påverka framtida kreativa arbetsflöden. Det finns inga tillräckliga uppgifter i källan för att beskriva funktioner, prestanda, lanseringsdatum eller praktiska användningsfall mer detaljerat.",
+    "en": {
+      "ttl": "AI agents compared with a real AI artist in a creative test",
+      "sum": "Curious Refuge compares AI agents with the work of a real AI artist and examines new AI filmmaking technology that could change creative work.",
+      "full": "Curious Refuge describes a test in which leading AI agents are compared with work from a real AI artist. The aim is to examine how AI performs against human creativity, focusing on the output of the creative agents and the artist’s work.\n\nThe video also covers new AI filmmaking technology. According to the channel’s description, this development could eventually make parts of current AI creative work less necessary. The description does not specify which tools or models are used, how the test is conducted, or which criteria are applied.\n\nThe video is therefore presented primarily as a comparison of AI agents, human creativity, and emerging AI filmmaking workflows. Curious Refuge is responsible for the test and its conclusions; the source does not provide independent verification of the results.",
+      "deep": "The channel’s central question is whether AI agents can compete with a human AI artist in creative work. The description does not identify the agents, explain the tasks, describe the artist’s method, or report the quality of the results.\n\nThe second section concerns new AI filmmaking technology that Curious Refuge says could affect future creative workflows. The source does not provide enough information to describe features, performance, release dates, or practical use cases in greater detail."
+    },
+    "cat": "film",
+    "date": "2026-09-30T21:33:06Z",
+    "meta": "Curious Refuge · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=aVVxF88J2co",
+    "img": "https://i.ytimg.com/vi/aVVxF88J2co/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Curious Refuge"
+    ],
+    "parts": [],
+    "views": 2985,
+    "buzz": 62,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "9a47ec3e1ac46b4724ddabc27f0a0fe4c3208824a01944b4496e114cc3364d4a",
+    "trusted": true,
+    "sourceId": "curiousrefuge",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "This video introduces a free, open-source AI model from China capable of generating unlimited AI images and performing image editing. Users can access the tool",
+    "evidenceIds": [
+      1,
+      2
+    ],
+    "id": "I1rYgVphKxE",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Gratis, öppen AI-modell för bildgenerering och redigering lanseras",
+    "sum": "Bobby Reyes presenterar en gratis, öppen AI-modell från Kina för obegränsad bildgenerering och AI-baserad bildredigering. Verktyget kan användas online eller installeras lokalt för bildskapande utan internetanslutning.",
+    "full": "I en video presenterar kanalen Bobby Reyes en gratis, öppen AI-modell från Kina med funktioner för både bildgenerering och bildredigering. Enligt beskrivningen kan användare skriva instruktioner online för att skapa nya bilder eller ladda upp befintliga bilder för AI-baserade ändringar.\n\nVerktyget kan dessutom installeras lokalt på en PC. Det gör det möjligt att generera bilder offline, utan att arbetsflödet behöver vara beroende av molntjänster eller betalda plattformar. Beskrivningen anger inte vilka operativsystem, maskinvarukrav eller installationssteg som stöds.\n\nBobby Reyes framhåller öppen källkod som en central del av verktygets upplägg. Den lokala användningen sägs ge kreatörer och hobbyanvändare större kontroll och bättre integritet, men beskrivningen innehåller inga oberoende tester, kvalitetsjämförelser eller prestandamätningar.",
+    "deep": "Beskrivningen pekar på två huvudsakliga arbetsflöden: ett webbaserat läge där användaren skriver instruktioner eller laddar upp material, samt en lokal installation för offlinegenerering. Den kombinerar alltså textbaserad bildskapning med redigering av befintliga bilder i samma verktyg.\n\nModellen namnges inte i det tillhandahållna materialet och kan därför inte kopplas till någon specifik plattform i registret. Det framgår inte heller när modellen släpptes, vilken licens som gäller, hur obegränsad användning definieras eller hur resultaten står sig mot andra AI-verktyg. Uppgifterna om kontroll och integritet återges som kanalens beskrivning, inte som resultat från en självständig granskning.",
+    "en": {
+      "ttl": "Free, open-source AI model launches for image generation and editing",
+      "sum": "Bobby Reyes presents a free, open-source AI model from China for unlimited image generation and AI-powered image editing. The tool can be used online or installed locally for offline image creation.",
+      "full": "In a video, the channel Bobby Reyes presents a free, open-source AI model from China with features for both image generation and image editing. According to the description, users can enter prompts online to create new images or upload existing images for AI-powered edits.\n\nThe tool can also be installed locally on a PC. This enables users to generate images offline without depending on cloud services or paid platforms. The description does not specify supported operating systems, hardware requirements, or installation steps.\n\nBobby Reyes highlights open source as a central part of the tool’s design. Local use is said to give creators and hobbyists more control and privacy, but the description contains no independent tests, quality comparisons, or performance measurements.",
+      "deep": "The description points to two main workflows: a web-based mode in which users enter prompts or upload material, and a local installation for offline generation. It therefore combines text-based image creation with editing of existing images in one tool.\n\nThe model is not named in the supplied material and cannot be matched to a specific platform in the registry. The description also does not state when the model was released, which license applies, how unlimited use is defined, or how its results compare with other AI tools. The claims about control and privacy are attributed to the channel’s description, not to an independent review."
+    },
+    "cat": "foto",
+    "date": "2026-09-30T21:32:09Z",
+    "meta": "Bobby Reyes · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=I1rYgVphKxE",
+    "img": "https://i.ytimg.com/vi/I1rYgVphKxE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Bobby Reyes"
+    ],
+    "parts": [],
+    "views": 71,
+    "buzz": 42,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "dd2ac0408de6f8e4782e016bac68d7194dbf55a5435d45293cee687222205ae7",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Generative AI is changing the way video can be created. In this episode of THE INVISIBLE FUTURE, we explore the rise of text-to-video AI and",
+    "evidenceIds": [
+      3,
+      9,
+      10
+    ],
+    "id": "6f1npCwQnDg",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Text-till-video flyttar filmens startpunkt från kamera till prompt",
+    "sum": "SELLINES NETWORK beskriver hur generativ AI förändrar videoskapande genom att omvandla textbeskrivningar till rörliga bilder, enskilda tagningar och sekvenser. Kanalen lyfter både nya kreativa möjligheter och frågor om autenticitet och förtroende.",
+    "full": "SELLINES NETWORK beskriver en utveckling där generativ AI förändrar hur video kan skapas. I stället för att alltid börja med kamera, skådespelare, inspelningsplatser, ljussättning och fysiska scenografier kan skaparen börja med en textprompt. Enligt kanalens beskrivning kan enkla beskrivningar omvandlas till rörliga bilder, medan en mening eller ett stycke kan ligga till grund för en scen eller en sekvens.\n\nI avsnittet THE INVISIBLE FUTURE utforskar kanalen text-till-video-AI och dess betydelse för filmskapande, reklam, underhållning och annan innehållsproduktion. Arbetsflödet som beskrivs omfattar att generera enskilda tagningar, experimentera med kamerarörelser och skapa filmiska världar som aldrig har existerat fysiskt. Det gör det möjligt att visualisera längre sekvenser före en kostsam produktion och att testa många visuella idéer tidigare i den kreativa processen.\n\nSELLINES NETWORK pekar också på användningsområden för annonsörer, filmskapare, utbildare, berättare och mindre kreatörer. Reklam skulle kunna göras mer personligt anpassad, medan små team kan experimentera med världar som tidigare kunde kräva hela studior. Kanalens beskrivning framställer därmed AI-video som mer än ett sätt att producera snabbare: prompten kan bli den nya utgångspunkten för visuellt berättande.\n\nSamtidigt framhäver kanalen en tydlig motsättning. När filmiska bilder blir enklare att generera kan de också bli mindre sällsynta och därmed mindre värdefulla. Om AI dessutom kan skapa realistiska händelser som aldrig har inträffat uppstår frågor om hur människor ska kunna lita på det de ser. Enligt SELLINES NETWORK handlar framtiden därför inte enbart om teknik, utan också om kreativitet, berättande, autenticitet och mänskliga beslut om vilka berättelser som är värda att visas.",
+    "deep": "Beskrivningen omfattar ett textbaserat arbetsflöde på flera nivåer: en enkel beskrivning kan bli rörligt material, en mening kan motsvara en scen och ett stycke kan ligga till grund för en sekvens. Kanalen nämner även experiment med kamerarörelser och produktion av hundratals visuella idéer, vilket förändrar förhållandet mellan idéarbete och genomförande.\n\nDe angivna användningsfallen är främst förvisualisering av hela sekvenser före dyr produktion, personlig anpassning inom reklam samt utforskning av tidigare svårtillgängliga filmiska världar för små kreatörer. Beskrivningen anger däremot inga specifika AI-modeller, produktversioner, mätresultat eller oberoende tester.\n\nSELLINES NETWORK formulerar också en begränsning: AI kan generera pixlar, rörelse och ljud, men beskrivningen tillskriver inte tekniken förmågan att själv avgöra varför en berättelse bör finnas. Den mänskliga bedömningen av innehåll och berättelsens värde presenteras därför som fortsatt central.",
+    "en": {
+      "ttl": "Text-to-video moves filmmaking’s starting point from camera to prompt",
+      "sum": "SELLINES NETWORK describes how generative AI is changing video creation by turning text descriptions into moving images, individual shots and sequences. The channel highlights both new creative possibilities and questions about authenticity and trust.",
+      "full": "SELLINES NETWORK describes a development in which generative AI changes how video can be created. Instead of always beginning with a camera, actors, locations, lighting and physical sets, creators can begin with a text prompt. According to the channel’s description, simple descriptions can become moving images, while a sentence or paragraph can form the basis of a scene or sequence.\n\nIn the episode THE INVISIBLE FUTURE, the channel explores text-to-video AI and its implications for filmmaking, advertising, entertainment and other forms of content creation. The described workflow includes generating individual shots, experimenting with camera movement and creating cinematic worlds that never physically existed. This makes it possible to visualize longer sequences before an expensive production and to test many visual ideas earlier in the creative process.\n\nSELLINES NETWORK also points to use cases for advertisers, filmmakers, educators, storytellers and smaller creators. Advertising could become more personalized, while small teams could experiment with worlds that previously might have required entire studios. The channel’s description therefore presents AI video as more than a way to produce faster: the prompt could become the new starting point for visual storytelling.\n\nAt the same time, the channel emphasizes a clear tension. When cinematic images become easier to generate, they may also become less rare and therefore less valuable. If AI can create realistic events that never happened, questions arise about how people can trust what they see. According to SELLINES NETWORK, the future is therefore not only about technology, but also about creativity, storytelling, authenticity and human decisions about which stories are worth watching.",
+      "deep": "The description outlines a text-based workflow at several levels: a simple description can become moving material, a sentence can correspond to a scene and a paragraph can form the basis of a sequence. The channel also mentions experimenting with camera movement and producing hundreds of visual ideas, changing the relationship between ideation and execution.\n\nThe stated use cases primarily include previsualizing entire sequences before expensive production, personalization in advertising and exploring cinematic worlds that were previously difficult for small creators to access. The description does not provide specific AI models, product versions, performance figures or independent tests.\n\nSELLINES NETWORK also describes a limitation: AI can generate pixels, motion and sound, but the description does not attribute to the technology the ability to decide why a story should exist. Human judgment about content and the value of a story is therefore presented as central."
+    },
+    "cat": "film",
+    "date": "2026-09-30T21:01:20Z",
+    "meta": "SELLINES NETWORK · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=6f1npCwQnDg",
+    "img": "https://i.ytimg.com/vi/6f1npCwQnDg/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "SELLINES NETWORK"
+    ],
+    "parts": [],
+    "views": 15,
+    "buzz": 34,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a6e16b2d8b55eac2935292ccb82b01a4a14134927dc1140ff564d0c9b2ae87d5",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Transfer textures from an AI-generated 3D model to a retopologized and optimized mesh in 3ds Max. In this video, I show how ai2tex transfers the",
     "evidenceIds": [
       1,
@@ -92,6 +306,52 @@
   },
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Want to create a realistic 3D asset without learning Blender or using complicated 3D software? In this tutorial, I’ll show you how to turn a",
+    "evidenceIds": [
+      5,
+      6,
+      7
+    ],
+    "id": "oWrr9AA2CTk",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Skapa 3D-tillgångar från bilder med ChatGPT och Google Flow i mobilen",
+    "sum": "Kanalen not_yt beskriver ett AI-arbetsflöde där en vanlig bild omvandlas till en 3D-tillgång med ChatGPT och Google Flow, utan Blender eller annan avancerad 3D-programvara. Resultatet importeras sedan till Alight Motion för videoredigering.",
+    "full": "Kanalen not_yt beskriver i en tutorial hur användare kan skapa en 3D-tillgång från en vanlig bild direkt i mobilen. Arbetsflödet bygger på AI-verktyg i stället för Blender eller annan komplicerad 3D-programvara.\n\nEnligt beskrivningen används ChatGPT tillsammans med Google Flow för att generera bilder av objektets fram- och baksida och därefter skapa ett 3D-resultat. Beskrivningen anger inte vilken specifik 3D-modell eller filtyp som skapas, och den redovisar inte heller någon oberoende kvalitetsbedömning.\n\nDet presenterade användningsfallet är att skapa anpassade 3D-tillgångar för videoredigering. När 3D-resultatet är framtaget importeras det till Alight Motion, där det kan användas i videoprojekt. Tutorialen tar även upp hur en grön bakgrund kan tas bort med Chroma Key.\n\nArbetsflödet riktar sig enligt kanalen till personer som vill arbeta med AI-genererade 3D-tillgångar, Alight Motion och mobil videoredigering. Beskrivningen framställer processen som möjlig med enbart mobil och AI-verktyg, men innehåller inga uppgifter om exakt tidsåtgång, resultatens kvalitet eller vilka begränsningar som gäller.",
+    "deep": "Det konkreta flödet som anges av not_yt börjar med en befintlig bild. ChatGPT används för att generera en bild av objektets baksida, medan ChatGPT och Google Flow tillsammans beskrivs som verktyg för att ta fram fram- och baksidesbilder och skapa 3D-resultatet. Därefter förs resultatet över till Alight Motion för vidare redigering.\n\nBeskrivningen nämner också att de skapade tillgångarna kan användas i egna videoredigeringar. Chroma Key ingår som ett efterföljande redigeringssteg för att avlägsna grön bakgrund. Det är dock en vanlig redigeringsfunktion och inte själva AI-utvecklingen i arbetsflödet.\n\nKällan beskriver en mobilbaserad metod och säger uttryckligen att Blender och avancerad 3D-programvara inte behövs enligt tutorialens upplägg. Den anger däremot inte om Google Flow i detta sammanhang använder en särskild modell, vilka exportalternativ som finns eller hur väl 3D-resultatet bevarar objektets form och detaljer.",
+    "en": {
+      "ttl": "Create 3D assets from images with ChatGPT and Google Flow on mobile",
+      "sum": "The channel not_yt describes an AI workflow that turns an ordinary image into a 3D asset using ChatGPT and Google Flow, without Blender or other advanced 3D software. The result is then imported into Alight Motion for video editing.",
+      "full": "The channel not_yt describes a tutorial for creating a 3D asset from an ordinary image directly on a mobile device. The workflow relies on AI tools instead of Blender or other complicated 3D software.\n\nAccording to the description, ChatGPT and Google Flow are used to generate front and back images of an object and then create a 3D result. The description does not specify which 3D model or file type is produced, nor does it provide an independent assessment of the result.\n\nThe stated use case is creating custom 3D assets for video editing. Once the 3D result has been created, it is imported into Alight Motion for use in video projects. The tutorial also covers removing a green background with Chroma Key.\n\nThe workflow is presented for people interested in AI-generated 3D assets, Alight Motion and mobile video editing. The description presents the process as possible with only a mobile device and AI tools, but gives no details about exact processing time, output quality or limitations.",
+      "deep": "The specific workflow described by not_yt starts with an existing image. ChatGPT is used to generate an image of the back of the object, while ChatGPT and Google Flow are described as the tools used to produce front and back images and create the 3D result. The result is then moved into Alight Motion for further editing.\n\nThe description also says that the generated assets can be used in custom video edits. Chroma Key is included as a later editing step for removing a green background. This is a standard editing function rather than the central AI development in the workflow.\n\nThe source describes a mobile-based method and explicitly says that Blender and complicated 3D software are not needed for the tutorial’s approach. It does not state whether Google Flow uses a specific model in this context, what export options are available, or how well the 3D result preserves the object’s shape and detail."
+    },
+    "cat": "3d",
+    "date": "2026-09-30T13:50:01Z",
+    "meta": "not_yt · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=oWrr9AA2CTk",
+    "img": "https://i.ytimg.com/vi/oWrr9AA2CTk/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "not_yt"
+    ],
+    "parts": [],
+    "views": 43,
+    "buzz": 40,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "578b9f9f9f0ed78a0a407c6e727228c38aba420386550f2fdba9d3aede024c2b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "ChatGPT",
+      "Google Flow",
+      "Alight Motion"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Chatgpt Photo Editing Prompt For Girls #ai #trendingnow #chatgpt #prompt #ytshorts Use the uploaded photo as the face reference and preserve the exact facial features,",
     "evidenceIds": [
       0,
@@ -132,6 +392,165 @@
     "sourceId": null,
     "newPlatforms": [
       "ChatGPT"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this episode of Decoding AI, Anagh Prasad, VP at Accel, sits down with Soumyadeep Mukherjee, CTO and Co-Founder of Dashverse, the company behind Frameo",
+    "evidenceIds": [
+      2,
+      3,
+      9
+    ],
+    "id": "bBZg4FIdTJA",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Dashverse bygger en AI-agent för filmskapande med Frameo",
+    "sum": "SeedToScale beskriver hur Dashverse använder Frameo som ett orkestreringssystem för att skapa berättelsemässigt sammanhängande filmer över flera scener genom att styra flera ledande videogenereringsmodeller.",
+    "full": "Kanalen SeedToScale beskriver Dashverse som ett företag som utvecklar Frameo, en AI-agent för filmskapande. I stället för att vara en grundmodell för videogenerering fungerar Frameo som ett orkestreringslager, eller en harness, som samordnar flera modeller för att skapa filmer med sammanhängande berättelser och flera bildsekvenser.\n\nEnligt SeedToScale styr Frameo modeller som Seedance 2.5, Kling och Google Omni. Fokus ligger därmed inte enbart på att generera enskilda videoklipp, utan på att hantera ett större produktionsflöde med narrativ koherens, filmiskt språk, kontinuitet mellan kamerabilder och produktionskvalitet.\n\nVideon kopplar utvecklingen till Dashverse erfarenhet av att först skapa AI-serier och seriebilder och därefter mikrodramer. Företaget uppges ha arbetat med 500 heltidsanställda kreatörer och producerat mer än 100 timmar innehåll per månad. SeedToScale framställer denna verksamhet som en återkopplingsloop där verklig användning och mänsklig feedback används för att förbättra systemet.\n\nSeedToScale uppger också att AI har sänkt produktionsbudgetar från 200 000–500 000 dollar till 5 000–20 000 dollar i det sammanhang som diskuteras. Påståendet presenteras som en del av intervjun och är inte ett resultat av en självständig granskning av denna artikel.\n\nEtt centralt problem som tas upp är att AI-video saknar motsvarigheten till en kompilator. Därför blir verifiering svårt: systemet måste bedöma om flera genererade scener fungerar tillsammans, om berättelsen håller ihop och om visuella och filmiska val förblir konsekventa. SeedToScale beskriver Frameos värde som störst just i detta lager mellan enskilda modeller och en färdig filmproduktion.",
+    "deep": "SeedToScale uppger att Frameo nyligen rankades som den främsta AI-agenten för filmskapande i ett oberoende benchmark från Physion Labs. Detta är kanalens återgivning av benchmarkresultatet, inte en självständig verifiering.\n\nBeskrivningen anger att videon behandlar skillnaden mellan en modell och en harness, samt hur Frameo kan fungera som en AI-medregissör. Även frågor om berättelsekontinuitet, kamerakontinuitet, övergången från AI-trailers till AI-filmer och svårigheten att verifiera AI-genererat videoinnehåll ingår.\n\nSeedToScale kopplar dessutom Dashverse modell till både skapande och distribution. Kanalen beskriver mikrodramer som ett användningsområde där tittare kan konsumera innehåll under längre perioder, men den tillhandahållna beskrivningen ger inga självständiga tittarsiffror eller detaljerade produktresultat utöver de uppgifter som uttryckligen nämns.",
+    "en": {
+      "ttl": "Dashverse builds an AI filmmaking agent with Frameo",
+      "sum": "SeedToScale describes how Dashverse uses Frameo as an orchestration system to create narratively coherent, multi-shot films by directing several leading video-generation models.",
+      "full": "SeedToScale describes Dashverse as a company developing Frameo, an AI filmmaking agent. Rather than being a foundational video-generation model, Frameo works as an orchestration layer, or harness, coordinating multiple models to produce films with coherent narratives and multiple shots.\n\nAccording to SeedToScale, Frameo directs models including Seedance 2.5, Kling and Google Omni. The focus is therefore not only on generating individual clips, but on managing a broader production workflow involving narrative coherence, cinematic language, camera continuity and production quality.\n\nThe video connects this development to Dashverse’s experience first creating AI comics and then micro dramas. The company is said to work with 500 full-time creators and produce more than 100 hours of content per month. SeedToScale presents this operation as a feedback loop in which real-world use and human feedback improve the system.\n\nSeedToScale also states that AI has reduced production budgets from $200,000–500,000 to $5,000–20,000 in the context discussed. The claim is presented as part of the interview and is not an independently verified finding in this article.\n\nA central problem discussed is that AI video has no equivalent of a compiler. Verification is therefore difficult: the system must assess whether generated scenes work together, whether the narrative remains coherent and whether visual and cinematic choices stay consistent. SeedToScale presents Frameo’s value as lying in this layer between individual models and finished film production.",
+      "deep": "SeedToScale states that Frameo recently ranked as the leading AI filmmaking agent in an independent benchmark by Physion Labs. This is the channel’s account of the benchmark result, not an independent verification.\n\nThe description says the video examines the distinction between a model and a harness, as well as how Frameo can function as an AI co-director. It also covers narrative continuity, camera continuity, the shift from AI trailers to AI films and the difficulty of verifying AI-generated video.\n\nSeedToScale additionally links Dashverse’s model to both creation and distribution. The channel describes micro dramas as a use case in which viewers can consume content for extended periods, but the supplied description provides no independent viewing figures or detailed product results beyond the explicitly stated claims."
+    },
+    "cat": "film",
+    "date": "2026-09-30T11:55:42Z",
+    "meta": "SeedToScale · 2026-09-30",
+    "url": "https://www.youtube.com/watch?v=bBZg4FIdTJA",
+    "img": "https://i.ytimg.com/vi/bBZg4FIdTJA/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "SeedToScale"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Introduction"
+      },
+      {
+        "t": 41,
+        "l": "Frameo ranked the #1 AI filmmaking agent"
+      },
+      {
+        "t": 156,
+        "l": "What is a filmmaking harness/agent ?"
+      },
+      {
+        "t": 229,
+        "l": "Starting with AI comics: Dashtoon"
+      },
+      {
+        "t": 363,
+        "l": "Why own both creation & distribution and how feedback loops build products"
+      },
+      {
+        "t": 451,
+        "l": "From Will Smith eating noodles to realistic AI video"
+      },
+      {
+        "t": 525,
+        "l": "Veo3: The turning point into video & story over realism"
+      },
+      {
+        "t": 620,
+        "l": "What is a micro drama?"
+      },
+      {
+        "t": 664,
+        "l": "Production costs: then vs now"
+      },
+      {
+        "t": 784,
+        "l": "AI is decentralising storytelling"
+      },
+      {
+        "t": 829,
+        "l": "Inside the Physion Labs benchmark & narrative coherence explained"
+      },
+      {
+        "t": 949,
+        "l": "From AI trailers to AI films"
+      },
+      {
+        "t": 1038,
+        "l": "Cinematic language, camera continuity and having a AI Co-director"
+      },
+      {
+        "t": 1131,
+        "l": "Production Quality: Where the harness adds value"
+      },
+      {
+        "t": 1228,
+        "l": "500 creators and 100+ hours of content a month"
+      },
+      {
+        "t": 1374,
+        "l": "From Micro dramas to Content Infrastructure"
+      },
+      {
+        "t": 1453,
+        "l": "AI feature films are coming"
+      },
+      {
+        "t": 1493,
+        "l": "Why Video needs harnesses but Coding models absorb them"
+      },
+      {
+        "t": 1665,
+        "l": "The verification problem in AI video generation"
+      },
+      {
+        "t": 1775,
+        "l": "Will AI flatten taste?"
+      },
+      {
+        "t": 1831,
+        "l": "AI raises the floor, humans are the ceiling"
+      },
+      {
+        "t": 1878,
+        "l": "Are creative jobs at risk?"
+      },
+      {
+        "t": 1962,
+        "l": "Copyright, IP and attribution"
+      },
+      {
+        "t": 2120,
+        "l": "Protecting characters and IP going forward"
+      },
+      {
+        "t": 2231,
+        "l": "What makes a great Frameo creator"
+      },
+      {
+        "t": 2305,
+        "l": "The Harlequin partnership"
+      },
+      {
+        "t": 2362,
+        "l": "How much content in the future will be fully AI-produced?"
+      },
+      {
+        "t": 2448,
+        "l": "Building a Frontier AI Team in Bengaluru: From LoRAs to harnesses"
+      }
+    ],
+    "views": 240,
+    "buzz": 49,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "85d1910be9285c61af51e476e39e3522b01d9e3f1a514c78868e4eb5dbb62846",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Frameo",
+      "Kling",
+      "Google Omni"
     ]
   },
   {
@@ -5835,6 +6254,46 @@
     "sourceHash": "cd243bd4223c0a7b4ddc0460dce3f5453f4790a60e543191b2da33c7ce459dfa",
     "trusted": false,
     "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, we tested three different ways to create new camera angles with AI, and the results were pretty wild.",
+    "evidenceIds": [
+      1
+    ],
+    "id": "6QC6nOotxrU",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI förändrar arbetet med kameravinklar",
+    "sum": "Curious Refuge visar tre AI-baserade sätt att skapa nya kameravinklar och beskriver resultaten som mycket överraskande.",
+    "full": "Kan AI göra traditionella kameravinklar mindre centrala i filmarbete? Det undersöker Curious Refuge i en video där kanalen testar tre olika sätt att skapa nya kameravinklar med AI. Enligt kanalens egen beskrivning blev resultaten mycket överraskande.\n\nVideon fokuserar på ett konkret AI-arbetsflöde för filmskapande: att skapa alternativa kameravinklar från befintligt material eller en befintlig scen. Beskrivningen anger däremot inte vilka AI-modeller eller verktyg som används, hur metoderna fungerar eller vilka begränsningar resultaten har. Därför går det inte att dra slutsatser om kvalitet, konsekvens eller praktisk användbarhet utöver kanalens egen sammanfattning.\n\nCurious Refuge hänvisar också till en skriftlig genomgång och prompts för arbetsflödet. Det gör innehållet relevant för filmskapare som vill undersöka hur AI kan användas när en scen behöver nya bildutsnitt utan att traditionell inspelning av varje vinkel står i centrum. Kanalen kopplar dessutom materialet till sina resurser om AI-filmskapande och AI för microdramas.",
+    "deep": "Det enda specificerade testet gäller tre olika AI-metoder för att skapa nya kameravinklar. Källbeskrivningen namnger inga produkter, versioner eller tekniska steg, och den redovisar inte heller hur jämförelsen genomfördes. Uppgifterna om resultaten är därför begränsade till Curious Refuges formulering att de var mycket överraskande.\n\nVideon är publicerad av Curious Refuge den 19 september 2026. Publiceringsdatumet ska inte tolkas som ett releasedatum för någon produkt eller modell.",
+    "en": {
+      "ttl": "AI is changing the way filmmakers create camera angles",
+      "sum": "Curious Refuge presents three AI-based ways to create new camera angles and describes the results as very surprising.",
+      "full": "Can AI make traditional camera angles less central to filmmaking? Curious Refuge explores this question in a video where the channel tests three different ways to create new camera angles with AI. According to the channel’s own description, the results were very surprising.\n\nThe video focuses on a concrete AI filmmaking workflow: creating alternative camera angles from existing material or an existing scene. However, the description does not identify the AI models or tools used, explain how the methods work, or describe the limitations of the results. No conclusions about quality, consistency, or practical usefulness can therefore be drawn beyond the channel’s own summary.\n\nCurious Refuge also links to a written breakdown and prompts for the workflow. This makes the topic relevant to filmmakers exploring how AI could be used when a scene needs new framing without relying solely on traditionally recording every angle. The channel also connects the material to its resources on AI filmmaking and AI for microdramas.",
+      "deep": "The only specified test concerns three different AI methods for creating new camera angles. The source description names no products, versions, or technical steps, and it does not explain how the comparison was conducted. The evidence about the results is therefore limited to Curious Refuge’s statement that they were very surprising.\n\nThe video was uploaded by Curious Refuge on September 19, 2026. The upload date should not be interpreted as a release date for any product or model."
+    },
+    "cat": "film",
+    "date": "2026-09-19T00:34:02Z",
+    "meta": "Curious Refuge · 2026-09-19",
+    "url": "https://www.youtube.com/watch?v=6QC6nOotxrU",
+    "img": "https://i.ytimg.com/vi/6QC6nOotxrU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Curious Refuge"
+    ],
+    "parts": [],
+    "views": 39298,
+    "buzz": 75,
+    "sourceCheckedAt": "2026-10-01T09:25:01.208Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "81a3178d47770162b06eb3b9045ec6291e993eea817376d9e08faf853dcdf653",
+    "trusted": true,
+    "sourceId": "curiousrefuge",
     "newPlatforms": []
   },
   {

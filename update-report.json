@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-09-30T19:37:01.100Z",
+  "startedAt": "2026-10-01T09:25:01.208Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
+      "checkedAt": "2026-10-01T09:25:01.208Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-09-30T19:37:01.100Z",
-      "found": 4
+      "checkedAt": "2026-10-01T09:25:01.208Z",
+      "found": 3
     }
   },
   "selection": {
-    "fetched": 130,
-    "relevant": 36,
-    "supported": 29
+    "fetched": 128,
+    "relevant": 33,
+    "supported": 26
   },
   "rejected": [
     {
@@ -54,16 +54,18 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        2
+        2,
+        6
       ]
     },
     {
-      "video": "gzLaOSggSIg",
-      "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+      "video": "rJ6NrYS-uGc",
+      "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        3
+        3,
+        4,
+        5
       ]
     },
     {
@@ -85,13 +87,13 @@
       ]
     },
     {
-      "video": "bLP1UeCMDXc",
-      "title": "Qwen Image 2.1 Is Here! Local AI Image Generation Is Getting REALLY Good",
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
         2,
-        3
+        4
       ]
     },
     {
@@ -111,17 +113,22 @@
     },
     {
       "video": "AFqtMLqT7yE",
-      "title": "DevDay Was Bigger Than You Think (The New OpenAI)",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "uKgcxH46Ca4",
-      "title": "The Ultimate 100 Photoshop Tricks: 10 Years of PiXimperfect",
+      "video": "PRv2Mk-nY04",
+      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "6QC6nOotxrU",
-      "title": "Camera Angles Are Becoming a Thing of the Past",
+      "video": "SQaGhrQDckU",
+      "title": "Kling 4.0 release. Details of new version",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "A5t9e_POEpo",
+      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
       "stage": "insufficient-article-source"
     },
     {
@@ -130,39 +137,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "xiTzwUKWQhU",
-      "title": "AI 3D model generator: a loot chest made with Meshy AI",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        10,
-        9
-      ]
-    },
-    {
-      "video": "AFLBUUU3_es",
-      "title": "I Tested Every AI 3D Model in FLORA AI (Here's What Each One Is For)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        5,
-        6,
-        7
-      ]
-    },
-    {
       "video": "pHNretO3KAQ",
       "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
       "stage": "article-evidence",
       "evidenceIds": [
-        3,
         4,
-        5
+        5,
+        6
       ]
-    },
-    {
-      "video": "RN4YcskUMPk",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 8
