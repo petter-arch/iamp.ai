@@ -14511,7 +14511,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14623,8 +14623,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z"
     },
     {
       "n": "Suno v5.5",
@@ -14687,7 +14686,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -14771,8 +14770,8 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Higgsfield",
@@ -17078,7 +17077,9 @@
         "https://www.youtube.com/watch?v=dfw2_4Rrkl4",
         "https://www.youtube.com/watch?v=gVatlvyPAxI",
         "https://www.youtube.com/watch?v=FKIg7Wtsyp0",
-        "https://www.youtube.com/watch?v=T1Thl6mofGQ"
+        "https://www.youtube.com/watch?v=T1Thl6mofGQ",
+        "https://www.youtube.com/watch?v=oWrr9AA2CTk",
+        "https://www.youtube.com/watch?v=vhhGPVmcOm8"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -17225,7 +17226,8 @@
         "https://www.youtube.com/watch?v=shu68GIvZI8",
         "https://www.youtube.com/watch?v=btK3d1q09Pc",
         "https://www.youtube.com/watch?v=X7jHqd5xp9I",
-        "https://www.youtube.com/watch?v=4G-LiRlM1Og"
+        "https://www.youtube.com/watch?v=4G-LiRlM1Og",
+        "https://www.youtube.com/watch?v=oWrr9AA2CTk"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -17275,7 +17277,8 @@
       "name": "GPT Image 2",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=f8FHas1dmt8",
-        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ",
+        "https://www.youtube.com/watch?v=LP7deVI4DPY"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-21T10:47:30.467Z",
@@ -17488,16 +17491,22 @@
     {
       "name": "Codex",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=WKO-YgMQhLI"
+        "https://www.youtube.com/watch?v=WKO-YgMQhLI",
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
       ],
-      "firstSeen": "2026-09-18T09:49:39.277Z"
+      "firstSeen": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Runway MCP",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=WKO-YgMQhLI"
       ],
-      "firstSeen": "2026-09-18T09:49:39.277Z"
+      "firstSeen": "2026-09-18T09:49:39.277Z",
+      "lastAttemptAt": "2026-10-01T11:39:12.672Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Ruby",
@@ -17738,7 +17747,8 @@
     {
       "name": "Google Omni",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=fQuJdcdLpEY"
+        "https://www.youtube.com/watch?v=fQuJdcdLpEY",
+        "https://www.youtube.com/watch?v=bBZg4FIdTJA"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z"
     },
@@ -17878,7 +17888,8 @@
     {
       "name": "Claude AI",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
+        "https://www.youtube.com/watch?v=K3HhSfoyJk0"
       ],
       "firstSeen": "2026-09-23T10:02:36.801Z"
     },
@@ -18443,6 +18454,153 @@
         "https://www.youtube.com/watch?v=gr9fEEKrO5Y"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
+    },
+    {
+      "name": "Revault AI v24",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=88eu410QAas"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Rehearsal Soundstage",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=88eu410QAas"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Prisma3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=K3HhSfoyJk0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Hunyuan AI model generation",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Quad Remesher",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "3ds Max",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Corona Renderer",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Corona Physical Material",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "ai2tex",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Alight Motion",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=oWrr9AA2CTk"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Frameo",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=bBZg4FIdTJA"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Kling",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=bBZg4FIdTJA"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Coul Cinema",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=akmjXYMoW3g"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Ultrafast",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Dots",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "ChatGPT Space",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Decisions API",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Agents API",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Codex Security Cloud",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=NQ4Aoe8wTC0"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "fal Agent",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=LP7deVI4DPY"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z"
     }
   ],
   "sourceChecks": {},
@@ -19109,58 +19267,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-01T09:25:01.208Z",
+    "calculatedAt": "2026-10-01T11:39:12.672Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.09506866708208857,
+      "chatgpt-images-2-0": 0.0941954469639798,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.3491768928125531,
-      "google-veo-3-1": 0.09404588205123555,
+      "runway-gen-4-5": 0.3459696501221792,
+      "google-veo-3-1": 0.0931820563686738,
       "flux-2": 0,
-      "elevenlabs": 1.177204288620865,
+      "elevenlabs": 1.166391488783669,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.7065600235919895,
+      "kling-3-0": 0.7000701626715751,
       "freepik-ai": 0,
-      "adobe-firefly": 0.23381210337799874,
+      "adobe-firefly": 0.18074050114381696,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 7.412673563618267,
+      "higgsfield": 7.344587033288193,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.0148239871453724,
+      "meshy-ai": 1.996317523406859,
       "magnific-ai": 0,
-      "seedance-2-5": 3.577315577095594,
+      "seedance-2-5": 3.5444573912534962,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.6778991958537688,
+      "nano-banana-pro": 0.6716725889806743,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.2773936729791334,
+      "rodin-hyper3d": 0.2748457700441705,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.9582107294214424,
-      "trellis-2": 0.6694173509103112,
+      "hunyuan3d": 0.9494094186215762,
+      "trellis-2": 0.6632686510687408,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.19158012803757724,
-      "hitem3d": 0.7218787781547253,
+      "luma-genie": 0.18982043552092695,
+      "hitem3d": 0.7152482121515628,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.36735942811934363
+      "gemini-omni-flash": 0.3639851760859818
     }
   }
 }
