@@ -1,83 +1,159 @@
 {
-  "startedAt": "2026-10-01T11:39:12.672Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-01T19:47:51.993Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 2
+    },
+    "3d": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "found": 1
+    }
+  },
+  "selection": {
+    "fetched": 121,
+    "relevant": 26,
+    "supported": 19
+  },
+  "rejected": [
     {
-      "platform": "leonardo-ai",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "leonardo-ai",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "kqqgPi8neys",
+      "title": "DOTS just did your entire content setup.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
     },
     {
-      "platform": "leonardo-ai",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "PCvnuGFasa8",
+      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        5,
+        6
+      ]
     },
     {
-      "platform": "leonardo-ai",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "iFtSZfu50e8",
+      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "leonardo-ai",
-      "field": "tags",
-      "message": "Official source unavailable"
+      "video": "OBZDYDFay9o",
+      "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "leonardo-ai",
-      "field": "caps",
-      "message": "Official source unavailable"
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        4
+      ]
     },
     {
-      "platform": "suno-v5-5",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://www.suno.com/release-notes/introducing-v5-5-voices-custom-models-and-my-taste\",\"quote\":\"Upload at least 6 tracks from your catalog to train a personalized version of v5.5.\",\"retrieved\":[]}"
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "suno-v5-5",
-      "field": "long",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "suno-v5-5",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "9QCPEsFYvo0",
+      "title": "Run AI 3D Asset Generation on YOUR GPU — Zero Cloud with Hunyuan3D (2026)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        10,
+        44,
+        48
+      ]
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://platform.stability.ai/pricing\",\"quote\":\"1 credit = $0.01.\",\"retrieved\":[]}"
+      "video": "SQaGhrQDckU",
+      "title": "Kling 4.0 release. Details of new version",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "sub",
-      "message": "Invalid official citation"
+      "video": "0uz1pxs5xa4",
+      "title": "How to Edit Photos with Google Gemini | Gemini AI Photo Editing Trick #shorts #shortvideo #trending",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "deep",
-      "message": "Quote not found: {\"url\":\"https://platform.stability.ai/docs/api-reference\",\"quote\":\"Commonly referred to as image-to-image\",\"retrieved\":[]}"
+      "video": "PRv2Mk-nY04",
+      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://platform.stability.ai/docs/api-reference\",\"quote\":\"Generating with a prompt and an image\",\"retrieved\":[]}"
+      "video": "qS-r0bgJjzA",
+      "title": "The AI Video Boom: Why Filmmaking Will Never Be the Same",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "stable-diffusion-3-5",
-      "message": "Invalid independent fact check"
+      "video": "A5t9e_POEpo",
+      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Runway MCP",
-      "message": "Invalid evidence URL"
+      "video": "QX8jKDqO1mQ",
+      "title": "Hi3D: How To Use AI For 3D Creation! Why Every 3D Artist Needs To Try this Now",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        5,
+        10
+      ]
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 1
 }
