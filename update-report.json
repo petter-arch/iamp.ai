@@ -1,170 +1,88 @@
 {
-  "startedAt": "2026-10-02T08:59:23.963Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 2
-    },
-    "3d": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-02T08:59:23.963Z",
-      "found": 1
-    }
-  },
-  "selection": {
-    "fetched": 122,
-    "relevant": 29,
-    "supported": 21
-  },
-  "rejected": [
+  "startedAt": "2026-10-02T11:08:48.743Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "higgsfield",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "kqqgPi8neys",
-      "title": "DOTS just did your entire content setup.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        6
-      ]
+      "platform": "higgsfield",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/ai/video\",\"quote\":\"250+ presets for camera control, framing, and high-quality VFX\",\"retrieved\":[]}"
     },
     {
-      "video": "PCvnuGFasa8",
-      "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        6
-      ]
+      "platform": "higgsfield",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-cinema-studio\",\"quote\":\"Director's Panel for cinematography control\",\"retrieved\":[]}"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "higgsfield",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/ai/video\",\"quote\":\"250+ presets for camera control, framing, and high-quality VFX\",\"retrieved\":[]}"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "higgsfield",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-cinema-studio\",\"quote\":\"Director's Panel for cinematography control\",\"retrieved\":[]}"
     },
     {
-      "video": "OBZDYDFay9o",
-      "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        3,
-        4
-      ]
+      "platform": "higgsfield",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-cinema-studio\",\"quote\":\"generations on higgsfield.ai don't deduct credits\",\"retrieved\":[]}"
     },
     {
-      "video": "Z8-AOU6ZjoQ",
-      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        4
-      ]
+      "platform": "higgsfield",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
+      "platform": "krea-ai",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.krea.ai/blog/reve-sunset-2026-alternative-ai-generators\",\"quote\":\"Basic: $9 a month ($5 billed yearly).\",\"retrieved\":[]}"
     },
     {
-      "video": "0yv0r5UyzCY",
-      "title": "Are These AI Tools the Future of Sound Design?",
-      "stage": "insufficient-article-source"
+      "platform": "krea-ai",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://www.krea.ai/\",\"quote\":\"Full access to real-time models\",\"retrieved\":[]}"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
+      "platform": "krea-ai",
+      "field": "caps",
+      "message": "Invalid official citation"
     },
     {
-      "video": "spfLETAlqSQ",
-      "title": "Kling 4.0 is Coming 🔥 30s AI Videos, 4K HDR, Stereo Audio & 15 References | Tamil",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        12,
-        15
-      ]
+      "platform": "krea-ai",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "bt599_Vot5M",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "PRv2Mk-nY04",
-      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://docs.spline.design/generate/spline-mcp-server\",\"quote\":\"The Spline desktop app (macOS or Windows) — required, since the MCP server is bundled inside it and can't run from the browser.\",\"retrieved\":[]}"
     },
     {
-      "video": "SQaGhrQDckU",
-      "title": "Kling 4.0 release. Details of new version",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "qS-r0bgJjzA",
-      "title": "The AI Video Boom: Why Filmmaking Will Never Be the Same",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://pika.art/pricing\",\"quote\":\"Price / mo | $0 | $10 | $35 | $95–$880\",\"retrieved\":[]}"
     },
     {
-      "video": "A5t9e_POEpo",
-      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ch-6lNdOeKU",
-      "title": "Meshy AI vs Tripo AI: The AI 3D Generator Showdown",
-      "stage": "insufficient-article-source"
+      "candidate": "Ruby",
+      "message": "Official source unavailable"
     }
   ],
-  "accepted": 1
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }
