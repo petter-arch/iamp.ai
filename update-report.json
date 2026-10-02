@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-01T19:47:51.993Z",
+  "startedAt": "2026-10-02T08:59:23.963Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-01T19:47:51.993Z",
+      "checkedAt": "2026-10-02T08:59:23.963Z",
       "found": 1
     }
   },
   "selection": {
-    "fetched": 121,
-    "relevant": 26,
-    "supported": 19
+    "fetched": 122,
+    "relevant": 29,
+    "supported": 21
   },
   "rejected": [
     {
@@ -54,8 +54,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        4,
-        5
+        2,
+        6
       ]
     },
     {
@@ -63,9 +63,19 @@
       "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
       "stage": "classification-evidence",
       "evidenceIds": [
+        1,
         2,
-        5,
         6
+      ]
+    },
+    {
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        9
       ]
     },
     {
@@ -82,8 +92,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -91,7 +101,7 @@
       "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
+        1,
         2,
         4
       ]
@@ -101,8 +111,14 @@
       "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
+    },
+    {
+      "video": "0yv0r5UyzCY",
+      "title": "Are These AI Tools the Future of Sound Design?",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "AFqtMLqT7yE",
@@ -110,28 +126,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "9QCPEsFYvo0",
-      "title": "Run AI 3D Asset Generation on YOUR GPU — Zero Cloud with Hunyuan3D (2026)",
+      "video": "spfLETAlqSQ",
+      "title": "Kling 4.0 is Coming 🔥 30s AI Videos, 4K HDR, Stereo Audio & 15 References | Tamil",
       "stage": "article-evidence",
       "evidenceIds": [
-        10,
-        44,
-        48
+        2,
+        12,
+        15
       ]
     },
     {
-      "video": "SQaGhrQDckU",
-      "title": "Kling 4.0 release. Details of new version",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "0uz1pxs5xa4",
-      "title": "How to Edit Photos with Google Gemini | Gemini AI Photo Editing Trick #shorts #shortvideo #trending",
+      "video": "bt599_Vot5M",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
       "video": "PRv2Mk-nY04",
       "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "SQaGhrQDckU",
+      "title": "Kling 4.0 release. Details of new version",
       "stage": "insufficient-article-source"
     },
     {
@@ -145,14 +161,9 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QX8jKDqO1mQ",
-      "title": "Hi3D: How To Use AI For 3D Creation! Why Every 3D Artist Needs To Try this Now",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        3,
-        5,
-        10
-      ]
+      "video": "ch-6lNdOeKU",
+      "title": "Meshy AI vs Tripo AI: The AI 3D Generator Showdown",
+      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 1
