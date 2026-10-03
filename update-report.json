@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-02T19:30:13.220Z",
+  "startedAt": "2026-10-03T08:33:03.479Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-02T19:30:13.220Z",
+      "checkedAt": "2026-10-03T08:33:03.479Z",
       "found": 1
     }
   },
   "selection": {
-    "fetched": 128,
-    "relevant": 31,
-    "supported": 24
+    "fetched": 126,
+    "relevant": 35,
+    "supported": 26
   },
   "rejected": [
     {
@@ -49,13 +49,23 @@
       ]
     },
     {
+      "video": "J24Swu5ihZo",
+      "title": "Call DOTS on voice mode and get things done fast.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
       "video": "kqqgPi8neys",
       "title": "DOTS just did your entire content setup.",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        4,
-        5
+        2,
+        4
       ]
     },
     {
@@ -81,9 +91,18 @@
       "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
-        3,
-        4
+        3
+      ]
+    },
+    {
+      "video": "9QCPEsFYvo0",
+      "title": "Run AI 3D Asset Generation on YOUR GPU — Zero Cloud with Hunyuan3D (2026)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        10,
+        44
       ]
     },
     {
@@ -92,8 +111,7 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         2,
-        4,
-        6
+        4
       ]
     },
     {
@@ -101,7 +119,6 @@
       "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
       ]
     },
@@ -111,9 +128,39 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "dDgncbBAA0c",
-      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+      "video": "5rl_1bsXCFE",
+      "title": "ChatGPT Image 2.5 Update #chatgpt #chatgpt4 #chatgptimages #chatgpt活用 #howto #chatgptinsights",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "2HExGoH4bUA",
+      "title": "AI Filmmaking Kaise Kare? Character Consistency & AI Video Generation Ka Complete Guide",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "B-biLL1ZFoA",
+      "title": "Flux 3 just fixed the #1 problem with AI image editing.",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        13,
+        25
+      ]
+    },
+    {
+      "video": "Aj6885FsPA4",
+      "title": "AI Company Reveals Its Film Prompts Average 3,000 Words + 10 Image References Per Scene",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "aFwjddICL_I",
+      "title": "OpenAI’s ChatGPT Images 2 5 Is Insane!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "2",
+        "3",
+        "4"
+      ]
     },
     {
       "video": "spfLETAlqSQ",
@@ -121,14 +168,9 @@
       "stage": "article-evidence",
       "evidenceIds": [
         2,
-        12,
+        11,
         15
       ]
-    },
-    {
-      "video": "PRv2Mk-nY04",
-      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "bt599_Vot5M",
@@ -136,8 +178,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "video": "PRv2Mk-nY04",
+      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
       "stage": "insufficient-article-source"
     },
     {
@@ -146,20 +188,25 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "video": "dDgncbBAA0c",
+      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "qS-r0bgJjzA",
-      "title": "The AI Video Boom: Why Filmmaking Will Never Be the Same",
+      "video": "rynapRtUeWY",
+      "title": "When AI Meets Design: The Future of 3D Creation!",
       "stage": "insufficient-article-source"
     },
     {
       "video": "A5t9e_POEpo",
       "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 0
 }
