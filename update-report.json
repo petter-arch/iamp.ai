@@ -1,212 +1,78 @@
 {
-  "startedAt": "2026-10-03T08:33:03.479Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 3
-    },
-    "3d": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-03T08:33:03.479Z",
-      "found": 1
-    }
-  },
-  "selection": {
-    "fetched": 126,
-    "relevant": 35,
-    "supported": 26
-  },
-  "rejected": [
+  "startedAt": "2026-10-03T10:26:44.648Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "recraft-v4-1",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.recraft.ai/docs/recraft-models/recraft-v4-1\",\"quote\":\"Recraft V4.1 Flash | $0.007 | 7 | Per image | 1.3s\",\"retrieved\":[]}"
     },
     {
-      "video": "J24Swu5ihZo",
-      "title": "Call DOTS on voice mode and get things done fast.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "recraft-v4-1",
+      "field": "long",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "kqqgPi8neys",
-      "title": "DOTS just did your entire content setup.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        4
-      ]
+      "platform": "recraft-v4-1",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "meshy-ai",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://help.meshy.ai/en/articles/12062933-which-meshy-plan-is-right-for-you-free-vs-pro-vs-premium-vs-ultra\",\"quote\":\"Price | $0/month | $20/month | $40/month | $100/month\",\"retrieved\":[]}"
     },
     {
-      "video": "iFtSZfu50e8",
-      "title": "Prompt to Edit in Photoshop: New Branding, Same Feature",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "meshy-ai",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://docs.meshy.ai/en/api/changelog\",\"quote\":\"Added `meshy-7.1` as an `ai_model` value for Image to 3D, Multi-Image to 3D and Text to 3D\",\"retrieved\":[]}"
     },
     {
-      "video": "OBZDYDFay9o",
-      "title": "ComfyUI Qwen Image 2.1 Tutorial | Generate, Edit, Inpaint & More (Ep36)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        3
-      ]
+      "platform": "meshy-ai",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://docs.meshy.ai/en/api/changelog\",\"quote\":\"Added `meshy-7.1` as an `ai_model` value for Image to 3D, Multi-Image to 3D and Text to 3D\",\"retrieved\":[]}"
     },
     {
-      "video": "9QCPEsFYvo0",
-      "title": "Run AI 3D Asset Generation on YOUR GPU — Zero Cloud with Hunyuan3D (2026)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        10,
-        44
-      ]
+      "platform": "magnific-ai",
+      "field": "sub",
+      "message": "Source outside official domain"
     },
     {
-      "video": "Z8-AOU6ZjoQ",
-      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        4
-      ]
+      "platform": "magnific-ai",
+      "field": "long",
+      "message": "Source outside official domain"
     },
     {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "magnific-ai",
+      "field": "deep",
+      "message": "Source outside official domain"
     },
     {
-      "video": "0yv0r5UyzCY",
-      "title": "AI Sound Design Is Here… But Is It Any Good?",
-      "stage": "insufficient-article-source"
+      "platform": "magnific-ai",
+      "field": "tags",
+      "message": "Source outside official domain"
     },
     {
-      "video": "5rl_1bsXCFE",
-      "title": "ChatGPT Image 2.5 Update #chatgpt #chatgpt4 #chatgptimages #chatgpt活用 #howto #chatgptinsights",
-      "stage": "insufficient-article-source"
+      "platform": "magnific-ai",
+      "field": "caps",
+      "message": "Source outside official domain"
     },
     {
-      "video": "2HExGoH4bUA",
-      "title": "AI Filmmaking Kaise Kare? Character Consistency & AI Video Generation Ka Complete Guide",
-      "stage": "insufficient-article-source"
+      "platform": "seedance-2-5",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "B-biLL1ZFoA",
-      "title": "Flux 3 just fixed the #1 problem with AI image editing.",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        13,
-        25
-      ]
+      "candidate": "Blender",
+      "message": "Evidence quote missing"
     },
     {
-      "video": "Aj6885FsPA4",
-      "title": "AI Company Reveals Its Film Prompts Average 3,000 Words + 10 Image References Per Scene",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "aFwjddICL_I",
-      "title": "OpenAI’s ChatGPT Images 2 5 Is Insane!",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "2",
-        "3",
-        "4"
-      ]
-    },
-    {
-      "video": "spfLETAlqSQ",
-      "title": "Kling 4.0 is Coming 🔥 30s AI Videos, 4K HDR, Stereo Audio & 15 References | Tamil",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        11,
-        15
-      ]
-    },
-    {
-      "video": "bt599_Vot5M",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "PRv2Mk-nY04",
-      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "SQaGhrQDckU",
-      "title": "Kling 4.0 release. Details of new version",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dDgncbBAA0c",
-      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rynapRtUeWY",
-      "title": "When AI Meets Design: The Future of 3D Creation!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "A5t9e_POEpo",
-      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
-      "stage": "insufficient-article-source"
+      "candidate": "Pixal3D",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 0
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }

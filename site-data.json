@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T19:30:13.220Z",
+  "updatedAt": "2026-10-03T10:26:44.648Z",
   "newsCheckedAt": "2026-10-03T08:33:03.479Z",
   "news": [
     {
@@ -15427,7 +15427,8 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Meshy AI",
@@ -15574,7 +15575,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -15620,7 +15621,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Seedance 2.5",
@@ -15631,7 +15633,7 @@
       "bdg": "hot",
       "pct": 90,
       "price": "API öppnar 7 aug 2026 · tidiga uppskattningar ~$0,14/sek",
-      "sub": "Audio-video-modell för berättande på 30 sekunder, med möjlighet att förlänga två gånger.",
+      "sub": "Ny generationens video-/audio-modell för 30-sekunders berättande med precis referenskontroll och kraftfull redigering.",
       "long": "ByteDances Seedance 2.5 (officiellt lanserad 31 juli 2026) är en nästa generations audio-video-modell som genererar upp till 30 sekunder sammanhängande video i en enda pass — ingen manuell ihopklippning behövs. Stödjer dessutom flera rundor av extension, så att man kan producera flerminnuters innehåll med sammanhållet audiovisuellt språk. Tar emot upp till 30 referensbilder, 10 videoklipp och 10 ljudklipp i ett enda pass för stark karaktärs- och scenkonsistens. Erbjuder tidsstämpelbaserad redigering (timestamp-level control) för precisionsredigering av specifika sekunder i klippet, samt avancerade funktioner som green screen, kameraperspektivredigering och clay render-referens för professionella produktionsflöden. Modellen rullas ut på Jimeng AI och Doubao Pro, med API-åtkomst kommande via BytePlus ModelArk.",
       "pros": [
         "Native 30 sek i en tagning med stöd för flervidsextension",
@@ -15680,15 +15682,11 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-09-21T10:47:30.467Z",
+          "checkedAt": "2026-10-03T10:26:44.648Z",
           "sources": [
             {
-              "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model, built for 30-second storytelling"
-            },
-            {
-              "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "with the option to extend twice"
+              "url": "https://seed.bytedance.com/en/models?view_from=homepage_tab",
+              "quote": "A new-generation video creation model built for 30-second storytelling with precise reference control and powerful editing capabilities."
             }
           ]
         },
@@ -15787,7 +15785,8 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-21T10:47:30.467Z"
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Ideogram V3",
@@ -17799,7 +17798,10 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=WdmSvISHQm4"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Pixal3D",
@@ -17807,7 +17809,10 @@
         "https://www.youtube.com/watch?v=_lgyED4IkJg",
         "https://www.youtube.com/watch?v=p_5Usk7ALT4"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-03T10:26:44.648Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Flux Klein",
@@ -18874,6 +18879,13 @@
         "https://www.youtube.com/watch?v=LP7deVI4DPY"
       ],
       "firstSeen": "2026-10-01T11:39:12.672Z"
+    },
+    {
+      "name": "Fal.ai",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=BFsVW1DrLng"
+      ],
+      "firstSeen": "2026-10-03T10:26:44.648Z"
     }
   ],
   "sourceChecks": {},
@@ -19540,58 +19552,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-03T08:33:03.479Z",
+    "calculatedAt": "2026-10-03T10:26:44.648Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.07826735131036874,
+      "chatgpt-images-2-0": 0.07765787523199148,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.28746748406207556,
-      "google-veo-3-1": 0.0774253212516572,
+      "runway-gen-4-5": 0.2852289445955698,
+      "google-veo-3-1": 0.0768224021497135,
       "flux-2": 0,
-      "elevenlabs": 0.9691590767966177,
+      "elevenlabs": 0.9616121333577452,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.5816909323088172,
+      "kling-3-0": 0.577161243973699,
       "freepik-ai": 0,
-      "adobe-firefly": 0.1501779624703587,
+      "adobe-firefly": 0.14900851091625977,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.102645001342413,
+      "higgsfield": 6.055123064278294,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.6587477417170524,
+      "meshy-ai": 1.645830898975948,
       "magnific-ai": 0,
-      "seedance-2-5": 2.9006424257625723,
+      "seedance-2-5": 2.878054818786862,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.558095281477862,
+      "nano-banana-pro": 0.5537493349519969,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.2283703844883486,
+      "rodin-hyper3d": 0.22659204033813551,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7888678582632875,
-      "trellis-2": 0.5511124178454473,
+      "hunyuan3d": 0.7827248614636951,
+      "trellis-2": 0.5468208476115003,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.15772251410925187,
-      "hitem3d": 0.5943024307319906,
+      "luma-genie": 0.15649431233978206,
+      "hitem3d": 0.5896745353351445,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.3024366523721872
+      "gemini-omni-flash": 0.3000815464211197
     }
   }
 }
