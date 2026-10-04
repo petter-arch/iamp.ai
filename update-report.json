@@ -1,51 +1,70 @@
 {
-  "startedAt": "2026-10-03T18:15:50.739Z",
+  "startedAt": "2026-10-04T08:45:40.900Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
+      "checkedAt": "2026-10-04T08:45:40.900Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-03T18:15:50.739Z",
-      "found": 2
+      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "found": 3
     }
   },
   "selection": {
-    "fetched": 126,
+    "fetched": 124,
     "relevant": 32,
-    "supported": 27
+    "supported": 25
   },
   "rejected": [
+    {
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        6,
+        10,
+        11
+      ]
+    },
     {
       "video": "kqqgPi8neys",
       "title": "DOTS just did your entire content setup.",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        4,
-        5
+        2,
+        4
       ]
     },
     {
@@ -75,12 +94,13 @@
       ]
     },
     {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        2,
+        4
       ]
     },
     {
@@ -89,18 +109,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "qCL6rGcaa8A",
-      "title": "Flow AI Omni 1.1, original vs AI, AI video generation, AI filmmaking, and cinematic AI. #trending",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "enUd0MmAVCo",
-      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
+      "video": "pDD70SSDW0k",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
       "video": "5rl_1bsXCFE",
       "title": "ChatGPT Image 2.5 Update #chatgpt #chatgpt4 #chatgptimages #chatgpt活用 #howto #chatgptinsights",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "enUd0MmAVCo",
+      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
       "stage": "insufficient-article-source"
     },
     {
@@ -123,6 +143,16 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "Aea2DUX4fsQ",
+      "title": "Open Source Is Beating Paid Mac Apps",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "B-biLL1ZFoA",
       "title": "Flux 3 just fixed the #1 problem with AI image editing.",
       "stage": "article-evidence",
@@ -133,43 +163,22 @@
       ]
     },
     {
-      "video": "gX0L0aFA2xg",
-      "title": "Claude Opus 5.5 is ridiculous",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        5,
-        8,
-        15
-      ]
-    },
-    {
       "video": "bt599_Vot5M",
       "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "PRv2Mk-nY04",
-      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #gemini #ai #photoedit",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rynapRtUeWY",
-      "title": "When AI Meets Design: The Future of 3D Creation!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9QCPEsFYvo0",
-      "title": "Run AI 3D Asset Generation on YOUR GPU — Zero Cloud with Hunyuan3D (2026)",
+      "video": "lomnTnYr_J4",
+      "title": "FREE AI Image Generator & Editor 🤯 | Edit Images With Just Text Prompt",
       "stage": "article-evidence",
       "evidenceIds": [
-        10,
-        44,
-        47
+        "1",
+        "2",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
       ]
     },
     {
@@ -178,15 +187,15 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Z8-AOU6ZjoQ",
-      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        4,
-        6
-      ]
+      "video": "rynapRtUeWY",
+      "title": "When AI Meets Design: The Future of 3D Creation!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "02_0RetxfFU",
+      "title": "The Best 3D Render I've Ever Seen an AI Make (Opus 5.5 vs GPT 6 Sol)",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 1
 }
