@@ -1,8 +1,312 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T08:45:40.900Z",
-  "newsCheckedAt": "2026-10-04T08:45:40.900Z",
+  "updatedAt": "2026-10-04T18:20:58.341Z",
+  "newsCheckedAt": "2026-10-04T18:20:58.341Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Google Flow is Google’s AI filmmaking studio, powered by Veo. You can turn text and images into cinematic shots, create consistent characters and scenes, control",
+      "evidenceIds": [
+        87,
+        88,
+        89
+      ],
+      "id": "Mat-Fjb2A6U",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Google Flow samlar AI-filmskapande i en studio för text, bilder och ljud",
+      "sum": "Brief Anish beskriver Google Flow som Googles AI-studio för filmskapande, där användare kan omvandla text och bilder till filmiska bildsekvenser, hålla karaktärer och scener konsekventa, styra kameran och bygga sekvenser. Tjänsten kan även generera dialog, ljudeffekter och atmosfäriskt ljud och går att prova kostnadsfritt med begränsade krediter.",
+      "full": "Google Flow positioneras enligt YouTube-kanalen Brief Anish som en AI-studio för filmskapande, driven av Veo. Beskrivningen lyfter ett arbetsflöde där text och bilder kan omvandlas till filmiska bildsekvenser, snarare än enbart enskilda AI-genererade klipp.\n\nEn central funktion är möjligheten att skapa konsekventa karaktärer och scener. Flow ska också ge användaren kontroll över kameran och stöd för att bygga sammanhängande sekvenser. Det gör verktyget relevant för berättande och förproduktion där återkommande visuella element behöver bevaras mellan flera bilder eller scener.\n\nLjud ingår också i det beskrivna arbetsflödet. Flow kan enligt Brief Anish generera dialog, ljudeffekter och atmosfäriskt ljud, vilket samlar flera delar av en AI-baserad filmproduktion i samma studio.\n\nKanalen riktar sig särskilt till solo-skapare, filmskapare och designers som vill experimentera med filmiskt berättande utan en produktionsapparat i Hollywood-storlek. Google Flow kan börja användas kostnadsfritt, men den kostnadsfria användningen har begränsade krediter.",
+      "deep": "Brief Anish beskriver inte ett oberoende test eller mätningar av resultatkvaliteten, utan sammanfattar Google Flows angivna funktioner. Det som uttryckligen nämns är text- och bildbaserad generering av filmiska bildsekvenser, konsekvens för karaktärer och scener, kamerakontroll, sekvensbygge samt generering av dialog, ljudeffekter och atmosfäriskt ljud.\n\nBeskrivningen anger att Flow drivs av Veo, men specificerar inte vilken version av Veo som används. Därför kan ingen versionsbeteckning eller något lanseringsdatum fastställas från källan. Den uppger endast att tjänsten kan användas gratis med begränsade krediter och säger inget om villkoren för betalda nivåer eller om faktisk tillgänglighet.",
+      "en": {
+        "ttl": "Google Flow brings text, image and audio AI filmmaking into one studio",
+        "sum": "The YouTube channel Brief Anish describes Google Flow as Google’s AI filmmaking studio, where users can turn text and images into cinematic shots, maintain consistent characters and scenes, control the camera and build sequences. The service can also generate dialogue, sound effects and ambient audio, and can be tried for free with limited credits.",
+        "full": "According to the YouTube channel Brief Anish, Google Flow is an AI filmmaking studio powered by Veo. Its described workflow goes beyond generating isolated clips: users can turn text and images into cinematic shots and assemble them into sequences.\n\nThe description highlights consistent characters and scenes as a core capability. Flow is also said to provide camera control and tools for building sequences, making it relevant to narrative work and preproduction where recurring visual elements must remain consistent across multiple shots.\n\nAudio is part of the described workflow as well. Brief Anish says Flow can generate dialogue, sound effects and ambient audio, bringing several parts of an AI-based film production into one studio.\n\nThe channel presents Flow as a tool for solo creators, filmmakers and designers who want to experiment with cinematic storytelling without a Hollywood-sized production setup. Flow can be started for free, although the free usage includes limited credits.",
+        "deep": "Brief Anish does not present an independent test or measurements of output quality; it summarizes Google Flow’s stated features. The source explicitly mentions text- and image-based cinematic shot generation, character and scene consistency, camera control, sequence building, and the generation of dialogue, sound effects and ambient audio.\n\nThe description says that Flow is powered by Veo but does not specify which Veo version is used. No version number or product release date can therefore be established from the source. It only states that the service can be used for free with limited credits and gives no details about paid tiers or actual availability."
+      },
+      "cat": "film",
+      "date": "2026-10-04T15:52:44Z",
+      "meta": "Brief Anish · 2026-10-04",
+      "url": "https://www.youtube.com/watch?v=Mat-Fjb2A6U",
+      "img": "https://i.ytimg.com/vi/Mat-Fjb2A6U/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Brief Anish"
+      ],
+      "parts": [],
+      "views": 36,
+      "buzz": 39,
+      "sourceCheckedAt": "2026-10-04T18:20:58.341Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "2ab19858165f4b0170c45a514e2974a893729c3c5444ee77e5b65f850f242f50",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Google Flow"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI text-to-animation just went open source — Unimate animates any rigged character from humans to dragons to robots with just a text prompt. Plus Opus",
+      "evidenceIds": [
+        7,
+        32,
+        35
+      ],
+      "id": "x-WSSlHNcJQ",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Öppen AI-animering låter text styra riggade figurer",
+      "sum": "PixelArtistry beskriver Unimate som ett öppet AI-projekt för text-till-animering av riggade figurer, från människor och drakar till robotar och fåglar. Arbetsflödet kräver en färdigriggad figur och omfattar även rörelse­redigering, mellanbilder och rörelseutvidgning.",
+      "full": "PixelArtistry lyfter fram Unimate som veckans huvudsakliga AI-nyhet inom 3D: ett projekt med öppen källkod som omvandlar textinstruktioner till animering för riggade figurer. Enligt kanalens beskrivning ska systemet kunna användas med allt från människor och drakar till robotar och fåglar, vilket gör det relevant för flera typer av karaktärs- och creature-arbetsflöden.\n\nUnimate är inte ett verktyg som ersätter hela 3D-processen. PixelArtistry anger uttryckligen att en riggad figur behövs först. Det innebär att användaren måste ha ett skelett- och riggunderlag innan textbaserad animering kan användas. Därefter nämner kanalen funktioner för rörelseredigering, skapande av mellanbilder och utvidgning av rörelser.\n\nBeskrivningen anger också att modellvikter har släppts och att en ComfyUI-version från VisualBruno är på väg. För den som vill prova projektet hänvisar kanalen till Unimate på GitHub, projektets webbplats och publicerade vikter på Hugging Face. PixelArtistry nämner samtidigt en licensbegränsning: användning för utbildning uppges vara tillåten, medan kommersiell användning bör avvaktas.",
+      "deep": "PixelArtistry placerar Unimate i ett lokalt och öppet 3D-AI-sammanhang, parallellt med kanalens arbete med ett arbetsflödespaket för Trellis2 och Pixal3D samt ComfyUI-arbetsflöden. Dessa uppgifter visar kanalens fokus, men beskrivningen ger inga resultat från ett oberoende test och specificerar inte modellens tekniska arkitektur, hårdvarukrav, kvalitetsnivå eller vilka textinstruktioner som används.\n\nDe angivna tidsmarkeringarna delar upp Unimate-delen i kapacitet, förkravet att figuren måste vara riggad, redigering och rörelseutvidgning, följt av information om vikter och licens. Det stödjer att verktyget presenteras som ett arbetsflöde för att skapa och bearbeta animationer på befintliga riggar, inte som en text-till-3D-modellgenerator. Kanalens beskrivning säger inte när projektet släpptes och ger ingen bekräftelse på kommersiella rättigheter utöver varningen att sådan användning bör avvaktas.",
+      "en": {
+        "ttl": "Open AI animation lets text control rigged characters",
+        "sum": "PixelArtistry describes Unimate as an open AI project for text-to-animation of rigged characters, ranging from humans and dragons to robots and birds. The workflow requires a rigged character first and also includes motion editing, in-betweening and motion expansion.",
+        "full": "PixelArtistry presents Unimate as the main AI news item in the video’s 3D coverage: an open-source project that turns text instructions into animation for rigged characters. According to the channel’s description, it can be used with humans, dragons, robots and birds, making it relevant to several character and creature workflows.\n\nUnimate does not replace the entire 3D process. PixelArtistry explicitly states that a rigged character is required first. Users therefore need a skeleton and rig before applying text-based animation. The channel also mentions motion editing, in-betweening and motion expansion.\n\nThe description says that model weights have been released and that a VisualBruno ComfyUI version is forthcoming. PixelArtistry links to Unimate on GitHub, its project page and the released Hugging Face weights. The channel also notes a licensing limitation: educational use is described as safe, while commercial use should be held for now.",
+        "deep": "PixelArtistry places Unimate in a local, open 3D AI context, alongside the channel’s work on a Trellis2 and Pixal3D workflow pack and ComfyUI workflows. These details describe the channel’s focus, but the source provides no independent test results and does not specify the model’s technical architecture, hardware requirements, quality level or the prompts used.\n\nThe timestamps divide the Unimate section into capabilities, the requirement for a rigged character, editing and motion expansion, followed by information about released weights and licensing. This supports describing the tool as a workflow for creating and processing animation on existing rigs, rather than as a text-to-3D model generator. The source does not state a release date and provides no confirmation of commercial rights beyond the warning to hold off on commercial use."
+      },
+      "cat": "3d",
+      "date": "2026-10-04T14:56:15Z",
+      "meta": "PixelArtistry · 2026-10-04",
+      "url": "https://www.youtube.com/watch?v=x-WSSlHNcJQ",
+      "img": "https://i.ytimg.com/vi/x-WSSlHNcJQ/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "PixelArtistry"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 31,
+          "l": "Unimate — text-to-animation for any rigged character (open source)"
+        },
+        {
+          "t": 89,
+          "l": "Unimate capabilities (robots, creatures, birds, complex rigs)"
+        },
+        {
+          "t": 162,
+          "l": "Requirements (rigged character needed first)"
+        },
+        {
+          "t": 183,
+          "l": "Motion editing, in-betweening & motion expansion"
+        },
+        {
+          "t": 261,
+          "l": "Weights released + VisualBruno ComfyUI version coming soon"
+        },
+        {
+          "t": 318,
+          "l": "Licensing note — safe for education, hold for commercial use"
+        },
+        {
+          "t": 411,
+          "l": "Image to 3D Lab — Trellis 2 + Hunyuan3D on Mac"
+        },
+        {
+          "t": 455,
+          "l": "Opus 5.5, GPT-6.1 Sol & Gemini 4 — AI model roundup"
+        },
+        {
+          "t": 531,
+          "l": "Auto Unwrap — AI UV unwrapping Blender add-on ($15)"
+        },
+        {
+          "t": 569,
+          "l": "Smart Remesh — free AI retopology by same creator"
+        },
+        {
+          "t": 633,
+          "l": "Gemini 4 & Meta Horizon Create for AI game creation"
+        },
+        {
+          "t": 701,
+          "l": "BTC3D — detail enhancement for existing 3D models"
+        },
+        {
+          "t": 715,
+          "l": "Feeligree3D — new 3D paper"
+        },
+        {
+          "t": 775,
+          "l": "Outro"
+        }
+      ],
+      "views": 6100,
+      "buzz": 65,
+      "sourceCheckedAt": "2026-10-04T18:20:58.341Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "c7fe5d871880f6324cbdfc651379783e86712cd5db953830225542915477ee42",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Unimate"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Discover Noct Q Studio, an exciting AI image generation and editing tool to explore in 2026! In this video, we take a look at Noct",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "0_4VMA731sQ",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Noct Q Studio lanseras som AI-verktyg för bildskapande och redigering",
+      "sum": "FutureTech AI beskriver Noct Q Studio som en AI-baserad bildgenerator och bildredigerare, driven av bildmodellen Noct Q V4. Kanalen visar verktyget som en miljö för att skapa realistiska bilder, experimentera med kreativt bildskapande och använda AI-baserad redigering.",
+      "full": "FutureTech AI uppmärksammar Noct Q Studio som ett AI-verktyg för bildgenerering och bildredigering. Enligt kanalens beskrivning drivs tjänsten av bildmodellen Noct Q V4 och är inriktad på att skapa bilder från text samt bearbeta befintligt bildmaterial med AI.\n\nKanalen beskriver användningen som en kombination av realistiskt bildskapande, kreativt experimenterande och AI-baserad redigering. Det gör Noct Q Studio relevant för innehållsskapare som vill undersöka hur en samlad arbetsmiljö kan användas för att framställa och förändra visuellt material.\n\nBeskrivningen anger inte vilka specifika redigeringsfunktioner, format, begränsningar eller abonnemangsvillkor som ingår. Den bekräftar inte heller något separat lanseringsdatum för Noct Q Studio eller Noct Q V4. Uppgifterna här bygger därför enbart på FutureTech AI:s presenterade beskrivning, inte på ett oberoende test.",
+      "deep": "FutureTech AI kopplar Noct Q Studio till flera AI-arbetsflöden: text till bild, realistisk bildgenerering, kreativ AI-konst och AI-baserad fotoredigering. Beskrivningen nämner också att verktyget kan utforskas som en kostnadsfri onlinebaserad AI-tjänst, men ger inga närmare villkor för vad den kostnadsfria åtkomsten omfattar.\n\nNoct Q V4 anges uttryckligen som den underliggande bildmodellen. Källmaterialet innehåller däremot inga verifierbara uppgifter om modellens tekniska arkitektur, bildstorlekar, redigeringsprecision, säkerhetsfunktioner, tillgänglighet eller jämförelser med andra bildverktyg.",
+      "en": {
+        "ttl": "Noct Q Studio presented as an AI tool for image creation and editing",
+        "sum": "FutureTech AI describes Noct Q Studio as an AI-based image generator and editor powered by the Noct Q V4 image model. The channel presents it as a way to create realistic images, experiment with creative artwork and use AI-powered image editing.",
+        "full": "FutureTech AI highlights Noct Q Studio as an AI tool for image generation and editing. According to the channel’s description, the service is powered by the Noct Q V4 image model and is designed for creating images from text and modifying existing visual material with AI.\n\nThe channel describes the workflow as a combination of realistic image creation, creative experimentation and AI-powered editing. This makes Noct Q Studio relevant to content creators exploring how a unified environment can be used to produce and alter visual material.\n\nThe description does not specify particular editing features, supported formats, limitations or subscription terms. It also does not confirm a separate release date for Noct Q Studio or Noct Q V4. These details are therefore based solely on FutureTech AI’s description, not on an independent test.",
+        "deep": "FutureTech AI associates Noct Q Studio with several AI workflows: text-to-image generation, realistic image creation, creative AI artwork and AI photo editing. The description also presents the tool as a free online AI service, but provides no further details about what free access includes.\n\nNoct Q V4 is explicitly identified as the underlying image model. The source contains no verifiable information about the model’s technical architecture, image sizes, editing precision, safety features, availability or comparisons with other image tools."
+      },
+      "cat": "foto",
+      "date": "2026-10-04T11:30:10Z",
+      "meta": "FutureTech AI · 2026-10-04",
+      "url": "https://www.youtube.com/watch?v=0_4VMA731sQ",
+      "img": "https://i.ytimg.com/vi/0_4VMA731sQ/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "FutureTech AI"
+      ],
+      "parts": [],
+      "views": 3,
+      "buzz": 27,
+      "sourceCheckedAt": "2026-10-04T18:20:58.341Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "458de82f515e92909c0ca0d4aaaf75c9d4c20844e86b35960527b61e3a126e1b",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Noct Q Studio",
+        "Noct Q V4"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this class, we continue our AI Filmmaking journey with a practical **AI Filmmaking Workshop** designed to help beginners understand how AI can be used",
+      "evidenceIds": [
+        3,
+        10,
+        16
+      ],
+      "id": "LsZNARZTwGg",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "RASISA fortsätter AI-filmskaparkursen med arbetsflöde från idé till färdig video",
+      "sum": "I klass 2 av RASISAs tamilskpråkiga AI-filmskaparkurs presenteras ett stegvis arbetsflöde för att utveckla filmidéer, manus, bilder, video och redigering med hjälp av artificiell intelligens.",
+      "full": "RASISA beskriver klass 2 som en praktisk workshop för nybörjare som vill förstå hur artificiell intelligens kan användas i filmskapande och videoproduktion. Fokus ligger på arbetsprocessen bakom att skapa filmiskt innehåll, snarare än på en enskild produkt eller modell.\n\nKursens centrala arbetsflöde går från idé till manus, vidare till visuellt material och videogenerering, och avslutas med redigering. Enligt kanalens beskrivning behandlas idéutveckling, manusarbete, koncept för AI-bild- och videogenerering samt skapandet av filmiska scener med AI.\n\nBeskrivningen positionerar lektionen som ett steg för steg-upplägg för personer som vill lära sig AI-baserad videoproduktion. Den riktar sig bland annat till nybörjare, YouTubers, innehållsskapare, filmskapare, videoredigerare, studenter och andra som är intresserade av AI-video.\n\nRASISA framställer kursen som en fortsättning på en AI-filmskaparserie på tamil. Kanalens beskrivning anger inte någon specifik AI-plattform, modell, programversion eller självständigt testresultat, så artikeln kan inte koppla arbetsflödet till ett visst verktyg eller bedöma resultatkvaliteten.",
+      "deep": "Den konkreta strukturen i lektionen är IDEA → SCRIPT → VISUALS → VIDEO → EDITING. Det innebär att kursen enligt beskrivningen behandlar AI som en kedja av moment: först utvecklas en berättelseidé, därefter byggs den ut till ett manus, sedan skapas visuella koncept och filmiska scener, innan materialet sätts samman och redigeras till video.\n\nBeskrivningen nämner både AI-bildgenerering och AI-videogenerering, men ger inga uppgifter om vilka modeller som används, hur instruktioner formuleras, vilka inställningar som demonstreras eller vilka begränsningar som uppstår i processen. Den säger inte heller att videon innehåller en produktlansering, ett nytt modellsläpp eller en jämförande utvärdering.",
+      "en": {
+        "ttl": "RASISA continues its AI filmmaking course with a workflow from idea to finished video",
+        "sum": "In class 2 of RASISA’s Tamil-language AI filmmaking course, a step-by-step workflow is presented for developing film ideas, scripts, images, video and editing with artificial intelligence.",
+        "full": "RASISA describes class 2 as a practical workshop for beginners who want to understand how artificial intelligence can be used in filmmaking and video production. The focus is on the process behind creating cinematic content rather than on a specific product or model.\n\nThe course’s central workflow moves from idea to script, then to visual material and video generation, and finally to editing. According to the channel’s description, the lesson covers idea development, script work, AI image- and video-generation concepts, and the creation of cinematic scenes with AI.\n\nThe description presents the lesson as a step-by-step introduction to AI-based video production. It is aimed at beginners, YouTubers, content creators, filmmakers, video editors, students and others interested in AI video.\n\nRASISA presents the lesson as a continuation of a Tamil AI filmmaking series. The channel’s description does not name a specific AI platform, model or software version, and it reports no independent test results, so the workflow cannot be tied to a particular tool or used to assess output quality.",
+        "deep": "The lesson’s concrete structure is IDEA → SCRIPT → VISUALS → VIDEO → EDITING. According to the description, AI is treated as a chain of stages: first developing a story idea, then expanding it into a script, creating visual concepts and cinematic scenes, and finally assembling and editing the material into a video.\n\nThe description mentions both AI image generation and AI video generation, but provides no details about the models used, prompting methods, settings or limitations encountered. It also does not state that the video covers a product launch, a new model release or a comparative evaluation."
+      },
+      "cat": "film",
+      "date": "2026-10-04T09:00:06Z",
+      "meta": "RASISA · 2026-10-04",
+      "url": "https://www.youtube.com/watch?v=LsZNARZTwGg",
+      "img": "https://i.ytimg.com/vi/LsZNARZTwGg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "RASISA"
+      ],
+      "parts": [],
+      "views": 21,
+      "buzz": 36,
+      "sourceCheckedAt": "2026-10-04T18:20:58.341Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1d8feb2199f9705d7d954629ce12611688d62d9c404645464d230e99cbae24e8",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this video, I’m showing you my complete AI filmmaking workflow, starting from the initial story idea and Script all the way to the Final",
+      "evidenceIds": [
+        2,
+        6,
+        10
+      ],
+      "id": "ti0Ie018EWY",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Legend Prompts visar komplett arbetsflöde för AI-filmskapande från manus till färdig video",
+      "sum": "YouTube-kanalen Legend Prompts beskriver ett fyrastegsflöde där ChatGPT används för att utveckla en idé till manus och plan, följt av skapande av rekvisita och miljöer, scen- och videoprompter samt AI-genererad musik och voice-over innan redigering till en färdig film.",
+      "full": "YouTube-kanalen Legend Prompts presenterar ett komplett arbetsflöde för AI-filmskapande, från den första berättelseidén till en färdig filmisk video. Enligt beskrivningen är processen uppdelad i fyra huvudsteg och är tänkt att visa hur ett koncept och ett manus omvandlas till ett sammanhängande videoprojekt.\n\nDet första steget gäller manus och planering. Legend Prompts beskriver hur kanalens skapare undersöker berättelseidéer och använder ChatGPT för att utveckla ett koncept till ett filmiskt manus. ChatGPT används också för att planera videon innan produktionen går vidare.\n\nDet andra steget fokuserar på de visuella tillgångarna som krävs enligt manuset: rekvisita och miljöer. Beskrivningen säger att karaktärsskapande redan har behandlats i en tidigare handledning, medan detta upplägg huvudsakligen koncentrerar sig på att skapa de objekt och miljöer som behövs för videon.\n\nI det tredje steget delas manuset upp i individuella scener. Därefter skapas detaljerade videoprompter med information om karaktärer, rekvisita, miljöer, handlingar och kamerarörelser. Det gör scenplaneringen till en central del av arbetsflödet, snarare än att videon skapas från en enda övergripande instruktion.\n\nDet fjärde steget omfattar ljud och sammanställning. Legend Prompts beskriver hur bakgrundsmusik genereras med AI, hur voice-over skapas och hur materialet sedan förs samman i videoredigeringen. Avslutningsvis visas resultatet, där den ursprungliga idén och manuset har omvandlats till en komplett filmisk AI-video.",
+      "deep": "Beskrivningen anger att arbetsflödet börjar med research av berättelseidéer och fortsätter med manusframställning och videoplanering i ChatGPT. Den specificerar inte vilken modellversion eller vilka ytterligare AI-tjänster som används för de olika produktionsmomenten.\n\nFör den visuella delen anges rekvisita och miljöer som särskilda produktionsdelar. Scenprompterna ska enligt Legend Prompts samla flera typer av information: vilka karaktärer som medverkar, vilka objekt och miljöer som behövs, vad som händer i scenen samt hur kameran rör sig.\n\nLjuddelen omfattar AI-genererad bakgrundsmusik och voice-over. Beskrivningen säger att dessa komponenter därefter förbereds för redigering tillsammans med videomaterialet. Den nämner också ett dokument med masterprompter, men ger inga närmare detaljer om dokumentets innehåll eller om specifika promptmallar.",
+      "en": {
+        "ttl": "Legend Prompts presents a complete AI filmmaking workflow from script to final video",
+        "sum": "The YouTube channel Legend Prompts describes a four-step workflow in which ChatGPT is used to develop an idea into a script and plan, followed by the creation of props and environments, scene and video prompts, and AI-generated music and voice-over before editing into a finished film.",
+        "full": "YouTube channel Legend Prompts presents a complete AI filmmaking workflow, from the initial story idea to a finished cinematic video. According to the description, the process is divided into four main steps and is intended to show how a concept and script are transformed into a coherent video project.\n\nThe first step covers scriptwriting and planning. Legend Prompts describes researching story ideas and using ChatGPT to develop a concept into a cinematic script. ChatGPT is also used to plan the video before production continues.\n\nThe second step focuses on the visual assets required by the script: props and environments. The description says character creation was already covered in a previous tutorial, while this workflow focuses mainly on creating the objects and environments needed for the video.\n\nIn the third step, the script is divided into individual scenes. Detailed video prompts are then created with information about characters, props, environments, actions and camera movements. Scene planning is therefore a central part of the workflow rather than the video being created from one broad instruction.\n\nThe fourth step covers sound and assembly. Legend Prompts describes generating background music with AI, creating a voice-over and bringing the material together in video editing. Finally, the result is shown, with the original idea and script transformed into a complete cinematic AI video.",
+        "deep": "The description says the workflow begins with researching story ideas and continues with script creation and video planning in ChatGPT. It does not specify which model version or which additional AI services are used for the different production stages.\n\nFor the visual component, props and environments are identified as separate production elements. According to Legend Prompts, the scene prompts should combine several types of information: which characters appear, which objects and environments are needed, what happens in the scene and how the camera moves.\n\nThe sound stage includes AI-generated background music and a voice-over. The description says these components are then prepared for editing together with the video material. It also mentions a master-prompts document, but provides no further details about its contents or specific prompt templates."
+      },
+      "cat": "film",
+      "date": "2026-10-04T08:00:29Z",
+      "meta": "Legend Prompts · 2026-10-04",
+      "url": "https://www.youtube.com/watch?v=ti0Ie018EWY",
+      "img": "https://i.ytimg.com/vi/ti0Ie018EWY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Legend Prompts"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Introduction | Complete AI Filmmaking Workflow"
+        },
+        {
+          "t": 80,
+          "l": "Step 1: Script Creation"
+        },
+        {
+          "t": 242,
+          "l": "Step 2: Characters, Props & Environments"
+        },
+        {
+          "t": 402,
+          "l": "Step 3: Scene & Video Prompts"
+        },
+        {
+          "t": 546,
+          "l": "Step 4: Sound, Music & Voice-over"
+        },
+        {
+          "t": 732,
+          "l": "Final Video | The Result"
+        }
+      ],
+      "views": 6069,
+      "buzz": 65,
+      "sourceCheckedAt": "2026-10-04T18:20:58.341Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "ad9efc78758a304a24f087dfec25b5e2b749f4d5285bd28f259a9823b215aed4",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "ChatGPT"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "What happens when original footage meets AI filmmaking? This experiment explores how **Flow AI Omni 1.1** can transform real footage into AI-generated cinematic visuals while",
@@ -19202,7 +19506,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -19220,7 +19524,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -19238,7 +19542,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -19256,7 +19560,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -19274,7 +19578,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -19292,7 +19596,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -19310,7 +19614,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 622000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -19328,7 +19632,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -19346,7 +19650,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -19364,7 +19668,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -19382,7 +19686,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -19400,7 +19704,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -19418,7 +19722,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -19436,7 +19740,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -19454,7 +19758,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -19472,7 +19776,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -19490,7 +19794,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -19508,7 +19812,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -19526,7 +19830,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21300000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -19544,7 +19848,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -19562,7 +19866,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -19580,7 +19884,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -19597,8 +19901,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 751000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "subscriberCount": 752000,
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -19616,7 +19920,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -19634,7 +19938,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 757000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -19652,7 +19956,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -19670,7 +19974,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 341000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -19688,7 +19992,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 196000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -19706,7 +20010,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 485000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -19724,7 +20028,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 453000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -19742,7 +20046,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -19760,7 +20064,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -19778,7 +20082,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -19796,7 +20100,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -19814,7 +20118,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -19822,87 +20126,87 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-04T08:45:40.900Z",
+      "checkedAt": "2026-10-04T18:20:58.341Z",
       "found": 3
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-04T11:08:24.834Z",
+    "calculatedAt": "2026-10-04T18:20:58.341Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.07013532102251491,
+      "chatgpt-images-2-0": 0.06807988697195166,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.2575994196900512,
-      "google-veo-3-1": 0.06938077845157553,
+      "runway-gen-4-5": 0.25005003357593775,
+      "google-veo-3-1": 0.06734745754557765,
       "flux-2": 0,
-      "elevenlabs": 0.8684627987916859,
+      "elevenlabs": 0.8430110295225206,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.5212528543553785,
+      "kling-3-0": 0.505976658992255,
       "freepik-ai": 0,
-      "adobe-firefly": 0.13457437145915574,
+      "adobe-firefly": 0.07996570597194025,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.417504520546712,
+      "higgsfield": 5.258735399677683,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.4864027389832597,
+      "meshy-ai": 1.442841195983038,
       "magnific-ai": 0,
-      "seedance-2-5": 2.599263732532025,
+      "seedance-2-5": 2.5230879183438315,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.5001088074691902,
+      "nano-banana-pro": 0.48545227411520786,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.20464254839301813,
+      "rodin-hyper3d": 0.1986451528435486,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7069039587686896,
-      "trellis-2": 0.49385146805094704,
+      "hunyuan3d": 0.6861869442010274,
+      "trellis-2": 0.4793783165981049,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.14133503912333173,
-      "hitem3d": 0.5325540096350134,
+      "luma-genie": 0.13719297706791567,
+      "hitem3d": 0.5169466148272476,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.27101328137429925
+      "gemini-omni-flash": 0.26307077938571094
     }
   }
 }

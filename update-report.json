@@ -1,43 +1,196 @@
 {
-  "startedAt": "2026-10-04T11:08:24.834Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-04T18:20:58.341Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 123,
+    "relevant": 46,
+    "supported": 38
+  },
+  "rejected": [
     {
-      "platform": "ideogram-v3",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://developer.ideogram.ai/api-reference\",\"quote\":\"Ideogram 3.0 | Previous generation, stable contract\",\"retrieved\":[]}"
+      "video": "rcUTZysF9s4",
+      "title": "This Robot Looks DEMONIC... On Purpose?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "ideogram-v3",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://developer.ideogram.ai/api-reference\",\"quote\":\"Previous generation, stable contract\",\"retrieved\":[]}"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        6,
+        8,
+        10
+      ]
     },
     {
-      "platform": "ideogram-v3",
-      "field": "tier",
-      "message": "Quote not found: {\"url\":\"https://ideogram.ai/pricing/?tab=personal\",\"quote\":\"Free plan $0 Start for free\",\"retrieved\":[]}"
+      "video": "kqqgPi8neys",
+      "title": "DOTS just did your entire content setup.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
     },
     {
-      "platform": "ideogram-v3",
-      "field": "free",
-      "message": "Quote not found: {\"url\":\"https://ideogram.ai/pricing/?tab=personal\",\"quote\":\"Free plan $0 Start for free\",\"retrieved\":[]}"
+      "video": "i7S52771wOw",
+      "title": "Big Gemini update just in time for Gemini 4! #gemini",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "nano-banana-pro",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
     },
     {
-      "candidate": "Flux Klein",
-      "message": "Invalid evidence URL"
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        6
+      ]
     },
     {
-      "candidate": "ComfyUI Desktop",
-      "message": "Evidence quote missing"
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2
+      ]
+    },
+    {
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "uKgcxH46Ca4",
+      "title": "The Ultimate 100 Photoshop Tricks: 10 Years of PiXimperfect",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "enUd0MmAVCo",
+      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pDD70SSDW0k",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dDgncbBAA0c",
+      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "q-2FcO2Zm0c",
+      "title": "Flux 3 Just Solved AI Image Editing",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "b5OPjTY2cfo",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5rl_1bsXCFE",
+      "title": "ChatGPT Image 2.5 Update #chatgpt #chatgpt4 #chatgptimages #chatgpt活用 #howto #chatgptinsights",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "2HExGoH4bUA",
+      "title": "AI Filmmaking Kaise Kare? Character Consistency & AI Video Generation Ka Complete Guide",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "B-biLL1ZFoA",
+      "title": "Flux 3 just fixed the #1 problem with AI image editing.",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        13,
+        25
+      ]
+    },
+    {
+      "video": "bt599_Vot5M",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "A5t9e_POEpo",
+      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "rynapRtUeWY",
+      "title": "When AI Meets Design: The Future of 3D Creation!",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 5
 }
