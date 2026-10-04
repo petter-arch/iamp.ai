@@ -16186,7 +16186,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -16233,7 +16233,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-22T10:02:19.819Z"
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z"
     },
     {
       "n": "Wan 3.0",
@@ -16283,7 +16283,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-22T10:02:19.819Z"
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z"
     },
     {
       "n": "Nano Banana Pro",
@@ -16330,7 +16330,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-22T10:02:19.819Z",
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17620,7 +17620,8 @@
         "https://www.youtube.com/watch?v=luG8o7cP5Uo",
         "https://www.youtube.com/watch?v=2XYp_fmku_U",
         "https://www.youtube.com/watch?v=BUCAptdusuU",
-        "https://www.youtube.com/watch?v=51KzSFNAiJQ"
+        "https://www.youtube.com/watch?v=51KzSFNAiJQ",
+        "https://www.youtube.com/watch?v=mqoeh_uojS0"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -18057,7 +18058,8 @@
     {
       "name": "Blender",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=WdmSvISHQm4"
+        "https://www.youtube.com/watch?v=WdmSvISHQm4",
+        "https://www.youtube.com/watch?v=mqoeh_uojS0"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z",
       "lastAttemptAt": "2026-10-03T10:26:44.648Z",
@@ -18080,14 +18082,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=_lgyED4IkJg"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "ComfyUI Desktop",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=_lgyED4IkJg"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-04T11:08:24.834Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "ComfyUI Easy Install",
@@ -18766,14 +18774,16 @@
     {
       "name": "Veo",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=4G-LiRlM1Og"
+        "https://www.youtube.com/watch?v=4G-LiRlM1Og",
+        "https://www.youtube.com/watch?v=rUuwlGbxb3g"
       ],
       "firstSeen": "2026-09-28T11:44:53.630Z"
     },
     {
       "name": "Gemini",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=4G-LiRlM1Og"
+        "https://www.youtube.com/watch?v=4G-LiRlM1Og",
+        "https://www.youtube.com/watch?v=rUuwlGbxb3g"
       ],
       "firstSeen": "2026-09-28T11:44:53.630Z"
     },
@@ -19147,6 +19157,34 @@
         "https://www.youtube.com/watch?v=BFsVW1DrLng"
       ],
       "firstSeen": "2026-10-03T10:26:44.648Z"
+    },
+    {
+      "name": "Flow AI Omni 1.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=qCL6rGcaa8A"
+      ],
+      "firstSeen": "2026-10-04T11:08:24.834Z"
+    },
+    {
+      "name": "Imagen",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=rUuwlGbxb3g"
+      ],
+      "firstSeen": "2026-10-04T11:08:24.834Z"
+    },
+    {
+      "name": "Unreal Engine",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mqoeh_uojS0"
+      ],
+      "firstSeen": "2026-10-04T11:08:24.834Z"
+    },
+    {
+      "name": "AccuRIG",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mqoeh_uojS0"
+      ],
+      "firstSeen": "2026-10-04T11:08:24.834Z"
     }
   ],
   "sourceChecks": {},
@@ -19813,58 +19851,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-04T08:45:40.900Z",
+    "calculatedAt": "2026-10-04T11:08:24.834Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.07082708318958642,
+      "chatgpt-images-2-0": 0.07013532102251491,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.2601401870267253,
-      "google-veo-3-1": 0.0700650983770431,
+      "runway-gen-4-5": 0.2575994196900512,
+      "google-veo-3-1": 0.06938077845157553,
       "flux-2": 0,
-      "elevenlabs": 0.8770286640212794,
+      "elevenlabs": 0.8684627987916859,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.526394101288651,
+      "kling-3-0": 0.5212528543553785,
       "freepik-ai": 0,
-      "adobe-firefly": 0.1359017120555293,
+      "adobe-firefly": 0.13457437145915574,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.522514023409035,
+      "higgsfield": 5.417504520546712,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.5010634999931085,
+      "meshy-ai": 1.4864027389832597,
       "magnific-ai": 0,
-      "seedance-2-5": 2.6249009191334753,
+      "seedance-2-5": 2.599263732532025,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.5050415053934698,
+      "nano-banana-pro": 0.5001088074691902,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.20666098889756712,
+      "rodin-hyper3d": 0.20464254839301813,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7138763288569693,
-      "trellis-2": 0.4987224482756003,
+      "hunyuan3d": 0.7069039587686896,
+      "trellis-2": 0.49385146805094704,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.14272906187138054,
-      "hitem3d": 0.5378067226819742,
+      "luma-genie": 0.14133503912333173,
+      "hitem3d": 0.5325540096350134,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.2736863529749621
+      "gemini-omni-flash": 0.27101328137429925
     }
   }
 }
