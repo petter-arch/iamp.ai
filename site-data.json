@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T10:13:37.355Z",
+  "updatedAt": "2026-10-05T12:19:47.929Z",
   "newsCheckedAt": "2026-10-05T10:13:37.355Z",
   "news": [
     {
@@ -16688,8 +16688,8 @@
       "bdg": "new",
       "pct": 95,
       "price": "I Gemini / betala per bild (API)",
-      "sub": "Googles senaste toppmodell för bilder — avancerad kunskap, kvalitet och resonemang i hög hastighet.",
-      "long": "Nano Banana 2 (Gemini 3.1 Flash Image, februari 2026) ger nära Pro-kvalitet i betydligt högre hastighet och till lägre pris. Stark textrendering, 4K-stöd och flera referensbilder — ett smart förstaval när volym och fart betyder mer än absolut toppkvalitet.",
+      "sub": "Googles senaste toppmodell för bilder, med avancerad världskunskap, kvalitet och resonemang i hög hastighet.",
+      "long": "Nano Banana 2 är Googles senaste toppmodell för bildgenerering. Google beskriver den som gjord för att skapa bilder med verklighetstrogen precision, lägga in tydlig text på många språk och förverkliga idéer snabbt. Den kan förändra stämning, kameravinkel och fokus i en bild, överföra textur, färg eller stil från en referensbild, ändra storlek för olika format utan att beskära viktiga detaljer samt kombinera två uppladdade bilder till en.",
       "pros": [
         "Mycket snabb",
         "Nära Pro-kvalitet",
@@ -16724,16 +16724,45 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-09-23T10:02:36.801Z",
+          "checkedAt": "2026-10-05T12:19:47.929Z",
           "sources": [
             {
-              "url": "https://gemini.google/overview/image-generation/",
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
               "quote": "Our latest state of the art image model."
+            },
+            {
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
+              "quote": "advanced world knowledge, quality and reasoning"
+            },
+            {
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
+              "quote": "at the fast speed you need"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-10-05T12:19:47.929Z",
+          "sources": [
+            {
+              "url": "https://gemini.google/gemini-drops/",
+              "quote": "Create images with real-world accuracy, add text in any language, and bring your ideas to life in a flash."
+            },
+            {
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
+              "quote": "Take the texture, color, or style from any reference photo and apply it to your subject."
+            },
+            {
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
+              "quote": "Instantly resize them to fit whatever format you require"
+            },
+            {
+              "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
+              "quote": "Gemini now lets you upload two pictures and combine them into one image."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -16801,8 +16830,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z"
     },
     {
       "n": "Hailuo 3.0",
@@ -16852,7 +16880,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -16897,8 +16925,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-23T10:02:36.801Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z"
     },
     {
       "n": "Grok Imagine",
@@ -17952,7 +17979,8 @@
         "https://www.youtube.com/watch?v=FKIg7Wtsyp0",
         "https://www.youtube.com/watch?v=T1Thl6mofGQ",
         "https://www.youtube.com/watch?v=oWrr9AA2CTk",
-        "https://www.youtube.com/watch?v=vhhGPVmcOm8"
+        "https://www.youtube.com/watch?v=vhhGPVmcOm8",
+        "https://www.youtube.com/watch?v=ti0Ie018EWY"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -18101,7 +18129,8 @@
         "https://www.youtube.com/watch?v=btK3d1q09Pc",
         "https://www.youtube.com/watch?v=X7jHqd5xp9I",
         "https://www.youtube.com/watch?v=4G-LiRlM1Og",
-        "https://www.youtube.com/watch?v=oWrr9AA2CTk"
+        "https://www.youtube.com/watch?v=oWrr9AA2CTk",
+        "https://www.youtube.com/watch?v=Mat-Fjb2A6U"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -18448,14 +18477,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=_lgyED4IkJg"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "VisualBruno's Trellis2 Pixal3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=_lgyED4IkJg"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Luma Ray 3.2",
@@ -19531,6 +19565,27 @@
         "https://www.youtube.com/watch?v=mqoeh_uojS0"
       ],
       "firstSeen": "2026-10-04T11:08:24.834Z"
+    },
+    {
+      "name": "Unimate",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=x-WSSlHNcJQ"
+      ],
+      "firstSeen": "2026-10-05T12:19:47.929Z"
+    },
+    {
+      "name": "Noct Q Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=0_4VMA731sQ"
+      ],
+      "firstSeen": "2026-10-05T12:19:47.929Z"
+    },
+    {
+      "name": "Noct Q V4",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=0_4VMA731sQ"
+      ],
+      "firstSeen": "2026-10-05T12:19:47.929Z"
     }
   ],
   "sourceChecks": {},
@@ -20197,58 +20252,58 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-05T10:13:37.355Z",
+    "calculatedAt": "2026-10-05T12:19:47.929Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.06376300802136531,
+      "chatgpt-images-2-0": 0.06321216407953266,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.2341946058637547,
-      "google-veo-3-1": 0.06307702122752398,
+      "runway-gen-4-5": 0.23217141586922524,
+      "google-veo-3-1": 0.06253210347520609,
       "flux-2": 0,
-      "elevenlabs": 0.7895565258457269,
+      "elevenlabs": 0.7827356050251344,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.47389317463524416,
+      "kling-3-0": 0.46979924631498376,
       "freepik-ai": 0,
-      "adobe-firefly": 0.0748951588803849,
+      "adobe-firefly": 0.07424814510512465,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.925284138765269,
+      "higgsfield": 4.882734970935323,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.3009200850733273,
+      "meshy-ai": 1.2896815320328099,
       "magnific-ai": 0,
-      "seedance-2-5": 2.3631013847342124,
+      "seedance-2-5": 2.3426867254809824,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.4546702209002018,
+      "nano-banana-pro": 0.4507423582650096,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.1860492582689936,
+      "rodin-hyper3d": 0.18444199239525083,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6426765021697564,
-      "trellis-2": 0.44898140707999046,
+      "hunyuan3d": 0.6371244670828957,
+      "trellis-2": 0.44510268968945216,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.12849370476864228,
-      "hitem3d": 0.48416753631549836,
+      "luma-genie": 0.12738365709316687,
+      "hitem3d": 0.4799848485395066,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.24638971893517875
+      "gemini-omni-flash": 0.24426117625476113
     }
   }
 }

@@ -1,170 +1,29 @@
 {
-  "startedAt": "2026-10-05T10:13:37.355Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 3
-    },
-    "3d": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-05T10:13:37.355Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 117,
-    "relevant": 27,
-    "supported": 20
-  },
-  "rejected": [
+  "startedAt": "2026-10-05T12:19:47.929Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "rcUTZysF9s4",
-      "title": "This Robot Looks DEMONIC... On Purpose?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "nano-banana-2",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://gemini.google/us/subscriptions/?hl=en\",\"quote\":\"$0/ month with a Google Account\",\"retrieved\":[]}"
     },
     {
-      "video": "gX0L0aFA2xg",
-      "title": "Claude Opus 5.5 is ridiculous",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        10,
-        11,
-        12
-      ]
+      "platform": "nano-banana-2",
+      "field": "free",
+      "message": "Quote not found: {\"url\":\"https://gemini.google/us/subscriptions/?hl=en\",\"quote\":\"$0/ month with a Google Account\",\"retrieved\":[]}"
     },
     {
-      "video": "kqqgPi8neys",
-      "title": "DOTS just did your entire content setup.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        5
-      ]
+      "platform": "hailuo-3-0",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5
-      ]
-    },
-    {
-      "video": "Z8-AOU6ZjoQ",
-      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        6
-      ]
-    },
-    {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        7
-      ]
-    },
-    {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "l9VQFMKdkLA",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4_veqqIu_f4",
-      "title": "Chatgpt Photo Editing 😎 Tutorial! Ai Trending Prompt Photo Edit | Chatgpt Viral Prompt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "1FAnn26Z_M8",
-      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "pDD70SSDW0k",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "BF-0T4l0JQg",
-      "title": "ChatGPT का नया AI Image Editor! 🤯 #ChatGPT #AI #AIImages",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "aDpIra7NFuE",
-      "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "enUd0MmAVCo",
-      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "q-2FcO2Zm0c",
-      "title": "Flux 3 Just Solved AI Image Editing",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "A5t9e_POEpo",
-      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
-      "stage": "insufficient-article-source"
+      "candidate": "ComfyUI Easy Install",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 1
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }
