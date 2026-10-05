@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-04T18:20:58.341Z",
+  "startedAt": "2026-10-05T10:13:37.355Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
+      "checkedAt": "2026-10-05T10:13:37.355Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-04T18:20:58.341Z",
-      "found": 3
+      "checkedAt": "2026-10-05T10:13:37.355Z",
+      "found": 2
     }
   },
   "selection": {
-    "fetched": 123,
-    "relevant": 46,
-    "supported": 38
+    "fetched": 117,
+    "relevant": 27,
+    "supported": 20
   },
   "rejected": [
     {
@@ -53,9 +53,9 @@
       "title": "Claude Opus 5.5 is ridiculous",
       "stage": "classification-evidence",
       "evidenceIds": [
-        6,
-        8,
-        10
+        10,
+        11,
+        12
       ]
     },
     {
@@ -69,20 +69,11 @@
       ]
     },
     {
-      "video": "i7S52771wOw",
-      "title": "Big Gemini update just in time for Gemini 4! #gemini",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
       "video": "U9tFP81PSbQ",
       "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        4,
         5
       ]
     },
@@ -101,7 +92,9 @@
       "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2
+        0,
+        2,
+        7
       ]
     },
     {
@@ -109,6 +102,7 @@
       "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
@@ -118,13 +112,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "uKgcxH46Ca4",
-      "title": "The Ultimate 100 Photoshop Tricks: 10 Years of PiXimperfect",
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "enUd0MmAVCo",
-      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
+      "video": "l9VQFMKdkLA",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4_veqqIu_f4",
+      "title": "Chatgpt Photo Editing 😎 Tutorial! Ai Trending Prompt Photo Edit | Chatgpt Viral Prompt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1FAnn26Z_M8",
+      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
       "stage": "insufficient-article-source"
     },
     {
@@ -133,8 +137,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "dDgncbBAA0c",
-      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+      "video": "BF-0T4l0JQg",
+      "title": "ChatGPT का नया AI Image Editor! 🤯 #ChatGPT #AI #AIImages",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "aDpIra7NFuE",
+      "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "enUd0MmAVCo",
+      "title": "A Feature Film in Nine Generations. One Week. Confirmed.",
       "stage": "insufficient-article-source"
     },
     {
@@ -147,50 +161,10 @@
       ]
     },
     {
-      "video": "b5OPjTY2cfo",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5rl_1bsXCFE",
-      "title": "ChatGPT Image 2.5 Update #chatgpt #chatgpt4 #chatgptimages #chatgpt活用 #howto #chatgptinsights",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "2HExGoH4bUA",
-      "title": "AI Filmmaking Kaise Kare? Character Consistency & AI Video Generation Ka Complete Guide",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "B-biLL1ZFoA",
-      "title": "Flux 3 just fixed the #1 problem with AI image editing.",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        13,
-        25
-      ]
-    },
-    {
-      "video": "bt599_Vot5M",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "A5t9e_POEpo",
       "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "rynapRtUeWY",
-      "title": "When AI Meets Design: The Future of 3D Creation!",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 1
 }
