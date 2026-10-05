@@ -1,6 +1,141 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "The prototype takes a single continuous drone video along with available flight telemetry and processes it through multiple stages to generate a georeferenced and textured",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "dTU5mtUEr8Y",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI-system omvandlar en enda drönarvideo till en georefererad 3D-modell",
+    "sum": "Kanalen Hoi hoi beskriver en prototyp som kombinerar en kontinuerlig drönarvideo med flygtelemetri för att skapa en georefererad och texturerad 3D-representation av ett område. Arbetsflödet använder AI för bildkvalitetsfiltrering samt detektering och segmentering av rörliga objekt innan fotogrammetrisk rekonstruktion och geospatial justering.",
+    "full": "Kanalen Hoi hoi presenterar en prototyp för att omvandla en enda kontinuerlig drönarvideo till en georefererad och texturerad 3D-modell. Systemet använder även tillgänglig flygtelemetri och bearbetar materialet i flera steg för att skapa en digital representation av det område som fångats från luften.\n\nFörst analyseras videobilderna. Bilder med rörelseoskärpa, dålig exponering, låg kontrast eller komprimeringsartefakter tas bort. Därefter används AI-baserad objektdetektering och segmentering för att identifiera dynamiska objekt, exempelvis fordon och fotgängare. Dessa objekt hindras från att skapa oönskade artefakter i den rekonstruerade modellen.\n\nSystemet uppskattar sedan kamerans positioner och färdväg genom fotogrammetrisk rekonstruktion. GPS- och höjddata från drönarens telemetri används för att fastställa metrisk skala och geospatial inpassning. Resultatet är inte bara en visuell modell, utan en modell som enligt kanalens beskrivning kan kopplas till geografisk information.\n\nPrototypen genererar ett tätt punktmoln, ett 3D-nät, texturer, DSM, DTM och en ortomosaik. Särskild bearbetning används för svårobserverade områden, bland annat ytor under trädkronor och byggnadsöverhäng. Den färdiga modellen visas i DroneMap Web Studio, där användaren kan interagera med 3D-scenen.\n\nArbetsflödet kan enligt Hoi hoi användas för bland annat katastrofinsatser, övervakning, spaning, infrastrukturinspektion och snabb kartläggning. Beskrivningen gäller en prototypdemonstration; den anger inga oberoende testresultat eller prestandamätningar.",
+    "deep": "DroneMap Web Studio erbjuder flera visningslägen för den genererade scenen: 3D Vivid, Wireframe, Distinct AI och Height Map. Videon visar också ett mätverktyg i webbläsaren. Det kan beräkna verkligt 3D-avstånd, horisontellt markavstånd, vertikal höjdskillnad och bäring direkt i scenen.\n\nKärnan i systemet är kombinationen av AI-baserad förbehandling och geospatial 3D-rekonstruktion. Bildkvalitetsfiltret minskar påverkan från bristfälliga videobilder, medan objektdetektering och segmentering separerar rörliga objekt från den miljö som ska rekonstrueras. Fotogrammetrin används därefter för att uppskatta kamerans rörelse, och telemetrin tillför skala samt geografisk orientering.\n\nKanalens beskrivning specificerar inte vilka AI-modeller eller programvarubibliotek som används, hur noggrann rekonstruktionen är eller vilka begränsningar som gäller i praktisk drift. Den beskriver däremot ett sammanhängande arbetsflöde från en enda drönarflygning till flera geospatiala utdataformat och interaktiv analys i webbläsaren.",
+    "en": {
+      "ttl": "AI system converts a single drone video into a georeferenced 3D model",
+      "sum": "The Hoi hoi channel describes a prototype that combines continuous drone video with flight telemetry to create a georeferenced, textured 3D representation of an area. The workflow uses AI for image-quality filtering and moving-object detection and segmentation before photogrammetric reconstruction and geospatial alignment.",
+      "full": "The Hoi hoi channel presents a prototype that converts a single continuous drone video into a georeferenced, textured 3D model. The system also uses available flight telemetry and processes the material through multiple stages to create a digital representation of the area captured from the air.\n\nFirst, the video frames are analyzed. Frames affected by motion blur, poor exposure, low contrast, or compression artifacts are removed. AI-based object detection and segmentation then identify dynamic objects such as vehicles and pedestrians. These objects are prevented from creating unwanted artifacts in the reconstructed model.\n\nThe system next estimates the camera positions and trajectory through photogrammetric reconstruction. GPS and altitude data from the drone telemetry establish metric scale and geospatial alignment. According to the channel description, the result is not only a visual model but one linked to geographic information.\n\nThe prototype generates a dense point cloud, 3D mesh, textures, DSM, DTM, and an orthomosaic. Special processing is used for areas that are difficult to observe, including regions beneath tree canopies and building overhangs. The final model is displayed in DroneMap Web Studio, where the user can interact with the 3D scene.\n\nAccording to Hoi hoi, the workflow can support disaster response, surveillance, reconnaissance, infrastructure inspection, and rapid mapping. The description concerns a prototype demonstration and provides no independent test results or performance measurements.",
+      "deep": "DroneMap Web Studio provides several visualization modes for the generated scene: 3D Vivid, Wireframe, Distinct AI, and Height Map. The video also demonstrates a browser-based measurement tool. It can calculate true 3D distance, horizontal ground distance, vertical elevation difference, and bearing directly within the scene.\n\nThe core of the system is the combination of AI-based preprocessing and geospatial 3D reconstruction. Image-quality filtering reduces the effect of defective video frames, while object detection and segmentation separate moving objects from the environment being reconstructed. Photogrammetry is then used to estimate camera movement, while telemetry adds scale and geographic orientation.\n\nThe channel description does not specify which AI models or software libraries are used, how accurate the reconstruction is, or what limitations apply in practical operation. It does describe an end-to-end workflow from a single drone flight to multiple geospatial output formats and interactive browser-based analysis."
+    },
+    "cat": "3d",
+    "date": "2026-10-05T18:26:51Z",
+    "meta": "Hoi hoi · 2026-10-05",
+    "url": "https://www.youtube.com/watch?v=dTU5mtUEr8Y",
+    "img": "https://i.ytimg.com/vi/dTU5mtUEr8Y/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Hoi hoi"
+    ],
+    "parts": [],
+    "views": 6,
+    "buzz": 30,
+    "sourceCheckedAt": "2026-10-05T21:37:18.688Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "4bc45c3ea91b2d879ad312437fcb64f0a94056f61d2791f1bf40b407c4570dbf",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "DroneMap Web Studio"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Wawie.io is the all-in-one AI voice and music studio that gives you premium AI voices, voice cloning, AI music generation, automatic dubbing, and sound effects",
+    "evidenceIds": [
+      1,
+      13,
+      18
+    ],
+    "id": "_jsdeR2V3q8",
+    "tag": "aud",
+    "lab": "Ljud",
+    "ico": "🎵",
+    "ttl": "Wawie.io samlar AI-röster, röstkloning, musik och dubbning i en tjänst",
+    "sum": "Wawie AI beskriver Wawie.io som en allt-i-ett-studio för AI-ljud med text-till-tal, röstkloning, musikgenerering, automatisk dubbning och ljudeffekter från 4,99 dollar i månaden.",
+    "full": "Wawie AI presenterar Wawie.io som en samlad studio för AI-röst och AI-musik. Enligt kanalens beskrivning kombinerar tjänsten realistiska AI-röster, röstkloning, musik- och sånggenerering, automatisk dubbning samt ljudeffekter i ett enda gränssnitt. Priset uppges börja på 4,99 dollar per månad.\n\nBland funktionerna som Wawie AI säger sig gå igenom finns text-till-tal, omedelbar röstkloning, röstförändring, röstisolering och konvertering från röst till text. Beskrivningen nämner också automatisk dubbning av video och ett gemensamt kontrollpanel för kreatörer.\n\nArbetsflödet riktar sig enligt kanalen till YouTubers, innehållsskapare, poddare och andra som behöver AI-baserat ljud. Wawie AI framhåller att användaren kan samla flera ljudrelaterade uppgifter i samma abonnemang, i stället för att använda separata tjänster för exempelvis syntetiska röster och musik.\n\nBeskrivningen anger dessutom att Wawie.io erbjuder AI-röster, inklusive modeller från ElevenLabs. Wawie AI presenterar detta som ett alternativ för den som vill ha professionella AI-ljudfunktioner till en lägre kostnad, men videobeskrivningen innehåller ingen oberoende jämförelse eller testresultat som bekräftar den påstådda besparingen på 73 procent.",
+    "deep": "Wawie AI listar stöd för automatisk dubbning, vilket placerar tjänsten i ett arbetsflöde där befintligt tal kan anpassas för andra språk eller versioner av samma innehåll. Kanalen nämner även ljudböcker som ett användningsområde, utöver videor, poddar och annat innehåll för sociala plattformar.\n\nDe namngivna funktionerna täcker både generering och bearbetning: text-till-tal och AI-musik skapar nytt material, medan röstkloning, röstförändring, röstisolering, röst-till-text och dubbning hanterar eller omformar inspelat eller syntetiskt ljud. Wawie AI beskriver därför Wawie.io som en bred ljudstudio snarare än ett verktyg för en enda uppgift.\n\nVideon är en presentation av funktionerna enligt utgivarens beskrivning. Den anger inte tekniska specifikationer för modellerna, vilka språk som stöds, kloningskrav, användningsbegränsningar, ljudkvalitetsmått eller villkor för kommersiell användning.",
+    "en": {
+      "ttl": "Wawie.io samlar AI-röster, röstkloning, musik och dubbning i en tjänst",
+      "sum": "Wawie AI beskriver Wawie.io som en allt-i-ett-studio för AI-ljud med text-till-tal, röstkloning, musikgenerering, automatisk dubbning och ljudeffekter från 4,99 dollar i månaden.",
+      "full": "Wawie AI presenterar Wawie.io som en samlad studio för AI-röst och AI-musik. Enligt kanalens beskrivning kombinerar tjänsten realistiska AI-röster, röstkloning, musik- och sånggenerering, automatisk dubbning samt ljudeffekter i ett enda gränssnitt. Priset uppges börja på 4,99 dollar per månad.\n\nBland funktionerna som Wawie AI säger sig gå igenom finns text-till-tal, omedelbar röstkloning, röstförändring, röstisolering och konvertering från röst till text. Beskrivningen nämner också automatisk dubbning av video och ett gemensamt kontrollpanel för kreatörer.\n\nArbetsflödet riktar sig enligt kanalen till YouTubers, innehållsskapare, poddare och andra som behöver AI-baserat ljud. Wawie AI framhåller att användaren kan samla flera ljudrelaterade uppgifter i samma abonnemang, i stället för att använda separata tjänster för exempelvis syntetiska röster och musik.\n\nBeskrivningen anger dessutom att Wawie.io erbjuder AI-röster, inklusive modeller från ElevenLabs. Wawie AI presenterar detta som ett alternativ för den som vill ha professionella AI-ljudfunktioner till en lägre kostnad, men videobeskrivningen innehåller ingen oberoende jämförelse eller testresultat som bekräftar den påstådda besparingen på 73 procent.",
+      "deep": "Wawie AI listar stöd för automatisk dubbning, vilket placerar tjänsten i ett arbetsflöde där befintligt tal kan anpassas för andra språk eller versioner av samma innehåll. Kanalen nämner även ljudböcker som ett användningsområde, utöver videor, poddar och annat innehåll för sociala plattformar.\n\nDe namngivna funktionerna täcker både generering och bearbetning: text-till-tal och AI-musik skapar nytt material, medan röstkloning, röstförändring, röstisolering, röst-till-text och dubbning hanterar eller omformar inspelat eller syntetiskt ljud. Wawie AI beskriver därför Wawie.io som en bred ljudstudio snarare än ett verktyg för en enda uppgift.\n\nVideon är en presentation av funktionerna enligt utgivarens beskrivning. Den anger inte tekniska specifikationer för modellerna, vilka språk som stöds, kloningskrav, användningsbegränsningar, ljudkvalitetsmått eller villkor för kommersiell användning."
+    },
+    "cat": "ljud",
+    "date": "2026-10-05T12:27:19Z",
+    "meta": "Wawie AI · 2026-10-05",
+    "url": "https://www.youtube.com/watch?v=_jsdeR2V3q8",
+    "img": "https://i.ytimg.com/vi/_jsdeR2V3q8/hqdefault.jpg",
+    "plat": "ElevenLabs",
+    "platformIds": [
+      "elevenlabs"
+    ],
+    "chans": [
+      "Wawie AI"
+    ],
+    "parts": [],
+    "views": 7,
+    "buzz": 31,
+    "sourceCheckedAt": "2026-10-05T21:37:18.688Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "28a362b629de5a4f0ebb73fdff4448d9a26ddc36e82adc3b37c2edf218fb16c1",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Wawie.io"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Chatgpt Photo Editing 😎 Tutorial! Ai Trending Prompt Photo Edit | Chatgpt Viral Prompt how to edit photos into miniature toys how to edit your",
+    "evidenceIds": [
+      0,
+      6,
+      24
+    ],
+    "id": "4_veqqIu_f4",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Vinod Zone visar hur AI används för att skapa miniatyrbilder från egna foton",
+    "sum": "Kanalen Vinod Zone beskriver en arbetsmetod för att redigera egna bilder till AI-genererade miniatyrscener, bland annat med människor, familjer, bilar och motorcyklar.",
+    "full": "YouTube-kanalen Vinod Zone presenterar en tutorial om AI-baserad fotoredigering med fokus på miniatyrbilder. Beskrivningen anger att arbetsflödet kan användas för att omvandla egna foton till miniatyrmotiv och nämner även miniatyrbilder av människor, familjer, bilar och motorcyklar.\n\nEtt centralt användningsfall är att skapa bilder där personer eller fordon framställs som små modeller. Beskrivningen tar upp både egna porträtt och familjefoton samt möjligheten att skapa en miniatyrmotorcykel. Den placerar tekniken i sammanhanget av virala bilder och innehåll för Instagram och TikTok.\n\nVideon beskrivs som en stegvis handledning i hur AI kan användas för bildredigering. Källbeskrivningen specificerar inte vilka exakta redigeringssteg, promptar eller inställningar som används, och den ger inte heller tillräckligt underlag för att bedöma bildkvalitet eller resultatens tillförlitlighet. Påståendena återges därför som Vinod Zones beskrivning av arbetsflödet, inte som ett oberoende test.",
+    "deep": "Beskrivningen nämner flera varianter av samma arbetsflöde: att redigera egna bilder till miniatyrer, skapa miniatyrbilder framför en dator, göra miniatyrer av människor och producera motiv med familjer, bilar och motorcyklar. Den anger också att AI används för automatisk bildredigering, bildkombinationer och ansiktsbyte, men det framgår inte hur dessa funktioner kopplas ihop i den aktuella tutorialen.\n\nKällan använder både ChatGPT-relaterade sökord och hänvisningar till Gemini AI, inklusive formuleringar om att skapa miniatyrbilder där. Eftersom den fullständiga beskrivningen inte redovisar vilket verktyg som faktiskt demonstreras, registreras ingen specifik plattformsidentitet eller produktversion. Uppladdningsdatumet används inte som lanseringsdatum för någon produkt.",
+    "en": {
+      "ttl": "Vinod Zone shows how AI can create miniature images from personal photos",
+      "sum": "The channel Vinod Zone describes a workflow for turning personal images into AI-generated miniature scenes, including people, families, cars and motorcycles.",
+      "full": "The YouTube channel Vinod Zone presents a tutorial about AI-based photo editing focused on miniature images. The description says the workflow can be used to transform personal photos into miniature subjects and mentions miniature images of people, families, cars and motorcycles.\n\nOne central use case is creating images in which people or vehicles are depicted as small models. The description refers to personal portraits and family photos, as well as the creation of a miniature motorcycle. It places the technique in the context of viral images and content for Instagram and TikTok.\n\nThe video is described as a step-by-step guide to using AI for image editing. The source description does not specify the exact editing steps, prompts or settings, and it does not provide enough information to assess image quality or reliability. The claims are therefore attributed to Vinod Zone’s description of the workflow, not presented as an independent test.",
+      "deep": "The description lists several variations of the same workflow: editing personal images into miniatures, creating miniature images in front of a computer, making miniature people, and producing family, car and motorcycle subjects. It also mentions AI for automatic photo editing, image combinations and face swapping, but does not explain how these functions are connected in the tutorial.\n\nThe source uses both ChatGPT-related keywords and references to Gemini AI, including wording about creating miniature images with it. Because the full description does not identify which tool is actually demonstrated, no specific platform identity or product version is registered. The upload date is not treated as a product release date."
+    },
+    "cat": "foto",
+    "date": "2026-10-05T03:18:17Z",
+    "meta": "Vinod Zone · 2026-10-05",
+    "url": "https://www.youtube.com/watch?v=4_veqqIu_f4",
+    "img": "https://i.ytimg.com/vi/4_veqqIu_f4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Vinod Zone"
+    ],
+    "parts": [],
+    "views": 669,
+    "buzz": 54,
+    "sourceCheckedAt": "2026-10-05T21:37:18.688Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "fc6b7d5140b854feb60456429f8b4873147226f258dedbeb3febdefc6e45526f",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Chatgpt",
+      "gemini ai"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Google Flow is Google’s AI filmmaking studio, powered by Veo. You can turn text and images into cinematic shots, create consistent characters and scenes, control",
     "evidenceIds": [
       87,

@@ -1,29 +1,172 @@
 {
-  "startedAt": "2026-10-05T12:19:47.929Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-05T21:37:18.688Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 115,
+    "relevant": 31,
+    "supported": 22
+  },
+  "rejected": [
     {
-      "platform": "nano-banana-2",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://gemini.google/us/subscriptions/?hl=en\",\"quote\":\"$0/ month with a Google Account\",\"retrieved\":[]}"
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "nano-banana-2",
-      "field": "free",
-      "message": "Quote not found: {\"url\":\"https://gemini.google/us/subscriptions/?hl=en\",\"quote\":\"$0/ month with a Google Account\",\"retrieved\":[]}"
+      "video": "ijFSEb2W6_8",
+      "title": "I’ve Wanted This Robot for 10 Years",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        3
+      ]
     },
     {
-      "platform": "hailuo-3-0",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        10,
+        11,
+        12
+      ]
     },
     {
-      "candidate": "ComfyUI Easy Install",
-      "message": "Invalid evidence URL"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "kqqgPi8neys",
+      "title": "DOTS just did your entire content setup.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        9
+      ]
+    },
+    {
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dDgncbBAA0c",
+      "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1FAnn26Z_M8",
+      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "BF-0T4l0JQg",
+      "title": "ChatGPT का नया AI Image Editor! 🤯 #ChatGPT #AI #AIImages",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "PH5-Wuu5kME",
+      "title": "🔥 Trending Couple AI Photo Editing...✨",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pDD70SSDW0k",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "q-2FcO2Zm0c",
+      "title": "Flux 3 Just Solved AI Image Editing",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 3
 }
