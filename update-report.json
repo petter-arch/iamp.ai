@@ -1,49 +1,50 @@
 {
-  "startedAt": "2026-10-05T21:37:18.688Z",
+  "startedAt": "2026-10-06T09:24:06.682Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-05T21:37:18.688Z",
+      "checkedAt": "2026-10-06T09:24:06.682Z",
       "found": 3
     }
   },
   "selection": {
-    "fetched": 115,
-    "relevant": 31,
-    "supported": 22
+    "fetched": 114,
+    "relevant": 28,
+    "supported": 19
   },
   "rejected": [
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "video": "pOX1l1edBME",
+      "title": "The Apple Watch Has a Problem",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -62,7 +63,7 @@
       "evidenceIds": [
         10,
         11,
-        12
+        17
       ]
     },
     {
@@ -95,23 +96,23 @@
       ]
     },
     {
+      "video": "SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
       "video": "Z8-AOU6ZjoQ",
       "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
-        4
-      ]
-    },
-    {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        7
+        4,
+        6
       ]
     },
     {
@@ -124,9 +125,24 @@
       ]
     },
     {
+      "video": "lHmZoRHMZyM",
+      "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "AFqtMLqT7yE",
       "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "L0-ezCnX0gs",
+      "title": "Claude Opus 5.5 - 5 Real Uses and One BIG Website Showdown!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "2",
+        "16",
+        "22"
+      ]
     },
     {
       "video": "dDgncbBAA0c",
@@ -134,8 +150,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "1FAnn26Z_M8",
-      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
+      "video": "DNCv7rxnt9s",
+      "title": "Navratri Tranding Photo Editing | Instagram Viral Photo Editing| #instagram #viral#durgapuja #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3myMDipcGgU",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -149,18 +170,9 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pDD70SSDW0k",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "video": "1FAnn26Z_M8",
+      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "q-2FcO2Zm0c",
-      "title": "Flux 3 Just Solved AI Image Editing",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
     },
     {
       "video": "FKiKtIMy9m4",
@@ -168,5 +180,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 0
 }
