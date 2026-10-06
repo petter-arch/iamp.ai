@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T21:37:18.688Z",
+  "updatedAt": "2026-10-06T12:03:43.589Z",
   "newsCheckedAt": "2026-10-06T09:24:06.682Z",
   "news": [
     {
@@ -7822,8 +7822,10 @@
       "meta": "MiviCAI · 2026-09-18",
       "url": "https://www.youtube.com/watch?v=GrTf2MSzFco",
       "img": "https://i.ytimg.com/vi/GrTf2MSzFco/hqdefault.jpg",
-      "plat": "",
-      "platformIds": [],
+      "plat": "Luma Agents",
+      "platformIds": [
+        "luma-agents"
+      ],
       "chans": [
         "MiviCAI"
       ],
@@ -17071,8 +17073,8 @@
       "bdg": "",
       "pct": 72,
       "price": "Via X / xAI",
-      "sub": "Bild- och videogenerering i Grok; Imagine Video 1.5 finns också via API.",
-      "long": "xAI:s dokumenterade `grok-imagine-video-1.5` skapar video från text- eller bildreferenser med förinställda röster och upplösning upp till 1080p. Det ger en konkret väg från prompt eller stillbild till videoklipp i xAI:s API.",
+      "sub": "Grok Imagine Video 1.5 är allmänt tillgänglig i xAI API som `grok-imagine-video-1.5`.",
+      "long": "xAI:s dokumenterade `grok-imagine-video-1.5` skapar video från text, bild och referenser. Referens-till-video kan använda valfria förinställda röster, medan text- och bild-till-video har native 1080p.",
       "pros": [
         "Native ljud-video",
         "Snabbt och socialt",
@@ -17095,7 +17097,10 @@
       "deep": "Genererar ljud och bild tillsammans och passar den som redan är i X/xAI — snabb väg till socialt-först innehåll.",
       "caps": [
         "Text-till-video",
-        "Native ljud"
+        "Bild-till-video",
+        "Referens-till-video",
+        "Valfria förinställda röster",
+        "Native 1080p för text- och bild-till-video"
       ],
       "free": null,
       "id": "grok-imagine",
@@ -17105,29 +17110,50 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-09-13T09:08:03.910Z",
+          "checkedAt": "2026-10-06T12:03:43.589Z",
           "sources": [
             {
-              "url": "https://docs.x.ai/grok/overview",
-              "quote": "Create images and video with Grok Imagine."
-            },
-            {
               "url": "https://x.ai/news/grok-imagine-video-1-5",
-              "quote": "generally available in the xAI API"
+              "quote": "generally available in the xAI API as `grok-imagine-video-1.5`"
             }
           ]
         },
         "long": {
-          "checkedAt": "2026-09-24T10:05:38.488Z",
+          "checkedAt": "2026-10-06T12:03:43.589Z",
           "sources": [
             {
-              "url": "https://docs.x.ai/developers/model-capabilities/imagine",
-              "quote": "Create videos from text or image references, with preset voices — up to 1080p."
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "`grok-imagine-video-1.5` now supports text-to-video, image-to-video"
+            },
+            {
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "reference-to-video (including optional preset voices)"
+            },
+            {
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "native 1080p for T2V and I2V."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "`grok-imagine-video-1.5` now supports text-to-video, image-to-video"
+            },
+            {
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "reference-to-video (including optional preset voices)"
+            },
+            {
+              "url": "https://docs.x.ai/developers/release-notes",
+              "quote": "native 1080p for T2V and I2V."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17139,8 +17165,8 @@
       "bdg": "hot",
       "pct": 84,
       "price": "Gratis att generera / betal nedladdning",
-      "sub": "Bäst på fotorealistisk 3D — proffsvalet",
-      "long": "Rodin (Hyper3D, från Deemos/ByteDance) är 2026 års proffsval för AI-3D: tio-miljardersmodellen Rodin Gen-2 ger ren quad-topologi, T/A-pose och 4K PBR-texturer. Ofta det enda verktyget vars assets kan droppas rakt in i produktion utan timmars städning.",
+      "sub": "Bild- och text-till-3D med PBR-material, flexibel meshkvalitet och branschstandardiserade exportformat.",
+      "long": "Rodin Gen-2 är Hyper3D:s explicita Gen-2-tier för att skapa 3D-modeller med texturer från bilder eller textpromptar. Bild-till-3D kan använda en till fem bilder, medan text-till-3D använder en prompt utan bilder. Modellen kan generera Quad- eller Raw-mesh, erbjuder PBR-material och export till GLB, USDZ, FBX, OBJ och STL. HighPack uppgraderar texturpaketet från 2K till 4K, men ändrar inte geometrin och skapar inte en extra högpoly-modell.",
       "pros": [
         "Högst kvalitet och fotorealism",
         "Ren quad-topologi",
@@ -17174,8 +17200,35 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://hyper3d.ai/features/api",
+              "quote": "PBR Materials & Realistic Textures"
+            },
+            {
+              "url": "https://hyper3d.ai/features/api",
+              "quote": "Industry Standard Export Formats"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.hyper3d.ai/en/api-specification/rodin-gen2",
+              "quote": "Generate a 3D model and textures from images or a text prompt."
+            },
+            {
+              "url": "https://docs.hyper3d.ai/en/api-specification/rodin-gen2",
+              "quote": "`HighPack` upgrades pack textures from 2K to 4K."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17190,9 +17243,9 @@
       "sub": "Tripo v3.1 — högupplöst 3D-generering med upp till 2 miljoner polygoner",
       "long": "Tripo v3.1 lanserades i API:ts release notes den 11 mars 2026 för högdetaljerad 3D-generering, med stöd för upp till 2 miljoner polygoner. Tripo positionerar versionen för 3D-utskrift, hero assets och högdetaljerade visuella tillämpningar. API:t har separata arbetsflöden för text-, bild- och multivy-till-modell, och kreditförbrukningen varierar med uppgift och valda tillägg. Detta är leverantörens egen produktbeskrivning, inte en oberoende kvalitetsjämförelse.",
       "pros": [
-        "Etta på Top3D AI:s ELO-rankning",
-        "Renare quad-topologi",
-        "Auto-rigging och snabb iteration"
+        "Upp till 2 miljoner faces för högdetaljerad geometri",
+        "Stöd för quad-mesh i FBX-format",
+        "Stöd för smart low-poly-topologi"
       ],
       "cons": [
         "Krediter kan ta slut snabbt",
@@ -17240,9 +17293,22 @@
               "quote": "supporting up to 2M polygons for 3D printing, hero assets, and high-detail visuals."
             }
           ]
+        },
+        "pros": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://developers.tripo3d.ai/en/models/v3-1",
+              "quote": "Supports quad mesh output (FBX)"
+            },
+            {
+              "url": "https://developers.tripo3d.ai/en/models/v3-1",
+              "quote": "Supports smart low-poly topology"
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-09-24T10:05:38.488Z",
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17290,7 +17356,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-24T10:05:38.488Z"
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z"
     },
     {
       "n": "TRELLIS 2",
@@ -18014,6 +18080,202 @@
       "fieldChecks": {},
       "lastAttemptAt": "2026-09-27T10:35:26.679Z",
       "lastCheckError": "Some fields could not be verified"
+    },
+    {
+      "n": "Luma Agents",
+      "url": "https://lumalabs.ai/app",
+      "cats": "video",
+      "sub": "Agentbaserad kreativ arbetsyta för film- och videoproduktion, med bild- och ljudproduktion som kompletterande funktioner.",
+      "long": "Luma Agents är Lumas kreativa arbetsyta där användaren styr ett agentbaserat produktionsflöde med naturligt språk. Enligt leverantörens dokumentation kan agenten organisera projekt på tavlor, hålla projektkontext och dirigera arbete mellan bild-, video- och ljudmodeller.\n\nProdukten kvalificeras här främst som video eftersom dess dokumenterade funktioner omfattar text-till-video, bild-till-video, videoredigering, omformatering, förlängning och scenfortsättning. Den är samtidigt multimodal: den kan även skapa och bearbeta bilder samt producera musik, ljudeffekter och röstpålägg.\n\nDetta är leverantörens egna produktbeskrivningar och tekniska dokumentation, inte oberoende kvalitetstester.",
+      "deep": "Luma Agents är inte en enskild generativ modellversion utan en kreativ agentprodukt som orkestrerar flera modeller. I webbappen beskriver Luma hur agenten kan planera, generera, iterera och förfina arbete med gemensam projektkontext. För video anger den officiella API-dokumentationen Ray 3.2 som modell för bland annat text-till-video, bild-till-video, redigering och ändring av bildformat.\n\nFör bildproduktion dokumenteras modellerna uni-1 och uni-1-max för bildgenerering och bildredigering. I appens material beskriver Luma dessutom att agenten kan arbeta parallellt mellan bild, video och ljud. Ljudfunktionerna omfattar enligt Lumas egen guide musik, ljudeffekter, text-till-tal, transkribering och läppsynk.\n\nDet finns tydliga praktiska begränsningar. Videoklipp i appen anges vara 4–12 sekunder beroende på modell, medan längre sekvenser byggs genom koordinerad generering. I API:t finns också innehållsmoderering, köer och planberoende begränsningar för samtidiga jobb och förfrågningar. Dessa begränsningar är dokumenterade av leverantören; de säger inte i sig något om den visuella kvaliteten i oberoende test.",
+      "price": "Webbappen kan provas utan betalning före val av abonnemang. Betalplanerna använder en månatlig kreditpott för bild-, video- och ljudgenerering. Den separata Luma Agents-API:n har dessutom förbrukningsbaserad betalning per generering och kapacitetsavtal för större produktioner; inga exakta belopp anges här.",
+      "tier": "lim",
+      "pros": [
+        "Multimodalt kreativt arbetsflöde för bild, video och ljud inom samma projektkontext.",
+        "Videoverktyg för text-till-video, bild-till-video, redigering, omformatering, förlängning, HDR och EXR-export.",
+        "Parallell generering över flera medier och stöd för musik, ljudeffekter, röstpålägg samt läppsynk."
+      ],
+      "cons": [
+        "Enskilda videoklipp är enligt Luma 4–12 sekunder långa beroende på vald modell.",
+        "Innehållsmoderering är obligatorisk för API:ets indata och utdata och kan inte stängas av.",
+        "Delad API-kapacitet kan innebära hastighetsbegränsningar och saknar latens-SLA."
+      ],
+      "tags": [
+        "kreativ agent",
+        "videogenerering",
+        "filmproduktion",
+        "bild-till-video",
+        "videoredigering",
+        "bildgenerering",
+        "ljudproduktion",
+        "läppsynk",
+        "Ray 3.2",
+        "uni-1"
+      ],
+      "caps": [
+        "Text-till-video och bild-till-video.",
+        "Videoredigering, videoförlängning och omformatering av bildformat.",
+        "Bildgenerering, bildredigering och referensstyrning.",
+        "Musik, ljudeffekter, röstpålägg, transkribering och ljuddriven läppsynk.",
+        "Parallell produktion av flera bild-, video- och ljudresurser."
+      ],
+      "id": "luma-agents",
+      "ico": "🎬",
+      "bg": "rgba(121,184,230,.14)",
+      "rating": null,
+      "tech": null,
+      "speed": null,
+      "pricev": null,
+      "pct": null,
+      "bdg": "new",
+      "free": true,
+      "ratingBasis": {
+        "type": "unrated",
+        "checkedAt": null
+      },
+      "fieldChecks": {
+        "n": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
+              "quote": "Welcome To Luma Agents"
+            }
+          ]
+        },
+        "cats": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/model/",
+              "quote": "ray-3.2 for video"
+            }
+          ]
+        },
+        "sub": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
+              "quote": "Creative agents execute and advance professional creative work"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
+              "quote": "maintaining shared project context in every board"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+              "quote": "Luma produces images, video, audio, and multi-asset deliverables"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/model/",
+              "quote": "Text-to-video, image-to-video, video editing, and aspect-ratio reframing"
+            },
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/faq/",
+              "quote": "A REST API for generating and editing images and videos"
+            }
+          ]
+        },
+        "price": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+              "quote": "monthly subscription with a credit allowance"
+            },
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/pricing/",
+              "quote": "Pay-as-you-go — pay per generation"
+            }
+          ]
+        },
+        "tier": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+              "quote": "try the platform free before choosing a plan"
+            }
+          ]
+        },
+        "pros": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/model/",
+              "quote": "Multi-keyframe image-to-video"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/luma-audio-capabilities-ai-music-voiceovers-sfx-lip-sync",
+              "quote": "generate music, sound effects, and voiceovers from text"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+              "quote": "supports parallel generation across modalities"
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+              "quote": "Individual clips range from 4 to 12 seconds"
+            },
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/faq/",
+              "quote": "Moderation is enforced on every input and output"
+            },
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/pricing/",
+              "quote": "you may hit rate limits"
+            }
+          ]
+        },
+        "tags": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
+              "quote": "Generate text, image, video, and audio assets"
+            },
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/model/",
+              "quote": "uni-1 and uni-1-max for images"
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "sources": [
+            {
+              "url": "https://docs.agents.lumalabs.ai/guides/model/",
+              "quote": "HDR output"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
+              "quote": "Video extension and scene continuation"
+            },
+            {
+              "url": "https://lumalabs.ai/learning-hub/luma-audio-capabilities-ai-music-voiceovers-sfx-lip-sync",
+              "quote": "Audio-Driven Lip Sync"
+            }
+          ]
+        }
+      },
+      "addedAt": "2026-10-06T12:03:43.589Z",
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z"
     }
   ],
   "candidates": [
@@ -18115,7 +18377,8 @@
         "https://www.youtube.com/watch?v=T1Thl6mofGQ",
         "https://www.youtube.com/watch?v=oWrr9AA2CTk",
         "https://www.youtube.com/watch?v=vhhGPVmcOm8",
-        "https://www.youtube.com/watch?v=ti0Ie018EWY"
+        "https://www.youtube.com/watch?v=ti0Ie018EWY",
+        "https://www.youtube.com/watch?v=4_veqqIu_f4"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -18491,7 +18754,8 @@
         "https://www.youtube.com/watch?v=PJBadOeNi1o",
         "https://www.youtube.com/watch?v=gVatlvyPAxI",
         "https://www.youtube.com/watch?v=6rUH26AUaCY",
-        "https://www.youtube.com/watch?v=DyIloGSzTKk"
+        "https://www.youtube.com/watch?v=DyIloGSzTKk",
+        "https://www.youtube.com/watch?v=4_veqqIu_f4"
       ],
       "firstSeen": "2026-09-17T10:02:21.710Z",
       "lastAttemptAt": "2026-09-29T11:23:53.895Z",
@@ -18631,14 +18895,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GrTf2MSzFco"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Luma Agents",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GrTf2MSzFco"
       ],
-      "firstSeen": "2026-09-19T09:34:19.351Z"
+      "firstSeen": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-10-06T12:03:43.589Z",
+      "status": "published"
     },
     {
       "name": "Hi3D Agent",
@@ -19721,6 +19990,20 @@
         "https://www.youtube.com/watch?v=0_4VMA731sQ"
       ],
       "firstSeen": "2026-10-05T12:19:47.929Z"
+    },
+    {
+      "name": "DroneMap Web Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dTU5mtUEr8Y"
+      ],
+      "firstSeen": "2026-10-06T12:03:43.589Z"
+    },
+    {
+      "name": "Wawie.io",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_jsdeR2V3q8"
+      ],
+      "firstSeen": "2026-10-06T12:03:43.589Z"
     }
   ],
   "sourceChecks": {},
@@ -20387,58 +20670,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-06T09:24:06.682Z",
+    "calculatedAt": "2026-10-06T12:03:43.589Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.057948622782977,
+      "chatgpt-images-2-0": 0.057316064032891884,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.21283900013718493,
-      "google-veo-3-1": 0.057325189366267806,
+      "runway-gen-4-5": 0.21051568052352712,
+      "google-veo-3-1": 0.05669943592481461,
       "flux-2": 0,
-      "elevenlabs": 1.6347650737845818,
+      "elevenlabs": 1.616920215665542,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.43068007091452765,
+      "kling-3-0": 0.4259788298105839,
       "freepik-ai": 0,
-      "adobe-firefly": 0.06806566134358513,
+      "adobe-firefly": 0.0673226664699285,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.476160104627651,
+      "higgsfield": 4.427298991024172,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.1822925175589667,
+      "meshy-ai": 1.1693867841484777,
       "magnific-ai": 0,
-      "seedance-2-5": 2.1476162275156314,
+      "seedance-2-5": 2.1241731606868037,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.41321000905054944,
+      "nano-banana-pro": 0.4086994686046347,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.16908390336400136,
+      "rodin-hyper3d": 0.16723820803191372,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.5840724795047219,
-      "trellis-2": 0.4080399435787393,
+      "hunyuan3d": 0.5776968291466749,
+      "trellis-2": 0.40358583881663623,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.11677669323772012,
-      "hitem3d": 0.44001753989255044,
+      "luma-genie": 0.11550197581449213,
+      "hitem3d": 0.4352143723333773,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.2239220721110622
+      "gemini-omni-flash": 0.22147777129339621,
+      "luma-agents": 0.16643317045045805
     }
   }
 }
