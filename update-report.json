@@ -1,49 +1,168 @@
 {
-  "startedAt": "2026-10-06T12:03:43.589Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-06T19:48:29.931Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 113,
+    "relevant": 35,
+    "supported": 27
+  },
+  "rejected": [
     {
-      "platform": "grok-imagine",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        8,
+        10,
+        11
+      ]
     },
     {
-      "platform": "rodin-hyper3d",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "kqqgPi8neys",
+      "title": "DOTS just did your entire content setup.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "sub",
-      "message": "Invalid official citation"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        9
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://docs.tripo3d.ai/zh/get-started/changelog.html\",\"quote\":\"## 1.9.5 (2026-03-11)\",\"retrieved\":[]}"
+      "video": "uapAA5hx5uI",
+      "title": "ChatGPT Just Entered a New Era (How This Affects Normal People)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        4
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "cons",
-      "message": "Invalid official citation"
+      "video": "Z8-AOU6ZjoQ",
+      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ]
     },
     {
-      "platform": "tripo-3-1",
-      "field": "free",
-      "message": "Official source unavailable"
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        7
+      ]
     },
     {
-      "candidate": "Luma Ray 3.2",
-      "message": "Evidence quote missing"
+      "video": "IuLV5bQaFiQ",
+      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "lHmZoRHMZyM",
+      "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "DBiaLgcEfWk",
+      "title": "How To Edit Images Using AI Image Editor With Unlimited AI Generations (My Step By Step Walkthrough)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3iTAu4QT6k8",
+      "title": "Stop Overusing Camera Movement in AI Videos 🎥 | AI Filmmaking Tips",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3myMDipcGgU",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "PH5-Wuu5kME",
+      "title": "🔥 Trending Couple AI Photo Editing...✨",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "BF-0T4l0JQg",
+      "title": "ChatGPT का नया AI Image Editor! 🤯 #ChatGPT #AI #AIImages",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FKiKtIMy9m4",
+      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "A5t9e_POEpo",
+      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1FAnn26Z_M8",
+      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 3,
-  "newModels": 1
+  "accepted": 3
 }
