@@ -1,7 +1,12 @@
 name: Update news feed
 on:
   schedule:
-    - cron: '40 2,14 * * *'
+    # Two attempts per window. The freshness gate below makes the backup
+    # attempt cheap when the primary attempt has already succeeded.
+    - cron: '17 2 * * *'
+    - cron: '17 3 * * *'
+    - cron: '17 14 * * *'
+    - cron: '17 15 * * *'
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -17,18 +22,58 @@ jobs:
         with:
           # A queued run must include data saved by the preceding run.
           ref: ${{ github.ref_name }}
+
+      - name: Decide whether a full update is needed
+        id: freshness
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "run_update=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run: forcing update."
+            exit 0
+          fi
+
+          last="$(jq -r '.newsCheckedAt // empty' site-data.json 2>/dev/null || true)"
+          if [ -z "$last" ]; then
+            echo "run_update=true" >> "$GITHUB_OUTPUT"
+            echo "No previous newsCheckedAt found."
+            exit 0
+          fi
+
+          last_epoch="$(date -d "$last" +%s 2>/dev/null || echo 0)"
+          now_epoch="$(date +%s)"
+          age="$((now_epoch - last_epoch))"
+
+          # Suppress the backup trigger when a successful update happened
+          # during the last 8 hours. The two intended windows are 12h apart.
+          if [ "$last_epoch" -gt 0 ] && [ "$age" -lt 28800 ]; then
+            echo "run_update=false" >> "$GITHUB_OUTPUT"
+            echo "News is fresh ($age seconds old); backup run exits cheaply."
+          else
+            echo "run_update=true" >> "$GITHUB_OUTPUT"
+            echo "News is due ($age seconds old)."
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.freshness.outputs.run_update == 'true'
         with:
           node-version: '22'
+
       - run: node --test *.test.mjs *.test.cjs
+        if: steps.freshness.outputs.run_update == 'true'
+
       - name: Update and verify content
+        if: steps.freshness.outputs.run_update == 'true'
         run: node update.mjs
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_NEWS_MODEL: ${{ vars.OPENAI_NEWS_MODEL }}
           OPENAI_PROFILE_MODEL: ${{ vars.OPENAI_PROFILE_MODEL }}
+
       - name: Save checked data
+        if: steps.freshness.outputs.run_update == 'true'
         run: |
           git config user.name 'iamp.ai updater'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -38,8 +83,12 @@ jobs:
             git pull --rebase
             git push
           fi
+
       - run: node publish-data.mjs
+        if: steps.freshness.outputs.run_update == 'true'
+
       - uses: actions/upload-artifact@v4
+        if: steps.freshness.outputs.run_update == 'true'
         with:
           name: news-preview
           path: |
