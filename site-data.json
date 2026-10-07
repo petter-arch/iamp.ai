@@ -1,8 +1,472 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T19:48:29.931Z",
-  "newsCheckedAt": "2026-10-06T19:48:29.931Z",
+  "updatedAt": "2026-10-07T19:58:42.629Z",
+  "newsCheckedAt": "2026-10-07T19:58:42.629Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Google has released Nano Banana 2.1, its latest AI image generation and editing model. It brings better image quality, improved text rendering, stronger consistency across",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "Es4Mq43GJnM",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Google släpper Nano Banana 2.1 med bättre bildredigering och referensbilder",
+      "sum": "Enligt Maaran Labs är Nano Banana 2.1 Googles senaste modell för AI-bildgenerering och bildredigering. Uppdateringen omfattar förbättrad bildkvalitet, bättre textrendering, starkare konsekvens mellan redigeringar, konversationell bildförfining och stöd för flera referensbilder.",
+      "full": "Maaran Labs rapporterar att Google har släppt Nano Banana 2.1, en ny modell för AI-bildgenerering och bildredigering. Videobeskrivningen framställer modellen som en uppdatering med flera förändringar i hur bilder skapas och bearbetas.\n\nDe angivna förbättringarna omfattar högre bildkvalitet och bättre återgivning av text i bilder. Modellen ska också ge starkare konsekvens mellan olika redigeringar, vilket enligt kanalens beskrivning är en central del av uppdateringen.\n\nNano Banana 2.1 får dessutom konversationell bildförfining. Det innebär enligt Maaran Labs att användaren kan arbeta vidare med en bild genom en dialogbaserad redigeringsprocess. Modellen stöder även flera referensbilder, vilket utökar underlaget som kan användas i ett AI-bildarbetsflöde.\n\nVideon från Maaran Labs beskriver nyheterna kort och fokuserar på de viktigaste uppdateringarna. Beskrivningen innehåller däremot inga uppgifter om oberoende tester, prestandamätningar, pris, tillgänglighet eller något separat lanseringsdatum utöver att Google uppges ha släppt modellen.",
+      "deep": "De konkreta funktionerna som nämns är bättre bildkvalitet, förbättrad textrendering, högre konsekvens vid upprepade redigeringar, konversationell förfining och stöd för flera referensbilder. Källan specificerar inte hur förbättringarna har mätts, vilka användningsgränser som gäller eller vilka format och arbetsflöden som stöds.\n\nNano Banana 2.1 presenteras som en modell för både generering och redigering, inte enbart som ett verktyg för att skapa nya bilder. Stödet för flera referensbilder pekar enligt beskrivningen på ett arbetsflöde där användaren kan använda mer än en visuell utgångspunkt, men källan ger inga exempel på resultat eller detaljer om hur referenserna kombineras.",
+      "en": {
+        "ttl": "Google launches Nano Banana 2.1 with improved image editing and reference-image support",
+        "sum": "According to Maaran Labs, Nano Banana 2.1 is Google’s latest model for AI image generation and editing. The update includes improved image quality, better text rendering, stronger consistency across edits, conversational image refinement, and support for multiple reference images.",
+        "full": "Maaran Labs reports that Google has released Nano Banana 2.1, a new model for AI image generation and editing. The video description presents the model as an update with several changes to how images are created and processed.\n\nThe listed improvements include higher image quality and better rendering of text in images. The model is also said to provide stronger consistency across edits, which the channel’s description identifies as a key part of the update.\n\nNano Banana 2.1 also adds conversational image refinement. According to Maaran Labs, this allows users to continue working on an image through a dialogue-based editing process. The model also supports multiple reference images, expanding the visual input that can be used in an AI image workflow.\n\nMaaran Labs’ video presents the news briefly and focuses on the main updates. The description does not provide independent test results, performance measurements, pricing, availability details, or a separate release date beyond stating that Google released the model.",
+        "deep": "The specific features mentioned are improved image quality, better text rendering, greater consistency across repeated edits, conversational refinement, and support for multiple reference images. The source does not explain how these improvements were measured or identify applicable limits, formats, or supported workflows.\n\nNano Banana 2.1 is presented as a model for both generation and editing, rather than only a tool for creating new images. The support for multiple reference images suggests, according to the description, a workflow that can use more than one visual starting point, but the source provides no examples of results or details about how the references are combined."
+      },
+      "cat": "foto",
+      "date": "2026-10-07T17:49:10Z",
+      "meta": "Maaran Labs · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=Es4Mq43GJnM",
+      "img": "https://i.ytimg.com/vi/Es4Mq43GJnM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Maaran Labs"
+      ],
+      "parts": [],
+      "views": 4,
+      "buzz": 28,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "a757fea5096feb9eaa47989ed36c21edd50682ccb45418e5e7a3ff7446b1f8b8",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Nano Banana 2.1"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Scumble launched a free, open-source AI inpainting editor that returns color-matched edits as separate layers and connects to ComfyUI or model APIs.",
+      "evidenceIds": [
+        1
+      ],
+      "id": "UO-FshQUaJs",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Scumble lanserar lagerbaserad AI-bildredigerare med öppen källkod",
+      "sum": "CreativeAINews rapporterar att Scumble har lanserat en kostnadsfri AI-redigerare med öppen källkod för bildinpainting. Verktyget returnerar färgmatchade ändringar som separata lager och kan anslutas till ComfyUI eller modell-API:er.",
+      "full": "CreativeAINews rapporterar att Scumble har lanserat en kostnadsfri, lagerbaserad AI-redigerare med öppen källkod för bildinpainting. Enligt kanalens beskrivning är verktygets centrala funktion att AI-genererade ändringar inte bara läggs direkt ovanpå originalbilden, utan returneras som separata lager.\n\nDen lagerbaserade arbetsmetoden är avsedd att ge användaren en mer redigerbar struktur för AI-baserade bildändringar. Beskrivningen anger också att ändringarna är färgmatchade, vilket kopplar de genererade lagren till bildens befintliga färgutseende.\n\nScumble kan enligt CreativeAINews anslutas till ComfyUI eller till modell-API:er. Det innebär att verktyget är utformat för arbetsflöden där användaren kan koppla in en nodbaserad AI-miljö eller externa modellgränssnitt, men källan specificerar inte vilka modeller eller API-leverantörer som stöds.\n\nCreativeAINews beskriver Scumble som ett verktyg för kreativa yrkesverksamma, men videobeskrivningen innehåller inga uppgifter om prestanda, bildkvalitet, systemkrav, licensvillkor utöver att verktyget är kostnadsfritt och har öppen källkod, eller när den lanserade versionen blev tillgänglig.",
+      "deep": "Den rapporterade AI-utvecklingen ligger i kombinationen av inpainting och separata, färgmatchade lager. Källan anger inte hur lagren skapas tekniskt, hur maskering fungerar eller om användaren kan styra varje lager med egna parametrar.\n\nAnslutningen till ComfyUI och modell-API:er pekar på ett integrerbart arbetsflöde snarare än en fristående bildgenerator, men CreativeAINews lämnar detaljer om kompatibilitet och konfiguration ospecificerade. Kanalens beskrivning uppger dessutom att innehållet presenteras av AI-ankare och granskas av Creative AI Directors-teamet; uppgifterna om Scumble hänvisas till en Product Hunt-källa.",
+      "en": {
+        "ttl": "Scumble launches layered open-source AI image editor",
+        "sum": "CreativeAINews reports that Scumble has launched a free, open-source AI inpainting editor. The tool returns color-matched edits as separate layers and can connect to ComfyUI or model APIs.",
+        "full": "CreativeAINews reports that Scumble has launched a free, open-source, layered AI editor for image inpainting. According to the channel’s description, the tool’s central feature is that AI-generated edits are returned as separate layers rather than being placed directly over the original image.\n\nThis layered workflow is intended to provide a more editable structure for AI-based image changes. The description also states that the edits are color-matched, linking the generated layers to the existing color appearance of the image.\n\nAccording to CreativeAINews, Scumble can connect to ComfyUI or model APIs. This suggests a workflow in which users can connect a node-based AI environment or external model interfaces, but the source does not specify which models or API providers are supported.\n\nCreativeAINews presents Scumble as a tool for creative professionals, but the video description provides no information about performance, image quality, system requirements, licensing details beyond being free and open source, or when the launched version became available.",
+        "deep": "The reported AI development lies in combining inpainting with separate, color-matched layers. The source does not explain how the layers are generated technically, how masking works, or whether users can control each layer with custom parameters.\n\nThe connections to ComfyUI and model APIs point to an integrable workflow rather than a standalone image generator, but CreativeAINews provides no compatibility or configuration details. The channel’s description also states that the content is presented by AI anchors and reviewed by the Creative AI Directors team; claims about Scumble are attributed to a Product Hunt source."
+      },
+      "cat": "foto",
+      "date": "2026-10-07T14:15:09Z",
+      "meta": "CreativeAINews · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=UO-FshQUaJs",
+      "img": "https://i.ytimg.com/vi/UO-FshQUaJs/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "CreativeAINews"
+      ],
+      "parts": [],
+      "views": 3,
+      "buzz": 27,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "0b2a4318ec4c701ed6144880160f165103beacd780985c7af967907aba469044",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Scumble"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Nano Banana 2.1 is Google's newest AI image tool — the Gemini 3.1 Flash Image model that generates full 4K images. In this video: what",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "GKiJluNLVac",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Nano Banana 2.1: Googles nya AI-bildredigerare",
+      "sum": "AI Fuel Daily beskriver Nano Banana 2.1 som Googles nya AI-bildverktyg, baserat på Gemini 3.1 Flash Image. Verktyget uppges kunna generera bilder i full 4K och hantera upp till 14 referensbilder.",
+      "full": "AI Fuel Daily lyfter fram Nano Banana 2.1 som Googles nya AI-bildredigerare. Enligt kanalens beskrivning bygger verktyget på modellen Gemini 3.1 Flash Image och kan generera bilder i full 4K.\n\nEn central funktion som nämns är stödet för upp till 14 referensbilder. Det innebär enligt beskrivningen att användaren kan arbeta med flera visuella referenser i samma AI-baserade bildarbetsflöde, även om källan inte specificerar exakt hur referenserna kombineras eller vilka redigeringskontroller som erbjuds.\n\nVideon från AI Fuel Daily fokuserar på vad Nano Banana 2.1 kan göra, dess 4K-bildgenerering och hur verktyget hanterar de många referensbilderna. Beskrivningen innehåller däremot inga uppgifter om ett separat produktlanseringsdatum, prestandatester, bildkvalitet jämfört med andra modeller eller detaljer om tillgänglighet.",
+      "deep": "Kanalens beskrivning identifierar Nano Banana 2.1 som ett AI-bildverktyg från Google och anger Gemini 3.1 Flash Image som den underliggande modellen. Den konkreta bildspecifikationen som nämns är full 4K-generering.\n\nStödet för upp till 14 referensbilder är den mest specifika arbetsflödesdetaljen i källmaterialet. AI Fuel Daily presenterar funktionen som en del av verktygets hantering av referenser, men lämnar öppet hur modellen använder dem i praktiken. Det finns därför inget stöd i källan för påståenden om exempelvis exakt redigering, konsekvens mellan bilder, textåtergivning eller kommersiell användning.",
+      "en": {
+        "ttl": "Nano Banana 2.1: Googles nya AI-bildredigerare",
+        "sum": "AI Fuel Daily beskriver Nano Banana 2.1 som Googles nya AI-bildverktyg, baserat på Gemini 3.1 Flash Image. Verktyget uppges kunna generera bilder i full 4K och hantera upp till 14 referensbilder.",
+        "full": "AI Fuel Daily presents Nano Banana 2.1 as Googles new AI image editor. According to the channel description, the tool is based on the Gemini 3.1 Flash Image model and can generate images in full 4K.\n\nA key feature mentioned is support for up to 14 reference images. This means, according to the description, that users can work with multiple visual references in the same AI-based image workflow, although the source does not specify exactly how the references are combined or which editing controls are available.\n\nThe video from AI Fuel Daily focuses on what Nano Banana 2.1 can do, its 4K image generation, and how the tool handles the large number of reference images. The description does not provide a separate product release date, performance tests, image-quality comparisons, or availability details.",
+        "deep": "The channel description identifies Nano Banana 2.1 as an AI image tool from Google and names Gemini 3.1 Flash Image as the underlying model. The specific image capability mentioned is full 4K generation.\n\nSupport for up to 14 reference images is the most detailed workflow feature in the source material. AI Fuel Daily presents the feature as part of the tools reference-image handling, but does not explain how the model uses the references in practice. The source therefore does not support claims about exact editing behavior, consistency across images, text rendering, or commercial use."
+      },
+      "cat": "foto",
+      "date": "2026-10-07T13:53:19Z",
+      "meta": "AI Fuel Daily · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=GKiJluNLVac",
+      "img": "https://i.ytimg.com/vi/GKiJluNLVac/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Fuel Daily"
+      ],
+      "parts": [],
+      "views": 9,
+      "buzz": 32,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "40f5eebfee832f94e87ccdde2530330561430ff570ca2377c9b8c8cf315849f8",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Nano Banana 2.1",
+        "Gemini 3.1 Flash Image"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI short drama is taking over China's streaming screens, and the numbers show how fast. In the first quarter of 2026, AI made up more",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ],
+      "id": "VhKD95cleOY",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "AI-drama tar över Kinas kortformat: en ny serie var 36:e sekund",
+      "sum": "SXE China beskriver hur AI-genererade kortdramer snabbt tar över Kinas streamingmarknad. Enligt kanalen stod AI för över 95 procent av landets mik rodramer under första kvartalet 2026, medan billigare produktion och små team gör det möjligt att skapa omkring 80 avsnitt på fem dagar. Tekniken har samtidigt tydliga begränsningar, bland annat stela ansiktsuttryck, tom blick och låg lönsamhet.",
+      "full": "AI-genererade kortdramer håller enligt SXE China på att förändra Kinas streamingmarknad i hög hastighet. Kanalen uppger att AI stod för mer än 95 procent av de mik rodramer som släpptes i Kina under första kvartalet 2026. Det motsvarar ungefär en ny AI-genererad kortdramaserie var 36:e sekund.\n\nPå Hongguos topplista bestod enligt beskrivningen endast en av de 20 högst placerade serierna av live action. De övriga 19 hade skapats med AI. SXE China kopplar utvecklingen till produktionskostnaden: en AI-kortdrama uppges kosta ungefär en tiondel av en live action-produktion. Serier som tidigare kostade 300 000–400 000 yuan kan enligt kanalen nu produceras för några tiotusentals yuan.\n\nArbetsflödet har också komprimerats kraftigt. Ett team på tre personer kan enligt SXE China färdigställa 80 avsnitt på fem dagar. AI-videogenerering gör dessutom fantasyvärldar med odödlighets- och kultiveringsteman samt stora krigsscener möjliga inom budgetar som traditionella kortdramer ofta inte klarar. Kanalen lyfter även fram konsekventa rollfigurer samt genomarbetade kostymer och rekvisita som delar av resultatet.\n\nFörändringen får följder för den traditionella branschen. SXE China uppger att antalet starter för live action-produktioner av kortdramer har minskat med omkring 75 procent på ett år och att nästan 80 procent av studioutrymmena i Hengdian står tomma. Enligt beskrivningen har många skådespelare på mellannivå blivit utan roller, samtidigt som investeringar har styrts mot AI. Den 7 oktober 2026 klättrade en Weibo-hashtagg om att live action-kortdramer är slut till andra plats på den aktuella trendlistan.\n\nUtvecklingen är dock inte entydigt positiv. AI-figurerna kan enligt kanalen få stela ansiktsuttryck och tomma ögon, medan handlingarna ofta bygger på välbekanta formler. Dessutom är framgång ovanlig: SXE China uppger att mer än 90 procent av producenterna av AI-dramer går med förlust. Beskrivningen ger därför en bild av en snabbt skalbar produktionsmodell, men också av en marknad där låga kostnader ännu inte garanterar lönsamhet eller kvalitet.",
+      "deep": "Det centrala skiftet som SXE China beskriver är inte ett enskilt verktyg, utan en AI-baserad produktionsmodell för serier i mycket hög takt. Kombinationen av genererad video, små team och korta ledtider gör att omfattande miljöer och scener kan produceras utan de kostnader som förknippas med traditionell live action. Beskrivningen anger däremot inte vilka modeller, plattformar eller specifika arbetssteg som används.\n\nKanalens uppgifter visar också en tydlig spänning mellan skala och resultat. AI-produktionerna dominerar de nämnda topplistorna och står för merparten av de nya mik rodramerna, men samtidigt rapporteras över 90 procent av producenterna gå med förlust. De tekniska bristerna – stela uttryck, tom blick och formelartade intriger – pekar enligt beskrivningen på att produktionsvolymen har ökat snabbare än den kreativa och kommersiella träffsäkerheten.\n\nSXE China framställer därför utvecklingen som en omfördelning av hela produktionskedjan. Studioinfrastruktur, skådespelarroller och investeringar påverkas samtidigt som AI-drama blir ett dominerande format på streamingmarknaden. Påståendena kommer från kanalens videobeskrivning och är inte resultatet av en oberoende testning.",
+      "en": {
+        "ttl": "AI dramas take over China’s short-form market: one new series every 36 seconds",
+        "sum": "SXE China describes how AI-generated short dramas are rapidly taking over China’s streaming market. According to the channel, AI accounted for more than 95 percent of China’s micro dramas in the first quarter of 2026, while lower production costs and small teams make it possible to create about 80 episodes in five days. The technology still has clear limitations, including stiff facial expressions, empty eyes and poor profitability.",
+        "full": "AI-generated short dramas are, according to SXE China, reshaping China’s streaming market at high speed. The channel says AI accounted for more than 95 percent of the micro dramas released in China during the first quarter of 2026. That equals roughly one new AI-generated short drama series every 36 seconds.\n\nOn Hongguo’s hot chart, only one of the top 20 shows was live action, according to the description. The other 19 were made with AI. SXE China links the shift to production costs: an AI short drama is said to cost about one tenth as much as a live-action production. Series that previously cost 300,000–400,000 yuan can now, according to the channel, be produced for a few tens of thousands of yuan.\n\nThe workflow has also been compressed sharply. A three-person team can reportedly complete 80 episodes in five days. AI video generation also makes fantasy cultivation worlds and large war scenes possible within budgets that traditional short dramas often cannot afford. The channel additionally highlights consistent characters and polished costumes and props.\n\nThe change is affecting the traditional industry. SXE China says live-action short-drama production starts have fallen by about 75 percent in a year and that nearly 80 percent of studio space in Hengdian is empty. According to the description, many mid-ranking actors have been left without roles while investment has shifted toward AI. On October 7, 2026, a Weibo hashtag claiming that live-action short dramas were finished climbed to second place on the trending list.\n\nThe development is not entirely positive. AI characters can have stiff facial expressions and empty eyes, according to the channel, while plots often rely on familiar formulas. Success is also uncommon: SXE China says more than 90 percent of AI drama producers are losing money. The description therefore presents a highly scalable production model, but one where low costs do not yet guarantee profitability or quality.",
+        "deep": "The central shift described by SXE China is not a single tool, but an AI-based production model for series created at very high speed. The combination of generated video, small teams and short schedules makes large environments and scenes possible without the costs associated with traditional live action. The description does not specify which models, platforms or individual workflow steps are used.\n\nThe channel’s claims also show a clear tension between scale and results. AI productions dominate the cited charts and account for most new micro dramas, yet more than 90 percent of producers are reportedly losing money. The technical weaknesses—stiff expressions, empty eyes and formulaic plots—suggest, according to the description, that production volume has grown faster than creative and commercial reliability.\n\nSXE China therefore presents the development as a redistribution of the entire production chain. Studio infrastructure, acting opportunities and investment are all affected while AI drama becomes a dominant format on the streaming market. These claims come from the channel’s video description and are not the result of independent testing."
+      },
+      "cat": "film",
+      "date": "2026-10-07T13:10:11Z",
+      "meta": "SXE China · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=VhKD95cleOY",
+      "img": "https://i.ytimg.com/vi/VhKD95cleOY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "SXE China"
+      ],
+      "parts": [],
+      "views": 34,
+      "buzz": 39,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "e0dd2ed890de2d6bb2ce9fb856019e0a2ae227399d3786e4bbc0274d95ffd9c9",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Maverick Code Pictures creates AI movies, short films, cinematic stories, feature films, action films, thrillers, drama, military films, and full-length movies with a strong focus",
+      "evidenceIds": [
+        1,
+        7,
+        9
+      ],
+      "id": "9sOCPR0Xl4I",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "The Marverick Code Pictures bygger AI-filmer med fokus på berättelser och realism",
+      "sum": "The Marverick Code Pictures beskriver en AI-baserad filmstudio för kortfilmer, långfilmer och filmiska berättelser. Kanalen lyfter fram AI-skådespelare, AI-karaktärer, digitala skådespelare och virtuellt världsbyggande, med tonvikt på realism, känslor och berättande.",
+      "full": "The Marverick Code Pictures presenterar en AI-baserad filmverksamhet som omfattar AI-filmer, kortfilmer, långfilmer och filmiska berättelser. Enligt kanalens beskrivning är målet att förena realism och känslor med ett berättelsedrivet filmskapande, snarare än att enbart visa tekniska effekter.\n\nArbetsflödet som beskrivs omfattar AI-skådespelare, AI-karaktärer, digitala skådespelare och virtuella skådespelare. Kanalen nämner även AI-baserat världsbyggande och visuell berättarkonst, vilket pekar på en produktion där både rollfigurer och filmiska miljöer skapas eller utvecklas digitalt.\n\nThe Marverick Code Pictures uppger att verksamheten även omfattar AI-filmproduktion bakom kulisserna, skapande av filmtrailrar och processer för att göra AI-filmer. Beskrivningen nämner flera genrer och format, däribland action, thriller, drama, militärfilm och filmserier, men ger inga konkreta uppgifter om vilka modeller eller program som används.\n\nBeskrivningen betonar dessutom karaktärsdrivna och berättelsedrivna filmer, emotionella dialoger samt filmiska action-, strids- och taktiska scener. Det går därför att fastställa att kanalen profilerar AI som ett verktyg för en mer omfattande filmproduktion, men inte att dra slutsatser om kvalitet, produktionshastighet eller resultat utifrån den tillgängliga informationen.",
+      "deep": "Den angivna beskrivningen positionerar The Marverick Code Pictures som en virtuell eller AI-baserad produktionsstudio för originalfilmer, kortfilmer, långfilmer och filmiska serier. Bland de uttryckligen nämnda användningsområdena finns AI-skådespelare, AI-karaktärer, digitala och virtuella skådespelare samt AI-baserat världsbyggande.\n\nKanalen kopplar arbetsflödet till berättande i flera genrer, inklusive action, thriller, drama, militärfilm och specialstyrkefilmer. Den nämner också realistisk dialog, emotionell dialog, filmiska actionsekvenser, stridsscener, taktiska scener och slagfältsscener.\n\nKällan beskriver inte någon specifik AI-modell, programvara, teknisk metod, releasedatum eller oberoende utvärdering. Uppgifterna ska därför förstås som kanalens egen presentation av verksamheten och inte som resultat från ett självständigt test.",
+      "en": {
+        "ttl": "The Marverick Code Pictures builds AI films focused on stories and realism",
+        "sum": "The Marverick Code Pictures describes an AI-based film studio for short films, feature films and cinematic stories. The channel highlights AI actors, AI characters, digital actors and virtual world-building, with an emphasis on realism, emotion and storytelling.",
+        "full": "The Marverick Code Pictures presents an AI-based film operation covering AI movies, short films, feature films and cinematic stories. According to the channel’s description, the goal is to combine realism and emotion with story-driven filmmaking rather than focusing only on technical effects.\n\nThe described workflow includes AI actors, AI characters, digital actors and virtual actors. The channel also mentions AI world-building and visual storytelling, pointing to a production approach in which both characters and cinematic environments are created or developed digitally.\n\nThe Marverick Code Pictures also says that its work includes behind-the-scenes AI filmmaking, cinematic trailers and processes for making AI movies. The description names several genres and formats, including action, thriller, drama, military films and cinematic series, but provides no specific information about the models or software used.\n\nThe description further emphasizes character-driven and story-driven films, emotional dialogue, and cinematic action, fight and tactical scenes. It therefore supports the conclusion that the channel presents AI as a tool for broader film production, but it does not support claims about quality, production speed or results.",
+        "deep": "The supplied description positions The Marverick Code Pictures as a virtual or AI-based production studio for original films, short films, feature films and cinematic series. Explicitly mentioned use cases include AI actors, AI characters, digital and virtual actors, and AI world-building.\n\nThe channel connects this workflow to storytelling across several genres, including action, thriller, drama, military films and special-forces films. It also mentions realistic dialogue, emotional dialogue, cinematic action scenes, fight scenes, tactical scenes and battle scenes.\n\nThe source does not identify a specific AI model, software product, technical method, release date or independent evaluation. The information should therefore be understood as the channel’s own presentation of its work, not as the result of an independent test."
+      },
+      "cat": "film",
+      "date": "2026-10-07T12:03:48Z",
+      "meta": "The Marverick Code Pictures · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=9sOCPR0Xl4I",
+      "img": "https://i.ytimg.com/vi/9sOCPR0Xl4I/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "The Marverick Code Pictures"
+      ],
+      "parts": [],
+      "views": 9,
+      "buzz": 32,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "0fcd4c687208c06d5bf2e4219b8d9fb4f1ebc99bc62791d06620b5e59294198a",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Tired of paying for a different subscription for every AI tool? In this video, I walk you through everything wawie.io can do: text to speech,",
+      "evidenceIds": [
+        2,
+        6,
+        9
+      ],
+      "id": "Wgxk3Oqzns8",
+      "tag": "aud",
+      "lab": "Ljud",
+      "ico": "🎵",
+      "ttl": "Wawie.io samlar röst, musik, dubbning och ljudeffekter i en AI-studio",
+      "sum": "Wawie creator lab beskriver Wawie.io Studio som en samlad AI-plattform för text till tal, musikskapande, ljudeffekter, automatisk dubbning och röstkloning. Enligt kanalens beskrivning använder tjänsten ett gemensamt kreditsystem och samlar flera ljudverktyg under ett konto.",
+      "full": "Wawie creator lab presenterar Wawie.io Studio som en AI-baserad arbetsyta för ljudproduktion. I stället för separata tjänster för varje funktion samlar plattformen text till tal, musikskapande, ljudeffekter, automatisk dubbning och röstkloning i ett konto. Kanalens beskrivning anger också att krediterna kan användas i alla verktyg och att resultat kan exporteras som MP3 eller WAV.\n\nFör talgenerering uppges tjänsten erbjuda fler än 1 000 AI-röster på över 24 språk. Plattformen omfattar dessutom textbaserad musikskapande, där användaren kan beskriva ett önskat resultat och få instrumentalmusik eller hela låtar. Ljudeffekter skapas på liknande sätt genom att en ljudidé beskrivs i text och genereras för användning i en tidslinje.\n\nAutomatisk dubbning är en annan central del av arbetsflödet. Enligt kanalens beskrivning kan videor översättas och förses med nya röster på över 24 språk, samtidigt som den ursprungliga tajmningen behålls. Wawie.io Studio innehåller även röstkloning, där en digital kopia av en röst uppges kunna skapas från omkring 30 sekunders ljud.\n\nBland de kompletterande funktionerna nämns röstförändring, röstisolering, automatiska undertexter, text till dialog och en inbyggd videoredigerare. Kanalens beskrivning lyfter fram att tjänsten har en gemensam faktura och att betalda abonnemang inkluderar kommersiell licens för bland annat intäktsgenererade YouTube-videor, annonser, poddar och ljudböcker. Priser och funktioner kan ändras, enligt källan, och aktuella villkor bör därför kontrolleras på den officiella webbplatsen.",
+      "deep": "Wawie creator lab uppger att Wawie.io hävdar en kostnad som är minst 73 procent lägre per kredit än separata abonnemang för motsvarande verktyg. Beskrivningen presenterar detta som ett påstående från tjänsten, inte som ett oberoende testresultat. Betalda planer uppges börja på 4,99 euro per månad, medan nya konton enligt beskrivningen får 5 000 kostnadsfria krediter utan att ett kort krävs.\n\nDet beskrivna arbetsflödet riktar sig särskilt till innehållsskapare som behöver kombinera flera ljudmoment: syntetiskt tal, musik, effektljud, dubbning och röstbearbetning. Kanalens uppgifter anger inte vilka enskilda modeller som ligger bakom rösterna eller andra genereringsfunktioner, och de ger inte heller oberoende mätningar av ljudkvalitet, språkprecision eller hur väl den angivna tajmningen bevaras.",
+      "en": {
+        "ttl": "Wawie.io brings voice, music, dubbing and sound effects into one AI studio",
+        "sum": "Wawie creator lab describes Wawie.io Studio as an all-in-one AI platform for text to speech, music creation, sound effects, automatic dubbing and voice cloning. According to the channel’s description, the service uses shared credits and combines several audio tools under one account.",
+        "full": "Wawie creator lab presents Wawie.io Studio as an AI-based workspace for audio production. Instead of using separate services for each task, the platform combines text to speech, music creation, sound effects, automatic dubbing and voice cloning in one account. The channel’s description also states that credits work across all tools and that results can be exported as MP3 or WAV.\n\nFor speech generation, the service is said to offer more than 1,000 AI voices in over 24 languages. The platform also supports text-based music creation: users describe a desired result and can generate instrumentals or full songs. Sound effects are created in a similar way by describing an audio idea in text and generating it for use on a timeline.\n\nAutomatic dubbing is another central part of the workflow. According to the channel’s description, videos can be translated and re-voiced in more than 24 languages while retaining the original timing. Wawie.io Studio also includes voice cloning, which is described as creating a digital copy of a voice from approximately 30 seconds of audio.\n\nAdditional features mentioned include voice changing, voice isolation, automatic subtitles, text to dialogue and a built-in video editor. The channel’s description highlights one account and one bill, while paid plans are said to include a commercial licence for monetised YouTube videos, advertisements, podcasts and audiobooks. Features and prices may change, and the source advises checking the official website for current terms.",
+        "deep": "Wawie creator lab states that Wawie.io claims to be at least 73 percent cheaper per credit than purchasing separate subscriptions for comparable tools. This is presented as a claim from the service, not as an independent test result. Paid plans are said to start at €4.99 per month, while new accounts reportedly receive 5,000 free credits without requiring a card.\n\nThe described workflow is aimed particularly at creators who need to combine several audio tasks: synthetic speech, music, sound effects, dubbing and voice processing. The channel’s description does not identify the individual models behind the voices or other generation features, nor does it provide independent measurements of audio quality, language accuracy or how well the stated timing is preserved."
+      },
+      "cat": "ljud",
+      "date": "2026-10-07T11:38:04Z",
+      "meta": "Wawie creator lab · 2026-10-07",
+      "url": "https://www.youtube.com/watch?v=Wgxk3Oqzns8",
+      "img": "https://i.ytimg.com/vi/Wgxk3Oqzns8/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Wawie creator lab"
+      ],
+      "parts": [],
+      "views": 2,
+      "buzz": 26,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "86f67a170f8be5510fcff0b24678ec8a20a44ba34115a0ba2856c4c08057f822",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Wawie.io Studio"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI coding agents can now mod almost any PC game you own, so I put DOOM inside Skyrim. SkyDoom is real Skyrim with all the",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ],
+      "id": "V1AGM0IKFpg",
+      "tag": "mdl",
+      "lab": "Teknik",
+      "ico": "⚙️",
+      "ttl": "AI-agenter bygger spelmoddar – och två nya videomodeller med öppen källkod presenteras",
+      "sum": "Theoretically Media beskriver hur UniversalModder kan använda AI-kodningsagenter för att skapa moddar som kombinerar två PC-spel. Samma avsnitt tar upp Prism och Kandinsky 6.0, två videomodeller med öppen källkod och olika hårdvarukrav.",
+      "full": "Theoretically Media rapporterar att AI-kodningsagenter nu kan användas för att modifiera nästan vilket PC-spel som helst. Kanalens exempel är SkyDoom, där DOOM-element har lagts in i Skyrim: spelets NPC:er finns kvar, samtidigt som DOOM-monster dyker upp och spelaren får ett chaingun. Enligt kanalen byggdes modden med UniversalModder på ungefär en timme.\n\nUniversalModder beskrivs som en färdighet för Claude Code, Codex eller Gemini CLI. Arbetsflödet går enligt Theoretically Media ut på att ange två spel och beskriva den önskade kombinationen, varefter agenten arbetar med modden. Kanalen understryker att resultatet är AI-genererade moddar av två spel som användaren äger, inte helt AI-genererade spel.\n\nVideon tar också upp två videomodeller med öppen källkod. Prism beskrivs som en modell från Tencent's Hunyuan-team och Fudan University med inbyggt 2K-stöd, ljud och bild-till-video. Samtidigt anges ett mycket högt hårdvarukrav: 720p kräver enligt beskrivningen ett grafikkort med 80 GB minne. Prism uppges dessutom vara en förhandsversion utan tillkännagivande, och vissa demonstrationsklipp ifrågasätts på modellens Hugging Face-sida. Theoretically Media beskriver därför uppgifterna som overifierade.\n\nKandinsky 6.0 beskrivs som en modell med öppen källkod för video med synkroniserat ljud och läppsynk. Den genererar femsekundersklipp och kan nå 1080p via en uppskalare. Modellen har MIT-licens och uppges kunna köras på ett RTX 4090-grafikkort. Enligt kanalens beskrivning tar Lite-versionen omkring sju minuter per klipp och Pro-versionen omkring 20 minuter. Kandinsky 6.0 finns på fal och i ett kostnadsfritt Hugging Face Space.",
+      "deep": "Theoretically Media placerar Prism och Kandinsky 6.0 som två separata öppna videomodeller med tydligt olika praktiska begränsningar. Prism kombinerar enligt beskrivningen inbyggd 2K-upplösning, ljud och bild-till-video, men 720p anges redan kräva ett 80 GB-grafikkort. Dessutom saknas ett formellt tillkännagivande enligt källan, och kanalens beskrivning återger att vissa demoresultat har ifrågasatts på Hugging Face. Det finns därför stöd för att presentera Prism som en osäker förhandsversion, inte som en etablerad eller oberoende verifierad produkt.\n\nKandinsky 6.0 framställs som mer tillgänglig i lokal körning. Källan anger stöd för synkroniserat ljud och läppsynk, femsekunders videoklipp, 1080p genom uppskalning och MIT-licens. Den påstådda körningen på ett RTX 4090 anges med separata tider för Lite och Pro, cirka sju respektive 20 minuter per klipp. Videobeskrivningen säger också att modellen kan användas via fal och ett kostnadsfritt Hugging Face Space.\n\nModdningsexemplet visar ett annat AI-arbetsflöde än videomodellerna. UniversalModder kopplas uttryckligen till Claude Code, Codex och Gemini CLI, och användaren ska rikta verktyget mot två spel och ange vad som ska kombineras. Andra exempel som nämns är Spider-Man i Arkham Knight och Skate 3 i Modern Warfare 2, men källan ger inte ytterligare tekniska detaljer om hur dessa moddar byggdes. Kanalens beskrivning nämner också rättsliga och praktiska motreaktioner kring andra projekt: GTA V i en webbläsare togs snabbt ned, och Fallout New York uppges ha stoppats efter ett cease-and-desist-brev från ZeniMax.",
+      "en": {
+        "ttl": "AI agents build game mods – and two new open-source video models are presented",
+        "sum": "Theoretically Media describes how UniversalModder can use AI coding agents to create mods that combine two PC games. The same episode covers Prism and Kandinsky 6.0, two open-source video models with different hardware requirements.",
+        "full": "Theoretically Media reports that AI coding agents can now be used to modify almost any PC game. The channel's example is SkyDoom, which adds DOOM elements to Skyrim: the game's NPCs remain, while DOOM monsters spawn throughout the world and the player receives a chaingun. According to the channel, the mod was built with UniversalModder in about an hour.\n\nUniversalModder is described as a skill for Claude Code, Codex or Gemini CLI. The workflow presented by Theoretically Media is to point the tool at two games and describe the desired combination, after which the agent works on the mod. The channel stresses that these are AI-generated mods of two games the user owns, not entirely AI-generated games.\n\nThe video also covers two open-source video models. Prism is described as a model from Tencent's Hunyuan team and Fudan University with native 2K support, audio and image-to-video. The hardware requirement is presented as substantial: according to the description, 720p requires an 80 GB graphics card. Prism is also said to be a preview without an announcement, while some demo clips are being questioned on its Hugging Face page. Theoretically Media therefore characterizes the information as unverified.\n\nKandinsky 6.0 is described as an open-source video model with synchronized audio and lip-sync. It generates five-second clips and can reach 1080p through an upscaler. The model has an MIT license and is said to run on an RTX 4090 graphics card. According to the channel's description, the Lite version takes about seven minutes per clip and the Pro version about 20 minutes. Kandinsky 6.0 is available on fal and in a free Hugging Face Space.",
+        "deep": "Theoretically Media presents Prism and Kandinsky 6.0 as two separate open video models with clearly different practical limitations. Prism combines native 2K resolution, audio and image-to-video according to the description, but 720p is already said to require an 80 GB graphics card. The source also says that there has been no formal announcement and that some demo results have been questioned on Hugging Face. The evidence therefore supports presenting Prism as an uncertain preview, not as an established or independently verified product.\n\nKandinsky 6.0 is portrayed as more accessible for local use. The source lists synchronized audio and lip-sync, five-second video clips, 1080p through upscaling and an MIT license. The claimed RTX 4090 performance is given with separate times for Lite and Pro, approximately seven and 20 minutes per clip. The video description also says the model can be used through fal and a free Hugging Face Space.\n\nThe modding example represents a different AI workflow from the video models. UniversalModder is explicitly linked to Claude Code, Codex and Gemini CLI, and the user is expected to point the tool at two games and specify what should be combined. Other examples mentioned include Spider-Man in Arkham Knight and Skate 3 in Modern Warfare 2, but the source provides no further technical details about how those mods were built. The description also mentions legal and practical pushback around other projects: GTA V in a browser was quickly taken down, and Fallout New York was reportedly stopped after ZeniMax sent a cease-and-desist letter."
+      },
+      "cat": "tech",
+      "date": "2026-10-06T22:10:07Z",
+      "meta": "Theoretically Media · 2026-10-06",
+      "url": "https://www.youtube.com/watch?v=V1AGM0IKFpg",
+      "img": "https://i.ytimg.com/vi/V1AGM0IKFpg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Theoretically Media"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Things are not slowing down"
+        },
+        {
+          "t": 38,
+          "l": "Prism: open source, native 2K with audio"
+        },
+        {
+          "t": 147,
+          "l": "The catch: 80 GB card, demo-clip controversy"
+        },
+        {
+          "t": 190,
+          "l": "Breaking: Kandinsky 6.0 runs on a 4090"
+        },
+        {
+          "t": 242,
+          "l": "A tease from Desktop Flamethrower Girl"
+        },
+        {
+          "t": 274,
+          "l": "AI mods: Spider-Man in Arkham, Skate 3 in CoD"
+        },
+        {
+          "t": 335,
+          "l": "SkyDoom: DOOM inside Skyrim"
+        },
+        {
+          "t": 391,
+          "l": "Mods, not AI-generated games (you need to own both)"
+        },
+        {
+          "t": 423,
+          "l": "Mini tutorial: UniversalModder"
+        },
+        {
+          "t": 490,
+          "l": "GTA V in a browser, Fallout New York's C&D"
+        },
+        {
+          "t": 584,
+          "l": "Nano Banana 2.1 is out (Gemini 3.6 Flash)"
+        },
+        {
+          "t": 726,
+          "l": "My test: the Alan Wake cover, by Don Mindy"
+        },
+        {
+          "t": 790,
+          "l": "It's a 0.1 update. Waiting on Gemini 4"
+        },
+        {
+          "t": 818,
+          "l": "Hark: the $100 AI assistant"
+        },
+        {
+          "t": 902,
+          "l": "Wrap"
+        }
+      ],
+      "views": 36467,
+      "buzz": 75,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "fab9892a641cb37e224a9546f4e6089be8c04842e9ddcfa709d918d563cb1c03",
+      "trusted": true,
+      "sourceId": "theoreticallymedia",
+      "newPlatforms": [
+        "UniversalModder",
+        "Prism",
+        "Kandinsky 6.0",
+        "Claude Code",
+        "Codex",
+        "Gemini CLI"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Learn how to control the camera and composition in Seedance 2.0 and Seedance 2.5 using Blender and Claude. Claude builds a 3D mockup of your",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ],
+      "id": "aeuonpwztss",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Seedance 2.5 och Blender MCP kopplar 3D-kameror till AI-filmskapande",
+      "sum": "Creative 3D Art beskriver ett arbetsflöde där Claude och Blender MCP används för att bygga en 3D-skiss av en scen och animera kameran. Renderade referenser används därefter för mer exakt videogenerering i Seedance 2.0 och Seedance 2.5.",
+      "full": "Kanalen Creative 3D Art presenterar ett AI-arbetsflöde för filmskapande som kombinerar Claude, Blender och Seedance 2.0 eller Seedance 2.5. Kärnan är att först skapa en 3D-mockup av scenen och sedan använda en animerad kamera i Blender för att styra kompositionen innan AI-videon genereras.\n\nEnligt beskrivningen ansluts Claude till Blender genom Blender MCP-servern. Claude används för att bygga scenens 3D-mockup, medan Blender ger möjlighet att animera kameran och planera bildutsnittet. Renderingar från den animerade scenen förs därefter in som referenser i Seedance, där de används för AI-videogenerering.\n\nArbetsflödet fokuserar därmed på kamerakontroll och komposition snarare än på att låta videogeneratorn bestämma hela scenens visuella struktur. Beskrivningen anger att videon går igenom anslutningen mellan Claude och Blender, uppbyggnaden av scenmockupen, kameraanimeringen och användningen av Blender-renderingar som referenser i Seedance.\n\nCreative 3D Art beskriver detta som en fullständig AI-filmprocess, men källan innehåller ingen oberoende testning, inga uppmätta resultat och inga uppgifter om när de nämnda produkterna lanserades. Verktygen som uttryckligen anges är Claude Desktop, Blender, Blender MCP-servern, Seedance 2.0 och Seedance 2.5. Higgsfield förekommer också i verktygslistan, men beskrivningen specificerar inte dess roll i arbetsflödet.",
+      "deep": "Det centrala tekniska steget är kopplingen mellan Claude och Blender via Blender MCP-servern. Beskrivningen säger att Claude kan bygga en 3D-mockup av scenen, varefter kameran animeras i Blender. Det skapar ett förarbete där kamerarörelse och komposition definieras i en 3D-miljö innan referensbilder eller renderingar används i Seedance.\n\nKällan nämner både Seedance 2.0 och Seedance 2.5 som mål för referensbaserad videogenerering. Den specificerar däremot inte vilka inställningar, promptar, filformat eller begränsningar som används, och den redovisar inte hur väl metoden fungerar i olika scener. Innehållet presenteras som en tutorial av Creative 3D Art, inte som en oberoende jämförelse eller verifierat prestandatest.",
+      "en": {
+        "ttl": "Seedance 2.5 and Blender MCP connect 3D cameras to AI filmmaking",
+        "sum": "Creative 3D Art describes a workflow in which Claude and Blender MCP are used to build a 3D scene mockup and animate the camera. The resulting renders are then used as references for more accurate video generation in Seedance 2.0 and Seedance 2.5.",
+        "full": "Creative 3D Art presents an AI filmmaking workflow combining Claude, Blender and Seedance 2.0 or Seedance 2.5. The core process is to build a 3D mockup of a scene first, then animate the camera in Blender to control the composition before generating the AI video.\n\nAccording to the description, Claude is connected to Blender through the Blender MCP server. Claude is used to build the scene mockup, while Blender provides a way to animate the camera and plan the framing. Renders from the animated scene are then used as references in Seedance for AI video generation.\n\nThe workflow therefore focuses on camera control and composition rather than leaving the entire visual structure to the video generator. The description says the video covers connecting Claude and Blender, building the scene mockup, animating the camera and using Blender renders as references in Seedance.\n\nCreative 3D Art calls this a full AI filmmaking workflow, but the source contains no independent testing, measured results or product release dates. The explicitly listed tools are Claude Desktop, Blender, the Blender MCP server, Seedance 2.0 and Seedance 2.5. Higgsfield also appears in the tools list, but the description does not specify its role.",
+        "deep": "The key technical step is connecting Claude to Blender through the Blender MCP server. The description says Claude can build a 3D mockup of the scene, after which the camera is animated in Blender. This establishes camera movement and composition in a 3D environment before renders are used as references in Seedance.\n\nThe source mentions both Seedance 2.0 and Seedance 2.5 as targets for reference-based video generation. It does not specify settings, prompts, file formats or limitations, and it does not report how well the method performs across different scenes. The content is presented as a tutorial by Creative 3D Art, not as an independent comparison or verified performance test."
+      },
+      "cat": "film",
+      "date": "2026-10-06T20:20:00Z",
+      "meta": "Creative 3D Art · 2026-10-06",
+      "url": "https://www.youtube.com/watch?v=aeuonpwztss",
+      "img": "https://i.ytimg.com/vi/aeuonpwztss/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5",
+        "higgsfield"
+      ],
+      "chans": [
+        "Creative 3D Art"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        }
+      ],
+      "views": 31,
+      "buzz": 38,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "4f8caf30d9f1c0ab868d8fefc6f731ac61f1892dc5287cb1f41b23dfb53d9ac9",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Claude Desktop",
+        "Blender",
+        "Blender MCP server",
+        "Seedance 2.0"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Testing out the brand new \"Tiny Me\" AI 3D model generator from Meshy! We took a raw outdoor photo and watched the AI reconstruct full",
+      "evidenceIds": [
+        1,
+        3,
+        8
+      ],
+      "id": "vCzZMc9SuwE",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Meshy testar Tiny Me: AI förvandlar foton till samlarfigurer i 3D",
+      "sum": "Daniel Gregory beskriver hur Meshys Tiny Me rekonstruerar en fullständig 3D-modell från ett vanligt foto, inklusive geometri, texturer och en anpassad miniatyrfigur.",
+      "full": "Kanalen Daniel Gregory testar Meshys AI-baserade 3D-modellgenerator Tiny Me. Enligt beskrivningen utgår arbetsflödet från ett rått utomhusfoto och låter AI rekonstruera en fullständig 3D-mesh med både geometri och texturer.\n\nResultatet beskrivs som en anpassad, liten samlarfigur i 3D. Det innebär att verktyget enligt kanalen inte bara skapar en platt bild, utan försöker omvandla motivet i fotografiet till en digital tredimensionell modell.\n\nVideon är presenterad som ett test av modellrekonstruktionen och visar hur processen genomförs i realtid. Beskrivningen specificerar däremot inte hur väl modellen återger detaljer, vilka exportformat som används eller hur resultatet fungerar i spelutveckling och andra produktionsflöden.",
+      "deep": "Den centrala AI-utvecklingen är bild-till-3D-rekonstruktion: Tiny Me tar ett enskilt rått utomhusfoto som indata och genererar enligt kanalens beskrivning full 3D-meshgeometri, texturer och en anpassad miniatyrfigur. Hashtaggarna placerar användningen i sammanhang som 3D-modellering, spelutveckling och digitala tvillingar, men beskrivningen ger inga ytterligare arbetsflödesdetaljer eller verifieringar.\n\nDaniel Gregory beskriver materialet som ett test och frågar specifikt efter tittarnas syn på 3D-modellrekonstruktionen. Därför bör uppgifterna förstås som kanalens rapportering om demonstrationen, inte som ett oberoende test eller en bekräftelse av verktygets kvalitet. Beskrivningen anger inte heller något produktlanseringsdatum.",
+      "en": {
+        "ttl": "Meshy tests Tiny Me: AI turns photos into 3D collectible figures",
+        "sum": "Daniel Gregory describes how Meshy’s Tiny Me reconstructs a complete 3D model from an ordinary photo, including geometry, textures and a customized miniature figure.",
+        "full": "The channel Daniel Gregory tests Meshy’s AI-based 3D model generator Tiny Me. According to the description, the workflow starts with a raw outdoor photo and uses AI to reconstruct a complete 3D mesh with both geometry and textures.\n\nThe result is described as a customized small 3D collectible figure. This means that, according to the channel, the tool does not merely create a flat image but attempts to turn the subject in the photograph into a digital three-dimensional model.\n\nThe video is presented as a test of the model reconstruction and shows the process being carried out in real time. However, the description does not specify how accurately the model reproduces details, which export formats are available or how the result works in game development and other production workflows.",
+        "deep": "The central AI development is image-to-3D reconstruction: Tiny Me takes a single raw outdoor photo as input and, according to the channel’s description, generates full 3D mesh geometry, textures and a customized miniature figure. The hashtags place the use case in areas such as 3D modeling, game development and digital twins, but the description provides no further workflow details or verification.\n\nDaniel Gregory presents the material as a test and specifically asks viewers what they think of the 3D model reconstruction. The claims should therefore be understood as the channel’s account of the demonstration, not as an independent test or confirmation of the tool’s quality. The description also gives no product release date."
+      },
+      "cat": "3d",
+      "date": "2026-10-06T19:45:26Z",
+      "meta": "Daniel Gregory · 2026-10-06",
+      "url": "https://www.youtube.com/watch?v=vCzZMc9SuwE",
+      "img": "https://i.ytimg.com/vi/vCzZMc9SuwE/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Daniel Gregory"
+      ],
+      "parts": [],
+      "views": 0,
+      "buzz": 20,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "cfec5dfe91f727b7152975e0d4f8ed0c8d83bb948f724926f47e2dc2938c29a2",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Abhi tak AI se long video banana sabse badi problem thi - character change, scene bhul jana! Lekin Google ne isko fix kar diya hai",
@@ -572,6 +1036,54 @@
       "sourceId": null,
       "newPlatforms": [
         "ChatGPT"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "One image. A new 3D workflow. ⚡ Shift+A → Tripo API → image to 3D → Cycles inside Houdini. With BH Mixer by Hwayoo Lab,",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "tNXJCnHkXdk",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "BH Mixer visar ett AI-arbetsflöde från bild till 3D i Houdini",
+      "sum": "Hwayoo Lab beskriver i BH Mixer ett arbetsflöde där en bild skickas via Tripo API för att omvandlas till 3D och därefter används med Cycles i Houdini. Projektet kombinerar AI, AI-API:er och kod från befintliga verktyg.",
+      "full": "Hwayoo Lab visar i kanalen Hwayoo Lab — BH Mixer ett experimentellt arbetsflöde för att gå från en enda bild till en 3D-resurs inuti Houdini. Enligt beskrivningen börjar processen med Shift+A, fortsätter genom Tripo API och bild-till-3D-generering och avslutas med Cycles i Houdini.\n\nArbetsflödet är en del av BH Mixer, där skaparen kombinerar AI, AI-API:er och kod från befintliga verktyg för att undersöka enklare och mer lättillgängliga pipelines. Beskrivningen framställer därför inte bara ett fristående verktygsdemo, utan ett försök att koppla samman flera steg i en praktisk 3D-process.\n\nHwayoo Lab uppger att utvecklingen gjordes med Claude och granskades med Codex. Tripo API anges som den AI-baserade länken för bild-till-3D-steget, medan Blender Cycles i Houdini används i den efterföljande delen av arbetsflödet. Kanalen beskriver projektet som en oberoende utvecklingsförhandsvisning och nämner fler experiment och idéer framöver.",
+      "deep": "Beskrivningen anger att arbetsflödet utgår från en bild och använder Tripo API för att skapa 3D innan resultatet går vidare till Cycles i Houdini. Den specificerar också en direkt åtgärd i gränssnittet, Shift+A, vilket placerar integrationen i ett Houdini-baserat arbetsflöde snarare än i en fristående bildgenerator.\n\nHwayoo Lab skriver att väntetiden för genereringen har snabbats upp 72 gånger, men ger inga ytterligare uppgifter om mätmetod, ursprunglig väntetid eller tekniska begränsningar. Projektet hette tidigare Blendini men döptes om efter att skaparen upptäckte befintlig programvara med det namnet. Videobeskrivningen ger inte tillräckligt underlag för att bedöma 3D-resultatets kvalitet, kompatibilitet eller produktionsmognad.",
+      "en": {
+        "ttl": "BH Mixer presents an AI image-to-3D workflow inside Houdini",
+        "sum": "Hwayoo Lab describes a BH Mixer workflow that sends an image through Tripo API to turn it into 3D, followed by Cycles inside Houdini. The project combines AI, AI APIs, and code from existing tools.",
+        "full": "Hwayoo Lab presents an experimental workflow on the Hwayoo Lab — BH Mixer channel for moving from a single image to a 3D asset inside Houdini. According to the description, the process starts with Shift+A, continues through Tripo API and image-to-3D generation, and ends with Cycles inside Houdini.\n\nThe workflow is part of BH Mixer, where the creator combines AI, AI APIs, and code from existing tools to explore easier and more convenient pipelines. The description therefore presents more than an isolated tool demonstration: it describes an attempt to connect several steps in a practical 3D process.\n\nHwayoo Lab says the development was made with Claude and reviewed with Codex. Tripo API is identified as the AI-based link for the image-to-3D step, while Blender Cycles in Houdini is used in the subsequent part of the workflow. The channel describes the project as an independent development preview and mentions more experiments and ideas to come.",
+        "deep": "The description says the workflow starts from an image and uses Tripo API to generate 3D before sending the result to Cycles inside Houdini. It also specifies a direct interface action, Shift+A, placing the integration in a Houdini-based workflow rather than in a standalone image generator.\n\nHwayoo Lab says generation wait time has been sped up 72×, but provides no further information about the measurement method, original wait time, or technical limitations. The project was formerly called Blendini but was renamed after the creator discovered existing software using that name. The video description does not provide enough evidence to assess the 3D output quality, compatibility, or production readiness."
+      },
+      "cat": "3d",
+      "date": "2026-10-03T19:05:51Z",
+      "meta": "Hwayoo Lab — BH Mixer · 2026-10-03",
+      "url": "https://www.youtube.com/watch?v=tNXJCnHkXdk",
+      "img": "https://i.ytimg.com/vi/tNXJCnHkXdk/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Hwayoo Lab — BH Mixer"
+      ],
+      "parts": [],
+      "views": 179,
+      "buzz": 47,
+      "sourceCheckedAt": "2026-10-07T19:58:42.629Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1cf3b6d91e44d6e2f6040b574aa173c42dd495ac1a2fc6c0292a349b556148f6",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Tripo API",
+        "Claude",
+        "Codex",
+        "Blender Cycles",
+        "Houdini"
       ]
     },
     {
@@ -20168,7 +20680,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -20186,7 +20698,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -20204,7 +20716,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -20222,7 +20734,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -20240,7 +20752,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -20258,7 +20770,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -20276,7 +20788,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 622000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -20294,7 +20806,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -20312,7 +20824,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -20330,7 +20842,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -20348,7 +20860,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -20366,7 +20878,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -20384,7 +20896,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -20402,7 +20914,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -20420,7 +20932,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -20438,7 +20950,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -20456,7 +20968,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -20474,7 +20986,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -20491,8 +21003,8 @@
       "id": "mkbhd",
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
-      "subscriberCount": 21300000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "subscriberCount": 21400000,
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -20510,7 +21022,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -20528,7 +21040,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -20546,7 +21058,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -20563,8 +21075,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 753000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "subscriberCount": 754000,
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -20582,7 +21094,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -20599,8 +21111,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 757000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "subscriberCount": 758000,
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -20618,7 +21130,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -20636,7 +21148,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 341000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -20654,7 +21166,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 196000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -20672,7 +21184,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 486000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -20690,7 +21202,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 454000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -20708,7 +21220,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -20726,7 +21238,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -20744,7 +21256,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -20762,7 +21274,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -20780,7 +21292,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -20788,88 +21300,88 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 4
+      "checkedAt": "2026-10-07T19:58:42.629Z",
+      "found": 5
     },
     "3d": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
+      "checkedAt": "2026-10-07T19:58:42.629Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 3
+      "checkedAt": "2026-10-07T19:58:42.629Z",
+      "found": 2
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-07T11:49:27.031Z",
+    "calculatedAt": "2026-10-07T19:58:42.629Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 0.051963502097457225,
+      "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.1908563016496443,
-      "google-veo-3-1": 0.05140445889503086,
+      "runway-gen-4-5": 0.13483820280427805,
+      "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.4659212637130925,
+      "elevenlabs": 1.4174225650030747,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.3861980439485843,
+      "kling-3-0": 0.3734210258102306,
       "freepik-ai": 0,
-      "adobe-firefly": 0.06103562028106057,
+      "adobe-firefly": 0.05901631117363123,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.9656507257472637,
+      "higgsfield": 4.691481831039362,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.0601815326322273,
+      "meshy-ai": 1.0251063713655042,
       "magnific-ai": 0,
-      "seedance-2-5": 1.9258034959861823,
+      "seedance-2-5": 2.7691405865931102,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.3705323464269822,
+      "nano-banana-pro": 0.3582736139312407,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.10471561967431196,
+      "rodin-hyper3d": 0.10125119671072552,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.5237475897826931,
-      "trellis-2": 0.31899150925673403,
+      "hunyuan3d": 0.5064198674924594,
+      "trellis-2": 0.30843795943011515,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.10471561967431196,
-      "hitem3d": 0.3945711090107442,
+      "luma-genie": 0.10125119671072552,
+      "hitem3d": 0.38151707547614716,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.20079467819946664,
-      "luma-agents": 0.15089051468757106
+      "gemini-omni-flash": 0.19415156520177096,
+      "luma-agents": 0.14589843646947084
     }
   }
 }
