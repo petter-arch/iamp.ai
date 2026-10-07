@@ -1,0 +1,50 @@
+name: Deploy iamp.ai
+on:
+  workflow_run:
+    workflows:
+      - Update news feed
+      - Update Trendar models
+    types:
+      - completed
+  push:
+    branches:
+      - main
+    paths:
+      - index.html
+      - site-data.json
+      - news.json
+      - CNAME
+      - publish-data.mjs
+      - .github/workflows/deploy-pages.yml
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: iamp-pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: iamp-pages-live
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node publish-data.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment
