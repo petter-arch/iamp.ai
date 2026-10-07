@@ -1,168 +1,87 @@
 {
-  "startedAt": "2026-10-06T19:48:29.931Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-06T19:48:29.931Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 113,
-    "relevant": 35,
-    "supported": 27
-  },
-  "rejected": [
+  "startedAt": "2026-10-07T11:49:27.031Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "gX0L0aFA2xg",
-      "title": "Claude Opus 5.5 is ridiculous",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        8,
-        10,
-        11
-      ]
+      "platform": "trellis-2",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "RxB56eE5BRc",
-      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "platform": "trellis-2",
+      "field": "tier",
+      "message": "Official source unavailable"
     },
     {
-      "video": "kqqgPi8neys",
-      "title": "DOTS just did your entire content setup.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        5
-      ]
+      "platform": "trellis-2",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "trellis-2",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "uapAA5hx5uI",
-      "title": "ChatGPT Just Entered a New Era (How This Affects Normal People)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        4
-      ]
+      "platform": "trellis-2",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Z8-AOU6ZjoQ",
-      "title": "Turn Your Ideas Into 3D Models 🤯✨ | Lyndium 3D Generation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        6
-      ]
+      "platform": "trellis-2",
+      "field": "tags",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        7
-      ]
+      "platform": "trellis-2",
+      "field": "caps",
+      "message": "Official source unavailable"
     },
     {
-      "video": "IuLV5bQaFiQ",
-      "title": "Black Forest Labs aus Freiburg bringt FLUX 3 Action, ein offenes Modell für Roboter mit 7 Milliarden",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "trellis-2",
+      "field": "pros",
+      "message": "Official source unavailable"
     },
     {
-      "video": "lHmZoRHMZyM",
-      "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
-      "stage": "insufficient-article-source"
+      "platform": "trellis-2",
+      "field": "cons",
+      "message": "Official source unavailable"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"The \\\"Audio upload\\\" feature is available only for paid subscribers.\",\"retrieved\":[]}"
     },
     {
-      "video": "DBiaLgcEfWk",
-      "title": "How To Edit Images Using AI Image Editor With Unlimited AI Generations (My Step By Step Walkthrough)",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"The \\\"Audio upload\\\" feature is available only for paid subscribers.\",\"retrieved\":[]}"
     },
     {
-      "video": "3iTAu4QT6k8",
-      "title": "Stop Overusing Camera Movement in AI Videos 🎥 | AI Filmmaking Tips",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"Inpaint lets you immediately edit the audio you've uploaded by selecting all or part of the song.\",\"retrieved\":[]}"
     },
     {
-      "video": "3myMDipcGgU",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "PH5-Wuu5kME",
-      "title": "🔥 Trending Couple AI Photo Editing...✨",
-      "stage": "insufficient-article-source"
+      "platform": "pixverse-v4-5",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://docs.platform.pixverse.ai/how-to-use-extend-1268531m0\",\"quote\":\"\\\"anime\\\" \\\"3d_animation\\\" \\\"day\\\" \\\"cyberpunk\\\" \\\"comic\\\"\",\"retrieved\":[]}"
     },
     {
-      "video": "BF-0T4l0JQg",
-      "title": "ChatGPT का नया AI Image Editor! 🤯 #ChatGPT #AI #AIImages",
-      "stage": "insufficient-article-source"
+      "candidate": "Hi3D Agent",
+      "message": "Invalid evidence URL"
     },
     {
-      "video": "FKiKtIMy9m4",
-      "title": "【魔改造Kei】AIにクルマを本気でカスタムさせたらとんでもないモンスターマシンが召喚されました【Meshy7】",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "A5t9e_POEpo",
-      "title": "Ai 3D video kese banaye | 3d कार्टून वीडियो | Ai 3d model Generation| Love story 3d Song Animations",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "1FAnn26Z_M8",
-      "title": "AI Image Generator vs Photo Editor: What’s the REAL Difference? 🤖",
-      "stage": "insufficient-article-source"
+      "candidate": "Google Gemini",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 3
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }
