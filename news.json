@@ -1,6 +1,94 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "On October 6, 2026, Google made Nano Banana 2.1 generally available — an upgrade to its image generation and editing model, built on Gemini 3.6",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "tOKIC-UPpPk",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Google uppgraderar sin bild-AI med Nano Banana 2.1",
+    "sum": "Nano Banana 2.1 har blivit allmänt tillgänglig med förbättrad bildkvalitet, maskbaserad redigering, bättre konsekvens mellan referensbilder och upplösning upp till 4K. Enligt StackLab bygger modellen på Gemini 3.6 Flash och får samtidigt lägre API-pris.",
+    "full": "Google gjorde Nano Banana 2.1 allmänt tillgänglig den 6 oktober 2026. Enligt YouTube-kanalen StackLab är modellen en uppgradering av Googles AI för bildgenerering och bildredigering, byggd på Gemini 3.6 Flash.\n\nStackLab beskriver flera konkreta förändringar. Bildkvaliteten ska vara skarpare, medan text i bilder – exempelvis på affischer och infografik – ska återges renare. Modellen har också fått maskbaserad redigering, vilket gör det möjligt att ändra ett utvalt område utan att resten av bilden påverkas.\n\nEn annan nyhet är förbättrad konsekvens mellan redigeringar. Enligt Googles egna uppgifter kan en begäran använda upp till 14 referensbilder och samtidigt bevara konsekvensen för fyra figurer och tio objekt. Det riktar sig mot arbetsflöden där samma personer, figurer eller föremål behöver återkomma i flera bilder.\n\nUtmatningen kan nu gå upp till 4K, med alternativen 1K, 2K och 4K. Nano Banana 2.1 rullas enligt beskrivningen ut i Gemini-appen, AI Mode i Search, AI Studio, Flow och Google Ads.\n\nStackLab lyfter också fram en prissänkning på ungefär hälften. Det angivna priset är cirka 0,0336 dollar per 1K-bild på standardnivån i API:t, jämfört med ungefär det dubbla under Nano Banana 2. Samtidigt betonar kanalen att uppgifterna bygger på Googles meddelanden och inte på ett oberoende test.",
+    "deep": "Den viktigaste praktiska förändringen är kombinationen av lokal redigering och referensstyrning. Maskbaserad redigering ska kunna begränsa ändringen till ett markerat område, medan stöd för upp till 14 referensbilder är avsett att hålla figurer och objekt konsekventa över flera redigeringar. StackLab anger att upp till fyra figurer och tio objekt kan bevaras konsekventa i en enda begäran.\n\nDen högre upplösningen omfattar 1K, 2K och 4K. Beskrivningen nämner samtidigt en tydlig begränsning: Googles modellkort medger att liten text fortfarande kan bli suddig vid 1K. Det innebär att den rapporterade förbättringen för affischer och infografik inte ska tolkas som en garanti för skarp liten text i alla utdata.\n\nDet rapporterade API-priset på cirka 0,0336 dollar per 1K-bild gäller standardnivån och presenteras som ungefär hälften av priset under Nano Banana 2. StackLab understryker att modellen ännu inte har oberoende benchmarkats utanför Google i den rapporterade genomgången.",
+    "en": {
+      "ttl": "Google upgrades its image AI with Nano Banana 2.1",
+      "sum": "Nano Banana 2.1 is generally available with improved image quality, mask-based editing, stronger consistency across reference images, and output up to 4K. According to StackLab, the model is built on Gemini 3.6 Flash and also comes with a lower API price.",
+      "full": "Google made Nano Banana 2.1 generally available on October 6, 2026. According to the YouTube channel StackLab, the model is an upgrade to Google’s AI for image generation and editing, built on Gemini 3.6 Flash.\n\nStackLab describes several concrete changes. Image quality is expected to be sharper, while text inside images, such as posters and infographics, should render more cleanly. The model also adds mask-based editing, allowing users to change one selected area without affecting the rest of the image.\n\nAnother update is stronger consistency across edits. According to Google’s own claims, a request can use up to 14 reference images while maintaining consistency for four characters and ten objects. This is aimed at workflows where the same people, characters, or objects need to reappear across multiple images.\n\nOutput can now reach 4K, with 1K, 2K, and 4K options. The description says Nano Banana 2.1 is rolling out across the Gemini app, AI Mode in Search, AI Studio, Flow, and Google Ads.\n\nStackLab also highlights a price reduction of roughly half. The stated price is about $0.0336 per 1K image on the standard API tier, compared with roughly twice that under Nano Banana 2. At the same time, the channel stresses that the information comes from Google’s announcements and not from an independent test.",
+      "deep": "The most important practical change is the combination of local editing and reference control. Mask-based editing is intended to limit changes to a selected area, while support for up to 14 reference images is intended to preserve characters and objects across multiple edits. StackLab says that up to four characters and ten objects can remain consistent in a single request.\n\nThe higher resolution includes 1K, 2K, and 4K. The description also names a specific limitation: Google’s model card acknowledges that small text can still appear blurry at 1K. The reported improvement for posters and infographics therefore should not be treated as a guarantee of sharp small text in every output.\n\nThe reported API price of about $0.0336 per 1K image applies to the standard tier and is presented as roughly half the price under Nano Banana 2. StackLab emphasizes that the model has not yet been independently benchmarked outside Google in the reported coverage."
+    },
+    "cat": "foto",
+    "date": "2026-10-08T06:53:23Z",
+    "meta": "StackLab · 2026-10-08",
+    "url": "https://www.youtube.com/watch?v=tOKIC-UPpPk",
+    "img": "https://i.ytimg.com/vi/tOKIC-UPpPk/hqdefault.jpg",
+    "plat": "Nano Banana 2",
+    "platformIds": [
+      "nano-banana-2"
+    ],
+    "chans": [
+      "StackLab"
+    ],
+    "parts": [],
+    "views": 1,
+    "buzz": 24,
+    "sourceCheckedAt": "2026-10-08T08:57:19.677Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "beee567395f4f29b24d1d92479b023d27ddf514a4ae9d76d27e6ddd3b4e94fe8",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Nano Banana 2.1"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Maverick Code Pictures creates AI movies, short films, cinematic stories, feature films, action films, thrillers, drama, military films, and full-length movies with a strong focus",
+    "evidenceIds": [
+      1,
+      7,
+      9
+    ],
+    "id": "iQ3NvRfmWlQ",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "The Marverick Code Pictures presenterar AI-filmer med fokus på berättande och realism",
+    "sum": "The Marverick Code Pictures beskriver en filmstudio för AI-filmer, kortfilmer och långfilmer där realism, känslor och berättande står i centrum. Kanalen lyfter även AI-skådespelare, virtuella karaktärer, världsbygge och en process för att skapa filmproduktioner med generativ AI.",
+    "full": "The Marverick Code Pictures beskriver sitt arbete som AI-baserad filmproduktion med fokus på berättelser, filmisk presentation och realism. Kanalens utbud omfattar AI-filmer, kortfilmer, långfilmer och berättelser inom bland annat action, thriller, drama och militärfilm. Beskrivningen framställer projektet som en AI-filmstudio snarare än som en genomgång av enskilda verktyg.\n\nEn central del är att kombinera generativ AI med karaktärsdrivna berättelser. Kanalen nämner AI-skådespelare, digitala och virtuella skådespelare samt AI-karaktärer som används i filmiska berättelser. Den lyfter också AI-baserat världsbygge och visuellt berättande för att skapa miljöer och berättelsevärldar för filmer och serier.\n\nArbetsflödet beskrivs på en övergripande nivå som en process för att skapa AI-filmer och producera filmiskt innehåll. Det omfattar bland annat filmskapande, filmproduktion, visuellt berättande och material bakom kulisserna om hur AI-filmer görs. Beskrivningen anger däremot inga specifika AI-modeller, program, tekniska metoder, releasedatum eller oberoende testresultat.\n\nThe Marverick Code Pictures betonar att berättelsen ska komma först och att filmens uttryck ska präglas av realism, känslor och kraftfullt berättande. Exempel på användningsområden som nämns är actionsekvenser, taktiska scener, stridsscener, filmtrailrar och dramatiska eller emotionella dialogscener.",
+    "deep": "Kanalens beskrivning omfattar både kortformat och längre produktioner, inklusive kortfilmer, långfilmer, fullängdsfilmer och filmiska serier. Den nämner även självständigt filmskapande, digital filmproduktion, virtuell produktion och publicering av filmer på YouTube.\n\nDe konkreta kreativa områden som anges är AI-karaktärer, AI-skådespelare, virtuella skådespelare, AI-världsbygge, filmisk dialog, visuellt berättande och filmiska actionsekvenser. Genrerna omfattar bland annat action, thriller, drama, militärfilm, mysterium och spänning.\n\nEftersom källan endast består av kanalens titel och utgivarbeskrivning går det inte att fastställa vilka modeller eller verktyg som används, hur produktionen tekniskt genomförs eller hur resultaten står sig mot annan filmproduktion. Videons uppladdningsdatum används inte som releasedatum för någon produkt.",
+    "en": {
+      "ttl": "The Marverick Code Pictures presents AI films focused on storytelling and realism",
+      "sum": "The Marverick Code Pictures describes an AI film studio producing short films and feature-length movies with an emphasis on realism, emotion and storytelling. The channel also highlights AI actors, virtual characters, world-building and a generative AI filmmaking process.",
+      "full": "The Marverick Code Pictures describes its work as AI-based film production focused on stories, cinematic presentation and realism. The channel’s output includes AI movies, short films, feature-length films and stories in genres such as action, thriller, drama and military film. The description presents the project as an AI film studio rather than as a review of individual tools.\n\nA central element is the combination of generative AI with character-driven storytelling. The channel mentions AI actors, digital and virtual actors, and AI characters used in cinematic narratives. It also highlights AI world-building and visual storytelling for creating settings and narrative worlds for films and series.\n\nThe workflow is described at a high level as a process for creating AI movies and producing cinematic content. It includes filmmaking, film production, visual storytelling and behind-the-scenes material about how AI movies are made. However, the description provides no specific AI models, software, technical methods, release dates or independent test results.\n\nThe Marverick Code Pictures emphasizes that story comes first and that its films should focus on realism, emotion and powerful storytelling. The use cases mentioned include action sequences, tactical scenes, battle scenes, movie trailers, and dramatic or emotional dialogue scenes.",
+      "deep": "The channel’s description covers both short-form and longer productions, including short films, feature films, full-length movies and cinematic series. It also mentions independent filmmaking, digital film production, virtual production and publishing films on YouTube.\n\nThe specific creative areas named are AI characters, AI actors, virtual actors, AI world-building, cinematic dialogue, visual storytelling and cinematic action scenes. The listed genres include action, thriller, drama, military film, mystery and suspense.\n\nBecause the source consists only of the channel title and publisher description, it is not possible to establish which models or tools are used, how the production is technically carried out, or how the results compare with other film production. The video upload date is not treated as a product release date."
+    },
+    "cat": "film",
+    "date": "2026-10-07T18:47:48Z",
+    "meta": "The Marverick Code Pictures · 2026-10-07",
+    "url": "https://www.youtube.com/watch?v=iQ3NvRfmWlQ",
+    "img": "https://i.ytimg.com/vi/iQ3NvRfmWlQ/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "The Marverick Code Pictures"
+    ],
+    "parts": [],
+    "views": 6,
+    "buzz": 30,
+    "sourceCheckedAt": "2026-10-08T08:57:19.677Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "0fcd4c687208c06d5bf2e4219b8d9fb4f1ebc99bc62791d06620b5e59294198a",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Google has released Nano Banana 2.1, its latest AI image generation and editing model. It brings better image quality, improved text rendering, stronger consistency across",
     "evidenceIds": [
       1,
@@ -728,6 +816,50 @@
     "newPlatforms": [
       "Chatgpt",
       "gemini ai"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Discover Tripo AI, an amazing AI-powered tool that transforms text prompts and images into 3D models in just a few steps! In this video, we'll",
+    "evidenceIds": [
+      1,
+      2,
+      5
+    ],
+    "id": "HAEY_R907w0",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Tripo AI omvandlar text och bilder till 3D-modeller med AI",
+    "sum": "Kanalen aitoolsdetail beskriver Tripo AI som ett AI-verktyg som skapar 3D-modeller från text och bilder för bland annat designers, spelutvecklare och innehållsskapare.",
+    "full": "Kanalen aitoolsdetail presenterar Tripo AI som ett verktyg för AI-baserad 3D-modellering. Enligt kanalens beskrivning kan användaren omvandla textuppmaningar och bilder till 3D-modeller i några få steg.\n\nArbetsflödet omfattar två centrala inmatningar: bilder som konverteras till 3D-modeller och text som används för att generera 3D-modeller. Beskrivningen framställer därmed Tripo AI som ett sätt att gå från visuella eller skriftliga idéer till digitala 3D-objekt utan att börja med traditionell manuell modellering.\n\nKanalen riktar användningsområdet till designers, spelutvecklare och innehållsskapare. Tripo AI beskrivs också som ett verktyg för att skapa 3D-tillgångar till kreativa projekt och som ett exempel på hur AI kan göra 3D-skapande mer tillgängligt.",
+    "deep": "Det tillgängliga underlaget anger inte vilka filformat, detaljnivåer, redigeringsfunktioner, exportalternativ eller begränsningar Tripo AI har. Det innehåller inte heller resultat från ett oberoende test, så artikelns uppgifter återges som kanalens presentation och inte som verifierade prestandaresultat.\n\nBeskrivningen nämner specifikt både textbaserad generering och bild-till-3D-konvertering. Den kopplar funktionerna till skapandet av 3D-tillgångar för kreativa projekt, särskilt inom design, spelutveckling och innehållsproduktion.",
+    "en": {
+      "ttl": "Tripo AI turns text and images into 3D models with AI",
+      "sum": "The channel aitoolsdetail describes Tripo AI as an AI tool that creates 3D models from text and images for designers, game developers and content creators.",
+      "full": "The channel aitoolsdetail presents Tripo AI as an AI-based 3D modeling tool. According to the channel’s description, users can turn text prompts and images into 3D models in a few steps.\n\nThe workflow supports two main inputs: images that are converted into 3D models and text used to generate 3D models. The description therefore presents Tripo AI as a way to move from visual or written ideas to digital 3D objects without starting with traditional manual modeling.\n\nThe channel highlights designers, game developers and content creators as intended users. It also describes Tripo AI as a tool for creating 3D assets for creative projects and as an example of how AI can make 3D creation more accessible.",
+      "deep": "The available source does not specify file formats, detail levels, editing features, export options or limitations for Tripo AI. It also contains no independent test results, so the article reports the channel’s presentation rather than verified performance results.\n\nThe description specifically mentions both text-based generation and image-to-3D conversion. It connects these capabilities to the creation of 3D assets for creative projects, especially in design, game development and content production."
+    },
+    "cat": "3d",
+    "date": "2026-10-04T17:19:26Z",
+    "meta": "aitoolsdetail · 2026-10-04",
+    "url": "https://www.youtube.com/watch?v=HAEY_R907w0",
+    "img": "https://i.ytimg.com/vi/HAEY_R907w0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "aitoolsdetail"
+    ],
+    "parts": [],
+    "views": 183,
+    "buzz": 47,
+    "sourceCheckedAt": "2026-10-08T08:57:19.677Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "aab30f9db43c6a63a54a6e04d4c29641d4dc9c17efdeaedded2751de102dd21a",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo AI"
     ]
   },
   {
