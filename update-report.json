@@ -1,53 +1,127 @@
 {
-  "startedAt": "2026-10-08T12:04:24.980Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-08T19:56:38.353Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 5
+    },
+    "3d": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 108,
+    "relevant": 26,
+    "supported": 20
+  },
+  "rejected": [
     {
-      "platform": "vidu-q3",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/pricing\",\"quote\":\"Vidu Q3 | - reference2video | 3-16S | 540P | 7 /Second | $0.035 / Second\",\"retrieved\":[]}"
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "luma-genie",
-      "message": "Invalid independent fact check"
+      "video": "grOilk8aCS0",
+      "title": "This AI Design Hack Saved Me HOURS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "sub",
-      "message": "Source outside official domain"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "kqqgPi8neys",
+      "title": "DOTS just did your entire content setup.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "deep",
-      "message": "Invalid official citation"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        8
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "pros",
-      "message": "Invalid official citation"
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        7
+      ]
     },
     {
-      "platform": "hitem3d",
-      "field": "cons",
-      "message": "Source outside official domain"
+      "video": "DhqYGodqx_Y",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "hitem3d",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "q0qhiLJ1vDE",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "MiniMax H3",
-      "message": "Invalid evidence URL"
+      "video": "ZWI024IuyWQ",
+      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "PpuNKVoSYB4",
+      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        8,
+        13,
+        14
+      ]
+    },
+    {
+      "video": "cX5y8208gfY",
+      "title": "AI 3D model generation #growing video #YouTube video ",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "accepted": 8
 }
