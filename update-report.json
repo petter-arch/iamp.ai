@@ -1,111 +1,68 @@
 {
-  "startedAt": "2026-10-09T09:03:04.652Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 5
-    },
-    "3d": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-09T09:03:04.652Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 104,
-    "relevant": 18,
-    "supported": 15
-  },
-  "rejected": [
+  "startedAt": "2026-10-09T11:56:15.996Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "stable-audio-3-0",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://stableaudio.com/about\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
     },
     {
-      "video": "kqqgPi8neys",
-      "title": "DOTS just did your entire content setup.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        4
-      ]
+      "platform": "stable-audio-3-0",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://stableaudio.com/about\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "synthesia",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.synthesia.io/pricing?_hubs_post-cta=fr-blog-plain&product=breeze\",\"quote\":\"Billed monthly. $29 per month\",\"retrieved\":[]}"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
+      "platform": "synthesia",
+      "field": "tier",
+      "message": "Quote not found: {\"url\":\"https://help.synthesia.io/en/articles/15972650-what-are-synthesia-s-pricing-plans\",\"quote\":\"Basic: free, for exploring the editor and testing avatars and voices.\",\"retrieved\":[]}"
     },
     {
-      "video": "csdXmuou84o",
-      "title": "Best Couple Ai Photo Prompt 2026 ❤️🥀😍 | Chatgpt New Photo Edit #viral #shorts",
-      "stage": "insufficient-article-source"
+      "platform": "synthesia",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "PpuNKVoSYB4",
-      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        8,
-        13,
-        14
-      ]
+      "platform": "topaz-labs",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "DhqYGodqx_Y",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
+      "platform": "gemini-omni-flash",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing\",\"quote\":\"approximately $0.10 per second.\",\"retrieved\":[]}"
     },
     {
-      "video": "q0qhiLJ1vDE",
-      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
-      "stage": "insufficient-article-source"
+      "platform": "gemini-omni-flash",
+      "field": "tier",
+      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing\",\"quote\":\"paid tier of the Gemini API.\",\"retrieved\":[]}"
     },
     {
-      "video": "ZWI024IuyWQ",
-      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
-      "stage": "insufficient-article-source"
+      "platform": "gemini-omni-flash",
+      "field": "free",
+      "message": "Invalid official citation"
     },
     {
-      "video": "cX5y8208gfY",
-      "title": "AI 3D model generation #growing video #YouTube video ",
-      "stage": "insufficient-article-source"
+      "platform": "gemini-omni-flash",
+      "field": "cons",
+      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/changelog?release=09-18-2026\",\"quote\":\"3–10 second videos at 720p\",\"retrieved\":[]}"
+    },
+    {
+      "candidate": "Topview Film Studio",
+      "message": "Evidence quote missing"
+    },
+    {
+      "candidate": "v6-wild",
+      "message": "Evidence quote missing"
     }
   ],
-  "accepted": 3
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }

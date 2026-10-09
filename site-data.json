@@ -19306,7 +19306,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -19399,7 +19399,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -19475,7 +19475,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -19523,7 +19523,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -19823,7 +19823,8 @@
         "https://www.youtube.com/watch?v=oWrr9AA2CTk",
         "https://www.youtube.com/watch?v=vhhGPVmcOm8",
         "https://www.youtube.com/watch?v=ti0Ie018EWY",
-        "https://www.youtube.com/watch?v=4_veqqIu_f4"
+        "https://www.youtube.com/watch?v=4_veqqIu_f4",
+        "https://www.youtube.com/watch?v=dFvtVoY5ng0"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -19974,7 +19975,8 @@
         "https://www.youtube.com/watch?v=X7jHqd5xp9I",
         "https://www.youtube.com/watch?v=4G-LiRlM1Og",
         "https://www.youtube.com/watch?v=oWrr9AA2CTk",
-        "https://www.youtube.com/watch?v=Mat-Fjb2A6U"
+        "https://www.youtube.com/watch?v=Mat-Fjb2A6U",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -20283,7 +20285,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=WdmSvISHQm4",
         "https://www.youtube.com/watch?v=mqoeh_uojS0",
-        "https://www.youtube.com/watch?v=aeuonpwztss"
+        "https://www.youtube.com/watch?v=aeuonpwztss",
+        "https://www.youtube.com/watch?v=af3tpCF8mlI"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z",
       "lastAttemptAt": "2026-10-03T10:26:44.648Z",
@@ -20374,7 +20377,9 @@
       "name": "Google Gemini",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GK0YdIum3jY",
-        "https://www.youtube.com/watch?v=0uz1pxs5xa4"
+        "https://www.youtube.com/watch?v=0uz1pxs5xa4",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=af3tpCF8mlI"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z",
       "lastAttemptAt": "2026-10-07T11:49:27.031Z",
@@ -20407,7 +20412,10 @@
         "https://www.youtube.com/watch?v=QW2nS4DO-s8",
         "https://www.youtube.com/watch?v=Ys8Nt4Fz14I"
       ],
-      "firstSeen": "2026-09-20T09:50:23.089Z"
+      "firstSeen": "2026-09-20T09:50:23.089Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "v6-wild",
@@ -20415,7 +20423,10 @@
         "https://www.youtube.com/watch?v=AoLovH6ybrQ",
         "https://www.youtube.com/watch?v=_lHvWn2SNC4"
       ],
-      "firstSeen": "2026-09-20T09:50:23.089Z"
+      "firstSeen": "2026-09-20T09:50:23.089Z",
+      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "v6-mini",
@@ -20761,14 +20772,16 @@
     {
       "name": "Suno AI",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
     {
       "name": "CapCut",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=f1nSkWhkIpY"
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
@@ -21575,6 +21588,21 @@
         "https://www.youtube.com/watch?v=tNXJCnHkXdk"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
+    },
+    {
+      "name": "MeshZEUS",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tfV0KnBxbBg",
+        "https://www.youtube.com/watch?v=_YuhCoT-lqs"
+      ],
+      "firstSeen": "2026-10-09T11:56:15.996Z"
+    },
+    {
+      "name": "Preview AI Editor",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_YuhCoT-lqs"
+      ],
+      "firstSeen": "2026-10-09T11:56:15.996Z"
     }
   ],
   "sourceChecks": {},
@@ -22241,59 +22269,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-09T09:03:04.652Z",
+    "calculatedAt": "2026-10-09T11:56:15.996Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.11571356251271366,
+      "runway-gen-4-5": 0.11434367103109212,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 2.141777323909253,
+      "elevenlabs": 2.116421588178352,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.32045723181563235,
+      "kling-3-0": 0.316663453259726,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.0260702445079595,
+      "higgsfield": 3.9784070388076294,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.8797114446664803,
+      "meshy-ai": 0.8692968555019545,
       "magnific-ai": 0,
-      "seedance-2-5": 2.3285103149838604,
+      "seedance-2-5": 2.300943914156698,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.3074582377997487,
-      "nano-banana-2": 0.8976819981340656,
+      "nano-banana-pro": 0.30381834968490495,
+      "nano-banana-2": 0.887054662014207,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.0868903355014302,
+      "rodin-hyper3d": 0.08586167189576539,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.43459231713306157,
-      "trellis-2": 0.21342486970300512,
+      "hunyuan3d": 0.42944733412250613,
+      "trellis-2": 0.2108982090020159,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.0868903355014302,
-      "hitem3d": 0.32740498645519023,
+      "luma-genie": 0.08586167189576539,
+      "hitem3d": 0.32352895591697134,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.16661427406835433,
-      "luma-agents": 0.1252050791082011
+      "gemini-omni-flash": 0.16464178726726983,
+      "luma-agents": 0.12372282095624737
     }
   }
 }
