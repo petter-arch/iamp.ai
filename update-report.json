@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-08T19:56:38.353Z",
+  "startedAt": "2026-10-09T09:03:04.652Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
+      "checkedAt": "2026-10-09T09:03:04.652Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-08T19:56:38.353Z",
-      "found": 2
+      "checkedAt": "2026-10-09T09:03:04.652Z",
+      "found": 3
     }
   },
   "selection": {
-    "fetched": 108,
-    "relevant": 26,
-    "supported": 20
+    "fetched": 104,
+    "relevant": 18,
+    "supported": 15
   },
   "rejected": [
     {
@@ -44,23 +44,6 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0
-      ]
-    },
-    {
-      "video": "grOilk8aCS0",
-      "title": "This AI Design Hack Saved Me HOURS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "RxB56eE5BRc",
-      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2
       ]
     },
     {
@@ -80,16 +63,27 @@
       "evidenceIds": [
         1,
         5,
-        8
+        9
       ]
     },
     {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "csdXmuou84o",
+      "title": "Best Couple Ai Photo Prompt 2026 ❤️🥀😍 | Chatgpt New Photo Edit #viral #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "PpuNKVoSYB4",
+      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
+      "stage": "article-evidence",
       "evidenceIds": [
-        2,
-        7
+        8,
+        13,
+        14
       ]
     },
     {
@@ -108,20 +102,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "PpuNKVoSYB4",
-      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        8,
-        13,
-        14
-      ]
-    },
-    {
       "video": "cX5y8208gfY",
       "title": "AI 3D model generation #growing video #YouTube video ",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 8
+  "accepted": 3
 }
