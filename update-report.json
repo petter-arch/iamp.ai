@@ -1,97 +1,152 @@
 {
-  "startedAt": "2026-10-10T11:12:43.125Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-10T18:34:02.363Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 108,
+    "relevant": 24,
+    "supported": 19
+  },
+  "rejected": [
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/\",\"quote\":\"it ranks No. 2 for both text to image and image editing on Arena.\",\"retrieved\":[]}"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "pros",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        8
+      ]
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "l4gPRtXVf2k",
+      "title": "Qwen's new image model is free to download -- but not to sell with | Breach Protocol #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "Y6kathKxytk",
+      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2
+      ]
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "h4MKJAJvins",
+      "title": "This New Trick Can Save a Ton on AI Video Generations",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "message": "Invalid independent fact check"
+      "video": "fr0WIIZxvx0",
+      "title": "Pros Try Fake AI Photoshop",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "grOilk8aCS0",
+      "title": "AI Design Hack Saves HOURS",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "HKgAMl1iHxk",
+      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "PpuNKVoSYB4",
+      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        8,
+        13,
+        14
+      ]
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "pros",
-      "message": "Official source unavailable"
+      "video": "c4DPUXlsYoI",
+      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "cons",
-      "message": "Official source unavailable"
+      "video": "x_oKFmaT4TI",
+      "title": "How To Ai Google Gemini Prompt 🔥 | ai se photo kense banye #ai #prompt",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "tier",
-      "message": "Official source unavailable"
+      "video": "KYVKKX6bZaE",
+      "title": "AI Video Generation HOT TAKE",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "free",
-      "message": "Official source unavailable"
+      "video": "DhqYGodqx_Y",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "runway-gen-4-5",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
-    },
-    {
-      "candidate": "v6-mini",
-      "message": "Invalid evidence URL"
-    },
-    {
-      "candidate": "OpenArt",
-      "message": "Incomplete independent verification of new profile"
+      "video": "ZWI024IuyWQ",
+      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 4
 }
