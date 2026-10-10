@@ -1,153 +1,97 @@
 {
-  "startedAt": "2026-10-10T08:29:00.751Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 3
-    },
-    "3d": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-10T08:29:00.751Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 111,
-    "relevant": 27,
-    "supported": 21
-  },
-  "rejected": [
+  "startedAt": "2026-10-10T11:12:43.125Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "chatgpt-images-2-0",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "grOilk8aCS0",
-      "title": "AI Design Hack Saves HOURS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "mai-image-2-6",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/\",\"quote\":\"it ranks No. 2 for both text to image and image editing on Arena.\",\"retrieved\":[]}"
     },
     {
-      "video": "ijFSEb2W6_8",
-      "title": "I’ve Wanted This Robot for 10 Years",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3
-      ]
+      "platform": "mai-image-2-6",
+      "field": "pros",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "RxB56eE5BRc",
-      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
+      "platform": "midjourney-v8-2",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "midjourney-v8-2",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        7
-      ]
+      "platform": "midjourney-v8-2",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "h4MKJAJvins",
-      "title": "This New Trick Can Save a Ton on AI Video Generations",
-      "stage": "insufficient-article-source"
+      "platform": "midjourney-v8-2",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "x_oKFmaT4TI",
-      "title": "How To Ai Google Gemini Prompt 🔥 | ai se photo kense banye #ai #prompt",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "c4DPUXlsYoI",
-      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "7q1W-kryzoc",
-      "title": "Maverick Code Pictures | Stories First. Cinema Always.",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "pros",
+      "message": "Official source unavailable"
     },
     {
-      "video": "KYVKKX6bZaE",
-      "title": "AI Video Generation HOT TAKE",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "cons",
+      "message": "Official source unavailable"
     },
     {
-      "video": "cX5y8208gfY",
-      "title": "AI 3D model generation #growing video #YouTube video ",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "tier",
+      "message": "Official source unavailable"
     },
     {
-      "video": "q0qhiLJ1vDE",
-      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "free",
+      "message": "Official source unavailable"
     },
     {
-      "video": "DhqYGodqx_Y",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
+      "platform": "runway-gen-4-5",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "ZWI024IuyWQ",
-      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
-      "stage": "insufficient-article-source"
+      "candidate": "v6-mini",
+      "message": "Invalid evidence URL"
+    },
+    {
+      "candidate": "OpenArt",
+      "message": "Incomplete independent verification of new profile"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }

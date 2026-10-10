@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T08:29:00.751Z",
+  "updatedAt": "2026-10-10T11:12:43.125Z",
   "newsCheckedAt": "2026-10-10T08:29:00.751Z",
   "news": [
     {
@@ -16356,7 +16356,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-28T11:44:53.630Z",
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -16368,7 +16368,7 @@
       "bdg": "new",
       "pct": 96,
       "price": "Gratis att testa (Arena/MAI Playground) · betalversion via Microsoft Foundry, pris ej satt",
-      "sub": "Microsofts stora kliv — nu tvåa globalt, före Google, Meta och xAI",
+      "sub": "Microsofts bildmodell för högkvalitativ generering och kontrollerbar bildredigering",
       "long": "MAI-Image-2.6 lanserades 10 augusti 2026 och klev direkt in som nummer två på Arenas oberoende text-till-bild-ledtavla av 77 system, bara slaget av GPT Image 2 och före modeller från Google, Meta och xAI. Den vinner +79 Elo över föregångaren MAI-Image-2.5, med störst hopp i textrendering (+91 Elo). En uppdatering 18 augusti tog den även till tredje plats på bildredigerings-ledtavlan, före Googles Nano Banana-familj och Metas Muse Image.",
       "pros": [
         "Nummer två globalt på oberoende Arena-ledtavla",
@@ -16376,8 +16376,10 @@
         "Stark på produkt-, varumärkes- och fotorealistiska bilder"
       ],
       "cons": [
-        "Pris för 2.6 inte officiellt satt än",
-        "Bred tillgång via Microsoft Foundry fortfarande i förhandsversion (Private Preview)"
+        "Microsoft Foundry-versionen är fortfarande Preview",
+        "Distribution i Foundry kräver Azure-prenumeration med giltig betalningsmetod",
+        "Utdataformatet är alltid PNG",
+        "Dokumentationen anger engelska som språk"
       ],
       "tags": [
         "Bildgen",
@@ -16390,12 +16392,15 @@
       "speed": 80,
       "pricev": 70,
       "rating": 94,
-      "deep": "Tillgänglig gratis att testa på Arena och i MAI Playground; betald API-åtkomst via Microsoft Foundry är i Private Preview, så bredare lansering och officiellt pris väntas senare 2026.",
+      "deep": "MAI-Image-2.6 finns som Preview i Microsoft Foundry med Global Standard-distribution och kan användas för både generering och bildredigering. API:t tar text och upp till fem JPEG- eller PNG-bilder vid redigeringsflöden, returnerar en PNG-bild och stöder modellvalt bildformat samt webbförankring. Webbförankring kan hämta aktuell, relevant information från Bing Search som extra kontext. För Foundry-distribution krävs en Azure-prenumeration med giltig betalningsmetod.",
       "caps": [
         "Text-till-bild",
-        "Text-i-bild",
-        "Redigering",
-        "Produkt/varumärkesbilder"
+        "Bild-till-bild-redigering",
+        "Upp till fem bildreferenser vid redigering",
+        "Webbförankrad bildgenerering",
+        "Automatiskt valt bildformat",
+        "PNG-utdata",
+        "Upp till 2 359 296 pixlar"
       ],
       "free": "tier",
       "id": "mai-image-2-6",
@@ -16403,8 +16408,57 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-09-28T11:44:53.630Z",
+      "fieldChecks": {
+        "sub": {
+          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "sources": [
+            {
+              "url": "https://microsoft.ai/models/mai-image-2-6/",
+              "quote": "Create and edit high-quality, design-ready images"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "sources": [
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+              "quote": "An Azure subscription with a valid payment method."
+            },
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+              "quote": "Enables web-grounded image generation."
+            }
+          ]
+        },
+        "caps": {
+          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "sources": [
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+              "quote": "Input: text and up to five images"
+            },
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+              "quote": "The output format is always PNG."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "sources": [
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+              "quote": "`MAI-Image-2.6` (Preview)"
+            },
+            {
+              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+              "quote": "Languages: `en`"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -16454,8 +16508,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-28T11:44:53.630Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Runway Gen-4.5",
@@ -16494,9 +16548,9 @@
       "caps": [
         "Text-till-video",
         "Bild-till-video",
-        "Referensbilder",
-        "Native ljud",
-        "Motion Brush"
+        "Detaljerad kamerakoreografi",
+        "2–10 sekunders videor",
+        "Webbplattform"
       ],
       "free": null,
       "id": "runway-gen-4-5",
@@ -16513,9 +16567,18 @@
               "quote": "Most advanced video generation with high realism and cinematography"
             }
           ]
+        },
+        "caps": {
+          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "sources": [
+            {
+              "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+              "quote": "with durations from 2-10 seconds."
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-09-28T11:44:53.630Z",
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -20175,7 +20238,8 @@
         "https://www.youtube.com/watch?v=vhhGPVmcOm8",
         "https://www.youtube.com/watch?v=ti0Ie018EWY",
         "https://www.youtube.com/watch?v=4_veqqIu_f4",
-        "https://www.youtube.com/watch?v=dFvtVoY5ng0"
+        "https://www.youtube.com/watch?v=dFvtVoY5ng0",
+        "https://www.youtube.com/watch?v=POD2xZpoZF4"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -20785,14 +20849,20 @@
         "https://www.youtube.com/watch?v=AoLovH6ybrQ",
         "https://www.youtube.com/watch?v=_lHvWn2SNC4"
       ],
-      "firstSeen": "2026-09-20T09:50:23.089Z"
+      "firstSeen": "2026-09-20T09:50:23.089Z",
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "OpenArt",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=dETVHy04aCM"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile"
     },
     {
       "name": "Meshwright",
@@ -21052,7 +21122,8 @@
     {
       "name": "Nano Banana",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=X7jHqd5xp9I"
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
+        "https://www.youtube.com/watch?v=POD2xZpoZF4"
       ],
       "firstSeen": "2026-09-23T10:02:36.801Z"
     },
@@ -21395,7 +21466,8 @@
       "name": "Gemini",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=4G-LiRlM1Og",
-        "https://www.youtube.com/watch?v=rUuwlGbxb3g"
+        "https://www.youtube.com/watch?v=rUuwlGbxb3g",
+        "https://www.youtube.com/watch?v=POD2xZpoZF4"
       ],
       "firstSeen": "2026-09-28T11:44:53.630Z"
     },
@@ -21845,7 +21917,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tOKIC-UPpPk",
         "https://www.youtube.com/watch?v=Es4Mq43GJnM",
-        "https://www.youtube.com/watch?v=GKiJluNLVac"
+        "https://www.youtube.com/watch?v=GKiJluNLVac",
+        "https://www.youtube.com/watch?v=wY_1221fKF8"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
     },
@@ -21944,16 +22017,32 @@
       "name": "MeshZEUS",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tfV0KnBxbBg",
-        "https://www.youtube.com/watch?v=_YuhCoT-lqs"
+        "https://www.youtube.com/watch?v=_YuhCoT-lqs",
+        "https://www.youtube.com/watch?v=SgUg7Z061_s"
       ],
       "firstSeen": "2026-10-09T11:56:15.996Z"
     },
     {
       "name": "Preview AI Editor",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=_YuhCoT-lqs"
+        "https://www.youtube.com/watch?v=_YuhCoT-lqs",
+        "https://www.youtube.com/watch?v=SgUg7Z061_s"
       ],
       "firstSeen": "2026-10-09T11:56:15.996Z"
+    },
+    {
+      "name": "Higgsfield Cinema Studio 2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=pPty1bxwECI"
+      ],
+      "firstSeen": "2026-10-10T11:12:43.125Z"
+    },
+    {
+      "name": "Thrixel",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=1rC0RlBDwrg"
+      ],
+      "firstSeen": "2026-10-10T11:12:43.125Z"
     }
   ],
   "sourceChecks": {},
@@ -22620,59 +22709,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-10T08:29:00.751Z",
+    "calculatedAt": "2026-10-10T11:12:43.125Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.10505030074846913,
+      "runway-gen-4-5": 0.10387436046047227,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.9444077870145766,
+      "elevenlabs": 1.9226419525833165,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.2909263862268118,
+      "kling-3-0": 0.2876697362603868,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.587396315424899,
+      "higgsfield": 4.536044685721021,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.7986440813619435,
+      "meshy-ai": 0.7897040046144008,
       "magnific-ai": 0,
-      "seedance-2-5": 2.1139329182617748,
+      "seedance-2-5": 2.090269407857755,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.2791252783778844,
-      "nano-banana-2": 0.8149586084181719,
+      "nano-banana-pro": 0.2760007308239577,
+      "nano-banana-2": 0.8058359057332608,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.07888319811740074,
+      "rodin-hyper3d": 0.07800017417504765,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.39454366995905155,
-      "trellis-2": 0.19375729398219993,
+      "hunyuan3d": 0.3901271209956185,
+      "trellis-2": 0.19158836151400566,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.07888319811740074,
-      "hitem3d": 0.2972338898466398,
+      "luma-genie": 0.07800017417504765,
+      "hitem3d": 0.2939066332511009,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.15126039869306945,
-      "luma-agents": 0.11366715301075678
+      "gemini-omni-flash": 0.14956717939208383,
+      "luma-agents": 0.11239475508619205
     }
   }
 }
