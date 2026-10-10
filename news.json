@@ -1,6 +1,48 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "What if you could turn a single image into a 3D model using AI? 🤯 Meet TRELLIS, an AI-powered 3D generation tool that can transform",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "btYLOOFGfV0",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Microsoft TRELLIS omvandlar bilder till detaljerade 3D-modeller med AI",
+    "sum": "Enligt Creative 3D Art kan Microsoft TRELLIS skapa 3D-tillgångar från en enda bild, inklusive detaljerade former, komplex geometri, fina detaljer, ihåliga strukturer samt texturer och materialegenskaper.",
+    "full": "Creative 3D Art beskriver Microsoft TRELLIS som ett AI-drivet verktyg för 3D-generering som kan omvandla bilder till detaljerade 3D-tillgångar. Arbetsflödet utgår från en enda bild och är tänkt att minska behovet av den vanliga manuella modelleringsprocessen.\n\nEnligt kanalens beskrivning kan TRELLIS generera 3D-tillgångar med detaljerade former och komplex geometri. Verktyget ska även kunna återskapa fina detaljer och ihåliga strukturer, vilket lyfts fram som centrala egenskaper i bild-till-3D-arbetsflödet.\n\nCreative 3D Art uppger också att TRELLIS kan arbeta med texturerade 3D-tillgångar och materialegenskaper. Det gör verktyget relevant för Blender-användare och spelutvecklare som vill utforska AI-baserad framställning av modeller från visuella referenser. Beskrivningen anger dock inga oberoende testresultat, kvalitetsmått eller detaljer om begränsningar i utdata.\n\nVideon riktar sig enligt kanalens beskrivning till 3D-konstnärer, Blender-användare, spelutvecklare och andra AI-intresserade. Fokus ligger på hur TRELLIS kan ingå i arbetsflöden för Blender och spelutveckling, snarare än på traditionell manuell modellering.",
+    "deep": "Det angivna arbetsflödet börjar med en bild och producerar en 3D-modell eller 3D-tillgång. De funktioner som uttryckligen nämns är generering av former, komplex geometri, rekonstruktion av fina detaljer och ihåliga strukturer samt stöd för texturer och materialegenskaper.\n\nKällan beskriver inte vilka bildformat, exportformat, systemkrav eller Blender-versioner som stöds. Den anger inte heller hur väl resultatet fungerar för olika motiv, hur mycket efterbearbetning som krävs eller om verktyget är lokalt eller molnbaserat. Därför går det inte att dra slutsatser om prestanda, produktionskvalitet eller faktisk tidsbesparing utöver kanalens beskrivning av ett mindre manuellt modelleringsarbete.",
+    "en": {
+      "ttl": "Microsoft TRELLIS turns images into detailed 3D models with AI",
+      "sum": "According to Creative 3D Art, Microsoft TRELLIS can create 3D assets from a single image, including detailed shapes, complex geometry, fine details, hollow structures, textures and material properties.",
+      "full": "Creative 3D Art describes Microsoft TRELLIS as an AI-powered 3D generation tool that can transform images into detailed 3D assets. The workflow starts from a single image and is intended to reduce the need for the usual manual modeling process.\n\nAccording to the channel’s description, TRELLIS can generate 3D assets with detailed shapes and complex geometry. The tool is also said to reconstruct fine details and hollow structures, which are presented as central features of the image-to-3D workflow.\n\nCreative 3D Art also states that TRELLIS can work with textured 3D assets and material properties. This makes the tool relevant to Blender users and game developers exploring AI-based creation of models from visual references. The description does not provide independent test results, quality metrics or details about output limitations.\n\nThe video is described as being aimed at 3D artists, Blender users, game developers and people interested in AI. Its focus is on how TRELLIS may fit into Blender and game-development workflows, rather than on traditional manual modeling.",
+      "deep": "The stated workflow begins with an image and produces a 3D model or 3D asset. The explicitly mentioned capabilities are shape generation, complex geometry, reconstruction of fine details and hollow structures, and support for textures and material properties.\n\nThe source does not specify supported image or export formats, system requirements or Blender versions. It also does not explain how well the tool handles different subjects, how much post-processing is required or whether it runs locally or in the cloud. Therefore, no conclusions can be drawn about performance, production quality or actual time savings beyond the channel’s description of reduced manual modeling."
+    },
+    "cat": "3d",
+    "date": "2026-10-09T21:00:38Z",
+    "meta": "Creative 3D Art · 2026-10-09",
+    "url": "https://www.youtube.com/watch?v=btYLOOFGfV0",
+    "img": "https://i.ytimg.com/vi/btYLOOFGfV0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Creative 3D Art"
+    ],
+    "parts": [],
+    "views": 544,
+    "buzz": 53,
+    "sourceCheckedAt": "2026-10-10T08:29:00.751Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "ca0141725e1ecd21ebb3c64aba302bb221f84a457f3cf7481243b25dbf093a4e",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "With the newest MeshZEUS update, you can now edit and fine-tune your AI-generated preview images before turning them into 3D models. Whether you're using Text-to-3D",
     "evidenceIds": [
       1,
@@ -548,6 +590,48 @@
     "trusted": true,
     "sourceId": "theoreticallymedia",
     "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Thrixel is building the 3D creation engine that powers the agentic world. Born out of years of core 3D AI research, Thrixel aims to lower",
+    "evidenceIds": [
+      1
+    ],
+    "id": "1rC0RlBDwrg",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Thrixel bygger en 3D-motor för agentvärlden",
+    "sum": "Thrixel beskriver en 3D-skapandemotor baserad på flerårig forskning inom 3D-AI. Enligt kanalen ska motorn sänka tröskeln för 3D-skapande genom redigerbara objekt med namngivna delar som kan styras av både människor och AI-agenter.",
+    "full": "Thrixel presenterar en 3D-skapandemotor som enligt kanalen är utvecklad för den agentbaserade världen. Projektet bygger på flera års forskning inom 3D-AI och har som uttalat mål att göra det enklare att skapa innehåll i 3D.\n\nEn central del är att Thrixel skapar objekt med namngivna, redigerbara delar. Det innebär enligt kanalens beskrivning att mänskliga kreatörer och AI-agenter ska kunna kontrollera delarna direkt, i stället för att enbart hantera färdiga och odelbara modeller.\n\nKanalen placerar tekniken i flera användningsområden, bland annat spel och simuleringar, samt ett bredare spektrum av andra tillämpningar. Beskrivningen anger inte vilka modeller, verktyg eller arbetsflöden som används i praktiken, och innehåller inga uppgifter om lanseringsdatum eller oberoende tester.",
+    "deep": "Thrixels fokus ligger enligt kanalens beskrivning på kopplingen mellan generering och styrning. De namngivna delarna är redigerbara och avsedda att kunna kontrolleras direkt av både människor och AI-agenter. Det pekar på ett arbetsflöde där 3D-innehåll inte bara skapas, utan också görs strukturerat nog för efterföljande manipulation.\n\nKanalen beskriver projektet som en grund för den agentbaserade världen och kopplar motorn till spel, simuleringar och andra applikationer. Däremot specificeras inte funktionernas tekniska implementation, vilka filformat eller plattformar som stöds, eller hur systemet presterar jämfört med andra lösningar.",
+    "en": {
+      "ttl": "Thrixel is building a 3D engine for the agentic world",
+      "sum": "Thrixel describes a 3D creation engine based on years of core 3D AI research. According to the channel, the engine is intended to lower the barrier to 3D creation by producing assets with named, editable parts that can be directly controlled by human creators and AI agents.",
+      "full": "Thrixel presents a 3D creation engine that the channel describes as being built for the agentic world. The project is based on years of core 3D AI research and aims to make 3D creation more accessible.\n\nA central feature is the creation of assets with named, editable parts. According to the channel, this allows human creators and AI agents to control those parts directly instead of working only with finished, indivisible models.\n\nThe channel places the technology in several use cases, including games and simulations, as well as a broad range of other applications. The description does not specify which models, tools or workflows are used, and it provides no release date or independent testing details.",
+      "deep": "According to the channel, Thrixel focuses on the connection between generation and control. Its named parts are editable and intended to be directly controllable by both humans and AI agents. This suggests a workflow in which 3D content is not only created but also structured for subsequent manipulation.\n\nThe channel describes the project as a foundation for the agentic world and links the engine to games, simulations and other applications. However, it does not explain the technical implementation, supported file formats or platforms, or how the system performs compared with other solutions."
+    },
+    "cat": "3d",
+    "date": "2026-10-08T14:30:39Z",
+    "meta": "Thrixel  · 2026-10-08",
+    "url": "https://www.youtube.com/watch?v=1rC0RlBDwrg",
+    "img": "https://i.ytimg.com/vi/1rC0RlBDwrg/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Thrixel "
+    ],
+    "parts": [],
+    "views": 65,
+    "buzz": 42,
+    "sourceCheckedAt": "2026-10-10T08:29:00.751Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "04ec99ca54e0c0da90fd92be0225ff85fdf5bec71fbcb214eaf6870af07e5721",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Thrixel"
+    ]
   },
   {
     "editorialStatus": "approved",

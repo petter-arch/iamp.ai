@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T19:32:12.930Z",
-  "newsCheckedAt": "2026-10-09T19:32:12.930Z",
+  "updatedAt": "2026-10-10T08:29:00.751Z",
+  "newsCheckedAt": "2026-10-10T08:29:00.751Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "What if you could turn a single image into a 3D model using AI? 🤯 Meet TRELLIS, an AI-powered 3D generation tool that can transform",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "btYLOOFGfV0",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Microsoft TRELLIS omvandlar bilder till detaljerade 3D-modeller med AI",
+      "sum": "Enligt Creative 3D Art kan Microsoft TRELLIS skapa 3D-tillgångar från en enda bild, inklusive detaljerade former, komplex geometri, fina detaljer, ihåliga strukturer samt texturer och materialegenskaper.",
+      "full": "Creative 3D Art beskriver Microsoft TRELLIS som ett AI-drivet verktyg för 3D-generering som kan omvandla bilder till detaljerade 3D-tillgångar. Arbetsflödet utgår från en enda bild och är tänkt att minska behovet av den vanliga manuella modelleringsprocessen.\n\nEnligt kanalens beskrivning kan TRELLIS generera 3D-tillgångar med detaljerade former och komplex geometri. Verktyget ska även kunna återskapa fina detaljer och ihåliga strukturer, vilket lyfts fram som centrala egenskaper i bild-till-3D-arbetsflödet.\n\nCreative 3D Art uppger också att TRELLIS kan arbeta med texturerade 3D-tillgångar och materialegenskaper. Det gör verktyget relevant för Blender-användare och spelutvecklare som vill utforska AI-baserad framställning av modeller från visuella referenser. Beskrivningen anger dock inga oberoende testresultat, kvalitetsmått eller detaljer om begränsningar i utdata.\n\nVideon riktar sig enligt kanalens beskrivning till 3D-konstnärer, Blender-användare, spelutvecklare och andra AI-intresserade. Fokus ligger på hur TRELLIS kan ingå i arbetsflöden för Blender och spelutveckling, snarare än på traditionell manuell modellering.",
+      "deep": "Det angivna arbetsflödet börjar med en bild och producerar en 3D-modell eller 3D-tillgång. De funktioner som uttryckligen nämns är generering av former, komplex geometri, rekonstruktion av fina detaljer och ihåliga strukturer samt stöd för texturer och materialegenskaper.\n\nKällan beskriver inte vilka bildformat, exportformat, systemkrav eller Blender-versioner som stöds. Den anger inte heller hur väl resultatet fungerar för olika motiv, hur mycket efterbearbetning som krävs eller om verktyget är lokalt eller molnbaserat. Därför går det inte att dra slutsatser om prestanda, produktionskvalitet eller faktisk tidsbesparing utöver kanalens beskrivning av ett mindre manuellt modelleringsarbete.",
+      "en": {
+        "ttl": "Microsoft TRELLIS turns images into detailed 3D models with AI",
+        "sum": "According to Creative 3D Art, Microsoft TRELLIS can create 3D assets from a single image, including detailed shapes, complex geometry, fine details, hollow structures, textures and material properties.",
+        "full": "Creative 3D Art describes Microsoft TRELLIS as an AI-powered 3D generation tool that can transform images into detailed 3D assets. The workflow starts from a single image and is intended to reduce the need for the usual manual modeling process.\n\nAccording to the channel’s description, TRELLIS can generate 3D assets with detailed shapes and complex geometry. The tool is also said to reconstruct fine details and hollow structures, which are presented as central features of the image-to-3D workflow.\n\nCreative 3D Art also states that TRELLIS can work with textured 3D assets and material properties. This makes the tool relevant to Blender users and game developers exploring AI-based creation of models from visual references. The description does not provide independent test results, quality metrics or details about output limitations.\n\nThe video is described as being aimed at 3D artists, Blender users, game developers and people interested in AI. Its focus is on how TRELLIS may fit into Blender and game-development workflows, rather than on traditional manual modeling.",
+        "deep": "The stated workflow begins with an image and produces a 3D model or 3D asset. The explicitly mentioned capabilities are shape generation, complex geometry, reconstruction of fine details and hollow structures, and support for textures and material properties.\n\nThe source does not specify supported image or export formats, system requirements or Blender versions. It also does not explain how well the tool handles different subjects, how much post-processing is required or whether it runs locally or in the cloud. Therefore, no conclusions can be drawn about performance, production quality or actual time savings beyond the channel’s description of reduced manual modeling."
+      },
+      "cat": "3d",
+      "date": "2026-10-09T21:00:38Z",
+      "meta": "Creative 3D Art · 2026-10-09",
+      "url": "https://www.youtube.com/watch?v=btYLOOFGfV0",
+      "img": "https://i.ytimg.com/vi/btYLOOFGfV0/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Creative 3D Art"
+      ],
+      "parts": [],
+      "views": 544,
+      "buzz": 53,
+      "sourceCheckedAt": "2026-10-10T08:29:00.751Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "ca0141725e1ecd21ebb3c64aba302bb221f84a457f3cf7481243b25dbf093a4e",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "With the newest MeshZEUS update, you can now edit and fine-tune your AI-generated preview images before turning them into 3D models. Whether you're using Text-to-3D",
@@ -552,6 +594,48 @@
       "trusted": true,
       "sourceId": "theoreticallymedia",
       "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Thrixel is building the 3D creation engine that powers the agentic world. Born out of years of core 3D AI research, Thrixel aims to lower",
+      "evidenceIds": [
+        1
+      ],
+      "id": "1rC0RlBDwrg",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Thrixel bygger en 3D-motor för agentvärlden",
+      "sum": "Thrixel beskriver en 3D-skapandemotor baserad på flerårig forskning inom 3D-AI. Enligt kanalen ska motorn sänka tröskeln för 3D-skapande genom redigerbara objekt med namngivna delar som kan styras av både människor och AI-agenter.",
+      "full": "Thrixel presenterar en 3D-skapandemotor som enligt kanalen är utvecklad för den agentbaserade världen. Projektet bygger på flera års forskning inom 3D-AI och har som uttalat mål att göra det enklare att skapa innehåll i 3D.\n\nEn central del är att Thrixel skapar objekt med namngivna, redigerbara delar. Det innebär enligt kanalens beskrivning att mänskliga kreatörer och AI-agenter ska kunna kontrollera delarna direkt, i stället för att enbart hantera färdiga och odelbara modeller.\n\nKanalen placerar tekniken i flera användningsområden, bland annat spel och simuleringar, samt ett bredare spektrum av andra tillämpningar. Beskrivningen anger inte vilka modeller, verktyg eller arbetsflöden som används i praktiken, och innehåller inga uppgifter om lanseringsdatum eller oberoende tester.",
+      "deep": "Thrixels fokus ligger enligt kanalens beskrivning på kopplingen mellan generering och styrning. De namngivna delarna är redigerbara och avsedda att kunna kontrolleras direkt av både människor och AI-agenter. Det pekar på ett arbetsflöde där 3D-innehåll inte bara skapas, utan också görs strukturerat nog för efterföljande manipulation.\n\nKanalen beskriver projektet som en grund för den agentbaserade världen och kopplar motorn till spel, simuleringar och andra applikationer. Däremot specificeras inte funktionernas tekniska implementation, vilka filformat eller plattformar som stöds, eller hur systemet presterar jämfört med andra lösningar.",
+      "en": {
+        "ttl": "Thrixel is building a 3D engine for the agentic world",
+        "sum": "Thrixel describes a 3D creation engine based on years of core 3D AI research. According to the channel, the engine is intended to lower the barrier to 3D creation by producing assets with named, editable parts that can be directly controlled by human creators and AI agents.",
+        "full": "Thrixel presents a 3D creation engine that the channel describes as being built for the agentic world. The project is based on years of core 3D AI research and aims to make 3D creation more accessible.\n\nA central feature is the creation of assets with named, editable parts. According to the channel, this allows human creators and AI agents to control those parts directly instead of working only with finished, indivisible models.\n\nThe channel places the technology in several use cases, including games and simulations, as well as a broad range of other applications. The description does not specify which models, tools or workflows are used, and it provides no release date or independent testing details.",
+        "deep": "According to the channel, Thrixel focuses on the connection between generation and control. Its named parts are editable and intended to be directly controllable by both humans and AI agents. This suggests a workflow in which 3D content is not only created but also structured for subsequent manipulation.\n\nThe channel describes the project as a foundation for the agentic world and links the engine to games, simulations and other applications. However, it does not explain the technical implementation, supported file formats or platforms, or how the system performs compared with other solutions."
+      },
+      "cat": "3d",
+      "date": "2026-10-08T14:30:39Z",
+      "meta": "Thrixel  · 2026-10-08",
+      "url": "https://www.youtube.com/watch?v=1rC0RlBDwrg",
+      "img": "https://i.ytimg.com/vi/1rC0RlBDwrg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Thrixel "
+      ],
+      "parts": [],
+      "views": 65,
+      "buzz": 42,
+      "sourceCheckedAt": "2026-10-10T08:29:00.751Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "04ec99ca54e0c0da90fd92be0225ff85fdf5bec71fbcb214eaf6870af07e5721",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Thrixel"
+      ]
     },
     {
       "editorialStatus": "approved",
@@ -21887,7 +21971,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -21905,7 +21989,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -21923,7 +22007,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -21941,7 +22025,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -21959,7 +22043,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -21977,7 +22061,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -21994,8 +22078,8 @@
       "id": "seantuck",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": 622000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "subscriberCount": 623000,
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -22013,7 +22097,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -22031,7 +22115,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -22049,7 +22133,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -22067,7 +22151,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -22085,7 +22169,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -22103,7 +22187,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -22121,7 +22205,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -22139,7 +22223,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -22157,7 +22241,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -22175,7 +22259,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -22193,7 +22277,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 250000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -22211,7 +22295,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -22229,7 +22313,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -22247,7 +22331,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -22265,7 +22349,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -22283,7 +22367,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 756000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -22301,7 +22385,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -22319,7 +22403,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 758000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -22337,7 +22421,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -22355,7 +22439,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 341000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -22373,7 +22457,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 197000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -22391,7 +22475,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 486000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -22409,7 +22493,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 454000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -22427,7 +22511,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -22445,7 +22529,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -22463,7 +22547,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -22481,7 +22565,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -22499,7 +22583,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -22507,88 +22591,88 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
-      "found": 4
+      "checkedAt": "2026-10-10T08:29:00.751Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 3
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-09T19:32:12.930Z",
+    "calculatedAt": "2026-10-10T08:29:00.751Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.11081425566737628,
+      "runway-gen-4-5": 0.10505030074846913,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 2.0510945718069316,
+      "elevenlabs": 1.9444077870145766,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.30688908755164696,
+      "kling-3-0": 0.2909263862268118,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.83909997899252,
+      "higgsfield": 4.587396315424899,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.8424645030877648,
+      "meshy-ai": 0.7986440813619435,
       "magnific-ai": 0,
-      "seedance-2-5": 2.2299212967399047,
+      "seedance-2-5": 2.1139329182617748,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.2944404703367327,
-      "nano-banana-2": 0.8596741841588357,
+      "nano-banana-pro": 0.2791252783778844,
+      "nano-banana-2": 0.8149586084181719,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.08321140274478774,
+      "rodin-hyper3d": 0.07888319811740074,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.41619169867464095,
-      "trellis-2": 0.20438847066390128,
+      "hunyuan3d": 0.39454366995905155,
+      "trellis-2": 0.19375729398219993,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.08321140274478774,
-      "hitem3d": 0.3135426745834832,
+      "luma-genie": 0.07888319811740074,
+      "hitem3d": 0.2972338898466398,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.1595598334673719,
-      "luma-agents": 0.11990390189244977
+      "gemini-omni-flash": 0.15126039869306945,
+      "luma-agents": 0.11366715301075678
     }
   }
 }

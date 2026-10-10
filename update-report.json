@@ -1,43 +1,51 @@
 {
-  "startedAt": "2026-10-09T19:32:12.930Z",
+  "startedAt": "2026-10-10T08:29:00.751Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
-      "found": 4
+      "checkedAt": "2026-10-10T08:29:00.751Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-09T19:32:12.930Z",
+      "checkedAt": "2026-10-10T08:29:00.751Z",
       "found": 3
     }
   },
   "selection": {
-    "fetched": 110,
-    "relevant": 24,
-    "supported": 18
+    "fetched": 111,
+    "relevant": 27,
+    "supported": 21
   },
   "rejected": [
+    {
+      "video": "4XqZJS-acQ0",
+      "title": "Replace Background Video Without Green Screen or Masking Tools.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
     {
       "video": "grOilk8aCS0",
       "title": "AI Design Hack Saves HOURS",
@@ -48,11 +56,19 @@
       ]
     },
     {
+      "video": "ijFSEb2W6_8",
+      "title": "I’ve Wanted This Robot for 10 Years",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        3
+      ]
+    },
+    {
       "video": "RxB56eE5BRc",
       "title": "Remotion vs  Hyperframes. One prompt. One map skill",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
         3
       ]
@@ -68,34 +84,19 @@
       ]
     },
     {
-      "video": "LSPoOD-YCow",
-      "title": "AI-103 Ep 19: Image Generation and Editing: Masks, Controls, Reference Images (2026)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        9,
-        10
-      ]
-    },
-    {
-      "video": "A2S9Xyza0DQ",
-      "title": "NVIDIA Says A Simulated Robot Cleared One Hurdle In 64 Of 100 Trials",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        4
-      ]
-    },
-    {
       "video": "Y6kathKxytk",
       "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
+        1,
         2,
         7
       ]
+    },
+    {
+      "video": "h4MKJAJvins",
+      "title": "This New Trick Can Save a Ton on AI Video Generations",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "40dkdO9slZI",
@@ -103,8 +104,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "lHmZoRHMZyM",
-      "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "x_oKFmaT4TI",
+      "title": "How To Ai Google Gemini Prompt 🔥 | ai se photo kense banye #ai #prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -113,18 +119,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "PpuNKVoSYB4",
-      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        8,
-        13,
-        14
-      ]
-    },
-    {
-      "video": "DhqYGodqx_Y",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "video": "7q1W-kryzoc",
+      "title": "Maverick Code Pictures | Stories First. Cinema Always.",
       "stage": "insufficient-article-source"
     },
     {
@@ -133,15 +129,25 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "ZWI024IuyWQ",
-      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "cX5y8208gfY",
       "title": "AI 3D model generation #growing video #YouTube video ",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "q0qhiLJ1vDE",
+      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "DhqYGodqx_Y",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ZWI024IuyWQ",
+      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 2
 }
