@@ -1,7 +1,13 @@
 name: Deploy iamp.ai
 on:
-  # Content workflows commit their results to main. Publishing from that push
-  # keeps deployment independent from the scheduler and avoids duplicate deploys.
+  # GITHUB_TOKEN pushes do not trigger push workflows. Publish after either
+  # content workflow completes successfully, using the latest committed main.
+  workflow_run:
+    workflows:
+      - Update news feed
+      - Update Trendar models
+    types: [completed]
+    branches: [main]
   push:
     branches:
       - main
@@ -25,6 +31,10 @@ concurrency:
 
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     environment:
       name: iamp-pages-live
