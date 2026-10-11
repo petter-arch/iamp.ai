@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T08:49:32.947Z",
+  "updatedAt": "2026-10-11T11:26:07.217Z",
   "newsCheckedAt": "2026-10-11T08:49:32.947Z",
   "news": [
     {
@@ -16916,7 +16916,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
       "lastCheckError": "Invalid independent fact check"
     },
     {
@@ -17080,7 +17080,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17093,16 +17093,17 @@
       "pct": 72,
       "price": "Gratis / från $5 mån",
       "sub": "AI-röster, röstkloning och dubbning",
-      "long": "ElevenLabs erbjuder AI-röster, röstkloning och dubbning för ljud och video. Dubbning stöder översättning över 90 språk med röstöversättning, talarigenkänning och ljuddubbning. Instant Voice Cloning använder korta ljudprov, medan Professional Voice Cloning finjusterar modellen med röstprov.",
+      "long": "ElevenLabs erbjuder AI-röster, röstkloning och dubbning för ljud och video. Dubbning översätter ljud och video till 90+ språk och syftar till att bevara varje talares känsla, tajming, ton och unika egenskaper, samtidigt som bakgrundsljudet behålls. Automatic Dubbing använder modellen Dubbing v2 Alpha, medan Dubbing Studio med transkriptredigering, talaromkoppling och regenerering per klipp endast finns via v1. Instant Voice Cloning använder korta ljudprov; Professional Voice Cloning använder längre träningsljud och kräver verifiering av den egna rösten.",
       "pros": [
         "Dubbning på över 90 språk",
         "Instant Voice Cloning från korta ljudprov",
         "Gratisplan med 10 000 krediter per månad"
       ],
       "cons": [
-        "Brusiga, korta eller lågkvalitativa inspelningar kan försämra röstklonen",
+        "Röstkloning kräver rent ljud med en tydlig talare och utan bakgrundsbrus eller störningar",
         "Professional Voice Cloning kräver Creator-plan eller högre",
-        "Gratisdubbning förses automatiskt med vattenstämpel"
+        "Gratisnivåns dubbningar vattenmärks automatiskt",
+        "Dubbing v2 är i alpha och kan ha enstaka brister"
       ],
       "tags": [
         "Ljud",
@@ -17115,7 +17116,7 @@
       "speed": 88,
       "pricev": 62,
       "rating": 85,
-      "deep": "Röstkloning kräver tydligt, rent källljud för bästa resultat. Stark på känsloläge och betoning; bra för ljudböcker, dubbning och karaktärsröster.",
+      "deep": "För röstkloning rekommenderas rent och konsekvent källjud med en ensam, tydlig talare utan bakgrundsbrus eller störningar. Instant Voice Cloning rekommenderas för 1–2 minuter bra ljud, medan Professional Voice Cloning rekommenderas för 30–180 minuter. I Dubbing v2 kan högre inställd röstlikhet göra resultatet mindre naturligt mellan språk med mycket olika fonetiska egenskaper; lägre inställning ger modellen större frihet men minskar likheten med originalrösten.",
       "caps": [
         "Röstkloning",
         "Text-till-tal",
@@ -17143,15 +17144,19 @@
           ]
         },
         "long": {
-          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "checkedAt": "2026-10-11T11:26:07.217Z",
           "sources": [
             {
-              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
-              "quote": "Dubbing allows you to translate content across 90+ languages"
+              "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+              "quote": "translates audio and video across 90+ languages while preserving the emotion, timing, tone"
             },
             {
-              "url": "https://elevenlabs.io/pricing",
-              "quote": "Professional Voice Cloning"
+              "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+              "quote": "powered by the latest Dubbing v2 Alpha model."
+            },
+            {
+              "url": "https://elevenlabs.io/docs/overview/capabilities/voices",
+              "quote": "A Creator plan or above is required to create Professional Voice Clones."
             }
           ]
         },
@@ -17182,24 +17187,45 @@
           ]
         },
         "cons": {
-          "checkedAt": "2026-09-17T10:02:21.710Z",
+          "checkedAt": "2026-10-11T11:26:07.217Z",
           "sources": [
             {
-              "url": "https://elevenlabs.io/docs/eleven-api/concepts/voice-cloning",
-              "quote": "poor quality recordings, short samples, or noisy audio will all degrade the clone."
+              "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
+              "quote": "There should only be one speaker without background noise of interference"
             },
             {
-              "url": "https://elevenlabs.io/docs/eleven-api/concepts/voice-cloning",
-              "quote": "PVC requires a Creator plan or above"
+              "url": "https://elevenlabs.io/docs/overview/capabilities/voices",
+              "quote": "A Creator plan or above is required to create Professional Voice Clones."
             },
             {
-              "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
-              "quote": "Dubs generated on free plans are automatically watermarked"
+              "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+              "quote": "Free-tier dubs are watermarked automatically"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+              "quote": "Dubbing v2 is currently in alpha. You may encounter occasional rough edges"
+            }
+          ]
+        },
+        "deep": {
+          "checkedAt": "2026-10-11T11:26:07.217Z",
+          "sources": [
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
+              "quote": "Instant Voice Cloning: 1 - 2 minutes of good audio"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
+              "quote": "Professional Voice Cloning: 30 - 180 minutes of good audio"
+            },
+            {
+              "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+              "quote": "Higher values prioritize voice similarity to the original speaker, which can sound less natural"
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17284,7 +17310,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -20544,7 +20570,8 @@
         "https://www.youtube.com/watch?v=BUCAptdusuU",
         "https://www.youtube.com/watch?v=51KzSFNAiJQ",
         "https://www.youtube.com/watch?v=mqoeh_uojS0",
-        "https://www.youtube.com/watch?v=HAEY_R907w0"
+        "https://www.youtube.com/watch?v=HAEY_R907w0",
+        "https://www.youtube.com/watch?v=AjMfOyonyt8"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -20652,7 +20679,8 @@
     {
       "name": "ChatGPT Image 2.5",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=_WfWe4aG-ME"
+        "https://www.youtube.com/watch?v=_WfWe4aG-ME",
+        "https://www.youtube.com/watch?v=QLv4WCKVqd0"
       ],
       "firstSeen": "2026-09-14T10:44:18.176Z",
       "lastAttemptAt": "2026-09-17T10:02:21.710Z",
@@ -20680,7 +20708,8 @@
         "https://www.youtube.com/watch?v=4G-LiRlM1Og",
         "https://www.youtube.com/watch?v=oWrr9AA2CTk",
         "https://www.youtube.com/watch?v=Mat-Fjb2A6U",
-        "https://www.youtube.com/watch?v=qAxp2rPlI_E"
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=QfOe_BP2Lxk"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
       "lastAttemptAt": "2026-09-18T09:49:39.277Z",
@@ -20978,7 +21007,8 @@
     {
       "name": "Seedream 5.0",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=P3XJ7JQy8RA"
+        "https://www.youtube.com/watch?v=P3XJ7JQy8RA",
+        "https://www.youtube.com/watch?v=QLv4WCKVqd0"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z",
       "lastAttemptAt": "2026-10-02T11:08:48.743Z",
@@ -21159,7 +21189,9 @@
         "https://www.youtube.com/watch?v=c87kDohpi1E",
         "https://www.youtube.com/watch?v=2XYp_fmku_U"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "ComfyUI",
@@ -21168,7 +21200,10 @@
         "https://www.youtube.com/watch?v=2XYp_fmku_U",
         "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-11T11:26:07.217Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "Runway AI",
@@ -21703,7 +21738,8 @@
       "name": "Tripo Smart Mesh P2.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GCbVaPz2Mj0",
-        "https://www.youtube.com/watch?v=51KzSFNAiJQ"
+        "https://www.youtube.com/watch?v=51KzSFNAiJQ",
+        "https://www.youtube.com/watch?v=AjMfOyonyt8"
       ],
       "firstSeen": "2026-09-27T10:35:26.679Z"
     },
@@ -22207,7 +22243,8 @@
         "https://www.youtube.com/watch?v=tOKIC-UPpPk",
         "https://www.youtube.com/watch?v=Es4Mq43GJnM",
         "https://www.youtube.com/watch?v=GKiJluNLVac",
-        "https://www.youtube.com/watch?v=wY_1221fKF8"
+        "https://www.youtube.com/watch?v=wY_1221fKF8",
+        "https://www.youtube.com/watch?v=QLv4WCKVqd0"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
     },
@@ -22332,6 +22369,41 @@
         "https://www.youtube.com/watch?v=1rC0RlBDwrg"
       ],
       "firstSeen": "2026-10-10T11:12:43.125Z"
+    },
+    {
+      "name": "Enscape",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=vXoJEX18qj8"
+      ],
+      "firstSeen": "2026-10-11T11:26:07.217Z"
+    },
+    {
+      "name": "Flux 3 Image",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QLv4WCKVqd0"
+      ],
+      "firstSeen": "2026-10-11T11:26:07.217Z"
+    },
+    {
+      "name": "Lumina",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QfOe_BP2Lxk"
+      ],
+      "firstSeen": "2026-10-11T11:26:07.217Z"
+    },
+    {
+      "name": "Instagram MUSE",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=3PmhDxi8bvk"
+      ],
+      "firstSeen": "2026-10-11T11:26:07.217Z"
+    },
+    {
+      "name": "Muse Image AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=3PmhDxi8bvk"
+      ],
+      "firstSeen": "2026-10-11T11:26:07.217Z"
     }
   ],
   "sourceChecks": {},
@@ -22998,59 +23070,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-11T08:49:32.947Z",
+    "calculatedAt": "2026-10-11T11:26:07.217Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.09501227305325873,
+      "runway-gen-4-5": 0.09399480543827267,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.7586108965937794,
+      "elevenlabs": 1.739778280794316,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.2631270643647583,
+      "kling-3-0": 0.2603092887446822,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.149050009559493,
+      "higgsfield": 4.1046186547247565,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.674012080517295,
+      "meshy-ai": 0.6667942186348486,
       "magnific-ai": 0,
-      "seedance-2-5": 1.9119371407329049,
+      "seedance-2-5": 1.8914625845511548,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.25245360533337535,
-      "nano-banana-2": 0.7370856559043168,
+      "nano-banana-pro": 0.2497501296721922,
+      "nano-banana-2": 0.7291923515947463,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.07134555451478802,
+      "rodin-hyper3d": 0.07058152910144667,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.35684325160897246,
-      "trellis-2": 0.1752429149724788,
+      "hunyuan3d": 0.3530218879001501,
+      "trellis-2": 0.17336627330282517,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.07134555451478802,
-      "hitem3d": 0.26883185770605905,
+      "luma-genie": 0.07058152910144667,
+      "hitem3d": 0.26595299058392285,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.1368067887514365,
-      "luma-agents": 0.10280574641003057
+      "gemini-omni-flash": 0.1353417519452252,
+      "luma-agents": 0.10170482003236105
     }
   }
 }
