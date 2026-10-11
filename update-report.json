@@ -1,48 +1,157 @@
 {
-  "startedAt": "2026-10-11T11:26:07.217Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-11T18:53:38.767Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "found": 2
+    }
+  },
+  "selection": {
+    "fetched": 107,
+    "relevant": 21,
+    "supported": 15
+  },
+  "rejected": [
     {
-      "platform": "google-veo-3-1",
-      "field": "caps",
-      "message": "Invalid official citation"
+      "video": "4XqZJS-acQ0",
+      "title": "Replace Background Video Without Green Screen or Masking Tools.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "google-veo-3-1",
-      "message": "Invalid independent fact check"
+      "video": "X0_GDOkLKzQ",
+      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        19,
+        24,
+        41
+      ]
     },
     {
-      "platform": "flux-2",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://bfl.ai/pricing?category=flux.2\",\"quote\":\"FLUX.2 [klein] 9B $0.015\",\"retrieved\":[]}"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2
+      ]
     },
     {
-      "platform": "elevenlabs",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://elevenlabs.io/docs/overview/capabilities/voices\",\"quote\":\"Instant Voice Cloning: Created from short audio samples\",\"retrieved\":[]}"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        9
+      ]
     },
     {
-      "platform": "elevenlabs",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
+      "video": "l4gPRtXVf2k",
+      "title": "Qwen's new image model is free to download -- but not to sell with | Breach Protocol #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "elevenmusic",
-      "field": "price",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "Fp3sSagKJdw",
+      "title": "Meshy 3D Agent is here 🎉 Best 3D Model Generator",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        5
+      ]
     },
     {
-      "platform": "elevenmusic",
-      "field": "caps",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "h4MKJAJvins",
+      "title": "This New Trick Can Save a Ton on AI Video Generations",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "ComfyUI",
-      "message": "Official source unavailable"
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lHmZoRHMZyM",
+      "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "wUBWrPsEelM",
+      "title": "Layers: The Ultimate Guide - Photoshop for Beginners | Lesson 4",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "HKgAMl1iHxk",
+      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "VQZzkW5Atb0",
+      "title": "Is Hollywood in Trouble?| AI Can Now Turn Images Into Videos| Film Industry| Meet Vidu Q4|",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "L2b3XZ7mP5E",
+      "title": "New Temple View 🪟 Ai Photo Editing prompt 💭 #chatgpt #aiphotoediting #ytshorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "c4DPUXlsYoI",
+      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KYVKKX6bZaE",
+      "title": "AI Video Generation HOT TAKE",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-Q5RCHlCs7w",
+      "title": "Viral Bridge Ai Photo Editing prompt 💭🔥 #chatgpt #aiphotoediting #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ZWI024IuyWQ",
+      "title": "AI Video Character Looking Wrong? 😵 | 180° Rule Explained for AI Filmmaking | Day 5/15",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "E2H6UvDoxG0",
+      "title": "New Colourful Ai Photo Editing prompt 💭 For ChatGPT ❤️🔥 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 0
 }
