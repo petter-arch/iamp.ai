@@ -1,49 +1,58 @@
 {
-  "startedAt": "2026-10-10T18:34:02.363Z",
+  "startedAt": "2026-10-11T08:49:32.947Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-10T18:34:02.363Z",
+      "checkedAt": "2026-10-11T08:49:32.947Z",
       "found": 2
     }
   },
   "selection": {
-    "fetched": 108,
-    "relevant": 24,
+    "fetched": 109,
+    "relevant": 25,
     "supported": 19
   },
   "rejected": [
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "video": "4XqZJS-acQ0",
+      "title": "Replace Background Video Without Green Screen or Masking Tools.",
       "stage": "classification-evidence",
       "evidenceIds": [
         0
+      ]
+    },
+    {
+      "video": "grOilk8aCS0",
+      "title": "AI Design Hack Saves HOURS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
       ]
     },
     {
@@ -51,8 +60,7 @@
       "title": "Remotion vs  Hyperframes. One prompt. One map skill",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        3
+        2
       ]
     },
     {
@@ -62,7 +70,7 @@
       "evidenceIds": [
         1,
         5,
-        8
+        9
       ]
     },
     {
@@ -75,18 +83,14 @@
       ]
     },
     {
-      "video": "Y6kathKxytk",
-      "title": "They Open-Sourced a Robot’s Walk—Can Builders Challenge the Giants? #Shorts",
+      "video": "Fp3sSagKJdw",
+      "title": "Meshy 3D Agent is here 🎉 Best 3D Model Generator",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        2
+        3,
+        5
       ]
-    },
-    {
-      "video": "h4MKJAJvins",
-      "title": "This New Trick Can Save a Ton on AI Video Generations",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "fr0WIIZxvx0",
@@ -94,17 +98,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "grOilk8aCS0",
-      "title": "AI Design Hack Saves HOURS",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "video": "h4MKJAJvins",
+      "title": "This New Trick Can Save a Ton on AI Video Generations",
+      "stage": "insufficient-article-source"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "wUBWrPsEelM",
+      "title": "Layers: The Ultimate Guide - Photoshop for Beginners | Lesson 4",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "L2b3XZ7mP5E",
+      "title": "New Temple View 🪟 Ai Photo Editing prompt 💭 #chatgpt #aiphotoediting #ytshorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Exq1RU8_0RU",
+      "title": "Manual vs AI 3D Models… The Difference Is INSANE!",
       "stage": "insufficient-article-source"
     },
     {
@@ -113,23 +128,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "PpuNKVoSYB4",
-      "title": "I Fixed Pixal3D's Biggest Weakness (Free Local 3D AI)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        8,
-        13,
-        14
-      ]
-    },
-    {
       "video": "c4DPUXlsYoI",
       "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "x_oKFmaT4TI",
-      "title": "How To Ai Google Gemini Prompt 🔥 | ai se photo kense banye #ai #prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -138,8 +138,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "DhqYGodqx_Y",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "video": "UIj1rzC76m0",
+      "title": "Viral Aesthetic Ai Photo 🔥 Editing 🌟💭 #ytshorts #aiphotoediting #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "RTo70lXNsfY",
+      "title": "Maverick Code Pictures | Stories First. Cinema Always.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-Q5RCHlCs7w",
+      "title": "Viral Bridge Ai Photo Editing prompt 💭🔥 #chatgpt #aiphotoediting #photoediting",
       "stage": "insufficient-article-source"
     },
     {
@@ -148,5 +158,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 1
 }
