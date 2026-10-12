@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T09:11:05.121Z",
+  "updatedAt": "2026-10-12T13:13:29.695Z",
   "newsCheckedAt": "2026-10-12T09:11:05.121Z",
   "news": [
     {
@@ -17641,8 +17641,8 @@
       "bdg": "",
       "pct": 71,
       "price": "Gratis / från $24 mån",
-      "sub": "AI-avatarer & talande video — bäst videoöversättning",
-      "long": "HeyGen är den ledande plattformen för AI-avatarer och talande huvuden. Du skriver ett manus, väljer en digital presentatör och får en färdig video — perfekt för produktdemos, utbildning och marknadsföring utan kamera eller studio. Avatar IV/V ger naturlig läppsynk och mikrouttryck, Digital Twin skapar en avatar av dig själv från ett par minuters film, och videoöversättning med läppsynk till 175+ språk är bäst i klassen. Körs på ett kreditsystem där premium-avatarer drar krediter per minut.",
+      "sub": "AI-avatarer, talande video och videoöversättning",
+      "long": "HeyGen är ett onlineverktyg för video med inbyggda talande AI-avatarer: välj en avatar, skriv ett manus och skapa en presentatörsvideo. Den aktuella kreditmodellen använder krediter för videogenerering, översättning och skapande av tillgångar; förbrukningen varierar mellan funktioner och modeller.",
       "pros": [
         "Avatar V fångar rörelser, gester och naturliga uttryck från en kort referensvideo",
         "Röstklonen kan användas i 177+ språk och dialekter med fonemnivå-läppsynk",
@@ -17719,9 +17719,31 @@
               "quote": "Video Agent handles the entire production workflow—scripting, visuals, voiceovers, avatars, editing, and delivery."
             }
           ]
+        },
+        "sub": {
+          "checkedAt": "2026-10-12T13:13:29.695Z",
+          "sources": [
+            {
+              "url": "https://www.heygen.com/faq",
+              "quote": "online video tool with built-in talking AI-avatars"
+            }
+          ]
+        },
+        "long": {
+          "checkedAt": "2026-10-12T13:13:29.695Z",
+          "sources": [
+            {
+              "url": "https://www.heygen.com/faq",
+              "quote": "Choose an avatar, type the script you want"
+            },
+            {
+              "url": "https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained",
+              "quote": "credits are used for video generation, translation and asset creation"
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -17814,8 +17836,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-30T11:11:53.377Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z"
     },
     {
       "n": "Freepik AI",
@@ -17862,7 +17883,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-09-30T11:11:53.377Z"
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Adobe Firefly",
@@ -17939,7 +17961,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-09-30T11:11:53.377Z"
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z"
     },
     {
       "n": "Leonardo AI",
@@ -21529,14 +21551,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=e-Hd2gESwK0"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Qwen-Image-2.1",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=gXB6r4NchuI"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-12T13:13:29.695Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Prism Desktop v1.0.0",
@@ -21816,7 +21844,8 @@
       "name": "Claude",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ZLekK6xylDI",
-        "https://www.youtube.com/watch?v=tNXJCnHkXdk"
+        "https://www.youtube.com/watch?v=tNXJCnHkXdk",
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
@@ -22321,7 +22350,8 @@
     {
       "name": "Opus 5.5",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=gr9fEEKrO5Y"
+        "https://www.youtube.com/watch?v=gr9fEEKrO5Y",
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
     },
@@ -22723,6 +22753,41 @@
         "https://www.youtube.com/watch?v=3PmhDxi8bvk"
       ],
       "firstSeen": "2026-10-11T11:26:07.217Z"
+    },
+    {
+      "name": "Qwen Image 2.1 Turbo",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MDdC5s0szyU"
+      ],
+      "firstSeen": "2026-10-12T13:13:29.695Z"
+    },
+    {
+      "name": "Sculptly",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mlKlOjoh55o"
+      ],
+      "firstSeen": "2026-10-12T13:13:29.695Z"
+    },
+    {
+      "name": "Soul Cinema",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
+      ],
+      "firstSeen": "2026-10-12T13:13:29.695Z"
+    },
+    {
+      "name": "Seedream 5 Pro",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
+      ],
+      "firstSeen": "2026-10-12T13:13:29.695Z"
+    },
+    {
+      "name": "Higgsfield Cinema Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
+      ],
+      "firstSeen": "2026-10-12T13:13:29.695Z"
     }
   ],
   "sourceChecks": {},
@@ -23389,59 +23454,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-12T09:11:05.121Z",
+    "calculatedAt": "2026-10-12T13:13:29.695Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.08592751714640381,
+      "runway-gen-4-5": 0.08450704636392782,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.5904584020025367,
+      "elevenlabs": 1.564166478695375,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.23796773414958516,
+      "kling-3-0": 0.23403388123776914,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.111923669988861,
+      "higgsfield": 5.027418281533438,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6095652987174457,
+      "meshy-ai": 0.5994885535071295,
       "magnific-ai": 0,
-      "seedance-2-5": 2.3469168789985337,
+      "seedance-2-5": 2.308119914228364,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.2283148355875595,
-      "nano-banana-2": 0.666607989691856,
+      "nano-banana-pro": 0.2245405550784954,
+      "nano-banana-2": 0.6555882697678063,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.06452373111263937,
+      "rodin-hyper3d": 0.06345708706349643,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.32272309287896583,
-      "trellis-2": 0.15848677331025068,
+      "hunyuan3d": 0.31738814617634203,
+      "trellis-2": 0.1558668229337894,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.06452373111263937,
-      "hitem3d": 0.24312705422370373,
+      "luma-genie": 0.06345708706349643,
+      "hitem3d": 0.23910791241182286,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.12372578097983226,
-      "luma-agents": 0.09297580463573346
+      "gemini-omni-flash": 0.12168046577979649,
+      "luma-agents": 0.09143881836697818
     }
   }
 }
