@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-11T18:53:38.767Z",
+  "startedAt": "2026-10-12T09:11:05.121Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
-      "found": 3
+      "checkedAt": "2026-10-12T09:11:05.121Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-11T18:53:38.767Z",
+      "checkedAt": "2026-10-12T09:11:05.121Z",
       "found": 2
     }
   },
   "selection": {
-    "fetched": 107,
-    "relevant": 21,
-    "supported": 15
+    "fetched": 112,
+    "relevant": 28,
+    "supported": 21
   },
   "rejected": [
     {
@@ -80,7 +80,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -88,13 +89,29 @@
       "title": "Meshy 3D Agent is here 🎉 Best 3D Model Generator",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         3,
         5
       ]
     },
     {
+      "video": "A2S9Xyza0DQ",
+      "title": "NVIDIA Says A Simulated Robot Cleared One Hurdle In 64 Of 100 Trials",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
       "video": "h4MKJAJvins",
       "title": "This New Trick Can Save a Ton on AI Video Generations",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
     },
     {
@@ -108,18 +125,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "wUBWrPsEelM",
-      "title": "Layers: The Ultimate Guide - Photoshop for Beginners | Lesson 4",
+      "video": "khI7beO2eak",
+      "title": "Nano Banana 2.1: Google's AI Image Upgrade",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "HKgAMl1iHxk",
-      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "VQZzkW5Atb0",
-      "title": "Is Hollywood in Trouble?| AI Can Now Turn Images Into Videos| Film Industry| Meet Vidu Q4|",
+      "video": "Exq1RU8_0RU",
+      "title": "Manual vs AI 3D Models… The Difference Is INSANE!",
       "stage": "insufficient-article-source"
     },
     {
@@ -128,18 +140,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "c4DPUXlsYoI",
-      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
+      "video": "VQZzkW5Atb0",
+      "title": "Is Hollywood in Trouble?| AI Can Now Turn Images Into Videos| Film Industry| Meet Vidu Q4|",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KYVKKX6bZaE",
-      "title": "AI Video Generation HOT TAKE",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-Q5RCHlCs7w",
-      "title": "Viral Bridge Ai Photo Editing prompt 💭🔥 #chatgpt #aiphotoediting #photoediting",
+      "video": "HKgAMl1iHxk",
+      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
       "stage": "insufficient-article-source"
     },
     {
@@ -148,10 +155,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "E2H6UvDoxG0",
-      "title": "New Colourful Ai Photo Editing prompt 💭 For ChatGPT ❤️🔥 #aiphotoediting #chatgpt #photoediting",
+      "video": "c4DPUXlsYoI",
+      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 0
+  "accepted": 5
 }
