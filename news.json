@@ -1,6 +1,222 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Master precise AI video generation by creating empty locations in Soul Cinema for total scene control. Creating complex shots often fails when background elements are",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "bEURAkw7_m0",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Varför AI-scener bör börja med tomma miljöer",
+    "sum": "Sanji Nai-Chien beskriver ett arbetsflöde i Soul Cinema där rena, tomma miljöer skapas först för att ge bättre kontroll över AI-genererade videosekvenser och efterföljande animationer.",
+    "full": "I videon \"Why Your AI Scenes Need to Be Empty\" beskriver kanalen Sanji Nai-Chien ett arbetsflöde för mer precis AI-videogenerering i Soul Cinema. Grundidén är att skapa en ren och tom miljö innan motiv, rörelser och mer komplexa händelser läggs till.\n\nEnligt kanalens beskrivning kan komplexa bildsekvenser misslyckas när bakgrunden innehåller för många element. Genom att först generera en avskalad plats minskar störningarna i scenen och det blir lättare att lägga in specifika animationer, exempelvis ett tåg som kör iväg eller rör sig baklänges.\n\nArbetsflödet fokuserar också på promptstruktur. Sanji Nai-Chien visar hur bakgrundsresurser kan beskrivas så att de förblir konsekventa genom processen. Miljön separeras från motivet, vilket enligt kanalen ger bättre scenkontroll när en sekvens kräver flera bearbetningspass eller exakt timing.",
+    "deep": "Beskrivningen framställer tomma miljöer som ett sätt att isolera scenens bakgrund från det som senare ska animeras. Det ska göra det möjligt att bygga upp en sekvens i separata steg i stället för att försöka generera alla element samtidigt.\n\nDet stödda användningsfallet gäller särskilt bilder med flera pass och komplex tidsstyrning. Beskrivningen anger inte vilka specifika promptformuleringar som används, hur Soul Cinema implementerar funktionerna eller hur resultatet jämförs med andra verktyg. Den innehåller inte heller uppgifter om produktlansering, prestandamätningar eller oberoende tester.",
+    "en": {
+      "ttl": "Why AI scenes should start with empty environments",
+      "sum": "Sanji Nai-Chien describes a Soul Cinema workflow in which clean, empty environments are created first to improve control over AI-generated video sequences and subsequent animation.",
+      "full": "In the video \"Why Your AI Scenes Need to Be Empty,\" the channel Sanji Nai-Chien describes a workflow for more precise AI video generation in Soul Cinema. The core idea is to create a clean, empty environment before adding subjects, movement, and more complex events.\n\nAccording to the channel’s description, complex shots can fail when the background contains too many elements. Generating a stripped-down location first is intended to reduce interference in the scene and make it easier to add specific animations, such as a train pulling away or moving backward.\n\nThe workflow also focuses on prompt structure. Sanji Nai-Chien shows how background assets can be described so they remain consistent throughout the process. Separating the environment from the subject is presented as a way to gain more precise scene control when a sequence requires multiple passes or exact timing.",
+      "deep": "The description presents empty environments as a way to isolate a scene’s background from the elements that will be animated later. This can support building a sequence in separate stages rather than attempting to generate every element simultaneously.\n\nThe supported use case particularly concerns shots involving multiple passes and complex timing. The description does not specify the exact prompts, how Soul Cinema implements the features, or how the results compare with other tools. It also provides no product launch information, performance measurements, or independent testing."
+    },
+    "cat": "film",
+    "date": "2026-10-12T18:45:22Z",
+    "meta": "Sanji Nai-Chien · 2026-10-12",
+    "url": "https://www.youtube.com/watch?v=bEURAkw7_m0",
+    "img": "https://i.ytimg.com/vi/bEURAkw7_m0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Sanji Nai-Chien"
+    ],
+    "parts": [],
+    "views": 17,
+    "buzz": 35,
+    "sourceCheckedAt": "2026-10-12T22:08:07.415Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "af84858a09145fe323bbaf49343efb36c92903dc85cea86915c64831e265420a",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Soul Cinema"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Yapay zeka ile oyun yapmak mümkün mü? 3D modelleme hakkında hiçbir şey bilmeden, Tripo AI ve Claude Opus 5.5 kullanarak sıfırdan bölümlü bir 3D zombi",
+    "evidenceIds": [
+      1,
+      8,
+      10
+    ],
+    "id": "AZacOD1uUiI",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Tripo AI och Claude används för att bygga ett 3D-zombiespel utan tidigare 3D-kunskaper",
+    "sum": "Kanalen Ömer Göçmen | Yapay Zeka & Otomasyon beskriver ett arbetsflöde där Tripo AI används för att skapa 3D-modeller från bilder och Claude Opus 5.5 för att omvandla modellerna till spelkod. Demonstrationen omfattar ett episodindelat zombiespel med animerade karaktärer.",
+    "full": "Kanalen Ömer Göçmen | Yapay Zeka & Otomasyon visar ett AI-baserat arbetsflöde för att bygga ett episodindelat 3D-zombiespel utan tidigare kunskaper i 3D-modellering. Enligt beskrivningen används Tripo AI för att skapa 3D-modeller från bilder, medan Claude Opus 5.5 används för att omvandla modellerna till kod för spelet.\n\nArbetsflödet börjar med bildbaserad modellgenerering och skapande av 3D-karaktärer. Beskrivningen nämner bland annat T-poser, inställningar för HD och Smart Mesh, polygoner och topologi. Därefter får en karaktär ett skelett, animationer och rörelser som slag, sparkar och volter. Modellen exporteras i GLB-format, och texturer i 2K eller 4K samt zombieanimationer läggs till.\n\nKanalen beskriver sedan hur spelfilerna förbereds för Claude och hur en spelprompt skrivs till Claude Opus 5.5. Resultatet är enligt beskrivningen ett spel med kombinationer, fiendevågor och en ny bana. Även modeller för en eldboll och en apelsin som återställer hälsa ingår i arbetsflödet.\n\nBeskrivningen tar också upp Tripo AI:s kreditsystem och anger att nya konton får 200 krediter. Det är en uppgift från kanalens beskrivning, inte ett resultat av en oberoende kontroll. Videon uppges dessutom gå igenom hur många krediter skapandet använde och om AI-genererade 3D-karaktärer fungerar för detta användningsfall.",
+    "deep": "Det centrala i arbetsflödet är kombinationen av två AI-steg: Tripo AI genererar och förbereder 3D-tillgångar, medan Claude Opus 5.5 används för spelkod och integration. Den specificerade processen omfattar bild till 3D-modell, karaktärsskapande, riggning, animation, export i GLB-format och därefter kodgenerering.\n\nDe angivna modellinställningarna omfattar HD respektive Smart Mesh samt polygon- och topologiinställningar. För karaktärerna nämns T-pose, skelett och animationer för bland annat slag, sparkar och volter. Beskrivningen anger även texturer i 2K och 4K, vilket visar att arbetsflödet inte enbart handlar om att skapa en statisk modell utan också om att förbereda tillgångar för spelanvändning.\n\nSpelprototypen beskrivs som ett överlevnadsspel med zombiefigurer, kombinationer, vågor och flera banor. De konkreta föremålen eldboll och hälsoåterställande apelsin illustrerar hur ytterligare spelobjekt inkluderas i samma AI-stödda process. Källan ger däremot inga oberoende prestandamätningar eller tekniska verifieringar av resultatets kvalitet.",
+    "en": {
+      "ttl": "Tripo AI and Claude are used to build a 3D zombie game without prior 3D skills",
+      "sum": "The channel Ömer Göçmen | Yapay Zeka & Otomasyon describes a workflow in which Tripo AI creates 3D models from images and Claude Opus 5.5 turns the models into game code. The demonstration covers an episodic zombie game with animated characters.",
+      "full": "The channel Ömer Göçmen | Yapay Zeka & Otomasyon presents an AI-based workflow for building an episodic 3D zombie game without prior 3D-modelling knowledge. According to the description, Tripo AI is used to create 3D models from images, while Claude Opus 5.5 is used to turn the models into game code.\n\nThe workflow begins with image-based model generation and 3D character creation. The description mentions T-poses, HD and Smart Mesh settings, polygons and topology. A character is then given a skeleton, animations and movements such as punches, kicks and flips. The model is exported in GLB format, and 2K or 4K textures as well as zombie animations are added.\n\nThe channel then describes preparing the game files for Claude and writing a game prompt for Claude Opus 5.5. The resulting game is described as including combos, enemy waves and a new level. The workflow also includes models for a fireball and an orange that restores health.\n\nThe description also covers Tripo AI’s credit system and states that new accounts receive 200 credits. This is a claim from the channel’s description, not an independently verified result. The video is also said to examine how many credits the process used and whether AI-generated 3D characters work for this use case.",
+      "deep": "The core of the workflow is the combination of two AI stages: Tripo AI generates and prepares 3D assets, while Claude Opus 5.5 is used for game code and integration. The specified process covers image-to-3D generation, character creation, rigging, animation, GLB export and subsequent code generation.\n\nThe listed model settings include HD and Smart Mesh as well as polygon and topology controls. For characters, the description mentions a T-pose, skeleton and animations including punches, kicks and flips. It also specifies 2K and 4K textures, indicating that the workflow is intended to prepare assets for game use rather than only create a static model.\n\nThe prototype is described as a survival game with zombies, combos, waves and multiple levels. The fireball and health-restoring orange show how additional game objects are incorporated into the same AI-assisted process. The source provides no independent performance measurements or technical verification of the output quality."
+    },
+    "cat": "3d",
+    "date": "2026-10-12T16:00:38Z",
+    "meta": "Ömer Göçmen | Yapay Zeka & Otomasyon · 2026-10-12",
+    "url": "https://www.youtube.com/watch?v=AZacOD1uUiI",
+    "img": "https://i.ytimg.com/vi/AZacOD1uUiI/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Ömer Göçmen | Yapay Zeka & Otomasyon"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Yapay zeka ile 3D oyun yapılır mı?"
+      },
+      {
+        "t": 42,
+        "l": "Tripo AI nedir? Kayıt ve 200 ücretsiz kredi"
+      },
+      {
+        "t": 59,
+        "l": "Prompt ile görsel oluşturma"
+      },
+      {
+        "t": 82,
+        "l": "Karakter ayırma ve T-poz nedir?"
+      },
+      {
+        "t": 122,
+        "l": "Görselden 3D model: HD vs Smart Mesh"
+      },
+      {
+        "t": 146,
+        "l": "Polygon ve topoloji ayarları"
+      },
+      {
+        "t": 193,
+        "l": "Varlıklar bölümü ve model örnekleri"
+      },
+      {
+        "t": 232,
+        "l": "Oyun fikri: Zombi hayatta kalma oyunu"
+      },
+      {
+        "t": 260,
+        "l": "T-poz ile oyun karakteri hazırlama"
+      },
+      {
+        "t": 289,
+        "l": "Zombi karakteri tasarımı"
+      },
+      {
+        "t": 307,
+        "l": "HD 3D model oluşturma (H3.1)"
+      },
+      {
+        "t": 320,
+        "l": "Rig: Karaktere iskelet ekleme"
+      },
+      {
+        "t": 367,
+        "l": "Animasyonlar: Yumruk, tekme, takla"
+      },
+      {
+        "t": 452,
+        "l": "GLB formatında dışa aktarma"
+      },
+      {
+        "t": 501,
+        "l": "Texture ekleme (2K / 4K) ve zombi animasyonları"
+      },
+      {
+        "t": 554,
+        "l": "Ateş topu ve can veren portakal modeli"
+      },
+      {
+        "t": 585,
+        "l": "Dosyaları Claude için hazırlama"
+      },
+      {
+        "t": 615,
+        "l": "Claude Opus 5.5'e oyun promptu yazma"
+      },
+      {
+        "t": 651,
+        "l": "Oyun hazır: İlk test"
+      },
+      {
+        "t": 702,
+        "l": "Oynanış: Kombolar, dalgalar ve yeni bölüm"
+      },
+      {
+        "t": 780,
+        "l": "Sonuç: Tripo AI denemeye değer mi?"
+      }
+    ],
+    "views": 1210,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-10-12T22:08:07.415Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "436c0e3bbdcc35f79fbd84f3acc599fbb73e38d1899bb66be0d46ef04db5f10e",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo AI",
+      "Claude Opus 5.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "What is AI filmmaking, and how do you actually go from an idea to a finished film using it? This is the introduction to The",
+    "evidenceIds": [
+      1,
+      5,
+      8
+    ],
+    "id": "MWY0Dx2XN0k",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Darren Prods presenterar en kurs i AI-filmskapande från idé till färdig film",
+    "sum": "Darren Prods beskriver en fyraveckorskurs i 42 delar som visar hur AI-verktyg kan kopplas samman i ett arbetsflöde för att skapa färdiga filmer, från manus och promptar till videogenerering, VFX, ljud och professionell redigering.",
+    "full": "YouTube-kanalen Darren Prods introducerar The Complete AI Filmmaking Course, en utbildning om hur man går från en första idé till en färdig film med hjälp av AI. Fokus ligger enligt beskrivningen inte på enstaka slumpmässiga klipp, utan på hur flera verktyg kan passa ihop i ett sammanhängande produktionsflöde med ett professionellt, filmiskt resultat som mål.\n\nKursens upplägg omfattar 42 videor under fyra veckor. Darren Prods uppger att utbildningen börjar från grunden och går igenom manusarbete, promptskrivning och videogenerering med flera större AI-videotjänster. Även VFX, ljud och professionell redigering ingår i den beskrivna vägen mot färdiga AI-filmer.\n\nIntroduktionsvideon tar särskilt upp vad AI-filmskapande innebär enligt Darren Prods under 2026, varför nybörjare ofta får resultat som saknar konsekvens och vad som kan användas för att förbättra arbetsprocessen. Beskrivningen framhåller också att kursens verktyg ska kopplas samman till en hel film, snarare än användas som isolerade lösningar.\n\nDarren Prods rekommenderar att tittare som vill lära sig AI-filmskapande följer kursen i ordning. Källbeskrivningen anger inga specifika produktversioner eller oberoende testresultat, så artikeln kan inte bedöma verktygens faktiska kvalitet eller prestanda.",
+    "deep": "Den centrala utvecklingen i materialet är ett workflow för AI-baserad filmproduktion, där flera steg samordnas: idéutveckling, manus, promptar, generering, VFX, ljud och redigering. Det innebär att kursen enligt kanalens beskrivning behandlar AI-filmskapande som en hel produktionskedja, inte enbart som videogenerering.\n\nDet konkreta användningsområdet är utbildning för personer som vill skapa färdiga AI-filmer från nybörjarnivå. Beskrivningen säger att kursen omfattar generering över flera större AI-videotjänster, men namnger inte vilka tjänster som används. Därför går det inte att koppla materialet till någon specifik plattform i registret eller ange detaljer om enskilda funktioner, versioner eller lanseringsdatum.\n\nVideon är en introduktion till kursen, inte en redovisning av ett oberoende test. Påståendena om professionellt och filmiskt resultat återges därför som Darren Prods beskrivning av kursens mål. Videons uppladdningsdatum används inte som produkt- eller kurslanseringsdatum.",
+    "en": {
+      "ttl": "Darren Prods introduces an AI filmmaking course from idea to finished film",
+      "sum": "Darren Prods describes a four-week, 42-video course showing how AI tools can be connected in a workflow for creating finished films, from scripting and prompting to video generation, VFX, audio and professional editing.",
+      "full": "YouTube channel Darren Prods introduces The Complete AI Filmmaking Course, an education program about moving from an initial idea to a finished film with AI. According to the description, the focus is not on isolated random clips, but on connecting multiple tools in a coherent production workflow aimed at a professional, cinematic result.\n\nThe course consists of 42 videos delivered over four weeks. Darren Prods says the training starts from the basics and covers scripting, prompting and video generation across several major AI video tools. VFX, audio and professional editing are also included in the described path toward finished AI films.\n\nThe introduction specifically addresses what AI filmmaking means according to Darren Prods in 2026, why beginners often receive inconsistent results and what can be used to improve the workflow. The description also emphasizes connecting the course tools into one complete film rather than using them as isolated solutions.\n\nDarren Prods recommends that viewers who want to learn AI filmmaking follow the course in order. The source description provides no specific product versions or independent test results, so the article cannot assess the tools' actual quality or performance.",
+      "deep": "The central development in the source is a workflow for AI-based film production in which multiple stages are coordinated: ideation, scripting, prompting, generation, VFX, audio and editing. According to the channel's description, the course therefore treats AI filmmaking as a complete production pipeline rather than only as video generation.\n\nThe stated use case is training for people who want to create finished AI films from a beginner level. The description says the course covers generation across several major AI video services, but it does not name those services. It is therefore not possible to link the material to a specific platform in the registry or provide details about individual features, versions or release dates.\n\nThe video is a course introduction, not an independent test. Claims about professional and cinematic output are consequently presented as Darren Prods' description of the course's goal. The upload date is not used as a product or course release date."
+    },
+    "cat": "film",
+    "date": "2026-10-12T14:30:13Z",
+    "meta": "Darren Prods · 2026-10-12",
+    "url": "https://www.youtube.com/watch?v=MWY0Dx2XN0k",
+    "img": "https://i.ytimg.com/vi/MWY0Dx2XN0k/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Darren Prods"
+    ],
+    "parts": [],
+    "views": 0,
+    "buzz": 20,
+    "sourceCheckedAt": "2026-10-12T22:08:07.415Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "04341a0c49c1b35fb58484e21db0066a38231c5740eebd0ece52d147c865a1d1",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "❤️ Create stunning and romantic couple photos using the latest ChatGPT AI Photo Editing Prompts 2026! 🔥 Transform your normal photos into beautiful, cinematic, and",
     "evidenceIds": [
       1,
@@ -197,6 +413,81 @@
   },
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Linus' feed has been blowing up with talk about AI Clones and Decompiled Games. Is it piracy? Is it a step towards an AI-assisted open",
+    "evidenceIds": [
+      3,
+      22,
+      25
+    ],
+    "id": "fr0WIIZxvx0",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Yrkesverksamma testar falska AI Photoshop",
+    "sum": "Linus Tech Tips låter yrkesverksamma granska ett kostnadsfritt, falskt AI Photoshop och diskuterar dess funktioner, problem och juridiska konsekvenser.",
+    "full": "Linus Tech Tips undersöker ett kostnadsfritt verktyg som beskrivs som ett falskt AI Photoshop. Kanalens upplägg låter yrkesverksamma prova tjänsten och bedöma hur den fungerar i praktiken, snarare än att presentera en oberoende test av verktyget.\n\nBeskrivningen kopplar granskningen till en bredare diskussion om AI-kloner och dekompilerade spel. En central fråga är om verktyget representerar piratkopiering eller ett steg mot en AI-assisterad framtid för öppen källkod. Avsnitten tar också upp vilka följder utvecklingen kan få.\n\nKanalens genomgång fokuserar på flera problem med den falska AI Photoshop-tjänsten. Kapitelrubrikerna nämner verktygets identitet, dekompilering, problem som uppstår under användningen och frågan om huruvida tjänsten är laglig. Linus Tech Tips avslutar med sina samlade reflektioner efter de yrkesverksammas genomgång.",
+    "deep": "Linus Tech Tips beskriver verktyget som gratis och placerar det i en diskussion om AI-assisterade verktyg som företag behöver kunna integrera säkert. Beskrivningen ger dock inga specifika uppgifter om modell, utvecklare, tekniska funktioner, prestanda, licensvillkor eller lanseringsdatum.\n\nKapitelstrukturen visar att videon behandlar mer än bildredigeringens yta: den tar upp vad tjänsten är, kopplingen till dekompilering, identifierade problem och juridik. Det går däremot inte att fastställa vilka konkreta funktioner eller resultat som visas utan att se videon.",
+    "en": {
+      "ttl": "Professionals Try Fake AI Photoshop",
+      "sum": "Linus Tech Tips has professionals examine a free fake AI Photoshop and discusses its features, problems and legal implications.",
+      "full": "Linus Tech Tips examines a free tool described as a fake AI Photoshop. The channel’s format has professionals try the service and assess how it works in practice, rather than presenting an independent test of the tool.\n\nThe description connects the review to a broader discussion about AI clones and decompiled games. A central question is whether the tool represents piracy or a step toward an AI-assisted open-source future. The potential ramifications of this development are also part of the discussion.\n\nThe channel’s coverage focuses on several issues with the fake AI Photoshop service. The chapter titles mention the tool’s identity, decompilation, problems encountered during use and whether the service is legal. Linus Tech Tips ends with its overall thoughts after the professionals’ examination.",
+      "deep": "Linus Tech Tips describes the tool as free and places it within a discussion about safely integrating AI agentic tools into businesses. The description provides no specific information about the model, developer, technical features, performance, licensing terms or release date.\n\nThe chapter structure indicates that the video covers more than surface-level image editing: it addresses what the service is, its connection to decompilation, identified problems and legal questions. Specific functions or results cannot be established without watching the video."
+    },
+    "cat": "foto",
+    "date": "2026-10-10T17:00:12Z",
+    "meta": "Linus Tech Tips · 2026-10-10",
+    "url": "https://www.youtube.com/watch?v=fr0WIIZxvx0",
+    "img": "https://i.ytimg.com/vi/fr0WIIZxvx0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Linus Tech Tips"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro"
+      },
+      {
+        "t": 138,
+        "l": "What is this?"
+      },
+      {
+        "t": 227,
+        "l": "I AM TERREN TONG"
+      },
+      {
+        "t": 257,
+        "l": "Is it decompilation?"
+      },
+      {
+        "t": 326,
+        "l": "Some... issues"
+      },
+      {
+        "t": 377,
+        "l": "...is it legal?"
+      },
+      {
+        "t": 464,
+        "l": "More issues"
+      },
+      {
+        "t": 545,
+        "l": "Final thoughts"
+      }
+    ],
+    "views": 2269864,
+    "buzz": 96,
+    "sourceCheckedAt": "2026-10-12T22:08:07.415Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "e18d1cbf2bfe4e787a4889bce220b66efc0d2b179fed123f6c29e9e02049e515",
+    "trusted": true,
+    "sourceId": "linustechtips",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "今回は3Dモデル生成特化のAIサービス、TripoAIさんから案件を頂いたので、実際に使用してみながらどの程度のモデルが生成できるのか検証してみました。 2.Tripo Smart Mesh P2.0でゲームキャラクターを作成しよう！",
     "evidenceIds": [
       9,
@@ -237,6 +528,105 @@
     "newPlatforms": [
       "Tripo AI",
       "Tripo Smart Mesh P2.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Я протестировала все доступные на октябрь 2026 сервисы с генерацией 3д-моделей по фото в поисках лучшего, использовала Top 3D Ai (https://www.top3d.ai/) для поиска нейронок по",
+    "evidenceIds": [
+      14,
+      15,
+      17
+    ],
+    "id": "p_I_N-83GAA",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Sofia Kholina jämför AI-tjänster som skapar 3D-modeller från foton",
+    "sum": "Kanalen Sofia Kholina beskriver en jämförelse av Tripo, Meshy, Hunyuan och flera andra AI-tjänster för att skapa 3D-modeller från foton. Jämförelsen fokuserar på gratis generering, faktisk nedladdning, hastighet, kvalitet och månadsbegränsningar.",
+    "full": "Sofia Kholina beskriver en jämförelse av AI-tjänster som genererar 3D-modeller från foton. Enligt kanalens beskrivning testades de tjänster som var tillgängliga i oktober 2026 med samma referensbild, med målet att hitta alternativ som både kan användas gratis och låter användaren faktiskt ladda ner den skapade modellen.\n\nJämförelsen omfattar bland annat Tripo, Meshy, Hunyuan, Triverse, Hyper3D, Sloyd och YVO3D. Beskrivningen anger att tjänsterna bedömdes utifrån hastighet, kvalitet och månadsvisa begränsningar. Den tar även upp dolda eller mindre uppenbara betalbegränsningar, vilket gör användningsvillkoren till en central del av arbetsflödet.\n\nKanalens upplägg innehåller separata genomgångar av flera tjänster, däribland Tripo, Hunyuan, Hyper3D (Rodin), Meshy AI och Triverse AI. Top 3D Ai uppges ha använts för att hitta AI-tjänster utifrån de kriterier som jämförelsen kräver. Resultatet presenteras som en praktisk jämförelse och sammanfattas i ett avslutande omdöme från kanalen.",
+    "deep": "Beskrivningen specificerar två huvudkriterier: kostnadsfri generering och möjligheten att ladda ner modellen. Därutöver jämför Sofia Kholina tjänsternas hastighet, resultatkvalitet och månatliga användningsgränser på samma referens, vilket ger jämförelsen ett gemensamt testupplägg enligt kanalens egen beskrivning.\n\nBland de namngivna alternativen finns även Hi3D, Poxal3D, som beskrivs som en lokal AI-tjänst, samt Sloyd och andra tjänster. Hyper3D anges också med namnet Rodin. Beskrivningen ger däremot inga konkreta poäng, resultatmått eller detaljer om de enskilda modellernas kvalitet, så sådana slutsatser kan inte dras här.",
+    "en": {
+      "ttl": "Sofia Kholina compares AI services that create 3D models from photos",
+      "sum": "The Sofia Kholina channel describes a comparison of Tripo, Meshy, Hunyuan and several other AI services for creating 3D models from photos. The comparison focuses on free generation, actual downloads, speed, quality and monthly limits.",
+      "full": "Sofia Kholina describes a comparison of AI services that generate 3D models from photos. According to the channel description, the services available in October 2026 were tested with the same reference image, focusing on options that both support free generation and allow users to actually download the created model.\n\nThe comparison includes Tripo, Meshy, Hunyuan, Triverse, Hyper3D, Sloyd and YVO3D, among others. The description says the services were assessed for speed, quality and monthly limits. It also covers hidden or less obvious paid restrictions, making usage conditions a central part of the workflow.\n\nThe channel’s format includes separate reviews of several services, including Tripo, Hunyuan, Hyper3D (Rodin), Meshy AI and Triverse AI. Top 3D Ai is said to have been used to find AI services according to the comparison criteria. The results are presented as a practical comparison and summarized in a final assessment from the channel.",
+      "deep": "The description specifies two main criteria: free generation and the ability to download the model. Sofia Kholina also compares speed, output quality and monthly usage limits using the same reference, giving the comparison a common test setup according to the channel’s own description.\n\nThe named options also include Hi3D, Poxal3D, described as a local AI service, as well as Sloyd and other services. Hyper3D is also identified by the name Rodin. The description provides no concrete scores, measurements or details about the quality of individual models, so no such conclusions can be drawn here."
+    },
+    "cat": "3d",
+    "date": "2026-10-10T10:03:04Z",
+    "meta": "Sofia Kholina · 2026-10-10",
+    "url": "https://www.youtube.com/watch?v=p_I_N-83GAA",
+    "img": "https://i.ytimg.com/vi/p_I_N-83GAA/hqdefault.jpg",
+    "plat": "Meshy AI",
+    "platformIds": [
+      "meshy-ai"
+    ],
+    "chans": [
+      "Sofia Kholina"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "приветствие и введение"
+      },
+      {
+        "t": 44,
+        "l": "Top 3D Ai, список нейросетей"
+      },
+      {
+        "t": 156,
+        "l": "Tripo"
+      },
+      {
+        "t": 338,
+        "l": "Hi3D"
+      },
+      {
+        "t": 381,
+        "l": "Hunyuan"
+      },
+      {
+        "t": 512,
+        "l": "Poxal3D, локальная нейросеть"
+      },
+      {
+        "t": 573,
+        "l": "Hyper3D (Rodin)"
+      },
+      {
+        "t": 633,
+        "l": "Sloyd"
+      },
+      {
+        "t": 651,
+        "l": "Meshy Ai"
+      },
+      {
+        "t": 757,
+        "l": "YVO3D и другие"
+      },
+      {
+        "t": 833,
+        "l": "Trivelse Ai"
+      },
+      {
+        "t": 1026,
+        "l": "заключение"
+      }
+    ],
+    "views": 9561,
+    "buzz": 68,
+    "sourceCheckedAt": "2026-10-12T22:08:07.415Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "701f9ebf3a87197c525b07c48b85bbdd7b35014508635aa357fc29b7fcb723d3",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Triverse",
+      "Sloyd",
+      "YVO3D",
+      "Hi3D",
+      "Poxal3D"
     ]
   },
   {

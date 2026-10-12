@@ -1,58 +1,139 @@
 {
-  "startedAt": "2026-10-12T13:13:29.695Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-12T22:08:07.415Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-12T22:08:07.415Z",
+      "found": 3
+    }
+  },
+  "selection": {
+    "fetched": 114,
+    "relevant": 27,
+    "supported": 22
+  },
+  "rejected": [
     {
-      "platform": "heygen",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://help.heygen.com/en/articles/15126059-how-to-use-credits-on-heygen\",\"quote\":\"Unused monthly plan credits roll over for one additional billing cycle.\",\"retrieved\":[]}"
+      "video": "grOilk8aCS0",
+      "title": "AI Design Hack Saves HOURS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "deep",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "RxB56eE5BRc",
+      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "tags",
-      "message": "Full claim not supported by cited evidence; previous value retained"
+      "video": "U9tFP81PSbQ",
+      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        9
+      ]
     },
     {
-      "platform": "heygen",
-      "field": "pricing",
-      "message": "Incomplete pricing evidence; previous price retained"
+      "video": "l4gPRtXVf2k",
+      "title": "Qwen's new image model is free to download -- but not to sell with | Breach Protocol #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "platform": "freepik-ai",
-      "field": "price",
-      "message": "Source outside official domain"
+      "video": "Fp3sSagKJdw",
+      "title": "Meshy 3D Agent is here 🎉 Best 3D Model Generator",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
     },
     {
-      "platform": "freepik-ai",
-      "field": "sub",
-      "message": "Source outside official domain"
+      "video": "h4MKJAJvins",
+      "title": "You're Spending Too Much on Your AI Videos",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "freepik-ai",
-      "field": "long",
-      "message": "Source outside official domain"
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "freepik-ai",
-      "field": "pros",
-      "message": "Source outside official domain"
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Runway AI",
-      "message": "Evidence quote missing"
+      "video": "AFqtMLqT7yE",
+      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Qwen-Image-2.1",
-      "message": "Evidence quote missing"
+      "video": "L2b3XZ7mP5E",
+      "title": "New Temple View 🪟 Ai Photo Editing prompt 💭 #chatgpt #aiphotoediting #ytshorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "VQZzkW5Atb0",
+      "title": "Is Hollywood in Trouble?| AI Can Now Turn Images Into Videos| Film Industry| Meet Vidu Q4|",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "HKgAMl1iHxk",
+      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "c4DPUXlsYoI",
+      "title": "6 ChatGPT Prompts for AI Photo Editing |  AI Photo Edit | Chatgpt Photo Edit #Shorts #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-Q5RCHlCs7w",
+      "title": "Viral Bridge Ai Photo Editing prompt 💭🔥 #chatgpt #aiphotoediting #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qU829iE2Dsg",
+      "title": "New Aesthetic Photo Prompt For ChatGPT 🔥💯 #chatgpt #aiphotoediting #chatgpt",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 5
 }
