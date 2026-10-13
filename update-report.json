@@ -1,125 +1,53 @@
 {
-  "startedAt": "2026-10-13T09:24:53.041Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-13T09:24:53.041Z",
-      "found": 3
-    }
-  },
-  "selection": {
-    "fetched": 114,
-    "relevant": 25,
-    "supported": 21
-  },
-  "rejected": [
+  "startedAt": "2026-10-13T12:45:03.290Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "leonardo-ai",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "RxB56eE5BRc",
-      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "leonardo-ai",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "leonardo-ai",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Fp3sSagKJdw",
-      "title": "Meshy 3D Agent is here 🎉 Best 3D Model Generator",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3,
-        5
-      ]
+      "platform": "leonardo-ai",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
+      "platform": "luma-ray3",
+      "field": "free",
+      "message": "Quote not found: {\"url\":\"https://lumalabs.ai/learning-hub/ray3-faqs\",\"quote\":\"Free accounts now have access to video generation with Ray3 through Draft Mode with a limited number of monthly credits.\",\"retrieved\":[]}"
     },
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "insufficient-article-source"
+      "platform": "luma-ray3",
+      "field": "price",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "lzOc56JoUbY",
-      "title": "AI Filmmaking | cinematic view",
-      "stage": "insufficient-article-source"
+      "platform": "stable-diffusion-3-5",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "SDudYLdT_uQ",
-      "title": "ChatGPT Photo Editing AI Prompt | Chat GPT Trend Photo Prompt ✨",
-      "stage": "insufficient-article-source"
+      "candidate": "Prism Desktop v1.0.0",
+      "message": "Incomplete independent verification of new profile"
     },
     {
-      "video": "ChPNdQUIViw",
-      "title": "AI Won't Replace Filmmaking, But It's WILDLY Expensive! #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "VQZzkW5Atb0",
-      "title": "Is Hollywood in Trouble?| AI Can Now Turn Images Into Videos| Film Industry| Meet Vidu Q4|",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "L2b3XZ7mP5E",
-      "title": "New Temple View 🪟 Ai Photo Editing prompt 💭 #chatgpt #aiphotoediting #ytshorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HKgAMl1iHxk",
-      "title": "New ChatGPT Ai Photo Editing 🔥 Prompt 💭 #chatgpt #ytshorts #aiphotoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KYVKKX6bZaE",
-      "title": "AI Video Generation HOT TAKE",
-      "stage": "insufficient-article-source"
+      "candidate": "Qwen Image 2.1",
+      "message": "Evidence quote missing"
     }
   ],
-  "accepted": 3
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }
