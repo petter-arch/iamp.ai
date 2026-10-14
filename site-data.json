@@ -19540,8 +19540,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-02T11:08:48.743Z",
-      "lastCheckError": "Invalid independent fact check"
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z"
     },
     {
       "n": "Krea AI",
@@ -19588,7 +19587,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-02T11:08:48.743Z",
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -19687,8 +19686,8 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-02T11:08:48.743Z",
-      "lastCheckError": "Some fields could not be verified"
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
+      "lastCheckError": "Invalid independent fact check"
     },
     {
       "n": "Pika 2.5",
@@ -19748,7 +19747,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-02T11:08:48.743Z",
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -22106,7 +22105,8 @@
         "https://www.youtube.com/watch?v=ti0Ie018EWY",
         "https://www.youtube.com/watch?v=4_veqqIu_f4",
         "https://www.youtube.com/watch?v=dFvtVoY5ng0",
-        "https://www.youtube.com/watch?v=POD2xZpoZF4"
+        "https://www.youtube.com/watch?v=POD2xZpoZF4",
+        "https://www.youtube.com/watch?v=3A0C5SYA21g"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -22807,14 +22807,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=63MkFYtjqYk"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Tripo Smart UV",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tZnL7_V_ki0"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Meshy 7.1",
@@ -23094,7 +23100,8 @@
       "name": "CapCut",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=f1nSkWhkIpY",
-        "https://www.youtube.com/watch?v=qAxp2rPlI_E"
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=PzYaK2uNXBg"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
@@ -24027,6 +24034,62 @@
         "https://www.youtube.com/watch?v=p_I_N-83GAA"
       ],
       "firstSeen": "2026-10-13T12:45:03.290Z"
+    },
+    {
+      "name": "AHOLO",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=woLIAHKo6lY"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "Aholo Lux3D",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=woLIAHKo6lY"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "Aholo SpatialGen",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=woLIAHKo6lY"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "Aholo Reality",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=woLIAHKo6lY"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "Meshy AI 7",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=HTD-GOQZPM8"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "ScreenWeaver",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=r1dhKBNQdjs"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "WhichCAN studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ltCYBjBR2xM"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
+    },
+    {
+      "name": "Flow AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=PzYaK2uNXBg"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z"
     }
   ],
   "sourceChecks": {},
@@ -24693,59 +24756,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-14T07:37:52.220Z",
+    "calculatedAt": "2026-10-14T10:16:43.140Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.07094266097496621,
+      "runway-gen-4-5": 0.07017195948078167,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.313099167241266,
+      "elevenlabs": 1.2988340202014275,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.19646866158126208,
+      "kling-3-0": 0.1943342802518876,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.22045789164411,
+      "higgsfield": 4.174608001626863,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.1829662471738773,
+      "meshy-ai": 1.1701148282711034,
       "magnific-ai": 0,
-      "seedance-2-5": 1.889906843257915,
+      "seedance-2-5": 1.8693754167798131,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.1884991271078668,
-      "nano-banana-2": 0.5503585601727383,
+      "nano-banana-pro": 0.1864513246020406,
+      "nano-banana-2": 0.5443796166311076,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
-      "rodin-hyper3d": 0.05327147034127273,
+      "rodin-hyper3d": 0.05269274378626074,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.2664435762515591,
-      "trellis-2": 0.1308483452257644,
+      "hunyuan3d": 0.2635490067568314,
+      "trellis-2": 0.12942684490718098,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.05327147034127273,
-      "hitem3d": 0.20072825044213782,
+      "luma-genie": 0.05269274378626074,
+      "hitem3d": 0.19854759411469344,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.1021493047327332,
-      "luma-agents": 0.07676180118074759
+      "gemini-omni-flash": 0.10103958287136675,
+      "luma-agents": 0.0759278821529968
     }
   }
 }

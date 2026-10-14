@@ -1,115 +1,62 @@
 {
-  "startedAt": "2026-10-14T07:37:52.220Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-14T07:37:52.220Z",
-      "found": 2
-    }
-  },
-  "selection": {
-    "fetched": 117,
-    "relevant": 24,
-    "supported": 21
-  },
-  "rejected": [
+  "startedAt": "2026-10-14T10:16:43.140Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "krea-ai",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "RxB56eE5BRc",
-      "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "krea-ai",
+      "field": "caps",
+      "message": "Invalid official citation"
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        9
-      ]
+      "platform": "spline-ai",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://spline.design/pricing\",\"quote\":\"Hobby $12 / mo billed yearly or $15 billed monthly\",\"retrieved\":[]}"
     },
     {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "field": "long",
+      "message": "Detail would be lost"
     },
     {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
+      "platform": "spline-ai",
+      "message": "Invalid independent fact check"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://pika.art/pricing?interval=month\",\"quote\":\"Price / mo | $0 | $10 | $35 | $95–$880\",\"retrieved\":[]}"
     },
     {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://dev.pika.art/models/pika/pika-2.5/text-to-video/playground\",\"quote\":\"Pika's flagship text-to-video, tuned for crisp 1080p motion.\",\"retrieved\":[]}"
     },
     {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "tags",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "KCn63UaqxLw",
-      "title": "An AI-Made Sci-Fi Series Cost $38,000 in AI Credits 🤯 | AI Filmmaking 2026 #web3 #chatgpt #ai",
-      "stage": "insufficient-article-source"
+      "platform": "pika-2-5",
+      "field": "caps",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "AFqtMLqT7yE",
-      "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
-      "stage": "insufficient-article-source"
+      "candidate": "Qwen3.8-LiveTranslate",
+      "message": "Evidence quote missing"
     },
     {
-      "video": "XUGMBxARG-s",
-      "title": "lovely mirror prompt 😘  AI Chatgpt Prompt #chatgpt #ai #prompt #editing #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "lzOc56JoUbY",
-      "title": "AI Filmmaking | cinematic view",
-      "stage": "insufficient-article-source"
+      "candidate": "Tripo Smart UV",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 4
+  "categories": {},
+  "checked": 4,
+  "updated": 0,
+  "newModels": 0
 }
