@@ -1,63 +1,51 @@
 {
-  "startedAt": "2026-10-15T18:16:46.608Z",
+  "startedAt": "2026-10-16T07:08:43.235Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "sjuisARFWn8",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-15T18:16:46.608Z",
+      "checkedAt": "2026-10-16T07:08:43.235Z",
       "found": 5
     }
   },
   "selection": {
-    "fetched": 128,
-    "relevant": 44,
-    "supported": 36
+    "fetched": 124,
+    "relevant": 30,
+    "supported": 21
   },
   "rejected": [
-    {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
     {
       "video": "XEl4ZQKKxig",
       "title": "The Cheapest Robot On The Market?!",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        2
+        2,
+        3
       ]
     },
     {
@@ -76,7 +64,16 @@
       "evidenceIds": [
         4,
         6,
-        10
+        12
+      ]
+    },
+    {
+      "video": "7-556KlDMfg",
+      "title": "Last 30 Days: your new real-time web search",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
       ]
     },
     {
@@ -88,20 +85,31 @@
       ]
     },
     {
-      "video": "DD4oHSH5SEI",
-      "title": "Google Cooked! Testing Gemini 4 Argon & Blasting 800 Million Tokens!",
+      "video": "b5D80OWst78",
+      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
       "stage": "classification-evidence",
       "evidenceIds": [
-        9
+        3,
+        4
       ]
     },
     {
-      "video": "U9tFP81PSbQ",
-      "title": "Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!",
+      "video": "jPX1lLOXcWg",
+      "title": "Qwen Image 2.1 Turbo: 8-Step AI Image Generation ; Editing Explained!",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
         5,
+        7
+      ]
+    },
+    {
+      "video": "qSdzsdvaQDU",
+      "title": "Krea 3 in ComfyUI: New AI Image Model for Multi-Reference Editing",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
         8
       ]
     },
@@ -110,6 +118,7 @@
       "title": "Google Is Back - Can Gemini 4 Argon Finally Do 3D Design & Blender?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         3
       ]
@@ -135,8 +144,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "f_tSFUPkzBY",
+      "title": "Nano Banana 2.1: Character Consistency and Design (Visual Cut 3)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "40dkdO9slZI",
       "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "d-M8ureH5oY",
+      "title": "FLUX 3 Image Klein: Run AI Image Generation Locally? 👀",
       "stage": "insufficient-article-source"
     },
     {
@@ -145,50 +164,15 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "7Lv4mtav9Xg",
-      "title": "GEMINI AI PHOTO EDITING | NEW VIRAL PROMPT FOR BOYS 🥀 #shorts #shortsfeed #geminiai #ai #photoedit",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Y2qTEoJVUds",
-      "title": "AI Se Banaya Delhi 2050 Ka Future! 🤯🔥 | Google AI Studio",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "b043kLKtG_Y",
-      "title": "Gemini Photo Edit 🔥 Trending Instagram Photo Editing | AI Photo Editing #shorts #ai #gemini",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        7
-      ]
-    },
-    {
       "video": "lzOc56JoUbY",
       "title": "AI Filmmaking | cinematic view",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XUGMBxARG-s",
-      "title": "lovely mirror prompt 😘  AI Chatgpt Prompt #chatgpt #ai #prompt #editing #new",
       "stage": "insufficient-article-source"
     },
     {
       "video": "KCn63UaqxLw",
       "title": "An AI-Made Sci-Fi Series Cost $38,000 in AI Credits 🤯 | AI Filmmaking 2026 #web3 #chatgpt #ai",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ChPNdQUIViw",
-      "title": "AI Won't Replace Filmmaking, But It's WILDLY Expensive! #shorts",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7
+  "accepted": 2
 }
