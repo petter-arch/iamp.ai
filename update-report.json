@@ -1,33 +1,164 @@
 {
-  "startedAt": "2026-10-16T09:53:36.808Z",
-  "mode": "profiles",
+  "startedAt": "2026-10-16T18:02:30.369Z",
+  "mode": "news",
   "errors": [
     {
-      "platform": "ideogram-v3",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://ideogram.ai/pricing/?tool=ideogram\",\"quote\":\"$15 per month, $180 billed annually\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "ideogram-v3",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://developer.ideogram.ai/api-reference/images/generate/ideogram-3-transparent\",\"quote\":\"Allowed values: x1 x2 x4\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "ideogram-v3",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://ideogram.ai/pricing/?tool=ideogram\",\"quote\":\"require priority credits and are not available in the slow queue.\",\"retrieved\":[]}"
-    },
-    {
-      "platform": "ideogram-v3",
-      "message": "Invalid independent fact check"
-    },
-    {
-      "candidate": "WorldSculpt",
-      "message": "Invalid evidence URL"
+      "video": "DD4oHSH5SEI",
+      "message": "Missing translation"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 0,
-  "newModels": 0
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-16T18:02:30.369Z",
+      "found": 7
+    }
+  },
+  "selection": {
+    "fetched": 123,
+    "relevant": 36,
+    "supported": 29
+  },
+  "rejected": [
+    {
+      "video": "4XqZJS-acQ0",
+      "title": "Replace Background Video Without Green Screen or Masking Tools.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "XEl4ZQKKxig",
+      "title": "The Cheapest Robot On The Market?!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "video": "X0_GDOkLKzQ",
+      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        19,
+        24
+      ]
+    },
+    {
+      "video": "hNAKl3oLFMs",
+      "title": "⁠I Tested Adobe Apps vs Free AI Clones",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        12,
+        14
+      ]
+    },
+    {
+      "video": "pur1QwIA0qg",
+      "title": "Who nails the most realistic concert photo?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "jPX1lLOXcWg",
+      "title": "Qwen Image 2.1 Turbo: 8-Step AI Image Generation ; Editing Explained!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "video": "2hqcDHnyJaY",
+      "title": "Google Is Back - Can Gemini 4 Argon Finally Do 3D Design & Blender?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "video": "gyTcoQlibdk",
+      "title": "Create an Unrolling Timeline video with Claude Motion",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tAfSOY9V0A0",
+      "title": "How to use a Depth Map for AI Motion Control",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EPYh_bgXJBk",
+      "title": "This AI trick Magically Creates New Camera Angles",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "40dkdO9slZI",
+      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qSdzsdvaQDU",
+      "title": "Krea 3 in ComfyUI: New AI Image Model for Multi-Reference Editing",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "video": "KCn63UaqxLw",
+      "title": "An AI-Made Sci-Fi Series Cost $38,000 in AI Credits 🤯 | AI Filmmaking 2026 #web3 #chatgpt #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "9-MdM2cvlIw",
+      "title": "Higgsfield AI 🚀 | A Revolutionary Filmmaking 🔥",
+      "stage": "insufficient-article-source"
+    }
+  ],
+  "accepted": 4
 }
