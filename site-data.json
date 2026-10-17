@@ -1,8 +1,81 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T09:26:07.750Z",
-  "newsCheckedAt": "2026-10-17T07:50:04.546Z",
+  "updatedAt": "2026-10-17T17:09:10.503Z",
+  "newsCheckedAt": "2026-10-17T17:09:10.503Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Discover how Tripo AI lets you convert 2D images and text prompts into detailed, fully textured 3D models in seconds. In this complete Tripo AI",
+      "evidenceIds": [
+        1,
+        2,
+        9
+      ],
+      "id": "X43AyKIOQv4",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Tripo AI omvandlar bilder och text till texturerade 3D-modeller",
+      "sum": "AI Unboxed beskriver hur Tripo AI omvandlar 2D-bilder och textbeskrivningar till detaljerade, fullständigt texturerade 3D-modeller på några sekunder. Genomgången fokuserar på plattformens bild-till-3D- och text-till-3D-arbetsflöden, bland annat skapandet av en 3D-häst för användning i Blender och kreativa arbetsflöden.",
+      "full": "AI Unboxed har publicerat en genomgång av Tripo AI, en plattform för att skapa 3D-modeller från antingen 2D-bilder eller textbeskrivningar. Enligt kanalens beskrivning kan tjänsten generera detaljerade och fullständigt texturerade modeller på några sekunder, vilket gör bild-till-3D och text-till-3D till genomgångens centrala arbetsflöden.\n\nVideon går igenom plattformen från kontoskapande och introduktion till modellgenerering. I bild-till-3D-delen används en enkel 2D-bild som underlag för att skapa en komplett 3D-hästmodell. AI Unboxed uppger också att den genererade modellen inspekteras efter skapandet, med fokus på resultatet och modellens kvalitet.\n\nGenomgången omfattar dessutom text-till-3D-generering, där textbeskrivningar används för att skapa modeller utan en separat bild som förlaga. Kanalens upplägg är inriktat på hur Tripo AI kan passa in i Blender-baserade och andra kreativa arbetsflöden, snarare än på traditionell manuell modellering.\n\nAI Unboxed beskriver videon som en recension och tutorial där plattformens hastighet, mesh-kvalitet och resultat i praktiken undersöks. Beskrivningen innehåller dock inga närmare mätvärden eller detaljer om exempelvis polygonantal, exportformat eller vilka begränsningar som konstateras i de visade modellerna. Funktioner och verktyg kan enligt kanalens egen reservation förändras över tid.",
+      "deep": "Den konkreta demonstrationen består av två AI-arbetsflöden: först konverteras en 2D-bild till en 3D-modell, och därefter testas textbaserad modellgenerering. Exemplet för bild-till-3D är en hästmodell, som enligt beskrivningen blir komplett och texturerad och sedan granskas i videon.\n\nAI Unboxed nämner särskilt konto och introduktion, anpassning av texturer, plattformsöversikt, mesh-kvalitet och verkliga resultat. Tripo AI presenteras därmed som ett verktyg för att snabbt gå från visuellt eller språkligt underlag till en modell som kan ingå i ett Blender- eller annat kreativt arbetsflöde. Källmaterialet ger däremot inte tillräckligt stöd för att bedöma hur väl modellerna fungerar i produktion, hur exakta de är eller om tjänsten är bäst i sin kategori.",
+      "en": {
+        "ttl": "Tripo AI turns images and text into textured 3D models",
+        "sum": "AI Unboxed describes how Tripo AI converts 2D images and text prompts into detailed, fully textured 3D models in seconds. The walkthrough focuses on image-to-3D and text-to-3D workflows, including the creation of a 3D horse for Blender and creative pipelines.",
+        "full": "AI Unboxed has published a walkthrough of Tripo AI, a platform for creating 3D models from either 2D images or text prompts. According to the channel’s description, the service can generate detailed, fully textured models in seconds, making image-to-3D and text-to-3D the main workflows covered.\n\nThe video follows the platform from account setup and onboarding through model generation. In the image-to-3D section, a simple 2D image is used to create a complete 3D horse model. AI Unboxed also says that the generated model is inspected after creation, with attention to the result and its quality.\n\nThe walkthrough also covers text-to-3D generation, where written descriptions are used to create models without a separate image reference. The channel presents Tripo AI as a possible fit for Blender-based and other creative workflows rather than traditional manual modeling.\n\nAI Unboxed describes the video as a review and tutorial examining the platform’s speed, mesh quality and real-world results. However, the description provides no specific measurements or details about polygon counts, export formats or limitations found in the demonstrated models. The channel also notes that tools and features may change over time.",
+        "deep": "The concrete demonstration consists of two AI workflows: a 2D image is first converted into a 3D model, followed by a test of text-based model generation. The image-to-3D example is a horse model, which the description says becomes complete and textured before being inspected in the video.\n\nAI Unboxed specifically mentions account setup, texture customization, platform overview, mesh quality and real-world results. Tripo AI is therefore presented as a tool for moving quickly from visual or linguistic input to a model that can enter a Blender or other creative pipeline. The source does not provide enough evidence to judge production readiness, accuracy or whether the service is best in its category."
+      },
+      "cat": "3d",
+      "date": "2026-10-17T13:19:02Z",
+      "meta": "AI Unboxed · 2026-10-17",
+      "url": "https://www.youtube.com/watch?v=X43AyKIOQv4",
+      "img": "https://i.ytimg.com/vi/X43AyKIOQv4/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Unboxed"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Introduction to 3D AI Tools"
+        },
+        {
+          "t": 39,
+          "l": "Tripo AI Platform Overview"
+        },
+        {
+          "t": 96,
+          "l": "Account Setup and Onboarding"
+        },
+        {
+          "t": 208,
+          "l": "Image-to-3D Model Generation"
+        },
+        {
+          "t": 416,
+          "l": "Inspecting the Generated 3D Horse"
+        },
+        {
+          "t": 462,
+          "l": "Text-to-3D Model Prompting"
+        },
+        {
+          "t": 540,
+          "l": "Conclusion & Final Thoughts"
+        }
+      ],
+      "views": 2344,
+      "buzz": 60,
+      "sourceCheckedAt": "2026-10-17T17:09:10.503Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5e07224d8b4a113fae12b2270a4bef8e2148937e500dfac6a3e082c4b7a8feb7",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Tripo AI"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "AI video generation is getting ridiculously good. But getting AI to follow your exact creative direction? That's a different story. Instead of relying on endless",
@@ -49,6 +122,50 @@
         "Pippit AI",
         "3D Director Studio",
         "Story Studio"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Want to create stunning 30-second AI videos with Seedance 2.5 for FREE? In this tutorial, I'll show you 2 AI tools you can use to",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ],
+      "id": "pL65GtcGkME",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "SEEDANCE 2.5: två kostnadsfria verktyg för 30 sekunder långa AI-videor",
+      "sum": "Victoria Utin visar hur två AI-verktyg kan användas för att få tillgång till Seedance 2.5 och skapa 30 sekunder långa AI-videor från en enda textprompt utan en premiumprenumeration.",
+      "full": "I en video beskriver Victoria Utin ett arbetsflöde för AI-videogenerering med Seedance 2.5. Fokus ligger på två AI-verktyg som enligt kanalens beskrivning ger tillgång till modellen utan att användaren behöver betala för en premiumprenumeration.\n\nArbetsflödet utgår från textprompter. Victoria Utin går igenom hur plattformarna fungerar, hur man kommer igång och hur en AI-video kan genereras från en enda prompt. Beskrivningen lyfter särskilt fram möjligheten att skapa videor med en längd på 30 sekunder.\n\nVideon riktar sig till AI-innehållsskapare, YouTube-skapare, filmskapare och nybörjare som vill utforska AI-baserad videoproduktion. Den tar även upp hur man skriver prompter och hur man kan arbeta med kostnadsfria arbetsflöden för AI-videoskapande.\n\nPåståendena om verktygens åtkomst och arbetsflöde kommer från Victoria Utins videobeskrivning. Det finns ingen grund i källmaterialet för att beskriva en oberoende testning, videokvalitet, begränsningar, användningskvoter eller villkor för de kostnadsfria alternativen.",
+      "deep": "Kanalens beskrivning anger inte namnen på de två verktygen, och de kan därför inte identifieras eller läggas till som plattformar. Den anger inte heller någon produktlansering eller versionshistorik; videons uppladdningsdatum ska därför inte tolkas som ett releasedatum för Seedance 2.5.\n\nDet konkreta AI-arbetsflödet som stöds av källan består av att välja en av två plattformar, komma igång, formulera en textprompt och generera en 30 sekunder lång video. Beskrivningen säger att videon behandlar promptskrivning, men ger inga exempel på promptstruktur, stilkontroller, upplösning, exportformat eller efterbearbetning.\n\nKällan nämner AI-videogenerering, AI-filmproduktion och AI-berättande som användningsområden, men innehåller inga verifierade resultat, prestandamått eller jämförelser mellan de två verktygen.",
+      "en": {
+        "ttl": "SEEDANCE 2.5: two free tools for 30-second AI videos",
+        "sum": "Victoria Utin shows how two AI tools can be used to access Seedance 2.5 and create 30-second AI videos from a single text prompt without a premium subscription.",
+        "full": "In a video, Victoria Utin describes an AI video-generation workflow using Seedance 2.5. The focus is on two AI tools that, according to the channel description, provide access to the model without requiring users to pay for a premium subscription.\n\nThe workflow is based on text prompts. Victoria Utin explains how the platforms work, how to get started, and how to generate an AI video from a single prompt. The description specifically highlights the ability to create videos with a duration of 30 seconds.\n\nThe video is aimed at AI content creators, YouTube creators, filmmakers, and beginners who want to explore AI-based video production. It also covers prompt writing and free workflows for AI video creation.\n\nThe claims about access and workflow come from Victoria Utin’s video description. The source does not support describing independent testing, video quality, limitations, usage quotas, or the terms of the free options.",
+        "deep": "The channel description does not name the two tools, so they cannot be identified or added as platforms. It also provides no product release date or version history; the upload date must therefore not be interpreted as a release date for Seedance 2.5.\n\nThe specific AI workflow supported by the source consists of choosing one of two platforms, getting started, writing a text prompt, and generating a 30-second video. The description says the video covers prompt writing but gives no examples of prompt structure, style controls, resolution, export formats, or post-production.\n\nThe source mentions AI video generation, AI filmmaking, and AI storytelling as use cases, but contains no verified results, performance metrics, or comparison between the two tools."
+      },
+      "cat": "film",
+      "date": "2026-10-16T21:51:13Z",
+      "meta": "Victoria Utin  · 2026-10-16",
+      "url": "https://www.youtube.com/watch?v=pL65GtcGkME",
+      "img": "https://i.ytimg.com/vi/pL65GtcGkME/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Victoria Utin "
+      ],
+      "parts": [],
+      "views": 1931,
+      "buzz": 59,
+      "sourceCheckedAt": "2026-10-17T17:09:10.503Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "a5e428010e53879b89599a9211d0387bd942bb8a0c0e436f6724de8f958e3119",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Seedance 2.5"
       ]
     },
     {
@@ -488,6 +605,205 @@
         "NanoBanana 2.1",
         "GPT Image 2.5",
         "Flux 3"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Explore what’s new in SOLIDWORKS 2027, including part and assembly design, drawings, SOLIDWORKS AI and LEO, collaboration, PDM, simulation, and electrical design. Learn about the",
+      "evidenceIds": [
+        1,
+        6,
+        11
+      ],
+      "id": "y7NXAzFQ2so",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "SOLIDWORKS 2027 satsar på AI i CAD med LEO och AI-genererade monteringsinstruktioner",
+      "sum": "SOLIDWORKS beskriver i en ny SOLIDWORKS Live-sändning hur SOLIDWORKS 2027 utvecklar AI-stödet för konstruktionsarbete. Fokus ligger på strategins fem pelare, naturligt språk i CAD, LEO för makrogenerering och AI-genererade monteringsinstruktioner.",
+      "full": "SOLIDWORKS presenterar SOLIDWORKS 2027 som en version där AI får en tydligare roll i konstruktions- och dokumentationsflöden. Enligt kanalens beskrivning omfattar genomgången SOLIDWORKS AI och LEO, samarbete, PDM, simulering och eldesign, men AI-delen är särskilt inriktad på praktiska arbetsflöden i CAD.\n\nEtt centralt område är LEO, som enligt SOLIDWORKS används för AI-baserad makrogenerering. Beskrivningen tar också upp nya LEO-färdigheter och naturligt språk i CAD. Det pekar på ett arbetsflöde där användaren kan beskriva konstruktionsrelaterade åtgärder med vanligt språk, samtidigt som SOLIDWORKS diskuterar hur AI-assisterad design ska utvecklas framöver.\n\nSOLIDWORKS lyfter dessutom fram AI-genererade monteringsinstruktioner. Funktionen placeras tillsammans med övriga förbättringar inom del- och sammanställningsdesign och dokumentation, vilket gör monteringsinformation till en konkret användning av AI i produktutvecklingen.\n\nSändningen innehåller även en genomgång av SOLIDWORKS AI-strategi och dess fem kärnpelare. SOLIDWORKS betonar att diskussionen omfattar både lanserade funktioner, pågående förbättringar och framtida inriktning. Det innebär att beskrivningen inte framställer alla delar som färdiga eller tillgängliga på samma sätt.\n\nKanalen kopplar slutligen AI-arbetet till Standard Bots, vars ingenjörer berättar hur företaget utvecklar AI-infödda robotar och vilka förbättringar de ser fram emot att använda. Enligt beskrivningen handlar detta om deras arbetsflöden i SOLIDWORKS, inte om ett oberoende test av funktionerna.",
+      "deep": "Videobeskrivningen anger flera konkreta AI-relaterade programpunkter: AI-makrogenerering med LEO, AI-genererade monteringsinstruktioner, SOLIDWORKS AI-strategins fem kärnpelare och nya LEO-färdigheter för naturligt språk i CAD. Kapitelangivelserna placerar dessa ämnen mellan 23:01 och 47:24 i sändningen.\n\nBeskrivningen skiljer uttryckligen mellan lanserade funktioner, pågående förbättringar och framtida riktning. Det finns därför stöd för att beskriva SOLIDWORKS 2027 som en samlad presentation av nuvarande och kommande AI-arbete, men inte för att ange exakt tillgänglighet, tekniska prestanda eller releasedatum för varje funktion.\n\nStandard Bots medverkar i sändningen och beskrivs som en användare som bygger AI-infödda robotar. Kanalens material kopplar deras erfarenheter till valet av SOLIDWORKS och till vilka SOLIDWORKS 2027-förbättringar de är mest intresserade av att använda.",
+      "en": {
+        "ttl": "SOLIDWORKS 2027 focuses on AI in CAD with LEO and AI-generated assembly instructions",
+        "sum": "In a new SOLIDWORKS Live episode, SOLIDWORKS explains how SOLIDWORKS 2027 expands AI support for engineering workflows. The focus is on five AI strategy pillars, natural-language CAD, LEO for macro generation, and AI-generated assembly instructions.",
+        "full": "SOLIDWORKS presents SOLIDWORKS 2027 as a release that gives AI a more prominent role in design and documentation workflows. According to the channel’s description, the episode covers SOLIDWORKS AI and LEO, collaboration, PDM, simulation, and electrical design, with the AI section focused particularly on practical CAD workflows.\n\nA central topic is LEO, which SOLIDWORKS describes in connection with AI-assisted macro generation. The description also mentions new LEO skills and natural-language CAD. This suggests a workflow in which users can describe CAD-related actions in ordinary language while SOLIDWORKS discusses the future development of AI-assisted design.\n\nSOLIDWORKS also highlights AI-generated assembly instructions. The feature is presented alongside improvements to part and assembly design and documentation, making assembly information a concrete use case for AI in product development.\n\nThe episode includes a discussion of the SOLIDWORKS AI strategy and its five core pillars. SOLIDWORKS states that the discussion covers released capabilities, ongoing improvements, and future direction. The description therefore does not present every element as finished or equally available.\n\nThe channel also connects the AI work to Standard Bots, whose engineers discuss how the company develops AI-native robots and which enhancements they are most interested in using. According to the description, this concerns their SOLIDWORKS workflows rather than an independent test of the features.",
+        "deep": "The video description identifies several concrete AI topics: AI macro generation with LEO, AI-generated assembly instructions, the five core pillars of the SOLIDWORKS AI strategy, and new LEO skills for natural-language CAD. The chapter list places these subjects between 23:01 and 47:24 in the episode.\n\nThe description explicitly distinguishes released capabilities, ongoing improvements, and future direction. It supports describing SOLIDWORKS 2027 as a presentation of current and upcoming AI work, but does not support claims about exact availability, technical performance, or release dates for each feature.\n\nStandard Bots appears in the episode and is described as a company building AI-native robots. The channel connects its experience to the use of SOLIDWORKS and to the SOLIDWORKS 2027 enhancements its engineers are most interested in using."
+      },
+      "cat": "3d",
+      "date": "2026-10-15T17:33:43Z",
+      "meta": "SOLIDWORKS · 2026-10-15",
+      "url": "https://www.youtube.com/watch?v=y7NXAzFQ2so",
+      "img": "https://i.ytimg.com/vi/y7NXAzFQ2so/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "SOLIDWORKS"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Livestream Opening"
+        },
+        {
+          "t": 134,
+          "l": "What’s New in SOLIDWORKS 2027: Welcome & Overview"
+        },
+        {
+          "t": 271,
+          "l": "SOLIDWORKS R&D: Performance Improvements & AI"
+        },
+        {
+          "t": 642,
+          "l": "R&D’s Favorite SOLIDWORKS 2027 Enhancements"
+        },
+        {
+          "t": 937,
+          "l": "How to Submit SOLIDWORKS Enhancement Requests"
+        },
+        {
+          "t": 1147,
+          "l": "Part & Assembly Design: What’s New"
+        },
+        {
+          "t": 1269,
+          "l": "Large Point Clouds & E57 Scan Data"
+        },
+        {
+          "t": 1381,
+          "l": "AI Macro Generation with LEO"
+        },
+        {
+          "t": 1528,
+          "l": "Part Design: Sheet Metal Stamping Across Bends"
+        },
+        {
+          "t": 1692,
+          "l": "Automatic Weld Bead Edge Detection"
+        },
+        {
+          "t": 1812,
+          "l": "Assembly Modeling: Variability Tables & Configurations"
+        },
+        {
+          "t": 1944,
+          "l": "Edit Parts in Large Design Review Mode"
+        },
+        {
+          "t": 2104,
+          "l": "AI-Generated Assembly Instructions"
+        },
+        {
+          "t": 2361,
+          "l": "SOLIDWORKS AI: Strategy & the Five Core Pillars"
+        },
+        {
+          "t": 2589,
+          "l": "New LEO Skills & Natural Language CAD"
+        },
+        {
+          "t": 2844,
+          "l": "The Future of AI in CAD: An Expert’s Perspective"
+        },
+        {
+          "t": 2976,
+          "l": "Standard Bots: Building AI-Native Robots"
+        },
+        {
+          "t": 3180,
+          "l": "Why Standard Bots Uses SOLIDWORKS"
+        },
+        {
+          "t": 3369,
+          "l": "Standard Bots’ Favorite SOLIDWORKS 2027 Features"
+        },
+        {
+          "t": 3530,
+          "l": "Drawings & Documentation: What’s New"
+        },
+        {
+          "t": 3710,
+          "l": "Graphics Bodies in Drawing Views"
+        },
+        {
+          "t": 3753,
+          "l": "Family Tables for Drawing Configurations"
+        },
+        {
+          "t": 3809,
+          "l": "DXF & DWG Export: Preserve Components as Blocks"
+        },
+        {
+          "t": 3893,
+          "l": "Background Drawing Updates, MBD & Symbol Favorites"
+        },
+        {
+          "t": 4124,
+          "l": "Collaboration & Cloud Services: What’s New"
+        },
+        {
+          "t": 4284,
+          "l": "Content Explorer, Autosave & Shared Project Knowledge"
+        },
+        {
+          "t": 4464,
+          "l": "Supplier Collaboration & Saving to Previous Releases"
+        },
+        {
+          "t": 4630,
+          "l": "SOLIDWORKS PDM: Single Sign-On, Task Balancing & Replication"
+        },
+        {
+          "t": 4895,
+          "l": "SOLIDWORKS Simulation: What’s New"
+        },
+        {
+          "t": 5018,
+          "l": "Bonded Contact Stresses & Simulation Sensors"
+        },
+        {
+          "t": 5157,
+          "l": "Structural Analysis: Bolt Preloads & Spring Connectors"
+        },
+        {
+          "t": 5430,
+          "l": "Flow Simulation: ECXML Electronics Cooling Import"
+        },
+        {
+          "t": 5555,
+          "l": "Flow Simulation: Close Gaps & Rebuild All Projects"
+        },
+        {
+          "t": 5686,
+          "l": "SOLIDWORKS Plastics: Probes & Cooling Channel Results"
+        },
+        {
+          "t": 5844,
+          "l": "SOLIDWORKS Electrical: What’s New"
+        },
+        {
+          "t": 5996,
+          "l": "Wire Harnesses, Collaboration & Dynamic Connectors"
+        },
+        {
+          "t": 6134,
+          "l": "Synchronizing Electrical Schematics & 3D Models"
+        },
+        {
+          "t": 6298,
+          "l": "SOLIDWORKS 2027 Resources & Closing Remarks"
+        }
+      ],
+      "views": 7027,
+      "buzz": 66,
+      "sourceCheckedAt": "2026-10-17T17:09:10.503Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "3be4ce927174afbdf569c5dab57a2b68be91975d231ceaf2c3803808bf9bf204",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "SOLIDWORKS 2027",
+        "SOLIDWORKS AI",
+        "LEO"
       ]
     },
     {
@@ -25473,7 +25789,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -25491,7 +25807,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -25509,7 +25825,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -25527,7 +25843,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -25545,7 +25861,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -25563,7 +25879,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -25581,7 +25897,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 623000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -25599,7 +25915,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -25617,7 +25933,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -25635,7 +25951,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -25653,7 +25969,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -25671,7 +25987,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -25689,7 +26005,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -25707,7 +26023,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -25725,7 +26041,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -25743,7 +26059,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -25761,7 +26077,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -25778,8 +26094,8 @@
       "id": "oliviosarikas",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": 250000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "subscriberCount": 249000,
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -25797,7 +26113,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -25815,7 +26131,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -25833,7 +26149,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -25851,7 +26167,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -25869,7 +26185,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 760000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -25887,7 +26203,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -25905,7 +26221,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 760000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -25923,7 +26239,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -25941,7 +26257,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 342000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -25959,7 +26275,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 197000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -25977,7 +26293,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 488000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -25995,7 +26311,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 455000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -26013,7 +26329,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -26031,7 +26347,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -26049,7 +26365,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -26067,7 +26383,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -26085,7 +26401,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -26093,88 +26409,88 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
+      "checkedAt": "2026-10-17T17:09:10.503Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 7
+      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-17T09:26:07.750Z",
+    "calculatedAt": "2026-10-17T17:09:10.503Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.05231925699975315,
+      "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.698918895666968,
+      "elevenlabs": 1.6456755021171103,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.1448929918387865,
+      "kling-3-0": 0.14035210727580671,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.439392439130513,
+      "higgsfield": 4.3002637736234455,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.872421674875765,
+      "meshy-ai": 0.8450803516994161,
       "magnific-ai": 0,
-      "seedance-2-5": 4.910354259856133,
+      "seedance-2-5": 4.756465851766997,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.0488667277111465,
-      "nano-banana-2": 0.4058820257933709,
+      "nano-banana-pro": 1.015995691838094,
+      "nano-banana-2": 0.393161856225979,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.15721155706626896,
-      "trellis-2": 0.057211900407170335,
+      "hunyuan3d": 0.1522846139233008,
+      "trellis-2": 0.05541890385101726,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
       "luma-genie": 0,
-      "hitem3d": 0.10874738934835847,
+      "hitem3d": 0.05541890385101726,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.07533373647407811,
-      "luma-agents": 0.056610794528227114
+      "gemini-omni-flash": 0.07297280930509989,
+      "luma-agents": 0.05483663637393027
     }
   }
 }
