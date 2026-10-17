@@ -1,160 +1,69 @@
 {
-  "startedAt": "2026-10-17T07:50:04.546Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 4
-    },
-    "3d": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-17T07:50:04.546Z",
-      "found": 7
-    }
-  },
-  "selection": {
-    "fetched": 125,
-    "relevant": 32,
-    "supported": 24
-  },
-  "rejected": [
+  "startedAt": "2026-10-17T09:26:07.750Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "nano-banana-2",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "XEl4ZQKKxig",
-      "title": "The Cheapest Robot On The Market?!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "nano-banana-2",
+      "field": "free",
+      "message": "Invalid official citation"
     },
     {
-      "video": "BExtQ740QgM",
-      "title": "Here’s how Hollywood is Directing Their AI Films",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        11,
-        13,
-        14
-      ]
+      "platform": "hailuo-3-0",
+      "field": "free",
+      "message": "Invalid profile field free"
     },
     {
-      "video": "hNAKl3oLFMs",
-      "title": "RIP Adobe? I Pushed Free Adobe AI Clones to the Limit...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        6,
-        12
-      ]
+      "platform": "hailuo-3-0",
+      "field": "sub",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "pur1QwIA0qg",
-      "title": "Who nails the most realistic concert photo?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "hailuo-3-0",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "jPX1lLOXcWg",
-      "title": "Qwen Image 2.1 Turbo: 8-Step AI Image Generation ; Editing Explained!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        5,
-        7
-      ]
+      "platform": "happy-horse-1-0",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/model-pricing\",\"quote\":\"happyhorse-1.0-t2v  | Global  | 720P  | $0.123769/second\",\"retrieved\":[]}"
     },
     {
-      "video": "qSdzsdvaQDU",
-      "title": "Krea 3 in ComfyUI: New AI Image Model for Multi-Reference Editing",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        5
-      ]
+      "platform": "happy-horse-1-0",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model/\",\"quote\":\"`happyhorse-1.0-t2v`  | Text-to-video\",\"retrieved\":[]}"
     },
     {
-      "video": "2hqcDHnyJaY",
-      "title": "Google's Gemini 4 Is Finally Good at 3D Design & Blender?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        3,
-        12
-      ]
+      "platform": "happy-horse-1-0",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model/\",\"quote\":\"`happyhorse-1.0-i2v`  | First-frame image-to-video  | Audio  | 720P, 1080P. 3–15s. 24 fps, MP4\",\"retrieved\":[]}"
     },
     {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
+      "platform": "happy-horse-1-0",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/happyhorse-text-to-video-api-reference\",\"quote\":\"happyhorse-1.0-t2v: 3–15. Default: `5`.\",\"retrieved\":[]}"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
+      "platform": "happy-horse-1-0",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model/\",\"quote\":\"`happyhorse-1.0-r2v`  | Reference image-to-video  | Audio\",\"retrieved\":[]}"
     },
     {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
+      "platform": "happy-horse-1-0",
+      "field": "free",
+      "message": "Source too large"
     },
     {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FYag-G_QUhA",
-      "title": "🔥 This ChatGPT Image Command Is INSANE! 🤯 Before vs After Photo Transformation #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "l3wVOmJXBFc",
-      "title": "Nano Banana 2.1: The Same AI News, Another Visual Cut (Cut 4)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9-MdM2cvlIw",
-      "title": "Higgsfield AI 🚀 | A Revolutionary Filmmaking 🔥",
-      "stage": "insufficient-article-source"
+      "candidate": "HKTex",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }

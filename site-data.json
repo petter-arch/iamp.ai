@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T07:50:04.546Z",
+  "updatedAt": "2026-10-17T09:26:07.750Z",
   "newsCheckedAt": "2026-10-17T07:50:04.546Z",
   "news": [
     {
@@ -21786,7 +21786,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -21799,7 +21799,7 @@
       "pct": 78,
       "price": "Betalplaner / API",
       "sub": "ByteDances enhetliga modell för bildgenerering och bildredigering",
-      "long": "Seedream 4 från ByteDance är en av de mest populära bildmodellerna 2026, känd för snabb generering, stark fotorealism och bra promptföljning. Hanterar referensbilder väl för konsekventa motiv.",
+      "long": "Seedream 4.0 är ByteDance Seeds bildskaparmodell med en enhetlig arkitektur för bildgenerering och bildredigering. Den är avsedd för multimodalt arbete där text, bilder eller en kombination av båda kan användas som indata, med stöd för text-till-bild, bild-till-bild, redigering av enskilda och flera bilder samt bildkomposition. Den officiella modellsidan beskriver även komplexa multimodala uppgifter, referenskonsistens, flera referensbilder och flera resultat i samma arbetsflöde, samt bildgenerering upp till 4K.",
       "pros": [
         "Snabb",
         "Stark fotorealism",
@@ -21852,9 +21852,22 @@
               "quote": "Upload multiple reference images and generate several outputs in one go"
             }
           ]
+        },
+        "long": {
+          "checkedAt": "2026-10-17T09:26:07.750Z",
+          "sources": [
+            {
+              "url": "https://seed.bytedance.com/en/blog/seedream-4-0-officially-released-beyond-drawing-into-imagination",
+              "quote": "It accepts text, images, or any combination as input, supporting diverse modes including text-to-image generation, image-to-image translation, single-image editing, multi-image editing"
+            },
+            {
+              "url": "https://seed.bytedance.com/en/seedream4_0?id=Seedream4.0",
+              "quote": "including knowledge-based generation, complex reasoning, and reference consistency. With much faster inference speed than its predecessor, the model can produce stunning, high-definition images at up to 4K resolution."
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-10-05T12:19:47.929Z"
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z"
     },
     {
       "n": "Hailuo 3.0",
@@ -21904,7 +21917,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-05T12:19:47.929Z",
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -21924,8 +21937,9 @@
         "Bra scen-koherens"
       ],
       "cons": [
-        "Premiumpris",
-        "Nyare, mindre verktygsstöd"
+        "Korta utdata på 3–15 sekunder",
+        "Begränsat till 720P eller 1080P",
+        "Videoredigering kräver exakt en ingångsvideo"
       ],
       "tags": [
         "Videogen",
@@ -21937,7 +21951,7 @@
       "speed": 74,
       "pricev": 48,
       "rating": 88,
-      "deep": "Ligger först på Artificial Analysis människopreferens-benchmark — välj den när absolut högsta kvalitet på hero-klipp är viktigast.",
+      "deep": "För referensstyrd videogenerering kan HappyHorse-1.0-R2V behandla upp till nio referensbilder och är dokumenterad för stabilare referenser av subjekt och scen.",
       "caps": [
         "Text-till-video",
         "Bild-till-video"
@@ -21948,8 +21962,32 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-10-05T12:19:47.929Z"
+      "fieldChecks": {
+        "deep": {
+          "checkedAt": "2026-10-17T09:26:07.750Z",
+          "sources": [
+            {
+              "url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-1-0-r2v",
+              "quote": "offering enhanced stability in subject and scene referencing."
+            }
+          ]
+        },
+        "cons": {
+          "checkedAt": "2026-10-17T09:26:07.750Z",
+          "sources": [
+            {
+              "url": "https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model/",
+              "quote": "720P, 1080P. 3–15s. 24 fps, MP4"
+            },
+            {
+              "url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-video-edit-api-reference",
+              "quote": "Videos: exactly 1."
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Grok Imagine",
@@ -23270,7 +23308,8 @@
         "https://www.youtube.com/watch?v=POD2xZpoZF4",
         "https://www.youtube.com/watch?v=3A0C5SYA21g",
         "https://www.youtube.com/watch?v=nVP61eMU6hs",
-        "https://www.youtube.com/watch?v=ZvDcMAs1GM0"
+        "https://www.youtube.com/watch?v=ZvDcMAs1GM0",
+        "https://www.youtube.com/watch?v=w8FZXhPbrdw"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -24038,14 +24077,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tZnL7_V_ki0"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "HKTex",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tZnL7_V_ki0"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-17T09:26:07.750Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Google Omni",
@@ -25349,6 +25393,69 @@
         "https://www.youtube.com/watch?v=lvYD9phVRtQ"
       ],
       "firstSeen": "2026-10-16T09:53:36.808Z"
+    },
+    {
+      "name": "Pippit AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=DZ0QJImEk-Q"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "3D Director Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=DZ0QJImEk-Q"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Story Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=DZ0QJImEk-Q"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Premiere Pro",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=5HvKmgEfbMs"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "FLUX 3 Image Klein",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=KGcuuhqmPhI"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Qwen-Image-2.1-Turbo",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=KGcuuhqmPhI"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Topview AI Film Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=IivtN6pe7FA"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Clip Edit",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=IivtN6pe7FA"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
+    },
+    {
+      "name": "Canva",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=w8FZXhPbrdw"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z"
     }
   ],
   "sourceChecks": {},
@@ -26015,59 +26122,59 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-17T07:50:04.546Z",
+    "calculatedAt": "2026-10-17T09:26:07.750Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
       "chatgpt-images-2-0": 0,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
-      "runway-gen-4-5": 0.052665973333709155,
+      "runway-gen-4-5": 0.05231925699975315,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.710177521361844,
+      "elevenlabs": 1.698918895666968,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.14585318832908645,
+      "kling-3-0": 0.1448929918387865,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.468812005839855,
+      "higgsfield": 4.439392439130513,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.8782031569174178,
+      "meshy-ai": 0.872421674875765,
       "magnific-ai": 0,
-      "seedance-2-5": 4.942894860106068,
+      "seedance-2-5": 4.910354259856133,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 1.0558174997116387,
-      "nano-banana-2": 0.4085717797400369,
+      "nano-banana-pro": 1.0488667277111465,
+      "nano-banana-2": 0.4058820257933709,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.15825338789199703,
-      "trellis-2": 0.057591039972702075,
+      "hunyuan3d": 0.15721155706626896,
+      "trellis-2": 0.057211900407170335,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
       "luma-genie": 0,
-      "hitem3d": 0.10946805126758886,
+      "hitem3d": 0.10874738934835847,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.07583296827573813,
-      "luma-agents": 0.05698595060395763
+      "gemini-omni-flash": 0.07533373647407811,
+      "luma-agents": 0.056610794528227114
     }
   }
 }
