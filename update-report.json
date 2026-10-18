@@ -1,46 +1,41 @@
 {
-  "startedAt": "2026-10-17T17:09:10.503Z",
+  "startedAt": "2026-10-18T07:13:18.267Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "DD4oHSH5SEI",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-17T17:09:10.503Z",
+      "checkedAt": "2026-10-18T07:13:18.267Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 129,
-    "relevant": 37,
-    "supported": 30
+    "relevant": 40,
+    "supported": 31
   },
   "rejected": [
     {
@@ -62,13 +57,32 @@
       ]
     },
     {
+      "video": "grOilk8aCS0",
+      "title": "AI Design Hack Saves HOURS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "X0_GDOkLKzQ",
+      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        5,
+        19
+      ]
+    },
+    {
       "video": "hNAKl3oLFMs",
       "title": "Forget Adobe? I Pushed Free Adobe AI Clones to the Limit...",
       "stage": "classification-evidence",
       "evidenceIds": [
         4,
         6,
-        12
+        11
       ]
     },
     {
@@ -76,26 +90,16 @@
       "title": "Who nails the most realistic concert photo?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
     {
-      "video": "b5D80OWst78",
-      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
+      "video": "DWaHaHdiDAM",
+      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
       "evidenceIds": [
-        3,
-        4
-      ]
-    },
-    {
-      "video": "hqUzxuZn_jA",
-      "title": "AI Image Generation in 2026: FLUX 3 & Klein Masterclass (Full Course)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        11
+        1
       ]
     },
     {
@@ -105,12 +109,26 @@
       "evidenceIds": [
         1,
         3,
-        11
+        17
+      ]
+    },
+    {
+      "video": "qLabviO6XyY",
+      "title": "Meshy v7 12  Faster, Detailed 3D Image Generation! #techtok #3dplanet #bambulab",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
       ]
     },
     {
       "video": "k7sOCIFc6ys",
       "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Ar8yKK2liUw",
+      "title": "A to Z without a single mistake?",
       "stage": "insufficient-article-source"
     },
     {
@@ -121,7 +139,6 @@
         1,
         2,
         11,
-        12,
         13,
         14,
         15,
@@ -149,8 +166,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "aFFzWBSFvy4",
-      "title": "How to Create Long Ai Videos For Free 🔥 How to Make AI Movies  (Full Tutorial)",
+      "video": "FKOo5XWmC_8",
+      "title": "✨ AI Image Generation Prompt // Viral Durga Puja Dhunuchi Portrait //#pujavibes",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LvME100eFZU",
+      "title": "AI 3d model generator finally doing what its told.. kinda...",
       "stage": "insufficient-article-source"
     },
     {
@@ -159,55 +181,30 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "1TVMiidUAsc",
-      "title": "AI Video Generation is Changing Everything! #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "U6nBI5BGluQ",
-      "title": "Gemini 4 ARGON AI Agents Supercharge Humanoids, Blender, 3D Printing, Animation",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "1",
-        "3",
-        "7"
-      ]
-    },
-    {
-      "video": "X0_GDOkLKzQ",
-      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        8,
-        9,
-        10
-      ]
-    },
-    {
-      "video": "FYag-G_QUhA",
-      "title": "🔥 This ChatGPT Image Command Is INSANE! 🤯 Before vs After Photo Transformation #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "hjXzG1uJlF0",
       "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai#2026",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "l3wVOmJXBFc",
-      "title": "Nano Banana 2.1: The Same AI News, Another Visual Cut (Cut 4)",
+      "video": "1TVMiidUAsc",
+      "title": "AI Video Generation is Changing Everything! #Shorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "BtAWzhokPUQ",
-      "title": "Music Stylish AI Photo Editing Prompt 2026 🎧🔥 | ChatGPT से बनाएं ट्रेंडिंग म्यूजिक फोटो! #shorts",
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "9-MdM2cvlIw",
-      "title": "Higgsfield AI 🚀 | A Revolutionary Filmmaking 🔥",
-      "stage": "insufficient-article-source"
+      "video": "jPX1lLOXcWg",
+      "title": "Qwen Image 2.1 Turbo: 8-Step AI Image Generation ; Editing Explained!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ]
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }

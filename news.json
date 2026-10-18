@@ -1,6 +1,298 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Machines can now predict frequencies to synthesize visceral, human-like sound. This episode explores the synthetic sound revolution in speech, voice cloning, and music, and the",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "YOBpXuvMjec",
+    "tag": "aud",
+    "lab": "Ljud",
+    "ico": "🎵",
+    "ttl": "AI-genererat ljud: röstkloning, musikskapande och nya bedrägerier",
+    "sum": "Joshua Moses | Cybertrace Foundation beskriver hur AI syntetiserar mänskligt tal, klonar röster från bara några sekunders ljud och skapar musik. Avsnittet tar också upp användningsområden och säkerhetsrisker, däribland röstbedrägerier och försvagat förtroende för ljudbevis.",
+    "full": "I videon \"AI Audio, Music and Voice Generation: Voice Cloning, TTS, Fraud | Generative AI Ep 13\" undersöker kanalen Joshua Moses | Cybertrace Foundation utvecklingen inom AI-genererat ljud. Fokus ligger på hur maskiner kan förutsäga frekvenser för att syntetisera mänskligt tal, musik och andra ljud, samt på de förtroendeproblem som följer när äkta och fabricerade inspelningar blir svårare att skilja åt.\n\nGenomgången skiljer mellan ASR och TTS. ASR, automatisk taligenkänning, omvandlar rått ljud till text, medan TTS, text-till-tal, syntetiserar talade ord från text. Kanalen beskriver röstkloning som en mer avancerad form av TTS: med förträning på tiotusentals timmar taldata kan en modell enligt beskrivningen återskapa en persons röst och dess akustiska miljö utifrån bara några sekunders ljud.\n\nVideon behandlar även AI-musik. Utvecklingen beskrivs från tidiga RNN-modeller som förutsade toner sekventiellt, via GAN-modeller med generatorer och diskriminatorer, till transformermodeller som hanterar mer komplex tidslig struktur. MuseGAN nämns som ett exempel på en sådan arkitektur. Bland verktygen som tas upp finns MusicLM, Whisper och VALL-E.\n\nKanalen kopplar tekniken till användningsområden som personligt anpassade marknadsföringsannonser, hjälpmedel för personer med synnedsättning, AI-röster som gemensamt instrument och royaltyfri bakgrundsmusik. Samtidigt framhålls riskerna: videon tar upp ett företagsledarbedrägeri med en förlust på 243 000 dollar, utpressningsbedrägerier där röster från påstått kidnappade familjemedlemmar simuleras, en social manipulation kopplad till LastPass och obehörig röstkloning.",
+    "deep": "Beskrivningen framställer röstkloning som beroende av två steg: först lär sig systemen mönster i stora mängder taldata, och därefter kan de använda ett mycket kort röstprov för att efterlikna talarens röst och ljudmiljö. Detaljer om modellernas exakta implementation, träningsdata eller praktiska kvalitetsnivåer anges inte, så artikeln gör inga självständiga bedömningar av resultatens precision.\n\nFör musikskapande lyfter kanalen fram hur modellarkitekturer har utvecklats för att representera musikens tidsliga beroenden. RNN-modeller förutsäger noter i följd, GAN-modeller använder en generator och en diskriminator, och transformermodeller hanterar komplexare strukturer. Beskrivningen anger inte att något av de nämnda verktygen testas oberoende i videon.\n\nEtikdelen kretsar kring både direkt missbruk och ett bredare tillitsproblem. Förutom bedrägerier och obehörig kloning behandlas \"liar's dividend\": möjligheten att avfärda äkta bevis genom att hävda att de är AI-genererade. Därmed handlar avsnittet inte bara om hur syntetiskt ljud kan skapas, utan också om hur det påverkar bedömningen av ljud som bevismaterial.",
+    "en": {
+      "ttl": "AI-generated audio: voice cloning, music creation and new fraud risks",
+      "sum": "Joshua Moses | Cybertrace Foundation explains how AI synthesizes human speech, clones voices from only a few seconds of audio and creates music. The episode also examines use cases and security risks, including voice fraud and declining trust in audio evidence.",
+      "full": "In \"AI Audio, Music and Voice Generation: Voice Cloning, TTS, Fraud | Generative AI Ep 13,\" the channel Joshua Moses | Cybertrace Foundation examines developments in AI-generated audio. The focus is on how machines can predict frequencies to synthesize human speech, music and other sounds, as well as the trust problems that arise when authentic and fabricated recordings become harder to distinguish.\n\nThe video distinguishes between ASR and TTS. ASR, automatic speech recognition, converts raw audio into text, while TTS, text-to-speech, synthesizes spoken words from text. The channel describes voice cloning as an advanced form of TTS: with pre-training on tens of thousands of hours of speech data, a model can, according to the description, reproduce a person’s voice and its acoustic environment from only a few seconds of audio.\n\nThe video also covers AI music generation. It describes a progression from early RNN models that predicted notes sequentially, through GAN models with generators and discriminators, to transformer models that handle more complex temporal structure. MuseGAN is mentioned as an example of such an architecture. The tools discussed include MusicLM, Whisper and VALL-E.\n\nThe channel connects the technology to use cases such as personalized marketing ads, accessibility tools for visually impaired people, AI clones used as a shared instrument and royalty-free background music. It also highlights risks, including a corporate CEO voice fraud involving a loss of $243,000, extortion scams simulating kidnapped family members, a LastPass-related social engineering attack and unauthorized voice cloning.",
+      "deep": "The description presents voice cloning as involving two stages: systems first learn patterns from large amounts of speech data, and can then use a very short voice sample to imitate the speaker’s voice and acoustic environment. It provides no details about exact implementations, training data or practical quality levels, so this article makes no independent assessment of accuracy.\n\nFor music generation, the channel highlights how model architectures have evolved to represent music’s temporal dependencies. RNN models predict notes in sequence, GAN models use a generator and discriminator, and transformer models handle more complex structures. The description does not state that any of the named tools were independently tested in the video.\n\nThe ethics section addresses both direct misuse and a broader trust problem. Alongside fraud and unauthorized cloning, it discusses the liar’s dividend: the ability to dismiss authentic evidence by claiming it was AI-generated. The episode therefore examines not only how synthetic audio can be created, but also how it affects the evaluation of audio as evidence."
+    },
+    "cat": "ljud",
+    "date": "2026-10-18T05:00:08Z",
+    "meta": "Joshua Moses | Cybertrace Foundation · 2026-10-18",
+    "url": "https://www.youtube.com/watch?v=YOBpXuvMjec",
+    "img": "https://i.ytimg.com/vi/YOBpXuvMjec/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Joshua Moses | Cybertrace Foundation"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Introduction"
+      },
+      {
+        "t": 41,
+        "l": "Episode Overview"
+      },
+      {
+        "t": 62,
+        "l": "Synthetic Sound: The Revolution"
+      },
+      {
+        "t": 96,
+        "l": "Speech Mechanics: How AI Speaks"
+      },
+      {
+        "t": 199,
+        "l": "Voice Cloning: Supercharged TTS"
+      },
+      {
+        "t": 239,
+        "l": "Composing Music: Complex Structures"
+      },
+      {
+        "t": 346,
+        "l": "Audio Applications: Real-World Uses"
+      },
+      {
+        "t": 428,
+        "l": "Fraud and Ethics: Dual-Edged Sword"
+      },
+      {
+        "t": 538,
+        "l": "Final Question: How Will We Preserve Trust When Sound Is Synthetic?"
+      }
+    ],
+    "views": 0,
+    "buzz": 20,
+    "sourceCheckedAt": "2026-10-18T07:13:18.267Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "37939f6329bf0a6c3eba20f0efd0b57a6c3bd43a7e15f419c8b2dab3197020f5",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "MusicLM",
+      "Whisper",
+      "VALL-E",
+      "MuseGAN"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "A two-minute film just screened at a major festival — no camera, no crew, just Kling 4.0. Kling AI launched Kling 4.0 globally on October",
+    "evidenceIds": [
+      1,
+      11,
+      15
+    ],
+    "id": "oLldK2RJgzw",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Kling 4.0 ger AI-video längre engångsgenerering och mer styrning",
+    "sum": "Tech Universe beskriver Kling 4.0 som en global lansering med 30 sekunders inbyggd engångsgenerering, stabilare rörelser, stöd för upp till 15 referenstillgångar och 10 nyckelbilder per jobb. Kanalen tar också upp begränsningar, användning för reklam- och filmskapare samt en två minuter lång festivalfilm som skapats utan kamera eller filmteam.",
+    "full": "Tech Universe rapporterar att Kling AI lanserade Kling 4.0 globalt den 16 oktober 2026. Enligt kanalens beskrivning kan modellen generera upp till 30 sekunder i ett enda steg, vilket placerar den nya versionen i centrum för ett AI-baserat videoflöde snarare än som ett verktyg för enbart korta klipp.\n\nDen beskrivna uppgraderingen omfattar stabilare rörelser samt stöd för upp till 15 referenstillgångar och 10 nyckelbilder per jobb. Referensmaterialet och nyckelbilderna ger enligt uppgifterna skapare fler sätt att styra utseende, kontinuitet och utveckling över tid. Beskrivningen framhåller samtidigt att Kling 4.0 har begränsningar, men specificerar inte vilka problem som kvarstår.\n\nTech Universe kopplar verktyget till flera skaparscenarier, bland annat reklamproduktion, filmskapande, solokreatörer och automatiserade arbetsflöden. Kanalen nämner också en två minuter lång film som visades på en större festival och som enligt beskrivningen skapades utan kamera eller filmteam. Detta presenteras som ett exempel på modellens användning, inte som ett oberoende test.\n\nVideon tar dessutom upp vilka som bör prova Kling 4.0 och vilka som bör vänta, tillsammans med en jämförelse och en uppmärksammad begränsningsdel. Eftersom källbeskrivningen inte redovisar testmetod, resultatmått eller detaljer om begränsningarna går det inte att dra säkra slutsatser om kvaliteten jämfört med andra modeller.",
+    "deep": "Den centrala förändringen i den beskrivna arbetsprocessen är kombinationen av längre engångsgenerering och flera former av styrning. Enligt Tech Universe kan ett jobb använda upp till 15 referenstillgångar och 10 nyckelbilder, samtidigt som Kling 4.0 ska ge stabilare rörelser. Källan specificerar inte hur referenstillgångarna hanteras, vilka format de stöder eller hur nyckelbilderna påverkar resultatet.\n\nKanalens kapitelrubriker pekar på att videon behandlar en rörelseförbättring, en funktion kallad ”Omni Reference”, nyckelbilder, en automatiseringsvinkel och ett nytt arbetsflöde. Rubrikerna ensamma ger dock inte tillräckligt underlag för att beskriva dessa delar mer tekniskt. Den enda konkreta omfattningen som anges är 30 sekunders generering i ett steg, upp till 15 referenstillgångar och 10 nyckelbilder per jobb.\n\nBeskrivningen nämner även en ”Flash Tier”, rivaler och en kommande del, men utan tillräckliga uppgifter om pris, prestanda, tillgänglighet eller funktioner. Inte heller anges detaljer om festivalfilmens produktionsprocess utöver att den enligt kanalens beskrivning skapades utan kamera och filmteam. Kling 4.0:s globala lanseringsdatum återges därför som en uppgift från Tech Universe och ska inte blandas ihop med videons uppladdningsdatum.",
+    "en": {
+      "ttl": "Kling 4.0 brings longer single-pass generation and more control to AI video",
+      "sum": "Tech Universe describes Kling 4.0 as a global launch with native 30-second single-pass generation, steadier motion, support for up to 15 reference assets and 10 keyframes per job. The channel also discusses limitations, use cases for advertisers and filmmakers, and a two-minute festival film reportedly created without a camera or crew.",
+      "full": "Tech Universe reports that Kling AI launched Kling 4.0 globally on October 16, 2026. According to the channel’s description, the model can generate up to 30 seconds in a single pass, making the upgrade relevant to AI-based video workflows rather than only short clips.\n\nThe described upgrade includes steadier motion and support for up to 15 reference assets and 10 keyframes per job. These controls are presented as ways for creators to guide appearance, continuity and development over time. The description also emphasizes that Kling 4.0 has limitations, but does not specify what those remaining problems are.\n\nTech Universe connects the tool to advertising, filmmaking, solo creators and automated workflows. The channel also mentions a two-minute film screened at a major festival that was reportedly made without a camera or crew. This is presented as an example from the channel’s description, not as an independent test.\n\nThe video further addresses who should try Kling 4.0 and who should wait, alongside a comparison and a discussion of its limitations. Because the source description provides no test method, performance metrics or detailed comparison results, it does not support firm conclusions about quality relative to other models.",
+      "deep": "The main workflow change described is the combination of longer single-pass generation with multiple control inputs. According to Tech Universe, a job can use up to 15 reference assets and 10 keyframes while Kling 4.0 is also described as producing steadier motion. The source does not explain how the reference assets are processed, which formats are supported or how the keyframes affect the output.\n\nThe channel’s chapter headings indicate coverage of a motion improvement, a feature called “Omni Reference”, keyframes, an automation angle and a new workflow. The headings alone do not provide enough evidence for a more technical explanation. The concrete limits supplied are 30-second single-pass generation, up to 15 reference assets and 10 keyframes per job.\n\nThe description also mentions a “Flash Tier”, rivals and an upcoming section, but gives no sufficient details about pricing, performance, availability or capabilities. It likewise gives no production details about the festival film beyond the claim that it was created without a camera or crew. Kling 4.0’s global launch date is therefore reported as a claim from Tech Universe and should not be confused with the video upload date."
+    },
+    "cat": "film",
+    "date": "2026-10-17T22:53:07Z",
+    "meta": "Tech Universe · 2026-10-17",
+    "url": "https://www.youtube.com/watch?v=oLldK2RJgzw",
+    "img": "https://i.ytimg.com/vi/oLldK2RJgzw/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Tech Universe"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "The Story"
+      },
+      {
+        "t": 13,
+        "l": "The News"
+      },
+      {
+        "t": 28,
+        "l": "The Maker"
+      },
+      {
+        "t": 40,
+        "l": "The Headline"
+      },
+      {
+        "t": 51,
+        "l": "Why It Matters"
+      },
+      {
+        "t": 65,
+        "l": "The Motion Fix"
+      },
+      {
+        "t": 78,
+        "l": "Omni Reference"
+      },
+      {
+        "t": 91,
+        "l": "Keyframes"
+      },
+      {
+        "t": 99,
+        "l": "The Catches"
+      },
+      {
+        "t": 111,
+        "l": "Coming Soon"
+      },
+      {
+        "t": 125,
+        "l": "Flash Tier"
+      },
+      {
+        "t": 137,
+        "l": "The Proof"
+      },
+      {
+        "t": 147,
+        "l": "The Festival Film"
+      },
+      {
+        "t": 160,
+        "l": "The Scale"
+      },
+      {
+        "t": 170,
+        "l": "The Rivals"
+      },
+      {
+        "t": 181,
+        "l": "For Ad Makers"
+      },
+      {
+        "t": 190,
+        "l": "For Filmmakers"
+      },
+      {
+        "t": 201,
+        "l": "For Solo Creators"
+      },
+      {
+        "t": 211,
+        "l": "The Automation Angle"
+      },
+      {
+        "t": 220,
+        "l": "The Honest Gap"
+      },
+      {
+        "t": 234,
+        "l": "Who Should Try It"
+      },
+      {
+        "t": 242,
+        "l": "Who Should Wait"
+      },
+      {
+        "t": 252,
+        "l": "The Disclosure Note"
+      },
+      {
+        "t": 262,
+        "l": "The New Workflow"
+      },
+      {
+        "t": 271,
+        "l": "The Point"
+      },
+      {
+        "t": 281,
+        "l": "Final Call"
+      },
+      {
+        "t": 290,
+        "l": "The Comparison"
+      },
+      {
+        "t": 302,
+        "l": "The 2-Minute Tease"
+      },
+      {
+        "t": 313,
+        "l": "The Takeaway"
+      },
+      {
+        "t": 323,
+        "l": "Your Turn"
+      }
+    ],
+    "views": 2,
+    "buzz": 26,
+    "sourceCheckedAt": "2026-10-18T07:13:18.267Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "cee1f47f6df707b8db62dc7b7a67fa84c5a89dad9b3fe4fe622d0950d3dc9f9c",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Kling 4.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "The X-Ray Match Card revealed a simple workflow using Premiere Pro and Vossu to create dynamic video overlays. By extracting screenshots, applying AI-generated enhancements, and",
+    "evidenceIds": [
+      1,
+      2
+    ],
+    "id": "Oi6WitsHg-0",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "X-Ray Match Card visar AI-baserat arbetsflöde för videoöverlägg i Premiere Pro",
+    "sum": "Andrew Bishop beskriver ett arbetsflöde där skärmbilder extraheras, förbättras med AI och läggs tillbaka i Premiere Pro som dynamiska videoöverlägg. Metoden använder Vossu och är avsedd att effektivisera skapandet av visuella effekter med mindre manuellt arbete.",
+    "full": "Kanalen Andrew Bishop beskriver X-Ray Match Card som ett arbetsflöde för att skapa dynamiska videoöverlägg med Premiere Pro och Vossu. Enligt beskrivningen börjar processen med att skärmbilder extraheras från videoprojektet. Dessa bearbetas sedan med AI-genererade förbättringar innan de läggs tillbaka i redigeringsprogrammet som lager.\n\nArbetsflödet är utformat för att ge grundläggande videoredigering ett mer visuellt engagerande uttryck. Kanalen framhåller att tekniken kan effektivisera innehållsskapandet och stödja berättandet genom att minska mängden manuellt arbete som krävs för att bygga överläggseffekter.\n\nBeskrivningen riktar sig till videoredigerare och digitala kreatörer som vill utveckla sina projekt med ett tillgängligt AI-stöd. Andrew Bishop presenterar metoden som ett praktiskt sätt att kombinera AI-bearbetning med lagerbaserad redigering i Premiere Pro, snarare än som en fristående automatiserad videoproduktion.",
+    "deep": "Det centrala steget är att använda skärmbilder som mellanled: materialet extraheras, förses med AI-genererade förbättringar och integreras därefter på nytt i redigeraren. Enligt kanalens beskrivning kan detta skapa visuella överlägg som gör videon mer engagerande.\n\nBeskrivningen anger inte vilka specifika AI-funktioner Vossu använder, vilka parametrar som krävs eller hur resultatet varierar mellan olika typer av videomaterial. Den innehåller inte heller uppgifter om produktlanseringar, mätningar eller oberoende tester. De påstådda tidsbesparingarna och kreativa fördelarna ska därför förstås som kanalens beskrivning av arbetsflödet, inte som verifierade testresultat.",
+    "en": {
+      "ttl": "X-Ray Match Card presents an AI-based workflow for video overlays in Premiere Pro",
+      "sum": "Andrew Bishop describes a workflow in which screenshots are extracted, enhanced with AI, and placed back into Premiere Pro as dynamic video overlays. The method uses Vossu and is intended to streamline visual-effects creation with less manual work.",
+      "full": "The channel Andrew Bishop describes X-Ray Match Card as a workflow for creating dynamic video overlays with Premiere Pro and Vossu. According to the description, the process begins by extracting screenshots from a video project. These are then processed with AI-generated enhancements before being layered back into the editing software.\n\nThe workflow is designed to give basic video editing a more visually engaging look. The channel says the technique can streamline content creation and support storytelling by reducing the amount of manual work needed to build overlay effects.\n\nThe description is aimed at video editors and digital creators who want to develop their projects with accessible AI assistance. Andrew Bishop presents the method as a practical combination of AI processing and layer-based editing in Premiere Pro, rather than as fully automated video production.",
+      "deep": "The central step is using screenshots as an intermediate stage: the material is extracted, given AI-generated enhancements, and then integrated back into the editor. According to the channel’s description, this can create overlays that make the video more engaging.\n\nThe description does not specify which AI features Vossu uses, which parameters are required, or how results vary with different types of video material. It also provides no product-release information, measurements, or independent testing. The claimed time savings and creative benefits should therefore be understood as the channel’s description of the workflow, not as verified test results."
+    },
+    "cat": "film",
+    "date": "2026-10-17T20:12:31Z",
+    "meta": "Andrew Bishop · 2026-10-17",
+    "url": "https://www.youtube.com/watch?v=Oi6WitsHg-0",
+    "img": "https://i.ytimg.com/vi/Oi6WitsHg-0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Andrew Bishop"
+    ],
+    "parts": [],
+    "views": 1021,
+    "buzz": 56,
+    "sourceCheckedAt": "2026-10-18T07:13:18.267Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "0ac4fdb1bea4d3a264c4bc97d16dafe265b399eea0142c7d4f5967b772048629",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Vossu"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Discover how Tripo AI lets you convert 2D images and text prompts into detailed, fully textured 3D models in seconds. In this complete Tripo AI",
     "evidenceIds": [
       1,
@@ -118,6 +410,50 @@
       "Pippit AI",
       "3D Director Studio",
       "Story Studio"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "🤯 Turn an ordinary photo into a stunning cinematic masterpiece with this trending ChatGPT image command! In this video, discover how AI can transform your",
+    "evidenceIds": [
+      2,
+      3,
+      10
+    ],
+    "id": "FYag-G_QUhA",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "ChatGPT-kommandot som förvandlar foton till filmiska porträtt",
+    "sum": "Kanalen 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 visar hur ett enkelt kommando i ChatGPT kan användas för att förändra ett vanligt foto till en bild med filmiskt uttryck, lyxigt porträttutseende eller professionell profilbild.",
+    "full": "Enligt 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 handlar videon om ett ChatGPT-kommando för AI-baserad bildredigering och bildgenerering. Kanalen beskriver hur ett vanligt foto kan omvandlas till en bild med filmiskt utseende, lyxig porträttstil eller ett mer professionellt uttryck för en profilbild.\n\nArbetsflödet som presenteras bygger på en enkel prompt. Beskrivningen framställer kommandot som ett sätt att instruera ChatGPT att förändra bildens visuella stil, snarare än som en traditionell genomgång av fotografering eller belysning. Videons före- och efterfokus ska visa skillnaden mellan originalfotot och den AI-bearbetade versionen.\n\nDe användningsområden som nämns är bland annat filmiska porträtt, lyxporträtt, professionella profilbilder och andra visuella effekter. Kanalen riktar sig även till nybörjare genom att lyfta fram ChatGPT-kommandon för fotoredigering, bildgenerering och promptbaserade transformationer.\n\nBeskrivningen uppger dessutom att tittare kan kommentera ”PROMPT” för att få tillgång till en samling med 100 AI-bildkommandon. Det är ett erbjudande från kanalens sida och inte en oberoende verifiering av kommandonas kvalitet eller resultat.",
+    "deep": "Det centrala AI-inslaget är användningen av textinstruktioner för att styra en bildtransformation i ChatGPT. Enligt kanalens beskrivning kan samma grundidé användas för flera resultat: ett filmiskt uttryck, en lyxigare porträttstil, en professionell profilbild eller visuella effekter. Några specifika promptformuleringar, modellversioner, tekniska begränsningar eller jämförande testresultat anges inte.\n\nVideon beskrivs som en kort demonstration med före- och efterbilder. Därför stöder källan slutsatsen att 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 presenterar ett konkret promptbaserat arbetsflöde, men inte att metoden alltid ger ett visst resultat eller fungerar lika bra på alla foton. Beskrivningen innehåller inte heller uppgifter om bildens upplösning, redigeringssteg efter genereringen eller vilka bildformat som stöds.",
+    "en": {
+      "ttl": "The ChatGPT command that transforms photos into cinematic portraits",
+      "sum": "The channel 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 shows how a simple command in ChatGPT can be used to transform an ordinary photo into an image with a cinematic look, luxury portrait style, or professional profile-picture appearance.",
+      "full": "According to 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰, the video focuses on a ChatGPT command for AI-based image editing and image generation. The channel describes how an ordinary photo can be transformed into an image with a cinematic look, luxury portrait style, or a more professional appearance for a profile picture.\n\nThe workflow presented is based on a simple prompt. The description frames the command as a way to instruct ChatGPT to change the image’s visual style, rather than as a conventional tutorial about photography or lighting. The video’s before-and-after focus is intended to show the difference between the original photo and the AI-processed version.\n\nThe listed use cases include cinematic portraits, luxury portraits, professional profile pictures, and other visual effects. The channel also targets beginners by highlighting ChatGPT commands for photo editing, image generation, and prompt-based transformations.\n\nThe description also says that viewers can comment “PROMPT” to receive a collection of 100 AI image commands. This is an offer from the channel, not an independent verification of the commands’ quality or results.",
+      "deep": "The central AI element is the use of text instructions to control an image transformation in ChatGPT. According to the channel’s description, the same basic idea can be used for several outcomes: a cinematic look, a more luxurious portrait style, a professional profile picture, or visual effects. No specific prompt wording, model versions, technical limitations, or comparative test results are provided.\n\nThe video is described as a short before-and-after demonstration. The source therefore supports the conclusion that 𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 presents a concrete prompt-based workflow, but not that the method always produces a particular result or works equally well with all photos. The description also does not state the image resolution, post-generation editing steps, or supported image formats."
+    },
+    "cat": "foto",
+    "date": "2026-10-17T05:00:41Z",
+    "meta": "𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰 · 2026-10-17",
+    "url": "https://www.youtube.com/watch?v=FYag-G_QUhA",
+    "img": "https://i.ytimg.com/vi/FYag-G_QUhA/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "𝚃𝙴𝙲𝙷 𝙰𝚄𝚁𝙰"
+    ],
+    "parts": [],
+    "views": 1298,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-10-18T07:13:18.267Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "fcdc1fcf0bf6d5ea714f2469b274e430527358ce53fbc00b378c03298c0c8371",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "ChatGPT"
     ]
   },
   {
