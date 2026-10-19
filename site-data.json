@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T07:45:50.316Z",
+  "updatedAt": "2026-10-19T10:49:40.637Z",
   "newsCheckedAt": "2026-10-19T07:45:50.316Z",
   "news": [
     {
@@ -23301,7 +23301,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-07T11:49:27.031Z",
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -23323,7 +23323,8 @@
       "cons": [
         "Licensvillkor att hålla koll på",
         "Gratisnivå begränsad",
-        "Walled garden — materialet stannar på plattformen"
+        "Walled garden — materialet stannar på plattformen",
+        "Nedladdning av ljud, video och stems är avstängd"
       ],
       "tags": [
         "Musik",
@@ -23347,9 +23348,19 @@
         "type": "original-editorial",
         "checkedAt": null
       },
-      "fieldChecks": {},
-      "lastAttemptAt": "2026-10-07T11:49:27.031Z",
-      "lastCheckError": "Invalid independent fact check"
+      "fieldChecks": {
+        "cons": {
+          "checkedAt": "2026-10-19T10:49:40.637Z",
+          "sources": [
+            {
+              "url": "https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership",
+              "quote": "Note that downloading of audio, video, and stems has been disabled"
+            }
+          ]
+        }
+      },
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z",
+      "lastCheckError": "Some fields could not be verified"
     },
     {
       "n": "Reve 2.1",
@@ -23396,7 +23407,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-07T11:49:27.031Z"
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z"
     },
     {
       "n": "PixVerse V4.5",
@@ -23993,7 +24004,8 @@
       "pros": [
         "Multimodalt kreativt arbetsflöde för bild, video och ljud inom samma projektkontext.",
         "Videoverktyg för text-till-video, bild-till-video, redigering, omformatering, förlängning, HDR och EXR-export.",
-        "Parallell generering över flera medier och stöd för musik, ljudeffekter, röstpålägg samt läppsynk."
+        "Parallell generering över flera medier och stöd för musik, ljudeffekter, röstpålägg samt läppsynk.",
+        "Återanvändbara Luma Skills kan spara ett etablerat arbetsflöde som instruktioner och köra det igen med andra resurser."
       ],
       "cons": [
         "Enskilda videoklipp är enligt Luma 4–12 sekunder långa beroende på vald modell.",
@@ -24010,14 +24022,16 @@
         "ljudproduktion",
         "läppsynk",
         "Ray 3.2",
-        "uni-1"
+        "uni-1",
+        "Luma Skills"
       ],
       "caps": [
         "Text-till-video och bild-till-video.",
         "Videoredigering, videoförlängning och omformatering av bildformat.",
         "Bildgenerering, bildredigering och referensstyrning.",
         "Musik, ljudeffekter, röstpålägg, transkribering och ljuddriven läppsynk.",
-        "Parallell produktion av flera bild-, video- och ljudresurser."
+        "Parallell produktion av flera bild-, video- och ljudresurser.",
+        "Skapa, dela och återanvända Skills: upprepningsbara arbetsflöden med instruktioner som kan tillämpas på nya resurser."
       ],
       "id": "luma-agents",
       "ico": "🎬",
@@ -24110,19 +24124,11 @@
           ]
         },
         "pros": {
-          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "checkedAt": "2026-10-19T10:49:40.637Z",
           "sources": [
             {
-              "url": "https://docs.agents.lumalabs.ai/guides/model/",
-              "quote": "Multi-keyframe image-to-video"
-            },
-            {
-              "url": "https://lumalabs.ai/learning-hub/luma-audio-capabilities-ai-music-voiceovers-sfx-lip-sync",
-              "quote": "generate music, sound effects, and voiceovers from text"
-            },
-            {
-              "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
-              "quote": "supports parallel generation across modalities"
+              "url": "https://lumalabs.ai/news/luma-skills",
+              "quote": "A Skill is a repeatable workflow inside Luma Agents."
             }
           ]
         },
@@ -24144,38 +24150,27 @@
           ]
         },
         "tags": {
-          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "checkedAt": "2026-10-19T10:49:40.637Z",
           "sources": [
             {
-              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
-              "quote": "Generate text, image, video, and audio assets"
-            },
-            {
-              "url": "https://docs.agents.lumalabs.ai/guides/model/",
-              "quote": "uni-1 and uni-1-max for images"
+              "url": "https://lumalabs.ai/news/luma-skills",
+              "quote": "A Skill is a repeatable workflow inside Luma Agents."
             }
           ]
         },
         "caps": {
-          "checkedAt": "2026-10-06T12:03:43.589Z",
+          "checkedAt": "2026-10-19T10:49:40.637Z",
           "sources": [
             {
-              "url": "https://docs.agents.lumalabs.ai/guides/model/",
-              "quote": "HDR output"
-            },
-            {
-              "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
-              "quote": "Video extension and scene continuation"
-            },
-            {
-              "url": "https://lumalabs.ai/learning-hub/luma-audio-capabilities-ai-music-voiceovers-sfx-lip-sync",
-              "quote": "Audio-Driven Lip Sync"
+              "url": "https://lumalabs.ai/news/luma-skills",
+              "quote": "A Skill is a repeatable workflow inside Luma Agents."
             }
           ]
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-10-06T12:03:43.589Z"
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z",
+      "lastCheckError": "Some fields could not be verified"
     }
   ],
   "candidates": [
@@ -24285,7 +24280,8 @@
         "https://www.youtube.com/watch?v=nVP61eMU6hs",
         "https://www.youtube.com/watch?v=ZvDcMAs1GM0",
         "https://www.youtube.com/watch?v=w8FZXhPbrdw",
-        "https://www.youtube.com/watch?v=FYag-G_QUhA"
+        "https://www.youtube.com/watch?v=FYag-G_QUhA",
+        "https://www.youtube.com/watch?v=iLmT0etLETw"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-13T09:08:03.910Z",
@@ -24761,7 +24757,8 @@
         "https://www.youtube.com/watch?v=WdmSvISHQm4",
         "https://www.youtube.com/watch?v=mqoeh_uojS0",
         "https://www.youtube.com/watch?v=aeuonpwztss",
-        "https://www.youtube.com/watch?v=af3tpCF8mlI"
+        "https://www.youtube.com/watch?v=af3tpCF8mlI",
+        "https://www.youtube.com/watch?v=BExtQ740QgM"
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z",
       "lastAttemptAt": "2026-10-03T10:26:44.648Z",
@@ -25095,14 +25092,19 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=fQuJdcdLpEY"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Dola AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hBfQdqwY-tc"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-19T10:49:40.637Z",
+      "status": "insufficient-evidence"
     },
     {
       "name": "Gemini 3.8 Live",
@@ -25280,7 +25282,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ZLekK6xylDI",
         "https://www.youtube.com/watch?v=tNXJCnHkXdk",
-        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI",
+        "https://www.youtube.com/watch?v=BExtQ740QgM"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
@@ -25779,14 +25782,16 @@
       "name": "Kling 4.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=MbxDhjoH-V4",
-        "https://www.youtube.com/watch?v=oLldK2RJgzw"
+        "https://www.youtube.com/watch?v=oLldK2RJgzw",
+        "https://www.youtube.com/watch?v=ItZt9amULkI"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
     },
     {
       "name": "Kling 4.0 Flash",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=MbxDhjoH-V4"
+        "https://www.youtube.com/watch?v=MbxDhjoH-V4",
+        "https://www.youtube.com/watch?v=ItZt9amULkI"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
     },
@@ -26496,6 +26501,13 @@
         "https://www.youtube.com/watch?v=y7NXAzFQ2so"
       ],
       "firstSeen": "2026-10-18T09:40:04.628Z"
+    },
+    {
+      "name": "Blender MCP Add-on",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=BExtQ740QgM"
+      ],
+      "firstSeen": "2026-10-19T10:49:40.637Z"
     }
   ],
   "sourceChecks": {},
@@ -27162,7 +27174,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-19T07:45:50.316Z",
+    "calculatedAt": "2026-10-19T10:49:40.637Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -27172,36 +27184,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.4033279098109073,
+      "elevenlabs": 1.3856992702910533,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.07115705446096614,
+      "kling-3-0": 0.07026317780276158,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.4739621168920225,
+      "higgsfield": 4.417760095373901,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.7206310369492359,
+      "meshy-ai": 0.7115784522408567,
       "magnific-ai": 0,
-      "seedance-2-5": 4.007486691848519,
+      "seedance-2-5": 3.9571445460269277,
       "ideogram-v3": 0,
       "wan-2-7": 0,
       "wan-3-0": 0,
-      "nano-banana-pro": 0.81785048198194,
-      "nano-banana-2": 0.33526354691747534,
+      "nano-banana-pro": 0.8075766242276671,
+      "nano-banana-2": 0.33105195804260423,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.12985868032818235,
+      "hunyuan3d": 0.1282273924103514,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -27213,7 +27225,7 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.06222659316700965,
+      "gemini-omni-flash": 0.061444901181964176,
       "luma-agents": 0
     }
   }

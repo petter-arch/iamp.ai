@@ -1,192 +1,59 @@
 {
-  "startedAt": "2026-10-19T07:45:50.316Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 5
-    },
-    "3d": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-19T07:45:50.316Z",
-      "found": 8
-    }
-  },
-  "selection": {
-    "fetched": 129,
-    "relevant": 39,
-    "supported": 31
-  },
-  "rejected": [
+  "startedAt": "2026-10-19T10:49:40.637Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "4XqZJS-acQ0",
-      "title": "Replace Background Video Without Green Screen or Masking Tools.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "platform": "luma-agents",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "XEl4ZQKKxig",
-      "title": "The Cheapest Robot On The Market?!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "trellis-2",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "grOilk8aCS0",
-      "title": "AI Design Hack Saves HOURS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
+      "platform": "trellis-2",
+      "field": "sub",
+      "message": "Official source unavailable"
     },
     {
-      "video": "hNAKl3oLFMs",
-      "title": "Forget Adobe? I Pushed Free Adobe AI Clones to the Limit...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        11,
-        12
-      ]
+      "platform": "trellis-2",
+      "field": "long",
+      "message": "Official source unavailable"
     },
     {
-      "video": "pur1QwIA0qg",
-      "title": "Who nails the most realistic concert photo?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "trellis-2",
+      "field": "deep",
+      "message": "Official source unavailable"
     },
     {
-      "video": "DWaHaHdiDAM",
-      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "trellis-2",
+      "field": "pros",
+      "message": "Official source unavailable"
     },
     {
-      "video": "grZXcE-AO84",
-      "title": "FLUX 3 Base vs Turbo Image Generation & Editing Tested in ComfyUI!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
-      ]
+      "platform": "trellis-2",
+      "field": "tier",
+      "message": "Official source unavailable"
     },
     {
-      "video": "z_M_fJpQyUc",
-      "title": "TRELLIS.2: one image into a PBR 3D model in ~1 minute?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
-      ]
+      "platform": "trellis-2",
+      "field": "free",
+      "message": "Official source unavailable"
     },
     {
-      "video": "Ar8yKK2liUw",
-      "title": "A to Z without a single mistake?",
-      "stage": "insufficient-article-source"
+      "platform": "udio",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"The \\\"Audio upload\\\" feature is available only for paid subscribers.\",\"retrieved\":[]}"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "40dkdO9slZI",
-      "title": "Replace Your Background Video.  Zero Green Screen or Masking",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "DD4oHSH5SEI",
-      "title": "Google Cooked! Testing Gemini 4 Argon & Blasting 800 Million Tokens!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LZJROmYjxgQ",
-      "title": "Google’s New AI Filmmaking Tool",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LvME100eFZU",
-      "title": "AI 3d model generator finally doing what its told.. kinda...",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "0ZyJjxRKjEk",
-      "title": "Ai Video Generation film making  #aiavatar #aivideo #heygen #foryou #reels #ugcads #videoediting",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        35,
-        36
-      ]
-    },
-    {
-      "video": "hjXzG1uJlF0",
-      "title": "ChatGPT Photo Editing | Trending Instagram Photo Editing | Chatgpt New Photo Editing Prompt #ai#2026",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gBf91Y4_qaE",
-      "title": "✨ AI Image Generation Prompt // Viral Durga Puja Dhunuchi Portrait //#pujavibes",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FKOo5XWmC_8",
-      "title": "✨ AI Image Generation Prompt // Viral Durga Puja Dhunuchi Portrait //#pujavibes",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
+      "candidate": "Grok",
+      "message": "Invalid evidence URL"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 2,
+  "newModels": 0
 }
