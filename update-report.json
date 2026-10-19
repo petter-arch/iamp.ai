@@ -1,59 +1,197 @@
 {
-  "startedAt": "2026-10-19T10:49:40.637Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-19T19:54:46.026Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 4
+    },
+    "3d": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "found": 8
+    }
+  },
+  "selection": {
+    "fetched": 136,
+    "relevant": 47,
+    "supported": 39
+  },
+  "rejected": [
     {
-      "platform": "luma-agents",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "XEl4ZQKKxig",
+      "title": "The Cheapest Robot On The Market?!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "price",
-      "message": "Invalid official citation"
+      "video": "grOilk8aCS0",
+      "title": "AI Design Hack Saves HOURS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "sub",
-      "message": "Official source unavailable"
+      "video": "hNAKl3oLFMs",
+      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        11,
+        17
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "pur1QwIA0qg",
+      "title": "Who nails the most realistic concert photo?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "deep",
-      "message": "Official source unavailable"
+      "video": "DWaHaHdiDAM",
+      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "pros",
-      "message": "Official source unavailable"
+      "video": "grZXcE-AO84",
+      "title": "FLUX 3 Base vs Turbo Image Generation & Editing Tested in ComfyUI!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        7
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "tier",
-      "message": "Official source unavailable"
+      "video": "z_M_fJpQyUc",
+      "title": "TRELLIS.2: one image into a PBR 3D model in ~1 minute?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ]
     },
     {
-      "platform": "trellis-2",
-      "field": "free",
-      "message": "Official source unavailable"
+      "video": "FHXPmZ53lfU",
+      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "udio",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio\",\"quote\":\"The \\\"Audio upload\\\" feature is available only for paid subscribers.\",\"retrieved\":[]}"
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Grok",
-      "message": "Invalid evidence URL"
+      "video": "Ar8yKK2liUw",
+      "title": "A to Z without a single mistake?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "aNE48secixo",
+      "title": "I Turned an Image into a 3D Model for FREE! | NEW AI TOOL | 😱🔥",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tAfSOY9V0A0",
+      "title": "How to use a Depth Map for AI Motion Control",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EPYh_bgXJBk",
+      "title": "This AI trick Magically Creates New Camera Angles",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LvME100eFZU",
+      "title": "AI 3d model generator finally doing what its told.. kinda...",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hWtLEnyGuAI",
+      "title": "Create Professional AI Visuals With High-Resolution Image Generation & Editing.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GYVSny6BDM0",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GppILOJ_ZDY",
+      "title": "chatgpt😡seInstagram Viral Photo Editing | ChatGPT  Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5iVdLnVUU9M",
+      "title": "30秒の動画を直接生成！最新AI『Kling 4.0』発表で映画制作が激変する！ #AI",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LZJROmYjxgQ",
+      "title": "Google’s New AI Filmmaking Tool",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0ZyJjxRKjEk",
+      "title": "Ai Video Generation film making  #aiavatar #aivideo #heygen #foryou #reels #ugcads #videoediting",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        35,
+        36
+      ]
+    },
+    {
+      "video": "FKOo5XWmC_8",
+      "title": "✨ AI Image Generation Prompt // Viral Durga Puja Dhunuchi Portrait //#pujavibes",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 2,
-  "newModels": 0
+  "accepted": 6
 }
