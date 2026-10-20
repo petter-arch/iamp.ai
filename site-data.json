@@ -1,8 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T19:54:46.026Z",
-  "newsCheckedAt": "2026-10-19T19:54:46.026Z",
+  "updatedAt": "2026-10-20T07:32:17.530Z",
+  "newsCheckedAt": "2026-10-20T07:32:17.530Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Black Forest Labs just made 4K AI images possible on a cheap graphics card. The new model, FLUX.3 Image Klein, released October 15 — it",
+      "evidenceIds": [
+        1
+      ],
+      "id": "T1q3fnVuwqY",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "4K AI-bilder på ett billigt grafikkort med FLUX.3 Image Klein",
+      "sum": "Kanalen Automate Everything uppger att Black Forest Labs nya modell FLUX.3 Image Klein gör 4K AI-bilder möjliga på ett billigt grafikkort. Modellen kombinerar text-till-bild, bildredigering och upp till tio referensbilder i ett och samma paket.",
+      "full": "Automate Everything rapporterar att Black Forest Labs har lanserat FLUX.3 Image Klein, en modell för AI-bilder som enligt kanalens beskrivning kan köras för att skapa 4K-bilder på ett billigt grafikkort. Det centrala i nyheten är alltså att högupplöst bildgenerering uppges bli mer tillgänglig utan avancerad eller dyr grafikmaskinvara.\n\nModellen samlar flera funktioner i samma paket. Den stöder text-till-bild, vilket gör det möjligt att generera bilder från beskrivningar, samt bildredigering för att bearbeta befintligt bildmaterial. FLUX.3 Image Klein kan dessutom använda upp till tio referensbilder samtidigt, enligt Automate Everything.\n\nDetta kan ge ett mer sammanhållet arbetsflöde för skapare som vill kombinera textinstruktioner med visuella referenser och redigering. Beskrivningen specificerar däremot inte vilka grafikkortsmodeller som stöds, vilken bildkvalitet som uppnås i praktiken eller hur snabbt modellen arbetar. Uppgifterna bygger på kanalens publicerarbeskrivning och är inte en oberoende test.\n\nAutomate Everything anger att FLUX.3 Image Klein släpptes den 15 oktober. Det är ett uppgivet releasedatum för modellen, inte videons uppladdningsdatum.",
+      "deep": "Enligt den namngivna kanalen är den viktigaste förändringen kombinationen av låg maskinvarukostnad och flera bildfunktioner i samma modell. Stödet för upp till tio multi-referensindata pekar på ett arbetsflöde där flera visuella källor kan användas samtidigt, men källan beskriver inte exakt hur referenserna viktas eller vilka redigeringsoperationer som stöds.\n\nBeskrivningen innehåller inga uppgifter om licensvillkor, minneskrav, operativsystem, installationsmetod, prestandamätningar eller begränsningar för 4K-utdata. Sådana detaljer kan därför inte fastställas utifrån det tillgängliga underlaget.",
+      "en": {
+        "ttl": "4K AI images on a cheap graphics card with FLUX.3 Image Klein",
+        "sum": "The channel Automate Everything reports that Black Forest Labs’ new model FLUX.3 Image Klein makes 4K AI images possible on a cheap graphics card. The model combines text-to-image generation, image editing and up to ten multi-reference inputs in one package.",
+        "full": "Automate Everything reports that Black Forest Labs has released FLUX.3 Image Klein, an AI image model that, according to the channel’s description, can create 4K images on a cheap graphics card. The central development is therefore the claimed increased accessibility of high-resolution image generation without advanced or expensive graphics hardware.\n\nThe model combines several functions in one package. It supports text-to-image generation for creating images from descriptions, as well as image editing for processing existing visual material. FLUX.3 Image Klein can also use up to ten reference images at once, according to Automate Everything.\n\nThis could provide a more unified workflow for creators who want to combine text instructions with visual references and editing. However, the description does not specify which graphics-card models are supported, what image quality is achieved in practice or how quickly the model runs. The information comes from the channel’s publisher description and is not an independent test.\n\nAutomate Everything states that FLUX.3 Image Klein was released on October 15. That is the model’s stated release date, not the video’s upload date.",
+        "deep": "According to the named channel, the key change is the combination of low hardware cost and several image functions in one model. Support for up to ten multi-reference inputs suggests a workflow in which multiple visual sources can be used simultaneously, but the source does not explain exactly how the references are weighted or which editing operations are supported.\n\nThe description provides no information about licensing, memory requirements, operating systems, installation, performance measurements or limitations on 4K output. Those details therefore cannot be established from the available source."
+      },
+      "cat": "foto",
+      "date": "2026-10-20T06:24:34Z",
+      "meta": "Automate Everything · 2026-10-20",
+      "url": "https://www.youtube.com/watch?v=T1q3fnVuwqY",
+      "img": "https://i.ytimg.com/vi/T1q3fnVuwqY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Automate Everything"
+      ],
+      "parts": [],
+      "views": 2,
+      "buzz": 26,
+      "sourceCheckedAt": "2026-10-20T07:32:17.530Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "e67269b4b72aeefef5720454d3da902cdfeb6f986e80903ad1d9184218d06f87",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "FLUX.3 Image Klein"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Kling 4.0 is here, but can it beat Seedance 2.5? I tested both on motion, character consistency, physics, lip sync, prompt accuracy and image-to-video, then",
@@ -241,6 +283,85 @@
         "RunComfy",
         "Claude Code"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Turn any 2D image into a high-quality 3D model completely for free using AI! In this video, I walk you through the entire process step-by-step—from",
+      "evidenceIds": [
+        1,
+        7,
+        9
+      ],
+      "id": "aNE48secixo",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "AI-plattform förvandlar 2D-bilder till 3D-modeller utan kostnad",
+      "sum": "Kanalen Pasindu Wijesekara | AI & Tech visar ett arbetsflöde där en 2D-bild först används som konceptbild och sedan omvandlas till en 3D-modell med AI. Enligt beskrivningen kan resultatet exporteras som en GLB-fil och användas i spelmotorer eller 3D-program.",
+      "full": "Kanalen Pasindu Wijesekara | AI & Tech beskriver ett AI-baserat arbetsflöde för att omvandla en 2D-bild till en färdig 3D-tillgång. Processen börjar med att skapa en referensbild och fortsätter med att bilden konverteras till en 3D-modell på en AI-plattform. Beskrivningen framställer tjänsten som kostnadsfri.\n\nArbetsflödet omfattar flera tydliga steg: skapande av referensbild, introduktion till AI-plattformen, kontoinställning, bild-till-3D-konvertering samt bearbetning av texturer och geometri. Därefter inspekteras den färdiga modellen i en 3D-visare.\n\nEnligt kanalens beskrivning är modellen avsedd att kunna användas i spelmotorer eller annan 3D-programvara. Videon tar också upp export och nedladdning, där GLB och andra format nämns. Beskrivningen specificerar däremot inte vilken AI-plattform eller modell som används, hur hög kvaliteten är i praktiken eller vilka begränsningar som gäller för geometri, texturer och exportformat.",
+      "deep": "Källbeskrivningen anger att arbetsflödet går från en 2D-referensbild till en fullständig 3D-tillgång. Den nämner separat behandling av texturer och geometri, vilket visar att konverteringen omfattar mer än en enkel visuell visning av bilden.\n\nDet stödda användningsområdet är vidare användning i spelmotorer och 3D-program. Exportsteget omfattar GLB samt andra format, men inga ytterligare format namnges. Varken plattformens namn, versionsnummer, tekniska metod, bearbetningstid eller resultatens detaljnivå anges i det tillgängliga underlaget.",
+      "en": {
+        "ttl": "AI platform turns 2D images into 3D models at no cost",
+        "sum": "The channel Pasindu Wijesekara | AI & Tech presents a workflow in which a 2D image is first used as concept art and then converted into a 3D model with AI. According to the description, the result can be exported as a GLB file and used in game engines or 3D software.",
+        "full": "The channel Pasindu Wijesekara | AI & Tech describes an AI-based workflow for converting a 2D image into a finished 3D asset. The process begins by creating a reference image and continues with converting that image into a 3D model on an AI platform. The description presents the service as free to use.\n\nThe workflow includes several defined steps: creating the reference image, introducing the AI platform, setting up an account, converting the image to 3D, and processing textures and geometry. The finished model is then inspected in a 3D viewer.\n\nAccording to the channel’s description, the model is intended for use in game engines or other 3D software. The video also covers export and downloading, mentioning GLB and other formats. The description does not identify the AI platform or model, establish the practical quality level, or specify limitations involving geometry, textures, or export formats.",
+        "deep": "The source description states that the workflow moves from a 2D reference image to a complete 3D asset. It separately mentions texture and geometry processing, indicating that the conversion involves more than a simple visual display of the image.\n\nThe supported use cases are further work in game engines and 3D software. The export step includes GLB and other formats, but no additional formats are named. The available material does not state the platform name, version number, technical method, processing time, or level of detail."
+      },
+      "cat": "3d",
+      "date": "2026-10-19T11:30:06Z",
+      "meta": "Pasindu Wijesekara | AI & Tech · 2026-10-19",
+      "url": "https://www.youtube.com/watch?v=aNE48secixo",
+      "img": "https://i.ytimg.com/vi/aNE48secixo/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Pasindu Wijesekara | AI & Tech"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro & 3D Model Overview"
+        },
+        {
+          "t": 13,
+          "l": "Generating the Reference Image"
+        },
+        {
+          "t": 168,
+          "l": "Introducing the AI 3D Platform"
+        },
+        {
+          "t": 213,
+          "l": "Setting Up Your Account"
+        },
+        {
+          "t": 311,
+          "l": "Converting Image to 3D Model"
+        },
+        {
+          "t": 417,
+          "l": "Texture & Geometry Processing"
+        },
+        {
+          "t": 530,
+          "l": "Inspecting the Final 3D Model"
+        },
+        {
+          "t": 596,
+          "l": "Exporting & Downloading (GLB & Formats)"
+        },
+        {
+          "t": 648,
+          "l": "Opening in 3D Viewer & Outro"
+        }
+      ],
+      "views": 9,
+      "buzz": 32,
+      "sourceCheckedAt": "2026-10-20T07:32:17.530Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "8fad9c5b2c223d6b7cf591b16eed52c8be75a2a6f2a9f61988b20c9a21fd04a0",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -26808,7 +26929,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -26826,7 +26947,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -26844,7 +26965,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -26862,7 +26983,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -26880,7 +27001,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -26898,7 +27019,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -26916,7 +27037,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 623000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -26934,7 +27055,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -26952,7 +27073,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -26970,7 +27091,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -26988,7 +27109,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -27006,7 +27127,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -27024,7 +27145,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -27042,7 +27163,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -27060,7 +27181,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -27078,7 +27199,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 304000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -27096,7 +27217,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -27114,7 +27235,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -27132,7 +27253,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -27150,7 +27271,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -27168,7 +27289,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -27186,7 +27307,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -27204,7 +27325,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 763000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -27222,7 +27343,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -27240,7 +27361,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 760000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -27258,7 +27379,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -27276,7 +27397,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 342000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -27294,7 +27415,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 197000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -27312,7 +27433,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 489000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -27330,7 +27451,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 456000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -27348,7 +27469,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -27366,7 +27487,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -27384,7 +27505,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -27402,7 +27523,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -27420,7 +27541,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -27428,36 +27549,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
-      "found": 4
+      "checkedAt": "2026-10-20T07:32:17.530Z",
+      "found": 5
     },
     "3d": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-19T19:54:46.026Z",
+      "checkedAt": "2026-10-20T07:32:17.530Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-19T19:54:46.026Z",
+    "calculatedAt": "2026-10-20T07:32:17.530Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -27467,36 +27588,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.334720646818927,
+      "elevenlabs": 1.272211829359277,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.06767825900980466,
+      "kling-3-0": 0.06450869094437206,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.25523469515128,
+      "higgsfield": 4.055949781531999,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6854001242548385,
+      "meshy-ai": 0.6533008596214658,
       "magnific-ai": 0,
-      "seedance-2-5": 3.76173375987351,
+      "seedance-2-5": 3.5350326955033693,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.9600988909437472,
-      "nano-banana-pro": 0.7778666102772768,
-      "nano-banana-2": 0.31887285577951413,
+      "wan-3-0": 0.915134690786771,
+      "nano-banana-pro": 0.7414368734138629,
+      "nano-banana-2": 0.30393912025795444,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.12351002256203875,
+      "hunyuan3d": 0.11772569198082827,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -27508,7 +27629,7 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.05918439881410232,
+      "gemini-omni-flash": 0.05641262271942133,
       "luma-agents": 0
     }
   }
