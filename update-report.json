@@ -1,180 +1,38 @@
 {
-  "startedAt": "2026-10-20T07:32:17.530Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 5
-    },
-    "3d": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-20T07:32:17.530Z",
-      "found": 8
-    }
-  },
-  "selection": {
-    "fetched": 133,
-    "relevant": 39,
-    "supported": 33
-  },
-  "rejected": [
+  "startedAt": "2026-10-20T10:07:21.963Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "XEl4ZQKKxig",
-      "title": "The Cheapest Robot On The Market?!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "platform": "pixverse-v4-5",
+      "field": "price",
+      "message": "Official source unavailable"
     },
     {
-      "video": "pur1QwIA0qg",
-      "title": "Who nails the most realistic concert photo?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "vidu-q3",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/pricing\",\"quote\":\"Vidu Q3 | - reference2video | 3-16S | 540P | 7 /Second | $0.035 / Second\",\"retrieved\":[]}"
     },
     {
-      "video": "b5D80OWst78",
-      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4
-      ]
+      "platform": "vidu-q3",
+      "field": "sub",
+      "message": "Quote not found: {\"url\":\"https://platform.vidu.com/docs/model-map\",\"quote\":\"Supports synchronized audio-video output - Supports intelligent shot switching\",\"retrieved\":[]}"
     },
     {
-      "video": "DWaHaHdiDAM",
-      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "vidu-q3",
+      "field": "deep",
+      "message": "Quote not found: {\"url\":\"https://www.vidu.com/ja/vidu-q3\",\"quote\":\"英語・日本語・中国語の動画生成に対応\",\"retrieved\":[]}"
     },
     {
-      "video": "z_M_fJpQyUc",
-      "title": "TRELLIS.2: one image into a PBR 3D model in ~1 minute?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        4
-      ]
+      "candidate": "Gemini 3.8 Live",
+      "message": "Invalid evidence URL"
     },
     {
-      "video": "FHXPmZ53lfU",
-      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "VVBszkWK0Io",
-      "title": "My favorite new image editing tool",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tDWtcyeNNew",
-      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Ar8yKK2liUw",
-      "title": "A to Z without a single mistake?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "o1olBay0Eww",
-      "title": "V2Fun AI 3D Model Generator",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "GYVSny6BDM0",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "hWtLEnyGuAI",
-      "title": "Create Professional AI Visuals With High-Resolution Image Generation & Editing.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5iVdLnVUU9M",
-      "title": "30秒の動画を直接生成！最新AI『Kling 4.0』発表で映画制作が激変する！ #AI",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "GppILOJ_ZDY",
-      "title": "chatgpt😡seInstagram Viral Photo Editing | ChatGPT  Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LZJROmYjxgQ",
-      "title": "Google’s New AI Filmmaking Tool",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "0ZyJjxRKjEk",
-      "title": "Ai Video Generation film making  #aiavatar #aivideo #heygen #foryou #reels #ugcads #videoediting",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        35
-      ]
-    },
-    {
-      "video": "HiuqoidfpTY",
-      "title": "🔥 AI Se Song Kaise Banaye 2026 🎵 | AI Song Kaise Banaye | AI Music Generator | How To Make AI Song",
-      "stage": "insufficient-article-source"
+      "candidate": "Qwen 3.8 Omni Flash",
+      "message": "Source too large"
     }
   ],
-  "accepted": 2
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T07:32:17.530Z",
+  "updatedAt": "2026-10-20T10:07:21.963Z",
   "newsCheckedAt": "2026-10-20T07:32:17.530Z",
   "news": [
     {
@@ -23868,7 +23868,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-07T11:49:27.031Z",
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -23881,7 +23881,7 @@
       "pct": 72,
       "price": "Gratis / betalplaner",
       "sub": "Referens-till-video med integrerad ljud- och videogenerering, kameraväxling och klipp på upp till 16 sekunder.",
-      "long": "Vidu Q3 är ett snabbt videoalternativ med bra upplösning, populärt för effektiv produktion och referensstyrd generering.",
+      "long": "Vidu Q3 beskrivs av Vidu som en modell för berättande videoproduktion där ljud och video genereras tillsammans i samma körning.",
       "pros": [
         "Snabb generering",
         "Bra upplösning",
@@ -23954,9 +23954,18 @@
               "quote": "Up to 16 seconds per generation."
             }
           ]
+        },
+        "long": {
+          "checkedAt": "2026-10-20T10:07:21.963Z",
+          "sources": [
+            {
+              "url": "https://go.vidu.com/vidu-q3",
+              "quote": "Native audio + video in one generation"
+            }
+          ]
         }
       },
-      "lastAttemptAt": "2026-10-08T12:04:24.980Z",
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -24003,7 +24012,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-08T12:04:24.980Z"
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z"
     },
     {
       "n": "Luma Genie",
@@ -24084,8 +24093,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-08T12:04:24.980Z",
-      "lastCheckError": "Invalid independent fact check"
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z"
     },
     {
       "n": "Hitem3D",
@@ -25515,14 +25523,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hygMRgnDD7w"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z",
+      "status": "retry",
+      "error": "Invalid evidence URL"
     },
     {
       "name": "Qwen 3.8 Omni Flash",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hygMRgnDD7w"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-20T10:07:21.963Z",
+      "status": "retry",
+      "error": "Source too large"
     },
     {
       "name": "Qwen 3.8 Live Translate",
@@ -25687,7 +25701,8 @@
         "https://www.youtube.com/watch?v=ZLekK6xylDI",
         "https://www.youtube.com/watch?v=tNXJCnHkXdk",
         "https://www.youtube.com/watch?v=kFKpcCHkuPI",
-        "https://www.youtube.com/watch?v=BExtQ740QgM"
+        "https://www.youtube.com/watch?v=BExtQ740QgM",
+        "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk"
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z"
     },
@@ -26187,7 +26202,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=MbxDhjoH-V4",
         "https://www.youtube.com/watch?v=oLldK2RJgzw",
-        "https://www.youtube.com/watch?v=ItZt9amULkI"
+        "https://www.youtube.com/watch?v=ItZt9amULkI",
+        "https://www.youtube.com/watch?v=h9ryZx49_J0"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
     },
@@ -26498,7 +26514,8 @@
     {
       "name": "Claude Code",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=V1AGM0IKFpg"
+        "https://www.youtube.com/watch?v=V1AGM0IKFpg",
+        "https://www.youtube.com/watch?v=Xjv4RbRVUgs"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
     },
@@ -26912,6 +26929,20 @@
         "https://www.youtube.com/watch?v=BExtQ740QgM"
       ],
       "firstSeen": "2026-10-19T10:49:40.637Z"
+    },
+    {
+      "name": "FLUX.3 Image Klein",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=T1q3fnVuwqY"
+      ],
+      "firstSeen": "2026-10-20T10:07:21.963Z"
+    },
+    {
+      "name": "RunComfy",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Xjv4RbRVUgs"
+      ],
+      "firstSeen": "2026-10-20T10:07:21.963Z"
     }
   ],
   "sourceChecks": {},
@@ -27578,7 +27609,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-20T07:32:17.530Z",
+    "calculatedAt": "2026-10-20T10:07:21.963Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -27588,36 +27619,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.272211829359277,
+      "elevenlabs": 1.2587175558427866,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.06450869094437206,
+      "kling-3-0": 0.06382445118201069,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.055949781531999,
+      "higgsfield": 3.962100674293393,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.6533008596214658,
+      "meshy-ai": 0.6463713371277704,
       "magnific-ai": 0,
-      "seedance-2-5": 3.5350326955033693,
+      "seedance-2-5": 3.4975368186517253,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.915134690786771,
-      "nano-banana-pro": 0.7414368734138629,
-      "nano-banana-2": 0.30393912025795444,
+      "wan-3-0": 0.9054279127668518,
+      "nano-banana-pro": 0.7335724975810292,
+      "nano-banana-2": 0.3007152564905597,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.11772569198082827,
+      "hunyuan3d": 0.11647698272436155,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -27629,7 +27660,7 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.05641262271942133,
+      "gemini-omni-flash": 0.05581425746043625,
       "luma-agents": 0
     }
   }
