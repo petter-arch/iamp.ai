@@ -1,46 +1,41 @@
 {
-  "startedAt": "2026-10-20T18:27:30.465Z",
+  "startedAt": "2026-10-21T07:38:39.747Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "tDWtcyeNNew",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-20T18:27:30.465Z",
+      "checkedAt": "2026-10-21T07:38:39.747Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 136,
-    "relevant": 42,
-    "supported": 35
+    "fetched": 134,
+    "relevant": 38,
+    "supported": 31
   },
   "rejected": [
     {
@@ -58,6 +53,7 @@
       "title": "Who nails the most realistic concert photo?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
@@ -94,7 +90,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        2
+        2,
+        7
       ]
     },
     {
@@ -106,13 +103,28 @@
       ]
     },
     {
+      "video": "VVBszkWK0Io",
+      "title": "My favorite new image editing tool",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "k7sOCIFc6ys",
       "title": "AI Agent vs Human on Sound Design",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "VVBszkWK0Io",
-      "title": "My favorite new image editing tool",
+      "video": "2gVfS19Hudk",
+      "title": "Claude just made motion graphics with zero video generator",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Ar8yKK2liUw",
+      "title": "A to Z without a single mistake?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "2Pmc13MXUzI",
+      "title": "Which AI Image Model Makes the Best 3D Models? I Tested 3",
       "stage": "insufficient-article-source"
     },
     {
@@ -126,6 +138,11 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "Ud30AxCQNxA",
       "title": "AI 3D Model Generation is INSANE!",
       "stage": "article-evidence",
@@ -134,18 +151,8 @@
       ]
     },
     {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "UO0NORZpX2Q",
       "title": "Google Pics: New AI Editing Tool in Workspace",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "o1olBay0Eww",
-      "title": "V2Fun AI 3D Model Generator",
       "stage": "insufficient-article-source"
     },
     {
@@ -154,23 +161,13 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "GYVSny6BDM0",
       "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "GppILOJ_ZDY",
-      "title": "chatgpt😡seInstagram Viral Photo Editing | ChatGPT  Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5iVdLnVUU9M",
-      "title": "30秒の動画を直接生成！最新AI『Kling 4.0』発表で映画制作が激変する！ #AI",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "LvME100eFZU",
-      "title": "AI 3d model generator finally doing what its told.. kinda...",
       "stage": "insufficient-article-source"
     },
     {
@@ -179,10 +176,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "video": "5iVdLnVUU9M",
+      "title": "30秒の動画を直接生成！最新AI『Kling 4.0』発表で映画制作が激変する！ #AI",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 5
 }
