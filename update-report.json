@@ -1,185 +1,73 @@
 {
-  "startedAt": "2026-10-21T07:38:39.747Z",
-  "mode": "news",
-  "errors": [],
-  "categories": {
-    "foto": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 8
-    },
-    "film": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 8
-    },
-    "ljud": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 5
-    },
-    "3d": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 8
-    },
-    "mdl": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 0
-    },
-    "tech": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 0
-    },
-    "robot": {
-      "checkedAt": "2026-10-21T07:38:39.747Z",
-      "found": 8
-    }
-  },
-  "selection": {
-    "fetched": 134,
-    "relevant": 38,
-    "supported": 31
-  },
-  "rejected": [
+  "startedAt": "2026-10-21T10:14:45.445Z",
+  "mode": "profiles",
+  "errors": [
     {
-      "video": "XEl4ZQKKxig",
-      "title": "The Cheapest Robot On The Market?!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
-      ]
+      "platform": "hitem3d",
+      "field": "price",
+      "message": "Quote not found: {\"url\":\"https://www.hitem3d.ai/pricing\",\"quote\":\"$19.90\\n$9.95\\n/ Month\",\"retrieved\":[]}"
     },
     {
-      "video": "pur1QwIA0qg",
-      "title": "Who nails the most realistic concert photo?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
+      "platform": "stable-audio-3-0",
+      "field": "tags",
+      "message": "Quote not found: {\"url\":\"https://stableaudio.com/\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
     },
     {
-      "video": "b5D80OWst78",
-      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4
-      ]
+      "platform": "stable-audio-3-0",
+      "field": "caps",
+      "message": "Quote not found: {\"url\":\"https://stableaudio.com/\",\"quote\":\"Use Stable Audio 3.0 without leaving your DAW\",\"retrieved\":[]}"
     },
     {
-      "video": "DWaHaHdiDAM",
-      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "stable-audio-3-0",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://stableaudio.com/\",\"quote\":\"Works with most major DAWs, including Ableton, Logic, Pro Tools and more\",\"retrieved\":[]}"
     },
     {
-      "video": "ntxxhO9H3bY",
-      "title": "Flux 3 Klein in ComfyUI | Generate, Edit & Combine Images (Ep39)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        3,
-        4
-      ]
+      "platform": "synthesia",
+      "field": "price",
+      "message": "Invalid official citation"
     },
     {
-      "video": "z_M_fJpQyUc",
-      "title": "TRELLIS.2: one image into a PBR 3D model in ~1 minute?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        7
-      ]
+      "platform": "synthesia",
+      "field": "tier",
+      "message": "Invalid official citation"
     },
     {
-      "video": "FHXPmZ53lfU",
-      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "platform": "synthesia",
+      "field": "free",
+      "message": "Invalid official citation"
     },
     {
-      "video": "VVBszkWK0Io",
-      "title": "My favorite new image editing tool",
-      "stage": "insufficient-article-source"
+      "platform": "topaz-labs",
+      "field": "long",
+      "message": "Quote not found: {\"url\":\"https://www.topazlabs.com/studio\",\"quote\":\"# Unlimited local rendering\",\"retrieved\":[]}"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
+      "platform": "topaz-labs",
+      "field": "pros",
+      "message": "Quote not found: {\"url\":\"https://www.topazlabs.com/studio\",\"quote\":\"# Unlimited cloud image rendering\",\"retrieved\":[]}"
     },
     {
-      "video": "2gVfS19Hudk",
-      "title": "Claude just made motion graphics with zero video generator",
-      "stage": "insufficient-article-source"
+      "platform": "topaz-labs",
+      "field": "deep",
+      "message": "Full claim not supported by cited evidence; previous value retained"
     },
     {
-      "video": "Ar8yKK2liUw",
-      "title": "A to Z without a single mistake?",
-      "stage": "insufficient-article-source"
+      "platform": "topaz-labs",
+      "field": "pricing",
+      "message": "Incomplete pricing evidence; previous price retained"
     },
     {
-      "video": "2Pmc13MXUzI",
-      "title": "Which AI Image Model Makes the Best 3D Models? I Tested 3",
-      "stage": "insufficient-article-source"
+      "candidate": "Qwen 3.8 Live Translate",
+      "message": "Evidence quote missing"
     },
     {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Ud30AxCQNxA",
-      "title": "AI 3D Model Generation is INSANE!",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "UO0NORZpX2Q",
-      "title": "Google Pics: New AI Editing Tool in Workspace",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "hWtLEnyGuAI",
-      "title": "Create Professional AI Visuals With High-Resolution Image Generation & Editing.",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "GYVSny6BDM0",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HiuqoidfpTY",
-      "title": "🔥 AI Se Song Kaise Banaye 2026 🎵 | AI Song Kaise Banaye | AI Music Generator | How To Make AI Song",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5iVdLnVUU9M",
-      "title": "30秒の動画を直接生成！最新AI『Kling 4.0』発表で映画制作が激変する！ #AI",
-      "stage": "insufficient-article-source"
+      "candidate": "Jev",
+      "message": "Evidence quote missing"
     }
   ],
-  "accepted": 5
+  "categories": {},
+  "checked": 4,
+  "updated": 1,
+  "newModels": 0
 }

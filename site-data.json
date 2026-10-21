@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T07:38:39.747Z",
+  "updatedAt": "2026-10-21T10:14:45.445Z",
   "newsCheckedAt": "2026-10-21T07:38:39.747Z",
   "news": [
     {
@@ -24576,7 +24576,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-08T12:04:24.980Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -24623,7 +24623,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -24716,7 +24716,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -24728,7 +24728,7 @@
       "bdg": "",
       "pct": 72,
       "price": "Engångsköp / abonnemang",
-      "sub": "AI-uppskalning och förbättring för bild och video",
+      "sub": "AI-uppskalning och bild-/videoförbättring i skrivbords-, webb- och mobilappar",
       "long": "Topaz Labs är proffsverktyget för att skala upp och förbättra bild och video — skärpa, brusreducering och uppskalning till 4K eller 8K. Branschstandard för efterbearbetning.",
       "pros": [
         "Bäst på uppskalning",
@@ -24736,8 +24736,8 @@
         "Lokal bearbetning"
       ],
       "cons": [
-        "Abonnemang",
-        "Höga hårdvarukrav för vissa videomodeller"
+        "Abonnemangsbaserad prissättning",
+        "Videomolnkrediter förs inte över mellan månader"
       ],
       "tags": [
         "Uppskalning",
@@ -24752,10 +24752,11 @@
       "rating": 80,
       "deep": "Branschstandard för att rädda och skala upp material i efterhand — kör lokalt och klarar både foto och video upp till 8K.",
       "caps": [
-        "Bild- och videouppskalning",
-        "Brusreducering och skärpning",
-        "Lokal rendering",
-        "Molnrendering"
+        "Bild- och videoförbättring i Topaz Video och Topaz Photo",
+        "Bilduppskalning i Topaz Gigapixel",
+        "Obegränsad lokal rendering",
+        "Obegränsad molnrendering för bilder",
+        "300 videomolnkrediter per månad"
       ],
       "free": null,
       "id": "topaz-labs",
@@ -24765,34 +24766,34 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "checkedAt": "2026-10-21T10:14:45.445Z",
           "sources": [
             {
-              "url": "https://www.topazlabs.com/api",
-              "quote": "image upscaling, image denoise, image sharpen, video upscaling, and video frame interpolation."
+              "url": "https://www.topazlabs.com/studio",
+              "quote": "Topaz Video, Topaz Photo, Topaz Gigapixel, Topaz for Mobile, Topaz for Web."
             }
           ]
         },
         "caps": {
-          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "checkedAt": "2026-10-21T10:14:45.445Z",
           "sources": [
             {
-              "url": "https://docs.topazlabs.com/topaz-video/quick-start",
-              "quote": "Topaz Video is a desktop application that you install and run directly on your computer."
+              "url": "https://docs.topazlabs.com/sales-account-licensing/before-you-buy/app-and-collection-options",
+              "quote": "Unlimited image cloud rendering included in app subscription."
             }
           ]
         },
         "cons": {
-          "checkedAt": "2026-09-27T10:35:26.679Z",
+          "checkedAt": "2026-10-21T10:14:45.445Z",
           "sources": [
             {
               "url": "https://docs.topazlabs.com/sales-account-licensing/before-you-buy/app-and-collection-options",
-              "quote": "All of our Collections, Desktop Apps, and Web Apps will have an Individual or a Pro subscription option:"
+              "quote": "Video credits do not roll over month-to-month."
             }
           ]
         }
       },
-      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -25199,7 +25200,8 @@
         "https://www.youtube.com/watch?v=W7q4-rm6GWk",
         "https://www.youtube.com/watch?v=c87kDohpi1E",
         "https://www.youtube.com/watch?v=2XYp_fmku_U",
-        "https://www.youtube.com/watch?v=p_I_N-83GAA"
+        "https://www.youtube.com/watch?v=p_I_N-83GAA",
+        "https://www.youtube.com/watch?v=W7j4RWiRE5k"
       ],
       "firstSeen": "2026-09-13T09:08:03.910Z",
       "lastAttemptAt": "2026-09-14T10:44:18.176Z",
@@ -25703,7 +25705,8 @@
         "https://www.youtube.com/watch?v=0uz1pxs5xa4",
         "https://www.youtube.com/watch?v=qAxp2rPlI_E",
         "https://www.youtube.com/watch?v=af3tpCF8mlI",
-        "https://www.youtube.com/watch?v=d5bekiaijvY"
+        "https://www.youtube.com/watch?v=d5bekiaijvY",
+        "https://www.youtube.com/watch?v=h-C-IiMtx5Y"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z",
       "lastAttemptAt": "2026-10-07T11:49:27.031Z",
@@ -25788,7 +25791,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=c87kDohpi1E",
         "https://www.youtube.com/watch?v=2XYp_fmku_U",
-        "https://www.youtube.com/watch?v=VpCGM2Zrl_w"
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w",
+        "https://www.youtube.com/watch?v=cUeZMUGCxrw"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z",
       "lastAttemptAt": "2026-10-11T11:26:07.217Z",
@@ -25982,14 +25986,21 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hygMRgnDD7w"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Jev",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=hygMRgnDD7w"
+        "https://www.youtube.com/watch?v=hygMRgnDD7w",
+        "https://www.youtube.com/watch?v=Kb8i5C3K4L0"
       ],
-      "firstSeen": "2026-09-21T10:47:30.467Z"
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-21T10:14:45.445Z",
+      "status": "retry",
+      "error": "Evidence quote missing"
     },
     {
       "name": "Tripo P2.0",
@@ -26658,7 +26669,8 @@
       "name": "Opus 5.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=gr9fEEKrO5Y",
-        "https://www.youtube.com/watch?v=kFKpcCHkuPI"
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI",
+        "https://www.youtube.com/watch?v=Kb8i5C3K4L0"
       ],
       "firstSeen": "2026-09-30T11:11:53.377Z"
     },
@@ -26903,7 +26915,8 @@
         "https://www.youtube.com/watch?v=QLv4WCKVqd0",
         "https://www.youtube.com/watch?v=Yo-GFKga2_w",
         "https://www.youtube.com/watch?v=2zBvyF4IExY",
-        "https://www.youtube.com/watch?v=415bddFocM0"
+        "https://www.youtube.com/watch?v=415bddFocM0",
+        "https://www.youtube.com/watch?v=S8rxk1Jhb0U"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
     },
@@ -27382,6 +27395,34 @@
         "https://www.youtube.com/watch?v=Xjv4RbRVUgs"
       ],
       "firstSeen": "2026-10-20T10:07:21.963Z"
+    },
+    {
+      "name": "PhotoGenerator AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=CkspRKKepQA"
+      ],
+      "firstSeen": "2026-10-21T10:14:45.445Z"
+    },
+    {
+      "name": "Higgsfield Supercomputer",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Kb8i5C3K4L0"
+      ],
+      "firstSeen": "2026-10-21T10:14:45.445Z"
+    },
+    {
+      "name": "MOSS Image",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cUeZMUGCxrw"
+      ],
+      "firstSeen": "2026-10-21T10:14:45.445Z"
+    },
+    {
+      "name": "Krea 2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cUeZMUGCxrw"
+      ],
+      "firstSeen": "2026-10-21T10:14:45.445Z"
     }
   ],
   "sourceChecks": {},
@@ -28048,7 +28089,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-21T07:38:39.747Z",
+    "calculatedAt": "2026-10-21T10:14:45.445Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -28058,36 +28099,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.1517677174451086,
+      "elevenlabs": 1.139470977233525,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.058401459575950096,
+      "kling-3-0": 0.057777941860090005,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.304077302221815,
+      "higgsfield": 6.236772411066229,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.5414480204443135,
+      "meshy-ai": 0.5356673013421589,
       "magnific-ai": 0,
-      "seedance-2-5": 4.1323966538267465,
+      "seedance-2-5": 4.08827750781001,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.8284961432037232,
-      "nano-banana-pro": 1.610694777289976,
-      "nano-banana-2": 0.27516429159292016,
+      "wan-3-0": 0.8196507816911831,
+      "nano-banana-pro": 1.5934983452868077,
+      "nano-banana-2": 0.2722265257934687,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.10658024741500235,
+      "hunyuan3d": 0.105442353381077,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
