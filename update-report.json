@@ -1,97 +1,247 @@
 {
-  "startedAt": "2026-10-22T10:15:50.011Z",
-  "mode": "profiles",
-  "errors": [
+  "startedAt": "2026-10-22T18:31:36.531Z",
+  "mode": "news",
+  "errors": [],
+  "categories": {
+    "foto": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 8
+    },
+    "film": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 8
+    },
+    "ljud": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 3
+    },
+    "3d": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 8
+    },
+    "mdl": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 0
+    },
+    "tech": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 0
+    },
+    "robot": {
+      "checkedAt": "2026-10-22T18:31:36.531Z",
+      "found": 8
+    }
+  },
+  "selection": {
+    "fetched": 137,
+    "relevant": 49,
+    "supported": 35
+  },
+  "rejected": [
     {
-      "platform": "gemini-omni-flash",
-      "field": "price",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing?authuser=0\",\"quote\":\"Input price | Not available | $1.50 (text / image / video / audio)\",\"retrieved\":[]}"
+      "video": "4C2e0oFgAkw",
+      "title": "The Final Boss of Green Screen.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        3
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "sub",
-      "message": "Invalid official citation"
+      "video": "godomkRXBLE",
+      "title": "CorridorKey 2.0 just works...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/deprecations/\",\"quote\":\"`gemini-omni-flash-preview` | June 30, 2026\",\"retrieved\":[]}"
+      "video": "S2srfNCa50A",
+      "title": "5 Prompts With Google's ULTRA Powerful New Model",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash?authuser=0\",\"quote\":\"fast, conversational video generation and editing\",\"retrieved\":[]}"
+      "video": "XEl4ZQKKxig",
+      "title": "The Cheapest Robot On The Market?!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "cons",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash?authuser=0\",\"quote\":\"Video (up to 10s for editing and extension)\",\"retrieved\":[]}"
+      "video": "X0_GDOkLKzQ",
+      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        19,
+        41
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "tags",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash?authuser=0\",\"quote\":\"video extension, resolution upscaling, and advanced interpolation.\",\"retrieved\":[]}"
+      "video": "hNAKl3oLFMs",
+      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        11,
+        17
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "caps",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash?authuser=0\",\"quote\":\"Input Text, Image, Video\",\"retrieved\":[]}"
+      "video": "pur1QwIA0qg",
+      "title": "Who nails the most realistic concert photo?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "tier",
-      "message": "Quote not found: {\"url\":\"https://ai.google.dev/gemini-api/docs/pricing?authuser=0\",\"quote\":\"Paid Tier, per 1M tokens in USD\",\"retrieved\":[]}"
+      "video": "cF67F-XpDOA",
+      "title": "Gemini 4 Just Did Something Wild #gemini",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "platform": "gemini-omni-flash",
-      "field": "free",
-      "message": "Invalid official citation"
+      "video": "b5D80OWst78",
+      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4
+      ]
     },
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "long",
-      "message": "Invalid official citation"
+      "video": "DWaHaHdiDAM",
+      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "chatgpt-images-2-0",
-      "field": "deep",
-      "message": "Unsupported source"
+      "video": "ntxxhO9H3bY",
+      "title": "Flux 3 Klein in ComfyUI | Generate, Edit & Combine Images (Ep39)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        3
+      ]
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "long",
-      "message": "Quote not found: {\"url\":\"https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/\",\"quote\":\"it ranks No. 2 for both text to image and image editing on Arena.\",\"retrieved\":[]}"
+      "video": "xnrjC4SWdN0",
+      "title": "Minecraft 3D Model Generator: AI-Made Washbasin Stand in Blockbench",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "mai-image-2-6",
-      "field": "pros",
-      "message": "Quote not found: {\"url\":\"https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/\",\"quote\":\"it ranks No. 2 for both text to image and image editing on Arena.\",\"retrieved\":[]}"
+      "video": "tOhAn3Z-ov8",
+      "title": "Gemini 4 Argon: what it does and who actually gets it",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "price",
-      "message": "Official source unavailable"
+      "video": "FHXPmZ53lfU",
+      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "platform": "midjourney-v8-2",
-      "field": "long",
-      "message": "Official source unavailable"
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
     },
     {
-      "platform": "midjourney-v8-2",
-      "message": "Invalid independent fact check"
+      "video": "dyrNQV0F3Zs",
+      "title": "Personal Body Guard Robot - What could go wrong?",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Tripo P2.0",
-      "message": "Official source unavailable"
+      "video": "VVBszkWK0Io",
+      "title": "My favorite new image editing tool",
+      "stage": "insufficient-article-source"
     },
     {
-      "candidate": "Dreamina",
-      "message": "Incomplete independent verification of new profile"
+      "video": "svrdRAoIlxM",
+      "title": "I Made the Best Green Screen Tool 100x Better!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tAfSOY9V0A0",
+      "title": "How to use a Depth Map for AI Motion Control",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EPYh_bgXJBk",
+      "title": "This AI trick Magically Creates New Camera Angles",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Ud30AxCQNxA",
+      "title": "AI 3D Model Generation is INSANE!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "umGZrkyTRtw",
+      "title": "AI Breakthroughs Everyone Missed",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "zMMyxZwnPV8",
+      "title": "AI Video Generation, Realistic Images & Voice Cloning 🤯",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "HJfHk2JY9kU",
+      "title": "AI Image Generation: From Drawing to Editing #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "HiBQP7wQwU4",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "UO0NORZpX2Q",
+      "title": "Google Pics: New AI Editing Tool in Workspace",
+      "stage": "insufficient-article-source"
     }
   ],
-  "categories": {},
-  "checked": 4,
-  "updated": 1,
-  "newModels": 0
+  "accepted": 3
 }

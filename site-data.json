@@ -1,8 +1,142 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T10:15:50.011Z",
-  "newsCheckedAt": "2026-10-22T07:54:15.935Z",
+  "updatedAt": "2026-10-22T18:31:36.531Z",
+  "newsCheckedAt": "2026-10-22T18:31:36.531Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI video can create impressive images, but controlling complex action, camera movement and timing is still difficult. For this sequence, I used Claude to create",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "d28xVvbx_2w",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Från Blender-previs till filmisk AI-video med Seedance",
+      "sum": "Cesc Nogueras beskriver ett arbetsflöde där Claude används för att skapa och förfina en enkel Blender-previs, som sedan fungerar som videoreferens i Seedance. Metoden ska ge bättre kontroll över komplexa rörelser, kameraförflyttningar, timing och handling innan den slutliga AI-videon genereras.",
+      "full": "AI-video kan skapa imponerande bilder, men kontrollen över komplexa händelseförlopp, kamerarörelser och timing är fortfarande svår. Det är utgångspunkten för Cesc Nogueras arbetsflöde, där en enkel 3D-previs används för att planera sekvensen innan den generativa videon skapas.\n\nEnligt kanalens beskrivning används Claude först för att skapa och förfina en enkel Blender-previs. Previsen behöver inte se realistisk ut. Dess funktion är i stället att fastställa komposition, rörelse, timing och handling på ett kontrollerat sätt.\n\nNär animeringen är klar används Blender-resultatet som videoreferens i Seedance. Seedance genererar därefter den slutliga filmiska versionen utifrån den planerade rörelsen och bildkompositionen. Det beskrivna flödet är Claude → Blender-previs → Seedance → slutlig redigering.\n\nArbetsmetoden placerar alltså planeringen av scenens struktur före den visuella AI-genereringen. I stället för att försöka styra hela sekvensen enbart med text använder skaparen en animerad referens för att definiera vad som ska hända, hur kameran ska röra sig och när olika delar ska inträffa. Cesc Nogueras frågar om Blender kan användas för att få större kontroll över AI-video.",
+      "deep": "Beskrivningen framställer Blender-renderingen som ett kontrollunderlag, inte som den slutliga visuella produktionen. Den behöver därför inte vara realistisk; det centrala är att den kommunicerar komposition, rörelse, timing och handling till nästa steg i processen.\n\nDet konkreta AI-arbetsflödet kombinerar Claude, Blender och Seedance med en slutlig redigering. Claude används i den inledande fasen för att skapa och förfina previsen, medan Seedance används för att generera den filmiska videoversionen från animeringen som videoreferens. Källbeskrivningen anger inga uppgifter om modellversion, resultatmått, tidsbesparingar eller oberoende testning.",
+      "en": {
+        "ttl": "From Blender Previs to Cinematic AI Video with Seedance",
+        "sum": "Cesc Nogueras describes a workflow in which Claude is used to create and refine a simple Blender previs, which then serves as a video reference in Seedance. The method is intended to provide more control over complex movement, camera motion, timing and action before the final AI video is generated.",
+        "full": "AI video can create impressive images, but controlling complex action, camera movement and timing remains difficult. This is the starting point for Cesc Nogueras’s workflow, in which a simple 3D previs is used to plan a sequence before generating the final video.\n\nAccording to the channel description, Claude is first used to create and refine a simple Blender previs. The previs does not need to look realistic. Instead, its purpose is to establish the composition, movement, timing and action in a controlled way.\n\nOnce the animation is complete, the Blender result is used as a video reference in Seedance. Seedance then generates the final cinematic version from the planned movement and composition. The described workflow is Claude → Blender previs → Seedance → final edit.\n\nThe method therefore places scene planning before visual AI generation. Rather than attempting to control the entire sequence through text alone, the creator uses an animated reference to define what happens, how the camera moves and when different parts occur. Cesc Nogueras asks whether Blender can be used to gain more control over AI video.",
+        "deep": "The description presents the Blender render as a control guide, not as the final visual production. It therefore does not need to be realistic; the key purpose is to communicate composition, movement, timing and action to the next stage.\n\nThe concrete AI workflow combines Claude, Blender and Seedance with a final edit. Claude is used in the initial phase to create and refine the previs, while Seedance generates the cinematic video version from the animation as a video reference. The source description provides no information about model versions, performance metrics, time savings or independent testing."
+      },
+      "cat": "film",
+      "date": "2026-10-22T17:00:15Z",
+      "meta": "Cesc Nogueras · 2026-10-22",
+      "url": "https://www.youtube.com/watch?v=d28xVvbx_2w",
+      "img": "https://i.ytimg.com/vi/d28xVvbx_2w/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Cesc Nogueras"
+      ],
+      "parts": [],
+      "views": 34,
+      "buzz": 39,
+      "sourceCheckedAt": "2026-10-22T18:31:36.531Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "c752abcd16fb16c0a46be2fb2bfb34a6f6dbb0d4821ac9d8b01774b38c4ee4ee",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Claude",
+        "Seedance"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Want to create cinematic AI videos with stunning visual effects? In this tutorial, I'll show you how to transform ordinary footage into a realistic AI-generated",
+      "evidenceIds": [
+        2,
+        3,
+        8
+      ],
+      "id": "roHaQAy5lgw",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "AI Buzz visar arbetsflöde för filmiska AI-videor i Filmora 16",
+      "sum": "AI Buzz beskriver ett komplett arbetsflöde i Filmora 16 för att skapa korta, filmiska AI-videor med tsunami- och stormscener, bild-till-video, text-till-video, AI-baserade visuella effekter och efterbearbetning.",
+      "full": "YouTube-kanalen AI Buzz presenterar ett arbetsflöde för att skapa filmiska AI-videor i Filmora 16. Enligt beskrivningen används verktyget för att omvandla vanligt videomaterial till en realistisk katastroffilm med AI-genererade visuella effekter, bland annat massiva tsunamiscener, dramatiska stormar och actionsekvenser.\n\nArbetsflödet kombinerar flera AI-steg. Referensbilder kan omvandlas till videoklipp med bild-till-video, samtidigt som beskrivningen framhåller bibehållen karaktärskontinuitet mellan olika scener. Med text-till-video skapas stormscener och dramatiska miljöer från textinstruktioner.\n\nAI Buzz beskriver därefter hur de genererade klippen sammanfogas i Filmoras tidslinje. Klippen kan trimmas och kompletteras med övergångar för att skapa en sammanhängande filmisk berättelse. Beskrivningen tar också upp automatisk färgkorrigering och Color Mask för lokala färgjusteringar.\n\nGuiden riktar sig enligt kanalen till nybörjare och kreatörer som vill lära sig AI-baserad videogenerering, AI-visuella effekter och redigering i ett sammanhängande arbetsflöde. Den omfattar import av originalmaterial, skapande av AI-tsunamieffekter, textbaserad generering av stormscener, actionsekvenser med konsekventa karaktärer, redigering, färggradering och export.",
+      "deep": "Beskrivningen anger ett konkret användningsfall: att bygga en kort katastroffilm från originalmaterial och AI-genererade klipp. Arbetsflödet börjar med import av originalvideo och använder därefter bild-till-video för tsunami-VFX samt text-till-video för stormmiljöer. För actionsekvenser lyfts konsekventa karaktärer mellan scener fram som ett mål.\n\nDen redaktionella tyngdpunkten ligger på kombinationen av generering och efterbearbetning snarare än på en enda AI-funktion. I Filmora 16 samlas AI-videogenerering, AI-VFX, tidslinjeredigering, övergångar och färgarbete i samma process. Auto Color används för automatisk färgkorrigering, medan Color Mask enligt beskrivningen ger mer precisa lokala justeringar.\n\nAI Buzz beskriver materialet som en steg-för-steg-guide och nämner även en slutlig visning samt export av den AI-genererade videon. Beskrivningen specificerar inte vilka underliggande AI-modeller som används, hur resultaten har presterat i oberoende tester eller vilka tekniska begränsningar arbetsflödet har. Uppgifterna ska därför förstås som kanalens beskrivning av tutorialens innehåll, inte som en självständig utvärdering av Filmora 16.",
+      "en": {
+        "ttl": "AI Buzz presents a cinematic AI video workflow in Filmora 16",
+        "sum": "AI Buzz describes a complete Filmora 16 workflow for creating short cinematic AI videos with tsunami and storm scenes, image-to-video, text-to-video, AI visual effects and post-production.",
+        "full": "YouTube channel AI Buzz presents a workflow for creating cinematic AI videos in Filmora 16. According to the description, the tool is used to transform ordinary footage into a realistic disaster movie with AI-generated visual effects, including massive tsunami scenes, dramatic storms and action sequences.\n\nThe workflow combines several AI steps. Reference images can be turned into video clips with image-to-video, while the description highlights maintaining character consistency across different scenes. Text-to-video is used to create storm scenes and dramatic environments from text prompts.\n\nAI Buzz then describes combining the generated clips in Filmora's timeline. Clips can be trimmed and supplemented with transitions to create a seamless cinematic story. The description also covers automatic color correction and Color Mask for local color adjustments.\n\nAccording to the channel, the guide is aimed at beginners and creators who want to learn AI video generation, AI visual effects and editing in one workflow. It covers importing original footage, creating AI tsunami effects, generating storm scenes with text, producing action sequences with consistent characters, editing, color grading and exporting.",
+        "deep": "The description gives a concrete use case: building a short disaster movie from original footage and AI-generated clips. The workflow starts by importing original video, then uses image-to-video for tsunami VFX and text-to-video for storm environments. For action sequences, consistent characters across scenes are presented as a goal.\n\nThe editorial focus is on combining generation and post-production rather than on a single AI feature. Filmora 16 brings together AI video generation, AI VFX, timeline editing, transitions and color work in one process. Auto Color is used for automatic color correction, while Color Mask is described as providing more precise local adjustments.\n\nAI Buzz describes the material as a step-by-step guide and also mentions a final showcase and export of the AI-generated video. The description does not specify which underlying AI models are used, how the results performed in independent tests or what technical limitations the workflow has. The information should therefore be understood as the channel's description of the tutorial content, not as an independent evaluation of Filmora 16."
+      },
+      "cat": "film",
+      "date": "2026-10-22T12:30:07Z",
+      "meta": "AI Buzz · 2026-10-22",
+      "url": "https://www.youtube.com/watch?v=roHaQAy5lgw",
+      "img": "https://i.ytimg.com/vi/roHaQAy5lgw/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Buzz"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Cinematic AI VFX Preview"
+        },
+        {
+          "t": 109,
+          "l": "Import Original Footage into Filmora 16"
+        },
+        {
+          "t": 127,
+          "l": "Create AI Tsunami VFX with Image to Video"
+        },
+        {
+          "t": 193,
+          "l": "Generate Cinematic Storm Scenes with Text to Video"
+        },
+        {
+          "t": 229,
+          "l": "Create AI Action Scenes with Consistent Characters"
+        },
+        {
+          "t": 296,
+          "l": "AI Video Editing & Timeline Workflow"
+        },
+        {
+          "t": 321,
+          "l": "Add Cinematic Video Transitions"
+        },
+        {
+          "t": 347,
+          "l": "Auto Color for Cinematic Color Grading"
+        },
+        {
+          "t": 380,
+          "l": "Color Mask Tutorial in Filmora 16"
+        },
+        {
+          "t": 474,
+          "l": "Final Cinematic AI Video Showcase"
+        },
+        {
+          "t": 525,
+          "l": "Export Your AI-Generated Video"
+        }
+      ],
+      "views": 723,
+      "buzz": 54,
+      "sourceCheckedAt": "2026-10-22T18:31:36.531Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "2cdd7b3ddb857d93c17faf89492b80e35be50eb519eea39632ae3b644cced134",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Filmora 16"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "In this video, I test Hyper3D Agentic Mode by transforming a detailed technical reference of the Sweet Cart 230 ice cream cart into a 3D",
@@ -132,6 +266,95 @@
       "newPlatforms": [
         "Kraftflix Spotlight"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "This Higgsfield AI tutorial walks you through everything you need to know as a beginner. Go from generating your first image all the way to",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ],
+      "id": "3W1VhiKLNp4",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så bygger du en AI-reklam i Higgsfield AI från bild till färdig video",
+      "sum": "Metics Media visar hur nybörjare kan använda Higgsfield AI för att skapa produktbilder, videor med ljud och voiceovers, och sedan sammanfoga återanvändbara karaktärer, platser och produkter i Cinema Studio till en videoannons.",
+      "full": "I en nybörjarguide visar kanalen Metics Media ett komplett arbetsflöde i Higgsfield AI: från att skapa den första bilden till att sammanställa en färdig video. Guiden är utformad för användare utan tidigare erfarenhet av AI-generatorer och börjar med en genomgång av plattformens gränssnitt och val av abonnemang.\n\nArbetsflödet utgår från en produktmockup där användarens egen logotyp används som referens. Därefter omvandlas bilden till en video med ljud. Kanalen visar också hur en voiceover kan skapas från ett enkelt manus med text-till-tal, vilket gör att bild-, video- och röststegen kan hanteras inom samma AI-plattform.\n\nDen centrala delen är Cinema Studio. Där sparas en karaktär, en plats och en produkt som återanvändbara element. Dessa kombineras sedan i ett sammanhängande videoprojekt som enligt kanalens beskrivning blir en videoannons. Metics Media tar även upp hur upplösningen kan skalas upp och hur användaren kan kontrollera sina tillgångar och krediter.\n\nEnligt kanalens beskrivning fungerar hela arbetsflödet på Starter-planen. Guiden behandlar därför inte bara själva skapandet, utan även hur batchstorleken påverkar kreditförbrukningen och vilket abonnemang som krävs för att följa stegen.",
+      "deep": "Metics Media beskriver ett konkret flöde med flera sammanlänkade AI-funktioner: bildgenerering med egen logotyp eller eget foto som referens, bild-till-video med ljud, text-till-tal från manus och projektbyggande i Cinema Studio. De återanvändbara elementen för karaktärer, platser och produkter är avsedda att kunna kombineras i flera delar av ett videoprojekt.\n\nBeskrivningen anger inte vilka specifika modeller som driver funktionerna, hur resultatens kvalitet har utvärderats eller vilka begränsningar som gäller utöver Starter-planen och kreditförbrukningen. Uppgifterna i artikeln återger därför kanalens presenterade arbetsflöde och ska inte tolkas som ett oberoende test av Higgsfield AI.",
+      "en": {
+        "ttl": "How to build an AI ad in Higgsfield AI from image to finished video",
+        "sum": "Metics Media shows beginners how to use Higgsfield AI to create product images, videos with sound and voiceovers, then combine reusable characters, locations and products in Cinema Studio into a video ad.",
+        "full": "In a beginner guide, the channel Metics Media presents a complete workflow in Higgsfield AI, from creating the first image to assembling a finished video. The guide is aimed at users with no previous experience of AI generators and begins with an overview of the platform interface and subscription choices.\n\nThe workflow starts with a product mockup that uses the user’s own logo as a reference. The image is then turned into a video with sound. The channel also shows how to create a voiceover from a simple script using text-to-speech, allowing the image, video and voice steps to be handled within the same AI platform.\n\nThe central part is Cinema Studio. There, a character, location and product are saved as reusable elements. They are then combined in one video project that, according to the channel’s description, becomes a video advertisement. Metics Media also covers upscaling the resolution and checking assets and credits.\n\nAccording to the channel’s description, the entire workflow works on the Starter plan. The guide therefore covers not only creation, but also how batch size affects credit usage and which plan is needed to follow the steps.",
+        "deep": "Metics Media describes a concrete workflow combining several AI functions: image generation with a user’s own logo or photo as a reference, image-to-video with sound, text-to-speech from a script and project assembly in Cinema Studio. The reusable character, location and product elements are intended to be combined across a video project.\n\nThe description does not specify which models power the features, how output quality was evaluated or what limitations apply beyond the Starter plan and credit usage. The article therefore reports the workflow presented by the channel and should not be read as an independent test of Higgsfield AI."
+      },
+      "cat": "film",
+      "date": "2026-10-21T11:00:16Z",
+      "meta": "Metics Media · 2026-10-21",
+      "url": "https://www.youtube.com/watch?v=3W1VhiKLNp4",
+      "img": "https://i.ytimg.com/vi/3W1VhiKLNp4/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "Metics Media"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 78,
+          "l": "Choosing Your Plan"
+        },
+        {
+          "t": 117,
+          "l": "Finding Your Way Around"
+        },
+        {
+          "t": 193,
+          "l": "Generating Your First Image"
+        },
+        {
+          "t": 423,
+          "l": "Generating Your First Video"
+        },
+        {
+          "t": 601,
+          "l": "Generating Your First Voiceover"
+        },
+        {
+          "t": 702,
+          "l": "Setting Up Your Cinema Studio Project"
+        },
+        {
+          "t": 775,
+          "l": "Creating Your Elements"
+        },
+        {
+          "t": 981,
+          "l": "Generating Your Cinema Studio Video"
+        },
+        {
+          "t": 1182,
+          "l": "Checking Your Assets and Credits"
+        },
+        {
+          "t": 1205,
+          "l": "Next Steps"
+        }
+      ],
+      "views": 23242,
+      "buzz": 72,
+      "sourceCheckedAt": "2026-10-22T18:31:36.531Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "8258bc7ecbbe9dccfa6780c728ea7729d8dd2232458edb1ea2f031405188a93f",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -27906,7 +28129,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7180000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -27924,7 +28147,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -27942,7 +28165,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -27960,7 +28183,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -27978,7 +28201,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6050000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -27996,7 +28219,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -28014,7 +28237,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 623000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -28032,7 +28255,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -28050,7 +28273,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 544000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -28068,7 +28291,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -28086,7 +28309,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -28104,7 +28327,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -28122,7 +28345,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -28140,7 +28363,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -28158,7 +28381,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1020000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -28176,7 +28399,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -28194,7 +28417,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -28212,7 +28435,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -28230,7 +28453,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -28248,7 +28471,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -28266,7 +28489,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -28284,7 +28507,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -28302,7 +28525,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 764000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -28320,7 +28543,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 277000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -28338,7 +28561,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 762000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -28356,7 +28579,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -28374,7 +28597,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 342000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -28392,7 +28615,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 197000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -28409,8 +28632,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 489000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "subscriberCount": 490000,
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -28428,7 +28651,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 456000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -28446,7 +28669,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -28464,7 +28687,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -28482,7 +28705,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -28500,7 +28723,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -28518,7 +28741,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -28526,36 +28749,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-22T07:54:15.935Z",
+      "checkedAt": "2026-10-22T18:31:36.531Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-22T10:15:50.011Z",
+    "calculatedAt": "2026-10-22T18:31:36.531Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -28565,36 +28788,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.0319694627463905,
+      "elevenlabs": 0.9477745236395202,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.05232697700182812,
+      "kling-3-0": 0,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.60074225602553,
+      "higgsfield": 6.291066006231484,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.4378734967994282,
+      "meshy-ai": 0.42319719627496116,
       "magnific-ai": 0,
-      "seedance-2-5": 3.6538188232089484,
+      "seedance-2-5": 3.5313529888907507,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.7423221773275217,
-      "nano-banana-pro": 1.3944054959203769,
-      "nano-banana-2": 0.24654376213289733,
+      "wan-3-0": 0.7174416046505558,
+      "nano-banana-pro": 1.3476689058762668,
+      "nano-banana-2": 0.23828030163130745,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.09549456804382013,
+      "hunyuan3d": 0.09229385599043172,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
