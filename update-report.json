@@ -1,67 +1,57 @@
 {
-  "startedAt": "2026-10-21T18:37:18.845Z",
+  "startedAt": "2026-10-22T07:54:15.935Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "DD4oHSH5SEI",
+      "message": "No valid structured model response"
+    },
+    {
+      "video": "umGZrkyTRtw",
+      "message": "Unknown platform ID"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-21T18:37:18.845Z",
+      "checkedAt": "2026-10-22T07:54:15.935Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 134,
-    "relevant": 48,
-    "supported": 38
+    "fetched": 132,
+    "relevant": 39,
+    "supported": 30
   },
   "rejected": [
     {
-      "video": "4C2e0oFgAkw",
-      "title": "The Final Boss of Green Screen.",
+      "video": "XEl4ZQKKxig",
+      "title": "The Cheapest Robot On The Market?!",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "godomkRXBLE",
-      "title": "CorridorKey 2.0 just works...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "S2srfNCa50A",
-      "title": "5 Prompts With Google's ULTRA Powerful New Model",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
         1,
         2
       ]
@@ -77,21 +67,30 @@
       ]
     },
     {
-      "video": "hNAKl3oLFMs",
-      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        11,
-        17
-      ]
-    },
-    {
       "video": "pur1QwIA0qg",
       "title": "Who nails the most realistic concert photo?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
+      ]
+    },
+    {
+      "video": "cF67F-XpDOA",
+      "title": "Gemini 4 Just Did Something Wild #gemini",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "b5D80OWst78",
+      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4
       ]
     },
     {
@@ -99,6 +98,7 @@
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
@@ -113,13 +113,12 @@
       ]
     },
     {
-      "video": "z_M_fJpQyUc",
-      "title": "TRELLIS.2: one image into a PBR 3D model in ~1 minute?",
+      "video": "tOhAn3Z-ov8",
+      "title": "Gemini 4 Argon: what it does and who actually gets it",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         2,
-        7
+        3
       ]
     },
     {
@@ -131,18 +130,8 @@
       ]
     },
     {
-      "video": "svrdRAoIlxM",
-      "title": "I Made the Best Green Screen Tool 100x Better!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tDWtcyeNNew",
-      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
     },
     {
@@ -151,8 +140,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "dn3nywISM1I",
-      "title": "New AI Create Lab in MakeNow | Run different AI image & 3D models inside Creality Cloud #3dprinting",
+      "video": "gyTcoQlibdk",
+      "title": "Create an Unrolling Timeline video with Claude Motion",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dyrNQV0F3Zs",
+      "title": "Personal Body Guard Robot - What could go wrong?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "I9ja4gEbBiI",
+      "title": "How does Claude Motion work?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "R706jvQfQMM",
+      "title": "New Claude Motion Feature",
       "stage": "insufficient-article-source"
     },
     {
@@ -171,8 +180,23 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "HJfHk2JY9kU",
+      "title": "AI Image Generation: From Drawing to Editing #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "UO0NORZpX2Q",
+      "title": "Google Pics: New AI Editing Tool in Workspace",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "2Pmc13MXUzI",
       "title": "Which AI Image Model Makes the Best 3D Models? I Tested 3",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KP0nACn50FE",
+      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
     },
     {
@@ -182,27 +206,7 @@
       "evidenceIds": [
         1
       ]
-    },
-    {
-      "video": "UO0NORZpX2Q",
-      "title": "Google Pics: New AI Editing Tool in Workspace",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "GYVSny6BDM0",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls |Ai Photo Editing #ai #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "U6nBI5BGluQ",
-      "title": "Gemini 4 ARGON AI Agents Supercharge Humanoids, Blender, 3D Printing, Animation",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 6
+  "accepted": 3
 }
