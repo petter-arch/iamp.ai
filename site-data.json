@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T07:54:15.935Z",
+  "updatedAt": "2026-10-22T10:15:50.011Z",
   "newsCheckedAt": "2026-10-22T07:54:15.935Z",
   "news": [
     {
@@ -21543,7 +21543,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -21555,7 +21555,7 @@
       "bdg": "new",
       "pct": 96,
       "price": "Gratis att testa (Arena/MAI Playground) · betalversion via Microsoft Foundry, pris ej satt",
-      "sub": "Microsofts bildmodell för högkvalitativ generering och kontrollerbar bildredigering",
+      "sub": "Microsofts bildmodell för högkvalitativ generering och kontrollerbar bildredigering från text, bilder, webbsammanhang och visuella referenser.",
       "long": "MAI-Image-2.6 lanserades 10 augusti 2026 och klev direkt in som nummer två på Arenas oberoende text-till-bild-ledtavla av 77 system, bara slaget av GPT Image 2 och före modeller från Google, Meta och xAI. Den vinner +79 Elo över föregångaren MAI-Image-2.5, med störst hopp i textrendering (+91 Elo). En uppdatering 18 augusti tog den även till tredje plats på bildredigerings-ledtavlan, före Googles Nano Banana-familj och Metas Muse Image.",
       "pros": [
         "Nummer två globalt på oberoende Arena-ledtavla",
@@ -21597,11 +21597,11 @@
       },
       "fieldChecks": {
         "sub": {
-          "checkedAt": "2026-10-10T11:12:43.125Z",
+          "checkedAt": "2026-10-22T10:15:50.011Z",
           "sources": [
             {
               "url": "https://microsoft.ai/models/mai-image-2-6/",
-              "quote": "Create and edit high-quality, design-ready images"
+              "quote": "Create and edit high-quality, design-ready images from text, images, web context, and visual references"
             }
           ]
         },
@@ -21645,7 +21645,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -21695,7 +21695,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-10T11:12:43.125Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
       "lastCheckError": "Invalid independent fact check"
     },
     {
@@ -25262,7 +25262,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-09T11:56:15.996Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
       "lastCheckError": "Some fields could not be verified"
     },
     {
@@ -25834,7 +25834,8 @@
         "https://www.youtube.com/watch?v=D8qiNmxPSuc",
         "https://www.youtube.com/watch?v=0geOeaTgXu0",
         "https://www.youtube.com/watch?v=2zBvyF4IExY",
-        "https://www.youtube.com/watch?v=umyrdpsnFCA"
+        "https://www.youtube.com/watch?v=umyrdpsnFCA",
+        "https://www.youtube.com/watch?v=Ar8yKK2liUw"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z",
       "lastAttemptAt": "2026-09-24T10:05:38.488Z",
@@ -26147,7 +26148,8 @@
       "name": "MiniMax H3",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=KsaEx3nQmwo",
-        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
+        "https://www.youtube.com/watch?v=ky9Gj5N3wyQ",
+        "https://www.youtube.com/watch?v=M07imfGtl-8"
       ],
       "firstSeen": "2026-09-20T09:50:23.089Z",
       "lastAttemptAt": "2026-10-08T12:04:24.980Z",
@@ -26428,14 +26430,20 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=mYNbxioF6I8"
       ],
-      "firstSeen": "2026-09-22T10:02:19.819Z"
+      "firstSeen": "2026-09-22T10:02:19.819Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
+      "status": "retry",
+      "error": "Official source unavailable"
     },
     {
       "name": "Dreamina",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
       ],
-      "firstSeen": "2026-09-22T10:02:19.819Z"
+      "firstSeen": "2026-09-22T10:02:19.819Z",
+      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile"
     },
     {
       "name": "Seed Audio 1.0",
@@ -27337,7 +27345,8 @@
         "https://www.youtube.com/watch?v=Yo-GFKga2_w",
         "https://www.youtube.com/watch?v=2zBvyF4IExY",
         "https://www.youtube.com/watch?v=415bddFocM0",
-        "https://www.youtube.com/watch?v=S8rxk1Jhb0U"
+        "https://www.youtube.com/watch?v=S8rxk1Jhb0U",
+        "https://www.youtube.com/watch?v=Ar8yKK2liUw"
       ],
       "firstSeen": "2026-10-08T12:04:24.980Z"
     },
@@ -27844,6 +27853,42 @@
         "https://www.youtube.com/watch?v=cUeZMUGCxrw"
       ],
       "firstSeen": "2026-10-21T10:14:45.445Z"
+    },
+    {
+      "name": "Kraftflix Spotlight",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=xqCjC2Ent1U",
+        "https://www.youtube.com/watch?v=VA0GwcfjReE"
+      ],
+      "firstSeen": "2026-10-22T10:15:50.011Z"
+    },
+    {
+      "name": "AI Create Lab",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dn3nywISM1I"
+      ],
+      "firstSeen": "2026-10-22T10:15:50.011Z"
+    },
+    {
+      "name": "Creality Cloud MakeNow",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dn3nywISM1I"
+      ],
+      "firstSeen": "2026-10-22T10:15:50.011Z"
+    },
+    {
+      "name": "SimpliGen",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M07imfGtl-8"
+      ],
+      "firstSeen": "2026-10-22T10:15:50.011Z"
+    },
+    {
+      "name": "Claude Motion",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=qZqZ02AsYiA"
+      ],
+      "firstSeen": "2026-10-22T10:15:50.011Z"
     }
   ],
   "sourceChecks": {},
@@ -28510,7 +28555,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-22T07:54:15.935Z",
+    "calculatedAt": "2026-10-22T10:15:50.011Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -28520,36 +28565,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.0420646012230843,
+      "elevenlabs": 1.0319694627463905,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.052838860442152386,
+      "kling-3-0": 0.05232697700182812,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.655530959265232,
+      "higgsfield": 5.60074225602553,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.44215695066607685,
+      "meshy-ai": 0.4378734967994282,
       "magnific-ai": 0,
-      "seedance-2-5": 3.6895619418966663,
+      "seedance-2-5": 3.6538188232089484,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.7495838700858508,
-      "nano-banana-pro": 1.4080461287899937,
-      "nano-banana-2": 0.24895555192818153,
+      "wan-3-0": 0.7423221773275217,
+      "nano-banana-pro": 1.3944054959203769,
+      "nano-banana-2": 0.24654376213289733,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.09642873414366657,
+      "hunyuan3d": 0.09549456804382013,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
