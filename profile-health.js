@@ -1,0 +1,18 @@
+// Display verification age, not the time a news feed happened to be updated.
+(function(root){
+ 'use strict';
+ function status(p,now){var v=p.verification;if(!v)return p.lastCheckError?'failed':'unknown';var age=now-Date.parse(v.attemptedAt);if(!Number.isFinite(age)||age<0||age>26*3600000)return 'stale';if(v.status==='verified'){var checked=now-Date.parse(v.checkedAt);if(!Number.isFinite(checked)||checked<0||checked>26*3600000)return 'stale';}return ['verified','partial','failed'].includes(v.status)?v.status:'unknown';}
+ function label(p,now,lang){var s=status(p,now),en=lang==='en',v=p.verification||{};var text=({verified:en?'Verified':'Verifierad',partial:en?'Partly verified — older facts retained':'Delvis verifierad — tidigare fakta kvar',failed:en?'Check failed — previous facts shown':'Kontroll misslyckades — tidigare fakta visas',stale:en?'Needs a new check':'Behöver ny kontroll',unknown:en?'Not yet verified':'Ännu inte verifierad'})[s];if(s==='partial')text+=' ('+(v.fields||[]).length+'/'+(v.requiredFields||12)+')';var date=s==='verified'?v.checkedAt:v.attemptedAt||p.lastAttemptAt;if(Number.isFinite(Date.parse(date)))text+=' · '+new Date(date).toLocaleString(en?'en-GB':'sv-SE',{dateStyle:'short',timeStyle:'short'});return text;}
+ function escape(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+ function markup(p,now,lang){return '<div class="nmeta model-health" data-model-health="'+escape(p.id)+'" role="status">'+escape(label(p,now,lang))+'</div>';}
+ if(typeof module!=='undefined'&&module.exports)module.exports={status:status,label:label,markup:markup};
+ if(!root||!root.document||typeof root.platCard!=='function')return;
+ var original=root.platCard;
+ root.platCard=function(p,pi){return original(p,pi).replace('<div class="nsum">',markup(p,Date.now(),root.LANG)+'<div class="nsum">');};
+ function summary(){var data=root.siteState||{},list=root.PLATS||[],now=Date.now(),count=list.filter(function(p){return status(p,now)==='verified';}).length,en=root.LANG==='en';var text=en?count+' of '+list.length+' model profiles recently verified.':count+' av '+list.length+' modellprofiler nyligen verifierade.';var stamp=data.trends&&data.trends.calculatedAt;if(Number.isFinite(Date.parse(stamp)))text+=(en?' Trend order calculated: ':' Trendordning beräknad: ')+new Date(stamp).toLocaleString(en?'en-GB':'sv-SE',{dateStyle:'short',timeStyle:'short'})+'.';if(now-Date.parse(stamp)>26*3600000)text+=en?' Trend data needs refreshing.':' Trendunderlaget behöver uppdateras.';return text;}
+ if(typeof root.buildPlatforms==='function'){var build=root.buildPlatforms;root.buildPlatforms=function(){var result=build.apply(this,arguments),el=root.document.getElementById('plist');if(el){var note=root.document.createElement('div');note.className='nmeta model-health-summary';note.setAttribute('role','status');note.style.gridColumn='1 / -1';note.textContent=summary();el.prepend(note);}return result;};root.buildPlatforms();}
+ function refreshLabels(){var models=new Map((root.PLATS||[]).map(function(p){return [p.id,p];}));root.document.querySelectorAll('[data-model-health]').forEach(function(el){var p=models.get(el.getAttribute('data-model-health'));if(p)el.textContent=label(p,Date.now(),root.LANG);});root.document.querySelectorAll('.model-health-summary').forEach(function(el){el.textContent=summary();});}
+ // No polling or additional server requests. An open tab must also age honestly.
+ root.setInterval(refreshLabels,60000);
+ root.document.addEventListener('visibilitychange',function(){if(!root.document.hidden)refreshLabels();});
+})(typeof window==='undefined'?null:window);

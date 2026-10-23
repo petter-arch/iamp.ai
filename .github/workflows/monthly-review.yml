@@ -2,6 +2,16 @@ name: Update Trendar models
 on:
   schedule:
     - cron: '20 5 * * *'
+    - cron: '20 7 * * *'
+  workflow_run:
+    workflows: [Update news feed]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - profile-refresh.mjs
+      - .github/workflows/monthly-review.yml
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -10,39 +20,69 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
         with:
-          # A queued run must include data saved by the preceding run.
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test *.test.mjs *.test.cjs
-      - name: Update and verify content
-        run: node update.mjs --profiles
+      - name: Avoid duplicate runs without new information
+        id: gate
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          node --input-type=module <<'JS'
+          import {readFileSync,appendFileSync} from 'node:fs';
+          const data=JSON.parse(readFileSync('site-data.json','utf8'));
+          const last=data.profileChecks||{};
+          const age=Date.now()-Date.parse(last.completedAt);
+          const recent=Number.isFinite(age)&&age>=0&&age<8*3600000;
+          const unchanged=last.newsCheckedAt===data.newsCheckedAt;
+          const skip=process.env.EVENT_NAME!=='workflow_dispatch'&&recent&&unchanged&&!last.skipped;
+          appendFileSync(process.env.GITHUB_OUTPUT,'run='+String(!skip)+'\n');
+          JS
+      - run: node --test *.test.mjs *.test.cjs
+        if: steps.gate.outputs.run == 'true'
+      - name: Verify the whole catalogue and recent discoveries
+        if: steps.gate.outputs.run == 'true'
+        env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_NEWS_MODEL: ${{ vars.OPENAI_NEWS_MODEL }}
           OPENAI_PROFILE_MODEL: ${{ vars.OPENAI_PROFILE_MODEL }}
-      - name: Save checked data
+          PROFILE_CONCURRENCY: '3'
+          NEW_PROFILE_LIMIT: '8'
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = 'workflow_run' ]; then
+            node profile-refresh.mjs --due
+          else
+            node profile-refresh.mjs
+          fi
+      - name: Save verified facts and truthful failure status
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name 'iamp.ai updater'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add site-data.json news.json update-report.json
+          git add site-data.json news.json model-report.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update creative news, channels and trends'
+            git commit -m 'Verify whole Trendar catalogue and refresh status'
             git pull --rebase
             git push
           fi
       - run: node publish-data.mjs
+        if: steps.gate.outputs.run == 'true'
       - uses: actions/upload-artifact@v4
+        if: steps.gate.outputs.run == 'true'
         with:
           name: models-preview
           path: |
             _site/
-            update-report.json
+            model-report.json
           retention-days: 7
