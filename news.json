@@ -1,6 +1,352 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "What if one AI model could generate images and edit only the parts you choose? Meet Fibo 2.0 Dev by BRIA — a model that",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "Cl9Dk3JaNBk",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Fibo 2.0 Dev samlar bildgenerering och precis bildredigering i en AI-modell",
+    "sum": "Refactor Engine beskriver Fibo 2.0 Dev från BRIA som en modell för både text-till-bild-generering och riktad redigering. Arbetsflödet omfattar strukturerade VGL-prompter, masker och upp till fyra referensbilder, men kommersiell användning kräver enligt modellkortet ett separat avtal med BRIA.",
+    "full": "Refactor Engine lyfter fram Fibo 2.0 Dev från BRIA som ett AI-baserat arbetsflöde där bildgenerering och bildredigering samlas i samma modell. Enligt kanalens beskrivning kan modellen skapa bilder från text och samtidigt redigera endast de delar som användaren väljer.\n\nBeskrivningen anger att Fibo 2.0 Dev använder VGL för att strukturera uppmaningar efter objekt, layout, ljus och färg, utan att användaren behöver skriva JSON. För riktade ändringar används masker, så att det går att avgränsa vilka områden i bilden som ska påverkas.\n\nArbetsflödet kan också styras med upp till fyra referensbilder. Refactor Engine beskriver dessutom två varianter: Fibo 2.0 Dev och Edit Turbo. Det innebär enligt källan att modellen är inriktad både på att skapa nya bilder och på att genomföra mer kontrollerade ändringar i befintligt material.\n\nLicensen är en central begränsning. Modellkortet listar CC BY-NC 4.0, och kommersiell användning kräver enligt beskrivningen ett separat avtal med BRIA. Användare behöver därför kontrollera modellkortets aktuella villkor innan modellen används i kommersiella projekt.",
+    "deep": "Kanalens beskrivning pekar på tre konkreta kontrollnivåer i arbetsflödet: VGL för att beskriva bildens struktur med objekt, layout, ljus och färg; masker för att ange vilka delar som får ändras; samt referensbilder för att styra redigeringar. Källan anger en gräns på upp till fyra referensbilder.\n\nDen tillgängliga informationen beskriver inte självständiga testresultat, bildkvalitet, hastighet, maskinvarukrav eller skillnaderna mellan Fibo 2.0 Dev och Edit Turbo. Den anger inte heller något produktlanseringsdatum. Kommersiella användare bör särskilt beakta att CC BY-NC 4.0 nämns i modellkortet och att BRIA kräver ett separat avtal för kommersiell användning.",
+    "en": {
+      "ttl": "Fibo 2.0 Dev combines image generation and precise image editing in one AI model",
+      "sum": "Refactor Engine describes Fibo 2.0 Dev from BRIA as a model for both text-to-image generation and targeted editing. The workflow includes structured VGL prompts, masks, and up to four reference images, while commercial use requires a separate agreement with BRIA according to the model card.",
+      "full": "Refactor Engine presents Fibo 2.0 Dev from BRIA as an AI workflow that combines image generation and image editing in one model. According to the channel’s description, the model can create images from text while editing only the parts selected by the user.\n\nThe description says that Fibo 2.0 Dev uses VGL to structure prompts around objects, layout, lighting, and color, without requiring the user to write JSON. Masks are used for targeted changes, allowing users to define which areas of an image should be affected.\n\nThe workflow can also be guided with up to four reference images. Refactor Engine further identifies two variants: Fibo 2.0 Dev and Edit Turbo. According to the source, this positions the model for both creating new images and making more controlled changes to existing material.\n\nLicensing is an important limitation. The model card lists CC BY-NC 4.0, and the description says commercial use requires a separate agreement with BRIA. Users should therefore check the model card’s applicable terms before using the model in commercial projects.",
+      "deep": "The channel’s description points to three concrete control levels in the workflow: VGL for describing image structure through objects, layout, lighting, and color; masks for specifying which areas may change; and reference images for guiding edits. The source sets the limit at up to four reference images.\n\nThe available information does not provide independent test results, image-quality assessments, speed measurements, hardware requirements, or differences between Fibo 2.0 Dev and Edit Turbo. It also does not state a product release date. Commercial users should pay particular attention to the mention of CC BY-NC 4.0 in the model card and BRIA’s requirement for a separate agreement for commercial use."
+    },
+    "cat": "foto",
+    "date": "2026-10-23T02:31:35Z",
+    "meta": "Refactor Engine · 2026-10-23",
+    "url": "https://www.youtube.com/watch?v=Cl9Dk3JaNBk",
+    "img": "https://i.ytimg.com/vi/Cl9Dk3JaNBk/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Refactor Engine"
+    ],
+    "parts": [],
+    "views": 16,
+    "buzz": 35,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "44d5dffecb5671643598ab88e339d7924121c378e9fdd8cf24fec6963da0d89f",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Fibo 2.0 Dev",
+      "Edit Turbo"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "A free, open-source tool that gets you the exact shot before you generate, plus the fix for when 3D-guided AI video comes out stiff. And",
+    "evidenceIds": [
+      1,
+      4,
+      8
+    ],
+    "id": "qlSI_ZbRdEc",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "CozyClay 3.0 ger AI-videoskapare en exakt förvisualisering – samtidigt väcker Iron Goddess uppmärksamhet",
+    "sum": "Theoretically Media beskriver CozyClay 3.0 som ett kostnadsfritt projekt med öppen källkod för 3D-förvisualisering inför AI-video. Verktyget körs i webbläsaren utan GPU och kan bygga scener via en agent, medan den okända videomodellen Iron Goddess uppges ha visat kraftfull rörelse i tester på Arena – men med suddigare bildrutor vid de snabbaste momenten.",
+    "full": "Theoretically Media lyfter fram två olika AI-videorelaterade utvecklingar: CozyClay 3.0, ett kostnadsfritt verktyg med öppen källkod för 3D-förvisualisering, och Iron Goddess, en oidentifierad videomodell som dök upp i tävlingsläget på Arena. Verktyget och modellen fyller olika funktioner: CozyClay ska hjälpa skapare att planera ett exakt bildutsnitt före genereringen, medan Iron Goddess beskrivs utifrån modelltester med fokus på rörelse.\n\nEnligt kanalens beskrivning körs CozyClay 3.0 i webbläsaren och kräver ingen GPU. Installationen kan göras med ett klick via Pinokio. En agent kan bygga en scen utifrån användarens instruktioner genom ChatGPT-inloggning med Codex eller via en API-nyckel för Anthropic, OpenAI eller Gemini. I kanalens exempel byggde verktyget ett privatdetektivkontor och lät detektiven gå genom scenen. Den färdiga bilden måste därefter fortfarande renderas med användarens egen videomodell.\n\nTheoretically Media beskriver också ett arbetsflöde från Blender till Seedance 2.5, men påpekar att det tar lång tid att rendera och kräver Blenderkunskaper. För AI-video som blir stel när den styrs av 3D föreslår kanalen, med hänvisning till PJ, att man tar en skärmbild av förvisualiseringen, lägger upp den som en storyboard och sedan använder image-to-video. Enligt beskrivningen bevaras då den exakta kompositionen, linsen och bildformatet.\n\nIron Goddess har enligt kanalen inte fått någon offentlig avsändare. Theoretically Media beskriver egna och andras tester med bland annat vätskedynamik, en karaktärsbild, action och en scen med en person i blå kostym. Bedömningen är att modellen ger stora och snabba rörelser, men att de snabbaste momenten kan bli suddiga ruta för ruta. I kanalens jämförelse höll Seedance 2.5 ihop bättre, men med mindre dynamisk rörelse. Uppgiften att modellen skulle komma från Alibaba presenteras uttryckligen som en gissning, inte som ett faktum.",
+    "deep": "CozyClay 3.0 beskrivs inte som en ersättare för Blender, utan som ett sätt att snabbt skapa och blockera en scen för AI-video. Arbetsflödet separerar förvisualiseringen från själva videogenereringen: CozyClay används för miljö, rörelse och bildplanering, medan användaren väljer en separat videomodell för slutbilden. Det gör verktyget relevant för skapare som behöver kontroll över kompositionen innan de provar flera AI-videogenereringar.\n\nKanalens beskrivning innehåller även tydliga begränsningar. Blender-till-Seedance-arbetsflödet är långsamt att rendera och förutsätter kunskaper i Blender. 3D-styrd AI-video kan dessutom se stel ut; den föreslagna lösningen är därför att använda den renderade förvisualiseringen som underlag för image-to-video i stället för att låta 3D-scenen styra hela genereringen direkt.\n\nIron Goddess ska enligt Theoretically Media ha dykt upp i blindtester på Arena, men kanalens uppgifter fastställer varken vem som utvecklat modellen eller när den blir tillgänglig. Beskrivningen anger endast att den presterade starkt på rörelse i de nämnda testerna och att snabba sekvenser kunde ge smetiga bildrutor. Påståendet om Alibaba är kanalens egen spekulation och bör därför inte behandlas som en bekräftad koppling. Seedream 5.5 nämns också som en läcka med påstådda funktioner som scenindelning i 100 lager, över 80 omgångar av lokal redigering och 4K, men dessa uppgifter kommer enligt beskrivningen inte från ByteDance.",
+    "en": {
+      "ttl": "CozyClay 3.0 gives AI video creators exact previs control as Iron Goddess draws attention",
+      "sum": "Theoretically Media describes CozyClay 3.0 as a free, open-source 3D previs tool for AI video. It runs in a browser without a GPU and can build scenes through an agent, while the unidentified Iron Goddess video model is said to show powerful motion in Arena tests, with blurrier frames during its fastest moments.",
+      "full": "Theoretically Media highlights two AI video developments: CozyClay 3.0, a free open-source tool for 3D previsualization, and Iron Goddess, an unidentified video model that appeared in Arena’s battle mode. CozyClay is intended to help creators plan an exact shot before generation, while Iron Goddess is discussed through tests focused on motion.\n\nAccording to the channel’s description, CozyClay 3.0 runs in a browser and does not require a GPU. It can be installed with one click through Pinokio. An agent can build a set from user instructions through a ChatGPT sign-in using Codex, or through an API key for Anthropic, OpenAI or Gemini. In the channel’s example, the tool built a private-eye office and moved the detective through the set. The final shot still has to be rendered with the user’s own video model.\n\nTheoretically Media also describes a Blender-to-Seedance 2.5 workflow, while noting that it is slow to render and requires Blender skills. For AI video that looks stiff when guided by 3D, the channel cites PJ’s suggestion to screenshot the previs, lay it out as a storyboard and then use image-to-video. The description says this preserves the exact composition, lens and aspect ratio.\n\nThe channel says Iron Goddess has no publicly identified creator. Theoretically Media describes tests involving fluid dynamics, a character shot, action and a man in a blue business suit. Its assessment is that the model produces large, fast motion, but that the fastest moments can become smudgy frame by frame. In the channel’s comparison, Seedance 2.5 held together better but delivered less dynamic movement. The claim that Alibaba may have created Iron Goddess is explicitly presented as a guess, not a fact.",
+      "deep": "CozyClay 3.0 is not presented as a Blender replacement, but as a way to quickly build and block a scene for AI video. The workflow separates previs from final video generation: CozyClay handles environment, movement and shot planning, while the user selects a separate video model for the final result.\n\nThe description also states clear limitations. The Blender-to-Seedance workflow is slow to render and requires Blender knowledge. 3D-guided AI video can look stiff, so the proposed workaround is to use a rendered previs image as the basis for image-to-video rather than having the 3D scene directly control the entire generation.\n\nIron Goddess is described as appearing in blind tests on Arena, but the description does not establish who developed it or when it will become available. It only reports strong motion in the cited tests and smudgy frames during fast movement. The Alibaba connection is the channel’s speculation and should not be treated as confirmed. Seedream 5.5 is also mentioned as a leak with claimed 100-layer scene decomposition, more than 80 rounds of local editing and 4K, but the description says those specifications did not come from ByteDance."
+    },
+    "cat": "film",
+    "date": "2026-10-22T21:56:16Z",
+    "meta": "Theoretically Media · 2026-10-22",
+    "url": "https://www.youtube.com/watch?v=qlSI_ZbRdEc",
+    "img": "https://i.ytimg.com/vi/qlSI_ZbRdEc/hqdefault.jpg",
+    "plat": "Seedance 2.5",
+    "platformIds": [
+      "seedance-2-5"
+    ],
+    "chans": [
+      "Theoretically Media"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Free 3D for the exact shot, and a secret AI video model"
+      },
+      {
+        "t": 16,
+        "l": "Iron Goddess: a mystery model on the Arena"
+      },
+      {
+        "t": 58,
+        "l": "Tests: fluid dynamics, then a character shot"
+      },
+      {
+        "t": 107,
+        "l": "Action: Brent Lynch's runner"
+      },
+      {
+        "t": 168,
+        "l": "The catch: fast motion, smudgy frames"
+      },
+      {
+        "t": 232,
+        "l": "Same prompt in Seedance 2.5"
+      },
+      {
+        "t": 269,
+        "l": "My test: the Man in the Blue Business Suit"
+      },
+      {
+        "t": 324,
+        "l": "Who made it? My Alibaba bet"
+      },
+      {
+        "t": 365,
+        "l": "Side note: Kling's reported IPO, and its investors"
+      },
+      {
+        "t": 412,
+        "l": "Free 3D tools next (but first, Recraft)"
+      },
+      {
+        "t": 428,
+        "l": "Recraft V4.1 Flash and custom styles (sponsor)"
+      },
+      {
+        "t": 623,
+        "l": "The Blender-to-Seedance workflow, and why it's slow"
+      },
+      {
+        "t": 682,
+        "l": "CozyClay 3.0: free, open-source 3D for AI video"
+      },
+      {
+        "t": 713,
+        "l": "Install it with Pinokio"
+      },
+      {
+        "t": 769,
+        "l": "Let Codex or Claude build the set"
+      },
+      {
+        "t": 830,
+        "l": "A private-eye set, blocked and animated"
+      },
+      {
+        "t": 894,
+        "l": "Why 3D-guided AI video looks stiff"
+      },
+      {
+        "t": 910,
+        "l": "PJ's fix: screenshot the previs, go image-to-video"
+      },
+      {
+        "t": 967,
+        "l": "Verdict: not a Blender replacement, worth the download"
+      },
+      {
+        "t": 991,
+        "l": "Quick hits: Ideogram Vector"
+      },
+      {
+        "t": 1011,
+        "l": "Seedream 5.5 is coming (leak)"
+      },
+      {
+        "t": 1052,
+        "l": "Next week: Kling 4, and Planet Hell"
+      }
+    ],
+    "views": 20692,
+    "buzz": 72,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "117a3425e0750f6146ad3138af563a6083a64e0cdda17770b1942bf0073ca3c7",
+    "trusted": true,
+    "sourceId": "theoreticallymedia",
+    "newPlatforms": [
+      "CozyClay 3.0",
+      "Iron Goddess",
+      "Ideogram Vector",
+      "Seedream 5.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "ローカル3D生成AI「Pixal3D」の設定とBlender連携ワークフローが整理 窓の杜の連載「Blenderウォッチング」で、ローカル環境で動作する3DモデルAI「Pixal3D」のセットアップ方法と、生成したモデルをBlenderで修正する実践的なフローが解説されました。Pixal3Dはテキストや画像から3Dメッシュを生成するローカル実行型のAIで、クラウドに依存せず手元のGPUで動かせる点が特徴です。生成直後のモデルは面の破綻やトポロジーの乱れが残ることが多く、記事ではBlender側でリメッシュ・UV再展開・ディテール補正を行う具体的な手順が紹介されています。扱いやすさが改善され、個人クリエイターでも3Dアセットのプロトタイプを短時間で手に入れられる段階に入ってきました。 Hugging FaceがDNAと対話できるオープンソースAI生物学モデルを公開",
+    "evidenceIds": [
+      6,
+      7,
+      11
+    ],
+    "id": "qSy7vDOWKvo",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Pixal3D kopplas till Blender i lokalt AI-arbetsflöde för 3D-modeller",
+    "sum": "CHIHIRO - AI Visual Artist rapporterar att Pixal3D kan köras lokalt för att skapa 3D-meshar från text eller bilder och att ett praktiskt arbetsflöde för efterbearbetning i Blender nu har sammanställts.",
+    "full": "CHIHIRO - AI Visual Artist lyfter fram Pixal3D som ett lokalt AI-verktyg för 3D-generering. Enligt kanalens beskrivning kan modellen skapa 3D-meshar från text eller bilder och köras på användarens egen GPU, utan beroende av en molntjänst.\n\nDet centrala i arbetsflödet är kopplingen till Blender. Den beskrivna metoden utgår från att en genererad modell förs över till Blender för fortsatt bearbetning, snarare än att resultatet betraktas som färdigt direkt efter genereringen. Där kan skaparen bland annat arbeta med remeshing, ny UV-uppackning och korrigering av detaljer.\n\nKanalens rapportering betonar att de första resultaten ofta har problem som trasiga ytor och oregelbunden topologi. Blender-steget blir därför viktigt för att göra modellen mer användbar i fortsatt 3D-arbete. Arbetsflödet riktar sig särskilt till individuella kreatörer som vill ta fram prototyper av 3D-tillgångar på kortare tid, samtidigt som den lokala körningen ger ett alternativ till molnbaserad generering.",
+    "deep": "Beskrivningen hänvisar till en genomgång i serien Blenderウォッチング, där både installationen av Pixal3D och processen för att redigera genererade modeller i Blender uppges vara sammanställda. Den specificerar inte vilka GPU-modeller, operativsystem eller maskinkrav som krävs, och anger inte heller någon mätning av genereringstid eller kvalitet.\n\nPixal3D:s stödda indata anges som text och bilder. Den rapporterade styrkan är lokal körning på den egna GPU:n, medan den uttryckliga begränsningen är behovet av efterarbete på grund av möjliga meshfel och oordnad topologi. Uppgifterna kommer från kanalens beskrivning och är inte resultatet av ett oberoende test.",
+    "en": {
+      "ttl": "Pixal3D kopplas till Blender i ett lokalt AI-arbetsflöde för 3D-modeller",
+      "sum": "CHIHIRO - AI Visual Artist rapporterar att Pixal3D kan köras lokalt för att skapa 3D-meshar från text eller bilder och att ett praktiskt arbetsflöde för efterbearbetning i Blender nu har sammanställts.",
+      "full": "CHIHIRO - AI Visual Artist lyfter fram Pixal3D som ett lokalt AI-verktyg för 3D-generering. Enligt kanalens beskrivning kan modellen skapa 3D-meshar från text eller bilder och köras på användarens egen GPU, utan beroende av en molntjänst.\n\nDet centrala i arbetsflödet är kopplingen till Blender. Den beskrivna metoden utgår från att en genererad modell förs över till Blender för fortsatt bearbetning, snarare än att resultatet betraktas som färdigt direkt efter genereringen. Där kan skaparen bland annat arbeta med remeshing, ny UV-uppackning och korrigering av detaljer.\n\nKanalens rapportering betonar att de första resultaten ofta har problem som trasiga ytor och oregelbunden topologi. Blender-steget blir därför viktigt för att göra modellen mer användbar i fortsatt 3D-arbete. Arbetsflödet riktar sig särskilt till individuella kreatörer som vill ta fram prototyper av 3D-tillgångar på kortare tid, samtidigt som den lokala körningen ger ett alternativ till molnbaserad generering.",
+      "deep": "Beskrivningen hänvisar till en genomgång i serien Blenderウォッチング, där både installationen av Pixal3D och processen för att redigera genererade modeller i Blender uppges vara sammanställda. Den specificerar inte vilka GPU-modeller, operativsystem eller maskinkrav som krävs, och anger inte heller någon mätning av genereringstid eller kvalitet.\n\nPixal3D:s stödda indata anges som text och bilder. Den rapporterade styrkan är lokal körning på den egna GPU:n, medan den uttryckliga begränsningen är behovet av efterarbete på grund av möjliga meshfel och oordnad topologi. Uppgifterna kommer från kanalens beskrivning och är inte resultatet av ett oberoende test."
+    },
+    "cat": "3d",
+    "date": "2026-10-22T20:05:49Z",
+    "meta": "CHIHIRO - AI Visual Artist  · 2026-10-22",
+    "url": "https://www.youtube.com/watch?v=qSy7vDOWKvo",
+    "img": "https://i.ytimg.com/vi/qSy7vDOWKvo/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "CHIHIRO - AI Visual Artist "
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "オープニング"
+      },
+      {
+        "t": 16,
+        "l": "ローカル3D生成AI「Pixal3D」の設定とBlender連携ワークフローが整理"
+      },
+      {
+        "t": 68,
+        "l": "Hugging FaceがDNAと対話できるオープンソースAI生物学モデルを公開"
+      },
+      {
+        "t": 122,
+        "l": "Apple「iPhone Duo」本日発売、Siri AIが日本語に対応"
+      },
+      {
+        "t": 174,
+        "l": "ほかに気になる今日の動き"
+      },
+      {
+        "t": 294,
+        "l": "クロージング"
+      }
+    ],
+    "views": 2,
+    "buzz": 26,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a13937eea533a4b5bd8b5c582c5f03c12c773ab0ebe24636407e9497dc6e074d",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Pixal3D"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Artlist now generates 3D models. Upload a photo or type a sentence, and you get a 3D asset you can rotate, download and use in",
+    "evidenceIds": [
+      2,
+      3,
+      5
+    ],
+    "id": "GhhDpCqXAoA",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Artlist lanserar AI-generering av 3D-modeller från foton och text",
+    "sum": "Snackable AI beskriver Artlists nya 3D-kategori, där användare kan skapa 3D-modeller från ett foto eller en textbeskrivning. Videon jämför Tripo, Hunyuan 3D och Meshy samt visar ett arbetsflöde från bildgenerering till 3D-modell, kamerarörelse i After Effects och rörelsereferens i Seedance.",
+    "full": "Enligt kanalen Snackable AI kan Artlists nya 3D-kategori omvandla antingen ett uppladdat foto eller en textbeskrivning till en 3D-modell. Resultatet kan roteras, laddas ned och användas i projekt. Kanalen nämner bland annat produktmaterial för e-handel och AR, spelobjekt, filmförvisualisering och 3D-utskrift som användningsområden.\n\nVideon fokuserar på ett fyrastegsflöde för kreativa produktioner: först genereras en bild, därefter omvandlas bilden till en 3D-modell. Sedan animeras en kamerarörelse i After Effects, och slutligen används resultatet som rörelsereferens i Seedance. Snackable AI framhåller att arbetsflödet kan ge kortare promptar, färre misslyckade genereringar och större kontroll, men påståendet återges här som kanalens beskrivning och inte som ett oberoende test.\n\nArtlist-flödet innehåller tre modeller som kan jämföras i videon: Tripo, Hunyuan 3D och Meshy. Kanalens snabbrekommendation är Tripo när snabbhet prioriteras, Hunyuan 3D för en balans mellan egenskaper och produktarbete, samt Meshy när bred filkompatibilitet är viktig. Enligt beskrivningen exporterar Tripo endast GLB, Hunyuan 3D GLB och OBJ, medan Meshy stöder GLB, OBJ, FBX och USDZ.",
+    "deep": "Det centrala AI-arbetsflödet är att skapa en bild från en prompt, konvertera bilden till ett 3D-objekt och därefter använda objektet för kamerastyrning och rörelsereferens i AI-video. Beskrivningen anger inte hur modellerna presterar i detalj, vilka begränsningar som gäller för geometri eller texturer, eller hur exporterna fungerar i en specifik produktionsmiljö.\n\nDe angivna användningsfallen omfattar produkt- och AR-tillgångar för e-handel, spelrekvisita och miljöer, 3D-maskotar och huvudobjekt samt rekvisita för filmförvisualisering. Även 3D-utskrift nämns i kapitelöversikten, men artikeln behandlar det endast som ett listat användningsfall och drar inga slutsatser om utskriftskvalitet eller modellernas lämplighet för detta ändamål.\n\nVideon är sponsrad av Artlist och innehåller en affiliatelänk. Dessa uppgifter är inte en del av den tekniska bedömningen. Publiceringsdatumet är 22 oktober 2026 och ska inte tolkas som ett produktlanseringsdatum.",
+    "en": {
+      "ttl": "Artlist launches AI generation of 3D models from photos and text",
+      "sum": "Snackable AI describes Artlist’s new 3D category, where users can create 3D models from a photo or text description. The video compares Tripo, Hunyuan 3D and Meshy and presents a workflow from image generation to a 3D model, camera movement in After Effects and motion reference in Seedance.",
+      "full": "According to the channel Snackable AI, Artlist’s new 3D category can turn either an uploaded photo or a text description into a 3D model. The result can be rotated, downloaded and used in projects. The channel mentions product assets for e-commerce and AR, game props, film previsualization and 3D printing as use cases.\n\nThe video focuses on a four-step workflow for creative production: an image is generated first, then converted into a 3D model. A camera move is animated in After Effects, and the result is finally used as a motion reference in Seedance. Snackable AI says the workflow can produce shorter prompts, fewer failed generations and more control, but these claims are attributed to the channel rather than presented as an independent test.\n\nThe Artlist workflow includes three models compared in the video: Tripo, Hunyuan 3D and Meshy. The channel’s quick recommendations are Tripo when speed is the priority, Hunyuan 3D for a balance of features and product work, and Meshy when broad file compatibility matters. According to the description, Tripo exports GLB only, Hunyuan 3D exports GLB and OBJ, and Meshy supports GLB, OBJ, FBX and USDZ.",
+      "deep": "The core AI workflow is to generate an image from a prompt, convert the image into a 3D object, and then use the object for camera control and motion reference in AI video. The description does not specify how the models perform in detail, what limitations apply to geometry or textures, or how the exports work in a particular production environment.\n\nThe listed use cases include product and AR assets for e-commerce, game props and environments, 3D mascots and hero objects, and props for film previsualization. 3D printing also appears in the chapter list, but this article treats it only as a stated use case and makes no claims about print quality or suitability.\n\nThe video is sponsored by Artlist and includes an affiliate link. These details are not part of the technical assessment. The upload date is October 22, 2026 and should not be interpreted as a product release date."
+    },
+    "cat": "3d",
+    "date": "2026-10-22T18:05:33Z",
+    "meta": "Snackable AI · 2026-10-22",
+    "url": "https://www.youtube.com/watch?v=GhhDpCqXAoA",
+    "img": "https://i.ytimg.com/vi/GhhDpCqXAoA/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Snackable AI"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Turn anything into 3D"
+      },
+      {
+        "t": 21,
+        "l": "Artlist now does 3D"
+      },
+      {
+        "t": 36,
+        "l": "Product AR assets for e-commerce"
+      },
+      {
+        "t": 57,
+        "l": "Game props and environments"
+      },
+      {
+        "t": 75,
+        "l": "3D mascots and hero objects"
+      },
+      {
+        "t": 87,
+        "l": "Props for film pre-viz"
+      },
+      {
+        "t": 97,
+        "l": "Objects for 3D printing"
+      },
+      {
+        "t": 107,
+        "l": "Who this is for"
+      },
+      {
+        "t": 121,
+        "l": "How it works, step by step"
+      },
+      {
+        "t": 146,
+        "l": "Tripo vs Hunyuan 3D vs Meshy"
+      },
+      {
+        "t": 188,
+        "l": "The camera control trick for AI video"
+      },
+      {
+        "t": 251,
+        "l": "Wrap up"
+      }
+    ],
+    "views": 5645,
+    "buzz": 65,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f44e9cd43ea312e7f8264d87a497359903548b1f656faae7203f7c0c6de9969b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo",
+      "Hunyuan 3D"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "AI video can create impressive images, but controlling complex action, camera movement and timing is still difficult. For this sequence, I used Claude to create",
     "evidenceIds": [
       1,
@@ -42,6 +388,102 @@
     "newPlatforms": [
       "Claude",
       "Seedance"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Vous cherchez the best AI 3D modeling tool en 2026 ? J'ai envoyé exactement la même photo à 4 générateurs 3D par IA... et une",
+    "evidenceIds": [
+      4,
+      28,
+      41
+    ],
+    "id": "LGziF6d7Nj4",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Meshy 7 jämförs med tre AI-verktyg för bild till 3D",
+    "sum": "Grégory Beyrouti jämför Meshy 7 med Tripo, Rodin och Hunyuan 3D i ett blindtest där samma foto omvandlas till 3D-modeller. Fokus ligger på bildtrohet, texturer, geometri och arbetsflödet från AI-modell till fysisk figur.",
+    "full": "I en video från kanalen Grégory Beyrouti jämförs Meshy 7 med Tripo, Rodin och Hunyuan 3D för att undersöka hur väl olika AI-verktyg kan omvandla samma referensfoto till en 3D-modell. Jämförelsen görs som ett blindtest, där modellerna bedöms utan att resultaten kopplas till verktygen under själva utvärderingen.\n\nDet centrala kriteriet är 3D Alignment, alltså hur troget den genererade modellen återger bilden. Enligt videobeskrivningen bedöms detta genom proportioner, elementens placering och ytdetaljer. Testet omfattar två omgångar: först används Grégory Beyroutis riktiga foto, och därefter en stiliserad figur med namnet GREG i relief på sockeln.\n\nVideon beskriver också ett arbetsflöde i Meshy 7 från generering till vidare användning. Det omfattar ett Agent-läge där modellen kan skapas genom dialog utan separat 3D-programvara, 8K Texture för texturarbete och Smart Topology för en low poly-version avsedd för spelrelaterade arbetsflöden. Beskrivningen anger kompatibilitet med Blender och Unreal Engine.\n\nSom ett avslutande användningsfall förs den vinnande modellen vidare till fysisk produktion genom 3D-utskrift och ett nyckelringsprojekt i Creative Lab. Kanalen uppger att videon även tar upp priser, krediter och begränsningar, men beskrivningen anger inte några konkreta prisnivåer eller detaljerade resultat för varje verktyg.",
+    "deep": "Kanalens testupplägg bygger på att samma bild skickas till fyra verktyg för Image to 3D: Meshy 7, Tripo, Rodin och Hunyuan 3D. Den beskrivna utvärderingen är specifikt inriktad på om modellen behåller identiteten och strukturen från referensbilden, snarare än på en generell presentation av 3D-modellering.\n\nFör Meshy 7 nämns flera funktioner som ingår i arbetsflödet: 3D Alignment, Agent-läge, 8K Texture och Smart Topology. Agent-läget beskrivs som ett sätt att skapa en modell genom att samtala, medan Smart Topology kopplas till low poly-användning för spel. Källan anger däremot inte tekniska specifikationer för polygonantal, filformat, faktisk upplösning eller vilka exportbegränsningar som gäller.\n\nBeskrivningen kopplar också modellen till Blender, Unreal Engine, 3D-utskrift och ett nyckelringsprojekt. Det är kanalens redogörelse för videons innehåll, inte ett oberoende testresultat. Meshy 7 nämns dessutom i ett partnerskap med MeshyAI, vilket är relevant när kanalens omdöme och formuleringen om ett \"ärligt\" slutligt utlåtande bedöms.",
+    "en": {
+      "ttl": "Meshy 7 compared with three AI tools for image-to-3D",
+      "sum": "Grégory Beyrouti compares Meshy 7 with Tripo, Rodin and Hunyuan 3D in a blind test that converts the same photo into 3D models. The focus is image fidelity, textures, geometry and the workflow from an AI model to a physical figure.",
+      "full": "In a video from the Grégory Beyrouti channel, Meshy 7 is compared with Tripo, Rodin and Hunyuan 3D to examine how different AI tools convert the same reference photo into a 3D model. The comparison is presented as a blind test, with the results assessed without linking them to the tools during the evaluation itself.\n\nThe central criterion is 3D Alignment, meaning how faithfully the generated model reproduces the image. According to the video description, this is assessed through proportions, the position of elements and surface details. The test has two rounds: first, Grégory Beyrouti’s real photo is used, followed by a stylized figure with the name GREG in relief on the base.\n\nThe video also describes a Meshy 7 workflow from generation to further use. It includes an Agent mode in which the model can be created through dialogue without separate 3D software, 8K Texture for texture work and Smart Topology for a low-poly version intended for game-related workflows. The description states compatibility with Blender and Unreal Engine.\n\nAs a final use case, the winning model is taken into physical production through 3D printing and a keychain project in Creative Lab. The description also says that pricing, credits and limitations are covered, but it gives no concrete price levels or detailed result for each tool.",
+      "deep": "The channel’s test setup sends the same image to four Image to 3D tools: Meshy 7, Tripo, Rodin and Hunyuan 3D. The described evaluation specifically focuses on whether the model preserves the identity and structure of the reference image, rather than presenting general 3D modeling instruction.\n\nSeveral Meshy 7 features are named in the workflow: 3D Alignment, Agent mode, 8K Texture and Smart Topology. Agent mode is described as a way to create a model through conversation, while Smart Topology is linked to low-poly use for games. The source does not provide technical specifications for polygon counts, file formats, actual resolution or export limitations.\n\nThe description also links the model to Blender, Unreal Engine, 3D printing and a keychain project. This is the channel’s account of the video’s content, not an independent test result. The video is also described as a partnership with MeshyAI, which is relevant when interpreting the channel’s assessment and its wording about an “honest” final verdict."
+    },
+    "cat": "3d",
+    "date": "2026-10-22T15:00:04Z",
+    "meta": "Grégory Beyrouti · 2026-10-22",
+    "url": "https://www.youtube.com/watch?v=LGziF6d7Nj4",
+    "img": "https://i.ytimg.com/vi/LGziF6d7Nj4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Grégory Beyrouti"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro : 4 IA, 1 photo, 1 seul gagnant"
+      },
+      {
+        "t": 46,
+        "l": "Le défi : me transformer en figurine 3D"
+      },
+      {
+        "t": 103,
+        "l": "Meshy 7 vs Tripo vs Rodin vs Hunyuan (l'Alignment)"
+      },
+      {
+        "t": 159,
+        "l": "Le protocole du blind test Image to 3D"
+      },
+      {
+        "t": 201,
+        "l": "Manche 1 : ma vraie photo dans les 4 IA"
+      },
+      {
+        "t": 297,
+        "l": "Manche 2 : la figurine stylisée et le socle GREG"
+      },
+      {
+        "t": 384,
+        "l": "Le mode Agent : créer sa figurine en discutant"
+      },
+      {
+        "t": 444,
+        "l": "8K Texture : l'avant/après"
+      },
+      {
+        "t": 468,
+        "l": "Smart Topology : le low poly pour le jeu vidéo"
+      },
+      {
+        "t": 493,
+        "l": "Impression 3D et porte-clés (Creative Lab)"
+      },
+      {
+        "t": 550,
+        "l": "Verdict honnête sur Meshy 7"
+      },
+      {
+        "t": 631,
+        "l": "Prix, crédits gratuits et code -60 %"
+      }
+    ],
+    "views": 441,
+    "buzz": 52,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "900790d161a25412dbfdcace15bbe1ca5df86d4ffc8fe0cd78c6333cd2d1b563",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Meshy 7",
+      "Tripo",
+      "Rodin",
+      "Hunyuan 3D"
     ]
   },
   {
@@ -174,6 +616,194 @@
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Seedance faked a video game that doesn’t exist, so I had Claude Opus 5.5 rebuild it as a playable browser shader in 45 minutes, using",
+    "evidenceIds": [
+      1,
+      29,
+      35
+    ],
+    "id": "B0HN9kLxf7A",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Claude bygger om AI-video till interaktiv 3D-miljö i Unreal Engine",
+    "sum": "MattVidPro beskriver hur Claude Opus 5.5 återskapade en AI-genererad videospelssekvens som en spelbar webbläsarshader och därefter byggde en proceduralt skapad piratstuga i Unreal Engine 5.8, utan importerade tillgångar.",
+    "full": "MattVidPro beskriver ett arbetsflöde där Claude används för att gå från AI-genererat videomaterial till interaktiva 3D-miljöer. Utgångspunkten var en video från Seedance som föreställde ett videospel som inte existerar. Med hjälp av färdigheten video-to-shader från gokaygokay lät kanalen Claude Opus 5.5 återskapa materialet som en spelbar shader för webbläsare på 45 minuter.\n\nDärefter utvecklade MattVidPro en egen färdighet för att föra samma typ av idé vidare till Unreal Engine. Claude använde den för att bygga en AI-genererad piratstuga i Unreal Engine 5.8. Enligt kanalens beskrivning skapades varje objekt proceduralt från grunden, utan importerade tillgångar, och resultatet kunde utforskas genom att gå runt inne i miljön.\n\nVideon fokuserar på hur nära rekonstruktionerna kom originalvideon, vad processen kostade räknat enligt API-priser och hur andra kan prova arbetsflödet. MattVidPro anger även att färdigheten för video-till-Unreal är kostnadsfri och publicerad under MIT-licens.",
+    "deep": "Arbetsflödet består av två tydliga steg. Först omvandlas en AI-genererad spelvideosekvens till en webbläsarbaserad shader med hjälp av Claude Opus 5.5 och gokaygokays video-to-shader-färdighet. Därefter används en separat färdighet, skapad av MattVidPro, för att bygga en motsvarande miljö i Unreal Engine 5.8.\n\nDen andra rekonstruktionen gäller en piratstuga där objekten enligt beskrivningen genereras proceduralt i stället för att importeras som färdiga tillgångar. Det gör att resultatet kan upplevas som en utforskbar Unreal-miljö, snarare än enbart som en videobild eller shader. Beskrivningen innehåller dock inga oberoende mätningar av likheten, och uppgifterna om resultat, tidsåtgång och kostnad kommer från MattVidPro.\n\nKällorna som nämns för arbetsflödet är gokaygokays shader-färdighetsarkiv, prompten för video-till-shader samt MattVidPros kostnadsfria video-to-Unreal-färdighet. Videon tar också upp skillnaderna mellan shaderlösningen och Unreal-versionen, men den tillhandahållna beskrivningen anger inte någon detaljerad teknisk jämförelse.",
+    "en": {
+      "ttl": "Claude rebuilds an AI video as an interactive 3D environment in Unreal Engine",
+      "sum": "MattVidPro describes how Claude Opus 5.5 recreated an AI-generated video-game sequence as a playable browser shader and then built a procedurally generated pirate cabin in Unreal Engine 5.8, without imported assets.",
+      "full": "MattVidPro describes a workflow that uses Claude to move from AI-generated video material to interactive 3D environments. The starting point was a video from Seedance depicting a video game that does not exist. Using gokaygokay’s video-to-shader skill, the channel had Claude Opus 5.5 recreate the material as a playable browser shader in 45 minutes.\n\nMattVidPro then developed a custom skill to take the same type of concept further in Unreal Engine. Claude used it to build an AI-generated pirate cabin in Unreal Engine 5.8. According to the channel’s description, every object was created procedurally from scratch, without imported assets, and the result could be explored by walking around inside the environment.\n\nThe video focuses on how closely the reconstructions matched the original video, what the process cost at API rates, and how others can try the workflow. MattVidPro also states that the video-to-Unreal skill is free and released under the MIT license.",
+      "deep": "The workflow has two distinct stages. First, an AI-generated game-video sequence is converted into a browser-based shader using Claude Opus 5.5 and gokaygokay’s video-to-shader skill. A separate skill created by MattVidPro is then used to build a corresponding environment in Unreal Engine 5.8.\n\nThe second reconstruction is a pirate cabin whose objects are described as procedurally generated rather than imported as finished assets. This makes the result an explorable Unreal environment instead of only a video image or shader. The description does not provide independent measurements of similarity, and the claims about the result, time, and cost come from MattVidPro.\n\nThe workflow resources mentioned are gokaygokay’s shader-skill repository, the video-to-shader prompt, and MattVidPro’s free video-to-Unreal skill. The video also discusses differences between the shader solution and the Unreal version, but the supplied description does not give a detailed technical comparison."
+    },
+    "cat": "3d",
+    "date": "2026-10-21T22:05:47Z",
+    "meta": "MattVidPro · 2026-10-21",
+    "url": "https://www.youtube.com/watch?v=B0HN9kLxf7A",
+    "img": "https://i.ytimg.com/vi/B0HN9kLxf7A/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "MattVidPro"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "An AI video... but what if you could walk inside it?"
+      },
+      {
+        "t": 67,
+        "l": "What a shader is"
+      },
+      {
+        "t": 155,
+        "l": "Seedance fakes a video game"
+      },
+      {
+        "t": 231,
+        "l": "Round 1: driving the fake game"
+      },
+      {
+        "t": 353,
+        "l": "Sponsor: Crusoe"
+      },
+      {
+        "t": 437,
+        "l": "The pirate cabin plan"
+      },
+      {
+        "t": 634,
+        "l": "The pirate cabin, built in Unreal"
+      },
+      {
+        "t": 872,
+        "l": "Unreal vs. the AI video"
+      },
+      {
+        "t": 1008,
+        "l": "Shader or Unreal? My verdict"
+      },
+      {
+        "t": 1045,
+        "l": "Someone else used it for texture compression"
+      },
+      {
+        "t": 1076,
+        "l": "Outro"
+      }
+    ],
+    "views": 21559,
+    "buzz": 72,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "0700ab405b1b1e12c25e80c4a9212eadfa36e945ac1f26e83406ec762b40ccc7",
+    "trusted": true,
+    "sourceId": "mattvidpro",
+    "newPlatforms": [
+      "Seedance",
+      "Claude Opus 5.5",
+      "Unreal Engine 5.8"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Thanks to everyone who's helped along the way. Corridor Key 2.0 is here! 1:00 Stress Testing the New Version 10:16 If Only We Had a",
+    "evidenceIds": [
+      8,
+      27,
+      30
+    ],
+    "id": "svrdRAoIlxM",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Corridor Crew släpper CorridorKey 2.0 för AI-baserad grönskärmsnyckling",
+    "sum": "Corridor Crew presenterar CorridorKey 2.0, ett verktyg för grönskärmsnyckling som enligt kanalens beskrivning har genomgått stresstester, utvecklats med neurala nätverk och erbjuds både som officiellt plugin och gratisversion.",
+    "full": "Corridor Crew meddelar att CorridorKey 2.0 är här och gör verktyget tillgängligt för andra. Beskrivningen hänvisar till ett officiellt plugin samt en gratisversion på GitHub, och pekar även på en Discord-server för användarstöd och gemenskap kring CorridorKey.\n\nVideon fokuserar på utvecklingen från den tidigare versionen och på hur den nya versionen stresstestas. Kapitelrubrikerna beskriver medverkan av en Hollywood-baserad VFX-supervisor, behovet av betydande processorkraft och hjälp från en expert på neurala nätverk.\n\nCorridor Crew anger att arbetet omfattar förståelse av tid, mer information per pixel och bättre gissningar. Därefter visas enligt kapitelöversikten programmeringsarbete, användning av den nya versionen och resultat från Marion-projektets bilder. Beskrivningen specificerar inte exakt vilka modeller eller tekniska prestandamått som används, så artikeln drar inga slutsatser om kvalitet eller överlägsenhet.\n\nCorridorKey 2.0 riktar sig därmed till kreatörer som vill prova kanalens arbetsflöde för grönskärmsnyckling. Tillgången består av ett officiellt plugin och en gratisversion, medan Corridor Crew hänvisar till Discord för stöd. Videon är sponsrad av NVIDIA och Puget Systems, men sponsringen är inte en del av verktygets tekniska funktioner.",
+    "deep": "Kapitelinformationen ger en konkret bild av utvecklingsprocessen: Corridor Crew går igenom begränsningar i Corridor Key 1.0, stresstestar den nya versionen och tar in både en VFX-supervisor och en expert på neurala nätverk. Den nämner också processorkraft som en central praktisk fråga.\n\nDe tekniska teman som uttryckligen anges är tidsförståelse, mer information per pixel och förbättrade gissningar. Källan beskriver däremot inte nätverkets namn, träningsdata, systemkrav, licensvillkor eller verifierade resultat. Den stöder därför endast en beskrivning av CorridorKey 2.0 som ett AI-relaterat grönskärmsverktyg i utvecklarens eget arbetsflöde, inte ett oberoende test.\n\nCorridor Crew länkar till corridorKey.com för det officiella pluginet och till GitHub för gratisversionen med beteckningen CorridorKey 2.0. En Discord-kanal anges för community och support.",
+    "en": {
+      "ttl": "Corridor Crew releases CorridorKey 2.0 for AI-based green-screen keying",
+      "sum": "Corridor Crew presents CorridorKey 2.0, a green-screen keying tool that, according to the channel’s description, underwent stress testing, was developed with neural networks, and is offered as both an official plugin and a free version.",
+      "full": "Corridor Crew announces that CorridorKey 2.0 is available to others. The description points to an official plugin and a free version on GitHub, as well as a Discord server for CorridorKey community support.\n\nThe video focuses on development from the earlier version and stress testing of the new release. The chapter titles mention a Hollywood VFX supervisor, substantial processing requirements, and assistance from a neural-network expert.\n\nCorridor Crew explicitly identifies time understanding, more information per pixel, and better guesses as development themes. The chapter outline then covers coding, use of the new version, and results from Marion’s shots. The description does not specify the exact models or technical performance metrics, so the article makes no claims about quality or superiority.\n\nCorridorKey 2.0 is therefore presented as a workflow for creators who want to try the channel’s approach to green-screen keying. Access consists of an official plugin and a free version, while Corridor Crew directs users to Discord for support. The video is sponsored by NVIDIA and Puget Systems, but that sponsorship is not part of the tool’s technical functionality.",
+      "deep": "The chapter information gives a concrete outline of the development process: Corridor Crew reviews limitations in Corridor Key 1.0, stress-tests the new version, and brings in both a VFX supervisor and a neural-network expert. It also identifies processing power as a practical concern.\n\nThe explicitly stated technical themes are time understanding, more information per pixel, and improved guesses. The source does not describe the network’s name, training data, system requirements, licensing terms, or verified results. It therefore supports only a description of CorridorKey 2.0 as an AI-related green-screen tool in the creator’s own workflow, not an independent test.\n\nCorridor Crew links to corridorKey.com for the official plugin and to GitHub for the free version identified as CorridorKey 2.0. A Discord channel is provided for community and support."
+    },
+    "cat": "film",
+    "date": "2026-10-21T16:00:04Z",
+    "meta": "Corridor Crew · 2026-10-21",
+    "url": "https://www.youtube.com/watch?v=svrdRAoIlxM",
+    "img": "https://i.ytimg.com/vi/svrdRAoIlxM/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Corridor Crew"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "The Hard Truth of Corridor Key 1.0"
+      },
+      {
+        "t": 60,
+        "l": "Stress Testing the New Version"
+      },
+      {
+        "t": 320,
+        "l": "A REAL Hollywood VFX Supervisor Calls In"
+      },
+      {
+        "t": 525,
+        "l": "We're Gonna Need a LOT of Processing Power"
+      },
+      {
+        "t": 616,
+        "l": "If Only We Had a Neural Network Expert..."
+      },
+      {
+        "t": 688,
+        "l": "Understanding Time"
+      },
+      {
+        "t": 768,
+        "l": "More Info Per Pixel"
+      },
+      {
+        "t": 923,
+        "l": "Better Guesses"
+      },
+      {
+        "t": 1063,
+        "l": "Coding Time"
+      },
+      {
+        "t": 1091,
+        "l": "Breaking in the NEW Corridor Key"
+      },
+      {
+        "t": 1150,
+        "l": "Doing Marion's Shots"
+      },
+      {
+        "t": 1426,
+        "l": "Showing Marion Our Results"
+      },
+      {
+        "t": 1651,
+        "l": "How YOU Can Get It"
+      }
+    ],
+    "views": 2050795,
+    "buzz": 96,
+    "sourceCheckedAt": "2026-10-23T07:31:31.184Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "9a23d56fb763d9ac63f6c5e14d09fb1524372a3ff6023cc3d3ef3ea9d221f2fb",
+    "trusted": true,
+    "sourceId": "corridorcrew",
+    "newPlatforms": [
+      "CorridorKey 2.0"
+    ]
   },
   {
     "editorialStatus": "approved",
