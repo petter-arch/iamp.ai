@@ -2,54 +2,50 @@
 
 Originalets utseende, utförliga nyhetskort, videokapitel, Snabbfakta, Funktioner, Fördelar, Nackdelar och jämförelser är kvar. Topplistan heter Trendar. Fliken Kanaler använder samma register som nyhetsbevakningen.
 
-## Automatik
+## Automatik och aktualitet
 
-- Nyheter och kanalfakta kontrolleras två gånger per dygn, 02:40 och 14:40 UTC.
-- Modellfakta och upptäckt av nya modeller körs dagligen 05:20 UTC.
-- Startsidan prioriterar ungefär 70 % foto/film, 20 % ljud/3D och högst 10 % bredare AI-teknik. Tomma ämnen fylls inte med ovidkommande tekniknyheter.
-- Bevakningen hämtar de utvalda kanalernas senaste videor och kompletterar med ämnessökningar. Relevans klassificeras före det slutliga urvalet. Det finns ingen lägsta visningsgräns.
-- Alla kapitel som faktiskt finns i videobeskrivningen kan visas, utan gränsen på åtta. Inga kapitel eller transkript hittas på. Texten grundas på hela publicistens beskrivning, inte på att agenten har sett videon.
-- Nya modeller och versioner upptäcks i källmaterialet. Upp till två kandidater per dag undersöks. Kompletta profiler publiceras först när den officiella identiteten och faktakällorna kan beläggas. Otillräckligt underlag sparas för senare försök.
-- Fyra befintliga modellprofiler per dag kontrolleras. Varje ändrat fält behöver en officiell källa och ett citat som också återfinns på den hämtade sidan. En andra AI-kontroll granskar att hela påståendet stöds. Tidigare fakta behålls vid fel. Officiella sidor läses direkt för citatkontrollen. Om en sida blockerar direkthämtning behålls tidigare fakta; sökresultat ersätter inte källtext. AI-tolkningar kan fortfarande bli fel; källspårningen gör ändringarna granskningsbara.
-- Trendar sorteras efter unika färska videoomnämnanden under 30 dagar, med halverad vikt efter sju dagar och högst tre videor per kanal/modell. Detta mäter uppmärksamhet i bevakningen, inte hela marknaden.
-- Originalets redaktionella betyg behålls. Nya profiler får **—** tills ett jämförbart kvalitetsunderlag finns; de får aldrig påhittade eller ärvda betyg. Pris, funktioner och dokumenterade styrkor/begränsningar går fortfarande att jämföra.
+- Nyheter och kanalfakta har två dagliga uppdateringsfönster, med ett billigt reservförsök per fönster. Det befintliga nyhetsflödet i `update.mjs` är oförändrat.
+- **Hela den befintliga modellistan** kontrolleras dagligen, inte längre fyra modeller åt gången. Modelljobbet har också ett reservförsök och reagerar när nyhetsjobbet avslutas. Identiska underlag och redan gjorda kontroller hoppas över. GitHub kan fördröja schemalagda jobb; detta är inte en realtidsgaranti.
+- `profile-refresh.mjs` är modelljobbets nya körväg. `update.mjs --profiles` finns kvar som äldre manuell kod men används inte av automatiken.
+- Varje profil skiljer mellan kontrollförsök och lyckad verifiering. Ofullständiga, misslyckade och för gamla kontroller visas öppet på korten. En tom ändringslista eller en ny nyhetsstämpel betyder **inte** att modellfakta är verifierade. Ett öppet webbläsarfönster räknar också uppgifternas ålder utan nya serveranrop.
+- Alla stödda faktadelar, även oförändrade, behöver officiella belägg och en separat granskning av hela påståendet. Modellidentitet måste styrkas innan fakta ändras. Pris, prisnivå och gratisstatus uppdateras tillsammans. Tidigare fakta och redaktionella betyg behålls vid fel; fel gör inte gammal information aktuell.
+- En tidigare fullständig verifiering kan återanvändas när de direkt hämtade officiella källtexterna har samma kontrollsummor och profilens fakta inte har ändrats. Ny webbsökning tvingas minst varje vecka. Samma källsida hämtas bara en gång per körning. Högst tre profiler behandlas samtidigt.
+- Nya kandidater prioriteras efter färska omnämnanden, inte köplats från flera veckor tillbaka. Högst åtta undersöks per körning. Misslyckanden får 1–7 dagars återförsökspaus; nytt källmaterial öppnar för ett tidigare försök. En kandidat är inte en verifierad profil och publiceras aldrig bara för att tömma kön.
+- Nya profiler behöver fullständiga officiella belägg, detaljerade texter och separat faktagranskning. De får **—** i betyg tills jämförbart kvalitetsunderlag finns, aldrig påhittade eller ärvda poäng.
+- Trendar räknas om efter varje innehållskörning: unika färska videoomnämnanden under 30 dagar, halverad vikt efter sju dagar, högst tre videor per kanal/modell. Detta mäter uppmärksamheten i bevakningen, inte hela marknaden.
 
-## Kanaler
+## Nyheter och kanaler
 
-`sources.json` är källregistret för både bevakning och kanalfliken. Det inkluderar originalkanalerna, de tidigare nyhetskällorna samt PiXimperfect, The Dor Brothers, William Faucher, Venus Theory och Two Minute Papers. Kanalbeskrivningar är redaktionella; prenumerantantal hämtas från YouTube. Varje video filtreras efter sidans ämnen, även från en favoritkanal. AI måste vara huvudämnet, med ett citat från källan. Genererade texter kontrolleras för svenska. Artiklar markerade för omgranskning bevaras i underlaget men visas inte och påverkar inte Trendar.
+Startsidan prioriterar ungefär 70 % foto/film, 20 % ljud/3D och högst 10 % bredare AI-teknik. Tomma ämnen fylls inte med ovidkommande tekniknyheter. Bevakningen hämtar de valda kanalernas senaste videor och kompletterar med ämnessökningar, utan lägsta visningsgräns. Relevans kontrolleras före urvalet.
 
-Nya rekommendationer kontrollerades mot [PiXimperfect](https://www.piximperfect.com/), [The Dor Brothers](https://www.thedorbrothers.com/), [William Faucher](https://www.artstation.com/will_faucher), [Venus Theory](https://venustheory.com/) och [Two Minute Papers](https://users.cg.tuwien.ac.at/zsolnai/gfx/two-minute-papers-awesome-research-for-everyone/).
+`sources.json` är registret för både bevakning och kanalflik. Det inkluderar originalkanalerna, tidigare nyhetskällor samt PiXimperfect, The Dor Brothers, William Faucher, Venus Theory och Two Minute Papers. Beskrivningar är redaktionella; prenumerantantal hämtas från YouTube. AI måste vara huvudämnet även hos favoritkanaler. Genererade artiklar kontrolleras för svenska. Poster markerade för omgranskning bevaras men visas inte, påverkar inte Trendar och används inte för ny modellupptäckt.
 
-## Filer
+Alla tillgängliga kapitel i videobeskrivningen kan visas. Inga kapitel eller transkript hittas på. Artiklarna grundas på publicistens beskrivning, inte på att agenten har sett videon.
 
-- `index.html`: originalets sida med förbättrad dataladdning, Trendar och gemensamt kanalregister.
-- `site-data.json`: ett sammanhängande paket med arkiv, modeller, kanalfakta och källkontroller.
-- `news.json`: nyhetsarkiv för bakåtkompatibilitet.
-- `update.mjs`, `data-core.mjs`: uppdatering och regler. `openai.mjs`: Responses API via inbyggd fetch, utan nya paket.
-- `publish-data.mjs`: samlar endast besökarfiler i `_site/`.
-- `*.test.mjs`, `*.test.cjs`: automatiska kontroller.
-- `.github/workflows/update-news.yml`: nyheter och kanaler.
-- `.github/workflows/monthly-review.yml`: trots det gamla filnamnet körs nu daglig modelluppdatering. Det gamla rapportjobbet ersätts.
+## Filer och test
 
-De äldre skripten `ai-news.mjs` och `ai-review.mjs` ligger kvar som äldre manuella verktyg och använder också OpenAI, men används inte av de nya jobben.
+- `index.html`: den befintliga sidans layout och funktioner.
+- `profile-health.js`: små statusrader som läggs till vid publicering, utan ändring av originalets layoutkod.
+- `site-data.json`: sammanhängande paket med nyhetsarkiv, modeller, kanaler, faktakällor och `profileChecks`.
+- `news.json`: kompatibilitetsarkiv.
+- `update.mjs`, `data-core.mjs`: befintligt nyhetsflöde och gemensamma regler.
+- `profile-refresh.mjs`: hela modellistans kontroller, källcache och kandidatprioritering.
+- `openai.mjs`: gemensam Responses API-transport med inbyggd fetch, utan nytt paketberoende.
+- `update-report.json`: nyhetsrapport. `model-report.json`: separat modellrapport som inte skrivs över av nästa nyhetsjobb.
+- `publish-data.mjs`: kopierar enbart besökarfiler till `_site/` och lägger till versionsmärkt statusskript.
+- `.github/workflows/monthly-review.yml`: dagligt modelljobb trots äldre filnamn.
+- `.github/workflows/update-news.yml`: nyheter och kanaler. `.github/workflows/deploy-pages.yml`: publicering.
 
-## Publicering och test
+Kör `node --test *.test.mjs *.test.cjs`. De nya testerna omfattar hela listan, begränsad parallellism, isolerade fel, cache, tomma svar, identitet, prisgrupper, kandidatkö, betygsskydd, statustexter och publiceringspaketet. Lokala testdubblar bevisar inte att externa API:er eller officiella webbplatser fungerar. Kör modelljobbet och granska `model-report.json` även om Actions är grönt. Fältfel syns i rapporten och på webbplatsen. En tidsbudget kan lämna poster okontrollerade; de räknas då som överhoppade, inte lyckade.
 
-Behåll befintlig GitHub-hemlighet `YOUTUBE_API_KEY` och lägg till `OPENAI_API_KEY`. Valfria variabler `OPENAI_NEWS_MODEL` och `OPENAI_PROFILE_MODEL` väljer API-modell; standard är `gpt-5.6-luna` för nyheter och `gpt-5.6-terra` för webbaserad profilkontroll. Gamla modellvariabler används inte. API-nyckeln behöver åtkomst till båda modellerna och tillgängligt API-saldo. Inga nycklar ska finnas i webbplatsens filer. Standardbegränsningen är 36 fördjupade sammanfattningar och högst 20 publicerade nya artiklar per nyhetskörning; API-kostnaden beror på källornas mängd och vald modell.
+## Drift och publicering
 
-Arbetsflödena kan köras manuellt på en arbetsgren. De sparar resultat och en nedladdningsbar förhandsversion, men publicerar **bara från main**. Publiceringsmiljön är github-pages. GitHub Pages behöver använda GitHub Actions som källa; domänen iamp.ai och CNAME behålls.
+Behåll befintliga repository secrets `YOUTUBE_API_KEY` och `OPENAI_API_KEY`. Inga nycklar ska ligga i filer eller loggar. `OPENAI_NEWS_MODEL` och `OPENAI_PROFILE_MODEL` väljer modeller; standard är `gpt-5.6-luna` respektive `gpt-5.6-terra`. Nyckeln behöver rätt modellåtkomst och API-saldo. Detta använder befintlig integration, inte en ny nyckel eller en ny server.
 
-Kör `node --test *.test.mjs *.test.cjs` för kontroller. Kör sedan båda arbetsflödena på arbetsgrenen och granska deras rapporter innan sammanslagning med main. Att testerna passerar är inte samma sak som att externa API:er och källor har verifierats i en riktig körning.
+Helkontrollen kan kosta mer än det gamla fyramodellsjobbet, särskilt första gången och när underlag inte går att verifiera. Källåteranvändning, högst åtta nya profiler per körning och en återförsökspaus begränsar onödiga anrop. Nyhetsgränserna är oförändrade: normalt högst 36 fördjupade sammanfattningar och 20 nya publicerade artiklar per nyhetskörning.
 
-Käll/API-fel får inte radera tidigare artiklar eller fullständiga modellfakta. Jobben delar en kö för att undvika att de skriver över varandra. Schemalagda GitHub-körningar kan fördröjas. Fel framgår av Actions och `update-report.json`.
+Arbetsflödena kan startas manuellt på en arbetsgren och sparar förhandsversioner. Publicering sker bara från `main`, med befintlig GitHub Pages-miljö och domänen iamp.ai. Innehållsjobben delar skrivlås. Vanliga kodändringar i modelljobbet startar också en kontroll från `main`.
 
-## Aktivera OpenAI-bytet
+Responses API använder `store:false`. Avbrutna svar, vägran, HTTP-fel och misslyckad webbsökning kontrolleras innan JSON används. 429 och serverfel försöks upp till tre gånger. Webbsökning debiteras separat. Sökresultat ersätter aldrig en misslyckad direkthämtning av officiella belägg.
 
-1. Lägg till en repository secret med namnet `OPENAI_API_KEY` i Settings → Secrets and variables → Actions. Klistra bara in nyckeln där. Behåll `YOUTUBE_API_KEY`.
-2. För över ändrade kodfiler, båda workflows och de nya filerna `openai.mjs` och `openai.test.mjs` till repot. Använd gärna en arbetsgren först. Datafiler och sidans HTML behöver inte bytas ut.
-3. Kör Actions → Update news feed → Run workflow på arbetsgrenen, därefter Update Trendar models. Kontrollera både jobbstatus och `update-report.json` (profilfel kan loggas även om jobbet är grönt).
-4. Efter granskning: slå samman ändringen till main för att använda den i det befintliga schemat. En manuell körning på main kan publicera på iamp.ai.
-
-OpenAI använder Responses API med `store: false`. Textsvar, avbrutna svar, vägran, HTTP-fel och misslyckad webbsökning kontrolleras innan JSON tas emot. 429 och serverfel försöks upp till tre gånger. Webbsökning har separat kostnad. Ett riktigt API-test kräver din nyckel och har inte utförts i den lokala migreringen.
-
-Dokumentation: [Responses-textsvar](https://developers.openai.com/api/docs/guides/text), [webbsökning](https://developers.openai.com/api/docs/guides/tools-web-search), [Luna](https://developers.openai.com/api/docs/models/gpt-5.6-luna), [Terra](https://developers.openai.com/api/docs/models/gpt-5.6-terra).
+Dokumentation: [Responses](https://developers.openai.com/api/docs/guides/text), [webbsökning](https://developers.openai.com/api/docs/guides/tools-web-search), [GitHub workflow-händelser](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows).

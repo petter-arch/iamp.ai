@@ -13,22 +13,20 @@ on:
       - main
     paths:
       - index.html
+      - profile-health.js
       - site-data.json
       - news.json
       - CNAME
       - publish-data.mjs
       - .github/workflows/deploy-pages.yml
   workflow_dispatch: {}
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: iamp-pages-deploy
   cancel-in-progress: true
-
 jobs:
   deploy:
     if: >-
