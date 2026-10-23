@@ -1,76 +1,49 @@
 {
-  "startedAt": "2026-10-23T07:31:31.184Z",
+  "startedAt": "2026-10-23T18:19:26.207Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-23T07:31:31.184Z",
+      "checkedAt": "2026-10-23T18:19:26.207Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 141,
-    "relevant": 51,
-    "supported": 38
+    "relevant": 52,
+    "supported": 39
   },
   "rejected": [
-    {
-      "video": "4C2e0oFgAkw",
-      "title": "The Final Boss of Green Screen.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "godomkRXBLE",
-      "title": "CorridorKey 2.0 just works...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
     {
       "video": "S2srfNCa50A",
       "title": "5 Prompts With Google's ULTRA Powerful New Model",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1,
-        2
-      ]
-    },
-    {
-      "video": "XEl4ZQKKxig",
-      "title": "The Cheapest Robot On The Market?!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
         1,
         2
       ]
@@ -83,6 +56,16 @@
         3,
         5,
         19
+      ]
+    },
+    {
+      "video": "hNAKl3oLFMs",
+      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        11,
+        17
       ]
     },
     {
@@ -103,21 +86,21 @@
       ]
     },
     {
-      "video": "b5D80OWst78",
-      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4
-      ]
-    },
-    {
       "video": "DWaHaHdiDAM",
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
+      ]
+    },
+    {
+      "video": "hl8s1sn2ztA",
+      "title": "FIBO 2.0 ComfyUI Tutorial: Dev vs Turbo, VGL & Image Editing",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        5
       ]
     },
     {
@@ -125,8 +108,7 @@
       "title": "This Open AI Image Model Edits AND Generates, Trained Only on Licensed Data",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        3
+        1
       ]
     },
     {
@@ -135,8 +117,26 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        4,
-        5
+        4
+      ]
+    },
+    {
+      "video": "vETqmXXalS4",
+      "title": "Hi3D V1.0 Is OPEN SOURCE! Turn a Product Photo Into 3D — Free #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "video": "9ItzmCJhMls",
+      "title": "NVIDIA's new robot-training tools still face the reality gap",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
       ]
     },
     {
@@ -157,11 +157,6 @@
       ]
     },
     {
-      "video": "dyrNQV0F3Zs",
-      "title": "Personal Body Guard Robot - What could go wrong?",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "KZRUdQYU4dI",
       "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
@@ -172,13 +167,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
+      "video": "gyTcoQlibdk",
+      "title": "Create an Unrolling Timeline video with Claude Motion",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
       "stage": "insufficient-article-source"
     },
     {
@@ -187,8 +182,43 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "EPYh_bgXJBk",
       "title": "This AI trick Magically Creates New Camera Angles",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_gFjdSVwjIg",
+      "title": "Google Flow: Turn Your Ideas Into Cinematic AI Films 🎬#GoogleDeepMind #usa #youtubeshorts #usashorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "j1SVOTtuHc8",
+      "title": "New Aesthetic Ai Photo Prompt For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0tSaHo9_u7E",
+      "title": "💃 FASHION PHOTO Shoot Trending Photo Editing || Chatgpt Photo Editing #gemini #chatgpt #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Wt0Bsmnuisk",
+      "title": "Fibo 2.0: free open AI image editor that only changes what you ask",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "Jcp8Gq0Ih0k",
+      "title": "AI 3D 모델 생성기 Hyper3D, Agentic Mode로 건물 만들고 수정하기",
       "stage": "insufficient-article-source"
     },
     {
@@ -197,18 +227,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "zMMyxZwnPV8",
-      "title": "AI Video Generation, Realistic Images & Voice Cloning 🤯",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HJfHk2JY9kU",
-      "title": "AI Image Generation: From Drawing to Editing #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "HiBQP7wQwU4",
       "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "71h7RG85-r0",
+      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dHwDV_nIVTM",
+      "title": "Meshy AI vs Tripo AI (2026) | Which AI 3D Generator Is Better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -220,25 +250,10 @@
       ]
     },
     {
-      "video": "71h7RG85-r0",
-      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "2Pmc13MXUzI",
-      "title": "Which AI Image Model Makes the Best 3D Models? I Tested 3",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "8-2-CSot7j8",
-      "title": "Meshy vs Tripo: Which AI Makes Better 3D Models? ⚔️ #tripoai #aiart #3dmodeling #meshyai",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "KP0nACn50FE",
       "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7
+  "accepted": 3
 }
