@@ -1,46 +1,41 @@
 {
-  "startedAt": "2026-10-24T07:17:01.266Z",
+  "startedAt": "2026-10-24T17:26:14.458Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "DD4oHSH5SEI",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "checkedAt": "2026-10-24T17:26:14.458Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 139,
-    "relevant": 52,
-    "supported": 42
+    "fetched": 136,
+    "relevant": 43,
+    "supported": 35
   },
   "rejected": [
     {
@@ -54,13 +49,31 @@
       ]
     },
     {
+      "video": "1Aqhg0FVm-w",
+      "title": "Deepseek strikes again",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        7,
+        18
+      ]
+    },
+    {
       "video": "X0_GDOkLKzQ",
       "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
       "stage": "classification-evidence",
       "evidenceIds": [
-        3,
         5,
         19
+      ]
+    },
+    {
+      "video": "hNAKl3oLFMs",
+      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        11
       ]
     },
     {
@@ -81,30 +94,11 @@
       ]
     },
     {
-      "video": "b5D80OWst78",
-      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4
-      ]
-    },
-    {
       "video": "DWaHaHdiDAM",
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
       "evidenceIds": [
         1
-      ]
-    },
-    {
-      "video": "vnx2Xbr0IGU",
-      "title": "This Open AI Image Model Edits AND Generates, Trained Only on Licensed Data",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
       ]
     },
     {
@@ -118,26 +112,23 @@
       ]
     },
     {
-      "video": "tOhAn3Z-ov8",
-      "title": "Gemini 4 Argon: what it does and who actually gets it",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3,
-        8
-      ]
-    },
-    {
-      "video": "FHXPmZ53lfU",
-      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "k7sOCIFc6ys",
       "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "U6vf0kjMPqU",
+      "title": "New Mystery AI Video Model: Iron Goddess!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Gw-5MhJBnqQ",
+      "title": "This new AI video model claims Seedance 2.5 quality for 62% less",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tDWtcyeNNew",
+      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -146,18 +137,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "FiyUagHO37Y",
-      "title": "Old Phones Are Becoming Robots?!?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "VVBszkWK0Io",
-      "title": "My favorite new image editing tool",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ZVAeD9Lp244",
-      "title": "\"Free Photo-to-3D\" Has an Asterisk — What Hi3D's Fine Print Actually Says",
+      "video": "EPYh_bgXJBk",
+      "title": "This AI trick Magically Creates New Camera Angles",
       "stage": "insufficient-article-source"
     },
     {
@@ -166,13 +147,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
+      "video": "RUu1YbH0IBY",
+      "title": "A new generation of AI filmmaking is about to ignite.",
       "stage": "insufficient-article-source"
     },
     {
       "video": "ktEt4n9VlF4",
       "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "DD4oHSH5SEI",
+      "title": "Google Cooked! Testing Gemini 4 Argon & Blasting 800 Million Tokens!",
       "stage": "insufficient-article-source"
     },
     {
@@ -186,22 +172,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "j1SVOTtuHc8",
-      "title": "New Aesthetic Ai Photo Prompt For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Wt0Bsmnuisk",
-      "title": "Fibo 2.0: free open AI image editor that only changes what you ask",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "0tSaHo9_u7E",
-      "title": "💃 FASHION PHOTO Shoot Trending Photo Editing || Chatgpt Photo Editing #gemini #chatgpt #photoediting",
+      "video": "dyrNQV0F3Zs",
+      "title": "Personal Body Guard Robot - What could go wrong?",
       "stage": "insufficient-article-source"
     },
     {
@@ -213,20 +185,25 @@
       ]
     },
     {
-      "video": "zMMyxZwnPV8",
-      "title": "AI Video Generation, Realistic Images & Voice Cloning 🤯",
+      "video": "Wt0Bsmnuisk",
+      "title": "Fibo 2.0: free open AI image editor that only changes what you ask",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "HiBQP7wQwU4",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
       "video": "KP0nACn50FE",
       "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "uLu_w1X8oHo",
-      "title": "How I Made a Cinematic AI Short Film With 100% Free AI",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 2
 }
