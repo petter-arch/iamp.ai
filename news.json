@@ -1,6 +1,183 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "In this video, we’ll show you how to use the new AI 3D model generation tool built into CNC3D Design Suite. Start with a text",
+    "evidenceIds": [
+      2,
+      3,
+      4
+    ],
+    "id": "n1WMf1O_2xg",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "CNC3D lägger till AI för 3D-modeller till CNC-fräsning",
+    "sum": "CNC3D beskriver ett nytt AI-verktyg i CNC3D Design Suite som skapar 3D-modeller för reliefarbeten från textbeskrivningar eller importerade bilder. Modellerna kan därefter förberedas för CNC-fräsning med programmets image-to-STL-konvertering och STL-redigerare.",
+    "full": "CNC3D beskriver i en video ett nytt AI-baserat verktyg i CNC3D Design Suite för att skapa 3D-modeller till CNC-frästa reliefar. Arbetsflödet börjar med antingen en textprompt, där användaren beskriver motivet, eller en importerad bild som används som grund för en 3D-reliefmodell. Enligt CNC3D påverkar detaljnivån i beskrivningen hur nära resultatet kan komma användarens idé.\n\nVerktyget riktar sig mot ett konkret problem i tillverkningen av 3D-reliefer: att ta fram en användbar modell från början. När modellen har skapats innehåller Design Suite funktioner för att konvertera bilder till STL och redigera STL-filer. CNC3D framställer därför AI-funktionen som ett steg mellan en enkel idé och en modell som kan användas i ett CNC-fräsningsflöde.\n\nCNC3D uppger att alla användare får 30 kostnadsfria tokens för att prova funktionen. Modellgenereringen använder betalda AI-tjänster, och fler tokens kan köpas för fortsatt användning. Beskrivningen anger inte vilka underliggande AI-tjänster som används, hur modellerna bedöms eller vilka begränsningar som gäller för olika motiv och detaljer.\n\nDet presenterade användningsfallet är att skapa egna motiv för 3D-carving utan att först ha en färdig modell. CNC3D hänvisar också användare till företagets Facebook-grupp, Facebook-sida och andra sociala kanaler för att dela färdiga carvingprojekt.",
+    "deep": "CNC3D:s beskrivning anger två indataformat för AI-funktionen: en textbaserad instruktion eller en importerad bild. Resultatet beskrivs som en 3D-reliefmodell, inte som en allmän 3D-modellgenerator med specificerade format, polygonantal eller garanterad produktionskvalitet.\n\nDet befintliga arbetsflödet i CNC3D Design Suite omfattar image-to-STL-konvertering och en STL-redigerare. Den nya funktionen placeras ovanpå dessa verktyg genom att hjälpa användaren att skapa utgångsmodellen innan redigering och CNC-förberedelser. Källan lämnar däremot inga uppgifter om automatisk verktygsbanegenerering, maskinkompatibilitet, måttnoggrannhet eller hur mycket manuell efterbearbetning som krävs.\n\nVideons beskrivning uppger att modellgenerering förbrukar tokens och att tjänsten bygger på betalda AI-tjänster. Den specificerar inte tokenkostnad per modell, abonnemangsvillkor eller någon produktlanseringsdag för AI-funktionen. Uppgifterna ovan återges därför som CNC3D:s presentation av arbetsflödet, inte som resultat från ett oberoende test.",
+    "en": {
+      "ttl": "CNC3D adds AI for 3D models to CNC carving",
+      "sum": "CNC3D describes a new AI tool in CNC3D Design Suite that creates 3D models for relief carving from text descriptions or imported images. The models can then be prepared for CNC carving using the software’s image-to-STL conversion and STL editor.",
+      "full": "CNC3D describes in a video a new AI-based tool in CNC3D Design Suite for creating 3D models for CNC-carved reliefs. The workflow starts with either a text prompt, in which the user describes the subject, or an imported image used as the basis for a 3D relief model. According to CNC3D, the level of detail in the description affects how closely the result can match the user’s idea.\n\nThe tool targets a specific problem in 3D-relief production: creating a usable model from scratch. Once the model has been generated, Design Suite includes image-to-STL conversion and STL editing. CNC3D therefore presents the AI feature as a step between a simple idea and a model that can be used in a CNC carving workflow.\n\nCNC3D says all users receive 30 free tokens to try the feature. Model generation uses paid AI services, and users can purchase more tokens for continued use. The description does not identify the underlying AI services, explain how models are evaluated, or specify the limitations for different subjects and levels of detail.\n\nThe presented use case is creating custom subjects for 3D carving without first having a finished model. CNC3D also directs users to its Facebook group, Facebook page and other social channels for sharing completed carving projects.",
+      "deep": "CNC3D’s description identifies two input formats for the AI feature: a text-based instruction or an imported image. The output is described as a 3D relief model, not as a general 3D model generator with specified polygon counts, formats or guaranteed production quality.\n\nThe existing workflow in CNC3D Design Suite includes image-to-STL conversion and an STL editor. The new feature is positioned on top of these tools by helping users create the starting model before editing and CNC preparation. The source does not provide information about automatic toolpath generation, machine compatibility, dimensional accuracy or the amount of manual finishing required.\n\nThe video description says that model generation consumes tokens and that the service relies on paid AI services. It does not specify the token cost per model, subscription terms or a product release date for the AI feature. The information above is therefore presented as CNC3D’s description of the workflow, not as the result of an independent test."
+    },
+    "cat": "3d",
+    "date": "2026-10-24T02:25:58Z",
+    "meta": "CNC3D · 2026-10-24",
+    "url": "https://www.youtube.com/watch?v=n1WMf1O_2xg",
+    "img": "https://i.ytimg.com/vi/n1WMf1O_2xg/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "CNC3D"
+    ],
+    "parts": [],
+    "views": 35,
+    "buzz": 39,
+    "sourceCheckedAt": "2026-10-24T07:17:01.266Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "e4b7d8b0c6d6aa59471c2f6ad4e1f88343db360e52c17f090239757525a2bb25",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "CNC3D Design Suite"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Topview has released T1, its first AI video model, and it claims Seedance 2.5 quality for far less money. I put both models through the",
+    "evidenceIds": [
+      7,
+      1,
+      18
+    ],
+    "id": "VpTi5uOTd2c",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Topview T1 utmanar Seedance 2.5 med lägre pris",
+    "sum": "AI Samson jämför Topview T1 och Seedance 2.5 i tio tester som omfattar bland annat läppsynkning, dialog, fysik, text, karaktärskonsistens och begränsningar. Enligt kanalens beskrivning hävdar Topview att T1 når Seedance 2.5-kvalitet till betydligt lägre kostnad, men jämförelsen ska avgöra vilka arbetsuppgifter modellen faktiskt klarar.",
+    "full": "AI-kanalen AI Samson beskriver Topview T1 som Topviews första AI-videomodell och ställer den mot Seedance 2.5 i en serie direkta jämförelser. Kanalens fokus ligger på både resultat och kostnader: Topview uppges hävda att T1 kan leverera kvalitet i nivå med Seedance 2.5 till mycket lägre pris, medan videon undersöker om påståendet håller i praktiken.\n\nJämförelsen omfattar tio tester med samma typer av utmaningar för båda modellerna. Bland momenten finns läppsynkning och dialog, fightscener, fysik, text och modellernas begränsningar. Beskrivningen nämner också arbetsflöden för text-till-video, återskapande av fysik, konsekventa karaktärer, återgivning av text och en filmisk sekvens.\n\nAI Samson presenterar testerna som ett sätt att avgöra vilka jobb Topview T1 faktiskt kan ta över från Seedance 2.5. Det handlar därmed inte bara om en allmän modellpresentation, utan om en praktisk granskning av användningsområden och begränsningar för AI-videoproduktion. Beskrivningen anger samtidigt att videon inte är sponsrad av Topview.",
+    "deep": "Kanalens beskrivning anger att båda modellerna utsätts för samma utmaningar, vilket ger jämförelsen ett gemensamt testupplägg enligt AI Samson. De specificerade områdena spänner från dialog och läppsynkning till visuellt mer krävande sekvenser med fysik och slagsmål.\n\nDe redaktionellt relevanta frågorna är dels hur Topview T1 står sig mot Seedance 2.5 i bild- och videokvalitet, dels vilka begränsningar som påverkar faktisk användning. Videon tar uttryckligen upp priser och restriktioner, men källbeskrivningen innehåller inga konkreta prisbelopp, testresultat eller detaljer om vilken modell som vinner de enskilda momenten. Sådana uppgifter kan därför inte fastställas här.\n\nHeyGen nämns som videosponsor, men sponsringen gäller inte själva huvudämnet. Topview uppges inte sponsra videon; kanalen nämner i stället att Topview sponsrade en tidigare video.",
+    "en": {
+      "ttl": "Topview T1 challenges Seedance 2.5 at a lower price",
+      "sum": "AI Samson compares Topview T1 and Seedance 2.5 in ten tests covering lip sync, dialogue, physics, text, character consistency and restrictions. According to the channel description, Topview claims that T1 delivers Seedance 2.5-level quality at a much lower cost, while the comparison examines which tasks the model can actually handle.",
+      "full": "The AI channel AI Samson describes Topview T1 as Topview’s first AI video model and compares it directly with Seedance 2.5. The channel focuses on both results and cost: Topview is said to claim that T1 can deliver quality comparable to Seedance 2.5 at a much lower price, while the video examines whether that claim holds in practice.\n\nThe comparison includes ten tests covering the same types of challenges for both models. The listed areas include lip sync and dialogue, fight scenes, physics, text and model restrictions. The description also mentions text-to-video workflows, recreating physics, character consistency, rendering text and a cinematic sequence.\n\nAI Samson presents the tests as a way to determine which jobs Topview T1 can actually take over from Seedance 2.5. This makes the video a practical examination of AI video-production use cases and limitations rather than only a general model presentation. The description also states that the video is not sponsored by Topview.",
+      "deep": "The channel description says that both models face the same challenges, giving the comparison a shared test setup according to AI Samson. The specified areas range from dialogue and lip sync to more demanding visual sequences involving physics and fights.\n\nThe editorially relevant questions are how Topview T1 compares with Seedance 2.5 in video quality and which restrictions affect real-world use. The video explicitly addresses prices and restrictions, but the source description provides no exact prices, test results or details about which model wins each individual test. Those details therefore cannot be established here.\n\nHeyGen is mentioned as a video sponsor, but that sponsorship is not the main subject. Topview is said not to sponsor the video; the channel instead notes that Topview sponsored an earlier video."
+    },
+    "cat": "film",
+    "date": "2026-10-23T21:26:59Z",
+    "meta": "AI Samson · 2026-10-23",
+    "url": "https://www.youtube.com/watch?v=VpTi5uOTd2c",
+    "img": "https://i.ytimg.com/vi/VpTi5uOTd2c/hqdefault.jpg",
+    "plat": "Seedance 2.5",
+    "platformIds": [
+      "seedance-2-5"
+    ],
+    "chans": [
+      "AI Samson"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro"
+      },
+      {
+        "t": 28,
+        "l": "Topview T1"
+      },
+      {
+        "t": 237,
+        "l": "AI Micro Dramas"
+      },
+      {
+        "t": 420,
+        "l": "Text to Video"
+      },
+      {
+        "t": 534,
+        "l": "Recreating Physics"
+      },
+      {
+        "t": 727,
+        "l": "Character Consistency"
+      },
+      {
+        "t": 824,
+        "l": "Rendering Text"
+      },
+      {
+        "t": 903,
+        "l": "Cinematic Sequence"
+      },
+      {
+        "t": 1051,
+        "l": "How Does It Match Up?"
+      },
+      {
+        "t": 1355,
+        "l": "Restriction Tests"
+      },
+      {
+        "t": 1463,
+        "l": "Replacing Seedance 2.5?"
+      }
+    ],
+    "views": 12305,
+    "buzz": 69,
+    "sourceCheckedAt": "2026-10-24T07:17:01.266Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f81c1ca50854da2dc18a5167443f6770c23887ea5eadb15fca3ac79da9e877c1",
+    "trusted": true,
+    "sourceId": "aisamsonreal",
+    "newPlatforms": [
+      "Topview T1"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "using Claude video generator to add captions and timestamps Stop paying for captions. Here's how to get a word-by-word SRT from Claude in one prompt.",
+    "evidenceIds": [
+      0,
+      2,
+      3
+    ],
+    "id": "eMFpzUYNv3o",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Claude som videogenerator skapar ordnivåindelade SRT-undertexter och tidsstämplar",
+    "sum": "Futurepedia visar ett arbetsflöde där Claude används för att skapa SRT-transkriptioner med tidsstämplar på ordnivå från en uppladdad ljudfil.",
+    "full": "Kanalen Futurepedia beskriver ett arbetsflöde för att skapa undertexter och tidsstämplar med Claude som videogenerator. I stället för att betala för separat textning kan användaren lägga in en ljudfil i Claude och be om en SRT-transkription på ordnivå som går att kopiera och klistra in.\n\nEnligt Futurepedia räcker det att be Claude om en ordnivåindelad SRT-transkription. Resultatet kan därefter klistras in i ett redigeringsprogram för undertexter. Arbetsflödet är därmed inriktat på att omvandla ljud till ett färdigt undertextformat utan att manuellt tidsätta varje ord.\n\nFuturepedia skiljer mellan två detaljnivåer. Om användaren bara ber om en SRT-transkription blir tidsangivelserna enligt kanalen normalt indelade per textrad, medan en uttrycklig begäran om ordnivå ger tidsstämplar för varje enskilt ord. Kanalen framhåller att radbaserad timing kan vara mer praktisk för längre videor, eftersom ordnivåfiler kan bli mycket stora. För korta klipp kan däremot ordnivå vara användbart när exakt synkning behövs.",
+    "deep": "Det beskrivna indataformatet är en ljudfil, och det föreslagna resultatet är en SRT-fil som kan kopieras och klistras in i ett verktyg för textning. Futurepedia anger inte någon separat programvara, modellversion, noggrannhet eller tidsbesparing. Beskrivningen visar därför ett konkret textningsarbetsflöde, men innehåller ingen oberoende testning eller verifiering av resultatets kvalitet.\n\nKanalen presenterar ordnivåtiming som ett val för kortare klipp och radbaserad timing som ett alternativ för längre videor. Den medföljande beskrivningen innehåller inte information om stöd för andra filformat, språk, talaridentifiering eller automatisk import till ett visst redigeringsprogram.",
+    "en": {
+      "ttl": "Claude as a video generator creates word-level SRT captions and timestamps",
+      "sum": "Futurepedia presents a workflow where Claude is used to create SRT transcripts with word-level timestamps from an uploaded audio file.",
+      "full": "The Futurepedia channel describes a workflow for creating captions and timestamps with Claude as a video generator. Instead of paying for separate captioning, a user can drop an audio file into Claude and request a word-level SRT transcript that can be copied and pasted.\n\nAccording to Futurepedia, the user only needs to ask Claude for a word-level SRT transcript. The result can then be pasted into a caption editor. The workflow is therefore focused on turning audio into a ready-to-use caption format without manually timing every word.\n\nFuturepedia distinguishes between two levels of detail. If the user asks only for an SRT transcript, the timestamps are described as line-based, while an explicit word-level request produces timestamps for each individual word. The channel says line-based timing can be more practical for longer videos because word-level files can become very large. For short clips, word-level timing can be useful when precise synchronization is needed.",
+      "deep": "The described input is an audio file, and the proposed output is an SRT file that can be copied and pasted into a captioning tool. Futurepedia does not provide a separate software name, model version, accuracy measurement or time-saving measurement. The description therefore shows a concrete captioning workflow, but does not contain independent testing or verification of output quality.\n\nThe channel presents word-level timing as an option for short clips and line-based timing as an alternative for longer videos. The supplied description does not mention support for other file formats, languages, speaker identification or automatic import into a specific editing program."
+    },
+    "cat": "film",
+    "date": "2026-10-23T18:42:53Z",
+    "meta": "Futurepedia · 2026-10-23",
+    "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
+    "img": "https://i.ytimg.com/vi/eMFpzUYNv3o/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Futurepedia"
+    ],
+    "parts": [],
+    "views": 1278,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-10-24T07:17:01.266Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a5f1aceb925b61a612416115c03a0adc0ea5834f45f49ea2433557384aa33213",
+    "trusted": true,
+    "sourceId": "futurepedia_io",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Build a 3D world you can walk through with Gemini 4. I asked Gemini 4 to recreate ancient Rome in 3D so I could walk",
     "evidenceIds": [
       1
@@ -39,6 +216,51 @@
     "sourceId": "skillleapai",
     "newPlatforms": [
       "Gemini 4"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Fibo 2.0 Dev by Bria AI is an AI model for generating images from text prompts and editing existing images using natural-language instructions. In this",
+    "evidenceIds": [
+      5,
+      7,
+      8
+    ],
+    "id": "rhVfkUxLdMk",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Fibo 2.0 Dev ger AI-bildredigering på GPU:er med låg VRAM",
+    "sum": "AiThatSpeaks beskriver Fibo 2.0 Dev från Bria AI, en modell för att skapa bilder från text och redigera befintliga bilder med instruktioner på naturligt språk. Videon fokuserar på att konfigurera Wan2GP och använda modellen på en GPU med minst 6 GB VRAM.",
+    "full": "AiThatSpeaks lyfter fram Fibo 2.0 Dev från Bria AI som ett verktyg för AI-bildredigering med lokal körning på hårdvara med begränsat grafikminne. Enligt kanalens beskrivning kan modellen både skapa bilder från textpromptar och redigera befintliga bilder med instruktioner på naturligt språk.\n\nVideon visar hur Wan2GP uppdateras för att använda Fibo 2.0 Dev. Beskrivningen nämner också en fullständig installationsväg för den som sätter upp Wan2GP för första gången. Det huvudsakliga användningsområdet är därmed ett arbetsflöde för textbaserad bildgenerering och redigering, snarare än traditionell bildbehandling.\n\nAiThatSpeaks uppger att arbetsflödet testas på en GPU med låg VRAM. Den angivna minimikravet är 6 GB VRAM. För installationen anges dessutom CUDA Toolkit 11.8–12.8, FFmpeg, Python 3.10.11, Visual Studio och Git for Windows som krav eller komponenter i miljön.\n\nBeskrivningen ger inga resultatmått eller detaljer om specifika redigeringsfall. Den stöder däremot att Fibo 2.0 Dev är inriktad på lokal AI-bildgenerering och bildredigering via Wan2GP, med fokus på att göra arbetsflödet möjligt på GPU:er med relativt låg VRAM.",
+    "deep": "Fibo 2.0 Dev presenteras som en modell från Bria AI. Enligt AiThatSpeaks kombinerar den två funktioner: generering av bilder från textpromptar och redigering av befintliga bilder genom instruktioner på naturligt språk. Källbeskrivningen anger inte vilka specifika redigeringsoperationer som demonstreras eller hur modellens bildkvalitet står sig mot andra modeller.\n\nDet tekniska arbetsflödet kretsar kring Wan2GP. Videon ska enligt beskrivningen visa hur en befintlig Wan2GP-installation uppdateras för Fibo 2.0 Dev, samtidigt som en separat installationsväg nämns för nya användare. Den angivna hårdvarugränsen är en GPU med minst 6 GB VRAM, men beskrivningen lämnar öppet hur prestanda, hastighet och minnesanvändning varierar i praktiken.\n\nDen publicerade kravlistan innehåller CUDA Toolkit-versioner från 11.8 till 12.8 samt FFmpeg, Python 3.10.11, Visual Studio och Git for Windows. Dessa uppgifter beskriver den miljö som kanalens arbetsflöde förutsätter; de är inte ett oberoende test eller en bekräftelse på kompatibilitet med andra konfigurationer.",
+    "en": {
+      "ttl": "Fibo 2.0 Dev brings AI image editing to low-VRAM GPUs",
+      "sum": "AiThatSpeaks describes Fibo 2.0 Dev from Bria AI, a model for generating images from text and editing existing images with natural-language instructions. The video focuses on configuring Wan2GP and using the model on a GPU with at least 6 GB of VRAM.",
+      "full": "AiThatSpeaks highlights Fibo 2.0 Dev from Bria AI as a tool for AI image editing on hardware with limited graphics memory. According to the channel’s description, the model can generate images from text prompts and edit existing images using natural-language instructions.\n\nThe video shows how to update Wan2GP to use Fibo 2.0 Dev. The description also mentions a full installation path for users setting up Wan2GP for the first time. The main use case is therefore a workflow for text-based image generation and editing rather than traditional image processing.\n\nAiThatSpeaks says the workflow is tested on a low-VRAM GPU. The stated minimum requirement is 6 GB of VRAM. The installation requirements also include CUDA Toolkit 11.8–12.8, FFmpeg, Python 3.10.11, Visual Studio and Git for Windows.\n\nThe description provides no performance figures or details about specific editing examples. It does support the conclusion that Fibo 2.0 Dev is aimed at local AI image generation and editing through Wan2GP, with a focus on making the workflow usable on GPUs with relatively low VRAM.",
+      "deep": "Fibo 2.0 Dev is presented as a model from Bria AI. According to AiThatSpeaks, it combines two functions: generating images from text prompts and editing existing images through natural-language instructions. The source description does not specify which editing operations are demonstrated or how the model’s image quality compares with other models.\n\nThe technical workflow centers on Wan2GP. The video is described as showing how to update an existing Wan2GP installation for Fibo 2.0 Dev, while also mentioning a separate installation path for new users. The stated hardware threshold is a GPU with at least 6 GB of VRAM, but the description does not explain how performance, speed or memory usage vary in practice.\n\nThe published requirements include CUDA Toolkit versions 11.8 through 12.8, as well as FFmpeg, Python 3.10.11, Visual Studio and Git for Windows. These details describe the environment used by the channel’s workflow; they are not an independent test or a confirmation of compatibility with other configurations."
+    },
+    "cat": "foto",
+    "date": "2026-10-23T16:10:15Z",
+    "meta": "AiThatSpeaks · 2026-10-23",
+    "url": "https://www.youtube.com/watch?v=rhVfkUxLdMk",
+    "img": "https://i.ytimg.com/vi/rhVfkUxLdMk/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AiThatSpeaks"
+    ],
+    "parts": [],
+    "views": 181,
+    "buzz": 47,
+    "sourceCheckedAt": "2026-10-24T07:17:01.266Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "4e54ee695dae28ea0841d2d8339a0bd2b9ae02ddc3a9c0d686727e6a3c3e4805",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Fibo 2.0 Dev",
+      "Wan2GP"
     ]
   },
   {
@@ -134,6 +356,50 @@
       "Seedance 2.5",
       "Google Gemini Omni 1.1 Flash",
       "Wan 3.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Try This Prompt ChatGPT Photo Editing | Trending Instagram Ai Photo Editing | ChatGPT Girl Prompt#ai how to get chatgpt photo editor prompt how to",
+    "evidenceIds": [
+      0,
+      2,
+      3
+    ],
+    "id": "aHPnS-ozJBw",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Prompt Verse visar hur ChatGPT används för AI-baserad fotoredigering",
+    "sum": "Kanalen Prompt Verse beskriver ett arbetsflöde där ChatGPT används för att skapa och använda bildredigeringsprompter, bland annat för realistiska, filmiska och Instagram-anpassade bilder.",
+    "full": "Kanalen Prompt Verse fokuserar på hur ChatGPT kan användas i ett AI-baserat arbetsflöde för fotoredigering. Videons titel och beskrivning handlar om att skapa en prompt för ChatGPTs bildredigering och om hur sådana instruktioner kan användas för att ta fram bilder som passar Instagram och andra sociala medier.\n\nBeskrivningen nämner flera användningsområden: realistisk fotoredigering, filmisk bildstil, studiobakgrunder, profilbilder och estetiska bilder. Den tar också upp prompter för män, kvinnor, par och bilder tillsammans med en känd person. Prompt Verse presenterar därmed ChatGPT som ett verktyg för att formulera eller genomföra bildredigeringsidéer snarare än som ett traditionellt manuellt redigeringsprogram.\n\nArbetsflödet riktar sig särskilt till användare som vill skapa inlägg, profilbilder och annat Instagram-innehåll. Beskrivningen nämner även mobil användning, Instagram-inlägg och reels, men ger inga detaljer om specifika redigeringssteg, bildkvalitet, modellversion eller verifierade resultat. Påståendena återges därför som kanalens beskrivning och ska inte tolkas som ett oberoende test.",
+    "deep": "De angivna exemplen visar ett promptdrivet arbetssätt: användaren söker eller skapar instruktioner för olika motiv och uttryck, exempelvis parbilder, kärleksteman, bilbilder, barndomsbilder, studiobilder och filmisk estetik. Beskrivningen nämner också prompter för Instagram-tillväxt och följare, men specificerar inte hur sådana resultat skulle mätas eller vilka funktioner som används.\n\nKällmaterialet innehåller inga uppgifter om lanseringsdatum, abonnemang, tekniska begränsningar, bildformat, redigeringsprecision eller stöd för särskilda modeller. Det framgår inte heller om alla nämnda användningsområden demonstreras i videon. Den säkra slutsatsen är därför att Prompt Verse presenterar idéer och instruktioner för ChatGPT-baserad fotoredigering, med fokus på sociala medier och varierade bildstilar.",
+    "en": {
+      "ttl": "Prompt Verse shows how ChatGPT is used for AI-based photo editing",
+      "sum": "The channel Prompt Verse describes a workflow in which ChatGPT is used to create and use image-editing prompts, including prompts for realistic, cinematic and Instagram-oriented images.",
+      "full": "The channel Prompt Verse focuses on how ChatGPT can be used in an AI-based photo-editing workflow. The video title and description concern creating a prompt for ChatGPT photo editing and using such instructions to produce images suited to Instagram and other social platforms.\n\nThe description lists several use cases: realistic photo editing, cinematic image styles, studio backgrounds, profile pictures, and aesthetic images. It also mentions prompts for men, women, couples, and images with a celebrity. Prompt Verse therefore presents ChatGPT as a prompt-driven tool for developing or carrying out photo-editing ideas rather than as a conventional manual editing program.\n\nThe workflow is aimed especially at users who want to create posts, profile images, and other Instagram content. The description also mentions mobile use, Instagram posts, and reels, but provides no details about specific editing steps, image quality, model version, or verified results. These claims are therefore attributed to the channel and should not be treated as an independent test.",
+      "deep": "The examples point to a prompt-driven process: users search for or create instructions for different subjects and visual treatments, including couple images, romantic themes, car images, childhood images, studio photos, and cinematic aesthetics. The description also mentions prompts for Instagram growth and followers, but does not explain how those outcomes would be measured or which features are used.\n\nThe source contains no information about a release date, subscription, technical limitations, image formats, editing accuracy, or support for specific models. It also does not establish that every listed use case is demonstrated in the video. The supported conclusion is that Prompt Verse presents ideas and instructions for ChatGPT-based photo editing, focused on social media and varied visual styles."
+    },
+    "cat": "foto",
+    "date": "2026-10-23T05:42:42Z",
+    "meta": "Prompt Verse · 2026-10-23",
+    "url": "https://www.youtube.com/watch?v=aHPnS-ozJBw",
+    "img": "https://i.ytimg.com/vi/aHPnS-ozJBw/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Prompt Verse"
+    ],
+    "parts": [],
+    "views": 1256,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-10-24T07:17:01.266Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "6f9f87d464e96321ddd34774e0efcdf48e907145220cdc03588d5fe1ea3576cc",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "ChatGPT"
     ]
   },
   {

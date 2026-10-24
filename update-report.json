@@ -1,41 +1,46 @@
 {
-  "startedAt": "2026-10-23T18:19:26.207Z",
+  "startedAt": "2026-10-24T07:17:01.266Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "DD4oHSH5SEI",
+      "message": "Unknown platform ID"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
-      "found": 4
+      "checkedAt": "2026-10-24T07:17:01.266Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-23T18:19:26.207Z",
+      "checkedAt": "2026-10-24T07:17:01.266Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 141,
+    "fetched": 139,
     "relevant": 52,
-    "supported": 39
+    "supported": 42
   },
   "rejected": [
     {
@@ -59,16 +64,6 @@
       ]
     },
     {
-      "video": "hNAKl3oLFMs",
-      "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        4,
-        11,
-        17
-      ]
-    },
-    {
       "video": "pur1QwIA0qg",
       "title": "Who nails the most realistic concert photo?",
       "stage": "classification-evidence",
@@ -86,6 +81,15 @@
       ]
     },
     {
+      "video": "b5D80OWst78",
+      "title": "Gemini 4 Argon Is Here: 12 Jaw Dropping Demos",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4
+      ]
+    },
+    {
       "video": "DWaHaHdiDAM",
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
@@ -94,30 +98,13 @@
       ]
     },
     {
-      "video": "hl8s1sn2ztA",
-      "title": "FIBO 2.0 ComfyUI Tutorial: Dev vs Turbo, VGL & Image Editing",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        5
-      ]
-    },
-    {
       "video": "vnx2Xbr0IGU",
       "title": "This Open AI Image Model Edits AND Generates, Trained Only on Licensed Data",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "Dy1qU_OJnsU",
-      "title": "Which Words Shaped Your AI Image? Explaining Image Generation and Editing with XWhy",
-      "stage": "classification-evidence",
-      "evidenceIds": [
         1,
-        4
+        2,
+        3
       ]
     },
     {
@@ -131,21 +118,13 @@
       ]
     },
     {
-      "video": "9ItzmCJhMls",
-      "title": "NVIDIA's new robot-training tools still face the reality gap",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
       "video": "tOhAn3Z-ov8",
       "title": "Gemini 4 Argon: what it does and who actually gets it",
       "stage": "classification-evidence",
       "evidenceIds": [
         2,
-        3
+        3,
+        8
       ]
     },
     {
@@ -157,8 +136,18 @@
       ]
     },
     {
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "KZRUdQYU4dI",
       "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FiyUagHO37Y",
+      "title": "Old Phones Are Becoming Robots?!?",
       "stage": "insufficient-article-source"
     },
     {
@@ -167,13 +156,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "gyTcoQlibdk",
-      "title": "Create an Unrolling Timeline video with Claude Motion",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
+      "video": "ZVAeD9Lp244",
+      "title": "\"Free Photo-to-3D\" Has an Asterisk — What Hi3D's Fine Print Actually Says",
       "stage": "insufficient-article-source"
     },
     {
@@ -182,13 +166,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "video": "EPYh_bgXJBk",
+      "title": "This AI trick Magically Creates New Camera Angles",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
+      "video": "ktEt4n9VlF4",
+      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
       "stage": "insufficient-article-source"
     },
     {
@@ -197,13 +181,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "j1SVOTtuHc8",
-      "title": "New Aesthetic Ai Photo Prompt For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
+      "video": "Jcp8Gq0Ih0k",
+      "title": "AI 3D 모델 생성기 Hyper3D, Agentic Mode로 건물 만들고 수정하기",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "0tSaHo9_u7E",
-      "title": "💃 FASHION PHOTO Shoot Trending Photo Editing || Chatgpt Photo Editing #gemini #chatgpt #photoediting",
+      "video": "j1SVOTtuHc8",
+      "title": "New Aesthetic Ai Photo Prompt For ChatGPT 🔥💯 #aiphotoediting #chatgpt #photoediting",
       "stage": "insufficient-article-source"
     },
     {
@@ -212,33 +196,12 @@
       "stage": "article-evidence",
       "evidenceIds": [
         1,
-        2,
-        3
+        2
       ]
     },
     {
-      "video": "Jcp8Gq0Ih0k",
-      "title": "AI 3D 모델 생성기 Hyper3D, Agentic Mode로 건물 만들고 수정하기",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "aHPnS-ozJBw",
-      "title": "Try This Prompt ChatGPT Photo Editing | Trending Instagram Ai Photo Editing | ChatGPT Girl Prompt#ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HiBQP7wQwU4",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "71h7RG85-r0",
-      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dHwDV_nIVTM",
-      "title": "Meshy AI vs Tripo AI (2026) | Which AI 3D Generator Is Better?",
+      "video": "0tSaHo9_u7E",
+      "title": "💃 FASHION PHOTO Shoot Trending Photo Editing || Chatgpt Photo Editing #gemini #chatgpt #photoediting",
       "stage": "insufficient-article-source"
     },
     {
@@ -250,10 +213,20 @@
       ]
     },
     {
+      "video": "zMMyxZwnPV8",
+      "title": "AI Video Generation, Realistic Images & Voice Cloning 🤯",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "KP0nACn50FE",
       "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "uLu_w1X8oHo",
+      "title": "How I Made a Cinematic AI Short Film With 100% Free AI",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 5
 }
