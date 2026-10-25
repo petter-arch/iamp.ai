@@ -1,43 +1,69 @@
 {
-  "startedAt": "2026-10-24T17:26:14.458Z",
+  "startedAt": "2026-10-25T07:34:51.641Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
-      "found": 3
+      "checkedAt": "2026-10-25T07:34:51.641Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-24T17:26:14.458Z",
+      "checkedAt": "2026-10-25T07:34:51.641Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 136,
-    "relevant": 43,
-    "supported": 35
+    "fetched": 139,
+    "relevant": 50,
+    "supported": 39
   },
   "rejected": [
+    {
+      "video": "HP4blC2mzT4",
+      "title": "This wasn't possible 5 months ago...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "4C2e0oFgAkw",
+      "title": "The Final Boss of Green Screen.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "godomkRXBLE",
+      "title": "CorridorKey 2.0 just works...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
     {
       "video": "S2srfNCa50A",
       "title": "5 Prompts With Google's ULTRA Powerful New Model",
@@ -49,39 +75,13 @@
       ]
     },
     {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        7,
-        18
-      ]
-    },
-    {
-      "video": "X0_GDOkLKzQ",
-      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        19
-      ]
-    },
-    {
       "video": "hNAKl3oLFMs",
       "title": "Forget Adobe? I Pushed Free AI Clones to the Limit...",
       "stage": "classification-evidence",
       "evidenceIds": [
         4,
-        11
-      ]
-    },
-    {
-      "video": "pur1QwIA0qg",
-      "title": "Who nails the most realistic concert photo?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
+        6,
+        10
       ]
     },
     {
@@ -98,7 +98,26 @@
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
+      ]
+    },
+    {
+      "video": "Wt0Bsmnuisk",
+      "title": "Fibo 2.0: free open AI image editor that only changes what you ask",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "E7lD3oP4TCA",
+      "title": "Fibo 2.0 and MOSS Image in ComfyUI - 2 New Better Open Weight Image Models!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        6
       ]
     },
     {
@@ -112,13 +131,17 @@
       ]
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
-      "stage": "insufficient-article-source"
+      "video": "9ItzmCJhMls",
+      "title": "NVIDIA's new robot-training tools still face the reality gap",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
-      "video": "U6vf0kjMPqU",
-      "title": "New Mystery AI Video Model: Iron Goddess!",
+      "video": "k7sOCIFc6ys",
+      "title": "AI Agent vs Human on Sound Design",
       "stage": "insufficient-article-source"
     },
     {
@@ -142,28 +165,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "RUu1YbH0IBY",
-      "title": "A new generation of AI filmmaking is about to ignite.",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "ktEt4n9VlF4",
       "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "DD4oHSH5SEI",
-      "title": "Google Cooked! Testing Gemini 4 Argon & Blasting 800 Million Tokens!",
+      "video": "tAfSOY9V0A0",
+      "title": "How to use a Depth Map for AI Motion Control",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_gFjdSVwjIg",
-      "title": "Google Flow: Turn Your Ideas Into Cinematic AI Films 🎬#GoogleDeepMind #usa #youtubeshorts #usashorts",
+      "video": "FiyUagHO37Y",
+      "title": "Old Phones Are Becoming Robots?!?",
       "stage": "insufficient-article-source"
     },
     {
@@ -172,8 +185,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "dyrNQV0F3Zs",
-      "title": "Personal Body Guard Robot - What could go wrong?",
+      "video": "RUu1YbH0IBY",
+      "title": "A new generation of AI filmmaking is about to ignite.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "G5c5eUNZsGY",
+      "title": "Gemini AI Boys Photo Editing Prompt | Viral AI Photo Editing Tutorial 2026",
       "stage": "insufficient-article-source"
     },
     {
@@ -185,25 +203,10 @@
       ]
     },
     {
-      "video": "Wt0Bsmnuisk",
-      "title": "Fibo 2.0: free open AI image editor that only changes what you ask",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "HiBQP7wQwU4",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KP0nACn50FE",
-      "title": "🚨XANDER QUILL— HEARING VOICES WITHOUT THE SOUND— 10/23 on all platforms🚨 #music #newmusic #new",
+      "video": "PhjcM-BuNLI",
+      "title": "Create Cinematic AI Videos With Higgsfield",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2
+  "accepted": 8
 }
