@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-25T17:38:37.215Z",
+  "startedAt": "2026-10-26T07:47:13.439Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-25T17:38:37.215Z",
+      "checkedAt": "2026-10-26T07:47:13.439Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 132,
-    "relevant": 43,
-    "supported": 36
+    "fetched": 139,
+    "relevant": 51,
+    "supported": 43
   },
   "rejected": [
     {
@@ -54,8 +54,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         4,
-        6,
-        11
+        11,
+        13
       ]
     },
     {
@@ -77,6 +77,16 @@
       ]
     },
     {
+      "video": "0fLREjYE6AI",
+      "title": "ChatGPT AI Photo Editing 😱🔥 New Viral Photo Editing Prompt | ChatGPT Trending AI Photo Edit #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
       "video": "vETqmXXalS4",
       "title": "Hi3D V1.0 Is OPEN SOURCE! Turn a Product Photo Into 3D — Free #Shorts",
       "stage": "classification-evidence",
@@ -87,12 +97,12 @@
       ]
     },
     {
-      "video": "xnrjC4SWdN0",
-      "title": "Minecraft 3D Model Generator: AI-Made Washbasin Stand in Blockbench",
+      "video": "tOhAn3Z-ov8",
+      "title": "Gemini 4 Argon: what it does and who actually gets it",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        4
+        2,
+        3
       ]
     },
     {
@@ -114,13 +124,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "VVBszkWK0Io",
-      "title": "My favorite new image editing tool",
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "B8YFkYY20OY",
+      "title": "The Robot Butler Will Clean Up After You",
       "stage": "insufficient-article-source"
     },
     {
@@ -139,28 +149,43 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "_SlVfpUeMJA",
+      "title": "😱 This ChatGPT Photo Editing Prompt Is INSANE 🔥 | Viral AI Photo Editing #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "gNV0bgfRWAQ",
+      "title": "𝐌𝐞𝐬𝐡𝐲.𝐚𝐢 Premium Plan Available at 𝐂𝐇𝐄𝐀𝐏 𝐏𝐑𝐈𝐂𝐄⁣⁣🎨",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "video": "li1JJZfkoI8",
+      "title": "What Is AI Video Generation? 🎬 Create Videos With AI! #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "oVap7jVUUIs",
       "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "ii5PvpNbgHA",
-      "title": "Artlist AI – Your Ultimate AI Content Creation Platform!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "G5c5eUNZsGY",
-      "title": "Gemini AI Boys Photo Editing Prompt | Viral AI Photo Editing Tutorial 2026",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FiyUagHO37Y",
-      "title": "Old Phones Are Becoming Robots?!?",
+      "video": "Wl5wlfEfU5U",
+      "title": "AI Can Generate Video, But Can It Make You a Filmmaker?",
       "stage": "insufficient-article-source"
     },
     {
       "video": "RUu1YbH0IBY",
       "title": "A new generation of AI filmmaking is about to ignite.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "G5c5eUNZsGY",
+      "title": "Gemini AI Boys Photo Editing Prompt | Viral AI Photo Editing Tutorial 2026",
       "stage": "insufficient-article-source"
     },
     {
@@ -179,5 +204,5 @@
       ]
     }
   ],
-  "accepted": 2
+  "accepted": 4
 }
