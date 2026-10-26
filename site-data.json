@@ -28605,17 +28605,101 @@
   ],
   "candidates": [
     {
+      "name": "Scenario",
+      "firstSeen": "2026-10-26T07:49:45.917Z",
+      "lastSeenAt": "2026-10-26T01:00:06Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=kcvnfzLn-eE"
+      ],
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+    },
+    {
+      "name": "Seedance",
+      "firstSeen": "2026-10-23T07:52:19.881Z",
+      "lastSeenAt": "2026-10-26T00:04:23Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=d28xVvbx_2w",
+        "https://www.youtube.com/watch?v=B0HN9kLxf7A",
+        "https://www.youtube.com/watch?v=bA5BPWxfHG4"
+      ],
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-28T07:49:45.917Z"
+    },
+    {
+      "name": "Kling",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=bBZg4FIdTJA",
+        "https://www.youtube.com/watch?v=bA5BPWxfHG4"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z",
+      "lastSeenAt": "2026-10-26T00:04:23Z",
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+    },
+    {
+      "name": "Pinokio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dQVmJog7au8",
+        "https://www.youtube.com/watch?v=rUpGzeoXwTs"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "lastSeenAt": "2026-10-25T18:02:20Z",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+    },
+    {
+      "name": "CozyClay 3.0",
+      "firstSeen": "2026-10-23T07:52:19.881Z",
+      "lastSeenAt": "2026-10-25T18:02:20Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=qlSI_ZbRdEc",
+        "https://www.youtube.com/watch?v=rUpGzeoXwTs"
+      ],
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 3,
+      "nextAttemptAt": "2026-10-30T07:49:45.917Z"
+    },
+    {
+      "name": "ScreenWeaver",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=r1dhKBNQdjs",
+        "https://www.youtube.com/watch?v=avNcm7L-M2U"
+      ],
+      "firstSeen": "2026-10-14T10:16:43.140Z",
+      "lastSeenAt": "2026-10-25T15:06:03Z",
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+    },
+    {
       "name": "FLUX 3 Klein",
       "firstSeen": "2026-10-25T07:37:11.161Z",
       "lastSeenAt": "2026-10-25T07:09:15Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=0aqC00Or870"
       ],
-      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-26T07:37:11.161Z"
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-28T07:49:45.917Z"
     },
     {
       "name": "ZCAD.ai",
@@ -28624,11 +28708,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=5FjdV9R5yrI"
       ],
-      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
+      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
       "status": "retry",
       "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-26T07:37:11.161Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-28T07:49:45.917Z"
     },
     {
       "name": "Claude",
@@ -28748,20 +28832,6 @@
       "nextAttemptAt": "2026-10-27T07:37:11.161Z"
     },
     {
-      "name": "Wan2GP",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=dQVmJog7au8",
-        "https://www.youtube.com/watch?v=rhVfkUxLdMk"
-      ],
-      "firstSeen": "2026-09-17T10:02:21.710Z",
-      "lastAttemptAt": "2026-10-25T17:40:49.542Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-10-23T16:10:15Z",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-27T17:40:49.542Z"
-    },
-    {
       "name": "Fibo 2.0 Dev",
       "firstSeen": "2026-10-23T07:52:19.881Z",
       "lastSeenAt": "2026-10-23T16:10:15Z",
@@ -28774,6 +28844,20 @@
       "error": "Invalid model identity",
       "attempts": 2,
       "nextAttemptAt": "2026-10-26T07:19:21.931Z"
+    },
+    {
+      "name": "Wan2GP",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=dQVmJog7au8",
+        "https://www.youtube.com/watch?v=rhVfkUxLdMk"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-10-25T17:40:49.542Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-10-23T16:10:15Z",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-27T17:40:49.542Z"
     },
     {
       "name": "Google Flow",
@@ -28945,19 +29029,6 @@
       "nextAttemptAt": "2026-10-26T17:28:03.773Z"
     },
     {
-      "name": "CozyClay 3.0",
-      "firstSeen": "2026-10-23T07:52:19.881Z",
-      "lastSeenAt": "2026-10-22T21:56:16Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=qlSI_ZbRdEc"
-      ],
-      "lastAttemptAt": "2026-10-24T17:28:03.773Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-26T17:28:03.773Z"
-    },
-    {
       "name": "Ideogram Vector",
       "firstSeen": "2026-10-23T07:52:19.881Z",
       "lastSeenAt": "2026-10-22T21:56:16Z",
@@ -29019,20 +29090,6 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GhhDpCqXAoA",
         "https://www.youtube.com/watch?v=LGziF6d7Nj4"
-      ],
-      "lastAttemptAt": "2026-10-23T18:21:57.062Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-24T18:21:57.062Z"
-    },
-    {
-      "name": "Seedance",
-      "firstSeen": "2026-10-23T07:52:19.881Z",
-      "lastSeenAt": "2026-10-22T17:00:15Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=d28xVvbx_2w",
-        "https://www.youtube.com/watch?v=B0HN9kLxf7A"
       ],
       "lastAttemptAt": "2026-10-23T18:21:57.062Z",
       "status": "retry",
@@ -29652,14 +29709,6 @@
       "lastSeenAt": "2026-10-13T16:12:19Z"
     },
     {
-      "name": "ScreenWeaver",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=r1dhKBNQdjs"
-      ],
-      "firstSeen": "2026-10-14T10:16:43.140Z",
-      "lastSeenAt": "2026-10-13T11:06:55Z"
-    },
-    {
       "name": "WhichCAN studio",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ltCYBjBR2xM"
@@ -30220,14 +30269,6 @@
     },
     {
       "name": "Frameo",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=bBZg4FIdTJA"
-      ],
-      "firstSeen": "2026-10-01T11:39:12.672Z",
-      "lastSeenAt": "2026-09-30T11:55:42Z"
-    },
-    {
-      "name": "Kling",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=bBZg4FIdTJA"
       ],
@@ -31370,17 +31411,6 @@
       "lastSeenAt": "2026-09-16T23:45:18Z"
     },
     {
-      "name": "Pinokio",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=dQVmJog7au8"
-      ],
-      "firstSeen": "2026-09-17T10:02:21.710Z",
-      "lastAttemptAt": "2026-09-27T10:35:26.679Z",
-      "status": "retry",
-      "error": "Invalid evidence URL",
-      "lastSeenAt": "2026-09-16T23:45:18Z"
-    },
-    {
       "name": "CoreTV.ai",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=xTKCgxLyzxM"
@@ -32330,7 +32360,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-26T07:47:13.439Z",
+    "calculatedAt": "2026-10-26T07:49:45.917Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -32340,7 +32370,7 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.619416197060774,
+      "elevenlabs": 0.6193079626202312,
       "elevenmusic": 0,
       "heygen": 0,
       "kling-3-0": 0,
@@ -32350,26 +32380,26 @@
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.3442378358969265,
+      "higgsfield": 4.343478740229128,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.647979696721717,
+      "meshy-ai": 1.6476917349904177,
       "magnific-ai": 0,
-      "seedance-2-5": 4.739588256237799,
+      "seedance-2-5": 4.738760078534744,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.5046768494155833,
-      "nano-banana-pro": 0.9480037024117873,
-      "nano-banana-2": 0.1676158047227489,
+      "wan-3-0": 0.5045886640941298,
+      "nano-banana-pro": 0.9478380518349219,
+      "nano-banana-2": 0.1675865161717934,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.737254036752215,
+      "hunyuan3d": 1.736950475560821,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -32386,16 +32416,16 @@
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-25T17:40:49.542Z",
-    "newsCheckedAt": "2026-10-25T17:38:37.215Z",
+    "startedAt": "2026-10-26T07:49:45.917Z",
+    "newsCheckedAt": "2026-10-26T07:47:13.439Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 312,
-    "completedAt": "2026-10-25T17:53:51.978Z",
+    "candidatesPending": 313,
+    "completedAt": "2026-10-26T07:53:14.562Z",
     "skipped": 0
   }
 }
