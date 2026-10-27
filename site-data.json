@@ -28980,6 +28980,75 @@
   ],
   "candidates": [
     {
+      "name": "CapCut",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=f1nSkWhkIpY",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=PzYaK2uNXBg",
+        "https://www.youtube.com/watch?v=M6ix6-K41-g"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z",
+      "lastSeenAt": "2026-10-27T00:15:20Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
+      "name": "Canva",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=w8FZXhPbrdw",
+        "https://www.youtube.com/watch?v=M6ix6-K41-g"
+      ],
+      "firstSeen": "2026-10-17T09:26:07.750Z",
+      "lastSeenAt": "2026-10-27T00:15:20Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
+      "name": "Supercool Studio AI",
+      "firstSeen": "2026-10-27T07:53:56.818Z",
+      "lastSeenAt": "2026-10-27T00:15:20Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M6ix6-K41-g"
+      ],
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
+      "name": "OpenArt.ai",
+      "firstSeen": "2026-10-27T07:53:56.818Z",
+      "lastSeenAt": "2026-10-27T00:15:20Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M6ix6-K41-g"
+      ],
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
+      "name": "Final Draft",
+      "firstSeen": "2026-10-27T07:53:56.818Z",
+      "lastSeenAt": "2026-10-27T00:15:20Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=M6ix6-K41-g"
+      ],
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
       "name": "Kling 4.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=MbxDhjoH-V4",
@@ -29084,17 +29153,37 @@
       "nextAttemptAt": "2026-10-27T19:58:24.866Z"
     },
     {
+      "name": "Gemini AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=L049uPaPQ4A",
+        "https://www.youtube.com/watch?v=PJBadOeNi1o",
+        "https://www.youtube.com/watch?v=gVatlvyPAxI",
+        "https://www.youtube.com/watch?v=6rUH26AUaCY",
+        "https://www.youtube.com/watch?v=DyIloGSzTKk",
+        "https://www.youtube.com/watch?v=4_veqqIu_f4",
+        "https://www.youtube.com/watch?v=DNCv7rxnt9s",
+        "https://www.youtube.com/watch?v=0fLREjYE6AI"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "lastSeenAt": "2026-10-26T02:00:36Z",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
       "name": "Scenario",
       "firstSeen": "2026-10-26T07:49:45.917Z",
       "lastSeenAt": "2026-10-26T01:00:06Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=kcvnfzLn-eE"
       ],
-      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-29T07:53:56.818Z"
     },
     {
       "name": "Seedance",
@@ -29119,11 +29208,11 @@
       ],
       "firstSeen": "2026-10-01T11:39:12.672Z",
       "lastSeenAt": "2026-10-26T00:04:23Z",
-      "lastAttemptAt": "2026-10-26T07:49:45.917Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-27T07:49:45.917Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-29T07:53:56.818Z"
     },
     {
       "name": "Pinokio",
@@ -29951,14 +30040,6 @@
       ]
     },
     {
-      "name": "Canva",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=w8FZXhPbrdw"
-      ],
-      "firstSeen": "2026-10-17T09:26:07.750Z",
-      "lastSeenAt": "2026-10-16T00:30:34Z"
-    },
-    {
       "name": "OmniHuman 2.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=VTrc346ea30"
@@ -30164,16 +30245,6 @@
       ],
       "firstSeen": "2026-10-12T13:13:29.695Z",
       "lastSeenAt": "2026-10-12T18:45:22Z"
-    },
-    {
-      "name": "CapCut",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=f1nSkWhkIpY",
-        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
-        "https://www.youtube.com/watch?v=PzYaK2uNXBg"
-      ],
-      "firstSeen": "2026-09-24T10:05:38.488Z",
-      "lastSeenAt": "2026-10-12T15:20:51Z"
     },
     {
       "name": "Flow AI",
@@ -30459,22 +30530,6 @@
       ],
       "firstSeen": "2026-10-07T11:49:27.031Z",
       "lastSeenAt": "2026-10-06T14:16:21Z"
-    },
-    {
-      "name": "Gemini AI",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=L049uPaPQ4A",
-        "https://www.youtube.com/watch?v=PJBadOeNi1o",
-        "https://www.youtube.com/watch?v=gVatlvyPAxI",
-        "https://www.youtube.com/watch?v=6rUH26AUaCY",
-        "https://www.youtube.com/watch?v=DyIloGSzTKk",
-        "https://www.youtube.com/watch?v=4_veqqIu_f4",
-        "https://www.youtube.com/watch?v=DNCv7rxnt9s"
-      ],
-      "firstSeen": "2026-09-17T10:02:21.710Z",
-      "lastAttemptAt": "2026-09-29T11:23:53.895Z",
-      "status": "insufficient-evidence",
-      "lastSeenAt": "2026-10-06T01:30:05Z"
     },
     {
       "name": "DroneMap Web Studio",
@@ -32788,7 +32843,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-27T07:51:11.983Z",
+    "calculatedAt": "2026-10-27T07:53:56.818Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -32798,7 +32853,7 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.5608665515962625,
+      "elevenlabs": 0.5607606063120556,
       "elevenmusic": 0,
       "heygen": 0,
       "kling-3-0": 0,
@@ -32808,26 +32863,26 @@
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.875525084638288,
+      "higgsfield": 4.874604118876859,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.4922061999458445,
+      "meshy-ai": 1.4919243285996235,
       "magnific-ai": 0,
-      "seedance-2-5": 5.233505434491751,
+      "seedance-2-5": 5.2325168477787845,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.3988944438027096,
-      "nano-banana-pro": 0.8583946787236185,
-      "nano-banana-2": 0.15177210223751528,
+      "wan-3-0": 1.3986301986467053,
+      "nano-banana-pro": 0.8582325316532677,
+      "nano-banana-2": 0.15174343313884914,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.5730419796308641,
+      "hunyuan3d": 1.5727448387528298,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -32839,21 +32894,21 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.9419216272290861,
+      "gemini-omni-flash": 0.9417437022766827,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-26T19:58:24.866Z",
-    "newsCheckedAt": "2026-10-26T19:56:22.058Z",
+    "startedAt": "2026-10-27T07:53:56.818Z",
+    "newsCheckedAt": "2026-10-27T07:51:11.983Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 316,
-    "completedAt": "2026-10-26T20:15:15.362Z",
+    "candidatesPending": 319,
+    "completedAt": "2026-10-27T07:57:51.432Z",
     "skipped": 0
   }
 }
