@@ -45,7 +45,7 @@ jobs:
           const age=Date.now()-Date.parse(last.completedAt);
           const recent=Number.isFinite(age)&&age>=0&&age<8*3600000;
           const unchanged=last.newsCheckedAt===data.newsCheckedAt;
-          const skip=process.env.EVENT_NAME!=='workflow_dispatch'&&recent&&unchanged&&!last.skipped;
+          const skip=!['workflow_dispatch','push'].includes(process.env.EVENT_NAME)&&recent&&unchanged&&!last.skipped;
           appendFileSync(process.env.GITHUB_OUTPUT,'run='+String(!skip)+'\n');
           JS
       - run: node --test *.test.mjs *.test.cjs
@@ -86,3 +86,16 @@ jobs:
             _site/
             model-report.json
           retention-days: 7
+
+      - name: Fail visibly when no attempted profile could be verified
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          node --input-type=module <<'JS'
+          import {readFileSync} from 'node:fs';
+          import {catastrophicFailure} from './profile-refresh.mjs';
+          const report=JSON.parse(readFileSync('model-report.json','utf8'));
+          if(catastrophicFailure(report)){
+            console.error('::error::No attempted model profile passed verification. Previous facts and failure status were saved; inspect model-report.json.');
+            process.exitCode=1;
+          }
+          JS
