@@ -1,43 +1,51 @@
 {
-  "startedAt": "2026-10-28T08:29:46.496Z",
+  "startedAt": "2026-10-28T19:33:00.482Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-28T08:29:46.496Z",
+      "checkedAt": "2026-10-28T19:33:00.482Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 137,
-    "relevant": 45,
-    "supported": 37
+    "relevant": 46,
+    "supported": 36
   },
   "rejected": [
+    {
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
     {
       "video": "B8YFkYY20OY",
       "title": "The Robot Butler Will Clean Up After You",
@@ -55,23 +63,22 @@
       ]
     },
     {
-      "video": "DZSYaQmxBLM",
-      "title": "Pros Try AI-Cloned Engineering Tools",
+      "video": "tSE4N1MIZIM",
+      "title": "Google Genie 4 is Here! (This is Insane)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        4,
-        28
+        1,
+        10,
+        14
       ]
     },
     {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
+      "video": "ZmSOFij8m-8",
+      "title": "The Gemini 4 Prompt Trick Nobody Uses",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        9,
-        10
+        1,
+        2
       ]
     },
     {
@@ -93,12 +100,23 @@
       ]
     },
     {
-      "video": "QDm1sLVOe24",
-      "title": "9 Key Filmmaking Decisions Behind Cinematic AI Video #aifilmmaking #aivideo #cinematography #movie",
+      "video": "9dtNO-2Iwjk",
+      "title": "48 h pour créer une boutique de 200 produits imprimés en 3D 🍄",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2
+        6,
+        10,
+        16
+      ]
+    },
+    {
+      "video": "MoQD83MikQI",
+      "title": "[무료 AI 꿀통] 사진 한 장이 3D 프린팅 모델로! 성공률 90% 오픈소스 무료 공개 | AI 에디터 이린 EP49 #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        24
       ]
     },
     {
@@ -110,28 +128,13 @@
       ]
     },
     {
-      "video": "kJgYSiIZMb8",
-      "title": "Genie 4 Is the FUTURE of AI World Models!",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        10,
-        18
-      ]
-    },
-    {
-      "video": "fNJxAkeJxU0",
-      "title": "What this AI video model will and won't let you make",
+      "video": "a7W6M7sxP1E",
+      "title": "Same prompt, two AI models. Which dance looks real?",
       "stage": "insufficient-article-source"
     },
     {
       "video": "LjaJPfGRRWM",
       "title": "ChatGPT vs Claude: Who Edited It Better?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Gw-5MhJBnqQ",
-      "title": "This new AI video model claims Seedance 2.5 quality for 62% less",
       "stage": "insufficient-article-source"
     },
     {
@@ -145,8 +148,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QZrc-6Nj7mA",
-      "title": "Turn Anything Into 3D With AI No Blender: Artlist 3D Tutorial",
+      "video": "Gw-5MhJBnqQ",
+      "title": "This new AI video model claims Seedance 2.5 quality for 62% less",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tDWtcyeNNew",
+      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -155,8 +163,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "XaXx8GvGSLc",
-      "title": "Gemini & Kimi 3D: 3 New Free AI Tools to Try Today #Shorts",
+      "video": "F4wqRYSbyeA",
+      "title": "Can Higgsfield AI Change the Future of Filmmaking? 🚀 @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -175,23 +183,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "BQDAL1bL764",
-      "title": "Trending Ai photo Edit | Instagram Ai Girls Photo editing #viral #chatgpt #ytshorts #trend #prompt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kAcc3nWQE44",
-      "title": "Why AI will never replace the true filmmaker #filmmaking #ai #cinema",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "mnrC8NXyDX0",
       "title": "🌧️ Rainy Cinematic AI Photo Editing...✨",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "4UDonY_Qxjg",
-      "title": "Happy Diwali 🎇🪔 Couple New Trending AI Photo Editing Prompt 🔥 Google Gemini & ChatGPT",
+      "video": "XaXx8GvGSLc",
+      "title": "Gemini & Kimi 3D: 3 New Free AI Tools to Try Today #Shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -200,5 +198,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 10
 }
