@@ -1,50 +1,2990 @@
 {
-  "startedAt": "2026-10-27T19:27:36.550Z",
+  "startedAt": "2026-10-28T08:32:23.264Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 0,
+  "attempted": 49,
   "cached": 0,
   "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 8,
   "errors": [
     {
-      "candidate": "Meshy 7",
-      "message": "Incomplete independent verification"
+      "platform": "chatgpt-images-2-0",
+      "field": "n",
+      "message": "Official source HTTP 403"
     },
     {
-      "candidate": "Pinokio",
-      "message": "Invalid model identity"
+      "platform": "chatgpt-images-2-0",
+      "field": "price",
+      "message": "Invalid source quotation"
     },
     {
-      "candidate": "ScreenWeaver",
-      "message": "Invalid model identity"
+      "platform": "chatgpt-images-2-0",
+      "field": "sub",
+      "message": "Official source HTTP 403"
     },
     {
-      "candidate": "Claude",
-      "message": "Invalid model identity"
+      "platform": "chatgpt-images-2-0",
+      "field": "long",
+      "message": "Invalid source quotation"
     },
     {
-      "candidate": "Iron Goddess",
+      "platform": "chatgpt-images-2-0",
+      "field": "tags",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "n",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "price",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "long",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "deep",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "tags",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "cats",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "caps",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "pros",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "cons",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "n",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "n",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "cats",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "price",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "sub",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "long",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "deep",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "tags",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "caps",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "pros",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "flux-2",
+      "field": "n",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "flux-2",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "flux-2",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "flux-2",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "flux-2",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "flux-2",
+      "field": "cons",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "flux-2",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "flux-2",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "flux-2",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "flux-2",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "flux-2",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "flux-2",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "price",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenmusic",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "heygen",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "heygen",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "heygen",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "heygen",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "elevenlabs",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "sub",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "kling-3-0",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "long",
+      "message": "Detail would be lost"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "deep",
+      "message": "Detail would be lost"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "adobe-firefly",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "n",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "cats",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "price",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "sub",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "long",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "deep",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "tags",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "caps",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "pros",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "cats",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "price",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "sub",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "long",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "deep",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "tags",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "caps",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "pros",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "cons",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "leonardo-ai",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "suno-v5-5",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-ray3",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "deep",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "free",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "krea-ai",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "n",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pika-2-5",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "spline-ai",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "sub",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "magnific-ai",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "caps",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "free",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "meshy-ai",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "sub",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-2-7",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "sub",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "wan-3-0",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "sub",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ideogram-v3",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedream-4",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-2",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "free",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "long",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "caps",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hailuo-3-0",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "cats",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "long",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "caps",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "cons",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "grok-imagine",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "pros",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hunyuan3d",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "cons",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "tripo-3-1",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "caps",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "pros",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "n",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "sub",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "long",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "tags",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "caps",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "pros",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "cons",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "tier",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "reve-2-1",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "n",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "cats",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "price",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "sub",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "long",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "deep",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "caps",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "pros",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "cons",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "trellis-2",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "udio",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "udio",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "udio",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "udio",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "udio",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "n",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "price",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "sub",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "long",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "deep",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "tags",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "caps",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "pros",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "cons",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "tier",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "ltx-2",
+      "field": "free",
+      "message": "Unsupported source type"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "price",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "sub",
+      "message": "Official source HTTP 404"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "tags",
+      "message": "Official source HTTP 404"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "caps",
+      "message": "Official source HTTP 404"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "pros",
+      "message": "Official source HTTP 404"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "tier",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "free",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "cats",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "sub",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "vidu-q3",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "tier",
+      "message": "Invalid tier"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-genie",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "cats",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "sub",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "long",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "cons",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "stable-audio-3-0",
+      "field": "free",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "sub",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "pros",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "cons",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "tier",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "free",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "hitem3d",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "deep",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "free",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "synthesia",
+      "field": "tags",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "synthesia",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "synthesia",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "price",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "sub",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "long",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "deep",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "caps",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "pros",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "tier",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "free",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "topaz-labs",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "price",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "luma-agents",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "candidate": "Kling 4.0",
       "message": "Insufficient official evidence"
     },
     {
-      "candidate": "Google Gemini",
+      "candidate": "Claude",
+      "message": "Incomplete independent verification"
+    },
+    {
+      "candidate": "Genie 4",
+      "message": "Incomplete independent verification"
+    },
+    {
+      "candidate": "CapCut",
       "message": "Invalid model identity"
     },
     {
-      "candidate": "Hi3D V1.0",
+      "candidate": "Canva",
       "message": "Invalid model identity"
     },
     {
-      "candidate": "CNC3D Design Suite",
+      "candidate": "Supercool Studio AI",
+      "message": "Insufficient official evidence"
+    },
+    {
+      "candidate": "OpenArt.ai",
       "message": "Invalid model identity"
+    },
+    {
+      "candidate": "Final Draft",
+      "message": "Insufficient official evidence"
     }
   ],
-  "scheduled": 0,
-  "skipped": 0,
-  "completedAt": "2026-10-27T19:31:50.325Z",
   "health": {
     "failed": 49
-  }
+  },
+  "scheduled": 49,
+  "skipped": 0,
+  "completedAt": "2026-10-28T08:46:24.326Z"
 }
