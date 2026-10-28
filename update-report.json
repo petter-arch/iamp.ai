@@ -1,67 +1,43 @@
 {
-  "startedAt": "2026-10-27T19:25:29.513Z",
+  "startedAt": "2026-10-28T08:29:46.496Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "QZrc-6Nj7mA",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-27T19:25:29.513Z",
+      "checkedAt": "2026-10-28T08:29:46.496Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 142,
+    "fetched": 137,
     "relevant": 45,
-    "supported": 33
+    "supported": 37
   },
   "rejected": [
-    {
-      "video": "HP4blC2mzT4",
-      "title": "This wasn't possible 5 months ago...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
-    {
-      "video": "4C2e0oFgAkw",
-      "title": "The Final Boss of Green Screen.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
-      ]
-    },
     {
       "video": "B8YFkYY20OY",
       "title": "The Robot Butler Will Clean Up After You",
@@ -79,13 +55,13 @@
       ]
     },
     {
-      "video": "EfyQOAJjx1A",
-      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "video": "DZSYaQmxBLM",
+      "title": "Pros Try AI-Cloned Engineering Tools",
       "stage": "classification-evidence",
       "evidenceIds": [
-        9,
-        18,
-        19
+        2,
+        4,
+        28
       ]
     },
     {
@@ -93,9 +69,9 @@
       "title": "Deepseek strikes again",
       "stage": "classification-evidence",
       "evidenceIds": [
-        7,
-        10,
-        12
+        0,
+        9,
+        10
       ]
     },
     {
@@ -117,31 +93,12 @@
       ]
     },
     {
-      "video": "LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Is Not What I Expected",
+      "video": "QDm1sLVOe24",
+      "title": "9 Key Filmmaking Decisions Behind Cinematic AI Video #aifilmmaking #aivideo #cinematography #movie",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "OlAJpFokkoo",
-      "title": "Why filmmakers are terrified of this new tech #aifilm #tech",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
+        1,
         2
-      ]
-    },
-    {
-      "video": "9ItzmCJhMls",
-      "title": "NVIDIA's new robot-training tools still face the reality gap",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
       ]
     },
     {
@@ -150,6 +107,16 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1
+      ]
+    },
+    {
+      "video": "kJgYSiIZMb8",
+      "title": "Genie 4 Is the FUTURE of AI World Models!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        10,
+        18
       ]
     },
     {
@@ -178,28 +145,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "tDWtcyeNNew",
-      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+      "video": "QZrc-6Nj7mA",
+      "title": "Turn Anything Into 3D With AI No Blender: Artlist 3D Tutorial",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "k7sOCIFc6ys",
-      "title": "AI Agent vs Human on Sound Design",
+      "video": "jHUtSPkxDKI",
+      "title": "SIKHO AI FILM MAKING COURSES..STUDENTS OF ULHASNAGAR",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "tAfSOY9V0A0",
-      "title": "How to use a Depth Map for AI Motion Control",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EPYh_bgXJBk",
-      "title": "This AI trick Magically Creates New Camera Angles",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ktEt4n9VlF4",
-      "title": "This Hack Fixes Your AI Character Consistency Issues (Pro Workflow)",
+      "video": "XaXx8GvGSLc",
+      "title": "Gemini & Kimi 3D: 3 New Free AI Tools to Try Today #Shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -208,8 +165,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "hFd2meHfngM",
-      "title": "Premiere Pro lo New AI Tool 🔥 Generate Images & Videos Directly! 🤯 | Telugu",
+      "video": "3pLiGTzls4M",
+      "title": "AI Photo Editing Commands You Need To Try 🔥✨ #ai # #viral #video #aiphotoediting  #youtube #trending",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "OlAJpFokkoo",
+      "title": "Why filmmakers are terrified of this new tech #aifilm #tech",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "BQDAL1bL764",
+      "title": "Trending Ai photo Edit | Instagram Ai Girls Photo editing #viral #chatgpt #ytshorts #trend #prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -218,8 +185,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QDm1sLVOe24",
-      "title": "9 Key Filmmaking Decisions Behind Cinematic AI Video #aifilmmaking #aivideo #cinematography #movie",
+      "video": "mnrC8NXyDX0",
+      "title": "🌧️ Rainy Cinematic AI Photo Editing...✨",
       "stage": "insufficient-article-source"
     },
     {
@@ -231,37 +198,7 @@
       "video": "_SlVfpUeMJA",
       "title": "😱 This ChatGPT Photo Editing Prompt Is INSANE 🔥 | Viral AI Photo Editing #shorts",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "mnrC8NXyDX0",
-      "title": "🌧️ Rainy Cinematic AI Photo Editing...✨",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "li1JJZfkoI8",
-      "title": "What Is AI Video Generation? 🎬 Create Videos With AI! #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "oVap7jVUUIs",
-      "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "cL_xUg4dYRs",
-      "title": "Banks Restrict AI Agents as Microsoft Tests Diagnostic AI #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XaXx8GvGSLc",
-      "title": "Gemini & Kimi 3D: 3 New Free AI Tools to Try Today #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "MoQD83MikQI",
-      "title": "[무료 AI 꿀통] 사진 한 장이 3D 프린팅 모델로! 성공률 90% 오픈소스 무료 공개 | AI 에디터 이린 EP49 #shorts",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 5
 }
