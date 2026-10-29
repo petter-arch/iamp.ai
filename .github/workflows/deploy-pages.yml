@@ -1,7 +1,8 @@
 name: Deploy iamp.ai
 on:
   # GITHUB_TOKEN pushes do not trigger push workflows. Publish after either
-  # content workflow completes successfully, using the latest committed main.
+  # content workflow completes, using the latest committed main. A failed model
+  # check must also publish the saved, truthful per-profile failure status.
   workflow_run:
     workflows:
       - Update news feed
@@ -31,7 +32,9 @@ jobs:
   deploy:
     if: >-
       github.event_name != 'workflow_run' ||
-      (github.event.workflow_run.conclusion == 'success' &&
+      ((github.event.workflow_run.conclusion == 'success' ||
+        (github.event.workflow_run.name == 'Update Trendar models' &&
+         github.event.workflow_run.conclusion == 'failure')) &&
        github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     environment:
@@ -51,3 +54,4 @@ jobs:
           path: _site
       - uses: actions/deploy-pages@v4
         id: deployment
+
