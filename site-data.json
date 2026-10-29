@@ -25417,26 +25417,17 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
-            "hash": "60499ac81ac64bfcd549926a8665ed9bcd3100fe8999842a5a95393d02374462"
-          },
-          {
-            "url": "https://developers.openai.com/api/docs/guides/image-prompting",
-            "hash": "c8407d3f8f84ebfa88334dccac14324283df14aefc29045a871899e7116c2383"
-          }
-        ],
+        "sources": [],
         "factHash": "7031e4c4d760f55cb1555409223bd67f63c0d8ce634e30f4ad3d7e78e1ffa0f7"
       }
     },
@@ -25539,13 +25530,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -25555,16 +25546,16 @@
             "hash": "1e9172300fddd79d239a07860a7283b14dbdda3428630721f9d772c5f9904334"
           },
           {
-            "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
-            "hash": "18815ae802dfbfee26875e027fd76ca526f4668bd8842891e9cdede6c51c6105"
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?tabs=global-standard-aoai%2Cstandard-audio%2Cglobal-standard&view=foundry-classic",
+            "hash": "8ffa60174a490288b6f715808077de4152729114c11918fc3c9b191d00e027d8"
+          },
+          {
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+            "hash": "cd26e4bd869d0004d68c07eafa848988714a0efb23ca17b904f7205dff821923"
           },
           {
             "url": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
             "hash": "4ada58449aab2b27cf6964724c66a3e229c4cdcd9dce40c2f4097715891d0246"
-          },
-          {
-            "url": "https://playground.microsoft.ai/?model=mai-image-2-5",
-            "hash": "3f79b2977f0604c1198b322ca25b6011281092c4712c37f22faff0ddb67c5191"
           }
         ],
         "factHash": "7d5fc8102793997f442930de1843b825779bca52541a39e338cabdbb159c13cb"
@@ -25617,13 +25608,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -25631,10 +25622,6 @@
           {
             "url": "https://updates.midjourney.com/version-8-2/",
             "hash": "365ad465f1b6123debf9006c8dabe2d04cde7b866b67e3b51ca9a33346a91151"
-          },
-          {
-            "url": "https://updates.midjourney.com/edit-model-for-v8/",
-            "hash": "ebc448eb1e7c2ee932cf9b04ef9ff35987c072f62236ecd9599d37b66c0eb2b2"
           }
         ],
         "factHash": "18b122e312fdc590bc3d0e0c1c2746d9458a24a9510d7e42745e9545d2420ad1"
@@ -25707,17 +25694,26 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
-        "sources": [],
+        "sources": [
+          {
+            "url": "https://dev.runwayml.com/pricing",
+            "hash": "52b5114b45574bcf317f6cb964fc2db5d5eea9281fd2a388cc03d69116c10860"
+          },
+          {
+            "url": "https://academy.runwayml.com/models-pricing",
+            "hash": "a4613c451e375607e483ee5debe861b6244648b1cea557c2bf0674ad1eb0d616"
+          }
+        ],
         "factHash": "42a1ddd5b22328a6288eeb056cc6a32a1f8ad4096eb1380aada83a577610e21b"
       }
     },
@@ -25767,20 +25763,20 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://deepmind.google/models/veo/",
-            "hash": "0b89165f33f3c9a6085d20921565225df499ffd36cc04a4fc6ec18cd615b0452"
+            "hash": "c6f1c36247579d3c0f369ce30d6473438feaf20efb620d1e73aab928ee87d8f4"
           }
         ],
         "factHash": "a2407a8fc0b591bd708bf4be202e1b7c1dd5566d96d3c204b6ee7188511945e6"
@@ -25947,13 +25943,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -25967,16 +25963,20 @@
             "hash": "cf0ba3efba83e6e04a17952caada15ec5d5c4f8be811bf6fceee193ae28f913b"
           },
           {
-            "url": "https://bfl.ai/blog/flux-2",
-            "hash": "54fa334afe143499d56266a7dfa100f545be48802e38789dbe0f92ca07e96ab6"
+            "url": "https://help.bfl.ai/articles/7986977817-what-are-the-costs-associated-with-using-your-models",
+            "hash": "2754ac6898e4fcedb90fefaeaeea06fe80fc8331e3845501ff400d1347199882"
           },
           {
             "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
             "hash": "c0efc05f4659b1996cca8038302bd79e842fa3d2a02e30f4bc1afa71b9ff705e"
           },
           {
+            "url": "https://bfl.ai/models/flux-2",
+            "hash": "4c04b748b0dd1361fd4637b737545e6fcd6a9f99b7a24f1d460fbe94f047e269"
+          },
+          {
             "url": "https://bfl.ai/pricing?category=flux.2",
-            "hash": "adf5060b68bf2266885e51a10455286df2eeb85ebf857cd1b01da86cec1527aa"
+            "hash": "6eeaad194d5c84047c052df597fd807ee263557930e4d0391034de38ffa0f5ba"
           }
         ],
         "factHash": "c4824e5b91e4f06e0dbd22c0306a695ba126a6abd7cf2199cae0ec58c91c0ffa"
@@ -26124,36 +26124,24 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://elevenlabs.io/docs/overview/administration/billing",
-            "hash": "cd962f481086a8628082285804bcbdcc8d0bf21e0266b2b1f96daff7b418e80b"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
-            "hash": "a035c4a97d6738c5298698c18b65d9d8a27665d2604102431b7f6fa8098752b1"
+            "url": "https://elevenlabs.io/about",
+            "hash": "09f883f6bca412da03093be3494e576ab22ed2baa2e60fd892ab05cdcbbfd876"
           },
           {
             "url": "https://elevenlabs.io/pricing",
-            "hash": "996e1300751878e7ef47c35b7e4e69ad488511089f32504e021068c36f1c6f19"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/overview/capabilities/voices",
-            "hash": "e158acaa229528b107c9003105856a99b9ff7ef1ddfdde7187a49fcc812038f2"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
-            "hash": "8ca30d97c7c23b22177d0b3ce56d7ce9b359698de48ee1a19593df380f14eb92"
+            "hash": "36e585571c56962b42e397c833a2ba85c490c15013bfe6bfbecfa285f6c0b402"
           },
           {
             "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
@@ -26162,6 +26150,10 @@
           {
             "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
             "hash": "0d2ed184b89070938fff4a964521d6269ac8a4cf5ab0c6a97a17fc37cfdc39a4"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/overview/capabilities/voices",
+            "hash": "e158acaa229528b107c9003105856a99b9ff7ef1ddfdde7187a49fcc812038f2"
           }
         ],
         "factHash": "b054a1b42d00b388930b8726ae571ab93a5d19012aeed81dc1fed7c1e3c236cd"
@@ -26249,28 +26241,32 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
-            "hash": "600bbf352cb3ec842a1eb6deb3ef6530e60fd9deb117eacdaa96a5e970b3e147"
+            "url": "https://elevenlabs.io/blog/elevenmusic-elevencreative-music-and-elevenapi-understanding-the-difference",
+            "hash": "9cc9d81ed38f8b652a72fba81c79138dfc1ce4585897a9dfd9de7b86f3b8b6a4"
+          },
+          {
+            "url": "https://elevenlabs.io/music",
+            "hash": "7770990896081d35a0968cc41d93a04f99a935b30aaca98d77b68959da5698aa"
           },
           {
             "url": "https://elevenlabs.io/blog/music-v2-5-model",
             "hash": "a391ec48881a482b97683586c6f18745cf51c536659f8ca6344b34f3be2d91e0"
           },
           {
-            "url": "https://elevenlabs.io/docs/eleven-creative/products/music",
-            "hash": "3e914e8f76f85324860dab52c72eac5ab0a274cfc154426e3a8dafabc6940c21"
+            "url": "https://elevenlabs.io/docs/overview/capabilities/music",
+            "hash": "8f2ef2cf243ab096b9b7b58d6a7c3e83be492a6266475a794214bedd6c9ca3de"
           }
         ],
         "factHash": "185b88c82c64519642b315c7ddece325363b64d2de3f7b76f675a1b0b8fd7785"
@@ -26387,40 +26383,36 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://www.heygen.com/faq",
-            "hash": "b42b65046358f37cefc22013c6826c97ef2d73e7e114372eac7877b481a9bdb6"
+            "hash": "d3390f334478def49f39afe2ed3716479e668a92be19196217b473ce37ca8f8f"
           },
           {
             "url": "https://www.heygen.com/pricing",
             "hash": "f54b7a2493f5e411d2bb44be63d7499f7de7b220073d18d7623a1c12bcb57fb2"
           },
           {
-            "url": "https://help.heygen.com/en/articles/12402907-how-to-get-started-with-video-agent",
-            "hash": "fb03a676eb884de5eabc6feca05cb710bac81aef05a5936bb49411ef4e6fc713"
-          },
-          {
-            "url": "https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained",
-            "hash": "02eec740d27b2d6012a72d28ea8db9c7e013c21fdb33f23b6539c09f475bb166"
-          },
-          {
             "url": "https://help.heygen.com/en/articles/14602974-avatar-v-is-now-available-on-heygen",
-            "hash": "758fca436d4c488efafaa5f64162ad93395855685c4136b89927f8a387c5e7e0"
+            "hash": "fdb9f7c50bed1303a6c1d1f010b549d614430188bd2d9654d62ceb80b10df481"
           },
           {
-            "url": "https://help.heygen.com/en/articles/10029081-how-to-get-started-with-video-translation",
-            "hash": "f5b630337ebd80803915c3a393b6f6e5092d9f91124cb719cb76f1322e08b380"
+            "url": "https://www.heygen.com/blog/heygen-september-2025-release",
+            "hash": "ae0fdaea580bb2b9ecbb734226c6dff1c5636193437dcf5b7c70dcfe2965dace"
+          },
+          {
+            "url": "https://help.heygen.com/en/articles/12758516-introducing-liveavatar",
+            "hash": "d4a8e6778c155ec23847dccf3c4427c8d4d7ec2b2dd088104820c0eb0c8cbb7a"
           }
         ],
         "factHash": "3ef07143e28b3abaa0bc6d31463f42530ff6163540deb31027794ce0accbaa74"
@@ -26516,16 +26508,21 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
-        "sources": [],
+        "sources": [
+          {
+            "url": "https://mail-track.klingai.com/track/click2/eNptj01OxDAMhe8SwS5JHf-06W44B0JVJg0QNe1UtFkh7k47wxLJzwv7We_zq3fUCWqltHJdS9yKkxYFB3csoB-IwAvSgNB6u0XjwKBBEYOAJi_XW11GeMq1ernMdcmTTWO1a1EatPrc93V7ppemCeu62aOVZONtbup2Tpqp5OUj5CaPbUceuEfs74fvoWzpRAJnma3r8BCrO-ZRxOGKIBzJcXIhJpIEPaOPCZnS-HDNIRezf4U42b-gM1vp7x_9eE47Ya3-YX_7BaxbTRM%3D.html",
+            "hash": "d6bd8c0aeee80fedb2dbf05c973100c3db04be90c072a88572533f2684131a36"
+          }
+        ],
         "factHash": "65d7aaa2d61f0415b416b7527e9b50ac4fe7821656bdd9f46313159e893e79be"
       },
       "lastCheckError": "Not all profile facts could be verified"
@@ -26575,13 +26572,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -26664,19 +26661,19 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://firefly.adobe.com/?locale=de-DE",
-            "hash": "f4c93c57b98e74a3e79757550e656a00fb2cbab94db1bbef9bee2bbea0f14439"
+            "url": "https://firefly.adobe.com/?locale=sv",
+            "hash": "05293663d99ffebee8233b95e025a9572c116d90af664ddeaf71c6ab578824a8"
           }
         ],
         "factHash": "eeff9419a2a7d47c486bda9bde0d0b19326293ce29861f11522beb55cddcf8be"
@@ -26743,22 +26740,17 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://docs.leonardo.ai/docs/pricing-and-plans-faq",
-            "hash": "5f468a5007922f8830148724f8915e1824703f877f2529973bee83e677e84796"
-          }
-        ],
+        "sources": [],
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
       }
     },
@@ -26871,40 +26863,28 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
+            "url": "https://lumalabs.ai/news/introducing-ray-3-2",
+            "hash": "f01d1b0236e8c936cc58def0e0bbeda71dba39e9dac5eff124218313c2d9a043"
+          },
+          {
             "url": "https://lumalabs.ai/llm-info",
-            "hash": "a378b8431652f2cde571d62a0bd4046192e47ccd9b75c5943b979fce62f94cd1"
+            "hash": "021373f125437fa63509f278cd6dfe5fe2299fc0a1fc962c3615e796bba4fe2a"
           },
           {
             "url": "https://lumalabs.ai/pricing",
-            "hash": "4123e51e8378706a4a2b96e90760b36c8c39464c4bd502dfa4dcc57aff92f907"
-          },
-          {
-            "url": "https://lumalabs.ai/ray3",
-            "hash": "13d0e6fd0c3d56e3ad08d8d6cebc6c259ac7b84403489972a97ec26598e302a4"
-          },
-          {
-            "url": "https://lumalabs.ai/news/introducing-ray-3-2",
-            "hash": "e283fae64e4f7d70f400b81c6fd826b31aabbc6089bd727f034a035d637f0b81"
-          },
-          {
-            "url": "https://lumalabs.ai/learning-hub/ray3-faqs",
-            "hash": "a8d1faed5b639a9616be9284db1dbfbdd943bc6df12cfa0b305553808415e5c4"
-          },
-          {
-            "url": "https://lumalabs.ai/ray",
-            "hash": "9cd68160e826636bc3e74151de9356dc2883b39a02f8ab53815beaaea64ef008"
+            "hash": "fabe1609c36dd534237dbfa11f0d416ca5e0a6c6a4b306d030026524423a8d7d"
           }
         ],
         "factHash": "41118d45920aa48e4440e22da3209695affd2969087e941f1ddb70d8698a34cb"
@@ -26971,22 +26951,22 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://suno.com/release-notes",
-            "hash": "f0e5dceb1e23f9d02304ca1391d9415ae9444b9f483e3122a8a5913492e39fbe"
+            "url": "https://suno.com/release-notes/introducing-v5-5-voices-custom-models-and-my-taste",
+            "hash": "220568986d93ee57706ed4a6348cbb58937e4a2e0500bc067c0ba86e91e851a2"
           },
           {
-            "url": "https://suno.com/pricing",
+            "url": "https://suno.com/pricing?pos=hero",
             "hash": "8a2a4db29c9b57bf4fa44683de6b301f56888bce602ea2d1489052ddccefa856"
           }
         ],
@@ -27114,13 +27094,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -27131,7 +27111,7 @@
           },
           {
             "url": "https://docs.stability.ai/pricing",
-            "hash": "38388b41444d9d941ef0584a7c5bd11448db823fc2816d8f97c0c374ba4f1819"
+            "hash": "9bba4b5baa626046a5a920a7a250cb359bc007ccde5b4bc59e38dc3132c93783"
           },
           {
             "url": "https://stability.ai/license",
@@ -27189,27 +27169,27 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
+            "url": "https://higgsfield.ai/ai-video",
+            "hash": "8026559a5e3a845c15a010aa862d9a2cdbd002763ce9a35af292cba0a03bc69c"
+          },
+          {
             "url": "https://higgsfield.ai/pricing?rp=/pricing",
             "hash": "6f6f4654fd48ffd3ab41b5fb209d057300a0107848086a6e888c14f34e62813e"
           },
           {
-            "url": "https://higgsfield.ai/ai-video",
-            "hash": "536d6a509020b53af4ceb5907ce1ed8957e47778f1ded964c8a4a70d72840866"
-          },
-          {
-            "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
-            "hash": "f19debc5a7229a8c9f2037e36d447d6a892093ed79658908d47f074ce72927c8"
+            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
+            "hash": "281d22f19b885d7a67a899be2c9d5eb4e4d422dbabfedbd7fac3844a8a0fec34"
           },
           {
             "url": "https://higgsfield.ai/camera-controls",
@@ -27217,7 +27197,7 @@
           },
           {
             "url": "https://higgsfield.ai/creator-hub/help-center/plans/how-do-higgsfield-plans-work",
-            "hash": "a5bda12490cb28d73bce8101c1660e9aee80b9c156c560a22a1c7a77258dff39"
+            "hash": "bb4c0b8f4333aa2eef3d39b39de5e17ea57b05ce8feb782c2bebfd6a183eec8c"
           }
         ],
         "factHash": "1f3ef8f98105c725982cbabdeb898955e5a61c13a257a4afa1413815cddcb95a"
@@ -27269,36 +27249,32 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://www.krea.ai/press",
-            "hash": "0d723ba60cdf6d90dc824283204934f561a5384d8ce7ca01b2cc2e8e4fed8af3"
-          },
-          {
             "url": "https://www.krea.ai/pricing",
-            "hash": "bb8f6e8cc4ee4f5afc51b67af7fc181908d45bcb0f2b85f7d0e6bbd20ac331ac"
+            "hash": "9a5503c3d1acea8b87db31bfdb2dd38bc5b834c5ab6390a51507ee77cc08655c"
           },
           {
             "url": "https://www.krea.ai/features/nodes",
-            "hash": "2353063e33599948276de983ebe50acf67e653e8866663201947f45fd5d2fea5"
+            "hash": "3fe7e703085e22031b4f46fa5d23e3dd17ba34e23e983bbf53adab0e26f43c64"
           },
           {
             "url": "https://www.krea.ai/blog/announcing-realtime-video",
             "hash": "ac0d75a156d0e596660644d236d4deb0bffd060b5ecc68a5c1dcfe1555472195"
           },
           {
-            "url": "https://www.krea.ai/docs/changelog",
-            "hash": "2b6af45226a608edcaef3cc8acaff659f342ed6b94f8c0e75324fa6c50276c9b"
+            "url": "https://www.krea.ai/pricing?period=monthly&plan=creator_basic",
+            "hash": "71b11508a867c7f12065195cc71a7aa3acd98e6511a1249f623bc3386fcad4f4"
           }
         ],
         "factHash": "ca16daa26e448c95ad13fe2e4b7651fce29d2db0593ac9faf2a6a22287f264c7"
@@ -27400,24 +27376,20 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://docs.spline.design/generate/ai-3d-generation",
-            "hash": "661471d6960dbb19a12b551bbcf345966934281bdcded399fb75fa3e1b6a58eb"
-          },
-          {
-            "url": "https://docs.spline.design/basics/what-is-spline",
-            "hash": "002a3caf1126c87b0da22fdcbeff8540251a6ef7c43a73fc06e39e5a568b4fb3"
+            "url": "https://docs.spline.design/",
+            "hash": "751e8f9698458c892af392a7930150a7c3b38178180e5db307552aac2139aaa4"
           },
           {
             "url": "https://spline.design/pricing",
@@ -27428,8 +27400,16 @@
             "hash": "ee2c7a84612b829afb044f8e468a6a8f62634730651b7b830d7ce107c8f67210"
           },
           {
-            "url": "https://spline.design/3d-design",
-            "hash": "0b4d973fd0d174d644d3fb1b0286f231bb427f00a608ff176c1470ff58128f59"
+            "url": "https://docs.spline.design/generate/ai-3d-generation",
+            "hash": "661471d6960dbb19a12b551bbcf345966934281bdcded399fb75fa3e1b6a58eb"
+          },
+          {
+            "url": "https://docs.spline.design/account/pricing",
+            "hash": "ed9d2878f359ca4ac6094562efa50256c5540b2f51dd6fbd7e4e22755feda342"
+          },
+          {
+            "url": "https://spline.design/",
+            "hash": "38e94bfdbb26b6642f6dd2b0732d772ed482cfb8c23e1bf86dafc0a1b5d46895"
           }
         ],
         "factHash": "78c0a79a28925d829d7d0e1c3c68cf8282dd78eadf465bd7b0eb18e471daf9c9"
@@ -27493,28 +27473,28 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://creation.pika.art/apps/pika-2-5?tab=all-apps",
-            "hash": "26eda93381f2fc74bb5bbd5d6c1b45cc5de2fe8c4b364e02f587b8f49deca353"
+            "url": "https://creation.pika.art/apps?tab=video-tools",
+            "hash": "c05560625c1f0d8b4fbed1aab37e94516e6ea1db4c51f29b726574b331d55851"
           },
           {
             "url": "https://pika.art/pricing?interval=month",
-            "hash": "3c3998ce0c98ae812159a14de08748cb29013eafedc2099fe471d9f385f3010b"
+            "hash": "e34966d3983724a196b6dfb563899c2135d8fbdbad5b212da212f15e16706172"
           },
           {
-            "url": "https://creation.pika.art/apps?tab=video-tools",
-            "hash": "c05560625c1f0d8b4fbed1aab37e94516e6ea1db4c51f29b726574b331d55851"
+            "url": "https://creation.pika.art/apps/pika-2-5?tab=all-apps",
+            "hash": "296dcf1fefdddcc15c8b3a0cfba3b6f3eac74368a8bb5e6efcd19044f7cf8f6c"
           }
         ],
         "factHash": "c71bbb6a0216d3cb898cf9b7ce59f67d005319bf1b55618d1123f394928a54ec"
@@ -27666,44 +27646,32 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature",
-            "hash": "1f4494575e11657f3acde1935deab8d085b86394b70b7f7edf1c44a1ef18f07d"
-          },
-          {
-            "url": "https://www.recraft.ai/api",
-            "hash": "fdab2324f143b05a507032e749ab42d58aae4f739fc94935dd973d90685f5c3a"
+            "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
+            "hash": "ccc7115baed8c94b59423f01e0a17007786c7fa34eef1a379c3e2571a8727b82"
           },
           {
             "url": "https://www.recraft.ai/pricing?tab=api",
             "hash": "e3f4f63bd495240c08791c5f43ab9c181ef969213ef48f4793d7e148b5bae546"
           },
           {
-            "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
-            "hash": "b7a091ada7bbe41c045ed667ebe5eef95a85ed22043adf50ca56f5afc311bf9a"
+            "url": "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature",
+            "hash": "a70e1a209f5d2f32da8b5cc57e0ab408cdd8680eb18c071b64a4d7f96a76e35e"
           },
           {
-            "url": "https://www.recraft.ai/pricing?tab=plans",
-            "hash": "dba90ce904b1953ac70e61946d82c7862ae98521c9adb2a6e396209b54328b10"
-          },
-          {
-            "url": "https://www.recraft.ai/legal/terms",
-            "hash": "30a840d0e6adc6c0ee7c3a09281ad7e1e66f4274915d8c98fd15ea03cff166d4"
-          },
-          {
-            "url": "https://www.recraft.ai/ai-models/recraft",
-            "hash": "588106cba25ecc3349ee6c3f31df7796be296daa279c4bef53d4e430c882f52a"
+            "url": "https://www.recraft.ai/blog/midjourney-alternative",
+            "hash": "60fa28eba70a06a1b4b94492000cb8baf8a3ad9ab26e1bbcf4e9ff5596a377f5"
           }
         ],
         "factHash": "3a75cb102dcd47b6949268867ce5502fc3a54a34a32c005249ee842225eb531f"
@@ -27854,13 +27822,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -27870,28 +27838,32 @@
             "hash": "90875781a8554232051386e516c2b6d23d3de1b19b64dbe7e7d082480e55fe32"
           },
           {
-            "url": "https://docs.meshy.ai/en/webapp/text-to-3d",
-            "hash": "f8bca71c4f4db856dcff6d3881bf0996c64ddc5b6f99023488e7fadc26da2855"
+            "url": "https://www.meshy.ai/features",
+            "hash": "65683e21a665296221f0664170ca7055d38e76726dae8bd0f2abe6172fedd556"
           },
           {
             "url": "https://help.meshy.ai/en/articles/12062933-which-meshy-plan-is-right-for-you-free-vs-pro-vs-premium-vs-ultra",
             "hash": "d5426b8c2ebff3befab7538df37d35354ffa775a3ae4494e42e5308afbdbc8c1"
           },
           {
-            "url": "https://www.meshy.ai/developers/blog/developer-platform-one-task/",
-            "hash": "74c93780a51a083048cb07bd7f69997596d9d973952d956c9ec310af3ea5d27a"
+            "url": "https://docs.meshy.ai/en/webapp/guides/platform/export-formats",
+            "hash": "dec3da54292fa1ca78fde65a1e2fa6b7c9a119d87c043182dc23b23f39ba1b86"
+          },
+          {
+            "url": "https://docs.meshy.ai/en/webapp/guides/animate",
+            "hash": "33c07351fface1b46fdaedf70fc5c5b8eaf66afe6fe802c20ab9d5619c3515b3"
           },
           {
             "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/ai-texturing",
             "hash": "18753d908675bca66603074706e45d23cbb7895bdc7abd8ff6a9157c325d3981"
           },
           {
-            "url": "https://docs.meshy.ai/en/webapp/guides/platform/export-formats",
-            "hash": "dec3da54292fa1ca78fde65a1e2fa6b7c9a119d87c043182dc23b23f39ba1b86"
-          },
-          {
             "url": "https://docs.meshy.ai/en/webapp/guides/3d-model/rigging",
             "hash": "8dfbed62b498db533cbbe37d6a9dd89e76f0001064ec323af42473654a2dbc4d"
+          },
+          {
+            "url": "https://docs.meshy.ai/en/api/changelog",
+            "hash": "096d4613b71553c9b4a41b7eb8af09779d04539b9342b970a418ce28ee2ecef8"
           }
         ],
         "factHash": "c710da98f24dc4f36287460a6c1dec67d978c4f838959a082bad32653a8d9b02"
@@ -27940,12 +27912,12 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -28115,13 +28087,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -28279,28 +28251,28 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://ideogram.ai/models/3.0/",
-            "hash": "fcfe0291fe4cc925b2d63c9746d54ce8f86df56eaaddff12aa0ad78c0416116f"
+            "hash": "01d69a551ed5802c5431330cd8b43fb5c228c5e677d2645a0b271b8d58bc9ea1"
           },
           {
-            "url": "https://developer.ideogram.ai/v1/api-reference",
-            "hash": "bef1d70647bc21509d13d01b87a3dd6a5f16e66400b7fbf9378daed3fdea7c69"
+            "url": "https://docs.ideogram.ai/create/models.md",
+            "hash": "dffe74d51e11ab55eab68253b82c7f41f0ccd9e2f1b6cdb561a712446480a1ec"
           },
           {
-            "url": "https://docs.ideogram.ai/quick-start-guide",
-            "hash": "69da1d80b2d5723a82a0864b28e51953001b10c334476a80d24db7ab769da2b7"
+            "url": "https://ideogram.ai/pricing/",
+            "hash": "2d010074e77433c86d850f4816f91094f5efb56b7feb2e9b51e092c40e2d4f18"
           }
         ],
         "factHash": "e04fbdfb797e6928bc63c143174b732909a16a33a92d7acf0b55271824326423"
@@ -28350,12 +28322,12 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -28412,21 +28384,16 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://wan.video/",
-            "hash": "fdc5656a72f0644691a480451c8d38ea13d201cc981d62dc696ed604d57be129"
-          }
-        ],
+        "sources": [],
         "factHash": "dee5113a8beb403cd58f0ca7b6b44bfb2c4b80e937d1df4b343274ebc67e45c4"
       },
       "lastCheckError": "Not all profile facts could be verified"
@@ -28476,31 +28443,23 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
-            "hash": "6a6cf235495832b8b74c05b4b6d2ac51a782e15ebc162043da21bcddc2aaa7c9"
-          },
-          {
-            "url": "https://gemini.google/us/subscriptions/?authuser=09&hl=en",
-            "hash": "da50a4e438cb9c0cad7f8e9a4e1017f6c34a029640e4149899b7255d78d54617"
-          },
-          {
             "url": "https://gemini.google/gb/overview/image-generation/?hl=en-GB&icid=microsite_gemini_gems_page",
             "hash": "a1a8518af2ca0bcd093f5ed98ae87b7291580b11c4cc5090434fc3d46734fd6c"
           },
           {
-            "url": "https://gemini.google/subscriptions/?gclsrc=aw.ds&no_link=1",
-            "hash": "da50a4e438cb9c0cad7f8e9a4e1017f6c34a029640e4149899b7255d78d54617"
+            "url": "https://gemini.google/us/about/?hl=en&trk=article-ssr-frontend-pulse_little-text-block",
+            "hash": "d4b45581b47ee5a2602a49579d64eadc693519a780e293f3be0ae3666b2ac954"
           }
         ],
         "factHash": "91fa3e1a528c775e0f348b698803d8f6c6fb6c73a440d91189ac9ba1e913a2b6"
@@ -28590,23 +28549,23 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://gemini.google/us/overview/image-generation/?hl=en-US",
-            "hash": "6a6cf235495832b8b74c05b4b6d2ac51a782e15ebc162043da21bcddc2aaa7c9"
+            "url": "https://gemini.google/ci/overview/image-generation/?hl=en-CI",
+            "hash": "ae7c26dae3205f47bb71c41679a8a134614255a7ede104109ddae246113b20da"
           },
           {
-            "url": "https://gemini.google/gb/overview/image-generation/?hl=en-GB&icid=microsite_gemini_image_generation_page",
+            "url": "https://gemini.google/gb/overview/image-generation/?hl=en-GB&icid=microsite_gemini_gems_page",
             "hash": "a1a8518af2ca0bcd093f5ed98ae87b7291580b11c4cc5090434fc3d46734fd6c"
           }
         ],
@@ -28691,12 +28650,12 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -28762,13 +28721,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -28851,36 +28810,32 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model",
+            "url": "https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model/",
             "hash": "bf64e9b21ba93572f8fd86f5322383d193410b50d1422f668ad01bc8a732a8ab"
           },
           {
-            "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
-            "hash": "706500d4455f405b12e8b7b7dd313b31ba9521a5b044bf738467b76ce44318f6"
-          },
-          {
             "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-            "hash": "abec972bded484a3191ebef76c79449cee73095db9110c5fff09118ea45a55dc"
+            "hash": "611c5ba0ca141f82632ae0a9b65f1c009e6eae4e86a7b6f045e6d98344ab1a51"
           },
           {
-            "url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-1-0-r2v",
-            "hash": "cf5bcc405284000372385db3e1bb2308340f1eef9dfb1b6861508976095617c5"
+            "url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-1-0-t2v",
+            "hash": "523b9fa024b9e1a46c77529e1e6f59e0fd4a19ca66e0b2e71937ec9cc16418bc"
           },
           {
-            "url": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-video-edit-api-reference",
-            "hash": "b87fe781a983a39016f2dab51c836b4c4c180bc5f0c323deecea0231811b6eb0"
+            "url": "https://www.alibabacloud.com/help/en/model-studio/rate-limit",
+            "hash": "16d120ff4f70cea2005cf24c3e2b1c2dab46f4a9fcba46aceb158b1ec8851a22"
           }
         ],
         "factHash": "c281c01a5b9dc916ce11fdb03556778ba07e80e489f427b1f89aa3c7fd917c78"
@@ -28971,32 +28926,36 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://x.ai/news/grok-imagine-video-1-5",
-            "hash": "9c8db705e8db7e37868a1aded5f814bc52d169c798b65b654c73da1a9e71d962"
+            "url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5",
+            "hash": "6dc33d92602bf43f0f8bc9d1fa86c583fa6373ee8df34afa110481ab63bec9dc"
           },
           {
-            "url": "https://docs.x.ai/developers/pricing",
-            "hash": "e61b1f3518797448c75f65c63cec12d2b2857ae4b7231d3b5e0da48a21e7a005"
+            "url": "https://docs.x.ai/developers/model-capabilities/imagine",
+            "hash": "bcff752b15b92f197bc71a1b90f837a2891c7d5a2589a3b8313e39a85500daa5"
           },
           {
             "url": "https://docs.x.ai/developers/model-capabilities/video/overview",
             "hash": "1c76cd7d738427c008bcc5d1244c1e9cc6c5b86b4a4bd2eee23468b1667a11d5"
           },
           {
-            "url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-preview",
-            "hash": "af9f4f86c2a447f03a1c2b58d028af99d17fa3afa2d58d152ff7ab0d90de60d2"
+            "url": "https://x.ai/news/grok-imagine-video-1-5",
+            "hash": "9c8db705e8db7e37868a1aded5f814bc52d169c798b65b654c73da1a9e71d962"
+          },
+          {
+            "url": "https://docs.x.ai/developers/release-notes",
+            "hash": "b961d5fae6fc78e48a5a0ae8ed91f247ab2f1048fcc29e2ae1c5c8fe8044912f"
           }
         ],
         "factHash": "d1a2d8f0ffb3e983ea07f7ffbf91cb4836d2fc6217c8957850944273b8bd12e5"
@@ -29074,23 +29033,27 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://docs.hyper3d.ai/en/api-specification/rodin-gen2",
-            "hash": "a65bf438d07a5ce26f7f2d05ee30a2b1206ed5b98311770935e1f06fd8be1a57"
+            "hash": "ca52178207a1f450f00f319a66fb4340dc22446d4a8c7a7017964ceb466bda61"
           },
           {
-            "url": "https://hyper3d.ai/pricing?lang=en",
+            "url": "https://hyper3d.ai/features/api",
+            "hash": "1758a378219a7cc4471d15cda403309970cebe385c91169063f9fe82a42c54d1"
+          },
+          {
+            "url": "https://hyper3d.ai/pricing?lang=de",
             "hash": "eab00ad5d726290a5a645d486d5ca18a1448b6250e4f6bf531125fb6ea6efc72"
           }
         ],
@@ -29174,13 +29137,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -29190,8 +29153,12 @@
             "hash": "1d8acd6855ebbbe72a3fbf5ab7594b81a241f7823b4826f59c6f970529425019"
           },
           {
-            "url": "https://developers.tripo3d.ai/en",
-            "hash": "ae897cb46aedc481cfe5ed070ce3d8f79237a427aa349648dd0bae546c41f47e"
+            "url": "https://developers.tripo3d.ai/en/docs/models-and-versions",
+            "hash": "bb588e9246a5b8f434576cef533879480d0be28e15500dce8ac91f64daab1156"
+          },
+          {
+            "url": "https://developers.tripo3d.ai/en/pricing",
+            "hash": "17ed0fd85bec474c3e5d70620f673c3003e7c9609dfc6e5816e0e8547781184b"
           },
           {
             "url": "https://docs.tripo3d.ai/get-started/changelog.html",
@@ -29246,23 +29213,23 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
-            "hash": "0b699149db9dfa1744eb30ef42a32dad45b259f303340f1c6b271617651aecbd"
+            "hash": "dc6b6364f74273154b260c2d18153bca872fc59fafc39e8c97ba978ab787785d"
           },
           {
             "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/LICENSE",
-            "hash": "0e9c499c199eb399c4a1cd292cc849b36a570b19c8af6c56801ee306080eab3f"
+            "hash": "3039653ad693744fc39fbf1ef3ee252d831d844dd0cdcc8cc2e034196301fd66"
           }
         ],
         "factHash": "bd4c87b38f77c3336cf520db70265ed98aecd5467ddc21353282653a40b191e4"
@@ -29312,24 +29279,24 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://trellis2.app/blog/is-trellis-2-free-official-pricing",
-            "hash": "00cb23d54af5782c954ea6c6716650ceff342ebd0bc5f5b49c9511481f015bc6"
+            "url": "https://trellis2.app/terms",
+            "hash": "4ff25e69405e4ac1eb840b37e3ac564f9ebe9fbec330a376ca140dcfe0ae93bc"
           },
           {
-            "url": "https://trellis2.app/pricing",
-            "hash": "7dfa2bb32d1ceaa364cfea3c4a2c545fe1c785656d761cbbe4d9389c789334c7"
+            "url": "https://trellis2.app/blog/is-trellis-2-free-official-pricing",
+            "hash": "00cb23d54af5782c954ea6c6716650ceff342ebd0bc5f5b49c9511481f015bc6"
           }
         ],
         "factHash": "efc91b6b587d6f8683568ce686060a4f39b697f51fa32c6d513f0526e38292d0"
@@ -29390,20 +29357,20 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits",
-            "hash": "804d63e9f7275b5dace13f575e000245b91406413add5cd7453195bcabd1bd1e"
+            "url": "https://help.udio.com/en/articles/10739104-creating-a-udio-account",
+            "hash": "0076a0282303c87b08c8c2b253ae40d48f17a9d71dd999e36646325fd9ea5fc9"
           },
           {
             "url": "https://help.udio.com/en/articles/10715838-create-your-first-song",
@@ -29422,8 +29389,8 @@
             "hash": "340a652870450e88b4aa31a86b4c032ffef5ee8372c062ec1e1761e984609aa8"
           },
           {
-            "url": "https://www.udio.com/blog/udio-warner",
-            "hash": "d5401e2c40b9a847841081270397960cc5da3382cd97123a47a527e89b1eadaf"
+            "url": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits",
+            "hash": "6278dac4c02057d9bcb12f08bcd46e07e8b62b29759175a2d5f496555275a022"
           },
           {
             "url": "https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership",
@@ -29478,13 +29445,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -29547,13 +29514,13 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -29561,10 +29528,6 @@
           {
             "url": "https://pixverse.ai/en/ai-info-page",
             "hash": "fc32da43f75708438e930b62e52c3f566d7cada044622664725b841a705d48f5"
-          },
-          {
-            "url": "https://docs.platform.pixverse.ai/what-is-pixverse-ai-2394981m0",
-            "hash": "52dcc71f7561509285a7f65357acb1fa6021c3a38d93358831453c8f0597c38c"
           }
         ],
         "factHash": "e37b6800e1959770d2fef5b7f6233d0736da5ee9a612e5a07c82c98dbd80d2ca"
@@ -29664,24 +29627,28 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://s.vidu.com/vidu-q3",
-            "hash": "93e3d6f9b5caa245aca085a82393884f0fd4ea9a046e0700df358ebe3cb0e83e"
+            "url": "https://platform.vidu.com/docs/api-reference/video-models/vidu-q3/reference-to-video",
+            "hash": "07407fb0807bd39c0f59087ab8e78fc1e547de3df921baa6f1ff634a2fb99677"
           },
           {
             "url": "https://platform.vidu.com/docs/pricing",
             "hash": "c61c8c6c0e3c8d7897fc3e2c534f475f48e9dc8e8f00aee30e172112e2b5192b"
+          },
+          {
+            "url": "https://go.vidu.com/vidu-q3",
+            "hash": "628207db83e6759b304aac682c705f2c8d04eaa9de63f12401ac78bc5d54ba58"
           },
           {
             "url": "https://s.vidu.com/pricing",
@@ -29735,12 +29702,12 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -29828,12 +29795,12 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -29897,36 +29864,28 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://static.hitem3d.ai/website/docs/Terms-of-Use.html",
-            "hash": "c86ff844bb2d57da2c182958c9a39bc843019b5f134a65071c8c3bb8578dddf8"
-          },
-          {
-            "url": "https://www.hitem3d.ai/explore",
-            "hash": "51751c4ab9ec999fc33d51d77229fa190353f436102e8ff5fd347f864390cfb9"
-          },
-          {
-            "url": "https://www.hitem3d.ai/blog/ai-image-to-3d-model-converters",
-            "hash": "5fc963cc073e55061d7343c4385d19bf76d9d60eec9da27e474906e7a6798408"
+            "url": "https://www.hitem3d.ai/?redirect=login",
+            "hash": "b0b9e57c46923e0aae76fda2ee7f1621d2b2a5b8621f8ceceef13b951c0d4e4d"
           },
           {
             "url": "https://www.hitem3d.ai/pricing",
-            "hash": "00663cfa2b09a786fe8a6b2db74af1c4219b4fe834243d6db4180963908f3c9c"
+            "hash": "96974916780937dd5a4ea098fe882ff0299ce7fc65aad81ddc3498b90c5da447"
           },
           {
             "url": "https://www.hitem3d.ai/hi3d-3-0",
-            "hash": "4960f9b392674fb0f64e0d5b98b004c5e10138e34e6333c789da6b2ed7714416"
+            "hash": "22ba75719c460f1f10f6f5f215776172ca108777244bb9c503dd0008ae66a0a3"
           }
         ],
         "factHash": "81a3ce3d81f5a6f76358fd3f3ffaf120984fc29bd9a6f2fe1728dc6fa06c87c4"
@@ -29976,13 +29935,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -30089,32 +30048,40 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://docs.synthesia.io/",
-            "hash": "caa7d025cc47658567bfab83da369015ca983a81333c28cd64b0427b441ff2f3"
+            "url": "https://www.synthesia.io/3",
+            "hash": "31da177d7b2e51ac1f8c901edd03d55219ae6878ef31c3d7af7e31ec9372f35e"
           },
           {
-            "url": "https://www.synthesia.io/pricing?via=sps",
-            "hash": "7df7aad41329f2c15bcbbb90418dd3721bed6df54205201dd6a817e6f7087632"
+            "url": "https://www.synthesia.io/video",
+            "hash": "e20eeff56852050b24cfd2b4933cb027e906b888abeb0dfb8737497ae5a6b7af"
+          },
+          {
+            "url": "https://www.synthesia.io/pricing?via=jhonny",
+            "hash": "584da88201d31872f2fa8557aaa9531234ffa6f2d2c6b55e742996f2df234043"
+          },
+          {
+            "url": "https://www.synthesia.io/updates",
+            "hash": "f1f06a07a1dcc675251cd5d17cd35b12ba38ed324820d991a646e7d867064a33"
+          },
+          {
+            "url": "https://help.synthesia.io/en/articles/11972627-what-are-credits-and-how-do-they-work-on-self-serve-plans",
+            "hash": "6714c2cda5352b5ecf83a5078b766815ec6f90a034db22df06b31c98b0ae0e92"
           },
           {
             "url": "https://help.synthesia.io/en/articles/9994493-what-is-synthesia",
-            "hash": "3ffd2e14aaa8047915ee1998d7c91bb011286805179dbb6bc3b1b73e374dda65"
-          },
-          {
-            "url": "https://help.synthesia.io/en/articles/17217419-what-s-changing-in-synthesia-plans-on-october-1-2026",
-            "hash": "1b9d1d50198ff45387a762119e04fdcefa5eadfdea4d0e3c327de496905b66e1"
+            "hash": "bb737db9c3ababe08950c6600f9be6db99a81da0af4594110c53ac5e236f05d0"
           },
           {
             "url": "https://help.synthesia.io/en/articles/15972650-what-are-synthesia-s-pricing-plans",
@@ -30198,32 +30165,32 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://www.topazlabs.com/privacy/privacy-policy",
-            "hash": "3fc63c5008ea1209526e543f2a801245e9e9c07bc0ccde6a17088a929f8256db"
-          },
-          {
-            "url": "https://docs.topazlabs.com/other-apps/legacy",
-            "hash": "80637501df952732c0d32475f4d63ca5ec5de2f6ded0f7269d11a76a490e62bb"
+            "url": "https://www.topazlabs.com/downloads",
+            "hash": "0e89639d4e5b535b23ac3e796cf909381ddf59278c11ff95572664e08c7c8c24"
           },
           {
             "url": "https://www.topazlabs.com/pricing",
-            "hash": "9887e11e2c66de908d4b7d2317541f530a1e8069160def97efc3be79b26f6460"
+            "hash": "1fa5437e4c0496fe62ce3445f350394696919f4b7dbf87e36d932244ab319d26"
           },
           {
             "url": "https://docs.topazlabs.com/topaz-video/cloud-rendering",
             "hash": "3e6bc9b0903bc8a0837b3ae1a29dba5191257148ff5bd1496b834cd1497f85ce"
+          },
+          {
+            "url": "https://docs.topazlabs.com/sales-account-licensing/before-you-buy/app-and-collection-options",
+            "hash": "aac0b36f0ded2c4630025fde3f87a228b899cee505026c814d362e6092818cfe"
           }
         ],
         "factHash": "8e6c856e164e5cc8f4c6ae4be272921b6235c4bc7ebcc12f2f9ecf40ae677834"
@@ -30274,32 +30241,36 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash",
-            "hash": "d4a877c4e0e199064c0ec52a97143045cebb2e565a02a4ca690098e4130dbf9f"
+            "hash": "8c6691aa8fdc39f54045ba2c6375477fdf721aa98dd7742e3946fc11e7188fcf"
+          },
+          {
+            "url": "https://ai.google.dev/gemini-api/docs/video",
+            "hash": "9bee655b6eee2f58a0a5f392acab9d358f9337cd68a000f3e113415b3fa6be33"
           },
           {
             "url": "https://ai.google.dev/gemini-api/docs/pricing",
-            "hash": "09d9d935feaa6cc89068e62eda7eb68c8f38dff373a802dcb3c5a401ec2a6e42"
+            "hash": "0111897d636dc43d67bde127b8f51acbd327094f4b3c43fe8767c750153c99a5"
           },
           {
             "url": "https://ai.google.dev/gemini-api/docs/changelog",
-            "hash": "a540edb1eab303a3f49e489cf6bceb396c22b11eb1c3517b47894c966f89004c"
+            "hash": "f7e7252874f4c6a2336ceffc6f436c1308bcf0d5b519ad99f26c5974b4f2a999"
           },
           {
             "url": "https://ai.google.dev/gemini-api/docs/omni",
-            "hash": "e2104466fbdcfa756d9fcb0c910b5e286389c0e8e4049726b6a26d180add36f8"
+            "hash": "bba6d7b543f15f2099bd9af6da2182e6d76c165e3967e11ede846ea19d5348db"
           }
         ],
         "factHash": "db474c590370eb560bed578f9361f7ffaeed107de11ad235aa3b1ff8994f194a"
@@ -30482,20 +30453,20 @@
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-10-28T08:32:23.264Z",
+        "attemptedAt": "2026-10-29T19:39:55.401Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-10-28T08:32:23.264Z",
+        "lastSearchedAt": "2026-10-29T19:39:55.401Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://lumalabs.ai/learning-center/articles/welcome-to-luma-agents",
-            "hash": "f2efa0ab92ae2e5b56433b4935a762a4681f6a889867e93100b113514b9e578e"
+            "hash": "0ebfc51c936cbd7f8ae08a01434c77aa6d8338ed8e0215063ddf727a77f7f56a"
           },
           {
             "url": "https://docs.agents.lumalabs.ai/guides/model/",
@@ -30507,15 +30478,15 @@
           },
           {
             "url": "https://lumalabs.ai/news/luma-skills",
-            "hash": "fee1c0498b0d6186a5001e7fd66d9ee5368642354e7add6b1e6fdf942467dc6a"
-          },
-          {
-            "url": "https://docs.agents.lumalabs.ai/guides/faq/",
-            "hash": "5e6ea488521c155bd753355d2d5e6d23e9f05b0d919eab4ae0e6e4bd422d2ceb"
+            "hash": "aa9e3994c98fad0ba0448a8032061a9f6eb955d060c59cecfd1d0ac123ca163b"
           },
           {
             "url": "https://docs.agents.lumalabs.ai/guides/pricing/",
             "hash": "d70357591a1233215f2014a715e460bb4d869ef17c148b7ea52c21d2b90537e2"
+          },
+          {
+            "url": "https://lumalabs.ai/pricing",
+            "hash": "fabe1609c36dd534237dbfa11f0d416ca5e0a6c6a4b306d030026524423a8d7d"
           }
         ],
         "factHash": "7013c552ecd2c343c948464d778de7352e7dfbfacda1d71e8c0d16b64f6cc9cf"
@@ -30523,6 +30494,32 @@
     }
   ],
   "candidates": [
+    {
+      "name": "Directra",
+      "firstSeen": "2026-10-29T19:39:55.401Z",
+      "lastSeenAt": "2026-10-29T13:30:15Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=SYUKFgH-qXY"
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+    },
+    {
+      "name": "MAI Image 2.7",
+      "firstSeen": "2026-10-29T19:39:55.401Z",
+      "lastSeenAt": "2026-10-29T09:00:03Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=_-jOYEI7Ciw"
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+    },
     {
       "name": "Tripo",
       "firstSeen": "2026-10-23T07:52:19.881Z",
@@ -30581,6 +30578,19 @@
       "nextAttemptAt": "2026-10-30T08:30:08.104Z"
     },
     {
+      "name": "Hunyuan",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+    },
+    {
       "name": "Character Creator 5.2",
       "firstSeen": "2026-10-29T08:30:08.104Z",
       "lastSeenAt": "2026-10-29T08:06:18Z",
@@ -30633,14 +30643,6 @@
       "nextAttemptAt": "2026-10-30T08:30:08.104Z"
     },
     {
-      "name": "Hunyuan",
-      "firstSeen": "2026-10-29T08:30:08.104Z",
-      "lastSeenAt": "2026-10-29T08:06:18Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=cm9GlStqHQk"
-      ]
-    },
-    {
       "name": "Claude Opus 5.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nX0fgBL3sIM",
@@ -30650,7 +30652,12 @@
         "https://www.youtube.com/watch?v=QOzHgAVV5lc"
       ],
       "firstSeen": "2026-09-27T10:35:26.679Z",
-      "lastSeenAt": "2026-10-28T22:26:14Z"
+      "lastSeenAt": "2026-10-28T22:26:14Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
     },
     {
       "name": "picocli",
@@ -30658,7 +30665,12 @@
       "lastSeenAt": "2026-10-28T22:26:14Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=QOzHgAVV5lc"
-      ]
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
     },
     {
       "name": "Simulon",
@@ -30666,7 +30678,12 @@
       "lastSeenAt": "2026-10-28T22:26:14Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=QOzHgAVV5lc"
-      ]
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
     },
     {
       "name": "Claude",
@@ -30684,11 +30701,11 @@
       ],
       "firstSeen": "2026-09-24T10:05:38.488Z",
       "lastSeenAt": "2026-10-28T20:48:08Z",
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 5,
-      "nextAttemptAt": "2026-11-04T19:35:54.670Z"
+      "attempts": 6,
+      "nextAttemptAt": "2026-11-05T19:39:55.401Z"
     },
     {
       "name": "ClaudeCode",
@@ -30696,7 +30713,12 @@
       "lastSeenAt": "2026-10-28T20:48:08Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=MbJvMvNCW1k"
-      ]
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
     },
     {
       "name": "Meshy 6",
@@ -34608,7 +34630,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-29T19:37:18.896Z",
+    "calculatedAt": "2026-10-29T19:39:55.401Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -34618,36 +34640,36 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.4001531447127233,
+      "elevenlabs": 1.3999020263407176,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.974293991680207,
+      "kling-3-0": 0.9741192514227074,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.389412890161484,
+      "higgsfield": 5.388446295474214,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.0705895664529215,
+      "meshy-ai": 2.0702182048750943,
       "magnific-ai": 0,
-      "seedance-2-5": 5.758324787306702,
+      "seedance-2-5": 5.757292028032095,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 2.812273157281414,
-      "nano-banana-pro": 0.6707967663412725,
-      "nano-banana-2": 0.11860305978728224,
+      "wan-3-0": 2.811768774271912,
+      "nano-banana-pro": 0.6706764585074139,
+      "nano-banana-2": 0.11858178825180682,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.1833225386314297,
+      "hunyuan3d": 1.1831103089688524,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -34659,21 +34681,21 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.7360693132810257,
+      "gemini-omni-flash": 0.7359372987736605,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-29T08:30:08.104Z",
-    "newsCheckedAt": "2026-10-29T08:27:57.912Z",
+    "startedAt": "2026-10-29T19:39:55.401Z",
+    "newsCheckedAt": "2026-10-29T19:37:18.896Z",
     "total": 49,
-    "attempted": 0,
+    "attempted": 49,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 336,
-    "completedAt": "2026-10-29T08:33:26.205Z",
+    "candidatesPending": 338,
+    "completedAt": "2026-10-29T19:53:48.714Z",
     "skipped": 0
   }
 }
