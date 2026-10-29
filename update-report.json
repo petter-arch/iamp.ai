@@ -1,65 +1,79 @@
 {
-  "startedAt": "2026-10-28T19:33:00.482Z",
+  "startedAt": "2026-10-29T08:27:57.912Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-28T19:33:00.482Z",
+      "checkedAt": "2026-10-29T08:27:57.912Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 137,
-    "relevant": 46,
-    "supported": 36
+    "fetched": 134,
+    "relevant": 45,
+    "supported": 35
   },
   "rejected": [
     {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
+      "video": "HP4blC2mzT4",
+      "title": "This wasn't possible 5 months ago...",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        2,
+        3
       ]
     },
     {
-      "video": "B8YFkYY20OY",
-      "title": "The Robot Butler Will Clean Up After You",
+      "video": "4C2e0oFgAkw",
+      "title": "The Final Boss of Green Screen.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        2,
+        3
       ]
     },
     {
-      "video": "FiyUagHO37Y",
-      "title": "Old Phones Are Becoming Robots?!?",
+      "video": "DZSYaQmxBLM",
+      "title": "Pros Try AI-Cloned Engineering Tools",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "video": "1Aqhg0FVm-w",
+      "title": "Deepseek strikes again",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        7,
+        10,
+        12
       ]
     },
     {
@@ -67,18 +81,9 @@
       "title": "Google Genie 4 is Here! (This is Insane)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
         10,
-        14
-      ]
-    },
-    {
-      "video": "ZmSOFij8m-8",
-      "title": "The Gemini 4 Prompt Trick Nobody Uses",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
+        14,
+        19
       ]
     },
     {
@@ -91,6 +96,15 @@
       ]
     },
     {
+      "video": "HR_3sJv1iaI",
+      "title": "FREE 3d City Generator!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
       "video": "DWaHaHdiDAM",
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
@@ -100,23 +114,12 @@
       ]
     },
     {
-      "video": "9dtNO-2Iwjk",
-      "title": "48 h pour créer une boutique de 200 produits imprimés en 3D 🍄",
+      "video": "Kq_fW78xaeI",
+      "title": "How to create 3D models with Hermes Agent.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        6,
-        10,
-        16
-      ]
-    },
-    {
-      "video": "MoQD83MikQI",
-      "title": "[무료 AI 꿀통] 사진 한 장이 3D 프린팅 모델로! 성공률 90% 오픈소스 무료 공개 | AI 에디터 이린 EP49 #shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        24
+        1,
+        3
       ]
     },
     {
@@ -133,9 +136,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LjaJPfGRRWM",
-      "title": "ChatGPT vs Claude: Who Edited It Better?",
-      "stage": "insufficient-article-source"
+      "video": "kJgYSiIZMb8",
+      "title": "Genie 4 Is the FUTURE of AI World Models!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        18,
+        27
+      ]
     },
     {
       "video": "QwzgUvqpleg",
@@ -143,8 +151,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LjaJPfGRRWM",
+      "title": "ChatGPT vs Claude: Who Edited It Better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -153,23 +166,32 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "tDWtcyeNNew",
       "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "jHUtSPkxDKI",
-      "title": "SIKHO AI FILM MAKING COURSES..STUDENTS OF ULHASNAGAR",
+      "video": "T_8eaIIVKPA",
+      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Gyp78v3FtRg",
+      "title": "AI Video Has Evolved",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
       "video": "F4wqRYSbyeA",
       "title": "Can Higgsfield AI Change the Future of Filmmaking? 🚀 @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "AhoZ80YznAA",
-      "title": "AI Video Generation Is Changing Filmmaking Forever @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -178,25 +200,30 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "OlAJpFokkoo",
-      "title": "Why filmmakers are terrified of this new tech #aifilm #tech",
+      "video": "AhoZ80YznAA",
+      "title": "AI Video Generation Is Changing Filmmaking Forever @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "mnrC8NXyDX0",
-      "title": "🌧️ Rainy Cinematic AI Photo Editing...✨",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XaXx8GvGSLc",
-      "title": "Gemini & Kimi 3D: 3 New Free AI Tools to Try Today #Shorts",
+      "video": "jHUtSPkxDKI",
+      "title": "SIKHO AI FILM MAKING COURSES..STUDENTS OF ULHASNAGAR",
       "stage": "insufficient-article-source"
     },
     {
       "video": "_SlVfpUeMJA",
       "title": "😱 This ChatGPT Photo Editing Prompt Is INSANE 🔥 | Viral AI Photo Editing #shorts",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "OlAJpFokkoo",
+      "title": "Why filmmakers are terrified of this new tech #aifilm #tech",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "cL_xUg4dYRs",
+      "title": "Banks Restrict AI Agents as Microsoft Tests Diagnostic AI #Shorts",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 10
+  "accepted": 4
 }
