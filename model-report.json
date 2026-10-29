@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-10-28T19:35:54.670Z",
+  "startedAt": "2026-10-29T08:30:08.104Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 0,
@@ -9,41 +9,41 @@
   "candidatesAttempted": 8,
   "errors": [
     {
-      "candidate": "Claude Code",
+      "candidate": "Tripo",
+      "message": "Invalid model identity"
+    },
+    {
+      "candidate": "Quad Remesher",
+      "message": "Incomplete independent verification"
+    },
+    {
+      "candidate": "AccuRIG",
+      "message": "Incomplete independent verification"
+    },
+    {
+      "candidate": "Tripo P2",
+      "message": "Invalid model identity"
+    },
+    {
+      "candidate": "Character Creator 5.2",
       "message": "Insufficient official evidence"
     },
     {
-      "candidate": "The Roast Room",
+      "candidate": "ActorMIXER 1.1",
       "message": "Insufficient official evidence"
     },
     {
-      "candidate": "Tripo AI",
+      "candidate": "AI Studio",
       "message": "Invalid model identity"
     },
     {
-      "candidate": "GPT-6 Astra",
-      "message": "Invalid model identity"
-    },
-    {
-      "candidate": "OpenAI Codex",
-      "message": "Invalid model identity"
-    },
-    {
-      "candidate": "Blender MCP",
-      "message": "Invalid model identity"
-    },
-    {
-      "candidate": "MAI-Image 2.7",
-      "message": "Insufficient official evidence"
-    },
-    {
-      "candidate": "Claude",
-      "message": "Invalid model identity"
+      "candidate": "Headshot 3",
+      "message": "Incomplete independent verification"
     }
   ],
   "scheduled": 0,
   "skipped": 0,
-  "completedAt": "2026-10-28T19:38:41.466Z",
+  "completedAt": "2026-10-29T08:33:26.205Z",
   "health": {
     "failed": 49
   }

@@ -30266,6 +30266,189 @@
   ],
   "candidates": [
     {
+      "name": "Tripo",
+      "firstSeen": "2026-10-23T07:52:19.881Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GhhDpCqXAoA",
+        "https://www.youtube.com/watch?v=LGziF6d7Nj4",
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-31T08:30:08.104Z"
+    },
+    {
+      "name": "Quad Remesher",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Q5RqjIBgIJU",
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "firstSeen": "2026-10-01T11:39:12.672Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "AccuRIG",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mqoeh_uojS0",
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "firstSeen": "2026-10-04T11:08:24.834Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "Tripo P2",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "Character Creator 5.2",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "ActorMIXER 1.1",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "AI Studio",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "Headshot 3",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+    },
+    {
+      "name": "Hunyuan",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ]
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=nX0fgBL3sIM",
+        "https://www.youtube.com/watch?v=AZacOD1uUiI",
+        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
+        "https://www.youtube.com/watch?v=B0HN9kLxf7A",
+        "https://www.youtube.com/watch?v=QOzHgAVV5lc"
+      ],
+      "firstSeen": "2026-09-27T10:35:26.679Z",
+      "lastSeenAt": "2026-10-28T22:26:14Z"
+    },
+    {
+      "name": "picocli",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-28T22:26:14Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QOzHgAVV5lc"
+      ]
+    },
+    {
+      "name": "Simulon",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-28T22:26:14Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QOzHgAVV5lc"
+      ]
+    },
+    {
+      "name": "Claude",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ZLekK6xylDI",
+        "https://www.youtube.com/watch?v=tNXJCnHkXdk",
+        "https://www.youtube.com/watch?v=kFKpcCHkuPI",
+        "https://www.youtube.com/watch?v=BExtQ740QgM",
+        "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+        "https://www.youtube.com/watch?v=d28xVvbx_2w",
+        "https://www.youtube.com/watch?v=RsidPYy61Fg",
+        "https://www.youtube.com/watch?v=KgYS_jaHdYo",
+        "https://www.youtube.com/watch?v=3LIeUZJBpeo",
+        "https://www.youtube.com/watch?v=MbJvMvNCW1k"
+      ],
+      "firstSeen": "2026-09-24T10:05:38.488Z",
+      "lastSeenAt": "2026-10-28T20:48:08Z",
+      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 5,
+      "nextAttemptAt": "2026-11-04T19:35:54.670Z"
+    },
+    {
+      "name": "ClaudeCode",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-28T20:48:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MbJvMvNCW1k"
+      ]
+    },
+    {
+      "name": "Meshy 6",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-28T20:15:03Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X2GqucBgOjY"
+      ]
+    },
+    {
       "name": "Claude Code",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=V1AGM0IKFpg",
@@ -30378,27 +30561,6 @@
       "error": "Insufficient official evidence",
       "attempts": 1,
       "nextAttemptAt": "2026-10-29T19:35:54.670Z"
-    },
-    {
-      "name": "Claude",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=ZLekK6xylDI",
-        "https://www.youtube.com/watch?v=tNXJCnHkXdk",
-        "https://www.youtube.com/watch?v=kFKpcCHkuPI",
-        "https://www.youtube.com/watch?v=BExtQ740QgM",
-        "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
-        "https://www.youtube.com/watch?v=d28xVvbx_2w",
-        "https://www.youtube.com/watch?v=RsidPYy61Fg",
-        "https://www.youtube.com/watch?v=KgYS_jaHdYo",
-        "https://www.youtube.com/watch?v=3LIeUZJBpeo"
-      ],
-      "firstSeen": "2026-09-24T10:05:38.488Z",
-      "lastSeenAt": "2026-10-28T16:05:55Z",
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 5,
-      "nextAttemptAt": "2026-11-04T19:35:54.670Z"
     },
     {
       "name": "Blender",
@@ -31082,20 +31244,6 @@
       "nextAttemptAt": "2026-10-24T07:52:19.881Z"
     },
     {
-      "name": "Tripo",
-      "firstSeen": "2026-10-23T07:52:19.881Z",
-      "lastSeenAt": "2026-10-22T18:05:33Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=GhhDpCqXAoA",
-        "https://www.youtube.com/watch?v=LGziF6d7Nj4"
-      ],
-      "lastAttemptAt": "2026-10-23T07:52:19.881Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-24T07:52:19.881Z"
-    },
-    {
       "name": "Hunyuan 3D",
       "firstSeen": "2026-10-23T07:52:19.881Z",
       "lastSeenAt": "2026-10-22T18:05:33Z",
@@ -31134,17 +31282,6 @@
       "error": "Invalid model identity",
       "attempts": 1,
       "nextAttemptAt": "2026-10-25T07:19:21.931Z"
-    },
-    {
-      "name": "Claude Opus 5.5",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=nX0fgBL3sIM",
-        "https://www.youtube.com/watch?v=AZacOD1uUiI",
-        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
-        "https://www.youtube.com/watch?v=B0HN9kLxf7A"
-      ],
-      "firstSeen": "2026-09-27T10:35:26.679Z",
-      "lastSeenAt": "2026-10-21T22:05:47Z"
     },
     {
       "name": "Unreal Engine 5.8",
@@ -32080,14 +32217,6 @@
       "lastSeenAt": "2026-09-30T16:44:41Z"
     },
     {
-      "name": "Quad Remesher",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
-      ],
-      "firstSeen": "2026-10-01T11:39:12.672Z",
-      "lastSeenAt": "2026-09-30T16:44:41Z"
-    },
-    {
       "name": "3ds Max",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=Q5RqjIBgIJU"
@@ -32126,14 +32255,6 @@
       ],
       "firstSeen": "2026-10-01T11:39:12.672Z",
       "lastSeenAt": "2026-09-30T13:50:01Z"
-    },
-    {
-      "name": "AccuRIG",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=mqoeh_uojS0"
-      ],
-      "firstSeen": "2026-10-04T11:08:24.834Z",
-      "lastSeenAt": "2026-09-30T12:05:35Z"
     },
     {
       "name": "Google Omni",
@@ -33399,17 +33520,6 @@
       "lastSeenAt": "2026-09-14T16:51:33Z"
     },
     {
-      "name": "Tripo P2",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=h_mR2BRibZ8"
-      ],
-      "firstSeen": "2026-09-16T09:59:51.512Z",
-      "lastAttemptAt": "2026-09-26T09:55:18.711Z",
-      "status": "retry",
-      "error": "Official source unavailable",
-      "lastSeenAt": "2026-09-14T12:38:36Z"
-    },
-    {
       "name": "Fast3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=sZgl9TmRjgI"
@@ -34240,7 +34350,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-29T08:27:57.912Z",
+    "calculatedAt": "2026-10-29T08:30:08.104Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -34250,7 +34360,7 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.45893692664139435,
+      "elevenlabs": 0.45886845376373236,
       "elevenmusic": 0,
       "heygen": 0,
       "kling-3-0": 0,
@@ -34260,26 +34370,26 @@
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.793130196908097,
+      "higgsfield": 4.792415067227876,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.1681211194971364,
+      "meshy-ai": 2.1677976382439317,
       "magnific-ai": 0,
-      "seedance-2-5": 6.082464692947247,
+      "seedance-2-5": 6.081557195998044,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 2.9447404376435404,
-      "nano-banana-pro": 0.7023934919590769,
-      "nano-banana-2": 0.12418965251635963,
+      "wan-3-0": 2.944301085654131,
+      "nano-banana-pro": 0.7022886956333649,
+      "nano-banana-2": 0.12417112355869685,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.2390609074587462,
+      "hunyuan3d": 1.2388760409531177,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
@@ -34291,21 +34401,21 @@
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.77074058973079,
+      "gemini-omni-flash": 0.7706255960943093,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-28T19:35:54.670Z",
-    "newsCheckedAt": "2026-10-28T19:33:00.482Z",
+    "startedAt": "2026-10-29T08:30:08.104Z",
+    "newsCheckedAt": "2026-10-29T08:27:57.912Z",
     "total": 49,
     "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 327,
-    "completedAt": "2026-10-28T19:38:41.466Z",
+    "candidatesPending": 336,
+    "completedAt": "2026-10-29T08:33:26.205Z",
     "skipped": 0
   }
 }
