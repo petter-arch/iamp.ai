@@ -1,69 +1,75 @@
 {
-  "startedAt": "2026-10-29T08:27:57.912Z",
+  "startedAt": "2026-10-29T19:37:18.896Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-29T08:27:57.912Z",
+      "checkedAt": "2026-10-29T19:37:18.896Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 134,
+    "fetched": 139,
     "relevant": 45,
-    "supported": 35
+    "supported": 30
   },
   "rejected": [
     {
-      "video": "HP4blC2mzT4",
-      "title": "This wasn't possible 5 months ago...",
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        3
+        0
       ]
     },
     {
-      "video": "4C2e0oFgAkw",
-      "title": "The Final Boss of Green Screen.",
+      "video": "EUjd_UBApoA",
+      "title": "Crazy Spy Tech You Can Use For Free!",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        3
+        0
       ]
     },
     {
-      "video": "DZSYaQmxBLM",
-      "title": "Pros Try AI-Cloned Engineering Tools",
+      "video": "B8YFkYY20OY",
+      "title": "The Robot Butler Will Clean Up After You",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        4,
-        6
+        0
+      ]
+    },
+    {
+      "video": "EfyQOAJjx1A",
+      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        9,
+        18,
+        19
       ]
     },
     {
@@ -77,13 +83,31 @@
       ]
     },
     {
-      "video": "tSE4N1MIZIM",
-      "title": "Google Genie 4 is Here! (This is Insane)",
+      "video": "MUtEA8IqzxI",
+      "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "video": "qjMZcC6LzAg",
+      "title": "Google's Genie 4 builds a playable world from one prompt",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "video": "tSE4N1MIZIM",
+      "title": "Google Genie 4 is INSANE! (Full Breakdown)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
         10,
-        14,
-        19
+        14
       ]
     },
     {
@@ -96,15 +120,6 @@
       ]
     },
     {
-      "video": "HR_3sJv1iaI",
-      "title": "FREE 3d City Generator!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
       "video": "DWaHaHdiDAM",
       "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
       "stage": "classification-evidence",
@@ -114,21 +129,63 @@
       ]
     },
     {
+      "video": "LWxX6vvHfrc",
+      "title": "Gemini 4 Argon Is Not What I Expected",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "Gyp78v3FtRg",
+      "title": "AI Video Has Evolved",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "8JmJkQPOMCA",
+      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "Kq_fW78xaeI",
       "title": "How to create 3D models with Hermes Agent.",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        3
+        2
       ]
     },
     {
-      "video": "FHXPmZ53lfU",
-      "title": "New 13‑DOF Atlas Hand Unveiled 🤖 #shorts #ai",
+      "video": "cUhyDq9HL_Q",
+      "title": "Meet Microduck: A robot duck you can teach new tricks",
       "stage": "classification-evidence",
       "evidenceIds": [
         1
       ]
+    },
+    {
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1KxqLC7F0iE",
+      "title": "I was wrong about Augmented Reality",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "a7W6M7sxP1E",
@@ -136,23 +193,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "kJgYSiIZMb8",
-      "title": "Genie 4 Is the FUTURE of AI World Models!",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        18,
-        27
-      ]
-    },
-    {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
       "stage": "insufficient-article-source"
     },
     {
@@ -161,8 +203,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Gw-5MhJBnqQ",
-      "title": "This new AI video model claims Seedance 2.5 quality for 62% less",
+      "video": "y7DR_5oW6-4",
+      "title": "New Chatgpt ai Photo Prompt🔥👌 #chatgpt #aiphotoediting #ytshorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -171,8 +213,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "tDWtcyeNNew",
-      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+      "video": "kPnQYm2rW9Y",
+      "title": "OMG 😳 Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        11,
+        20
+      ]
+    },
+    {
+      "video": "FiyUagHO37Y",
+      "title": "Old Phones Are Becoming Robots?!?",
       "stage": "insufficient-article-source"
     },
     {
@@ -181,22 +233,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Gyp78v3FtRg",
-      "title": "AI Video Has Evolved",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
       "video": "F4wqRYSbyeA",
       "title": "Can Higgsfield AI Change the Future of Filmmaking? 🚀 @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3pLiGTzls4M",
-      "title": "AI Photo Editing Commands You Need To Try 🔥✨ #ai # #viral #video #aiphotoediting  #youtube #trending",
       "stage": "insufficient-article-source"
     },
     {
@@ -208,22 +246,7 @@
       "video": "jHUtSPkxDKI",
       "title": "SIKHO AI FILM MAKING COURSES..STUDENTS OF ULHASNAGAR",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_SlVfpUeMJA",
-      "title": "😱 This ChatGPT Photo Editing Prompt Is INSANE 🔥 | Viral AI Photo Editing #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "OlAJpFokkoo",
-      "title": "Why filmmakers are terrified of this new tech #aifilm #tech",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "cL_xUg4dYRs",
-      "title": "Banks Restrict AI Agents as Microsoft Tests Diagnostic AI #Shorts",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 5
 }
