@@ -1,54 +1,46 @@
 {
-  "startedAt": "2026-10-29T19:37:18.896Z",
+  "startedAt": "2026-10-30T08:38:30.727Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
-      "found": 3
+      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-29T19:37:18.896Z",
+      "checkedAt": "2026-10-30T08:38:30.727Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 139,
-    "relevant": 45,
-    "supported": 30
+    "fetched": 138,
+    "relevant": 39,
+    "supported": 28
   },
   "rejected": [
     {
       "video": "DZbCL56oz3M",
       "title": "Insane Interactive World Creator (Genie 4)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "EUjd_UBApoA",
-      "title": "Crazy Spy Tech You Can Use For Free!",
       "stage": "classification-evidence",
       "evidenceIds": [
         0
@@ -63,23 +55,13 @@
       ]
     },
     {
-      "video": "EfyQOAJjx1A",
-      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        9,
-        18,
-        19
-      ]
-    },
-    {
       "video": "1Aqhg0FVm-w",
       "title": "Deepseek strikes again",
       "stage": "classification-evidence",
       "evidenceIds": [
         7,
-        10,
-        12
+        12,
+        16
       ]
     },
     {
@@ -129,16 +111,6 @@
       ]
     },
     {
-      "video": "LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
       "video": "Gyp78v3FtRg",
       "title": "AI Video Has Evolved",
       "stage": "classification-evidence",
@@ -148,20 +120,12 @@
       ]
     },
     {
-      "video": "8JmJkQPOMCA",
-      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "Kq_fW78xaeI",
       "title": "How to create 3D models with Hermes Agent.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2
+        0,
+        1
       ]
     },
     {
@@ -169,13 +133,9 @@
       "title": "Meet Microduck: A robot duck you can teach new tricks",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
-    },
-    {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "WutfuAvvXkA",
@@ -183,8 +143,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "1KxqLC7F0iE",
-      "title": "I was wrong about Augmented Reality",
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
@@ -193,13 +153,33 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "kJgYSiIZMb8",
+      "title": "Genie 4 Is the FUTURE of AI World Models!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        18,
+        27
+      ]
+    },
+    {
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LjaJPfGRRWM",
-      "title": "ChatGPT vs Claude: Who Edited It Better?",
+      "video": "8JmJkQPOMCA",
+      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tDWtcyeNNew",
+      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -208,8 +188,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "T_8eaIIVKPA",
+      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Akehz1gYLxI",
+      "title": "This Is How AI Could Change the Future of Filmmaking 🔥 @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -221,32 +206,7 @@
         11,
         20
       ]
-    },
-    {
-      "video": "FiyUagHO37Y",
-      "title": "Old Phones Are Becoming Robots?!?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "T_8eaIIVKPA",
-      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "F4wqRYSbyeA",
-      "title": "Can Higgsfield AI Change the Future of Filmmaking? 🚀 @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "AhoZ80YznAA",
-      "title": "AI Video Generation Is Changing Filmmaking Forever @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "jHUtSPkxDKI",
-      "title": "SIKHO AI FILM MAKING COURSES..STUDENTS OF ULHASNAGAR",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5
+  "accepted": 7
 }

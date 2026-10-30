@@ -1,6 +1,347 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Master the explosion technique for AI video creation and turn simple impacts into breathtaking cinematic spectacles. This AI video creation tutorial breaks down the Explosion",
+    "evidenceIds": [
+      1,
+      2,
+      6
+    ],
+    "id": "djyjHWgDpfo",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Så styr du explosioner i AI-video med Action Control",
+    "sum": "Videcool beskriver en arbetsmetod för att skapa explosioner i AI-video genom Action Control, med fokus på fysik, timing och promptstruktur.",
+    "full": "Videcool presenterar en metod för AI-videoskapande som kallas Explosion technique inom Action Control. Tekniken är avsedd att omvandla enkla sammanstötningar till dramatiska, filmiska explosioner och riktar sig till AI-filmskapare.\n\nEnligt kanalens beskrivning går genomgången igenom när explosionseffekten bör användas och hur man skriver effektiva promptar. Särskild vikt läggs vid modifierare för fysik och timing, vilket ska hjälpa skaparen att beskriva hur explosionens förlopp och rörelse ska uppfattas i videon.\n\nVidecool tar även upp teknikens för- och nackdelar. Beskrivningen anger inte vilket AI-verktyg eller vilken modell som används, så artikeln kan inte knyta arbetsflödet till någon specifik plattform. Inte heller finns tillräckligt underlag för att bedöma resultatet genom en självständig test.\n\nMaterialet är upplagt som en kort tutorial med en introduktion till Action Control, en förklaring av Explosion technique, ett exempelklipp, en genomgång av en exempelprompt samt en avslutande diskussion om användningsområden och begränsningar.",
+    "deep": "Videcool beskriver explosionen som en actionkontrollteknik snarare än som en allmän genomgång av AI-video. Den centrala arbetsprocessen består av att välja rätt situation för effekten och formulera promptar som uttryckligen tar hänsyn till fysik och tidsförlopp.\n\nKanalens beskrivning stöder därför ett workflow för promptbaserad AI-videogenerering: identifiera en dramatisk påverkan, ange hur explosionen ska utvecklas över tid och använda fysikrelaterade modifierare för att styra resultatet. Exakt syntax, modell, inställningar och verifierade resultat anges inte i källmaterialet.\n\nVidecool nämner också praktiska avvägningar genom en separat genomgång av teknikens pros and cons. Några specifika fördelar, begränsningar eller användningsfall utöver den dramatiska filmeffekten anges dock inte i den tillhandahållna beskrivningen.",
+    "en": {
+      "ttl": "How to Control Explosions in AI Video with Action Control",
+      "sum": "Videcool presents a workflow for creating explosions in AI video with Action Control, focusing on physics, timing and prompt structure.",
+      "full": "Videcool presents an AI video creation method called the Explosion technique within Action Control. The technique is intended to turn simple impacts into dramatic, cinematic explosions and is aimed at AI filmmakers.\n\nAccording to the channel’s description, the tutorial explains when to use the explosion effect and how to write effective prompts. It focuses particularly on physics and timing modifiers, which are meant to help creators describe how the explosion develops and moves through the video.\n\nVidecool also discusses the technique’s pros and cons. The description does not identify the AI tool or model used, so the workflow cannot be tied to a specific platform. The available material also does not support an independent assessment of the output.\n\nThe tutorial includes an introduction to Action Control, an explanation of the Explosion technique, an example clip, a breakdown of an example prompt, and a concluding discussion of use cases and limitations.",
+      "deep": "Videcool frames the explosion as an action-control technique rather than as a general introduction to AI video. The core workflow involves choosing an appropriate situation for the effect and writing prompts that explicitly account for physics and timing.\n\nThe channel’s description therefore supports a prompt-based AI video workflow: identify a dramatic impact, specify how the explosion should develop over time, and use physics-related modifiers to guide the result. Exact syntax, model, settings and verified outputs are not provided in the source material.\n\nVidecool also mentions practical trade-offs through a separate discussion of the technique’s pros and cons. However, the supplied description does not specify particular advantages, limitations or use cases beyond the dramatic film effect."
+    },
+    "cat": "film",
+    "date": "2026-10-30T08:00:02Z",
+    "meta": "Videcool · 2026-10-30",
+    "url": "https://www.youtube.com/watch?v=djyjHWgDpfo",
+    "img": "https://i.ytimg.com/vi/djyjHWgDpfo/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Videcool"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Introduction To Action Control"
+      },
+      {
+        "t": 15,
+        "l": "What Is Explosion Technique"
+      },
+      {
+        "t": 35,
+        "l": "Example Explosion Video Clip"
+      },
+      {
+        "t": 55,
+        "l": "Example Prompt Breakdown"
+      },
+      {
+        "t": 80,
+        "l": "When To Use It"
+      },
+      {
+        "t": 105,
+        "l": "Pros And Cons Explained"
+      }
+    ],
+    "views": 0,
+    "buzz": 20,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f37cf96a9d109f50bc3db4cfb980505dce3e0e2fc05b8b01dcd5206473129d80",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Ever wished you could instantly generate photorealistic 3D models from just a single 2D image? This video dives into a groundbreaking new AI system that's",
+    "evidenceIds": [
+      1,
+      3,
+      11
+    ],
+    "id": "Yt693cfXjgQ",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI-system omvandlar 2D-foton till 3D-modeller i realtid",
+    "sum": "Kanalen Devsig beskriver ett nytt AI-system som enligt beskrivningen kan rekonstruera fotorealistiska, manipulerbara 3D-modeller från en enda 2D-bild genom att tolka djup, textur och ljus.",
+    "full": "Kanalen Devsig beskriver ett nytt AI-system som ska kunna skapa fotorealistiska 3D-modeller från en enda 2D-bild. Enligt kanalens beskrivning tolkar systemet djup, textur och ljus i den platta bilden och rekonstruerar därefter ett detaljerat, manipulerbart 3D-objekt eller en scen.\n\nEn central del av arbetsflödet är realtidsbearbetning. Devsig uppger att användaren kan få omedelbar återkoppling och iterera snabbt, vilket enligt beskrivningen kan minska produktionstiden för komplexa 3D-miljöer och objekt. Systemet framställs därför som relevant för bland annat produktdesign, spelutveckling och virtuell verklighet.\n\nBeskrivningen lyfter särskilt fram småföretag, indieskapare och andra som tidigare saknat resurser för omfattande 3D-modellering. Den anger också att tekniken kan förändra traditionella arbetsflöden genom att skapa användbara 3D-tillgångar från minimalt bildunderlag.\n\nDevsig uppger att tekniken enligt rapporteringen bygger på en ny arkitektur inspirerad av framsteg inom neurala radiance fields, NeRF, men optimerad för hastighet och fotorealism. Systemet ska inte bara generera ett nät utan även sluta sig till en fullständig volymetrisk representation av ett objekt eller en scen. Beskrivningen nämner som möjlig tillämpning att skapa virtuella världar från resefoton, men ger inga närmare tekniska specifikationer eller oberoende testresultat.",
+    "deep": "Kanalens beskrivning anger att indata kan bestå av en enda 2D-bild och att systemet därefter uppskattar information som inte syns direkt i bilden, däribland djup, textur och ljus. Resultatet beskrivs som en fotorealistisk och manipulerbar 3D-tillgång, men källan specificerar inte vilken modell, tjänst eller version som används.\n\nDet realtidsbaserade arbetssättet är enligt Devsig avsett att ge snabb iteration och återkoppling under skapandet. Källan kopplar detta till kortare produktionstider för komplexa objekt och miljöer, men redovisar inga mätvärden, jämförelser eller begränsningar för exempelvis dolda ytor och tvetydiga bilddata.\n\nBeskrivningen framställer systemet som ett generativt AI-genombrott med möjliga användningsområden inom design, spel och virtuell verklighet. Den säger att arkitekturen är inspirerad av NeRF-relaterade framsteg och att den rekonstruerar en volymetrisk representation snarare än enbart ett 3D-nät. Påståendena kommer från kanalens publicerarbeskrivning och är inte verifierade genom en oberoende granskning.",
+    "en": {
+      "ttl": "AI system turns 2D photos into 3D models in real time",
+      "sum": "The Devsig channel describes a new AI system that reportedly reconstructs photorealistic, manipulable 3D models from a single 2D image by interpreting depth, texture and light.",
+      "full": "The Devsig channel describes a new AI system that is reportedly able to create photorealistic 3D models from a single 2D image. According to the channel’s description, the system interprets depth, texture and light in the flat image and then reconstructs a detailed, manipulable 3D object or scene.\n\nReal-time processing is presented as a central part of the workflow. Devsig says users can receive immediate feedback and iterate quickly, which the description links to reduced production times for complex 3D environments and objects. The system is therefore presented as relevant to product design, game development and virtual reality.\n\nThe description particularly highlights small businesses, indie creators and others who previously lacked the resources for extensive 3D modelling. It also suggests that the technology could change traditional workflows by creating usable 3D assets from minimal image input.\n\nDevsig says the technology reportedly uses a novel architecture inspired by advances in neural radiance fields, or NeRFs, but optimized for speed and photorealism. The system is described as inferring a complete volumetric representation of an object or scene rather than merely generating a mesh. The description mentions creating virtual worlds from travel photos as a possible use case, but provides no further technical specifications or independent test results.",
+      "deep": "The channel’s description says the input can be a single 2D image, after which the system estimates information that is not directly visible, including depth, texture and light. The result is described as a photorealistic, manipulable 3D asset, but the source does not identify the model, service or version being used.\n\nAccording to Devsig, the real-time workflow is intended to provide rapid iteration and feedback during creation. The source connects this to shorter production times for complex objects and environments, but reports no measurements, comparisons or limitations involving hidden surfaces and ambiguous image data.\n\nThe description presents the system as a generative AI breakthrough with possible applications in design, gaming and virtual reality. It says the architecture is inspired by NeRF-related advances and reconstructs a volumetric representation rather than only a 3D mesh. These claims come from the channel’s publisher description and have not been independently verified."
+    },
+    "cat": "3d",
+    "date": "2026-10-30T02:40:34Z",
+    "meta": "Devsig · 2026-10-30",
+    "url": "https://www.youtube.com/watch?v=Yt693cfXjgQ",
+    "img": "https://i.ytimg.com/vi/Yt693cfXjgQ/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Devsig"
+    ],
+    "parts": [],
+    "views": 51,
+    "buzz": 41,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "6831a7e7408d75468d81bca3e6a98273b78cad9a51274fdc4f53db0a00d9526b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Simulon is back: turn a character image into a 3D \"neural asset,\" place it in the real world through your phone's camera, act out the",
+    "evidenceIds": [
+      2,
+      5,
+      10
+    ],
+    "id": "mpqgn9DMld4",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Simulon placerar AI-karaktärer i verkliga miljöer med Reality-Aware Rendering",
+    "sum": "Theoretically Media beskriver hur Simulon omvandlar en karaktärsbild till en 3D-neural tillgång som kan placeras genom telefonens kamera och reagera på filmarens handlingar, röst och omgivning. Verktyget är ännu inte realtid och renderar först efter att användaren har skrivit instruktioner eller spelat in en tagning.",
+    "full": "Theoretically Media beskriver Simulon som ett arbetsflöde för att placera AI-karaktärer i verkliga miljöer. Användaren laddar upp en referensbild, varefter tjänsten bygger en 3D-neural tillgång. Karaktären kan sedan placeras, skalas och roteras i det faktiska rummet genom telefonens kamera. Därefter kan användaren skriva vad som ska hända eller först spela in en tagning med en egen kamerarörelse, innan Simulon renderar resultatet.\n\nEn central del är Reality-Aware Rendering, som enligt kanalens beskrivning gör att karaktärer reagerar på vad användaren gör och säger under tagningen. Theoretically Media beskriver bland annat interaktioner där filmaren petar på en tiger och en liten karaktär, samt en mech som reagerar aggressivt på katten Astro. Ett annat exempel är Renfield, som står bakom en bar och reagerar på filmarens röst.\n\nArbetsflödet är inte begränsat till en enda karaktär eller plats. Kanalens exempel omfattar två karaktärer som spelar tennis i en park och en tiger som följer med genom ett vardagsrum. Simulon-resultat kan också kombineras med andra videogenereringsverktyg: Theoretically Media beskriver ett arbetsflöde där resultatet skickas till Kling 4.0 för video-till-video och ett annat där det skickas till Genie 4 för en promenad genom husets bakre rum.\n\nTheoretically Media betonar samtidigt att Simulon ännu inte fungerar i realtid. Kanalens beskrivning jämför användningen med referens-till-video, men framhåller att skillnaden är möjligheten att blockera karaktärer på inspelningsplatsen och arbeta med en egen kamerarörelse i ett run-and-gun-upplägg.",
+    "deep": "Enligt den medföljande beskrivningen återkom Simulon efter en tidigare version från 2023. Version 2.0 uppges ha levererats den 9 oktober och Reality-Aware Rendering den 28 oktober. Dessa datum återges som uppgifter i kanalens beskrivning, inte som en oberoende verifiering.\n\nTjänsten uppges vara gratis att prova på iPhone med 100 startkrediter, men den kostnadsfria nivån omfattar endast bibliotekskaraktärer. Plus kostar 14,99 dollar per månad och ska ge möjlighet att använda egna karaktärer från bilder eller ord samt kommersiell användning för individer. Pro kostar 39,99 dollar per månad och uppges ge tre gånger högre användning samt företagsanvändning. Android beskrivs som kommande, i väntan på Google.\n\nSimulon har enligt Theoretically Media uppgett att röster och tilldelningsbara personligheter är på väg. Kanalens beskrivning nämner också en egen demonstration där en karaktär tar emot talade instruktioner. Det är dock framtida funktioner enligt roadmapen och ska inte förväxlas med funktioner som redan bekräftas som tillgängliga i beskrivningen.\n\nBeskrivningen nämner även Alibaba:s Apsara-bild med Wan, Happy Horse och Happy Shrimp. Den delen saknar tillräcklig information för en mer detaljerad bedömning och är inte huvudämnet här. Artlist-sponsorn och dess 3D-modeller är likaså utelämnade, eftersom de inte utgör artikelns centrala AI-utveckling.",
+    "en": {
+      "ttl": "Simulon places AI characters in real environments with Reality-Aware Rendering",
+      "sum": "Theoretically Media describes how Simulon turns a character image into a 3D neural asset that can be placed through a phone camera and respond to the filmmaker’s actions, voice and surroundings. The tool is not real-time yet and renders after the user provides instructions or records a take.",
+      "full": "Theoretically Media describes Simulon as a workflow for placing AI characters in real environments. The user uploads a reference image, after which the service builds a 3D neural asset. The character can then be placed, scaled and rotated in the actual space through the phone camera. The user can write what should happen or first record a take with a personal camera move, after which Simulon renders the result.\n\nA central component is Reality-Aware Rendering, which the channel says makes characters respond to what the user does and says during the take. Theoretically Media describes interactions in which the filmmaker pokes a tiger and a miniature character, as well as a mech reacting aggressively to the cat Astro. Another example features Renfield tending a bar and responding to the filmmaker’s voice.\n\nThe workflow is not limited to one character or location. The channel’s examples include two characters playing tennis in a park and a tiger following its handler through a living room. Simulon outputs can also be combined with other video-generation tools: Theoretically Media describes sending an output to Kling 4.0 for video-to-video and another workflow that sends it to Genie 4 for a walk through the back rooms of the house.\n\nTheoretically Media also stresses that Simulon is not real-time yet. The channel’s description compares the process with reference-to-video, while presenting the ability to block characters on location and use a personal camera move in a run-and-gun workflow as the distinction.",
+      "deep": "According to the supplied description, Simulon returned after an earlier version from 2023. Version 2.0 is said to have shipped on October 9, with Reality-Aware Rendering on October 28. These dates are reported in the channel description and are not independent verification.\n\nThe service is described as free to try on iPhone with 100 starter credits, but the free tier includes library characters only. Plus costs $14.99 per month and is said to support custom characters from images or words and commercial use for individuals. Pro costs $39.99 per month and is described as providing three times the usage and business use. Android is described as next, pending Google.\n\nAccording to Theoretically Media, Simulon has said that voices and assignable personalities are coming. The description also mentions an in-house demonstration of a character taking spoken direction. These are roadmap items and should not be treated as features confirmed as currently available.\n\nThe description also mentions an Alibaba Apsara slide featuring Wan, Happy Horse and Happy Shrimp. It does not provide enough information for a detailed assessment, so that material is not the focus here. The Artlist sponsor and its 3D models are likewise omitted because they are not the central AI development in the source."
+    },
+    "cat": "film",
+    "date": "2026-10-29T21:07:35Z",
+    "meta": "Theoretically Media · 2026-10-29",
+    "url": "https://www.youtube.com/watch?v=mpqgn9DMld4",
+    "img": "https://i.ytimg.com/vi/mpqgn9DMld4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Theoretically Media"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Can your AI characters live in the real world?"
+      },
+      {
+        "t": 14,
+        "l": "Simulon is back"
+      },
+      {
+        "t": 48,
+        "l": "Mini Flamethrower Girl on my desk"
+      },
+      {
+        "t": 69,
+        "l": "How it works: phone camera, character ref to 3D, place it"
+      },
+      {
+        "t": 107,
+        "l": "Life-size Flamethrower Girl at the bar"
+      },
+      {
+        "t": 153,
+        "l": "Your camera move, your location"
+      },
+      {
+        "t": 188,
+        "l": "Kitbash: Simulon to Kling 4.0 video-to-video"
+      },
+      {
+        "t": 210,
+        "l": "Two characters: Renfield and Flamethrower Girl play tennis"
+      },
+      {
+        "t": 260,
+        "l": "From Dead Sea to the tennis court"
+      },
+      {
+        "t": 278,
+        "l": "Flamethrower Girl, tiger trainer"
+      },
+      {
+        "t": 321,
+        "l": "Artlist 3D (sponsor)"
+      },
+      {
+        "t": 456,
+        "l": "Isn't this just reference-to-video?"
+      },
+      {
+        "t": 499,
+        "l": "Reality-Aware Rendering: poke the tiger"
+      },
+      {
+        "t": 547,
+        "l": "Mech vs. Astro the cat"
+      },
+      {
+        "t": 600,
+        "l": "Renfield tends bar (he hears my voice)"
+      },
+      {
+        "t": 650,
+        "l": "Roadmap: voices, personalities, spoken direction"
+      },
+      {
+        "t": 718,
+        "l": "Simulon's caveman short film"
+      },
+      {
+        "t": 731,
+        "l": "Kitbash: Simulon to Genie 4"
+      },
+      {
+        "t": 799,
+        "l": "Pricing and availability (free on iPhone, Android next)"
+      },
+      {
+        "t": 829,
+        "l": "Wan and Happy Horse: Alibaba's Apsara slide"
+      },
+      {
+        "t": 848,
+        "l": "Wrap"
+      }
+    ],
+    "views": 32614,
+    "buzz": 74,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "44201028543d5a499d6d7db39496f6e914fcbba80f2656c258f0ea8597598b70",
+    "trusted": true,
+    "sourceId": "theoreticallymedia",
+    "newPlatforms": [
+      "Simulon",
+      "Kling 4.0",
+      "Genie 4"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "A 360 video reference keeps AI characters identical across every shot. I built characters with the details that usually break: a cyborg with a chrome",
+    "evidenceIds": [
+      1,
+      5,
+      6
+    ],
+    "id": "v-r-SWMiRo4",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "360-gradersreferenser ska ge AI-karaktärer konsekvens mellan scener",
+    "sum": "AI Samson beskriver ett arbetsflöde där en 360-graders videoreferens används för att hålla AI-genererade karaktärer lika från bild till bild, även i nya scener och interaktioner.",
+    "full": "AI Samson presenterar ett arbetsflöde för att skapa mer konsekventa AI-karaktärer mellan olika scener. Kärnan är en 360-graders videoreferens som visar karaktären från alla håll och sedan används som referens när nya scener skapas.\n\nI videon bygger AI Samson flera karaktärer med detaljer som ofta förändras eller försvinner i AI-genererat material. Exemplen omfattar en cyborg med en kromfärgad arm, en pirat med ärr, ögonlapp och krok, en mekaniker med tatueringar i ansiktet, en halvalienkvinna och en animerad leopardunge med fläckar. Varje karaktär förvandlas till en roterande 360-gradersvideo, som därefter används som grund för helt nya scener.\n\nEnligt kanalens beskrivning används metoden även för scener där karaktärer interagerar med varandra. Arbetsflödet omfattar att definiera karaktären, skapa en startbild, ta fram ett referensblad, producera 360-gradersrotationen och använda den i faktiska scener. AI Samson går också igenom klädbyten, jämför metoder och tar upp situationer där resultatet fortfarande bryter samman.\n\nBeskrivningen anger dessutom att videon jämför vilka bild- och videomodeller som fungerar bäst. Den namnger inte modellerna i källmaterialet, så deras identitet och prestanda kan inte fastställas här. Higgsfield nämns som sponsor och i en länk, men sponsringen är inte i sig belägg för arbetsflödets kvalitet.",
+    "deep": "Det centrala påståendet är inte att en enskild modell löser karaktärskonsekvens automatiskt, utan att en roterande referens används som underlag när nya bilder eller videosekvenser genereras. Kanalens beskrivning framhåller särskilt detaljer som krom, ärr, ögonlapp, krok, ansiktstatueringar och pälsfläckar, vilket visar vilka identitetsattribut arbetsflödet försöker bevara.\n\nArbetsflödet innehåller flera separata steg: karaktärsdefinition, startbild, referensblad, 360-gradersvideo och därefter scenproduktion. Beskrivningen säger också att AI Samson visar de steg och promptar som används samt de bilder där metoden fortfarande misslyckas. Det innebär att begränsningar och fel ingår i presentationen, men källan ger inga uppgifter om hur ofta felen uppstår eller hur resultaten jämförs.\n\nKällan stöder att referensen används för nya scener, karaktärsinteraktioner och ändrade kläder. Den stöder däremot inte ett oberoende test, en garanterad lösning eller någon specifik modellranking.",
+    "en": {
+      "ttl": "360-degree references aim to keep AI characters consistent across scenes",
+      "sum": "AI Samson describes a workflow that uses a 360-degree video reference to keep AI-generated characters consistent from shot to shot, including new scenes and character interactions.",
+      "full": "AI Samson presents a workflow for creating more consistent AI characters across different scenes. Its central element is a 360-degree video reference showing the character from every angle, which is then used as a reference when creating new scenes.\n\nThe video builds several characters with details that often change or disappear in AI-generated material. Examples include a cyborg with a chrome arm, a pirate with a scar, an eye patch and a hook, a mechanic with face tattoos, a half-alien woman and an animated leopard cub covered in spots. Each character is turned into a rotating 360-degree video, which is then used as the basis for entirely new scenes.\n\nAccording to the channel description, the method is also used for scenes in which characters interact with one another. The workflow covers defining the character, creating a starting image, producing a reference sheet, making the 360-degree rotation and using it in actual scenes. AI Samson also covers outfit changes, compares methods and discusses cases where the result still breaks.\n\nThe description further says that the video compares which image and video models work best. It does not name those models in the source material, so their identities and performance cannot be established here. Higgsfield is mentioned as a sponsor and in a link, but the sponsorship itself is not evidence of the workflow’s quality.",
+      "deep": "The central claim is not that one model automatically solves character consistency, but that a rotating reference is used as input when new images or video sequences are generated. The channel description specifically highlights details such as chrome, scars, an eye patch, a hook, face tattoos and fur spots, showing which identity attributes the workflow attempts to preserve.\n\nThe workflow contains several separate stages: character definition, a starting image, a reference sheet, a 360-degree video and subsequent scene production. The description also says that AI Samson shows the steps and prompts used, along with images where the method still fails. This means that limitations and failures are part of the presentation, but the source gives no figures for how often failures occur or how the results are compared.\n\nThe source supports using the reference for new scenes, character interactions and outfit changes. It does not support an independent test, a guaranteed solution or any specific model ranking."
+    },
+    "cat": "film",
+    "date": "2026-10-29T19:44:24Z",
+    "meta": "AI Samson · 2026-10-29",
+    "url": "https://www.youtube.com/watch?v=v-r-SWMiRo4",
+    "img": "https://i.ytimg.com/vi/v-r-SWMiRo4/hqdefault.jpg",
+    "plat": "Higgsfield",
+    "platformIds": [
+      "higgsfield"
+    ],
+    "chans": [
+      "AI Samson"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "The new way to keep characters consistent"
+      },
+      {
+        "t": 72,
+        "l": "Define your character"
+      },
+      {
+        "t": 106,
+        "l": "Create the start frame"
+      },
+      {
+        "t": 173,
+        "l": "Create a reference sheet"
+      },
+      {
+        "t": 201,
+        "l": "The 360 degree rotation video"
+      },
+      {
+        "t": 286,
+        "l": "Create actual scenes"
+      },
+      {
+        "t": 356,
+        "l": "Take it up a notch"
+      },
+      {
+        "t": 475,
+        "l": "Comparing the methods"
+      },
+      {
+        "t": 605,
+        "l": "Common issues"
+      },
+      {
+        "t": 662,
+        "l": "Characters interacting with each other"
+      },
+      {
+        "t": 694,
+        "l": "Changing outfits"
+      },
+      {
+        "t": 743,
+        "l": "Different image models"
+      },
+      {
+        "t": 769,
+        "l": "Using the right video model"
+      },
+      {
+        "t": 794,
+        "l": "Wrapping up"
+      }
+    ],
+    "views": 38000,
+    "buzz": 75,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "9788482c39a206110fa7293a39272e683fea6dbebdd380de187f78811ec0a299",
+    "trusted": true,
+    "sourceId": "aisamsonreal",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "В этом видео разбираю, как сохранить локацию в AI-фильме и избавиться от одной из самых частых проблем у AI-фильммейкеров и креаторов — когда локация от",
     "evidenceIds": [
       3,
@@ -487,6 +828,50 @@
     "sourceId": null,
     "newPlatforms": [
       "Meshy 6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Wasting video generation credits because you didn't know the exact cinematic term for a dolly zoom, three-point lighting, or a low-angle tracking shot gets expensive",
+    "evidenceIds": [
+      1,
+      2,
+      4
+    ],
+    "id": "EKlAXmSFSv8",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "PromptDirector ska förenkla flerskottsfilmskapande med visuellt kameraverktyg",
+    "sum": "JEDCOMTech beskriver PromptDirector (Filmmaker & UGC Edition) som ett verktyg för att bygga, strukturera och formatera filmiska videopromptar med visuella val för kamerateknik och ett läge för fem bildrutor.",
+    "full": "JEDCOMTech presenterar PromptDirector (Filmmaker & UGC Edition) som ett AI-inriktat arbetsflöde för annonsproducenter, berättare och UGC-skapare som vill skapa mer strukturerade videopromptar. Enligt kanalens beskrivning ska verktyget minska behovet av att prova sig fram när användaren inte känner till den exakta filmiska termen eller behöver anpassa samma prompt till flera videogeneratorer.\n\nEn central funktion är visuella filmiska väljare. Användaren kan klicka på kort för bildstorlek, brännvidd, kamerarörelse och ljusstil i stället för att själv gissa rätt terminologi. Beskrivningen nämner bland annat dolly zoom, trepunktsbelysning och lågvinklade följningar som exempel på filmiska val som annars kan leda till kostsamma försök med videogenerering.\n\nPromptDirector innehåller också ett storyboardläge med fem bilder. JEDCOMTech beskriver läget som avsett för kompletta berättelseförlopp, produktpresentationer i UGC-format och vittnesmål. Det ska kunna inkludera dialog, övergångar och ljudsignaler, vilket samlar flera delar av ett flerskottsupplägg i samma promptarbetsflöde.\n\nFör den som arbetar med flera videogeneratorer uppges verktyget kunna formatera om promptar till 32 verktygsspecifika format med ett klick. Beskrivningen nämner Runway Gen-2/Gen-3, Kling, Sora, Luma Dream Machine, Pika och Stable Video, samt ytterligare verktyg. Dessa namn presenteras som stödda format i kanalens beskrivning, inte som resultat från ett oberoende test.\n\nVerktyget ska dessutom kunna importera och redigera befintliga textpromptar. Enligt JEDCOMTech kan användaren därigenom förfina kameravinklar, korrigera kontinuitetsproblem och justera ljus under arbetets gång. Kanalen anger att PromptDirector kan provas kostnadsfritt via den länk som finns i videobeskrivningen.",
+    "deep": "JEDCOMTech kopplar verktygets behov till två konkreta problem i AI-videoproduktion: att videokrediter går åt när skaparen provar sig fram till rätt filmiska instruktioner, och att samma prompt måste skrivas om manuellt för flera videogeneratorer. Verktygets föreslagna lösning är ett visuellt gränssnitt för kameraval kombinerat med automatiserad promptstrukturering.\n\nFemskottsläget är särskilt inriktat på kontinuitet och planering över flera bilder. Beskrivningen anger inte hur kontinuiteten tekniskt upprätthålls eller vilka modeller som genererar videon, utan beskriver PromptDirector som ett verktyg för att planera och formatera promptar. På samma sätt anges inga oberoende mätningar av tidsbesparing, bildkvalitet eller träffsäkerhet.\n\nDe videogeneratorer som nämns i källan är Runway Gen-2/Gen-3, Kling, Sora, Luma Dream Machine, Pika och Stable Video. Ingen av dessa matchar exakt en registrerad plattforms-ID med samma versionsnamn i den tillhandahållna katalogen, så de listas inte som plattforms-ID:n här. Källan anger inte vilka de övriga formaten är.",
+    "en": {
+      "ttl": "PromptDirector aims to simplify multi-shot filmmaking with a visual camera tool",
+      "sum": "JEDCOMTech describes PromptDirector (Filmmaker & UGC Edition) as a tool for building, structuring and formatting cinematic video prompts with visual camera choices and a five-shot mode.",
+      "full": "JEDCOMTech presents PromptDirector (Filmmaker & UGC Edition) as an AI-focused workflow for ad creators, storytellers and UGC creators who want more structured video prompts. According to the channel’s description, the tool is intended to reduce guesswork when users do not know the exact cinematic term or need to adapt the same prompt for several video generators.\n\nA central feature is its visual cinematic pickers. Users can click cards for shot size, lens focal length, camera movement and lighting style instead of guessing the correct terminology. The description mentions dolly zooms, three-point lighting and low-angle tracking shots as examples of cinematic choices that can otherwise lead to costly trial and error in video generation.\n\nPromptDirector also includes a five-shot storyboard mode. JEDCOMTech describes it as suitable for complete narrative sequences, UGC product reveals and testimonials. The mode is said to include dialogue, transitions and audio cues, bringing several parts of a multi-shot setup into one prompting workflow.\n\nFor users working with multiple video generators, the tool is described as being able to reformat prompts into 32 tool-specific formats with one click. The description names Runway Gen-2/Gen-3, Kling, Sora, Luma Dream Machine, Pika and Stable Video, among others. These names are presented as supported formats in the channel’s description, not as results from an independent test.\n\nThe tool is also described as supporting import and editing of existing text prompts. According to JEDCOMTech, users can refine camera angles, correct continuity issues and adjust lighting during the workflow. The channel says PromptDirector can be tried for free through the link in the video description.",
+      "deep": "JEDCOMTech ties the tool’s purpose to two concrete problems in AI video production: video credits being consumed while creators search for the right cinematic instructions, and the need to manually rewrite the same prompt for multiple video generators. The proposed solution is a visual interface for camera choices combined with automated prompt structuring.\n\nThe five-shot mode is specifically aimed at planning and continuity across multiple shots. The source does not explain how continuity is technically maintained or which models generate the video; it describes PromptDirector as a tool for planning and formatting prompts. Likewise, it provides no independent measurements of time savings, image quality or accuracy.\n\nThe video generators named in the source are Runway Gen-2/Gen-3, Kling, Sora, Luma Dream Machine, Pika and Stable Video. None exactly matches a registered platform ID with the same version name in the supplied registry, so no platform IDs are listed here. The source does not identify the remaining formats."
+    },
+    "cat": "film",
+    "date": "2026-10-28T20:00:33Z",
+    "meta": "JEDCOMTech · 2026-10-28",
+    "url": "https://www.youtube.com/watch?v=EKlAXmSFSv8",
+    "img": "https://i.ytimg.com/vi/EKlAXmSFSv8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "JEDCOMTech"
+    ],
+    "parts": [],
+    "views": 2,
+    "buzz": 26,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "cfe049c3dc6f5cd7d4776f3f3a4605be8150d78375fb5be87ed5f7c96da6363e",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "PromptDirector (Filmmaker & UGC Edition)"
     ]
   },
   {
@@ -1050,6 +1435,127 @@
   },
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Is game dev dead, or is AI the future? What used to take weeks, a full 3D model, now takes one click: textured and rigged.",
+    "evidenceIds": [
+      1,
+      3,
+      4
+    ],
+    "id": "GSKDV310iYY",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI ARENA rankar AI-generatorer för 3D-spelutveckling",
+    "sum": "AI ARENA presenterar en nivålista över AI-verktyg för spelutveckling i 3D och placerar Meshy 7.1 högst. Bedömningen bygger enligt kanalen på modeller som används i deras egna spel, men beskrivningen redovisar inga oberoende tester eller detaljerade mätmetoder.",
+    "full": "AI ARENA beskriver hur AI-verktyg kan förändra arbetet med 3D-spelutveckling. Enligt kanalens beskrivning kan det som tidigare tog veckor – att skapa en komplett 3D-modell – i vissa fall göras med ett klick, inklusive texturering och riggning. Videon diskuterar samtidigt om AI förändrar eller hotar traditionell spelutveckling.\n\nKanalens huvudinslag är en nivålista över AI-generatorer för 3D. Meshy 7.1 placeras i SSS-nivån och beskrivs därmed som listans främsta verktyg. Tripo, Hi3D V3.0 och Hyper3D Rodin Gen-2.5 hamnar i SS-nivån.\n\nI S-nivån placerar AI ARENA Claude Opus 5.5, Claude Fable 5.5 och GPT-6 Astra. Beskrivningen kopplar dessa verktyg till att bygga i Blender via MCP, vilket pekar på ett arbetsflöde där AI används för att styra eller assistera 3D-arbete i Blender snarare än enbart generera fristående modeller.\n\nTencent Hunyuan 3D och ByteDance Seed3D 2.0 placeras i A-nivån. Microsoft TRELLIS.2, Sloyd, 3D AI Studio och Krea 3D hamnar i B-nivån. Kaedim och Spline placeras i C, Stability SPAR3D och Luma Genie i D, medan CSM Cube hamnar i E.\n\nVideon sätter också verktygen i ett större branschsammanhang. AI ARENA nämner att Epic enligt beskrivningen ställer om företaget med AI i centrum, att Kenney invänder mot utvecklingen och att Steam Next Fest har fyllts av AI-demonstrationer. Dessa påståenden återges som kanalens inramning, inte som resultat av en självständig granskning.",
+    "deep": "AI ARENA säger att nivålistan bygger på modeller som kanalen faktiskt använder i sina egna spel. Beskrivningen ger däremot inte tillräckligt med information om testscener, indata, exportformat, kvalitet på topologi, riggningens tillförlitlighet eller hur verktygen jämfördes. Rangordningen bör därför läsas som kanalens egen bedömning och inte som ett oberoende test.\n\nDet mest konkreta arbetsflödet som nämns utöver modellgeneratorerna är kopplingen mellan Claude Opus 5.5, Claude Fable 5.5, GPT-6 Astra, Blender och MCP. Källan anger inte exakt vilka Blender-uppgifter som automatiseras, vilka MCP-komponenter som används eller vilka begränsningar arbetsflödet har. Den stöder därför endast slutsatsen att kanalen presenterar AI-assisterat Blender-arbete som en del av sin nivålista.\n\nÖvriga namn i listan är Tencent Hunyuan 3D, ByteDance Seed3D 2.0, Microsoft TRELLIS.2, Sloyd, 3D AI Studio, Krea 3D, Kaedim, Spline, Stability SPAR3D, Luma Genie och CSM Cube. Videobeskrivningen nämner dem som jämförda eller rankade verktyg, men ger inga separata omdömen om deras funktioner eller användningsområden.",
+    "en": {
+      "ttl": "AI ARENA ranks AI generators for 3D game development",
+      "sum": "AI ARENA presents a tier list of AI tools for 3D game development, placing Meshy 7.1 at the top. According to the channel, the ranking is based on models used in its own games, not on an independent test.",
+      "full": "AI ARENA describes how AI tools may change 3D game development. According to the channel, work that previously took weeks—creating a complete 3D model—can in some cases be done with one click, including texturing and rigging. The video also discusses whether AI is changing or threatening traditional game development.\n\nThe main segment is a tier list of AI 3D generators. Meshy 7.1 is placed in the SSS tier, making it the channel’s top-ranked tool. Tripo, Hi3D V3.0 and Hyper3D Rodin Gen-2.5 are placed in the SS tier.\n\nClaude Opus 5.5, Claude Fable 5.5 and GPT-6 Astra are placed in the S tier. The description connects these tools with building in Blender through MCP, indicating a workflow in which AI assists with or controls Blender-based 3D work rather than only generating standalone models.\n\nTencent Hunyuan 3D and ByteDance Seed3D 2.0 are placed in the A tier. Microsoft TRELLIS.2, Sloyd, 3D AI Studio and Krea 3D are placed in B; Kaedim and Spline in C; Stability SPAR3D and Luma Genie in D; and CSM Cube in E.\n\nThe video also frames the tools within a broader industry discussion. AI ARENA mentions Epic’s alleged AI-focused restructuring, Kenney’s opposition and an influx of AI demonstrations at Steam Next Fest. These points are presented as the channel’s framing, not as independently verified findings.",
+      "deep": "AI ARENA says the tier list is based on models the channel actually uses in its own games. The description does not provide test scenes, inputs, export formats, topology quality, rigging reliability or comparison methodology. The ranking should therefore be understood as the channel’s assessment, not an independent test.\n\nThe most specific workflow mentioned beyond the model generators is the connection between Claude Opus 5.5, Claude Fable 5.5, GPT-6 Astra, Blender and MCP. The source does not specify which Blender tasks are automated, which MCP components are used or what limitations apply. It supports only the conclusion that the channel presents AI-assisted Blender work as part of its ranking.\n\nOther listed names include Tencent Hunyuan 3D, ByteDance Seed3D 2.0, Microsoft TRELLIS.2, Sloyd, 3D AI Studio, Krea 3D, Kaedim, Spline, Stability SPAR3D, Luma Genie and CSM Cube. The description identifies them as ranked or compared tools but provides no separate feature or use-case assessment."
+    },
+    "cat": "3d",
+    "date": "2026-10-28T00:00:18Z",
+    "meta": "AI ARENA · 2026-10-28",
+    "url": "https://www.youtube.com/watch?v=GSKDV310iYY",
+    "img": "https://i.ytimg.com/vi/GSKDV310iYY/hqdefault.jpg",
+    "plat": "Luma Genie",
+    "platformIds": [
+      "luma-genie"
+    ],
+    "chans": [
+      "AI ARENA"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Is game dev dead?"
+      },
+      {
+        "t": 28,
+        "l": "The drama: Epic goes AI first"
+      },
+      {
+        "t": 47,
+        "l": "Kenney vs Tim Sweeney"
+      },
+      {
+        "t": 56,
+        "l": "Steam Next Fest AI slop"
+      },
+      {
+        "t": 67,
+        "l": "Indies fight back"
+      },
+      {
+        "t": 84,
+        "l": "The tier list starts"
+      },
+      {
+        "t": 87,
+        "l": "Tripo"
+      },
+      {
+        "t": 108,
+        "l": "Hi3D"
+      },
+      {
+        "t": 116,
+        "l": "Hyper3D Rodin"
+      },
+      {
+        "t": 126,
+        "l": "Claude and GPT-6 in Blender (MCP)"
+      },
+      {
+        "t": 151,
+        "l": "Hunyuan 3D and Seed3D"
+      },
+      {
+        "t": 165,
+        "l": "TRELLIS.2, Sloyd, 3D AI Studio, Krea"
+      },
+      {
+        "t": 176,
+        "l": "Kaedim, Spline, Stability, Luma, CSM"
+      },
+      {
+        "t": 188,
+        "l": "The king: Meshy"
+      },
+      {
+        "t": 208,
+        "l": "Is game dev dead?"
+      }
+    ],
+    "views": 29597,
+    "buzz": 74,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "74270e36d684c941226ee1dd3fdbc687cfbd5ab3347204902a9a73495bdd2b70",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Meshy 7.1",
+      "Tripo",
+      "Hi3D V3.0",
+      "Hyper3D Rodin Gen-2.5",
+      "Claude Opus 5.5",
+      "Claude Fable 5.5",
+      "GPT-6 Astra",
+      "Blender MCP",
+      "ByteDance Seed3D 2.0",
+      "Sloyd",
+      "3D AI Studio",
+      "Krea 3D",
+      "Kaedim",
+      "Stability SPAR3D",
+      "CSM Cube"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Stop generating blind: this AI prompt shows you a storyboard before it runs the full thing. By default, the prompt asks Claude for a visual",
     "evidenceIds": [
       2,
@@ -1188,6 +1694,89 @@
     "newPlatforms": [
       "Genie 4"
     ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "An architect uploads a heavy Revit file. A custom script in Pipeline Automation sends it to headless Blender and the Asset Transformer, which reassign its",
+    "evidenceIds": [
+      1,
+      8,
+      12
+    ],
+    "id": "GwhDs5hENm8",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Från 2D-bild till 3D-tillgång med AI i Unity",
+    "sum": "Unity for Business visar ett arbetsflöde där Pipeline Automation och Tripo (fal.ai) används för att skapa 3D-tillgångar och automatisera massgenerering.",
+    "full": "Unity for Business visar hur en pipeline i Asset Manager kan omvandla visuellt underlag och komplexa modellfiler till 3D-tillgångar för realtidsanvändning. Demonstrationen omfattar ett arbetsflöde där anpassade skript skickar data vidare till verktyg i pipelinen och därefter återför den färdiga tillgången till Asset Manager för användning i Unity Studio eller Unity Editor.\n\nI den beskrivna processen laddar en arkitekt upp en omfattande Revit-fil. Ett anpassat skript i Pipeline Automation skickar filen till headless Blender och Asset Transformer. Där tilldelas material på nytt och modellen decimeras till ett nät som är bättre anpassat för realtid. Unity for Business beskriver målet som att få tät BIM- och CAD-data att se bra ut och samtidigt fungera väl i realtid.\n\nVideon visar också en särskild pipeline för 3D-modellgenerering. Den innehåller pipeline-parametrar, ett steg för att hämta tillgångar, ett Python-steg med Tripo (fal.ai), skapande av en tillgång och tillägg av en fil innan pipelinen körs. Den färdiga 3D-modellen visas sedan i Asset Manager.\n\nEn ytterligare del av demonstrationen gäller bulkgenerering med en AI-agent. Det innebär enligt kanalens beskrivning att arbetsflödet kan användas för att skapa flera tillgångar genom automatisering, snarare än att behandla varje modell manuellt.",
+    "deep": "Unity for Business kopplar samman Pipeline Automation, anpassade skript, headless Blender, Asset Transformer och Asset Manager i ett sammanhängande arbetsflöde. Beskrivningen anger att material kan tilldelas på nytt och att geometri kan decimeras, men specificerar inte vilka decimeringsinställningar, materialregler eller kvalitetsnivåer som används.\n\nAI-delen i demonstrationen består av ett Python-steg med Tripo (fal.ai) i en pipeline för 3D-modellgenerering. Källan beskriver inte vilken 2D-bild som används som indata, vilka modellformat som stöds i just detta steg eller hur resultatet bedöms. Därför går det inte att dra slutsatser om generell kvalitet, prestanda eller produktionsmognad.\n\nKanalens kapitel visar en sekvens från anpassade skript och pipeline-parametrar till körning, visning i Asset Manager och bulkgenerering med en AI-agent. Videon är en demonstration från Unity for Business, inte ett oberoende test.",
+    "en": {
+      "ttl": "From 2D image to 3D asset with AI in Unity",
+      "sum": "Unity for Business shows a workflow using Pipeline Automation and Tripo (fal.ai) to create 3D assets and automate bulk generation.",
+      "full": "Unity for Business shows how a pipeline in Asset Manager can convert visual input and complex model files into 3D assets for real-time use. The demonstration covers a workflow in which custom scripts pass data through pipeline tools and then return the finished asset to Asset Manager for use in Unity Studio or Unity Editor.\n\nIn the described process, an architect uploads a large Revit file. A custom script in Pipeline Automation sends the file to headless Blender and Asset Transformer. Materials are reassigned and the model is decimated into a mesh better suited to real-time use. Unity for Business describes the goal as making dense BIM and CAD data look good while performing well in real time.\n\nThe video also shows a dedicated 3D model generation pipeline. It includes pipeline parameters, a get-asset step, a Python step with Tripo (fal.ai), asset creation and file addition before the pipeline is run. The resulting 3D model is then shown in Asset Manager.\n\nAnother part of the demonstration covers bulk generation with an AI agent. According to the channel’s description, this allows the workflow to create multiple assets through automation rather than processing every model manually.",
+      "deep": "Unity for Business connects Pipeline Automation, custom scripts, headless Blender, Asset Transformer and Asset Manager in one workflow. The description states that materials can be reassigned and geometry can be decimated, but it does not specify the decimation settings, material rules or quality levels used.\n\nThe AI component of the demonstration is a Python step with Tripo (fal.ai) in a 3D model generation pipeline. The source does not describe which 2D image is used as input, which model formats are supported in that step or how the output is evaluated. No conclusions about general quality, performance or production readiness can therefore be drawn.\n\nThe channel’s chapters show a sequence from custom scripts and pipeline parameters to running the pipeline, viewing the result in Asset Manager and bulk generation with an AI agent. This is a demonstration from Unity for Business, not an independent test."
+    },
+    "cat": "3d",
+    "date": "2026-10-27T19:57:41Z",
+    "meta": "Unity for Business · 2026-10-27",
+    "url": "https://www.youtube.com/watch?v=GwhDs5hENm8",
+    "img": "https://i.ytimg.com/vi/GwhDs5hENm8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Unity for Business"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "From a 2D image to a 3D asset: Pipeline Automation in Asset Manager"
+      },
+      {
+        "t": 15,
+        "l": "Custom scripts in a pipeline"
+      },
+      {
+        "t": 42,
+        "l": "Create the 3D Model Generation pipeline"
+      },
+      {
+        "t": 65,
+        "l": "Add pipeline parameters"
+      },
+      {
+        "t": 117,
+        "l": "Get asset step"
+      },
+      {
+        "t": 135,
+        "l": "Python step with Tripo (fal.ai)"
+      },
+      {
+        "t": 180,
+        "l": "Create asset and Add file"
+      },
+      {
+        "t": 207,
+        "l": "Run the pipeline"
+      },
+      {
+        "t": 252,
+        "l": "The 3D model in Asset Manager"
+      },
+      {
+        "t": 288,
+        "l": "Bulk generation with an AI agent"
+      }
+    ],
+    "views": 143,
+    "buzz": 46,
+    "sourceCheckedAt": "2026-10-30T08:38:30.727Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "b0485627f97f98df724d9582898e98c6cac4aa48afef9fc917fc23c9f3d9bbf9",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
   },
   {
     "editorialStatus": "approved",
