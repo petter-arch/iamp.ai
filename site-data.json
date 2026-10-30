@@ -31084,6 +31084,55 @@
   ],
   "candidates": [
     {
+      "name": "Kling 4.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MbxDhjoH-V4",
+        "https://www.youtube.com/watch?v=oLldK2RJgzw",
+        "https://www.youtube.com/watch?v=ItZt9amULkI",
+        "https://www.youtube.com/watch?v=h9ryZx49_J0",
+        "https://www.youtube.com/watch?v=sfI7TLa8ZQY",
+        "https://www.youtube.com/watch?v=X7D7nvPGfJA",
+        "https://www.youtube.com/watch?v=aLf4ZYa5ekU",
+        "https://www.youtube.com/watch?v=2pzv0A4K_yc",
+        "https://www.youtube.com/watch?v=mpqgn9DMld4"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z",
+      "lastSeenAt": "2026-10-29T21:07:35Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 4,
+      "nextAttemptAt": "2026-11-06T08:41:24.405Z"
+    },
+    {
+      "name": "Genie 4",
+      "firstSeen": "2026-10-28T08:32:23.264Z",
+      "lastSeenAt": "2026-10-29T21:07:35Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=bKXpUNvpkfU",
+        "https://www.youtube.com/watch?v=mpqgn9DMld4"
+      ],
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
+    },
+    {
+      "name": "Simulon",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T21:07:35Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=QOzHgAVV5lc",
+        "https://www.youtube.com/watch?v=mpqgn9DMld4"
+      ],
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
+    },
+    {
       "name": "Directra",
       "firstSeen": "2026-10-29T19:39:55.401Z",
       "lastSeenAt": "2026-10-29T13:30:15Z",
@@ -31116,7 +31165,8 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GhhDpCqXAoA",
         "https://www.youtube.com/watch?v=LGziF6d7Nj4",
-        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+        "https://www.youtube.com/watch?v=cm9GlStqHQk",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
       "lastAttemptAt": "2026-10-29T08:30:08.104Z",
       "status": "retry",
@@ -31132,11 +31182,11 @@
       ],
       "firstSeen": "2026-10-01T11:39:12.672Z",
       "lastSeenAt": "2026-10-29T08:06:18Z",
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
       "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
     },
     {
       "name": "AccuRIG",
@@ -31146,11 +31196,11 @@
       ],
       "firstSeen": "2026-10-04T11:08:24.834Z",
       "lastSeenAt": "2026-10-29T08:06:18Z",
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
       "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
     },
     {
       "name": "Tripo P2",
@@ -31159,25 +31209,12 @@
         "https://www.youtube.com/watch?v=cm9GlStqHQk"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z",
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
       "status": "retry",
       "error": "Invalid model identity",
       "lastSeenAt": "2026-10-29T08:06:18Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
-    },
-    {
-      "name": "Hunyuan",
-      "firstSeen": "2026-10-29T08:30:08.104Z",
-      "lastSeenAt": "2026-10-29T08:06:18Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=cm9GlStqHQk"
-      ],
-      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
     },
     {
       "name": "Character Creator 5.2",
@@ -31186,11 +31223,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=cm9GlStqHQk"
       ],
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
     },
     {
       "name": "ActorMIXER 1.1",
@@ -31199,11 +31236,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=cm9GlStqHQk"
       ],
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-30T08:41:24.405Z",
       "status": "retry",
       "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T08:30:08.104Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-01T08:41:24.405Z"
     },
     {
       "name": "AI Studio",
@@ -31232,13 +31269,27 @@
       "nextAttemptAt": "2026-10-30T08:30:08.104Z"
     },
     {
+      "name": "Hunyuan",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+    },
+    {
       "name": "Claude Opus 5.5",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=nX0fgBL3sIM",
         "https://www.youtube.com/watch?v=AZacOD1uUiI",
         "https://www.youtube.com/watch?v=X5C3T71Z4iI",
         "https://www.youtube.com/watch?v=B0HN9kLxf7A",
-        "https://www.youtube.com/watch?v=QOzHgAVV5lc"
+        "https://www.youtube.com/watch?v=QOzHgAVV5lc",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
       "firstSeen": "2026-09-27T10:35:26.679Z",
       "lastSeenAt": "2026-10-28T22:26:14Z",
@@ -31258,19 +31309,6 @@
       "lastAttemptAt": "2026-10-29T19:39:55.401Z",
       "status": "retry",
       "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
-    },
-    {
-      "name": "Simulon",
-      "firstSeen": "2026-10-29T08:30:08.104Z",
-      "lastSeenAt": "2026-10-28T22:26:14Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=QOzHgAVV5lc"
-      ],
-      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
-      "status": "retry",
-      "error": "Invalid model identity",
       "attempts": 1,
       "nextAttemptAt": "2026-10-30T19:39:55.401Z"
     },
@@ -31315,6 +31353,14 @@
       "lastSeenAt": "2026-10-28T20:15:03Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=X2GqucBgOjY"
+      ]
+    },
+    {
+      "name": "PromptDirector (Filmmaker & UGC Edition)",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T20:00:33Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=EKlAXmSFSv8"
       ]
     },
     {
@@ -31382,7 +31428,8 @@
         "https://www.youtube.com/watch?v=_cbq1SJ_vP0",
         "https://www.youtube.com/watch?v=X5C3T71Z4iI",
         "https://www.youtube.com/watch?v=rKdMym6SnKM",
-        "https://www.youtube.com/watch?v=Tp0peIkba5M"
+        "https://www.youtube.com/watch?v=Tp0peIkba5M",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z",
       "lastAttemptAt": "2026-10-28T19:35:54.670Z",
@@ -31393,11 +31440,12 @@
       "nextAttemptAt": "2026-10-29T19:35:54.670Z"
     },
     {
-      "name": "OpenAI Codex",
+      "name": "Blender MCP",
       "firstSeen": "2026-10-28T19:35:54.670Z",
       "lastSeenAt": "2026-10-28T19:17:37Z",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=rKdMym6SnKM"
+        "https://www.youtube.com/watch?v=rKdMym6SnKM",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
       "lastAttemptAt": "2026-10-28T19:35:54.670Z",
       "status": "retry",
@@ -31406,7 +31454,7 @@
       "nextAttemptAt": "2026-10-29T19:35:54.670Z"
     },
     {
-      "name": "Blender MCP",
+      "name": "OpenAI Codex",
       "firstSeen": "2026-10-28T19:35:54.670Z",
       "lastSeenAt": "2026-10-28T19:17:37Z",
       "sourceVideos": [
@@ -31473,37 +31521,114 @@
       ]
     },
     {
-      "name": "Kling 4.0",
+      "name": "Hi3D V3.0",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=MbxDhjoH-V4",
-        "https://www.youtube.com/watch?v=oLldK2RJgzw",
-        "https://www.youtube.com/watch?v=ItZt9amULkI",
-        "https://www.youtube.com/watch?v=h9ryZx49_J0",
-        "https://www.youtube.com/watch?v=sfI7TLa8ZQY",
-        "https://www.youtube.com/watch?v=X7D7nvPGfJA",
-        "https://www.youtube.com/watch?v=aLf4ZYa5ekU",
-        "https://www.youtube.com/watch?v=2pzv0A4K_yc"
+        "https://www.youtube.com/watch?v=hk21B_dI-gA",
+        "https://www.youtube.com/watch?v=OvkxZS_bBXE",
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=NsT93NvHUgI",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
-      "firstSeen": "2026-09-30T11:11:53.377Z",
-      "lastSeenAt": "2026-10-28T06:57:43Z",
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 3,
-      "nextAttemptAt": "2026-11-01T08:32:23.264Z"
+      "error": "Invalid evidence URL",
+      "lastSeenAt": "2026-10-28T00:00:18Z"
     },
     {
-      "name": "Genie 4",
-      "firstSeen": "2026-10-28T08:32:23.264Z",
-      "lastSeenAt": "2026-10-27T22:40:26Z",
+      "name": "Sloyd",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=bKXpUNvpkfU"
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4",
+        "https://www.youtube.com/watch?v=p_I_N-83GAA",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
-      "lastAttemptAt": "2026-10-28T08:32:23.264Z",
+      "firstSeen": "2026-09-29T11:23:53.895Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z"
+    },
+    {
+      "name": "Meshy 7.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=p_5Usk7ALT4",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-10-15T09:59:57.859Z",
       "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T08:32:23.264Z"
+      "error": "Evidence quote missing",
+      "lastSeenAt": "2026-10-28T00:00:18Z"
+    },
+    {
+      "name": "3D AI Studio",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "status": "retry",
+      "error": "Incomplete independent verification of new profile",
+      "lastSeenAt": "2026-10-28T00:00:18Z"
+    },
+    {
+      "name": "Kaedim",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=z27HM89qojY",
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "status": "retry",
+      "error": "Evidence quote missing",
+      "lastSeenAt": "2026-10-28T00:00:18Z"
+    },
+    {
+      "name": "Hyper3D Rodin Gen-2.5",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
+    },
+    {
+      "name": "Claude Fable 5.5",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
+    },
+    {
+      "name": "ByteDance Seed3D 2.0",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
+    },
+    {
+      "name": "Krea 3D",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
+    },
+    {
+      "name": "Stability SPAR3D",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
+    },
+    {
+      "name": "CSM Cube",
+      "firstSeen": "2026-10-30T08:41:24.405Z",
+      "lastSeenAt": "2026-10-28T00:00:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GSKDV310iYY"
+      ]
     },
     {
       "name": "Topview T1",
@@ -32718,15 +32843,6 @@
       "lastSeenAt": "2026-10-10T10:03:04Z"
     },
     {
-      "name": "Sloyd",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=p_5Usk7ALT4",
-        "https://www.youtube.com/watch?v=p_I_N-83GAA"
-      ],
-      "firstSeen": "2026-09-29T11:23:53.895Z",
-      "lastSeenAt": "2026-10-10T10:03:04Z"
-    },
-    {
       "name": "Poxal3D",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=p_I_N-83GAA"
@@ -33253,32 +33369,6 @@
       ],
       "firstSeen": "2026-09-29T11:23:53.895Z",
       "lastSeenAt": "2026-09-29T01:23:32Z"
-    },
-    {
-      "name": "Hi3D V3.0",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=hk21B_dI-gA",
-        "https://www.youtube.com/watch?v=OvkxZS_bBXE",
-        "https://www.youtube.com/watch?v=W_9whxaNXdg",
-        "https://www.youtube.com/watch?v=NsT93NvHUgI"
-      ],
-      "firstSeen": "2026-09-13T09:08:03.910Z",
-      "lastAttemptAt": "2026-09-15T10:07:38.861Z",
-      "status": "retry",
-      "error": "Invalid evidence URL",
-      "lastSeenAt": "2026-09-28T18:17:53Z"
-    },
-    {
-      "name": "Meshy 7.1",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
-        "https://www.youtube.com/watch?v=p_5Usk7ALT4"
-      ],
-      "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-10-15T09:59:57.859Z",
-      "status": "retry",
-      "error": "Evidence quote missing",
-      "lastSeenAt": "2026-09-28T17:00:23Z"
     },
     {
       "name": "VARCO",
@@ -34336,28 +34426,6 @@
       "lastSeenAt": "2026-09-15T12:00:24Z"
     },
     {
-      "name": "3D AI Studio",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=z27HM89qojY"
-      ],
-      "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
-      "status": "retry",
-      "error": "Incomplete independent verification of new profile",
-      "lastSeenAt": "2026-09-14T16:54:30Z"
-    },
-    {
-      "name": "Kaedim",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=z27HM89qojY"
-      ],
-      "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
-      "status": "retry",
-      "error": "Evidence quote missing",
-      "lastSeenAt": "2026-09-14T16:54:30Z"
-    },
-    {
       "name": "Polycam",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=z27HM89qojY"
@@ -35219,7 +35287,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-30T08:38:30.727Z",
+    "calculatedAt": "2026-10-30T08:41:24.405Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -35229,62 +35297,62 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.32692323734399,
+      "elevenlabs": 1.3266591418049407,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.923337095264927,
+      "kling-3-0": 0.9231533248695978,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.0556997681545255,
+      "higgsfield": 6.054494511324606,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.9622949254541162,
+      "meshy-ai": 1.9619043728422343,
       "magnific-ai": 0,
-      "seedance-2-5": 5.4571565955514565,
+      "seedance-2-5": 5.456070465870239,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 2.6651874591340534,
-      "nano-banana-pro": 0.6357131862001189,
-      "nano-banana-2": 0.11239995899458075,
+      "wan-3-0": 2.6646570108768532,
+      "nano-banana-pro": 0.6355866611594342,
+      "nano-banana-2": 0.11237758819955325,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.1214331658734997,
+      "hunyuan3d": 1.1212099687147539,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.7916177036208899,
+      "luma-genie": 0.7914601491382529,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.6975718904583272,
+      "gemini-omni-flash": 0.6974330537726384,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-29T19:39:55.401Z",
-    "newsCheckedAt": "2026-10-29T19:37:18.896Z",
+    "startedAt": "2026-10-30T08:41:24.405Z",
+    "newsCheckedAt": "2026-10-30T08:38:30.727Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 338,
-    "completedAt": "2026-10-29T19:53:48.714Z",
+    "candidatesPending": 345,
+    "completedAt": "2026-10-30T08:45:48.817Z",
     "skipped": 0
   }
 }
