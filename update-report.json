@@ -1,43 +1,72 @@
 {
-  "startedAt": "2026-10-30T08:38:30.727Z",
+  "startedAt": "2026-10-30T19:20:09.843Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-30T08:38:30.727Z",
+      "checkedAt": "2026-10-30T19:20:09.843Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 138,
-    "relevant": 39,
-    "supported": 28
+    "fetched": 139,
+    "relevant": 50,
+    "supported": 33
   },
   "rejected": [
+    {
+      "video": "UutL3FK6Qxs",
+      "title": "He Didn't Even Do Anything!!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "HP4blC2mzT4",
+      "title": "This wasn't possible 5 months ago...",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "4C2e0oFgAkw",
+      "title": "The Final Boss of Green Screen.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
     {
       "video": "DZbCL56oz3M",
       "title": "Insane Interactive World Creator (Genie 4)",
@@ -55,13 +84,23 @@
       ]
     },
     {
+      "video": "EfyQOAJjx1A",
+      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        9,
+        11,
+        18
+      ]
+    },
+    {
       "video": "1Aqhg0FVm-w",
       "title": "Deepseek strikes again",
       "stage": "classification-evidence",
       "evidenceIds": [
-        7,
-        12,
-        16
+        9,
+        10,
+        12
       ]
     },
     {
@@ -84,12 +123,22 @@
     },
     {
       "video": "tSE4N1MIZIM",
-      "title": "Google Genie 4 is INSANE! (Full Breakdown)",
+      "title": "Google Genie 4 is WILD! (Full Breakdown)",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
         10,
-        14
+        12
+      ]
+    },
+    {
+      "video": "ZmSOFij8m-8",
+      "title": "The Gemini 4 Prompt Trick Nobody Uses",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
       ]
     },
     {
@@ -97,6 +146,7 @@
       "title": "Gemini 4 Just Did Something Wild #gemini",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         2
       ]
@@ -111,12 +161,11 @@
       ]
     },
     {
-      "video": "Gyp78v3FtRg",
-      "title": "AI Video Has Evolved",
+      "video": "8JmJkQPOMCA",
+      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2
+        1
       ]
     },
     {
@@ -124,8 +173,17 @@
       "title": "How to create 3D models with Hermes Agent.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        1,
+        2
+      ]
+    },
+    {
+      "video": "cL_xUg4dYRs",
+      "title": "Banks Restrict AI Agents as Microsoft Tests Diagnostic AI #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        7,
+        9
       ]
     },
     {
@@ -133,14 +191,8 @@
       "title": "Meet Microduck: A robot duck you can teach new tricks",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
       ]
-    },
-    {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "Q6xJOpTylco",
@@ -148,8 +200,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "a7W6M7sxP1E",
       "title": "Same prompt, two AI models. Which dance looks real?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1KxqLC7F0iE",
+      "title": "I was wrong about Augmented Reality",
       "stage": "insufficient-article-source"
     },
     {
@@ -163,18 +225,13 @@
       ]
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "8JmJkQPOMCA",
-      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
+      "video": "gGDnuHoQpn4",
+      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -183,13 +240,43 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QEooEa9GJI8",
+      "title": "Is AI Replacing Hollywood? 🎬🤖 #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "6Etlq5Xc-Iw",
+      "title": "AI Video Is Moving Beyond What Hollywood Thought Possible @HiggsfieldAI @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dIgtBDfnoio",
+      "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FiyUagHO37Y",
+      "title": "Old Phones Are Becoming Robots?!?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qP6pNpo1YHE",
+      "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "y7DR_5oW6-4",
       "title": "New Chatgpt ai Photo Prompt🔥👌 #chatgpt #aiphotoediting #ytshorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "T_8eaIIVKPA",
-      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
+      "video": "Eqhu_9QQdyU",
+      "title": "The hardest thing to prompt in AI video isn't motion…",
       "stage": "insufficient-article-source"
     },
     {
@@ -206,7 +293,12 @@
         11,
         20
       ]
+    },
+    {
+      "video": "T_8eaIIVKPA",
+      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7
+  "accepted": 4
 }
