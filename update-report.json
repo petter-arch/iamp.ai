@@ -1,68 +1,48 @@
 {
-  "startedAt": "2026-10-31T08:24:59.062Z",
+  "startedAt": "2026-10-31T18:33:01.225Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
+      "checkedAt": "2026-10-31T18:33:01.225Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
+      "checkedAt": "2026-10-31T18:33:01.225Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
-      "found": 2
+      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
+      "checkedAt": "2026-10-31T18:33:01.225Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
-      "found": 0
+      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "found": 1
     },
     "tech": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
+      "checkedAt": "2026-10-31T18:33:01.225Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-31T08:24:59.062Z",
+      "checkedAt": "2026-10-31T18:33:01.225Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 139,
-    "relevant": 48,
-    "supported": 37
+    "fetched": 137,
+    "relevant": 38,
+    "supported": 31
   },
   "rejected": [
-    {
-      "video": "UutL3FK6Qxs",
-      "title": "He Didn't Even Do Anything!!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
     {
       "video": "HP4blC2mzT4",
       "title": "This wasn't possible 5 months ago...",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "4C2e0oFgAkw",
-      "title": "The Final Boss of Green Screen.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
         2,
         3
       ]
@@ -78,13 +58,13 @@
       ]
     },
     {
-      "video": "EfyQOAJjx1A",
-      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "video": "1Aqhg0FVm-w",
+      "title": "Deepseek strikes again",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         9,
-        11,
-        18
+        10
       ]
     },
     {
@@ -92,7 +72,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -100,7 +81,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -110,16 +92,7 @@
       "evidenceIds": [
         1,
         10,
-        12
-      ]
-    },
-    {
-      "video": "cF67F-XpDOA",
-      "title": "Gemini 4 Just Did Something Wild #gemini",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
+        15
       ]
     },
     {
@@ -132,13 +105,14 @@
       ]
     },
     {
-      "video": "cUhyDq9HL_Q",
-      "title": "Meet Microduck: A robot duck you can teach new tricks",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "19ngvIWpK_U",
+      "title": "The NEW Lighting Workflow Changing Filmmaking (Full AI Tutorial)",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "pqFFpYYBD0Q",
@@ -146,8 +120,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "19ngvIWpK_U",
-      "title": "The NEW Lighting Workflow Changing Filmmaking (Full AI Tutorial)",
+      "video": "_9R7QOhJh-o",
+      "title": "Glasses That Make You Telepathic",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -161,8 +140,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
+      "video": "kJgYSiIZMb8",
+      "title": "Genie 4 Is the FUTURE of AI World Models!",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        10,
+        27
+      ]
+    },
+    {
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
     },
     {
@@ -171,43 +160,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "tDWtcyeNNew",
-      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+      "video": "Q4BWTmUXzd8",
+      "title": "Minecraft 3D Model Generator: AI Weeping Willow Tree in Blockbench",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4sGplZdBy6A",
-      "title": "When a humanoid and a drone become besties",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QEooEa9GJI8",
-      "title": "Is AI Replacing Hollywood? 🎬🤖 #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6Etlq5Xc-Iw",
-      "title": "AI Video Is Moving Beyond What Hollywood Thought Possible @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gGDnuHoQpn4",
-      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dIgtBDfnoio",
-      "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Eqhu_9QQdyU",
-      "title": "The hardest thing to prompt in AI video isn't motion…",
+      "video": "HvjSG43df4s",
+      "title": "AI Filmmaking Course 🤖🎬 | From Zero to Pro with MAAC! #Shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -220,13 +179,33 @@
       ]
     },
     {
-      "video": "qP6pNpo1YHE",
-      "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
+      "video": "6Etlq5Xc-Iw",
+      "title": "AI Video Is Moving Beyond What Hollywood Thought Possible @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
+      "video": "7D6Yypx_ev0",
+      "title": "Mirror Trending AI Photo Kaise Banaye 🔥 | AI Photo Editing Tutorial 2026",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "gGDnuHoQpn4",
+      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "71h7RG85-r0",
+      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QEooEa9GJI8",
+      "title": "Is AI Replacing Hollywood? 🎬🤖 #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "dIgtBDfnoio",
+      "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
       "stage": "insufficient-article-source"
     },
     {
@@ -235,15 +214,24 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "Eqhu_9QQdyU",
+      "title": "The hardest thing to prompt in AI video isn't motion…",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "qP6pNpo1YHE",
+      "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "kPnQYm2rW9Y",
       "title": "OMG 😳 Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai",
       "stage": "article-evidence",
       "evidenceIds": [
-        3,
-        11,
-        20
+        "3",
+        "5-20"
       ]
     }
   ],
-  "accepted": 6
+  "accepted": 0
 }
