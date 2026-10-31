@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-10-30T19:20:09.843Z",
+  "startedAt": "2026-10-31T08:24:59.062Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-30T19:20:09.843Z",
+      "checkedAt": "2026-10-31T08:24:59.062Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 139,
-    "relevant": 50,
-    "supported": 33
+    "relevant": 48,
+    "supported": 37
   },
   "rejected": [
     {
@@ -68,19 +68,13 @@
       ]
     },
     {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
+      "video": "0eIjJinYgmk",
+      "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "B8YFkYY20OY",
-      "title": "The Robot Butler Will Clean Up After You",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
+        0,
+        1,
+        2
       ]
     },
     {
@@ -94,22 +88,11 @@
       ]
     },
     {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        9,
-        10,
-        12
-      ]
-    },
-    {
       "video": "MUtEA8IqzxI",
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -117,8 +100,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -132,21 +114,10 @@
       ]
     },
     {
-      "video": "ZmSOFij8m-8",
-      "title": "The Gemini 4 Prompt Trick Nobody Uses",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
-      ]
-    },
-    {
       "video": "cF67F-XpDOA",
       "title": "Gemini 4 Just Did Something Wild #gemini",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         2
       ]
@@ -161,47 +132,27 @@
       ]
     },
     {
-      "video": "8JmJkQPOMCA",
-      "title": "Minecraft 3D Model Generator: AI-Made Dead Twisted Tree in Blockbench",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "Kq_fW78xaeI",
-      "title": "How to create 3D models with Hermes Agent.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "cL_xUg4dYRs",
-      "title": "Banks Restrict AI Agents as Microsoft Tests Diagnostic AI #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        7,
-        9
-      ]
-    },
-    {
       "video": "cUhyDq9HL_Q",
       "title": "Meet Microduck: A robot duck you can teach new tricks",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
+      "video": "pqFFpYYBD0Q",
+      "title": "Same 360 prompt, three AI video models #aivideo #seedance",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
+      "video": "19ngvIWpK_U",
+      "title": "The NEW Lighting Workflow Changing Filmmaking (Full AI Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
@@ -210,28 +161,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "1KxqLC7F0iE",
-      "title": "I was wrong about Augmented Reality",
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kJgYSiIZMb8",
-      "title": "Genie 4 Is the FUTURE of AI World Models!",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        18,
-        27
-      ]
     },
     {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gGDnuHoQpn4",
-      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -245,6 +181,11 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "4sGplZdBy6A",
+      "title": "When a humanoid and a drone become besties",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "QEooEa9GJI8",
       "title": "Is AI Replacing Hollywood? 🎬🤖 #Shorts",
       "stage": "insufficient-article-source"
@@ -255,23 +196,13 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "gGDnuHoQpn4",
+      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "dIgtBDfnoio",
       "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FiyUagHO37Y",
-      "title": "Old Phones Are Becoming Robots?!?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "qP6pNpo1YHE",
-      "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "y7DR_5oW6-4",
-      "title": "New Chatgpt ai Photo Prompt🔥👌 #chatgpt #aiphotoediting #ytshorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -280,8 +211,27 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Akehz1gYLxI",
-      "title": "This Is How AI Could Change the Future of Filmmaking 🔥 @HiggsfieldAI @20VC",
+      "video": "NaC640jy1Ec",
+      "title": "Hermes + Meshy: Create 3D models with AI instantly.",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "video": "qP6pNpo1YHE",
+      "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "y7DR_5oW6-4",
+      "title": "New Chatgpt ai Photo Prompt🔥👌 #chatgpt #aiphotoediting #ytshorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -293,12 +243,7 @@
         11,
         20
       ]
-    },
-    {
-      "video": "T_8eaIIVKPA",
-      "title": "Instagram trending Profile photo editing | New  photo editing | Profile photo editing",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 6
 }
