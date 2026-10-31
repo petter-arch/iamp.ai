@@ -31923,11 +31923,11 @@
         "https://www.youtube.com/watch?v=cm9GlStqHQk",
         "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
-      "lastAttemptAt": "2026-10-29T08:30:08.104Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-31T08:30:08.104Z"
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-04T18:35:06.151Z"
     },
     {
       "name": "Quad Remesher",
@@ -31970,19 +31970,6 @@
       "lastSeenAt": "2026-10-29T08:06:18Z",
       "attempts": 2,
       "nextAttemptAt": "2026-11-01T08:41:24.405Z"
-    },
-    {
-      "name": "Hunyuan",
-      "firstSeen": "2026-10-29T08:30:08.104Z",
-      "lastSeenAt": "2026-10-29T08:06:18Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=cm9GlStqHQk"
-      ],
-      "lastAttemptAt": "2026-10-31T08:27:56.674Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-02T08:27:56.674Z"
     },
     {
       "name": "Character Creator 5.2",
@@ -32037,17 +32024,30 @@
       "nextAttemptAt": "2026-11-01T19:22:44.765Z"
     },
     {
+      "name": "Hunyuan",
+      "firstSeen": "2026-10-29T08:30:08.104Z",
+      "lastSeenAt": "2026-10-29T08:06:18Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cm9GlStqHQk"
+      ],
+      "lastAttemptAt": "2026-10-31T08:27:56.674Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T08:27:56.674Z"
+    },
+    {
       "name": "picocli",
       "firstSeen": "2026-10-29T08:30:08.104Z",
       "lastSeenAt": "2026-10-28T22:26:14Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=QOzHgAVV5lc"
       ],
-      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
       "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Claude",
@@ -32078,11 +32078,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=MbJvMvNCW1k"
       ],
-      "lastAttemptAt": "2026-10-29T19:39:55.401Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
       "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-30T19:39:55.401Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Meshy 6",
@@ -32133,11 +32133,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=AtjFk9f44HE"
       ],
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
       "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T19:35:54.670Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Tripo AI",
@@ -32179,12 +32179,12 @@
         "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
       "firstSeen": "2026-09-16T09:59:51.512Z",
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
       "error": "Invalid model identity",
       "lastSeenAt": "2026-10-28T19:17:37Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T19:35:54.670Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Blender MCP",
@@ -32194,11 +32194,11 @@
         "https://www.youtube.com/watch?v=rKdMym6SnKM",
         "https://www.youtube.com/watch?v=GSKDV310iYY"
       ],
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T19:35:54.670Z"
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "OpenAI Codex",
@@ -32207,11 +32207,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=rKdMym6SnKM"
       ],
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T19:35:54.670Z"
+      "error": "Insufficient official evidence",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "MAI-Image 2.7",
@@ -32220,11 +32220,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=xU06N_IUX58"
       ],
-      "lastAttemptAt": "2026-10-28T19:35:54.670Z",
+      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-29T19:35:54.670Z"
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Blender",
@@ -36016,7 +36016,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-10-31T18:33:01.225Z",
+    "calculatedAt": "2026-10-31T18:35:06.151Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -36026,62 +36026,62 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.1536845243493912,
+      "elevenlabs": 1.1535193576498841,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.8027892553129765,
+      "kling-3-0": 0.8026743243687701,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.075880138566926,
+      "higgsfield": 6.0750102880593495,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.495866931479049,
+      "meshy-ai": 3.4953664473425263,
       "magnific-ai": 0,
-      "seedance-2-5": 4.744688263837225,
+      "seedance-2-5": 4.744008992785053,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 2.3172293916923308,
-      "nano-banana-pro": 0.5527165733504981,
-      "nano-banana-2": 0.09772539177858815,
+      "wan-3-0": 2.3168976466419737,
+      "nano-banana-pro": 0.5526374439435794,
+      "nano-banana-2": 0.09771140096907527,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.9750225575595993,
+      "hunyuan3d": 0.9748829689161026,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.6882667121697762,
+      "luma-genie": 0.6881681767913167,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.6064992095954161,
+      "gemini-omni-flash": 0.6064123804228059,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-10-31T08:27:56.674Z",
-    "newsCheckedAt": "2026-10-31T08:24:59.062Z",
+    "startedAt": "2026-10-31T18:35:06.151Z",
+    "newsCheckedAt": "2026-10-31T18:33:01.225Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
     "candidatesPending": 350,
-    "completedAt": "2026-10-31T08:40:23.389Z",
+    "completedAt": "2026-10-31T18:37:37.308Z",
     "skipped": 0
   }
 }
