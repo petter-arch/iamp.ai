@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-11-01T09:14:57.846Z",
+  "startedAt": "2026-11-01T18:54:42.991Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "checkedAt": "2026-11-01T18:54:42.991Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 139,
+    "fetched": 142,
     "relevant": 48,
-    "supported": 42
+    "supported": 40
   },
   "rejected": [
     {
@@ -46,6 +46,16 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "video": "EfyQOAJjx1A",
+      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        9,
+        18,
+        19
       ]
     },
     {
@@ -62,7 +72,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -85,6 +96,16 @@
       ]
     },
     {
+      "video": "NC4pPrUwZsU",
+      "title": "Больше не нужно моделировать здания? ИИ написал генератор для Blender!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        10,
+        11,
+        14
+      ]
+    },
+    {
       "video": "cUhyDq9HL_Q",
       "title": "Meet Microduck: A robot duck you can teach new tricks",
       "stage": "classification-evidence",
@@ -98,8 +119,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "19ngvIWpK_U",
       "title": "The NEW Lighting Workflow Changing Filmmaking (Full AI Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -128,13 +159,33 @@
       "stage": "article-evidence",
       "evidenceIds": [
         1,
-        10,
-        18
+        18,
+        27
       ]
     },
     {
       "video": "KZRUdQYU4dI",
       "title": "Claude video generator turns your single prompt into a stylized movie",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_9R7QOhJh-o",
+      "title": "Glasses That Make You Telepathic",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "JMjyRIGCcQU",
+      "title": "ai Gemini Prompt😱😇👇 CapCut Photo Editing Prompt #shorts #viralvideo #viralshorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "oaCznuISzJA",
+      "title": "Hollywood Is Panicking Over This New AI Video Model! 🎥 #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EYaulJSsWb0",
+      "title": "STOP Wasting AI Credits | Create Smarter with AICINES | AI Filmmaking",
       "stage": "insufficient-article-source"
     },
     {
@@ -146,33 +197,8 @@
       ]
     },
     {
-      "video": "71h7RG85-r0",
-      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JMjyRIGCcQU",
-      "title": "ai Gemini Prompt😱😇👇 CapCut Photo Editing Prompt #shorts #viralvideo #viralshorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "_9R7QOhJh-o",
-      "title": "Glasses That Make You Telepathic",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EYaulJSsWb0",
-      "title": "STOP Wasting AI Credits | Create Smarter with AICINES | AI Filmmaking",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "oaCznuISzJA",
-      "title": "Hollywood Is Panicking Over This New AI Video Model! 🎥 #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6Etlq5Xc-Iw",
-      "title": "AI Video Is Moving Beyond What Hollywood Thought Possible @HiggsfieldAI @20VC",
+      "video": "7D6Yypx_ev0",
+      "title": "Mirror Trending AI Photo Kaise Banaye 🔥 | AI Photo Editing Tutorial 2026",
       "stage": "insufficient-article-source"
     },
     {
@@ -186,13 +212,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "dIgtBDfnoio",
-      "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
+      "video": "6Etlq5Xc-Iw",
+      "title": "AI Video Is Moving Beyond What Hollywood Thought Possible @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "y7DR_5oW6-4",
-      "title": "New Chatgpt ai Photo Prompt🔥👌 #chatgpt #aiphotoediting #ytshorts",
+      "video": "71h7RG85-r0",
+      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
       "stage": "insufficient-article-source"
     },
     {
@@ -201,10 +227,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "kPnQYm2rW9Y",
-      "title": "OMG 😳 Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai",
+      "video": "dIgtBDfnoio",
+      "title": "New Aesthetic Ai photo📷 Editing Prompt🔥 #chatgpt #aiphotoediting #chatgpt",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }
