@@ -1,52 +1,43 @@
 {
-  "startedAt": "2026-10-31T18:33:01.225Z",
+  "startedAt": "2026-11-01T09:14:57.846Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
-      "found": 3
+      "checkedAt": "2026-11-01T09:14:57.846Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-10-31T18:33:01.225Z",
+      "checkedAt": "2026-11-01T09:14:57.846Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 137,
-    "relevant": 38,
-    "supported": 31
+    "fetched": 139,
+    "relevant": 48,
+    "supported": 42
   },
   "rejected": [
-    {
-      "video": "HP4blC2mzT4",
-      "title": "This wasn't possible 5 months ago...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
@@ -55,16 +46,6 @@
         0,
         1,
         2
-      ]
-    },
-    {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        9,
-        10
       ]
     },
     {
@@ -81,8 +62,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -92,21 +72,29 @@
       "evidenceIds": [
         1,
         10,
-        15
+        19
       ]
     },
     {
-      "video": "DWaHaHdiDAM",
-      "title": "ByteDance's New World Model Can Re-Shoot Scenes!",
+      "video": "ZmSOFij8m-8",
+      "title": "The Gemini 4 Prompt Trick Nobody Uses",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
+        1,
+        2
+      ]
+    },
+    {
+      "video": "cUhyDq9HL_Q",
+      "title": "Meet Microduck: A robot duck you can teach new tricks",
+      "stage": "classification-evidence",
+      "evidenceIds": [
         1
       ]
     },
     {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
       "stage": "insufficient-article-source"
     },
     {
@@ -120,8 +108,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_9R7QOhJh-o",
-      "title": "Glasses That Make You Telepathic",
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
@@ -130,13 +118,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "a7W6M7sxP1E",
-      "title": "Same prompt, two AI models. Which dance looks real?",
+      "video": "QwzgUvqpleg",
+      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
@@ -146,7 +129,7 @@
       "evidenceIds": [
         1,
         10,
-        27
+        18
       ]
     },
     {
@@ -155,28 +138,37 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QwzgUvqpleg",
-      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "Q4BWTmUXzd8",
       "title": "Minecraft 3D Model Generator: AI Weeping Willow Tree in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "HvjSG43df4s",
-      "title": "AI Filmmaking Course 🤖🎬 | From Zero to Pro with MAAC! #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "NaC640jy1Ec",
-      "title": "Hermes + Meshy: Create 3D models with AI instantly.",
       "stage": "article-evidence",
       "evidenceIds": [
-        2,
-        3
+        1
       ]
+    },
+    {
+      "video": "71h7RG85-r0",
+      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "JMjyRIGCcQU",
+      "title": "ai Gemini Prompt😱😇👇 CapCut Photo Editing Prompt #shorts #viralvideo #viralshorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "_9R7QOhJh-o",
+      "title": "Glasses That Make You Telepathic",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EYaulJSsWb0",
+      "title": "STOP Wasting AI Credits | Create Smarter with AICINES | AI Filmmaking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "oaCznuISzJA",
+      "title": "Hollywood Is Panicking Over This New AI Video Model! 🎥 #Shorts",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "6Etlq5Xc-Iw",
@@ -184,18 +176,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "7D6Yypx_ev0",
-      "title": "Mirror Trending AI Photo Kaise Banaye 🔥 | AI Photo Editing Tutorial 2026",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gGDnuHoQpn4",
-      "title": "Why AI Video Could Change the Entire Entertainment Industry @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "71h7RG85-r0",
-      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
+      "video": "HvjSG43df4s",
+      "title": "AI Filmmaking Course 🤖🎬 | From Zero to Pro with MAAC! #Shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -214,11 +196,6 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Eqhu_9QQdyU",
-      "title": "The hardest thing to prompt in AI video isn't motion…",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "qP6pNpo1YHE",
       "title": "New Trending InstagramPrompt for Girls photos#ai #ai #editing #viral #viral #intagram",
       "stage": "insufficient-article-source"
@@ -226,12 +203,8 @@
     {
       "video": "kPnQYm2rW9Y",
       "title": "OMG 😳 Aesthetic Photo Editing Prompt | New Trending Photo Editing | Chatgpt Photo Editing #ai",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "3",
-        "5-20"
-      ]
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 0
+  "accepted": 3
 }
