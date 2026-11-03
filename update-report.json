@@ -1,40 +1,49 @@
 {
-  "startedAt": "2026-11-02T22:46:07.695Z",
+  "startedAt": "2026-11-03T09:31:47.604Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "6Il7tudXo1E",
+      "message": "Missing translation"
+    },
+    {
+      "video": "5-Gq30_5d1M",
+      "message": "fetch failed"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 6
     },
     "3d": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-02T22:46:07.695Z",
+      "checkedAt": "2026-11-03T09:31:47.604Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 145,
-    "relevant": 57,
+    "fetched": 144,
+    "relevant": 55,
     "supported": 49
   },
   "rejected": [
@@ -44,17 +53,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
-      ]
-    },
-    {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        9,
-        10
+        1,
+        2
       ]
     },
     {
@@ -86,23 +86,12 @@
       ]
     },
     {
-      "video": "CWdTBLsbaQs",
-      "title": "OpenAI Claims It Just Did The Impossible",
+      "video": "ZmSOFij8m-8",
+      "title": "The Gemini 4 Prompt Trick Nobody Uses",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "Knz-TsqihMI",
-      "title": "Voice Isolation, Music Remixer, Speech Generator (the sound side) | Kinetic Logic",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        6,
-        7
+        1,
+        2
       ]
     },
     {
@@ -110,6 +99,7 @@
       "title": "Genie 4: A new generation of world simulation",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         3
       ]
@@ -120,13 +110,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pqFFpYYBD0Q",
-      "title": "Same 360 prompt, three AI video models #aivideo #seedance",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
+      "video": "DZbCL56oz3M",
+      "title": "Insane Interactive World Creator (Genie 4)",
       "stage": "insufficient-article-source"
     },
     {
@@ -135,13 +120,23 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "pqFFpYYBD0Q",
+      "title": "Same 360 prompt, three AI video models #aivideo #seedance",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "WutfuAvvXkA",
       "title": "Same lines, two AI models. Which performance is better?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QwzgUvqpleg",
-      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
@@ -150,8 +145,42 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
+      "video": "QwzgUvqpleg",
+      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "z9KqMYAETk0",
+      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "u1_hs6uFpoE",
+      "title": "15+ Trending Couples Photo Prompts ❤️ | AI Couple Photo Editing Prompts | Gemini Photo Editing 2026",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "kihyid0HhUc",
+      "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "43QraAPKXGU",
+      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "bgrvjCCaXzg",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Zw_aEnF1fbI",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -160,8 +189,23 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "6ceGo7ofKDI",
+      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "S8mGh2CbyRQ",
       "title": "What Happens When AI Video Becomes a Daily Tool? 👀 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "EmXY04Uu2hs",
+      "title": "The Next Generation of AI Could Change Advertising Forever 🎯 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "h5SNFLIZl_U",
+      "title": "Would you be excited to see this at Disneyland?",
       "stage": "insufficient-article-source"
     },
     {
@@ -175,43 +219,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "5-Gq30_5d1M",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "h5SNFLIZl_U",
-      "title": "Would you be excited to see this at Disneyland?",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "j9jcdlGGazo",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "oK7ugaMAsxA",
-      "title": "Kling 4.0 TUTORIAL | AI FILMMAKING WITH LARRY ULRICH",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "408976fEVYo",
-      "title": "20+ Diwali Girl Photo Prompts ✨ | New Diwali AI Photo Editing Prompts | Gemini AI Photo Editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tozlivuudw4",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "z9KqMYAETk0",
-      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6ceGo7ofKDI",
-      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
       "stage": "insufficient-article-source"
     },
     {
@@ -220,5 +229,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7
+  "accepted": 3
 }
