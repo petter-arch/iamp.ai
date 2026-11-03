@@ -1,52 +1,51 @@
 {
-  "startedAt": "2026-11-03T09:31:47.604Z",
+  "startedAt": "2026-11-03T20:59:54.180Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "6Il7tudXo1E",
-      "message": "Missing translation"
-    },
-    {
-      "video": "5-Gq30_5d1M",
-      "message": "fetch failed"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 6
     },
     "3d": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 144,
-    "relevant": 55,
-    "supported": 49
+    "fetched": 150,
+    "relevant": 48,
+    "supported": 39
   },
   "rejected": [
+    {
+      "video": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
@@ -58,12 +57,21 @@
       ]
     },
     {
+      "video": "1Aqhg0FVm-w",
+      "title": "Deepseek strikes again",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        9,
+        12
+      ]
+    },
+    {
       "video": "MUtEA8IqzxI",
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -71,8 +79,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -80,18 +87,26 @@
       "title": "Google Genie 4 is WILD! (Full Breakdown)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
-        10
+        10,
+        19
       ]
     },
     {
-      "video": "ZmSOFij8m-8",
-      "title": "The Gemini 4 Prompt Trick Nobody Uses",
+      "video": "JIS1Jnkh5Xk",
+      "title": "Kling 4.0 from Kuaishou makes up to 30 seconds of video in one generation, up to 4K with 10-bit HDR",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2
+        0,
+        1
+      ]
+    },
+    {
+      "video": "43QraAPKXGU",
+      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
       ]
     },
     {
@@ -99,39 +114,13 @@
       "title": "Genie 4: A new generation of world simulation",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         3
       ]
     },
     {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "DZbCL56oz3M",
-      "title": "Insane Interactive World Creator (Genie 4)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "lZes3U_WIug",
-      "title": "Generate Worlds in Real-Time (Free & Open Source)",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "pqFFpYYBD0Q",
       "title": "Same 360 prompt, three AI video models #aivideo #seedance",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -140,8 +129,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
       "stage": "insufficient-article-source"
     },
     {
@@ -150,8 +139,26 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "z9KqMYAETk0",
-      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Uxf0caRkh2c",
+      "title": "Minecraft 3D Model Generator: AI Great White Shark in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "_Whwv5v_6U0",
+      "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
     },
     {
@@ -160,18 +167,27 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "UR1ZdVEHFgA",
+      "title": "Minecraft 3D Model Generator: AI Giant Cave Spider in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "z9KqMYAETk0",
+      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "kihyid0HhUc",
       "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "43QraAPKXGU",
-      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "bgrvjCCaXzg",
@@ -189,13 +205,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "6ceGo7ofKDI",
-      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
+      "video": "S8mGh2CbyRQ",
+      "title": "What Happens When AI Video Becomes a Daily Tool? 👀 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "S8mGh2CbyRQ",
-      "title": "What Happens When AI Video Becomes a Daily Tool? 👀 @HiggsfieldAI  @20VC",
+      "video": "6ceGo7ofKDI",
+      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
       "stage": "insufficient-article-source"
     },
     {
@@ -204,18 +220,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "h5SNFLIZl_U",
-      "title": "Would you be excited to see this at Disneyland?",
+      "video": "5-Gq30_5d1M",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LXuAE-ykLdU",
-      "title": "What Happens When AI Video Gets Almost Too Real? 😳 @HiggsfieldAI  @20VC",
+      "video": "CacZzBaT1HY",
+      "title": "The AI Video Industry Has a Much Bigger Problem Than You Think ⚠️ @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "qxGJNY3RR6g",
-      "title": "Can AI Video Become a Business Worth Billions? 💰 @HiggsfieldAI  @20VC",
+      "video": "tozlivuudw4",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -224,10 +240,15 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "71h7RG85-r0",
-      "title": "How to Make Ai Voice Sounds Real | Ai Voice Editing Tutorial | Ai Voice Edit Kaise Kare",
-      "stage": "insufficient-article-source"
+      "video": "TQ-QtaaQQlY",
+      "title": "AI 601, Part 112: AI Music & Audio Generation",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        3,
+        4
+      ]
     }
   ],
-  "accepted": 3
+  "accepted": 2
 }

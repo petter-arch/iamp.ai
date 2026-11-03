@@ -1,8 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T09:31:47.604Z",
-  "newsCheckedAt": "2026-11-03T09:31:47.604Z",
+  "updatedAt": "2026-11-03T20:59:54.180Z",
+  "newsCheckedAt": "2026-11-03T20:59:54.180Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Nano Banana 2.1 is Google's newest AI image editing tool in the Gemini app — and its mask editing is the best part. Select one",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "Q8OfhRzl7o4",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Nano Banana 2.1 ger maskredigering i Google Gemini",
+      "sum": "PromptPulse beskriver Nano Banana 2.1 som Googles nya AI-bildredigeringsverktyg i Gemini-appen. Maskredigeringen låter användaren ändra en avgränsad del av ett foto medan resten bevaras, inklusive ansikten mellan redigeringar.",
+      "full": "PromptPulse beskriver Nano Banana 2.1 som Googles nyaste AI-bildredigeringsverktyg i Gemini-appen, med maskredigering som den centrala funktionen. Arbetsflödet bygger på att användaren väljer en specifik del av ett foto, till exempel bakgrunden, och sedan ändrar just det området.\n\nEnligt kanalens beskrivning ska resten av bilden förbli exakt som tidigare när den markerade delen redigeras. Beskrivningen framhåller också att ansikten bevaras mellan redigeringarna, vilket är relevant för arbetsflöden där motivets identitet behöver hållas konsekvent medan miljö eller andra bilddelar förändras.\n\nInformationen kommer från PromptPulse och bygger på videons publicerade titel och beskrivning. Några ytterligare funktioner, prestandamätningar eller oberoende testresultat anges inte.",
+      "deep": "Det konkreta användningsfallet som anges är selektiv redigering av ett foto: användaren markerar exempelvis bakgrunden och gör en ändring utan att påverka övriga delar. Kanalens beskrivning kopplar särskilt maskredigeringen till bevarandet av ansikten över flera redigeringar. Den anger däremot inte vilka bildformat, redigeringsinstruktioner eller andra verktyg som stöds, och innehåller inget produktlanseringsdatum.",
+      "en": {
+        "ttl": "Nano Banana 2.1 brings mask editing to Google Gemini",
+        "sum": "PromptPulse describes Nano Banana 2.1 as Google's new AI image editing tool in the Gemini app. Its mask editing lets users change a selected part of a photo while preserving the rest, including faces across edits.",
+        "full": "PromptPulse describes Nano Banana 2.1 as Google's newest AI image editing tool in the Gemini app, with mask editing as its central feature. The workflow lets users select a specific part of a photo, such as the background, and change only that area.\n\nAccording to the channel's description, the rest of the image remains exactly as before when the selected area is edited. The description also highlights that faces stay the same across edits, which is relevant when the subject's identity must remain consistent while the environment or other image elements change.\n\nThe information comes from PromptPulse and is based on the video's published title and description. No additional features, performance measurements or independent test results are provided.",
+        "deep": "The stated use case is selective photo editing: the user masks an area such as the background and changes it without affecting the remaining image. The channel specifically links mask editing to preserving faces across multiple edits. It does not state which image formats, editing instructions or other tools are supported, and it provides no product release date."
+      },
+      "cat": "foto",
+      "date": "2026-11-03T10:36:18Z",
+      "meta": "PromptPulse · 2026-11-03",
+      "url": "https://www.youtube.com/watch?v=Q8OfhRzl7o4",
+      "img": "https://i.ytimg.com/vi/Q8OfhRzl7o4/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "PromptPulse"
+      ],
+      "parts": [],
+      "views": 464,
+      "buzz": 52,
+      "sourceCheckedAt": "2026-11-03T20:59:54.180Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1cfca6b4304b23a67ac99426269e5b42deb51afea106ce170bf4cff38e35e9ad",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Nano Banana 2.1"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "After creating THE PROTOCOL, a 43-minute sci-fi movie told across 25 episodes, I learned three important AI filmmaking techniques for better character consistency and more",
@@ -656,6 +699,53 @@
       "newPlatforms": [
         "Bria Fibo 2.0",
         "Fibo Turbo"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Can AI agents replace dedicated AI 3D generation tools? In this video, I compare GPT-6 Astra with Tripo to explore their different approaches to creating",
+      "evidenceIds": [
+        1,
+        4,
+        6
+      ],
+      "id": "AGdW5B0qD7A",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "TeckLord AI jämför GPT-6 Astra och Tripo i ett AI-baserat arbetsflöde för 3D-modeller",
+      "sum": "TeckLord AI beskriver en praktisk jämförelse mellan GPT-6 Astra och Tripo för att skapa 3D-tillgångar, med fokus på en futuristisk robotvarelse, UV-uppackning, texturer och användbarhet i Blender och spelutveckling.",
+      "full": "TeckLord AI jämför GPT-6 Astra med Tripo för att undersöka om AI-agenter kan ersätta specialiserade verktyg för 3D-generering. Videon fokuserar på hur de två alternativen angriper skapandet av 3D-tillgångar och hur de passar in i ett praktiskt arbetsflöde.\n\nSom konkret exempel använder kanalen en futuristisk robotvarelse. Arbetsflödet omfattar inte bara generering av en modell, utan även utforskning av UV-uppackning, texturer och tillgångarnas användbarhet. Det gör jämförelsen relevant för 3D-konstnärer, Blender-användare och spelutvecklare som vill bedöma hur AI-genererade modeller kan integreras i fortsatt produktion.\n\nBeskrivningen lyfter särskilt fram Tripo Smart UV och automatisk UV-uppackning, samt Tripo P2.0 och dess arbetsflöde för 3D-tillgångar. Enligt TeckLord AI kan specialiserade AI-verktyg och AI-agenter fungera bäst tillsammans, snarare än att den ena kategorin helt ersätter den andra.\n\nVideon är sponsrad av Tripo. Uppgifterna bygger på kanalens beskrivning av jämförelsen och utgör inte ett oberoende testresultat.",
+      "deep": "Beskrivningen anger att jämförelsen omfattar AI-baserad 3D-modellgenerering och en praktisk genomgång av hur verktygen passar in i ett verkligt 3D-arbetsflöde. De nämnda momenten är generering av en futuristisk robotvarelse, arbete med UV, texturer och bedömning av hur användbara de skapade tillgångarna är.\n\nTripo Smart UV och automatisk UV-uppackning presenteras som centrala funktioner i Tripo-arbetsflödet. Beskrivningen nämner också Tripo P2.0, Blender och spelutveckling som sammanhang där de AI-genererade tillgångarna kan användas. Den specificerar däremot inte mätresultat, kvalitetsbetyg, kompatibilitetsdetaljer eller en oberoende metod för att verifiera skillnaderna mellan verktygen.\n\nKanalens huvudfråga är om AI-agenter kan ersätta dedikerade AI-verktyg för 3D-generering. Slutsatsen som anges i beskrivningen är mer nyanserad: AI-agenter och specialiserade AI-verktyg kan fungera bättre tillsammans.",
+      "en": {
+        "ttl": "TeckLord AI compares GPT-6 Astra and Tripo in an AI-based 3D modeling workflow",
+        "sum": "TeckLord AI describes a practical comparison of GPT-6 Astra and Tripo for creating 3D assets, focusing on a futuristic robotic creature, UV unwrapping, textures, and usability in Blender and game development.",
+        "full": "TeckLord AI compares GPT-6 Astra with Tripo to explore whether AI agents can replace dedicated AI 3D-generation tools. The video focuses on how the two options approach 3D asset creation and how they fit into a practical workflow.\n\nAs a concrete example, the channel uses a futuristic robotic creature. The workflow covers not only model generation but also exploration of UV unwrapping, textures, and asset usability. This makes the comparison relevant to 3D artists, Blender users, and game developers assessing how AI-generated models can be integrated into further production.\n\nThe description specifically highlights Tripo Smart UV and automatic UV unwrapping, as well as Tripo P2.0 and its 3D asset workflow. According to TeckLord AI, specialized AI tools and AI agents may work best together rather than one category completely replacing the other.\n\nThe video is sponsored by Tripo. The information is based on the channel’s description of the comparison and is not an independent test result.",
+        "deep": "The description states that the comparison covers AI-based 3D model generation and a practical review of how the tools fit into a real 3D workflow. The named steps are generating a futuristic robotic creature, working with UVs and textures, and assessing the usability of the resulting assets.\n\nTripo Smart UV and automatic UV unwrapping are presented as central features of the Tripo workflow. The description also mentions Tripo P2.0, Blender, and game development as contexts in which the AI-generated assets may be used. It does not specify measurement results, quality scores, compatibility details, or an independent method for verifying differences between the tools.\n\nThe channel’s central question is whether AI agents can replace dedicated AI tools for 3D generation. The description gives a more nuanced conclusion: AI agents and specialized AI tools may work better together."
+      },
+      "cat": "3d",
+      "date": "2026-11-01T17:01:11Z",
+      "meta": "TeckLord Ai · 2026-11-01",
+      "url": "https://www.youtube.com/watch?v=AGdW5B0qD7A",
+      "img": "https://i.ytimg.com/vi/AGdW5B0qD7A/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "TeckLord Ai"
+      ],
+      "parts": [],
+      "views": 1952,
+      "buzz": 59,
+      "sourceCheckedAt": "2026-11-03T20:59:54.180Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1903f0adda45281833db9a7bb2305fb3f5507aa8c2226e7c8d2d5bae71a32c2e",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "GPT-6 Astra",
+        "Tripo",
+        "Tripo Smart UV",
+        "Tripo P2.0"
       ]
     },
     {
@@ -36928,7 +37018,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7190000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -36946,7 +37036,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -36964,7 +37054,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -36982,7 +37072,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -37000,7 +37090,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6060000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -37018,7 +37108,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -37036,7 +37126,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 623000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -37054,7 +37144,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -37072,7 +37162,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -37090,7 +37180,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -37108,7 +37198,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -37126,7 +37216,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -37144,7 +37234,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -37162,7 +37252,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -37180,7 +37270,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -37198,7 +37288,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -37216,7 +37306,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -37234,7 +37324,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -37252,7 +37342,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -37270,7 +37360,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -37288,7 +37378,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -37306,7 +37396,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -37324,7 +37414,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 772000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -37342,7 +37432,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 279000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -37360,7 +37450,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 766000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -37378,7 +37468,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -37396,7 +37486,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 343000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -37413,8 +37503,8 @@
       "av": "🎬",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 198000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "subscriberCount": 199000,
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -37432,7 +37522,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 493000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -37450,7 +37540,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 457000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -37468,7 +37558,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -37486,7 +37576,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -37504,7 +37594,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -37522,7 +37612,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -37540,7 +37630,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -37548,36 +37638,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 6
     },
     "3d": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-03T09:31:47.604Z",
+      "checkedAt": "2026-11-03T20:59:54.180Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-03T09:34:33.539Z",
+    "calculatedAt": "2026-11-03T20:59:54.180Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -37587,48 +37677,48 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.4997663197552298,
+      "elevenlabs": 1.4307258474452487,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.6189696502455464,
+      "kling-3-0": 0.5904759066298939,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.10587528629098,
+      "higgsfield": 4.870830641883364,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.5753729683785096,
+      "meshy-ai": 3.410783701924335,
       "magnific-ai": 0,
-      "seedance-2-5": 4.427961166804866,
+      "seedance-2-5": 4.224123724731655,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.7866390919187454,
-      "nano-banana-pro": 0.42615765199584965,
-      "nano-banana-2": 0.07534860633594223,
+      "wan-3-0": 1.704392674507747,
+      "nano-banana-pro": 0.40653984541841715,
+      "nano-banana-2": 0.0718799970594109,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7517656314407175,
+      "hunyuan3d": 0.7171587373016701,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.5306700398491149,
+      "luma-genie": 0.506241094013127,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.46762534644427856,
+      "gemini-omni-flash": 0.4460986096737792,
       "luma-agents": 0
     }
   },
