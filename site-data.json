@@ -33182,6 +33182,29 @@
   ],
   "candidates": [
     {
+      "name": "Nano Banana 2.1",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tOKIC-UPpPk",
+        "https://www.youtube.com/watch?v=Es4Mq43GJnM",
+        "https://www.youtube.com/watch?v=GKiJluNLVac",
+        "https://www.youtube.com/watch?v=wY_1221fKF8",
+        "https://www.youtube.com/watch?v=QLv4WCKVqd0",
+        "https://www.youtube.com/watch?v=Yo-GFKga2_w",
+        "https://www.youtube.com/watch?v=2zBvyF4IExY",
+        "https://www.youtube.com/watch?v=415bddFocM0",
+        "https://www.youtube.com/watch?v=S8rxk1Jhb0U",
+        "https://www.youtube.com/watch?v=Ar8yKK2liUw",
+        "https://www.youtube.com/watch?v=Q8OfhRzl7o4"
+      ],
+      "firstSeen": "2026-10-08T12:04:24.980Z",
+      "lastSeenAt": "2026-11-03T10:36:18Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-04T21:02:34.727Z"
+    },
+    {
       "name": "Meshy 7",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=W7q4-rm6GWk",
@@ -33210,7 +33233,8 @@
         "https://www.youtube.com/watch?v=LGziF6d7Nj4",
         "https://www.youtube.com/watch?v=cm9GlStqHQk",
         "https://www.youtube.com/watch?v=GSKDV310iYY",
-        "https://www.youtube.com/watch?v=NW7zLvKWkUw"
+        "https://www.youtube.com/watch?v=NW7zLvKWkUw",
+        "https://www.youtube.com/watch?v=AGdW5B0qD7A"
       ],
       "lastAttemptAt": "2026-11-02T22:49:34.159Z",
       "status": "retry",
@@ -33408,6 +33432,19 @@
       "nextAttemptAt": "2026-11-04T09:34:33.539Z"
     },
     {
+      "name": "Fibo Turbo",
+      "firstSeen": "2026-11-02T09:33:01.809Z",
+      "lastSeenAt": "2026-11-01T19:01:53Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=1iP5gt3o7gM"
+      ],
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
+    },
+    {
       "name": "Bria Fibo 2.0",
       "firstSeen": "2026-11-02T09:33:01.809Z",
       "lastSeenAt": "2026-11-01T19:01:53Z",
@@ -33421,17 +33458,53 @@
       "nextAttemptAt": "2026-11-05T09:34:33.539Z"
     },
     {
-      "name": "Fibo Turbo",
-      "firstSeen": "2026-11-02T09:33:01.809Z",
-      "lastSeenAt": "2026-11-01T19:01:53Z",
+      "name": "GPT-6 Astra",
       "sourceVideos": [
-        "https://www.youtube.com/watch?v=1iP5gt3o7gM"
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0",
+        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
+        "https://www.youtube.com/watch?v=rKdMym6SnKM",
+        "https://www.youtube.com/watch?v=Tp0peIkba5M",
+        "https://www.youtube.com/watch?v=GSKDV310iYY",
+        "https://www.youtube.com/watch?v=AGdW5B0qD7A"
       ],
-      "lastAttemptAt": "2026-11-02T09:33:01.809Z",
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-01T17:01:11Z",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-07T21:02:34.727Z"
+    },
+    {
+      "name": "Tripo Smart UV",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=AGdW5B0qD7A"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-01T17:01:11Z",
       "attempts": 1,
-      "nextAttemptAt": "2026-11-03T09:33:01.809Z"
+      "nextAttemptAt": "2026-11-04T21:02:34.727Z"
+    },
+    {
+      "name": "Tripo P2.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=mYNbxioF6I8",
+        "https://www.youtube.com/watch?v=AGdW5B0qD7A"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "lastSeenAt": "2026-11-01T17:01:11Z",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-04T21:02:34.727Z"
     },
     {
       "name": "Promy AI",
@@ -33440,11 +33513,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=5a6EdZ77uek"
       ],
-      "lastAttemptAt": "2026-11-01T18:57:31.442Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-02T18:57:31.442Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
     },
     {
       "name": "Minecraft 3D Model Generator",
@@ -33453,11 +33526,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=hwTLPU286Ag"
       ],
-      "lastAttemptAt": "2026-11-01T18:57:31.442Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
       "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-02T18:57:31.442Z"
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
     },
     {
       "name": "Kling 4.0",
@@ -33489,11 +33562,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=HV8q7t7Tqck"
       ],
-      "lastAttemptAt": "2026-11-01T18:57:31.442Z",
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-02T18:57:31.442Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
     },
     {
       "name": "Tripo H3.1",
@@ -33896,26 +33969,6 @@
       "lastSeenAt": "2026-10-28T19:17:37Z",
       "attempts": 3,
       "nextAttemptAt": "2026-11-01T19:35:54.670Z"
-    },
-    {
-      "name": "GPT-6 Astra",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
-        "https://www.youtube.com/watch?v=W_9whxaNXdg",
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
-        "https://www.youtube.com/watch?v=_cbq1SJ_vP0",
-        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
-        "https://www.youtube.com/watch?v=rKdMym6SnKM",
-        "https://www.youtube.com/watch?v=Tp0peIkba5M",
-        "https://www.youtube.com/watch?v=GSKDV310iYY"
-      ],
-      "firstSeen": "2026-09-16T09:59:51.512Z",
-      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-10-28T19:17:37Z",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
     },
     {
       "name": "Blender MCP",
@@ -34824,23 +34877,6 @@
       "status": "retry",
       "error": "Evidence quote missing",
       "lastSeenAt": "2026-10-20T14:00:19Z"
-    },
-    {
-      "name": "Nano Banana 2.1",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=tOKIC-UPpPk",
-        "https://www.youtube.com/watch?v=Es4Mq43GJnM",
-        "https://www.youtube.com/watch?v=GKiJluNLVac",
-        "https://www.youtube.com/watch?v=wY_1221fKF8",
-        "https://www.youtube.com/watch?v=QLv4WCKVqd0",
-        "https://www.youtube.com/watch?v=Yo-GFKga2_w",
-        "https://www.youtube.com/watch?v=2zBvyF4IExY",
-        "https://www.youtube.com/watch?v=415bddFocM0",
-        "https://www.youtube.com/watch?v=S8rxk1Jhb0U",
-        "https://www.youtube.com/watch?v=Ar8yKK2liUw"
-      ],
-      "firstSeen": "2026-10-08T12:04:24.980Z",
-      "lastSeenAt": "2026-10-20T13:30:11Z"
     },
     {
       "name": "FLUX.3 Image Klein",
@@ -36323,17 +36359,6 @@
       "lastSeenAt": "2026-09-22T09:57:25Z"
     },
     {
-      "name": "Tripo P2.0",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=mYNbxioF6I8"
-      ],
-      "firstSeen": "2026-09-22T10:02:19.819Z",
-      "lastAttemptAt": "2026-10-22T10:15:50.011Z",
-      "status": "retry",
-      "error": "Official source unavailable",
-      "lastSeenAt": "2026-09-22T05:04:47Z"
-    },
-    {
       "name": "Seed Audio 1.0",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=ky9Gj5N3wyQ"
@@ -36459,17 +36484,6 @@
       ],
       "firstSeen": "2026-09-19T09:34:19.351Z",
       "lastAttemptAt": "2026-10-07T11:49:27.031Z",
-      "status": "retry",
-      "error": "Invalid evidence URL",
-      "lastSeenAt": "2026-09-20T15:45:29Z"
-    },
-    {
-      "name": "Tripo Smart UV",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0"
-      ],
-      "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-10-14T10:16:43.140Z",
       "status": "retry",
       "error": "Invalid evidence URL",
       "lastSeenAt": "2026-09-20T15:45:29Z"
@@ -37667,7 +37681,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-03T20:59:54.180Z",
+    "calculatedAt": "2026-11-03T21:02:34.727Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -37677,62 +37691,62 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.4307258474452487,
+      "elevenlabs": 1.4304626192888124,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.5904759066298939,
+      "kling-3-0": 0.5903672695457174,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.870830641883364,
+      "higgsfield": 4.869934495516493,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.410783701924335,
+      "meshy-ai": 3.4101561782743883,
       "magnific-ai": 0,
-      "seedance-2-5": 4.224123724731655,
+      "seedance-2-5": 4.223346560956633,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.704392674507747,
-      "nano-banana-pro": 0.40653984541841715,
-      "nano-banana-2": 0.0718799970594109,
+      "wan-3-0": 1.7040790965135035,
+      "nano-banana-pro": 0.4064650493041101,
+      "nano-banana-2": 0.07186677241602839,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7171587373016701,
+      "hunyuan3d": 0.7170267928256342,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.506241094013127,
+      "luma-genie": 0.5061479546390621,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.4460986096737792,
+      "gemini-omni-flash": 0.44601653544913095,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-03T09:34:33.539Z",
-    "newsCheckedAt": "2026-11-03T09:31:47.604Z",
+    "startedAt": "2026-11-03T21:02:34.727Z",
+    "newsCheckedAt": "2026-11-03T20:59:54.180Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
     "candidatesPending": 364,
-    "completedAt": "2026-11-03T09:49:03.635Z",
+    "completedAt": "2026-11-03T21:06:07.078Z",
     "skipped": 0
   }
 }
