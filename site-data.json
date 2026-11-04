@@ -33301,6 +33301,33 @@
   ],
   "candidates": [
     {
+      "name": "Google Flow AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=tfMt8z0J8so",
+        "https://www.youtube.com/watch?v=d6gXBLExrF0"
+      ],
+      "firstSeen": "2026-09-22T10:02:19.819Z",
+      "lastSeenAt": "2026-11-04T08:21:11Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-05T09:13:41.490Z"
+    },
+    {
+      "name": "Blockora",
+      "firstSeen": "2026-11-04T09:13:41.490Z",
+      "lastSeenAt": "2026-11-04T08:17:56Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=CnxlwOst4e4"
+      ],
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-05T09:13:41.490Z"
+    },
+    {
       "name": "Nano Banana 2.1",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=tOKIC-UPpPk",
@@ -33370,12 +33397,12 @@
         "https://www.youtube.com/watch?v=NW7zLvKWkUw"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-11-02T22:49:34.159Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
-      "error": "Invalid model identity",
+      "error": "Incomplete independent verification",
       "lastSeenAt": "2026-11-02T19:38:46Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-03T22:49:34.159Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-06T09:13:41.490Z"
     },
     {
       "name": "Nano Banana",
@@ -33420,12 +33447,12 @@
         "https://www.youtube.com/watch?v=1yLAbK5F3E8"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-11-02T22:49:34.159Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
-      "error": "Invalid model identity",
+      "error": "Incomplete independent verification",
       "lastSeenAt": "2026-11-02T15:58:23Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-03T22:49:34.159Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-06T09:13:41.490Z"
     },
     {
       "name": "OpenArt",
@@ -33434,12 +33461,12 @@
         "https://www.youtube.com/watch?v=1yLAbK5F3E8"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-11-02T22:49:34.159Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
       "error": "Invalid model identity",
       "lastSeenAt": "2026-11-02T15:58:23Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-03T22:49:34.159Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-06T09:13:41.490Z"
     },
     {
       "name": "OpenAI Codex",
@@ -33551,19 +33578,6 @@
       "nextAttemptAt": "2026-11-04T09:34:33.539Z"
     },
     {
-      "name": "Fibo Turbo",
-      "firstSeen": "2026-11-02T09:33:01.809Z",
-      "lastSeenAt": "2026-11-01T19:01:53Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=1iP5gt3o7gM"
-      ],
-      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
-    },
-    {
       "name": "Bria Fibo 2.0",
       "firstSeen": "2026-11-02T09:33:01.809Z",
       "lastSeenAt": "2026-11-01T19:01:53Z",
@@ -33575,6 +33589,19 @@
       "error": "Invalid model identity",
       "attempts": 2,
       "nextAttemptAt": "2026-11-05T09:34:33.539Z"
+    },
+    {
+      "name": "Fibo Turbo",
+      "firstSeen": "2026-11-02T09:33:01.809Z",
+      "lastSeenAt": "2026-11-01T19:01:53Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=1iP5gt3o7gM"
+      ],
+      "lastAttemptAt": "2026-11-03T21:02:34.727Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-05T21:02:34.727Z"
     },
     {
       "name": "GPT-6 Astra",
@@ -33694,11 +33721,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=Amov9GJIJnw"
       ],
-      "lastAttemptAt": "2026-11-01T18:57:31.442Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-02T18:57:31.442Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-06T09:13:41.490Z"
     },
     {
       "name": "Ludo.ai",
@@ -33707,11 +33734,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=d2Zw04R63bE"
       ],
-      "lastAttemptAt": "2026-11-01T09:17:34.669Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-03T09:17:34.669Z"
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-08T09:13:41.490Z"
     },
     {
       "name": "Godot 4.7",
@@ -33720,11 +33747,11 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=d2Zw04R63bE"
       ],
-      "lastAttemptAt": "2026-11-01T09:17:34.669Z",
+      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
       "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-03T09:17:34.669Z"
+      "error": "Incomplete independent verification",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-08T09:13:41.490Z"
     },
     {
       "name": "Claude Opus 5.5",
@@ -36532,14 +36559,6 @@
       "lastSeenAt": "2026-09-21T12:15:30Z"
     },
     {
-      "name": "Google Flow AI",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=tfMt8z0J8so"
-      ],
-      "firstSeen": "2026-09-22T10:02:19.819Z",
-      "lastSeenAt": "2026-09-21T06:42:05Z"
-    },
-    {
       "name": "Runway AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=e-Hd2gESwK0"
@@ -37800,7 +37819,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-04T09:10:35.162Z",
+    "calculatedAt": "2026-11-04T09:13:41.490Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -37810,62 +37829,62 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.3606149595617132,
+      "elevenlabs": 1.3603244364598606,
       "elevenmusic": 0,
       "heygen": 0,
-      "kling-3-0": 0.5615403910231963,
+      "kling-3-0": 0.5614204890222158,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.632141824146155,
+      "higgsfield": 4.631152753578088,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 3.243642614659006,
+      "meshy-ai": 3.2429500211320206,
       "magnific-ai": 0,
-      "seedance-2-5": 4.017125951259069,
+      "seedance-2-5": 4.016268200957494,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.6208710942376283,
-      "nano-banana-pro": 0.3866178809321975,
-      "nano-banana-2": 0.06835760985720857,
+      "wan-3-0": 1.6205250003668445,
+      "nano-banana-pro": 0.3865353289763994,
+      "nano-banana-2": 0.06834301390946347,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6820152918152842,
+      "hunyuan3d": 0.6818696656065639,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.48143339752272657,
+      "luma-genie": 0.4813306002375719,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.42423811860647404,
+      "gemini-omni-flash": 0.4241475338504595,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-03T21:02:34.727Z",
-    "newsCheckedAt": "2026-11-03T20:59:54.180Z",
+    "startedAt": "2026-11-04T09:13:41.490Z",
+    "newsCheckedAt": "2026-11-04T09:10:35.162Z",
     "total": 49,
     "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 364,
-    "completedAt": "2026-11-03T21:06:07.078Z",
+    "candidatesPending": 365,
+    "completedAt": "2026-11-04T09:17:46.909Z",
     "skipped": 0
   }
 }
