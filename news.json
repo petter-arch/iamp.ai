@@ -1,6 +1,371 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Learn how to edit videos with Claude AI, work with Premiere Pro, and turn your footage into short-form content. In this guide, I walk through",
+    "evidenceIds": [
+      2,
+      3,
+      4
+    ],
+    "id": "ep4psgAFOqc",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Så använder Matt Wolfe Claude för videoredigering utan kod",
+    "sum": "Matt Wolfe beskriver ett arbetsflöde där Claude hjälper till att redigera befintligt videomaterial, arbeta tillsammans med Adobe Premiere Pro och omvandla längre videor till kortformat för Shorts och Reels. Fokus ligger på att minska repetitivt arbete utan att ge avkall på kreativ kontroll.",
+    "full": "I videon beskriver Matt Wolfe hur Claude kan användas som stöd i videoredigering utan att användaren behöver skriva kod. Enligt kanalens beskrivning utgår arbetsflödet från användarens eget videomaterial och kopplar Claude till Adobe Premiere Pro, med målet att göra redigeringsprocessen mer effektiv.\n\nEtt centralt användningsområde är att omvandla längre videor till kortare innehåll för Shorts och Reels. Beskrivningen anger att Claude hjälper till genom flera delar av processen, från befintliga videoklipp till färdiga kortformat. Det framgår däremot inte exakt vilka redigeringsåtgärder Claude utför automatiskt eller hur den tekniska kopplingen till Adobe Premiere Pro är konfigurerad.\n\nMatt Wolfe framhåller ett arbetsflöde där AI används för att minska repetitivt arbete samtidigt som skaparen behåller kontrollen över resultatets kreativa utformning. Kanalens beskrivning kontrasterar detta mot att fylla innehållsflöden med lågkvalitativt massproducerat AI-innehåll. Fokus ligger alltså på att använda AI som stöd för material som skaparen redan har spelat in.\n\nVideons tidsstämplar visar dessutom att arbetsflödet omfattar research av videoidéer, arbete från manus till AI-stödd videoredigering, konfigurering av Claude för videoredigering och anslutning av vidIQ till Claude. Det finns även avsnitt om att bygga Claude-funktioner för en kanal, en MotionBricks-demonstration samt att förfina redigeringen. Dessa delar visar att presentationen behandlar mer än en enskild redigeringsåtgärd, men beskrivningen ger inte tillräckligt underlag för att specificera varje steg eller resultat.",
+    "deep": "Kanalen beskriver Claude som ett lager ovanpå ett befintligt produktionsflöde snarare än som en ersättning för hela redigeringsprocessen. Adobe Premiere Pro nämns som den centrala redigeringsmiljön, medan Claude används för att hjälpa till med innehåll från användarens egna videor och för att skapa kortare versioner för Shorts och Reels.\n\nTidsstämplarna pekar på en bredare kanalprocess: idéresearch med vidIQ, övergången från manus till AI-stödd redigering, konfiguration av Claude, anslutning mellan vidIQ och Claude samt skapandet av särskilda Claude-funktioner för kanalen. Eftersom källmaterialet endast består av videotiteln och utgivarens beskrivning går det inte att fastställa exakt vilka funktioner som demonstreras, vilka filformat som används eller hur mycket av redigeringen som sker automatiskt.\n\nKanalens angivna mål är att göra användbart innehåll av redan inspelat material och samtidigt bevara kreativ kontroll. Beskrivningen innehåller inga oberoende testresultat, prestandamätningar eller uppgifter om en produktlansering.",
+    "en": {
+      "ttl": "How Matt Wolfe Uses Claude for Video Editing Without Code",
+      "sum": "Matt Wolfe describes a workflow in which Claude helps edit existing video footage, work alongside Adobe Premiere Pro, and turn longer videos into short-form content for Shorts and Reels. The focus is on reducing repetitive work while preserving creative control.",
+      "full": "In the video, Matt Wolfe describes how Claude can support video editing without requiring the user to write code. According to the channel description, the workflow starts with the creator’s existing footage and connects Claude with Adobe Premiere Pro to make the editing process more efficient.\n\nA central use case is turning longer videos into shorter content for Shorts and Reels. The description says Claude assists across several parts of the process, from existing footage to short-form output. It does not specify exactly which editing actions Claude performs automatically or how the technical connection to Adobe Premiere Pro is configured.\n\nMatt Wolfe presents a workflow intended to reduce repetitive work while allowing the creator to retain creative control over the result. The channel description contrasts this approach with filling content feeds with low-quality, mass-produced AI material. The focus is therefore on using AI to support content based on footage the creator has already recorded.\n\nThe video timestamps also indicate that the workflow covers video-idea research, moving from a script to an AI-assisted video edit, setting up Claude for video editing, and connecting vidIQ to Claude. Additional sections cover building Claude skills for a channel, a MotionBricks demonstration, and refining the edit. These sections suggest a broader production workflow, but the description does not provide enough detail to specify each step or its outcome.",
+      "deep": "The channel presents Claude as a layer within an existing production workflow rather than a replacement for the entire editing process. Adobe Premiere Pro is identified as the main editing environment, while Claude is used to help process the creator’s own videos and produce shorter versions for Shorts and Reels.\n\nThe timestamps point to a broader channel workflow involving video-idea research with vidIQ, the transition from script to AI-assisted editing, Claude setup, connecting vidIQ with Claude, and building channel-specific Claude skills. Because the available source consists only of the video title and publisher description, the exact demonstrated features, file formats, and degree of automation cannot be established.\n\nThe stated goal is to create useful content from previously recorded material while preserving creative control. The source includes no independent test results, performance measurements, or product-release information."
+    },
+    "cat": "film",
+    "date": "2026-11-04T16:40:16Z",
+    "meta": "Matt Wolfe · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=ep4psgAFOqc",
+    "img": "https://i.ytimg.com/vi/ep4psgAFOqc/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Matt Wolfe"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Editing Videos With Claude"
+      },
+      {
+        "t": 149,
+        "l": "Researching Video Ideas With vidIQ"
+      },
+      {
+        "t": 251,
+        "l": "From Script to AI Video Edit"
+      },
+      {
+        "t": 435,
+        "l": "Setting Up Claude for Video Editing"
+      },
+      {
+        "t": 561,
+        "l": "Connecting vidIQ to Claude"
+      },
+      {
+        "t": 655,
+        "l": "Building Claude Skills for Your Channel"
+      },
+      {
+        "t": 1058,
+        "l": "MotionBricks Demo"
+      },
+      {
+        "t": 1262,
+        "l": "Refining the Edit and What’s Next"
+      }
+    ],
+    "views": 7762,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "5a2cc4eabcf5cd64ec3ff4f4cb38cfac0d3df7c95dde39e406a2cc0078b32461",
+    "trusted": true,
+    "sourceId": "mreflow",
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, I’m reviewing Tripo AI to see how easily it can turn text prompts and images into detailed 3D models using artificial intelligence.",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "sfhjF2XPw4s",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Tripo AI omvandlar text och bilder till 3D-modeller med AI",
+    "sum": "Amitesh Tutorials granskar Tripo AI:s AI-baserade arbetsflöde för att skapa detaljerade 3D-modeller från textuppmaningar och bilder. Beskrivningen lyfter modellkvalitet, anpassningsmöjligheter, genereringshastighet och användning för bland andra designers, spelutvecklare och 3D-konstnärer.",
+    "full": "Amitesh Tutorials granskar Tripo AI som ett verktyg för AI-generering av 3D-modeller. Enligt kanalens beskrivning kan tjänsten omvandla både textuppmaningar och bilder till detaljerade 3D-modeller, vilket placerar bild-till-3D och text-till-3D i centrum för arbetsflödet.\n\nVideon fokuserar på Tripo AI:s funktioner för 3D-generering, modellkvalitet och anpassning. Kanalen undersöker också hur arbetsflödet fungerar i praktiken, hur snabbt modellerna genereras och hur den övergripande användarupplevelsen ser ut.\n\nDe angivna målgrupperna är designers, spelutvecklare, 3D-konstnärer och andra innehållsskapare. Det gör verktyget relevant för kreativa projekt där en första 3D-modell kan skapas från en beskrivning eller en bild, även om videobeskrivningen inte anger exakt vilka anpassningsfunktioner eller modellformat som stöds.\n\nAmitesh Tutorials framhåller samtidigt att AI-genererade 3D-modeller kan behöva ytterligare redigering och optimering före professionell användning. Funktioner, priser och tillgänglighet kan dessutom förändras över tid, enligt kanalens ansvarsfriskrivning. Artikeln återger kanalens planerade genomgång och är inte ett självständigt test av Tripo AI.",
+    "deep": "Beskrivningen specificerar inte någon enskild modellversion, lanseringsdag eller resultatmätning. Den anger endast att videon ska gå igenom generering från text och bilder, modellkvalitet, anpassningsmöjligheter, hastighet och användbarhet för professionella och kreativa projekt. Därför går det inte att fastställa faktisk kvalitet, exakta tidsvinster eller vilka projekt som kan slutföras utan efterbearbetning.",
+    "en": {
+      "ttl": "Tripo AI turns text and images into 3D models with AI",
+      "sum": "Amitesh Tutorials reviews Tripo AI’s AI-based workflow for creating detailed 3D models from text prompts and images. The description highlights model quality, customization options, generation speed and use cases for designers, game developers and 3D artists.",
+      "full": "Amitesh Tutorials reviews Tripo AI as an AI tool for generating 3D models. According to the channel’s description, the service can turn both text prompts and images into detailed 3D models, placing image-to-3D and text-to-3D workflows at the center of the video.\n\nThe video focuses on Tripo AI’s 3D-generation features, model quality and customization. The channel also examines how the workflow operates, how quickly models are generated and what the overall user experience is like.\n\nThe stated audiences include designers, game developers, 3D artists and other content creators. This makes the tool relevant to creative projects where an initial 3D model can be created from a description or an image, although the description does not specify which customization functions or model formats are supported.\n\nAmitesh Tutorials also notes that AI-generated 3D models may require additional editing and optimization before professional use. Features, pricing and availability may change over time, according to the video disclaimer. This article reports the channel’s planned review and is not an independent test of Tripo AI.",
+      "deep": "The description does not specify an individual model version, launch date or measured results. It only states that the video will cover generation from text and images, model quality, customization options, speed and usefulness for professional and creative projects. Actual quality, exact time savings and which projects can be completed without further editing therefore cannot be established."
+    },
+    "cat": "3d",
+    "date": "2026-11-04T16:15:32Z",
+    "meta": "Amitesh Tutorials · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=sfhjF2XPw4s",
+    "img": "https://i.ytimg.com/vi/sfhjF2XPw4s/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Amitesh Tutorials"
+    ],
+    "parts": [],
+    "views": 1,
+    "buzz": 24,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "3ee939333a7cc72656b0ea58ffe2af77f569bf290f6f9342275139a1513fdcb7",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo AI"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "The latest Enscape release introduces new ways to find and create 3D assets, explore design ideas with AI, and collaborate with your team, all while",
+    "evidenceIds": [
+      2,
+      6,
+      7
+    ],
+    "id": "3UfLUGH0Atk",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Enscape 4.22 får AI för 3D-skapande och asset-sökning",
+    "sum": "Chaos Enscape beskriver Enscape 4.22 som en uppdatering med AI-baserad sökning efter 3D-assets, generering av anpassade 3D-modeller från bilder och ett arbetsflöde där idéer, skisser och referensbilder kan omvandlas till redigerbara 3D-modeller.",
+    "full": "Chaos Enscape presenterar Enscape 4.22 som en uppdatering för Revit, SketchUp, Rhino, Archicad och Vectorworks, där CAD/BIM-modellen fortsatt står i centrum. Den huvudsakliga nyheten är ett mer AI-orienterat arbetsflöde för att hitta, skapa och utveckla 3D-innehåll utan att lämna designprocessen.\n\nI Chaos Cosmos kan användare söka efter möbler, vegetation och andra 3D-assets med Image-Based Search. I stället för att enbart använda sökord kan en referensbild användas för att hitta visuellt relevanta assets. Beskrivningen lyfter även fram AI 3D Model Generation (Beta), som kan skapa anpassade 3D-modeller från bilder.\n\nVideon från Chaos Enscape visar dessutom hur Veras och Astra GPT kan användas för att föra en första idé, skiss eller referensbild vidare till en redigerbar 3D-modell. Modellen kan sedan utvecklas i användarens CAD/BIM-applikation och visualiseras i Enscape. Det gör arbetsflödet relevant för arkitekter och designers som vill gå från inspiration till ett bearbetningsbart designunderlag.\n\nDen förbättrade integrationen mellan Enscape och Veras 2.0 ska enligt beskrivningen ge möjlighet att prova material, stilar och designvariationer. Enscape 4.22 innehåller också Chaos AI Assistant (Beta), som kan ge vägledning i arbetsflöden, rekommendera assets och föreslå förbättringar av scener. För samarbete och återkoppling nämns Chaos Cloud, uppladdningshantering och PDF-stöd för att tillföra mer sammanhang i designgranskningar.",
+    "deep": "Chaos Enscape beskriver uppdateringen som ett sammanhållet AI-arbetsflöde snarare än en fristående modellgenerator. Image-Based Search i Chaos Cosmos riktar sig till det praktiska problemet att hitta rätt innehåll snabbare, medan AI 3D Model Generation (Beta) är avsett för anpassade modeller som inte redan finns bland tillgängliga assets.\n\nAstra-delen fokuserar på fortsatt redigering. En initial idé, skiss eller referensbild kan enligt kanalens beskrivning användas som utgångspunkt för en redigerbar 3D-modell, som sedan kan utvecklas vidare i Revit, SketchUp, Rhino, Archicad eller Vectorworks och visualiseras i Enscape. Beskrivningen anger inte modellkvalitet, stödda bildformat, beräkningskrav eller begränsningar för betafunktionerna.\n\nVeras och Astra GPT kopplas även till utforskning av designalternativ, medan Enscape–Veras 2.0-integrationen nämns för material, stilar och variationer. Chaos AI Assistant (Beta) kompletterar detta med workflow-vägledning, asset-rekommendationer och scenförslag. Chaos Cloud och PDF-stödet gäller den efterföljande samarbets- och granskningsdelen, inte själva AI-genereringen.",
+    "en": {
+      "ttl": "Enscape 4.22 adds AI 3D creation and asset search",
+      "sum": "Chaos Enscape describes Enscape 4.22 as an update with AI-based 3D asset search, custom 3D model generation from images, and a workflow that can turn ideas, sketches, and reference images into editable 3D models.",
+      "full": "Chaos Enscape presents Enscape 4.22 as an update for Revit, SketchUp, Rhino, Archicad, and Vectorworks, with the CAD/BIM model remaining at the center of the workflow. The main development is a more AI-oriented process for finding, creating, and developing 3D content without leaving the design process.\n\nIn Chaos Cosmos, users can search for furniture, vegetation, and other 3D assets with Image-Based Search. Instead of relying only on keywords, a reference image can be used to find visually relevant assets. The description also highlights AI 3D Model Generation (Beta), which can create custom 3D models from images.\n\nThe video from Chaos Enscape also shows how Veras and Astra GPT can take an initial idea, sketch, or reference image and turn it into an editable 3D model. The model can then be developed in the user’s CAD/BIM application and visualized in Enscape. This makes the workflow relevant to architects and designers who want to move from inspiration to a workable design asset.\n\nThe improved Enscape–Veras 2.0 integration is described as enabling experiments with materials, styles, and design variations. Enscape 4.22 also includes Chaos AI Assistant (Beta), which can provide workflow guidance, recommend assets, and suggest scene improvements. For collaboration and feedback, the description mentions Chaos Cloud, upload management, and PDF support for adding context to design reviews.",
+      "deep": "Chaos Enscape describes the update as an integrated AI workflow rather than a standalone model generator. Image-Based Search in Chaos Cosmos addresses the practical task of finding suitable content faster, while AI 3D Model Generation (Beta) is intended for custom models that may not already be available among the assets.\n\nThe Astra component focuses on continued editing. According to the channel’s description, an initial idea, sketch, or reference image can serve as the starting point for an editable 3D model, which can then be developed in Revit, SketchUp, Rhino, Archicad, or Vectorworks and visualized in Enscape. The description does not specify model quality, supported image formats, computing requirements, or limitations of the beta features.\n\nVeras and Astra GPT are also connected to exploring design alternatives, while the Enscape–Veras 2.0 integration is mentioned for materials, styles, and variations. Chaos AI Assistant (Beta) adds workflow guidance, asset recommendations, and scene suggestions. Chaos Cloud and PDF support apply to the subsequent collaboration and review process, not to the AI generation itself."
+    },
+    "cat": "3d",
+    "date": "2026-11-04T15:12:42Z",
+    "meta": "Chaos Enscape · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=3UfLUGH0Atk",
+    "img": "https://i.ytimg.com/vi/3UfLUGH0Atk/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Chaos Enscape"
+    ],
+    "parts": [],
+    "views": 1137,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "b27a1211de634f74d5e37f15ceae0229c53fd076ecf5e1edcd3d2ddcc1c1cdc7",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Enscape 4.22",
+      "Chaos Cosmos",
+      "Veras 2.0",
+      "Astra GPT"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "🔥 มาแล้ว! P H3 Image & Edit โมเดล AI สำหรับสร้างและแก้ไขภาพบน ComfyUI ที่น่าสนใจอีกหนึ่งตัว พร้อมทดลองสร้างภาพและเปรียบเทียบคุณภาพกับโมเดลยอดนิยมอย่าง Qwen Image 2.1 และ MOSS Image แบบจัดเต็ม! คลิปนี้เราจะมาทดลองใช้งาน P H3 Image &",
+    "evidenceIds": [
+      2,
+      3,
+      10
+    ],
+    "id": "oqO69skQlsU",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "P-H3 Image & Edit ger bildskapande och bildredigering i ComfyUI",
+    "sum": "Kanalen Ton Like IT presenterar P-H3 Image & Edit som en AI-modell för att skapa och redigera bilder i ComfyUI. Videon provar bildkvalitet, skärpa, genereringshastighet och promptbaserat bildskapande samt jämför resultaten med Qwen Image 2.1 och MOSS Image.",
+    "full": "Ton Like IT presenterar P-H3 Image & Edit som ett nytt alternativ för AI-bildskapande och bildredigering i ComfyUI. Enligt kanalens beskrivning används modellen för att skapa bilder från textpromptar och för att redigera bilder, med fokus på bildkvalitet, skärpa och genereringshastighet.\n\nVideon innehåller praktiska tester av hur P-H3 Image & Edit fungerar i ComfyUI. Kanalen uppger att den granskar kvaliteten på de genererade bilderna, hur snabbt bilderna skapas och modellens förmåga att skapa bilder utifrån promptar. Resultaten jämförs med Qwen Image 2.1 och MOSS Image.\n\nBeskrivningen anger också ett arbetsflöde för ComfyUI. P-H3-Image & Edit använder samma modell för funktionerna, och arbetsflödet kan även användas med Minimax H3 genom att välja den modellen. För installationen anges två textkodare, en VAE och stöd för Loras. Användare av RUNPOD kan enligt kanalen använda en Comfy-mall i Runpod och ladda ner komponenterna separat, eftersom modellen inte har någon Custom Model.\n\nMaterialet riktar sig främst till personer som redan använder ComfyUI eller vill arbeta lokalt med AI-baserad bildgenerering och bildredigering. Ton Like IT presenterar detta som en genomgång och jämförelse; artikeln gör ingen självständig bedömning av modellens prestanda.",
+    "deep": "Det beskrivna arbetsflödet består av flera komponenter: P-H3-Image & Edit-modellen, två textkodare, en VAE och Loras. Kanalens instruktioner hänvisar till separata modellfiler och till ett färdigt ComfyUI-arbetsflöde. Beskrivningen nämner även Minimax H3 som en modell som kan väljas i samma arbetsflöde.\n\nDen konkreta jämförelsen omfattar Qwen Image 2.1 och MOSS Image. De egenskaper som kanalen säger sig undersöka är bildens kvalitet och skärpa, tiden för generering samt hur modellen tolkar promptar vid text-till-bild-skapande. Beskrivningen innehåller däremot inga verifierade resultat, mätvärden eller uppgifter om systemkrav.",
+    "en": {
+      "ttl": "P-H3 Image & Edit brings image generation and editing to ComfyUI",
+      "sum": "The channel Ton Like IT presents P-H3 Image & Edit as an AI model for creating and editing images in ComfyUI. The video tests image quality, sharpness, generation speed and prompt-based image creation, while comparing the results with Qwen Image 2.1 and MOSS Image.",
+      "full": "Ton Like IT presents P-H3 Image & Edit as a new option for AI image generation and image editing in ComfyUI. According to the channel’s description, the model can create images from text prompts and edit images, with attention to image quality, sharpness and generation speed.\n\nThe video includes practical tests of P-H3 Image & Edit in ComfyUI. The channel says it examines the quality of the generated images, how quickly images are created and the model’s ability to generate images from prompts. The results are compared with Qwen Image 2.1 and MOSS Image.\n\nThe description also outlines a ComfyUI workflow. P-H3-Image & Edit uses the same model for its functions, and the workflow can also be used with Minimax H3 by selecting that model. The installation uses two text encoders, a VAE and support for Loras. For RUNPOD users, the channel says a Comfy template can be used in Runpod and the components downloaded separately because the model has no Custom Model.\n\nThe material is aimed mainly at people who already use ComfyUI or want to work locally with AI-based image generation and editing. Ton Like IT presents this as a walkthrough and comparison; this article makes no independent assessment of the model’s performance.",
+      "deep": "The described workflow consists of several components: the P-H3-Image & Edit model, two text encoders, a VAE and Loras. The channel’s instructions point to separate model files and a ready-made ComfyUI workflow. The description also mentions Minimax H3 as a model that can be selected in the same workflow.\n\nThe concrete comparison includes Qwen Image 2.1 and MOSS Image. The properties the channel says it examines are image quality and sharpness, generation time and how the model interprets prompts for text-to-image creation. The description does not provide verified results, measurements or system requirements."
+    },
+    "cat": "foto",
+    "date": "2026-11-04T14:35:52Z",
+    "meta": "Ton Like IT · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=oqO69skQlsU",
+    "img": "https://i.ytimg.com/vi/oqO69skQlsU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Ton Like IT"
+    ],
+    "parts": [],
+    "views": 850,
+    "buzz": 55,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "7a64383a0048708c909d4565fd68c1ee55a57d1b87a82ec8c84c5bf8fd5d3887",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "P-H3 Image & Edit",
+      "Qwen Image 2.1",
+      "MOSS Image",
+      "Minimax H3",
+      "ComfyUI"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Want to learn how to make AI videos from text prompts? In this tutorial, I'll show you how to create cinematic AI-generated videos using Google",
+    "evidenceIds": [
+      1,
+      4,
+      5
+    ],
+    "id": "DeAjrKu_AfU",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Cortexis_AI visar hur Google Flow gör textidéer till AI-video",
+    "sum": "I en ny genomgång visar Cortexis_AI hur Google Flow används för att omvandla textprompter till filmiska AI-genererade videoklipp, bygga flera scener och styra kamera samt visuella detaljer genom iterativ promptförfining.",
+    "full": "Cortexis_AI beskriver Google Flow som ett AI-verktyg för filmskapande som omvandlar skriftliga beskrivningar till realistiskt videoinnehåll. I genomgången visas ett arbetsflöde där en enkel idé först utvecklas till en detaljerad videoprompt och sedan används för att skapa filmiska scener från text.\n\nEn central del är att bygga flera AI-genererade scener för samma projekt. Kanalen går igenom hur olika prompter kan användas för att påverka kamerarörelser och visuella detaljer, samt hur resultatet kan förbättras genom att förfina instruktionerna efter den första genereringen. Målet är att skapa sammanhängande videosekvenser i Google Flow snarare än ett enstaka isolerat klipp.\n\nSom demonstration nämner Cortexis_AI en futuristisk stad, en actionfylld biljakt och en filmisk polissökning. Arbetsflödet riktar sig enligt beskrivningen till bland annat AI-filmskapande, YouTube-videor, kortfilmer och experiment med text-till-video-teknik. Kanalen framhåller också att verktyget kan användas för att snabbt prototypa koncept och skapa material för sociala medier utan avancerade kunskaper i videoredigering.\n\nGenomgången omfattar dessutom Google Flows gränssnitt och de inställningar som enligt kanalens beskrivning behövs för att skapa mer bearbetade klipp. Beskrivningen anger att tjänsten kan göra produktionsflödet smidigare, men innehåller ingen oberoende testning, kvalitetsmätning eller bekräftelse av ett produktlanseringsdatum.",
+    "deep": "Det beskrivna arbetsflödet börjar med att omformulera en grundidé till en mer detaljerad prompt. Därefter genereras en första scen, varefter prompten justeras för att förbättra resultatet. Kontroll över kamerarörelse och visuella detaljer anges som viktiga delar av processen, medan flera separata scener används för att bygga en längre kreativ sekvens.\n\nCortexis_AI kopplar användningen till både berättande och praktisk innehållsproduktion. Exemplen omfattar futuristiska miljöer, jaktsekvenser och en polissökning, medan de nämnda användningsområdena sträcker sig från kortfilmer och YouTube till produktannonser och sociala medier. Beskrivningen säger att Google Flow är tillgängligt för kostnadsfri provning där tjänsten är tillgänglig, men ger inga närmare uppgifter om villkor, modellversion, upplösning, klipplängd eller exportformat.",
+    "en": {
+      "ttl": "Cortexis_AI shows how Google Flow turns text ideas into AI video",
+      "sum": "In a new walkthrough, Cortexis_AI demonstrates how Google Flow can turn text prompts into cinematic AI-generated video clips, build multiple scenes, and control camera movement and visual details through iterative prompt refinement.",
+      "full": "Cortexis_AI describes Google Flow as an AI filmmaking tool that converts written descriptions into realistic video content. The walkthrough presents a workflow in which a simple idea is first developed into a detailed video prompt and then used to generate cinematic scenes from text.\n\nA central part of the process is creating multiple AI-generated scenes for one project. The channel explains how different prompts can influence camera movement and visual details, and how results can be improved by refining instructions after the first generation. The stated goal is to build connected video sequences in Google Flow rather than a single isolated clip.\n\nThe demonstration mentions a futuristic city, an action-packed chase scene, and a cinematic police search sequence. According to the description, the workflow is aimed at AI filmmaking, YouTube videos, short films, and experimentation with text-to-video technology. The channel also presents the tool as a way to prototype concepts quickly and create social media assets without advanced video-editing skills.\n\nThe walkthrough also covers the Google Flow interface and the settings that the channel says are needed to produce more polished clips. The description claims that the tool can streamline production, but it does not provide independent testing, performance measurements, or confirmation of a product release date.",
+      "deep": "The described workflow begins by turning a basic idea into a more detailed prompt. A first scene is then generated, after which the prompt is adjusted to improve the result. Control over camera movement and visual details is presented as an important part of the process, while multiple separate scenes are used to construct a longer creative sequence.\n\nCortexis_AI connects the workflow to both storytelling and practical content production. The examples include futuristic environments, chase sequences, and a police search, while the stated use cases range from short films and YouTube to product advertisements and social media. The description says that Google Flow is available for free trial where accessible, but provides no further information about terms, model version, resolution, clip length, or export format."
+    },
+    "cat": "film",
+    "date": "2026-11-04T12:25:07Z",
+    "meta": "Cortexis_AI · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=DeAjrKu_AfU",
+    "img": "https://i.ytimg.com/vi/DeAjrKu_AfU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Cortexis_AI"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Turning Concepts Into Cinematic AI Video"
+      },
+      {
+        "t": 54,
+        "l": "Mastering the Art of the AI Prompt"
+      },
+      {
+        "t": 156,
+        "l": "Refining Your First AI Generated Scene"
+      },
+      {
+        "t": 275,
+        "l": "Essential Tips for Better AI Storytelling"
+      }
+    ],
+    "views": 1,
+    "buzz": 24,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "6b052f08dc3292ab5958d46cff1c77e6f4c1d1ba39bfcf2884123698445c940b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Google Flow"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Discover Qwen Image 2.1 Multi-LoRAs, an exciting AI image generation demo available on Hugging Face. In this video, we explore how this AI tool can",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "u5Jsrij0NF4",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "Qwen Image 2.1 Multi-LoRAs visar AI-bildgenerering med flera LoRA-modeller",
+    "sum": "FutureTech AI beskriver Qwen Image 2.1 Multi-LoRAs som en AI-bildgenereringsdemo på Hugging Face för att experimentera med bildstilar, kreativa effekter, realistiska porträtt, konstnärliga karaktärer och digitala konstverk.",
+    "full": "FutureTech AI lyfter fram Qwen Image 2.1 Multi-LoRAs, en AI-bildgenereringsdemo som finns på Hugging Face. Videons huvudfokus är hur verktyget kan användas för att experimentera med flera LoRA-modeller i ett bildgenereringsarbetsflöde.\n\nEnligt kanalens beskrivning omfattar användningsområdena olika bildstilar och kreativa effekter samt skapande av realistiska porträtt, konstnärliga karaktärer och digitala konstverk. Beskrivningen kopplar också verktyget till text-till-bild-generering och AI-bildredigering.\n\nQwen Image 2.1 Multi-LoRAs presenteras därmed som en uppdatering av Qwen Image 2.1 med fokus på kombinationen av flera LoRA-modeller. FutureTech AI beskriver innehållet som en demo och handledning, men anger inga verifierade prestandamätningar, produktionsresultat eller oberoende testresultat.",
+    "deep": "Kanalens metadata nämner uttryckligen Qwen Image 2.1 Multi-LoRAs, Qwen Image 2.1, Hugging Face och flera LoRA-modeller. De angivna exemplen omfattar realistiska porträtt, konstnärliga karaktärer, kreativa effekter, olika stilar och digital konst. Beskrivningen innehåller däremot inga detaljer om modellens tekniska arkitektur, licens, maskinvarukrav, bildstorlekar, kvalitetsnivåer, begränsningar eller lanseringsdatum. Videons uppladdningsdatum används därför inte som produktens releasedatum.",
+    "en": {
+      "ttl": "Qwen Image 2.1 Multi-LoRAs showcases AI image generation with multiple LoRA models",
+      "sum": "FutureTech AI describes Qwen Image 2.1 Multi-LoRAs as an AI image-generation demo on Hugging Face for experimenting with image styles, creative effects, realistic portraits, artistic characters, and digital artwork.",
+      "full": "FutureTech AI highlights Qwen Image 2.1 Multi-LoRAs, an AI image-generation demo available on Hugging Face. The video focuses on how the tool can be used to experiment with multiple LoRA models within an image-generation workflow.\n\nAccording to the channel’s description, use cases include different image styles and creative effects, as well as the creation of realistic portraits, artistic characters, and digital artwork. The description also connects the tool with text-to-image generation and AI image editing.\n\nQwen Image 2.1 Multi-LoRAs is presented as an update to Qwen Image 2.1 centered on combining multiple LoRA models. FutureTech AI describes the content as a demo and tutorial, but provides no verified performance measurements, production results, or independent test findings.",
+      "deep": "The channel metadata explicitly mentions Qwen Image 2.1 Multi-LoRAs, Qwen Image 2.1, Hugging Face, and multiple LoRA models. The stated examples include realistic portraits, artistic characters, creative effects, different styles, and digital art. The description does not provide details about the model’s technical architecture, license, hardware requirements, image sizes, quality levels, limitations, or release date. The video upload date is therefore not treated as the product’s release date."
+    },
+    "cat": "foto",
+    "date": "2026-11-04T11:53:24Z",
+    "meta": "FutureTech AI · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=u5Jsrij0NF4",
+    "img": "https://i.ytimg.com/vi/u5Jsrij0NF4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "FutureTech AI"
+    ],
+    "parts": [],
+    "views": 8,
+    "buzz": 31,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "c2c44d9caa41e63a28820d8fa581444303185da8ac64d21880aaa129ae4045c5",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Qwen Image 2.1 Multi-LoRAs",
+      "Qwen Image 2.1"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Learn how to create amazing 3D game characters using GPT-6 Astra and Tripo AI! In this tutorial, I'll walk you through an AI-powered workflow that",
+    "evidenceIds": [
+      1,
+      2,
+      7
+    ],
+    "id": "Hns_Ds128xI",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "GPT-6 Astra och Tripo AI kopplas ihop för AI-skapade 3D-spelkaraktärer",
+    "sum": "RYAN NEXUS beskriver ett AI-drivet arbetsflöde där GPT-6 Astra används för karaktärsidéer och koncept, medan Tripo AI omvandlar bilder och idéer till 3D-karaktärsmodeller för spelutveckling.",
+    "full": "RYAN NEXUS presenterar ett arbetsflöde för att skapa 3D-spelkaraktärer med GPT-6 Astra och Tripo AI. Enligt kanalens beskrivning används GPT-6 Astra först för att utveckla kreativa karaktärsidéer och ta fram AI-genererade koncept.\n\nDärefter används Tripo AI för att omvandla idéerna till 3D-modeller. Beskrivningen nämner både bild-till-3D och skapande av 3D-karaktärer från koncept, men anger inte vilka specifika modellformat, exportalternativ eller tekniska begränsningar som visas.\n\nArbetsflödet riktar sig till spelutvecklare, 3D-designers och personer som vill utforska AI-baserad 3D-skapande. Kanalens upplägg omfattar idéutveckling, konceptframställning, omvandling av bilder till 3D-karaktärsmodeller och framtagning av 3D-tillgångar för spelutveckling.\n\nRYAN NEXUS beskriver videon som en handledning och informationsresurs. Funktioner och tillgänglighet kan förändras över tid, enligt videons egen brasklapp, och beskrivningen ger inget underlag för en oberoende bedömning av resultatens kvalitet eller arbetsflödets effektivitet.",
+    "deep": "Det centrala i arbetsflödet är uppdelningen mellan konceptutveckling och modellgenerering. GPT-6 Astra kopplas i beskrivningen till att utveckla karaktärskoncept och generera kreativa idéer, medan Tripo AI kopplas till att skapa 3D-modeller utifrån dessa idéer och bilder.\n\nDe angivna användningsområdena är 3D-spelkaraktärer och 3D-tillgångar för spelutveckling. Beskrivningen nämner också AI-baserad 3D-modellering, text-till-3D och bild-till-3D, men lämnar öppet exakt hur dessa steg genomförs och vilka resultat som visas. Videons publiceringsdatum ska inte tolkas som ett produktlanseringsdatum.",
+    "en": {
+      "ttl": "GPT-6 Astra and Tripo AI combine for AI-generated 3D game characters",
+      "sum": "RYAN NEXUS describes an AI-powered workflow in which GPT-6 Astra is used for character ideas and concepts, while Tripo AI turns images and ideas into 3D character models for game development.",
+      "full": "RYAN NEXUS presents a workflow for creating 3D game characters with GPT-6 Astra and Tripo AI. According to the channel’s description, GPT-6 Astra is used first to develop creative character ideas and generate AI-based concepts.\n\nTripo AI is then used to turn those ideas into 3D models. The description mentions both image-to-3D and the creation of 3D characters from concepts, but does not specify the model formats, export options or technical limitations shown.\n\nThe workflow is aimed at game developers, 3D designers and people exploring AI-based 3D creation. The channel describes a process covering idea development, concept generation, image-to-3D conversion and the creation of 3D assets for game development.\n\nRYAN NEXUS presents the video as a tutorial and informational resource. The video’s disclaimer notes that features and availability may change over time, and the description does not support an independent assessment of the quality or efficiency of the results.",
+      "deep": "The workflow’s central structure is the division between concept development and model generation. The description connects GPT-6 Astra with developing character concepts and generating creative ideas, while Tripo AI is connected with creating 3D models from those ideas and images.\n\nThe stated use cases are 3D game characters and 3D assets for game development. The description also mentions AI-powered 3D modeling, text-to-3D and image-to-3D, but does not explain exactly how these steps are performed or which results are shown. The upload date should not be interpreted as a product release date."
+    },
+    "cat": "3d",
+    "date": "2026-11-04T09:10:56Z",
+    "meta": "RYAN NEXUS · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=Hns_Ds128xI",
+    "img": "https://i.ytimg.com/vi/Hns_Ds128xI/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "RYAN NEXUS"
+    ],
+    "parts": [],
+    "views": 3580,
+    "buzz": 63,
+    "sourceCheckedAt": "2026-11-04T20:49:19.846Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "d0e3d63306b622c1368351fed8192d0188ac8827fa280ca372d521334a47c79d",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "GPT-6 Astra",
+      "Tripo AI"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "#CreatorsCorner | Google’s AI-powered Flow is simplifying filmmaking by turning story ideas into cinematic videos with consistent characters and visuals. Content creator Kishan Nayak showcases",
     "evidenceIds": [
       1

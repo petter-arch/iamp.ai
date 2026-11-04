@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-11-04T09:10:35.162Z",
+  "startedAt": "2026-11-04T20:49:19.846Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "checkedAt": "2026-11-04T20:49:19.846Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 149,
-    "relevant": 54,
-    "supported": 45
+    "fetched": 148,
+    "relevant": 48,
+    "supported": 41
   },
   "rejected": [
     {
@@ -60,8 +60,7 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -69,8 +68,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -81,25 +79,6 @@
         1,
         10,
         19
-      ]
-    },
-    {
-      "video": "ZmSOFij8m-8",
-      "title": "The Gemini 4 Prompt Trick Nobody Uses",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "XQuRgVP9-Sc",
-      "title": "Stop Wasting Hours Looking for Files. Try This.",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        9,
-        10
       ]
     },
     {
@@ -121,6 +100,11 @@
       ]
     },
     {
+      "video": "o5iRKvXZEcY",
+      "title": "Claude Reverse Engineered Two 3DS Games to Add Real 3D",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "gdBoYZyaouk",
       "title": "AI ART Helloween LIVE STREAM - Interactive!",
       "stage": "insufficient-article-source"
@@ -131,18 +115,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pqFFpYYBD0Q",
-      "title": "Same 360 prompt, three AI video models #aivideo #seedance",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "Q6xJOpTylco",
       "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
+      "video": "LjaJPfGRRWM",
+      "title": "ChatGPT vs Claude: Who Edited It Better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -151,9 +130,17 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "8GR7NLCqYqA",
+      "title": "Minecraft 3D Model Generator: AI King Cobra in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
       "video": "_Whwv5v_6U0",
@@ -161,8 +148,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "VTw1sfTpimI",
-      "title": "Seedance 2.5: A New Era of AI Filmmaking",
+      "video": "YbCkKuayRfk",
+      "title": "Why AI Video Could Become the Biggest Opportunity for Independent Filmmakers @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -171,8 +158,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "kihyid0HhUc",
-      "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
+      "video": "VTw1sfTpimI",
+      "title": "Seedance 2.5: A New Era of AI Filmmaking",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4sGplZdBy6A",
+      "title": "When a humanoid and a drone become besties",
       "stage": "insufficient-article-source"
     },
     {
@@ -181,13 +173,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "kihyid0HhUc",
+      "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "Zw_aEnF1fbI",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "8uwGN2YnreE",
-      "title": "Why the Next Generation of Filmmakers May Not Need Traditional Studios @HiggsfieldAI @20VC",
+      "video": "j9jcdlGGazo",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -199,47 +196,13 @@
       ]
     },
     {
-      "video": "5-Gq30_5d1M",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JIS1Jnkh5Xk",
-      "title": "Kling 4.0 from Kuaishou makes up to 30 seconds of video in one generation, up to 4K with 10-bit HDR",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "tozlivuudw4",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "j9jcdlGGazo",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "UR1ZdVEHFgA",
       "title": "Minecraft 3D Model Generator: AI Giant Cave Spider in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
         1
       ]
-    },
-    {
-      "video": "z9KqMYAETk0",
-      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6ceGo7ofKDI",
-      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2
+  "accepted": 7
 }
