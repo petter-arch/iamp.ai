@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-11-03T20:59:54.180Z",
+  "startedAt": "2026-11-04T09:10:35.162Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
-      "found": 6
+      "checkedAt": "2026-11-04T09:10:35.162Z",
+      "found": 5
     },
     "3d": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-03T20:59:54.180Z",
+      "checkedAt": "2026-11-04T09:10:35.162Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 150,
-    "relevant": 48,
-    "supported": 39
+    "fetched": 149,
+    "relevant": 54,
+    "supported": 45
   },
   "rejected": [
     {
@@ -52,18 +52,7 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1,
-        2
-      ]
-    },
-    {
-      "video": "1Aqhg0FVm-w",
-      "title": "Deepseek strikes again",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        9,
-        12
+        1
       ]
     },
     {
@@ -71,7 +60,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -79,7 +69,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -93,12 +84,22 @@
       ]
     },
     {
-      "video": "JIS1Jnkh5Xk",
-      "title": "Kling 4.0 from Kuaishou makes up to 30 seconds of video in one generation, up to 4K with 10-bit HDR",
+      "video": "ZmSOFij8m-8",
+      "title": "The Gemini 4 Prompt Trick Nobody Uses",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        1,
+        2
+      ]
+    },
+    {
+      "video": "XQuRgVP9-Sc",
+      "title": "Stop Wasting Hours Looking for Files. Try This.",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        9,
+        10
       ]
     },
     {
@@ -106,7 +107,8 @@
       "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
+        1,
+        2
       ]
     },
     {
@@ -119,6 +121,16 @@
       ]
     },
     {
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "pqFFpYYBD0Q",
       "title": "Same 360 prompt, three AI video models #aivideo #seedance",
       "stage": "insufficient-article-source"
@@ -129,8 +141,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "video": "WutfuAvvXkA",
+      "title": "Same lines, two AI models. Which performance is better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -139,17 +151,9 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "WutfuAvvXkA",
-      "title": "Same lines, two AI models. Which performance is better?",
+      "video": "KZRUdQYU4dI",
+      "title": "Claude video generator turns your single prompt into a stylized movie",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Uxf0caRkh2c",
-      "title": "Minecraft 3D Model Generator: AI Great White Shark in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
     },
     {
       "video": "_Whwv5v_6U0",
@@ -157,36 +161,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KZRUdQYU4dI",
-      "title": "Claude video generator turns your single prompt into a stylized movie",
+      "video": "VTw1sfTpimI",
+      "title": "Seedance 2.5: A New Era of AI Filmmaking",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "u1_hs6uFpoE",
-      "title": "15+ Trending Couples Photo Prompts ❤️ | AI Couple Photo Editing Prompts | Gemini Photo Editing 2026",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "UR1ZdVEHFgA",
-      "title": "Minecraft 3D Model Generator: AI Giant Cave Spider in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "z9KqMYAETk0",
-      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
+      "video": "REFPLcTLH3Q",
+      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
       "video": "kihyid0HhUc",
       "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "IGICYFyP_EI",
-      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -205,19 +191,12 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "S8mGh2CbyRQ",
-      "title": "What Happens When AI Video Becomes a Daily Tool? 👀 @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6ceGo7ofKDI",
-      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "EmXY04Uu2hs",
-      "title": "The Next Generation of AI Could Change Advertising Forever 🎯 @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
+      "video": "Uxf0caRkh2c",
+      "title": "Minecraft 3D Model Generator: AI Great White Shark in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
       "video": "5-Gq30_5d1M",
@@ -225,9 +204,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "CacZzBaT1HY",
-      "title": "The AI Video Industry Has a Much Bigger Problem Than You Think ⚠️ @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
+      "video": "JIS1Jnkh5Xk",
+      "title": "Kling 4.0 from Kuaishou makes up to 30 seconds of video in one generation, up to 4K with 10-bit HDR",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
     },
     {
       "video": "tozlivuudw4",
@@ -240,14 +223,22 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "TQ-QtaaQQlY",
-      "title": "AI 601, Part 112: AI Music & Audio Generation",
+      "video": "UR1ZdVEHFgA",
+      "title": "Minecraft 3D Model Generator: AI Giant Cave Spider in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
-        1,
-        3,
-        4
+        1
       ]
+    },
+    {
+      "video": "z9KqMYAETk0",
+      "title": "Minecraft 3D Model Generator: AI-Made Moss Carpet Rock in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "6ceGo7ofKDI",
+      "title": "AI 3D Model Generator to Game-Ready Character: Image to 3D, Auto-Rig & a Playable Skeleton Knight",
+      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 2
