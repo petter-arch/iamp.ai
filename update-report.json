@@ -1,58 +1,51 @@
 {
-  "startedAt": "2026-11-04T20:49:19.846Z",
+  "startedAt": "2026-11-05T09:29:08.437Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 5
     },
     "3d": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-04T20:49:19.846Z",
+      "checkedAt": "2026-11-05T09:29:08.437Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 148,
-    "relevant": 48,
+    "fetched": 141,
+    "relevant": 46,
     "supported": 41
   },
   "rejected": [
-    {
-      "video": "lZes3U_WIug",
-      "title": "Generate Worlds in Real-Time (Free & Open Source)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -60,7 +53,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -68,7 +62,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -82,26 +77,23 @@
       ]
     },
     {
-      "video": "43QraAPKXGU",
-      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
       "video": "sFfPkUJd_Jk",
       "title": "Genie 4: A new generation of world simulation",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         3
       ]
     },
     {
-      "video": "o5iRKvXZEcY",
-      "title": "Claude Reverse Engineered Two 3DS Games to Add Real 3D",
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
       "stage": "insufficient-article-source"
     },
     {
@@ -110,9 +102,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "insufficient-article-source"
+      "video": "tM0dwXhOv2o",
+      "title": "Claude 2.0 Is Here. EVERYTHING in 15 Minutes",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "5",
+        "6",
+        "7"
+      ]
     },
     {
       "video": "Q6xJOpTylco",
@@ -120,8 +117,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LjaJPfGRRWM",
-      "title": "ChatGPT vs Claude: Who Edited It Better?",
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
       "stage": "insufficient-article-source"
     },
     {
@@ -130,8 +127,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "IGICYFyP_EI",
-      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "video": "LjaJPfGRRWM",
+      "title": "ChatGPT vs Claude: Who Edited It Better?",
       "stage": "insufficient-article-source"
     },
     {
@@ -143,18 +140,13 @@
       ]
     },
     {
-      "video": "_Whwv5v_6U0",
-      "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "YbCkKuayRfk",
       "title": "Why AI Video Could Become the Biggest Opportunity for Independent Filmmakers @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "REFPLcTLH3Q",
-      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
+      "video": "_Whwv5v_6U0",
+      "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -163,28 +155,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "4sGplZdBy6A",
-      "title": "When a humanoid and a drone become besties",
+      "video": "REFPLcTLH3Q",
+      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
       "video": "bgrvjCCaXzg",
       "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "kihyid0HhUc",
-      "title": "AI Is Opening a New Era for Independent Filmmakers 🌎 @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Zw_aEnF1fbI",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "j9jcdlGGazo",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -196,13 +173,10 @@
       ]
     },
     {
-      "video": "UR1ZdVEHFgA",
-      "title": "Minecraft 3D Model Generator: AI Giant Cave Spider in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "Zw_aEnF1fbI",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7
+  "accepted": 6
 }
