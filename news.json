@@ -1,6 +1,94 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "OpenAI выпустила Images 2.6 — масштабное обновление ИИ-генератора изображений ChatGPT. Теперь искусственный интеллект умеет создавать анимированные GIF, превращать обычные наброски в полноценные изображения, быстрее генерировать",
+    "evidenceIds": [
+      17,
+      20,
+      23
+    ],
+    "id": "UY2yX3MV_8o",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "GPT Image 2.6: animerade GIF:ar, skiss-till-bild och mer exakt redigering",
+    "sum": "Enligt Yevgeniy Kovalenko är OpenAI Images 2.6 en omfattande uppdatering av ChatGPTs bildgenerator. Modellen ska kunna skapa loopade GIF:ar från bilder, omvandla handritade skisser till detaljerade bilder, generera nästan dubbelt så snabbt och redigera utvalda bildområden mer precist.",
+    "full": "Yevgeniy Kovalenko beskriver OpenAI Images 2.6 som en omfattande uppdatering av AI-bildgeneratorn i ChatGPT. Enligt kanalens beskrivning utökas verktyget från statisk bildgenerering till arbetsflöden som även omfattar animering, skissbaserad bildframställning och mer kontrollerad redigering.\n\nEn central nyhet är möjligheten att skapa animerade GIF:ar från fotografier eller färdiga bilder. Materialet kan göras om till en loopad animation, exempelvis genom att ge liv åt figurer eller skapa rörliga illustrationer direkt i ChatGPT. Beskrivningen anger även att en enkel handritad skiss kan omvandlas till en detaljerad bild och därefter animeras.\n\nKanalens beskrivning uppger dessutom att Images 2.6 genererar bilder nästan dubbelt så snabbt som den föregående versionen. Vid redigering ska modellen bättre bevara figurers utseende, produktegenskaper, varumärkeselement, färgskala och ursprunglig stil. Det ska göra det möjligt att ändra enskilda detaljer utan att påverka resten av kompositionen lika mycket.\n\nUppdateringen omfattar också områdesmarkering. Användaren kan välja ett specifikt objekt eller område och ange vad som ska ändras. Enligt beskrivningen är denna funktion tillgänglig både i ChatGPT och för utvecklare via API. Yevgeniy Kovalenko uppger vidare att verktyget kan exportera bilder som SVG, vilket öppnar för vektorgrafik för bland annat logotyper, ikoner, webbdesign, appar, trycksaker och reklammaterial.\n\nVideobeskrivningen nämner även en ny inställning för genereringens komplexitet. Utvecklare ska kunna styra hur mycket planering modellen gör före bildskapandet: låg nivå för snabba ändringar och medel eller hög nivå för scener med många objekt och detaljer. Beskrivningen betonar att denna komplexitet inte ska förväxlas med bildkvalitet. Kanalens genomgång tar dessutom upp tillgänglighet i ChatGPT, Codex och API samt modellerna Sunburst och Flare.",
+    "deep": "Det beskrivna arbetsflödet börjar med befintligt visuellt material eller en enkel skiss och kan fortsätta genom flera AI-steg: bildgenerering, riktad redigering och animering. För kommersiella projekt lyfts särskilt bevarandet av produktdetaljer, varumärkeselement, färger och stil fram som en del av den nya redigeringsinriktningen. Uppgifterna kommer från Yevgeniy Kovalenkos videobeskrivning; de är inte resultatet av en oberoende testning.\n\nAPI-stödet för områdesmarkering och inställningen för genereringens komplexitet riktar sig uttryckligen till utvecklare. Det innebär enligt beskrivningen att arbetsflöden kan byggas kring både selektiva ändringar och olika planeringsnivåer beroende på scenens komplexitet. SVG-exporten placerar samtidigt modellen närmare design- och vektorbaserade arbetsflöden än enbart rasterbaserad bildframställning.\n\nBeskrivningen anger inte exakt vilka abonnemang, API-villkor, filbegränsningar eller tekniska exportparametrar som gäller. Den anger inte heller ett fristående releasedatum för OpenAI Images 2.6; videons uppladdningsdatum ska därför inte tolkas som produktens releasedatum.",
+    "en": {
+      "ttl": "GPT Image 2.6: animated GIFs, sketch-to-image and more precise editing",
+      "sum": "According to Yevgeniy Kovalenko, OpenAI Images 2.6 is a major update to ChatGPT’s image generator. The model is described as able to create looping GIFs from images, turn hand-drawn sketches into detailed pictures, generate almost twice as fast and edit selected image areas more precisely.",
+      "full": "Yevgeniy Kovalenko describes OpenAI Images 2.6 as a major update to ChatGPT’s AI image generator. According to the channel’s description, the tool expands beyond static image generation into workflows that also cover animation, sketch-based image creation and more controlled editing.\n\nA central feature is the ability to create animated GIFs from photographs or finished images. Material can be turned into a looping animation, for example by animating characters or creating moving illustrations directly in ChatGPT. The description also says that a simple hand-drawn sketch can be converted into a detailed image and then animated.\n\nThe channel’s description further states that Images 2.6 generates images almost twice as fast as the previous version. During editing, the model is said to better preserve characters’ appearance, product details, branding elements, color palettes and the original style. This should make it easier to change individual details without affecting the rest of the composition as much.\n\nThe update also includes region selection. Users can select a specific object or area and specify what should be changed. According to the description, this function is available both in ChatGPT and to developers through the API. Yevgeniy Kovalenko also says that the tool can export images as SVG, supporting vector graphics for logos, icons, web design, apps, print products and advertising.\n\nThe video description also mentions a new generation-complexity setting. Developers are said to be able to control how much planning the model performs before creating an image: low complexity for quick edits, and medium or high complexity for scenes with many objects and details. The description stresses that complexity should not be confused with image quality. The channel also discusses availability in ChatGPT, Codex and the API, as well as the Sunburst and Flare models.",
+      "deep": "The described workflow starts with existing visual material or a simple sketch and can continue through several AI stages: image generation, targeted editing and animation. For commercial projects, the description particularly highlights preserving product details, branding elements, colors and style as part of the updated editing approach. These claims come from Yevgeniy Kovalenko’s video description and are not the result of an independent test.\n\nAPI support for region selection and the generation-complexity setting are explicitly aimed at developers. According to the description, this enables workflows built around both selective changes and different planning levels depending on scene complexity. SVG export also positions the model closer to design and vector-based workflows rather than raster image creation alone.\n\nThe description does not specify subscription tiers, API terms, file limits or technical export parameters. It also does not provide a separate release date for OpenAI Images 2.6; the video upload date should therefore not be treated as the product’s release date."
+    },
+    "cat": "foto",
+    "date": "2026-11-05T18:45:06Z",
+    "meta": "Yevgeniy Kovalenko · 2026-11-05",
+    "url": "https://www.youtube.com/watch?v=UY2yX3MV_8o",
+    "img": "https://i.ytimg.com/vi/UY2yX3MV_8o/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Yevgeniy Kovalenko"
+    ],
+    "parts": [],
+    "views": 485,
+    "buzz": 52,
+    "sourceCheckedAt": "2026-11-05T21:05:01.644Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "e479a6f63e5008e3278fab957a60dd682117b9c085d30431bffcca4ab3e41c50",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "OpenAI Images 2.6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "🎬 What if you could create Hollywood-style cinematic shots using AI? 🤯 Ayesha explores Soul Cinema by Higgsfield, an AI tool bringing filmmaking ideas to",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "K9vhSV59-Zk",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Higgsfield Soul Cinema vill göra filmidéer till filmiska AI-bilder",
+    "sum": "Ahad Animates beskriver Soul Cinema från Higgsfield som ett AI-verktyg för Hollywood-liknande filmsekvenser, med realistisk ljussättning, filmisk bildkvalitet, konsekventa rollfigurer och stöd för storyboard samt nyckelbilder i AI-videoarbete.",
+    "full": "Ahad Animates lyfter fram Soul Cinema från Higgsfield som ett AI-verktyg för att förverkliga filmidéer i ett filmiskt format. Enligt kanalens beskrivning riktar sig verktyget mot skapare som vill ta fram Hollywood-liknande bildsekvenser med realistisk ljussättning och filmisk bildkvalitet.\n\nBeskrivningen framhåller även stöd för konsekventa rollfigurer. Det är centralt i ett AI-baserat filmflöde, eftersom samma figurer behöver kunna återkomma mellan flera bilder eller sekvenser utan att deras visuella egenskaper förändras oavsiktligt.\n\nSoul Cinema kopplas dessutom till flera steg i den kreativa processen. Ahad Animates nämner storyboardarbete och skapande av nyckelbilder för AI-video, vilket placerar verktyget i ett arbetsflöde där idéer först kan utvecklas visuellt innan de används som grund för rörligt material.\n\nKanalens presentation beskriver därmed Soul Cinema som mer än ett verktyg för enstaka AI-bilder: det ska kunna stödja övergången från filmidé och storyboard till nyckelbilder för AI-video. Beskrivningen innehåller dock inga uppgifter om lanseringsdatum, tekniska begränsningar, pris eller resultat från ett oberoende test.",
+    "deep": "Ahad Animates anger inte hur konsekvensen mellan rollfigurer uppnås eller vilka kontroller som finns för kamerarörelser, bildutsnitt eller kontinuitet. Det går därför inte att dra slutsatser om verktygets exakta funktioner utöver de egenskaper som nämns i kanalens beskrivning.\n\nDe konkreta användningsområden som anges är att utveckla filmidéer, skapa storyboardmaterial och ta fram nyckelbilder för AI-video. Fokus ligger alltså på ett visuellt förarbete och på att göra filmiska koncept begripliga genom bilder, snarare än på en dokumenterad jämförelse med andra AI-videoplattformar.",
+    "en": {
+      "ttl": "Higgsfield Soul Cinema aims to turn film ideas into cinematic AI images",
+      "sum": "Ahad Animates describes Soul Cinema by Higgsfield as an AI tool for Hollywood-style cinematic shots, with realistic lighting, film-grade visuals, consistent characters, and support for storyboards and keyframes in AI video workflows.",
+      "full": "Ahad Animates presents Soul Cinema by Higgsfield as an AI tool for turning filmmaking ideas into a cinematic visual format. According to the channel’s description, the tool is aimed at creators who want to produce Hollywood-style shots with realistic lighting and film-grade visuals.\n\nThe description also highlights support for consistent characters. This is relevant to an AI filmmaking workflow because the same characters need to reappear across multiple images or sequences without unintended changes to their visual identity.\n\nSoul Cinema is also associated with several stages of the creative process. Ahad Animates mentions storyboarding and creating keyframes for AI video, placing the tool in a workflow where ideas can be developed visually before being used as a basis for moving-image content.\n\nThe channel therefore presents Soul Cinema as more than a tool for isolated AI images: it is described as supporting the transition from a film idea and storyboard to keyframes for AI video. The description does not provide a release date, technical limitations, pricing information, or results from an independent test.",
+      "deep": "Ahad Animates does not explain how character consistency is achieved or which controls are available for camera movement, framing, or continuity. No conclusions can therefore be drawn about the tool’s exact capabilities beyond the features stated in the channel’s description.\n\nThe specific use cases mentioned are developing film ideas, creating storyboard material, and producing keyframes for AI video. The focus is consequently on visual pre-production and on making cinematic concepts understandable through images, rather than on a documented comparison with other AI video platforms."
+    },
+    "cat": "film",
+    "date": "2026-11-05T14:43:59Z",
+    "meta": "Ahad Animates · 2026-11-05",
+    "url": "https://www.youtube.com/watch?v=K9vhSV59-Zk",
+    "img": "https://i.ytimg.com/vi/K9vhSV59-Zk/hqdefault.jpg",
+    "plat": "Higgsfield",
+    "platformIds": [
+      "higgsfield"
+    ],
+    "chans": [
+      "Ahad Animates"
+    ],
+    "parts": [],
+    "views": 176,
+    "buzz": 47,
+    "sourceCheckedAt": "2026-11-05T21:05:01.644Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "2f69b1e37fc66c43901ac5409e360b4267fc0f0e6c22d8259314a5a24a2714f1",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Discover GPT Image 2.6 on EnhanceAI and take AI image generation and editing to the next level. In this video, explore how GPT Image 2.6",
     "evidenceIds": [
       1,
@@ -1755,6 +1843,108 @@
     "sourceId": null,
     "newPlatforms": [
       "Kling 4.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "MOSS-Image is a free 5B open-source image model that runs on a 16GB Mac. I put MOSS-Image through my hardest image tests, then installed it",
+    "evidenceIds": [
+      1,
+      6
+    ],
+    "id": "zO0ZPBj0G3I",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "MOSS-Image är en kostnadsfri bildmodell med öppen källkod för lokalkörning",
+    "sum": "AI Samson beskriver MOSS-Image som en kostnadsfri bildmodell med 5 miljarder parametrar som kan köras på en Mac med 16 GB minne. I kanalens tester hanterar modellen bland annat filmiska scener, porträtt och grafisk design, men har problem med liten text, exakta data och komplexa rumsliga instruktioner.",
+    "full": "AI Samson lyfter fram MOSS-Image som ett lokalt alternativ för bildgenerering. Enligt kanalens beskrivning är modellen kostnadsfri, har öppen källkod och omfattar 5 miljarder parametrar. Den kan köras på en Mac med 16 GB minne, vilket gör installation på en bärbar dator till en central del av videons arbetsflöde.\n\nKanalen uppger att MOSS-Image testas på filmiska scener, porträtt och grafisk design. Beskrivningen framhåller att modellen klarar dessa uppgifter överraskande väl, men pekar också ut tydliga begränsningar: liten text, precisa data och komplexa rumsliga instruktioner är områden där resultatet blir svagare.\n\nAI Samson beskriver dessutom en jämförelse med GPT Image 2.5, Qwen Image 2.1 och FLUX. Videon ska även mäta hur lång tid lokal bildgenerering faktiskt tar på en bärbar dator. Det ger fokus åt både modellens bildförmåga och den praktiska användningen på lokal hårdvara, snarare än enbart åt exempelbilder.\n\nVideons upplägg omfattar en blind jämförelse mellan kostnadsfria och betalda alternativ, tester av modellens förmågor, utmanande bildprov samt avsnitt om text och design. Den tar också upp installation på Mac och begränsningar, men den tillgängliga beskrivningen anger inte exakta genereringstider eller fullständiga testresultat.",
+    "deep": "MOSS-Image anges som en 5B-modell, och AI Samson kopplar den uttryckligen till lokalkörning på en Mac med 16 GB RAM. Beskrivningen nämner både Mac- och Windows-installationsprompter, men specificerar inte vilka operativsystemversioner eller installationssteg som används.\n\nDe redovisade styrkorna gäller filmiska scener, porträtt och grafisk design. De redovisade svagheterna gäller små textmängder, exakt dataåtergivning och instruktioner som kräver komplex rumslig förståelse. Beskrivningen ger däremot inga uppgifter om modellens licensvillkor utöver att den beskrivs som öppen källkod, och inga kvantitativa resultat från jämförelsen eller tidsmätningen.",
+    "en": {
+      "ttl": "MOSS-Image is a free image model for local generation",
+      "sum": "AI Samson describes MOSS-Image as a free 5B open-source image model that can run on a Mac with 16GB of memory. In the channel's tests, it handles cinematic scenes, portraits and graphic design, but struggles with small text, precise data and complex spatial instructions.",
+      "full": "AI Samson presents MOSS-Image as a local image-generation option. According to the channel's description, the model is free, open source and has 5 billion parameters. It can run on a Mac with 16GB of memory, making installation on a laptop a central part of the workflow covered in the video.\n\nThe channel says MOSS-Image is tested on cinematic scenes, portraits and graphic design. The description says it performs surprisingly well in these areas, while also identifying clear limitations: small text, precise data and complex spatial instructions are weaker areas.\n\nAI Samson also describes a comparison with GPT Image 2.5, Qwen Image 2.1 and FLUX. The video is said to measure how long local generation actually takes on a laptop, focusing on both image capability and practical local use.\n\nThe video includes a blind comparison between free and paid options, capability tests, difficult image prompts, and sections on text and design. It also covers Mac installation and restrictions, but the available description does not provide exact generation times or complete test results.",
+      "deep": "MOSS-Image is identified as a 5B model, and AI Samson explicitly connects it with local use on a Mac with 16GB of RAM. The description mentions installation prompts for both Mac and Windows, but does not specify operating-system versions or installation steps.\n\nThe stated strengths concern cinematic scenes, portraits and graphic design. The stated weaknesses concern small amounts of text, precise data rendering and instructions requiring complex spatial understanding. The description provides no quantitative comparison results or timing figures, and gives no licensing details beyond describing the model as open source."
+    },
+    "cat": "foto",
+    "date": "2026-10-31T23:25:05Z",
+    "meta": "AI Samson · 2026-10-31",
+    "url": "https://www.youtube.com/watch?v=zO0ZPBj0G3I",
+    "img": "https://i.ytimg.com/vi/zO0ZPBj0G3I/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Samson"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro"
+      },
+      {
+        "t": 15,
+        "l": "What is MOSS-Image?"
+      },
+      {
+        "t": 36,
+        "l": "Blind test: free vs paid"
+      },
+      {
+        "t": 105,
+        "l": "What it can do"
+      },
+      {
+        "t": 164,
+        "l": "Testing it myself"
+      },
+      {
+        "t": 250,
+        "l": "The hardest tests"
+      },
+      {
+        "t": 396,
+        "l": "Text and design"
+      },
+      {
+        "t": 558,
+        "l": "Run it on your Mac"
+      },
+      {
+        "t": 663,
+        "l": "How fast is it on a laptop?"
+      },
+      {
+        "t": 735,
+        "l": "Viktor: AI employee overview"
+      },
+      {
+        "t": 784,
+        "l": "Is it actually cheaper?"
+      },
+      {
+        "t": 878,
+        "l": "How it compares"
+      },
+      {
+        "t": 1149,
+        "l": "Restrictions"
+      },
+      {
+        "t": 1229,
+        "l": "Final verdict"
+      }
+    ],
+    "views": 147089,
+    "buzz": 82,
+    "sourceCheckedAt": "2026-11-05T21:05:01.644Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "e0d5b10c9ba40a7ecf9a99041bcf6e58f39841ce5440e0032fd64d2a24b7e05a",
+    "trusted": true,
+    "sourceId": "aisamsonreal",
+    "newPlatforms": [
+      "MOSS-Image",
+      "GPT Image 2.5",
+      "Qwen Image 2.1"
     ]
   },
   {

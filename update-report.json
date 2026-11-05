@@ -1,49 +1,57 @@
 {
-  "startedAt": "2026-11-05T09:29:08.437Z",
+  "startedAt": "2026-11-05T21:05:01.644Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
-      "found": 5
+      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-05T09:29:08.437Z",
+      "checkedAt": "2026-11-05T21:05:01.644Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 141,
-    "relevant": 46,
-    "supported": 41
+    "fetched": 139,
+    "relevant": 40,
+    "supported": 31
   },
   "rejected": [
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         2
       ]
@@ -77,11 +85,34 @@
       ]
     },
     {
+      "video": "3vG6BmXYjw0",
+      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "8GR7NLCqYqA",
+      "title": "Minecraft 3D Model Generator: AI King Cobra in Blockbench",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "43QraAPKXGU",
+      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "sFfPkUJd_Jk",
       "title": "Genie 4: A new generation of world simulation",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         3
       ]
@@ -97,33 +128,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hniPlxcQ7X4",
+      "title": "What will people REALLY use these for?",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "gdBoYZyaouk",
       "title": "AI ART Helloween LIVE STREAM - Interactive!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tM0dwXhOv2o",
-      "title": "Claude 2.0 Is Here. EVERYTHING in 15 Minutes",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "5",
-        "6",
-        "7"
-      ]
-    },
-    {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QwzgUvqpleg",
-      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
@@ -132,12 +148,29 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "8GR7NLCqYqA",
-      "title": "Minecraft 3D Model Generator: AI King Cobra in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QwzgUvqpleg",
+      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "LrWBxoHR-xY",
+      "title": "Aesthetic Trending Photo Editing🌻💛 || Chatgpt Photo Editing #chatgpt #gemini #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5OFZ_3eoBNk",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "REFPLcTLH3Q",
+      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "YbCkKuayRfk",
@@ -148,35 +181,7 @@
       "video": "_Whwv5v_6U0",
       "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "VTw1sfTpimI",
-      "title": "Seedance 2.5: A New Era of AI Filmmaking",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "REFPLcTLH3Q",
-      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "bgrvjCCaXzg",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Uxf0caRkh2c",
-      "title": "Minecraft 3D Model Generator: AI Great White Shark in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "Zw_aEnF1fbI",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 6
+  "accepted": 3
 }
