@@ -1,8 +1,183 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T21:05:01.644Z",
-  "newsCheckedAt": "2026-11-05T21:05:01.644Z",
+  "updatedAt": "2026-11-06T09:22:55.258Z",
+  "newsCheckedAt": "2026-11-06T09:22:55.258Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this tutorial, we'll show you how to create a studio from anywhere in the world. All you need is audio, reference video, and you",
+      "evidenceIds": [
+        1,
+        15,
+        22
+      ],
+      "id": "CM1rPwuXw2A",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Skapa en videostudio var som helst med ljud, referensvideo och AI",
+      "sum": "Curious Refuge beskriver ett AI-baserat videoflöde där råljud och en referensvideo används för att skapa videomaterial. Flödet omfattar Seedance 2.5, tester med HeyGen och en MiniMax H3 LoRA samt en genomgång av kostnader och användning i den egna produktionskedjan.",
+      "full": "Curious Refuge beskriver ett arbetsflöde som enligt kanalen kan förvandla ljud och referensvideo till videomaterial utan en traditionell inspelningsstudio. Utgångspunkten är råljud, en referensvideo och ett arbetssätt som kan användas från valfri plats. Kanalen framställer detta som ett möjligt framtida arbetssätt för videoproduktion.\n\nArbetsflödet börjar med att råljud spelas in och bearbetas. Därefter rengörs ljudet med Adobe Podcast och görs om till en svart video. Skaparen väljer sedan en referensvideo som används i den fortsatta genereringen.\n\nEnligt Curious Refuge sker den centrala genereringen med Seedance 2.5. Beskrivningen anger också att kanalen testar arbetsflödet med HeyGen och med en MiniMax H3 LoRA. Därmed behandlas både videogenerering och alternativa sätt att använda resultatet i ett AI-baserat produktionsflöde.\n\nVideon innehåller dessutom ett viktigt tips, ett resultatavsnitt, en genomgång av kostnader och en kontroll av om text-till-tal fungerar i arbetsflödet. Mot slutet visar Curious Refuge hur metoden kan integreras i den egna produktionskedjan. Beskrivningen ger däremot inga exakta resultatmått eller detaljer om modellernas tekniska begränsningar.",
+      "deep": "Kanalens tidskoder visar en sammanhängande process: råljud spelas in, ljudet rengörs med Adobe Podcast, ljudet omvandlas till en svart video och en separat videoreferens väljs innan generering med Seedance 2.5. Därefter nämns tester med HeyGen och en MiniMax H3 LoRA.\n\nCurious Refuge tar även upp kostnader, frågan om text-till-tal fungerar och hur arbetsflödet kan användas i en egen pipeline. Beskrivningen specificerar inte vilka modeller eller inställningar som används i varje steg, hur referensvideon påverkar resultatet eller vilka begränsningar som framkommer i kanalens test.",
+      "en": {
+        "ttl": "Create a video studio anywhere with audio, reference video and AI",
+        "sum": "Curious Refuge describes an AI-based video workflow that uses raw audio and reference video to create video material. The workflow includes Seedance 2.5, tests with HeyGen and a MiniMax H3 LoRA, plus a review of costs and use in a creator's own production pipeline.",
+        "full": "Curious Refuge describes a workflow that, according to the channel, can turn audio and reference video into video material without a traditional studio setup. The starting point is raw audio, a reference video and a process that can be used from anywhere. The channel presents this as a possible future approach to video production.\n\nThe workflow begins with recording raw audio and processing it. The audio is then cleaned with Adobe Podcast and turned into a black video. The creator next selects a reference video for the subsequent generation step.\n\nAccording to Curious Refuge, the central generation uses Seedance 2.5. The description also says that the channel tests the workflow with HeyGen and a MiniMax H3 LoRA. This covers both video generation and alternative ways to use the result in an AI-based production workflow.\n\nThe video also includes an important tip, a results section, a cost review and a check of whether text-to-speech works in the workflow. Toward the end, Curious Refuge explains how the method can be integrated into a creator's own production pipeline. The description does not provide exact performance measurements or detailed technical limitations.",
+        "deep": "The channel's time codes show a connected process: raw audio is recorded, the audio is cleaned with Adobe Podcast, it is converted into a black video, and a separate video reference is selected before generation with Seedance 2.5. Tests with HeyGen and a MiniMax H3 LoRA are then mentioned.\n\nCurious Refuge also covers costs, whether text-to-speech works and how the workflow can be used in an existing pipeline. The description does not specify which models or settings are used at each step, how the reference video affects the result or which limitations appear in the channel's test."
+      },
+      "cat": "film",
+      "date": "2026-11-05T22:09:04Z",
+      "meta": "Curious Refuge · 2026-11-05",
+      "url": "https://www.youtube.com/watch?v=CM1rPwuXw2A",
+      "img": "https://i.ytimg.com/vi/CM1rPwuXw2A/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5",
+        "heygen"
+      ],
+      "chans": [
+        "Curious Refuge"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "You won't believe this..."
+        },
+        {
+          "t": 42,
+          "l": "The 'why.' Who is this helpful for?"
+        },
+        {
+          "t": 83,
+          "l": "Record the raw audio"
+        },
+        {
+          "t": 112,
+          "l": "Clean up the audio with Adobe Podcast"
+        },
+        {
+          "t": 158,
+          "l": "Turn the audio into a black video"
+        },
+        {
+          "t": 188,
+          "l": "Choose your video reference"
+        },
+        {
+          "t": 261,
+          "l": "Generate using Seedance 2.5"
+        },
+        {
+          "t": 312,
+          "l": "Important Tip to watch out for"
+        },
+        {
+          "t": 346,
+          "l": "The Result"
+        },
+        {
+          "t": 390,
+          "l": "Testing with HeyGen"
+        },
+        {
+          "t": 459,
+          "l": "Testing with a MiniMax H3 LoRA"
+        },
+        {
+          "t": 523,
+          "l": "The costs"
+        },
+        {
+          "t": 590,
+          "l": "Does Text-to-Speech work?"
+        }
+      ],
+      "views": 5680,
+      "buzz": 65,
+      "sourceCheckedAt": "2026-11-06T09:22:55.258Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "0ebf265fd9f15f695101fd06dceb99e2eb4b76781e81856f693188477cd1f6fe",
+      "trusted": true,
+      "sourceId": "curiousrefuge",
+      "newPlatforms": [
+        "Adobe Podcast",
+        "MiniMax H3 LoRA"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this video, I'm testing a workflow that combines GPT-6 Astra and Tripo AI to transform an idea into a 3D asset. I'll create a",
+      "evidenceIds": [
+        6,
+        7,
+        15
+      ],
+      "id": "K8j1un6VPyI",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Från text till 3D-modell med AI: AI Outlet testar Tripo AI och GPT-6 Astra",
+      "sum": "AI Outlet beskriver ett arbetsflöde där GPT-6 Astra och Tripo AI används för att omvandla en idé till en stiliserad 3D-karaktär. Genomgången fokuserar på promptutveckling, modellgranskning, texturprecision, polygonantal och iterativ förfining.",
+      "full": "AI Outlet beskriver ett AI-baserat arbetsflöde för att skapa en 3D-tillgång från en textidé. I videon kombineras GPT-6 Astra och Tripo AI för att utveckla en detaljerad prompt och generera en stiliserad, fantasibaserad karaktär som liknar ett hjortdjur. Fokus ligger på hur en sådan process kan minska behovet av att modellera hela figuren manuellt från grunden.\n\nArbetsflödet börjar med att formulera en detaljerad prompt för karaktären. Därefter används Tripo AI för text-till-3D-generering. AI Outlet uppger att den genererade modellen granskas från flera vinklar, så att både helhetsintryck och detaljer kan bedömas.\n\nGenomgången stannar inte vid den första modellen. Kanalen undersöker särskilt texturernas precision och ytornas detaljer på nära håll. Den tar också upp polygonantalet och modellens geometriska komplexitet, eftersom dessa tekniska egenskaper påverkar hur en 3D-tillgång kan bedömas för spel, animation och andra projekt.\n\nAI Outlet beskriver slutligen en iterativ process där den AI-genererade modellen förfinas och granskas på nytt. Beskrivningen anger inte någon oberoende jämförelse, mätning eller verifiering av resultatens kvalitet, utan presenterar videon som en genomgång av detta specifika arbetsflöde.",
+      "deep": "Enligt AI Outlet används GPT-6 Astra och Tripo AI tillsammans: GPT-6 Astra ingår i arbetet med att utveckla karaktärsprompten, medan Tripo AI används för text-till-3D-genereringen. Det konkreta exemplet är en stiliserad fantasykaraktär med hjortliknande drag.\n\nDen tekniska granskningen omfattar flera vinklar, texturprecision, ytdetaljer, polygonantal och geometri. Kanalen framhåller att polygonantalet är viktigt att förstå när en genererad modell ska bedömas som en 3D-tillgång för spel, animation eller andra typer av projekt. Beskrivningen nämner också att modellen förfinas genom iteration, men anger inte vilka specifika ändringar som görs eller vilka slutliga tekniska värden modellen får.",
+      "en": {
+        "ttl": "From Text to 3D Model with AI: AI Outlet Tests Tripo AI and GPT-6 Astra",
+        "sum": "AI Outlet describes a workflow in which GPT-6 Astra and Tripo AI are used to turn an idea into a stylized 3D character. The walkthrough focuses on prompt development, model inspection, texture precision, polygon count, and iterative refinement.",
+        "full": "AI Outlet describes an AI-based workflow for creating a 3D asset from a text idea. The video combines GPT-6 Astra and Tripo AI to develop a detailed prompt and generate a stylized fantasy character resembling a deer. The focus is on how this process may reduce the need to manually model the entire figure from scratch.\n\nThe workflow begins with writing a detailed character prompt. Tripo AI is then used for text-to-3D generation. AI Outlet says the generated model is inspected from multiple angles so that both its overall appearance and its details can be assessed.\n\nThe walkthrough goes beyond the initial model. It specifically examines texture precision and surface details at close range. It also discusses polygon count and geometric complexity, since these technical properties matter when assessing a 3D asset for games, animation, and other projects.\n\nAI Outlet ultimately describes an iterative process in which the AI-generated model is refined and reviewed again. The description does not provide an independent comparison, measurement, or verification of the results’ quality; it presents the video as a walkthrough of this specific workflow.",
+        "deep": "According to AI Outlet, GPT-6 Astra and Tripo AI are used together: GPT-6 Astra contributes to developing the character prompt, while Tripo AI is used for text-to-3D generation. The concrete example is a stylized fantasy character with deer-like features.\n\nThe technical inspection covers multiple angles, texture precision, surface details, polygon count, and geometry. The channel emphasizes that polygon count is important to understand when evaluating a generated model as a 3D asset for games, animation, or other projects. The description also mentions refining the model through iteration, but it does not specify which changes are made or which final technical values the model achieves."
+      },
+      "cat": "3d",
+      "date": "2026-11-05T21:53:56Z",
+      "meta": "AI Outlet · 2026-11-05",
+      "url": "https://www.youtube.com/watch?v=K8j1un6VPyI",
+      "img": "https://i.ytimg.com/vi/K8j1un6VPyI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Outlet"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Turning an Idea into a 3D Model with AI"
+        },
+        {
+          "t": 25,
+          "l": "Creating the Fantasy Character Prompt"
+        },
+        {
+          "t": 61,
+          "l": "Using GPT-6 Astra and Tripo AI Together"
+        },
+        {
+          "t": 112,
+          "l": "Inspecting the Generated 3D Model"
+        },
+        {
+          "t": 163,
+          "l": "Checking Texture Precision and Details"
+        },
+        {
+          "t": 194,
+          "l": "Understanding Polygon Count and Geometry"
+        },
+        {
+          "t": 241,
+          "l": "Refining the Model and Reviewing the Final Result"
+        }
+      ],
+      "views": 2106,
+      "buzz": 60,
+      "sourceCheckedAt": "2026-11-06T09:22:55.258Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "29963d374f76ce76831830cb7f834c1b1b371ca1b00f3ee230c1f5aa162f7739",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Tripo AI",
+        "GPT-6 Astra"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "OpenAI выпустила Images 2.6 — масштабное обновление ИИ-генератора изображений ChatGPT. Теперь искусственный интеллект умеет создавать анимированные GIF, превращать обычные наброски в полноценные изображения, быстрее генерировать",
@@ -545,6 +720,48 @@
         "Minimax H3",
         "ComfyUI"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this video, I show how to create a cinematic AI fantasy short film using Claude and Higgsfield, starting with a story idea and turning",
+      "evidenceIds": [
+        3
+      ],
+      "id": "rQkQ7xFVshM",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så skapar du en AI-kortfilm från idé till färdig film",
+      "sum": "Creating with Conor visar ett arbetsflöde för att skapa en filmisk fantasy-kortfilm med Claude och Higgsfield, från berättelse och rollfigur till fyra sammanhängande scener, röster och redigering i CapCut.",
+      "full": "I videon visar kanalen Creating with Conor hur man skapar en AI-baserad fantasy-kortfilm steg för steg. Arbetsflödet börjar med en berättelseidé och använder Claude och Higgsfield för att utveckla filmen, där skaparen dessutom förvandlar sig själv till en gammal trollkarl.\n\nEtt centralt fokus är att hålla rollfigurer, rekvisita och miljöer konsekventa genom filmen. Enligt kanalens beskrivning skapas fyra sammanhängande scener med dialog och filmiska kamerakontroller, vilket placerar kontinuitet och scenisk styrning i centrum för arbetsflödet.\n\nVideon omfattar även skapandet av röster och avslutas med redigering av den färdiga filmen i CapCut. Creating with Conor presenterar därmed en sammanhållen produktionsprocess från idé och visuellt material till dialog, scener och slutredigering. Beskrivningen anger inte vilka specifika modellversioner som används eller hur resultatet har jämförts med andra verktyg.",
+      "deep": "Den namngivna kanalen beskriver arbetsflödet som ett sätt att skapa en filmisk AI-fantasyproduktion snarare än som en fristående verktygslista. De angivna delarna är berättelseutveckling med Claude, generering och styrning i Higgsfield, konsekventa figurer, rekvisita och platser, samt fyra scener som hänger ihop genom dialog och kamerakontroller.\n\nSkaparen använder också sin egen avbildning som grund för en gammal trollkarl. Därefter behandlas röster och redigering i CapCut som delar av samma process. Videon är sponsrad av Higgsfield, och beskrivningen uppger att länkarna är affiliatelänkar; dessa uppgifter är inte i sig delar av den tekniska metoden.",
+      "en": {
+        "ttl": "How to create an AI short film from idea to finished film",
+        "sum": "Creating with Conor presents a workflow for making a cinematic fantasy short film with Claude and Higgsfield, from story and character creation to four connected scenes, voices, and editing in CapCut.",
+        "full": "In the video, the channel Creating with Conor shows how to create an AI-based fantasy short film step by step. The workflow starts with a story idea and uses Claude and Higgsfield to develop the film, with the creator also turning himself into an old wizard.\n\nA central focus is maintaining consistency across characters, props, and locations. According to the channel’s description, the process creates four connected scenes with dialogue and cinematic camera controls, putting continuity and scene direction at the center of the workflow.\n\nThe video also covers voice creation and ends with editing the finished film in CapCut. Creating with Conor therefore presents an end-to-end production process from concept and visual material to dialogue, scenes, and final editing. The description does not specify the model versions used or compare the results with other tools.",
+        "deep": "The named channel describes the workflow as a way to build a cinematic AI production rather than as a standalone list of tools. The stated components are story development with Claude, generation and control in Higgsfield, consistent characters, props, and locations, and four scenes connected through dialogue and camera controls.\n\nThe creator also uses his own likeness as the basis for an old wizard. Voices and editing in CapCut are then treated as parts of the same process. The video is sponsored by Higgsfield, and the description says the links are affiliate links; these details are not themselves part of the technical method."
+      },
+      "cat": "film",
+      "date": "2026-11-04T13:49:34Z",
+      "meta": "Creating with Conor · 2026-11-04",
+      "url": "https://www.youtube.com/watch?v=rQkQ7xFVshM",
+      "img": "https://i.ytimg.com/vi/rQkQ7xFVshM/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "Creating with Conor"
+      ],
+      "parts": [],
+      "views": 11945,
+      "buzz": 69,
+      "sourceCheckedAt": "2026-11-06T09:22:55.258Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "c6f1ab12200dbeecf2a9e22105b9224c7888c66d305deb99513793696bf6a9d6",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -38264,7 +38481,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7190000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -38282,7 +38499,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -38300,7 +38517,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1290000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -38318,7 +38535,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -38336,7 +38553,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6060000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -38354,7 +38571,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -38372,7 +38589,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 623000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -38390,7 +38607,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -38408,7 +38625,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -38426,7 +38643,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -38444,7 +38661,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -38462,7 +38679,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -38480,7 +38697,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -38498,7 +38715,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -38516,7 +38733,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -38534,7 +38751,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -38552,7 +38769,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -38570,7 +38787,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -38588,7 +38805,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -38606,7 +38823,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -38624,7 +38841,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -38642,7 +38859,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -38660,7 +38877,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 772000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -38678,7 +38895,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 279000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -38696,7 +38913,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 766000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -38714,7 +38931,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -38732,7 +38949,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 343000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -38749,8 +38966,8 @@
       "av": "🎬",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 199000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "subscriberCount": 200000,
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -38768,7 +38985,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 493000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -38786,7 +39003,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 458000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -38804,7 +39021,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -38822,7 +39039,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -38840,7 +39057,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -38858,7 +39075,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -38876,7 +39093,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -38884,36 +39101,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-05T21:07:37.712Z",
+    "calculatedAt": "2026-11-06T09:22:55.258Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -38923,48 +39140,48 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 1.128246445488845,
+      "elevenlabs": 1.0726181385828506,
       "elevenmusic": 0,
-      "heygen": 0,
-      "kling-3-0": 0.48413100343877424,
+      "heygen": 0.954719859628431,
+      "kling-3-0": 0.4602608745766972,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.916452877027524,
+      "higgsfield": 5.509562257243196,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.7965004458009957,
+      "meshy-ai": 2.6586187040203995,
       "magnific-ai": 0,
-      "seedance-2-5": 3.412254351487722,
+      "seedance-2-5": 4.198732659755775,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.397430998451101,
-      "nano-banana-pro": 0.33332188678720626,
-      "nano-banana-2": 0.05893438616685292,
+      "wan-3-0": 1.3285305195064443,
+      "nano-banana-pro": 0.316887416915112,
+      "nano-banana-2": 0.056028620202231885,
       "seedream-4": 0,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.5879982150268557,
+      "hunyuan3d": 0.5590069026265594,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.4150669080222724,
+      "luma-genie": 0.3946019914800528,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.3657561047099207,
+      "gemini-omni-flash": 0.3477224623909955,
       "luma-agents": 0
     }
   },

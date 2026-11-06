@@ -1,59 +1,60 @@
 {
-  "startedAt": "2026-11-05T21:05:01.644Z",
+  "startedAt": "2026-11-06T09:22:55.258Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-05T21:05:01.644Z",
+      "checkedAt": "2026-11-06T09:22:55.258Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 139,
-    "relevant": 40,
-    "supported": 31
+    "fetched": 144,
+    "relevant": 49,
+    "supported": 37
   },
   "rejected": [
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         2
+      ]
+    },
+    {
+      "video": "Ao9IQyaH0fk",
+      "title": "“Tesla Hater” Finally Tries Full Self Driving",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        4
       ]
     },
     {
@@ -82,6 +83,39 @@
         1,
         10,
         19
+      ]
+    },
+    {
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        18,
+        19,
+        21,
+        22,
+        25
+      ]
+    },
+    {
+      "video": "T88rCFg7qeQ",
+      "title": "OpenAI Images 2.6: what's new beyond speed?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        5,
+        7
+      ]
+    },
+    {
+      "video": "EjH0DPxo534",
+      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        6
       ]
     },
     {
@@ -118,33 +152,23 @@
       ]
     },
     {
-      "video": "L0fLLr5Oej0",
-      "title": "How I Use Claude in My Video Edits",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "lZes3U_WIug",
-      "title": "Generate Worlds in Real-Time (Free & Open Source)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "hniPlxcQ7X4",
       "title": "What will people REALLY use these for?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LjaJPfGRRWM",
-      "title": "ChatGPT vs Claude: Who Edited It Better?",
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
       "stage": "insufficient-article-source"
     },
     {
@@ -158,18 +182,13 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "LjaJPfGRRWM",
+      "title": "ChatGPT vs Claude: Who Edited It Better?",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "LrWBxoHR-xY",
       "title": "Aesthetic Trending Photo Editing🌻💛 || Chatgpt Photo Editing #chatgpt #gemini #photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5OFZ_3eoBNk",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "REFPLcTLH3Q",
-      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -180,6 +199,16 @@
     {
       "video": "_Whwv5v_6U0",
       "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lta6ylX7JE8",
+      "title": "Free AI 3D Model Generator Promo Video",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "REFPLcTLH3Q",
+      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     }
   ],
