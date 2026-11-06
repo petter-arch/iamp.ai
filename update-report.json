@@ -1,60 +1,73 @@
 {
-  "startedAt": "2026-11-06T09:22:55.258Z",
+  "startedAt": "2026-11-06T20:26:25.539Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "OWr3IU82bJ8",
+      "message": "Unknown platform ID"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-06T09:22:55.258Z",
+      "checkedAt": "2026-11-06T20:26:25.539Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 144,
-    "relevant": 49,
-    "supported": 37
+    "fetched": 147,
+    "relevant": 50,
+    "supported": 41
   },
   "rejected": [
     {
-      "video": "0eIjJinYgmk",
-      "title": "FREE + LOCAL: Image to 3D for LOW Vram",
+      "video": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
+        13
+      ]
+    },
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
         1,
         2
       ]
     },
     {
-      "video": "Ao9IQyaH0fk",
-      "title": "“Tesla Hater” Finally Tries Full Self Driving",
+      "video": "0eIjJinYgmk",
+      "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        4
+        1,
+        2
       ]
     },
     {
@@ -62,8 +75,7 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -71,8 +83,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -80,23 +91,9 @@
       "title": "Google Genie 4 is WILD! (Full Breakdown)",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
-        10,
-        19
-      ]
-    },
-    {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        18,
-        19,
-        21,
-        22,
-        25
+        10
       ]
     },
     {
@@ -106,40 +103,17 @@
       "evidenceIds": [
         2,
         5,
-        7
+        8
       ]
     },
     {
-      "video": "EjH0DPxo534",
-      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
+      "video": "JXnA9mejq4o",
+      "title": "How to Create a Cute 3D Hamster with Triverse & Blender",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        6
-      ]
-    },
-    {
-      "video": "3vG6BmXYjw0",
-      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "8GR7NLCqYqA",
-      "title": "Minecraft 3D Model Generator: AI King Cobra in Blockbench",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "43QraAPKXGU",
-      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
+        2,
+        3,
+        5
       ]
     },
     {
@@ -152,33 +126,8 @@
       ]
     },
     {
-      "video": "hniPlxcQ7X4",
-      "title": "What will people REALLY use these for?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "L0fLLr5Oej0",
-      "title": "How I Use Claude in My Video Edits",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "Q6xJOpTylco",
       "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QwzgUvqpleg",
-      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
@@ -187,30 +136,50 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LrWBxoHR-xY",
-      "title": "Aesthetic Trending Photo Editing🌻💛 || Chatgpt Photo Editing #chatgpt #gemini #photoediting",
+      "video": "QwzgUvqpleg",
+      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "YbCkKuayRfk",
-      "title": "Why AI Video Could Become the Biggest Opportunity for Independent Filmmakers @HiggsfieldAI @20VC",
+      "video": "4JVLuVRCJlc",
+      "title": "New Chatgpt Ai Photo Edit 😍 | Instagram Trending Ai Photo Editing Prompt #viral",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "_Whwv5v_6U0",
-      "title": "AI Video Is Changing Who Gets to Make Hollywood-Level Content @HiggsfieldAI @20VC",
+      "video": "ZGdq1tMdmRM",
+      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "lta6ylX7JE8",
-      "title": "Free AI 3D Model Generator Promo Video",
+      "video": "KJuu4n9YcCE",
+      "title": "GPT Image 2.6: AI Image Generation & Editing | MICT",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "REFPLcTLH3Q",
-      "title": "The Technology Behind the Next Generation of Visual Storytelling 👀 @HiggsfieldAI  @20VC",
+      "video": "XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "SrRD2bxotLI",
+      "title": "AI Video Could Rewrite the Rules of Hollywood 🎬 @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "7LtY7Chm2kw",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3vG6BmXYjw0",
+      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FUtSCIt-g6Y",
+      "title": "Tripo AI or Hi3D? Here’s How I Choose for 3D Printing",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 10
 }

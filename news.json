@@ -1,6 +1,695 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "In this quick tutorial, Caleb shows you how to strip the music out of any clip using SAM Audio, Meta’s free sound isolation tool. That",
+    "evidenceIds": [
+      1,
+      10,
+      12
+    ],
+    "id": "u78B727zbRI",
+    "tag": "aud",
+    "lab": "Ljud",
+    "ico": "🎵",
+    "ttl": "Så tar du bort musik från AI-video med SAM Audio",
+    "sum": "Curious Refuge visar hur SAM Audio från Meta kan isolera och ta bort musik från videoklipp, så att ljudeffekter kan behållas och ny musik läggas till i redigeringen.",
+    "full": "Curious Refuge publicerar en genomgång av hur man tar bort musik från AI-genererade videoklipp med SAM Audio, Metas kostnadsfria verktyg för ljudisolering. Enligt kanalens beskrivning kan arbetsflödet användas för att separera musik från resten av ljudet i ett klipp.\n\nI genomgången laddar Caleb upp ett Seedance-klipp och använder en textprompt för att isolera ljudet. Beskrivningen anger att arbetsflödet kan användas på två sätt: för att skapa en version med enbart musik eller en version med enbart ljudeffekter. Det gör det möjligt att behålla exempelvis scenljud och därefter lägga till egen musik i ett redigeringsprogram.\n\nCurious Refuge illustrerar metoden med en kafferelaterad scen och en science fiction-scen. Kanalen uppger också att verktyget fungerar på vanligt videomaterial, inte bara på AI-klipp. Artikeln bygger på kanalens beskrivning av videon och är inte en oberoende testning av SAM Audio.",
+    "deep": "Videons tidsangivelser beskriver ett specifikt arbetsflöde: först presenteras problemet med musik i AI-video, därefter introduceras SAM Audio och ett Seedance-klipp laddas upp. Nästa steg är att isolera musiken med en prompt, följt av jämförelser mellan musik isolerad för sig och ljudeffekter isolerade för sig.\n\nDen centrala användningen enligt Curious Refuge är efterbearbetning. Om ett AI-klipp innehåller musik som inte passar den tänkta versionen kan användaren isolera musikspåret, behålla ljudeffekterna och lägga in ett eget musikspår i redigeraren. Beskrivningen anger inte hur väl separationen fungerar i olika ljudmiljöer eller vilka tekniska begränsningar som gäller.",
+    "en": {
+      "ttl": "How to remove music from AI video with SAM Audio",
+      "sum": "Curious Refuge shows how SAM Audio from Meta can isolate and remove music from video clips, allowing sound effects to be retained and new music to be added during editing.",
+      "full": "Curious Refuge publishes a walkthrough of removing music from AI-generated video clips with SAM Audio, Meta’s free sound isolation tool. According to the channel’s description, the workflow can separate music from the rest of the audio in a clip.\n\nIn the walkthrough, Caleb uploads a Seedance clip and uses a text prompt to isolate the audio. The description identifies two possible outputs: a music-only version and a sound-effects-only version. This allows users to preserve scene audio and then add their own music in an editor.\n\nCurious Refuge demonstrates the method with a coffee scene and a science-fiction scene. The channel also says the tool works on regular footage, not only AI clips. This article is based on the channel’s description and is not an independent test of SAM Audio.",
+      "deep": "The video’s time codes outline a specific workflow: it introduces the AI music problem, presents SAM Audio, uploads a Seedance clip, and then isolates the music with a prompt. It also compares music-only and sound-effects-only results.\n\nAccording to Curious Refuge, the main use case is post-production. If an AI clip contains music that does not fit the intended version, the user can isolate the music, preserve the sound effects, and add a new music track in an editor. The description does not state how well the separation performs in different audio environments or what technical limitations apply."
+    },
+    "cat": "ljud",
+    "date": "2026-11-06T19:58:39Z",
+    "meta": "Curious Refuge · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=u78B727zbRI",
+    "img": "https://i.ytimg.com/vi/u78B727zbRI/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Curious Refuge"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "The AI music problem"
+      },
+      {
+        "t": 44,
+        "l": "Meet SAM Audio from Meta"
+      },
+      {
+        "t": 69,
+        "l": "Uploading your Seedance clip"
+      },
+      {
+        "t": 141,
+        "l": "Isolating the music with a prompt"
+      },
+      {
+        "t": 177,
+        "l": "Music-only vs. sound effects-only"
+      },
+      {
+        "t": 261,
+        "l": "Example: Coffee scene"
+      },
+      {
+        "t": 343,
+        "l": "Example: Sci-fi scene"
+      },
+      {
+        "t": 411,
+        "l": "Works on any footage"
+      },
+      {
+        "t": 431,
+        "l": "Join Curious Refuge"
+      }
+    ],
+    "views": 56,
+    "buzz": 41,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "6d72cb8f26a1979934c25025f894bbd1c55430cc9ab9f099a367c450db2631c5",
+    "trusted": true,
+    "sourceId": "curiousrefuge",
+    "newPlatforms": [
+      "SAM Audio",
+      "Seedance"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Custom GIFs are now part of ChatGPT Images 2.6, alongside new options for creating and editing visuals. This week’s AI updates also bring improvements to",
+    "evidenceIds": [
+      5,
+      6
+    ],
+    "id": "5LkRDoGVook",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "ChatGPT Images 2.6 får GIF:er och fler verktyg för att skapa och redigera bilder",
+    "sum": "The AI Advantage beskriver ChatGPT Images 2.6 som en uppdatering med stöd för anpassade GIF:er samt nya alternativ för att skapa och redigera visuellt innehåll.",
+    "full": "The AI Advantage rapporterar att ChatGPT Images 2.6 har fått stöd för anpassade GIF:er. Uppdateringen presenteras tillsammans med nya alternativ för att skapa och redigera visuellt innehåll, vilket gör rörliga bilder till en uttryckligen nämnd del av arbetsflödet.\n\nEnligt kanalens beskrivning ingår funktionerna i en bredare uppsättning AI-uppdateringar som även omfattar förbättringar av Dots och verktyg för privatekonomi. De praktiska användningsområden som nämns är bland annat att skydda kalendern och följa Black Friday-erbjudanden, men beskrivningen ger inga ytterligare tekniska detaljer om hur dessa funktioner fungerar.\n\nVideon från The AI Advantage fokuserar därmed främst på ChatGPT Images 2.6 som ett verktyg för visuellt skapande och redigering, med anpassade GIF:er som den tydligast angivna nyheten. Uppgifterna återges som kanalens beskrivning och bygger inte på en självständig testning.",
+    "deep": "Källmaterialet anger inte vilka GIF-format, exportalternativ, redigeringskontroller eller begränsningar som gäller. Det specificerar inte heller om GIF:erna skapas från text, befintliga bilder eller andra indata. Därför går det inte att dra slutsatser om kvalitet, hastighet, upplösning eller arbetsflödets exakta steg.\n\nBeskrivningen nämner en länk till OpenAI:s sida om ChatGPT Images 2.6, men den sidan ingår inte i det tillhandahållna videomaterialet. Några separata lanseringsdatum, versionsdetaljer utöver namnet eller uppgifter om tillgänglighet anges inte i källan.",
+    "en": {
+      "ttl": "ChatGPT Images 2.6 adds GIFs and more tools for creating and editing images",
+      "sum": "The AI Advantage describes ChatGPT Images 2.6 as an update with support for custom GIFs and new options for creating and editing visual content.",
+      "full": "The AI Advantage reports that ChatGPT Images 2.6 now supports custom GIFs. The update is presented alongside new options for creating and editing visual content, making animated images an explicitly mentioned part of the workflow.\n\nAccording to the channel's description, these features are part of a broader set of AI updates that also includes improvements to Dots and personal finance tools. The practical uses mentioned include protecting a calendar and tracking Black Friday deals, but the description provides no further technical details about how those features work.\n\nThe video from The AI Advantage therefore focuses primarily on ChatGPT Images 2.6 as a tool for visual creation and editing, with custom GIFs as the clearest stated new feature. The information is attributed to the channel's description and is not based on independent testing.",
+      "deep": "The source does not specify which GIF formats, export options, editing controls, or limitations apply. It also does not say whether GIFs are created from text, existing images, or other inputs. Quality, speed, resolution, and the exact workflow steps therefore cannot be established.\n\nThe description includes a link to OpenAI's page about ChatGPT Images 2.6, but that page is not part of the supplied video material. No separate launch dates, version details beyond the name, or availability information are provided in the source."
+    },
+    "cat": "foto",
+    "date": "2026-11-06T19:28:35Z",
+    "meta": "The AI Advantage · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=5LkRDoGVook",
+    "img": "https://i.ytimg.com/vi/5LkRDoGVook/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "The AI Advantage"
+    ],
+    "parts": [],
+    "views": 495,
+    "buzz": 52,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "9570b833c7804851e12607954e7ac668481faec61714e8d9a131505129c0f1d8",
+    "trusted": true,
+    "sourceId": "aiadvantage",
+    "newPlatforms": [
+      "ChatGPT Images 2.6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "This week’s AI news covers OpenAI’s GPT-Image 2.6, Google Gemini Omni 1.2 Flash, and the latest AI tools for creating images, generating videos, and getting",
+    "evidenceIds": [
+      2,
+      3,
+      19
+    ],
+    "id": "IrAHINf0M6E",
+    "tag": "mdl",
+    "lab": "Teknik",
+    "ico": "⚙️",
+    "ttl": "AI-nyheter: nya bild-, video- och röstmodeller i Matt Wolfes veckogenomgång",
+    "sum": "Matt Wolfe sammanfattar nya AI-uppdateringar från OpenAI, Google och andra aktörer, med fokus på bildredigering, animerade GIF:ar, videogenerering, öppna modeller och röstfunktioner.",
+    "full": "I en veckogenomgång beskriver Matt Wolfe flera AI-nyheter med tonvikt på nya modeller och praktiska användningsområden. Enligt kanalens beskrivning omfattar genomgången OpenAI:s GPT-Image 2.6, Google Gemini Omni 1.2 Flash och verktyg för att skapa bilder, generera video och utföra uppgifter. Videon innehåller demonstrationer av ChatGPT:s skapande av animerade GIF:ar och bildredigering samt Googles kostnadsfria videogenerering.\n\nEtt centralt ämne är GPT-Image 2.6. Tidsstämplarna anger separata delar för GIF-skapande, redigering av animerade GIF:ar och ett hastighetstest. Beskrivningen ger däremot inga konkreta resultat från testet eller detaljer om testmetoden, så Matt Wolfe:s genomgång kan endast återges som en demonstration och rapportering av uppdateringen, inte som ett oberoende test.\n\nGenomgången tar också upp Prunas PH3 Image och Pika H3 Flex, där den senare beskrivs som en modell med öppna vikter. Tidsstämplarna visar dessutom delar om hårdvarukrav och demonstrationer på Hugging Face. Det ger videon ett tydligt arbetsflödesperspektiv: tittaren får se var modellerna kan provas och vilka tekniska krav som diskuteras, men källbeskrivningen anger inte de exakta kraven eller modellernas prestanda.\n\nPå videosidan nämns Googles kostnadsfria videogenerering i Google Vids, inklusive ett avatartest, samt Pika H3 Flex för öppen videogenerering. Matt Wolfe tar även upp röst- och videosamtal med Meta Muse och en ny telefonfunktion för Grokbot. Dessa exempel visar hur kanalens nyhetsurval sträcker sig från generativt innehåll till AI-baserade samtalsfunktioner.\n\nBland övriga nyheter nämns Claude med bankkontointegration, Kimi K3.1 Pro, GPT-6 Cyber och delade användningsgränser mellan ChatGPT och Codex. Beskrivningen nämner också ett AI-videoredigeringsverktyg kopplat till Steve Aoki, Netflix AI Discover-flik och Googles AI i rymden. De här punkterna presenteras som en snabb sammanfattning och har inte tillräckligt med detaljer i källmaterialet för en separat teknisk genomgång.",
+    "deep": "Källbeskrivningen anger 14 AI-uppdateringar och listar ett arbetsflöde som kombinerar bildskapande, GIF-animering, bildredigering, videogenerering, avatarvideo och röst- eller telefonsamtal. För bilddelen nämns GPT-Image 2.6 samt Prunas PH3 Image. För video nämns Google Vids och Pika H3 Flex, medan Meta Muse och Grokbot representerar röstbaserade funktioner.\n\nTidsstämplarna specificerar att avsnitten om GPT-Image 2.6 behandlar GIF-skapande, redigering av animerade GIF:ar och ett hastighetstest. De anger även ett avsnitt om hårdvarukrav för Pruna PH3 Image och en Hugging Face-demonstration. Eftersom den levererade källtexten inte innehåller resultat, mått eller tekniska specifikationer bör dessa delar inte tolkas mer långtgående än att de förekommer i Matt Wolfes video.\n\nVideons beskrivning säger att Google Gemini Omni 1.2 Flash ingår i nyhetsurvalet, men registren innehåller ingen exakt motsvarande plattform. Därför kopplas den inte till något plattforms-ID här. Inte heller GPT-Image 2.6, Pruna PH3 Image, Pika H3 Flex, Meta Muse eller Grokbot finns som exakta poster i registret och anges därför inte som registrerade plattformar.",
+    "en": {
+      "ttl": "AI news: new image, video and voice models in Matt Wolfe’s weekly roundup",
+      "sum": "Matt Wolfe summarizes new AI updates from OpenAI, Google and other companies, focusing on image editing, animated GIFs, video generation, open-weight models and voice features.",
+      "full": "In a weekly roundup, Matt Wolfe covers several AI developments centered on new models and practical use cases. According to the channel description, the episode includes OpenAI’s GPT-Image 2.6, Google Gemini Omni 1.2 Flash, and tools for creating images, generating video and completing tasks. The video includes demonstrations of ChatGPT creating animated GIFs and editing images, as well as Google’s free video generation.\n\nA central topic is GPT-Image 2.6. The timestamps identify separate sections for GIF creation, editing animated GIFs and a speed test. However, the description provides no specific results or test methodology, so Matt Wolfe’s coverage can only be reported as a demonstration and news roundup, not as an independent test.\n\nThe roundup also covers Pruna’s PH3 Image and Pika H3 Flex, with the latter described as an open-weight model. The timestamps also show sections on hardware requirements and demonstrations on Hugging Face. This gives the video a workflow-oriented angle: viewers are shown where models can be tried and which technical requirements are discussed, but the supplied description does not state the exact requirements or performance.\n\nOn the video side, the description mentions free video generation in Google Vids, including an avatar test, as well as Pika H3 Flex for open video generation. Matt Wolfe also covers voice and video calls with Meta Muse and a new phone-calling feature for Grokbot. These examples extend the roundup from generative media to AI-based conversational functions.\n\nOther items include Claude with bank-account integration, Kimi K3.1 Pro, GPT-6 Cyber and shared usage limits between ChatGPT and Codex. The description also mentions an AI video editor connected to Steve Aoki, Netflix’s AI Discover tab and Google running AI in space. These are presented as rapid-fire items and do not have enough detail in the supplied source for separate technical coverage.",
+      "deep": "The source description says the episode covers 14 AI updates and outlines a workflow spanning image creation, GIF animation, image editing, video generation, avatar video and voice or phone calls. The image section mentions GPT-Image 2.6 and Pruna’s PH3 Image. The video section mentions Google Vids and Pika H3 Flex, while Meta Muse and Grokbot represent voice-based features.\n\nThe timestamps specify that the GPT-Image 2.6 sections cover GIF creation, animated GIF editing and a speed test. They also identify a hardware-requirements segment for Pruna PH3 Image and a Hugging Face demonstration. Because the supplied source text contains no results, measurements or technical specifications, these parts should not be interpreted beyond their presence in Matt Wolfe’s video.\n\nThe description says Google Gemini Omni 1.2 Flash is part of the roundup, but the registry contains no exact matching platform. It is therefore not assigned a platform ID. GPT-Image 2.6, Pruna PH3 Image, Pika H3 Flex, Meta Muse and Grokbot are also absent as exact registry entries and are consequently listed only as new platform names."
+    },
+    "cat": "tech",
+    "date": "2026-11-06T18:20:31Z",
+    "meta": "Matt Wolfe · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=IrAHINf0M6E",
+    "img": "https://i.ytimg.com/vi/IrAHINf0M6E/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Matt Wolfe"
+    ],
+    "parts": [
+      {
+        "t": 5,
+        "l": "OpenAI Images 2.6"
+      },
+      {
+        "t": 23,
+        "l": "GIF Generation Demo"
+      },
+      {
+        "t": 46,
+        "l": "Editing Animated GIFs"
+      },
+      {
+        "t": 92,
+        "l": "Speed Test Results"
+      },
+      {
+        "t": 137,
+        "l": "Pruna PH3 Image"
+      },
+      {
+        "t": 195,
+        "l": "Hardware Requirements"
+      },
+      {
+        "t": 245,
+        "l": "Try It on Hugging Face"
+      },
+      {
+        "t": 305,
+        "l": "Optimizely Virtual Teammates"
+      },
+      {
+        "t": 371,
+        "l": "Gemini Omni 1.2 Flash"
+      },
+      {
+        "t": 478,
+        "l": "Free Videos in Google Vids"
+      },
+      {
+        "t": 508,
+        "l": "Avatar Video Test"
+      },
+      {
+        "t": 570,
+        "l": "Pika H3 Flex Open Video"
+      },
+      {
+        "t": 649,
+        "l": "Pika Hugging Face Demo"
+      },
+      {
+        "t": 718,
+        "l": "Meta Muse Voice Calls"
+      },
+      {
+        "t": 851,
+        "l": "GroqBot Phone Calling"
+      },
+      {
+        "t": 1029,
+        "l": "OpenAI GPT-6 Cyber"
+      },
+      {
+        "t": 1044,
+        "l": "ChatGPT & Codex Shared Usage Limits"
+      },
+      {
+        "t": 1056,
+        "l": "Kimi K3.1 Pro Open Weights Released"
+      },
+      {
+        "t": 1113,
+        "l": "Connect Your Bank Account to Claude"
+      },
+      {
+        "t": 1160,
+        "l": "Steve Aoki’s AI Video Editor"
+      },
+      {
+        "t": 1196,
+        "l": "Netflix’s AI Discover Tab"
+      },
+      {
+        "t": 1226,
+        "l": "Almost Nobody Uses AI Agents for Delivery"
+      },
+      {
+        "t": 1314,
+        "l": "Google Runs AI in Space"
+      },
+      {
+        "t": 1355,
+        "l": "Why News Was Slow"
+      }
+    ],
+    "views": 5351,
+    "buzz": 65,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "df1289bae2c51a35b1fbb5a48d9a6a29f76b0efd605c55ee6abfa5dc406d3212",
+    "trusted": true,
+    "sourceId": "mreflow",
+    "newPlatforms": [
+      "GPT-Image 2.6",
+      "Google Gemini Omni 1.2 Flash",
+      "Pruna PH3 Image",
+      "Pika H3 Flex",
+      "Meta Muse",
+      "Grokbot"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "CAD has always been the biggest barrier to making 3D printed products. That's changing fast. We're building tools that allow anyone to create custom 3D",
+    "evidenceIds": [
+      2,
+      3,
+      4
+    ],
+    "id": "SD8ji9fRXeU",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Slant 3D gör AI-generering av 3D-modeller tillgänglig för fler",
+    "sum": "Slant 3D beskriver Slant Tools som ett AI-drivet verktyg för att skapa anpassade 3D-modeller och beställa fysiska produkter utan CAD-erfarenhet eller egen 3D-skrivare.",
+    "full": "Slant 3D uppger att CAD länge har varit det största hindret för att ta fram 3D-printade produkter. I videon presenterar kanalen Slant Tools, en AI-driven tjänst för 3D-modellgenerering som ska göra det möjligt för fler att skapa anpassade fysiska objekt utan tidigare CAD-kunskaper.\n\nEnligt beskrivningen riktar sig arbetsflödet bland annat till personer som behöver ersättningsdelar eller anpassade verktygsorganisatörer. Målet är att användaren ska kunna gå från idé till en beställningsbar produkt, även utan att äga en 3D-skrivare. Slant 3D kopplar därmed ihop AI-generering av modeller med tillverkning på begäran.\n\nKanalen tar samtidigt upp begränsningarna hos AI-genererade modeller och beskriver hur Slant Tools ska göra resultaten mer tillförlitliga. Beskrivningen anger inte exakt vilka modellformat, indata eller valideringsmetoder som används, så det går inte att dra slutsatser om den tekniska precisionen eller vilka typer av konstruktioner som stöds.\n\nSlant 3D framställer utvecklingen som ett steg mot att göra fysisk produkttillverkning mer tillgänglig. För användaren innebär det enligt kanalen att delar kan beställas från en ansluten 3D-utskriftstjänst i stället för att produceras hemma. Tjänstens konkreta funktioner och begränsningar behöver dock bedömas utifrån mer teknisk dokumentation eller praktisk användning än vad som framgår här.",
+    "deep": "Slant 3D beskriver ett arbetsflöde där digital modellgenerering och tillverkning på begäran kombineras. Beskrivningen nämner både anpassade produkter och vanliga användningsfall som ersättningsdelar och verktygsorganisatörer. Den anger också att tjänsten är tänkt för användare som saknar CAD-erfarenhet och egen 3D-skrivare.\n\nKanalens beskrivning placerar Slant Tools i en bredare idé om digitala lager: delar kan lagras digitalt och produceras först när de behövs. Slant 3D uppger dessutom att företagets utskriftstjänst använder många FDM-skrivare och kan hantera varierande produktionsvolymer, men dessa uppgifter gäller företagets tjänst och ska inte förväxlas med en oberoende utvärdering av Slant Tools eller AI-modellernas kvalitet.\n\nBeskrivningen innehåller inga uppgifter om lanseringsdatum, pris, licensvillkor, tillgängliga exportformat, materialstöd eller resultatens måttnoggrannhet. Den ger därför stöd för att rapportera om det presenterade AI-arbetsflödet, men inte för att bedöma om modellerna fungerar för säkerhetskritiska eller tekniskt komplexa delar.",
+    "en": {
+      "ttl": "Slant 3D makes AI 3D model generation more accessible",
+      "sum": "Slant 3D describes Slant Tools as an AI-powered service for creating custom 3D models and ordering physical products without CAD experience or a 3D printer.",
+      "full": "Slant 3D says CAD has long been the biggest barrier to creating 3D-printed products. In the video, the channel presents Slant Tools, an AI-powered 3D model generation service intended to help more people create custom physical objects without prior CAD experience.\n\nAccording to the description, the workflow is aimed at use cases including replacement parts and custom tool organizers. The goal is to let users move from an idea to an orderable product even if they do not own a 3D printer. Slant 3D therefore connects AI model generation with on-demand manufacturing.\n\nThe channel also discusses limitations in AI-generated models and describes Slant Tools as an effort to make the results more reliable. The description does not specify the exact model formats, inputs or validation methods, so it does not support conclusions about technical accuracy or the types of designs the service can handle.\n\nSlant 3D presents the development as a way to make physical product manufacturing more accessible. For users, the channel says this means parts can be ordered through a connected 3D-printing service instead of being produced at home. The service’s precise capabilities and limitations would require more technical documentation or hands-on use than is provided here.",
+      "deep": "Slant 3D describes a workflow that combines digital model generation with on-demand manufacturing. The description mentions custom products and use cases such as replacement parts and tool organizers. It also states that the service is intended for users without CAD experience or their own 3D printer.\n\nThe channel places Slant Tools within a broader idea of digital warehouses: parts can be stored digitally and produced only when needed. Slant 3D also says its printing service uses many FDM printers and can handle varying production volumes, but those statements concern the company’s service and are not an independent evaluation of Slant Tools or the quality of its AI-generated models.\n\nThe description provides no information about launch date, pricing, licensing, export formats, material support or dimensional accuracy. It therefore supports reporting on the presented AI workflow, but not claims that the models are suitable for safety-critical or technically complex parts."
+    },
+    "cat": "3d",
+    "date": "2026-11-06T18:00:35Z",
+    "meta": "Slant 3D · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=SD8ji9fRXeU",
+    "img": "https://i.ytimg.com/vi/SD8ji9fRXeU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Slant 3D"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "CAD Is the Bottleneck"
+      },
+      {
+        "t": 28,
+        "l": "The Problem With Finding 3D Models"
+      },
+      {
+        "t": 68,
+        "l": "Making 3D Printing Accessible"
+      },
+      {
+        "t": 83,
+        "l": "AI Changes 3D Modeling"
+      },
+      {
+        "t": 131,
+        "l": "The Problem With AI-Generated Models"
+      },
+      {
+        "t": 156,
+        "l": "Making AI Models More Reliable"
+      },
+      {
+        "t": 194,
+        "l": "AI Is Finally Getting Good"
+      },
+      {
+        "t": 218,
+        "l": "What Makes a 3D Model Valuable?"
+      },
+      {
+        "t": 260,
+        "l": "Introducing Slant Tools"
+      },
+      {
+        "t": 283,
+        "l": "Creating Custom Tool Organizers"
+      },
+      {
+        "t": 311,
+        "l": "Order Parts Without Owning a Printer"
+      },
+      {
+        "t": 327,
+        "l": "3D Printing for Everyone"
+      },
+      {
+        "t": 358,
+        "l": "The Future of On-Demand Manufacturing"
+      },
+      {
+        "t": 420,
+        "l": "The Opportunity for Developers"
+      },
+      {
+        "t": 455,
+        "l": "What's Next for Slant Tools"
+      }
+    ],
+    "views": 1111,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "17664dc3ebb478675ecd9e67a6df95eaefeb9349e3567ff30fbb0b18e2b420fe",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Slant Tools"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Minecraft 3D Model Generator: AI-Made Fairy Ring in Blockbench I asked for a ring of tiny mushrooms and got a full 3D model back 🍄",
+    "evidenceIds": [
+      0,
+      1
+    ],
+    "id": "-e-8TF-_dQs",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI skapar en 3D-modell av en sagoring i Blockbench",
+    "sum": "Spaleforce visar en AI-baserad Minecraft 3D Model Generator som omvandlar en beskrivning av en ring med små svampar till en färdig 3D-modell för Blockbench. Modellen består enligt kanalens beskrivning av 271 kuber och kan läggas direkt i en Minecraft-värld.",
+    "full": "Spaleforce visar ett AI-arbetsflöde för att skapa Minecraft-innehåll i Blockbench. Utgångspunkten är en begäran om en ring med små svampar, varefter verktyget enligt kanalens beskrivning returnerar en komplett 3D-modell.\n\nResultatet uppges bestå av 271 kuber och vara färdigt att läggas direkt i en Minecraft-värld. Det pekar på ett konkret användningsfall för modskapare, resurs­paket och spelutveckling som vill gå från en enkel idé till en kubbaserad modell utan att bygga hela strukturen manuellt.\n\nVideon heter “Minecraft 3D Model Generator: AI-Made Fairy Ring in Blockbench”. Spaleforce presenterar därmed inte en allmän genomgång av 3D-modellering, utan ett specifikt AI-genererat objekt: en sagolik svampring anpassad för Minecrafts visuella uttryck. Beskrivningen innehåller däremot inga uppgifter om modellens exportformat, vilka indata som krävs eller hur verktyget hanterar efterredigering i Blockbench.",
+    "deep": "Den enda konkreta modellen som nämns är en ring med små svampar. Enligt Spaleforce blev resultatet en fullständig 3D-modell med 271 kuber, avsedd att kunna placeras direkt i en Minecraft-värld. Källan anger inte vilken AI-modell som används, om genereringen sker från text eller annan indata, eller om modellen genomgår manuell bearbetning före användning.\n\nKällan nämner Minecraft, Blockbench, Minecraft-modifikationer, spelutveckling och resurs­paket som sammanhang, men beskriver inte tekniska begränsningar, kvalitetsmått eller kompatibilitet utöver den uppgivna användningen i en Minecraft-värld. Videon publicerades 2026-11-06, vilket inte i sig anger något produktlanseringsdatum.",
+    "en": {
+      "ttl": "AI creates a 3D model of a fairy ring in Blockbench",
+      "sum": "Spaleforce showcases an AI-based Minecraft 3D Model Generator that turns a description of a ring with tiny mushrooms into a finished 3D model for Blockbench. According to the channel’s description, the model consists of 271 cubes and can be placed directly into a Minecraft world.",
+      "full": "Spaleforce showcases an AI workflow for creating Minecraft content in Blockbench. The starting point is a request for a ring of tiny mushrooms, after which the tool reportedly returns a complete 3D model.\n\nThe result is said to consist of 271 cubes and to be ready to place directly into a Minecraft world. This represents a concrete use case for mod creators, resource packs and game development teams that want to move from a simple idea to a voxel-style model without building the entire structure manually.\n\nThe video is titled “Minecraft 3D Model Generator: AI-Made Fairy Ring in Blockbench”. Spaleforce therefore presents a specific AI-generated object rather than a general 3D-modelling tutorial: a mushroom ring adapted to Minecraft’s visual style. The description does not provide details about the model’s export format, required inputs or how the tool handles editing in Blockbench.",
+      "deep": "The only specific model mentioned is a ring of tiny mushrooms. According to Spaleforce, the result is a complete 3D model with 271 cubes, intended to be placed directly into a Minecraft world. The source does not identify the AI model used, explain whether generation starts from text or another input, or state whether the model is manually edited before use.\n\nThe source mentions Minecraft, Blockbench, Minecraft mods, game development and resource packs as contexts, but provides no technical limitations, quality measurements or compatibility details beyond the stated use in a Minecraft world. The video was uploaded on 2026-11-06; that date does not by itself indicate a product release date."
+    },
+    "cat": "3d",
+    "date": "2026-11-06T17:21:13Z",
+    "meta": "Spaleforce · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=-e-8TF-_dQs",
+    "img": "https://i.ytimg.com/vi/-e-8TF-_dQs/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Spaleforce"
+    ],
+    "parts": [],
+    "views": 27,
+    "buzz": 37,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "80f17f6dd9fa1ab16d114a68c82224c457028a85976c91dd4d8e346fee045881",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Minecraft 3D Model Generator",
+      "Blockbench"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "OpenAI’s GPT Image 2.6 is here! ChatGPT Images 2.6 brings 50% faster AI image generation, improved image editing, better character consistency, and animated GIF creation.",
+    "evidenceIds": [
+      1,
+      2,
+      5
+    ],
+    "id": "YEpQS-ZJUdU",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "GPT Image 2.6 ger ChatGPT snabbare bildskapande och GIF-animation",
+    "sum": "AI Learners India beskriver OpenAI:s GPT Image 2.6 som en uppdatering med 50 procent snabbare bildgenerering, förbättrad bildredigering, bättre konsekvens för figurer och produkter samt skapande av animerade GIF-bilder.",
+    "full": "AI Learners India beskriver OpenAI:s GPT Image 2.6 som en större uppdatering av ChatGPT:s bildfunktioner. Enligt kanalens beskrivning omfattar uppdateringen 50 procent snabbare AI-bildgenerering, förbättrad bildredigering och bättre konsekvens för återkommande figurer och produkter.\n\nEtt centralt nytt användningsområde är skapandet av animerade GIF-bilder. Kanalens genomgång ska även ta upp hur ChatGPT:s AI-bildgenerering och avancerade redigeringsfunktioner kan användas i praktiskt skapande.\n\nBeskrivningen riktar sig särskilt till YouTubers, innehållsskapare, grafiska formgivare, frilansare och företag. AI Learners India presenterar GPT Image 2.6 som ett verktyg för arbetsflöden där samma figur eller produkt behöver behålla en mer enhetlig framtoning över flera bilder. Videon ska också behandla GPT Image 2.6:s funktioner och jämförelsen Sunburst kontra Flare.\n\nUppgifterna kommer från AI Learners India:s videobeskrivning. Den anger inte några oberoende testresultat, detaljerade mätmetoder eller ytterligare tekniska specifikationer.",
+    "deep": "Videobeskrivningen namnger fyra huvudförändringar: 50 procent snabbare bildgenerering, förbättrad bildredigering, bättre konsekvens för figurer och produkter samt skapande av animerade GIF-bilder. Den beskriver dessutom separata delar om AI-bildgenerering, avancerad AI-bildredigering och praktiska användningsfall för kreatörer.\n\nKanalens angivna målgrupper är både nybörjare och yrkesverksamma, med exempel som YouTubers, innehållsskapare, grafiska formgivare, frilansare och företag. Beskrivningen säger att genomgången ska förklara vad som är nytt i GPT Image 2.6 och hur AI-bildskapande utvecklas, men ger inga konkreta exempel på arbetsflöden, bildresultat eller redigeringssteg utöver GIF-skapande och konsekvens för figurer och produkter.",
+    "en": {
+      "ttl": "GPT Image 2.6 brings faster image creation and GIF animation to ChatGPT",
+      "sum": "AI Learners India describes OpenAI’s GPT Image 2.6 as an update with 50% faster image generation, improved image editing, better character and product consistency, and animated GIF creation.",
+      "full": "AI Learners India describes OpenAI’s GPT Image 2.6 as a major update to ChatGPT’s image features. According to the channel’s description, the update includes 50% faster AI image generation, improved image editing, and better consistency for recurring characters and products.\n\nA key new use case is animated GIF creation. The channel’s coverage will also address ChatGPT’s AI image generation and advanced editing features for practical creative workflows.\n\nThe description specifically targets YouTubers, content creators, graphic designers, freelancers, and businesses. AI Learners India presents GPT Image 2.6 as useful for workflows where the same character or product needs to maintain a more consistent appearance across multiple images. The video will also cover GPT Image 2.6’s features and the Sunburst versus Flare comparison.\n\nThese details come from AI Learners India’s video description. It does not provide independent test results, testing methods, or further technical specifications.",
+      "deep": "The description identifies four main changes: 50% faster image generation, improved image editing, better character and product consistency, and animated GIF creation. It also lists dedicated sections on AI image generation, advanced AI image editing, and practical use cases for creators.\n\nThe named audiences include beginners and professionals, with examples such as YouTubers, content creators, graphic designers, freelancers, and businesses. The description says the video will explain what is new in GPT Image 2.6 and how AI image creation is evolving, but it does not provide concrete workflow examples, image results, or editing steps beyond GIF creation and character and product consistency."
+    },
+    "cat": "foto",
+    "date": "2026-11-06T15:00:12Z",
+    "meta": "Abhijeet Kalamkar - Ai Learners India  · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=YEpQS-ZJUdU",
+    "img": "https://i.ytimg.com/vi/YEpQS-ZJUdU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Abhijeet Kalamkar - Ai Learners India "
+    ],
+    "parts": [],
+    "views": 224,
+    "buzz": 48,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "24c679066170cf702407c3a5a14ae5ae8f8a55a243f59b68e154ea7a1076ad67",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "GPT Image 2.6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Google's Gemini Flash 1.2 is here! 🔥 Discover how to generate stunning AI videos up to 15 seconds long in 4K quality. In this video,",
+    "evidenceIds": [
+      1,
+      2,
+      5
+    ],
+    "id": "psaFwI7mBVY",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Telugu Tech AI visar Gemini Flash 1.2 för AI-videor i 4K",
+    "sum": "Kanalen Telugu Tech AI beskriver Googles Gemini Flash 1.2 som ett verktyg för att skapa AI-genererade videor på upp till 15 sekunder i 4K, med kreativa uppmaningar och realistiska scener med indiska karaktärer.",
+    "full": "Telugu Tech AI presenterar Googles Gemini Flash 1.2 som en ny möjlighet för AI-generering av video. Enligt kanalens beskrivning kan verktyget skapa videor på upp till 15 sekunder med 4K-kvalitet.\n\nVideon fokuserar på ett arbetsflöde för AI-videoskapande. Kanalen uppger att den visar hur man använder kreativa uppmaningar för att generera filmiska videor och realistiska scener, bland annat med indiska par och andra indiska karaktärer.\n\nBeskrivningen framställer Gemini Flash 1.2 som ett kostnadsfritt alternativ för AI-videogenerering och riktar sig till personer som arbetar med AI-film och videoproduktion. Den anger däremot inte detaljer om tillgänglighet, användningsbegränsningar, exportformat eller hur 4K-kvaliteten uppnås. Uppgifterna bygger på Telugu Tech AI:s videobeskrivning, inte på en oberoende testning.",
+    "deep": "Det centrala användningsfallet är att kombinera textbaserade kreativa uppmaningar med generering av korta videoklipp. Enligt Telugu Tech AI omfattar demonstrationen både filmiskt bildspråk och realistiska scener med indiska figurer och miljöer.\n\nKällan anger en maximal videolängd på 15 sekunder och beskriver resultatet som 4K. Den presenterar också tjänsten som kostnadsfri, men ger inga ytterligare villkor för den kostnadsfria användningen. Videon är publicerad den 6 november 2026; detta ska inte tolkas som ett produktlanseringsdatum.",
+    "en": {
+      "ttl": "Telugu Tech AI presents Gemini Flash 1.2 for 4K AI video",
+      "sum": "Telugu Tech AI describes Google's Gemini Flash 1.2 as a tool for generating AI videos up to 15 seconds long in 4K, using creative prompts and realistic scenes with Indian characters.",
+      "full": "Telugu Tech AI presents Google's Gemini Flash 1.2 as a new option for AI video generation. According to the channel's description, the tool can create videos up to 15 seconds long in 4K quality.\n\nThe video focuses on an AI video creation workflow. The channel says it demonstrates how to use creative prompts to generate cinematic videos and realistic scenes, including Indian couples and other Indian characters.\n\nThe description presents Gemini Flash 1.2 as a free option for AI video generation and targets people interested in AI filmmaking and video creation. It does not provide details about availability, usage limits, export formats, or how the 4K quality is achieved. The claims are based on Telugu Tech AI's video description, not on an independent test.",
+      "deep": "The main use case is combining text-based creative prompts with short video generation. According to Telugu Tech AI, the demonstration covers both cinematic visual styles and realistic scenes with Indian characters and settings.\n\nThe source specifies a maximum video length of 15 seconds and describes the output as 4K. It also presents the service as free, but gives no further conditions for free use. The video was uploaded on November 6, 2026; this should not be treated as the product's release date."
+    },
+    "cat": "film",
+    "date": "2026-11-06T12:49:13Z",
+    "meta": "Telugu Tech AI · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=psaFwI7mBVY",
+    "img": "https://i.ytimg.com/vi/psaFwI7mBVY/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Telugu Tech AI"
+    ],
+    "parts": [],
+    "views": 5186,
+    "buzz": 65,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "ad02b84e80e08db09af633bc769a630d36121289a3b91da81f43b47d13c938fa",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Gemini Flash 1.2"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Bambu Lab AIMIA tutorial: turn an AI prompt or image into a multicolor 3D model, split it into printable parts, and export a color-ready 3MF!",
+    "evidenceIds": [
+      3,
+      10,
+      13
+    ],
+    "id": "o16SBxNOS_E",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Bambu Lab AIMIA kombinerar AI-modellering med uppdelning och färgsättning för 3D-utskrift",
+    "sum": "Kanalen 3D Jesus beskriver Bambu Lab AIMIA i MakerWorlds MakerLab som ett AI-verktyg som omvandlar textprompter eller referensbilder till 3D-modeller, färgsätter geometriska områden och delar upp komplexa delar inför export som färgbevarande 3MF.",
+    "full": "Kanalen 3D Jesus beskriver Bambu Lab AIMIA som ett AI-baserat arbetsflöde för att skapa och förbereda flerfärgade 3D-modeller. Användaren kan börja med en textprompt eller en referensbild och därefter omvandla konceptet till en 3D-modell. Enligt beskrivningen går det också att importera en bild som skapats med en annan AI-bildgenerator, vilket kan minska användningen av AIMIA-krediter.\n\nDet centrala i arbetsflödet är AIMIA 3D Editor. Där kan användaren välja ett begränsat antal utskriftsfärger, färgsätta hela geometriska regioner och rensa bort oönskade färger. Verktyget innehåller dessutom flera sätt att dela upp modellen: planbaserade snitt, justeringsstift, kurvdelning och geometrisk delning. Kanalen lyfter särskilt fram möjligheten att isolera en komplex komponent, exempelvis en mekanisk tentakel, skapa sammanfogande ytor och förbereda delarna för utskrift utan avancerade CAD-kunskaper.\n\nI det demonstrerade exemplet skapar kanalen en steampunkinspirerad dykhjälm med en bläckfisk. Efter färgbearbetningen exporteras modellen som en 3MF-fil, så att färginformationen kan följa med till en kompatibel slicer. Beskrivningen rekommenderar 3MF för det här flerfärgsarbetsflödet eftersom en vanlig STL-fil inte bevarar samma filamentfärgstilldelningar. Den exporterade modellen kan enligt kanalen öppnas i kompatibla slicrar och är därför inte begränsad till Bambu-skrivare, även om färger och geometri bör kontrolleras före utskrift.\n\nTillgången till AIMIA beskrivs som en betalansering med väntelista och stegvis åtkomst. Inloggning i MakerWorld garanterar inte omedelbar åtkomst. Vissa prov och redigeringsfunktioner är kostnadsfria, medan AI-generering kan kräva krediter. Kanalens exempel visar 32 krediter för konceptbilder och 36 för en 3D-modell, men siffrorna anges uttryckligen som värden från demonstrationen som kan ändras.",
+    "deep": "Beskrivningen skiljer mellan bildskapande och den efterföljande 3D-bearbetningen. Ett sätt att spara krediter är att skapa konceptbilden i ett annat AI-verktyg och importera den till AIMIA. Därefter kan användaren minska paletten, ändra färger per geometriskt område och ta bort färgavvikelser innan modellen delas upp.\n\nUppdelningsverktygen är avsedda för olika typer av modellgränser. Plane Cut gör raka snitt och kan kombineras med justeringskopplingar, Curve Split låter användaren rita en egen gräns och Geometric Split används för att isolera mer komplexa komponenter. Kanalen beskriver detta som ett steg utöver bild-till-3D-demonstrationer som stannar vid en visuell mesh.\n\nEfter exporten öppnas 3MF-filen i en slicer för kontroll av de separerade delarna och planering av utskriftsorientering. Beskrivningen anger inga oberoende mätningar av modellkvalitet eller utskriftsresultat; uppgifterna bygger på kanalens tutorial och demonstration. Även kreditnivåer, kostnader och åtkomst kan förändras under betalanseringen.",
+    "en": {
+      "ttl": "Bambu Lab AIMIA combines AI modeling with splitting and coloring for 3D printing",
+      "sum": "The 3D Jesus channel describes Bambu Lab AIMIA in MakerWorld's MakerLab as an AI tool that turns text prompts or reference images into 3D models, colors geometric regions, and separates complex parts for export as color-preserving 3MF.",
+      "full": "The 3D Jesus channel describes Bambu Lab AIMIA as an AI-based workflow for creating and preparing multicolor 3D models. Users can start with a text prompt or reference image and then turn the concept into a 3D model. The description also says users can import an image created with another AI image generator, which can reduce AIMIA credit usage.\n\nThe central part of the workflow is the AIMIA 3D Editor. It lets users choose a limited number of print colors, recolor entire geometric regions, and remove unwanted colors. It also provides several ways to split a model: plane cuts, alignment pins, curve splits, and geometric splits. The channel particularly highlights isolating a complex component, such as a mechanical tentacle, creating joining surfaces, and preparing the parts for printing without advanced CAD skills.\n\nIn the demonstrated example, the channel creates a steampunk diving helmet with an octopus. After color processing, the model is exported as a 3MF file so color information can carry over to a compatible slicer. The description recommends 3MF for this multicolor workflow because a standard STL file does not preserve the same filament-color assignments. The exported model can reportedly be opened in compatible slicers and is therefore not limited to Bambu printers, although colors and geometry should be checked before printing.\n\nAccess to AIMIA is described as a beta rollout with a waitlist and staggered availability. Signing in to MakerWorld does not guarantee immediate access. Some trials and editing tools are free, while AI generation may require credits. The channel's example shows 32 credits for concept images and 36 for a 3D model, but these are explicitly presented as demonstration-era figures that may change.",
+      "deep": "The description separates image creation from the subsequent 3D editing process. One way to save credits is to create the concept image in another AI tool and import it into AIMIA. Users can then reduce the palette, change colors by geometric region, and remove stray colors before splitting the model.\n\nThe splitting tools target different types of model boundaries. Plane Cut creates straight cuts and can be combined with alignment connectors, Curve Split lets the user draw a custom boundary, and Geometric Split is used to isolate more complex components. The channel presents this as a step beyond image-to-3D demonstrations that stop at a visual mesh.\n\nAfter export, the 3MF file is opened in a slicer to inspect the separated pieces and plan print orientation. The description provides no independent measurements of model quality or print results; the information is based on the channel's tutorial and demonstration. Credit levels, costs, and access may also change during the beta rollout."
+    },
+    "cat": "3d",
+    "date": "2026-11-06T10:23:06Z",
+    "meta": "3D Jesus | 3D Printing & Design · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=o16SBxNOS_E",
+    "img": "https://i.ytimg.com/vi/o16SBxNOS_E/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "3D Jesus | 3D Printing & Design"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Intro: AIMIA questions and today's challenge"
+      },
+      {
+        "t": 103,
+        "l": "Where to find AIMIA in MakerLab"
+      },
+      {
+        "t": 147,
+        "l": "No AIMIA access? Beta rollout and waitlist"
+      },
+      {
+        "t": 224,
+        "l": "Is AIMIA free? Trial generations explained"
+      },
+      {
+        "t": 245,
+        "l": "Credits, pricing and supported AI tools"
+      },
+      {
+        "t": 295,
+        "l": "How to earn and redeem MakerWorld Points"
+      },
+      {
+        "t": 398,
+        "l": "Earlier AI-to-3D projects and color 3MF files"
+      },
+      {
+        "t": 459,
+        "l": "Writing a better AI model prompt"
+      },
+      {
+        "t": 518,
+        "l": "Start a new AIMIA project"
+      },
+      {
+        "t": 544,
+        "l": "Generate images—or import your own to save credits"
+      },
+      {
+        "t": 655,
+        "l": "Turn concept art into a 3D model"
+      },
+      {
+        "t": 747,
+        "l": "AI generator comparison and workflow examples"
+      },
+      {
+        "t": 861,
+        "l": "Model result and multicolor processing"
+      },
+      {
+        "t": 948,
+        "l": "Reduce the palette for four-color printing"
+      },
+      {
+        "t": 1085,
+        "l": "Open the AIMIA 3D Editor"
+      },
+      {
+        "t": 1140,
+        "l": "Geometric Coloring: select and recolor parts"
+      },
+      {
+        "t": 1358,
+        "l": "Remove stray colors from the model"
+      },
+      {
+        "t": 1435,
+        "l": "Plane Cut and alignment connectors"
+      },
+      {
+        "t": 1497,
+        "l": "Curve Split: draw a custom part boundary"
+      },
+      {
+        "t": 1708,
+        "l": "Geometric Split: isolate complex components"
+      },
+      {
+        "t": 1903,
+        "l": "Export as 3MF to preserve colors"
+      },
+      {
+        "t": 1943,
+        "l": "Open in slicer and plan print orientation"
+      },
+      {
+        "t": 2034,
+        "l": "Final thoughts on access, cost and printing"
+      }
+    ],
+    "views": 6678,
+    "buzz": 66,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "408e7edb5338c6c6c7f5b57c3ea8a838aace5317c47b4e1dff130b1ee8190431",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Bambu Lab AIMIA"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Turn your creative ideas into 3D model concepts with the Free AI 3D Model Generator from Template.net! 🧊 Explore AI-powered 3D creation by transforming your",
+    "evidenceIds": [
+      1,
+      2
+    ],
+    "id": "lta6ylX7JE8",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Template.net visar AI-verktyg för att skapa 3D-modellkoncept från text",
+    "sum": "Kanalen Template AI beskriver en kostnadsfri AI-baserad 3D-modellgenerator från Template.net, där idéer och textinstruktioner omvandlas till visuella 3D-modellkoncept för bland annat produktidéer, spelobjekt, figurer, arkitektur och prototyper.",
+    "full": "Kanalen Template AI presenterar en kostnadsfri AI 3D Model Generator från Template.net. Enligt beskrivningen är verktyget utformat för att omvandla kreativa idéer och textinstruktioner till visuella 3D-modellkoncept.\n\nDet innebär att användaren kan börja med en beskrivning i text i stället för att först bygga modellen manuellt. Template AI lyfter fram flera möjliga användningsområden: produktkoncept, spelobjekt, figurer, arkitektur, prototyper och andra kreativa projekt.\n\nBeskrivningen ger inga uppgifter om verktygets exakta 3D-format, redigeringsfunktioner, exportmöjligheter, modellernas tekniska kvalitet eller hur resultaten fungerar i praktiska produktionsflöden. Den anger inte heller vilka begränsningar som gäller för textinstruktioner eller om tjänsten kräver ett konto. Artikeln återger därför endast kanalens beskrivning av konceptgenerering från text och gör inget anspråk på en oberoende test.",
+    "deep": "Template AI framställer tjänsten som ett sätt att utforska AI-stödd 3D-skapande genom att låta textbaserade idéer bli visuella 3D-modellkoncept. De angivna målgrupperna spänner från konceptarbete för produkter och prototyper till spelrelaterade tillgångar, karaktärer och arkitektur.\n\nDet tillgängliga källmaterialet beskriver inte ett specifikt modellnamn eller en versionsbeteckning, och Template.net är inte upptaget som en matchande plattform i det angivna registret. Några uppgifter om kommersiell licensiering, publiceringsfunktioner, geometrisk precision eller användning i 3D-program stöds inte av källan.",
+    "en": {
+      "ttl": "Template.net presents an AI tool for creating 3D model concepts from text",
+      "sum": "The Template AI channel describes a free AI-based 3D model generator from Template.net that turns ideas and text prompts into visual 3D model concepts for product ideas, game assets, characters, architecture, prototypes and other creative projects.",
+      "full": "The Template AI channel presents a Free AI 3D Model Generator from Template.net. According to the description, the tool is designed to transform creative ideas and text prompts into visual 3D model concepts.\n\nThis allows users to begin with a written description instead of building the model manually from the start. Template AI highlights several possible use cases, including product concepts, game assets, characters, architecture, prototypes and other creative projects.\n\nThe description provides no information about the tool’s exact 3D formats, editing features, export options, technical quality or performance in practical production workflows. It also does not state what limitations apply to text prompts or whether an account is required. This article therefore reports only the channel’s description of text-based concept generation and makes no claim of independent testing.",
+      "deep": "Template AI presents the service as a way to explore AI-assisted 3D creation by turning text-based ideas into visual 3D model concepts. The stated target uses range from product and prototype concept work to game assets, characters and architecture.\n\nThe available source does not identify a specific model name or version, and Template.net is not listed as a matching platform in the supplied registry. Claims about commercial licensing, publishing features, geometric accuracy or use in 3D software are not supported by the source."
+    },
+    "cat": "3d",
+    "date": "2026-11-06T04:18:16Z",
+    "meta": " Template AI 🚀 · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=lta6ylX7JE8",
+    "img": "https://i.ytimg.com/vi/lta6ylX7JE8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      " Template AI 🚀"
+    ],
+    "parts": [],
+    "views": 15,
+    "buzz": 34,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1aeb1506b29668306ff2790bb30b3da2785f18f2e7be46b029808c0a406f5325",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Free AI 3D Model Generator",
+      "Template.net"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "In this tutorial, we'll show you how to create a studio from anywhere in the world. All you need is audio, reference video, and you",
     "evidenceIds": [
       1,
@@ -758,6 +1447,50 @@
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "**AI Video Generation | Image-to-Video & Scene Continuity** ✅ Start Frame & End Frame ✅ Scene Continuity",
+    "evidenceIds": [
+      2,
+      5,
+      9
+    ],
+    "id": "aey7D4m6bpo",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI-videoproduktion med bild-till-video och scenkontinuitet",
+    "sum": "SLD AI EDUCATIONS beskriver klass 6 i en kurs om AI-filmskapande, med fokus på att omvandla AI-bilder till filmiska videor och bevara kontinuitet mellan scener.",
+    "full": "SLD AI EDUCATIONS presenterar klass 6 i sin Telugu-kurs om AI-filmskapande. Enligt kanalens beskrivning handlar lektionen om AI-videogenerering, särskilt hur AI-bilder kan omvandlas till filmiska videor med bild-till-video-arbetsflöden.\n\nKursen tar upp både text-till-video och bild-till-video samt användningen av startbild och slutbild. Det innebär att lektionen fokuserar på hur en videogenerering kan styras från en definierad inledning till ett önskat slut, snarare än på enbart fristående bildrutor.\n\nEtt centralt tema är scenkontinuitet. SLD AI EDUCATIONS listar även kamerarörelser, konsekvent utseende hos karaktärers ansikten och naturliga kroppsrörelser som delar av den praktiska AI-videogenereringen. Beskrivningen anger dessutom att kursen behandlar Google Flow- och Veo-videoprompter.\n\nVideon är därmed inriktad på ett sammanhängande AI-arbetsflöde för filmskapande: att utgå från bilder, planera rörelse mellan start och slut, och försöka bibehålla karaktärer och scenlogik över flera videosekvenser. Beskrivningen nämner ingen oberoende jämförelse eller testresultat, så artikelns uppgifter återges som kanalens kursinnehåll.",
+    "deep": "Kanalens beskrivning framställer lektionen som praktisk och stegvis, på Telugu. De specificerade momenten omfattar text-till-video, bild-till-video, startbild och slutbild, kamerarörelser, ansiktskontinuitet, naturlig kroppsrörelse och scenkontinuitet.\n\nGoogle Flow och Veo nämns i samband med videoprompter, men källan anger inte vilken Veo-version som används och ger inga verifierbara uppgifter om lanseringsdatum, prestanda, bildkvalitet eller begränsningar. Den anger inte heller någon specifik modell som kan kopplas säkert till registret. Nästa kursdel ska enligt beskrivningen behandla AI-dialog, röst och läppsynk, men det är inte huvudämnet för denna lektion.",
+    "en": {
+      "ttl": "AI video production with image-to-video and scene continuity",
+      "sum": "SLD AI EDUCATIONS describes class 6 in an AI filmmaking course, focusing on turning AI images into cinematic videos and maintaining continuity between scenes.",
+      "full": "SLD AI EDUCATIONS presents class 6 in its Telugu course on AI filmmaking. According to the channel’s description, the lesson covers AI video generation, particularly workflows for turning AI images into cinematic videos through image-to-video processes.\n\nThe course covers both text-to-video and image-to-video, along with the use of a start frame and an end frame. This places emphasis on controlling a generation from a defined beginning to a desired ending rather than producing only standalone shots.\n\nScene continuity is a central topic. SLD AI EDUCATIONS also lists camera movements, consistent character faces and natural body motion as parts of practical AI video generation. The description additionally mentions Google Flow and Veo video prompts.\n\nThe video therefore focuses on a coherent AI filmmaking workflow: starting from images, planning motion between the beginning and end, and attempting to preserve characters and scene logic across multiple video sequences. The description provides no independent comparison or test results, so the claims are attributed to the channel’s stated course content.",
+      "deep": "The channel describes the lesson as practical and step-by-step, in Telugu. The specified topics include text-to-video, image-to-video, start and end frames, camera movements, face consistency, natural body motion and scene continuity.\n\nGoogle Flow and Veo are mentioned in connection with video prompts, but the source does not identify a Veo version or provide verifiable information about release dates, performance, image quality or limitations. It also does not name a specific model that can be matched safely to the registry. The next class is described as covering AI dialogue, voice and lip-sync, but that is not the main subject of this lesson."
+    },
+    "cat": "film",
+    "date": "2026-11-04T13:42:15Z",
+    "meta": "SLD AI EDUCATIONS · 2026-11-04",
+    "url": "https://www.youtube.com/watch?v=aey7D4m6bpo",
+    "img": "https://i.ytimg.com/vi/aey7D4m6bpo/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "SLD AI EDUCATIONS"
+    ],
+    "parts": [],
+    "views": 43,
+    "buzz": 40,
+    "sourceCheckedAt": "2026-11-06T20:26:25.539Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "3c9675e984127670f3a962e592f07d15159386d0e478fa23b1252855c8d3eeb9",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Google Flow"
+    ]
   },
   {
     "editorialStatus": "approved",
