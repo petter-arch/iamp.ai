@@ -1,65 +1,49 @@
 {
-  "startedAt": "2026-11-07T08:46:28.823Z",
+  "startedAt": "2026-11-07T18:46:08.316Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
+      "checkedAt": "2026-11-07T18:46:08.316Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-07T08:46:28.823Z",
-      "found": 8
+      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "found": 7
     }
   },
   "selection": {
     "fetched": 141,
-    "relevant": 41,
-    "supported": 31
+    "relevant": 42,
+    "supported": 35
   },
   "rejected": [
-    {
-      "video": "lZes3U_WIug",
-      "title": "Generate Worlds in Real-Time (Free & Open Source)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         2
       ]
@@ -93,13 +77,13 @@
       ]
     },
     {
-      "video": "1idOEa8Ac7w",
-      "title": "Edit AI Images and Video | MagicCanvas Movie Studio Ep. 5",
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
+        3,
         4,
-        8
+        18
       ]
     },
     {
@@ -109,16 +93,7 @@
       "evidenceIds": [
         0,
         2,
-        8
-      ]
-    },
-    {
-      "video": "EjH0DPxo534",
-      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        6
+        5
       ]
     },
     {
@@ -132,8 +107,8 @@
       ]
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
       "stage": "insufficient-article-source"
     },
     {
@@ -142,18 +117,23 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "FxqHtLP4AmE",
+      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ZGdq1tMdmRM",
-      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "SrRD2bxotLI",
-      "title": "AI Video Could Rewrite the Rules of Hollywood 🎬 @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -167,18 +147,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "ZGdq1tMdmRM",
+      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "7LtY7Chm2kw",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "YbCkKuayRfk",
-      "title": "Why AI Video Could Become the Biggest Opportunity for Independent Filmmakers @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3vG6BmXYjw0",
-      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
+      "video": "EjH0DPxo534",
+      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
       "stage": "article-evidence",
       "evidenceIds": [
         1
@@ -194,5 +174,5 @@
       ]
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }
