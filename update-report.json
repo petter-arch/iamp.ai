@@ -1,46 +1,41 @@
 {
-  "startedAt": "2026-11-06T20:26:25.539Z",
+  "startedAt": "2026-11-07T08:46:28.823Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "OWr3IU82bJ8",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-06T20:26:25.539Z",
+      "checkedAt": "2026-11-07T08:46:28.823Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 147,
-    "relevant": 50,
-    "supported": 41
+    "fetched": 141,
+    "relevant": 41,
+    "supported": 31
   },
   "rejected": [
     {
@@ -48,8 +43,7 @@
       "title": "Generate Worlds in Real-Time (Free & Open Source)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        13
+        0
       ]
     },
     {
@@ -75,7 +69,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -83,7 +78,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -91,9 +87,19 @@
       "title": "Google Genie 4 is WILD! (Full Breakdown)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
-        10
+        10,
+        19
+      ]
+    },
+    {
+      "video": "1idOEa8Ac7w",
+      "title": "Edit AI Images and Video | MagicCanvas Movie Studio Ep. 5",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        8
       ]
     },
     {
@@ -101,19 +107,18 @@
       "title": "OpenAI Images 2.6: what's new beyond speed?",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         2,
-        5,
         8
       ]
     },
     {
-      "video": "JXnA9mejq4o",
-      "title": "How to Create a Cute 3D Hamster with Triverse & Blender",
+      "video": "EjH0DPxo534",
+      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        3,
-        5
+        1,
+        6
       ]
     },
     {
@@ -121,6 +126,7 @@
       "title": "Genie 4: A new generation of world simulation",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
         3
       ]
@@ -131,8 +137,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "LjaJPfGRRWM",
-      "title": "ChatGPT vs Claude: Who Edited It Better?",
+      "video": "XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
       "stage": "insufficient-article-source"
     },
     {
@@ -141,23 +147,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "4JVLuVRCJlc",
-      "title": "New Chatgpt Ai Photo Edit 😍 | Instagram Trending Ai Photo Editing Prompt #viral",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "ZGdq1tMdmRM",
       "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "KJuu4n9YcCE",
-      "title": "GPT Image 2.6: AI Image Generation & Editing | MICT",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XgC1QTs6A2U",
-      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
       "stage": "insufficient-article-source"
     },
     {
@@ -166,20 +157,42 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "QcYNizHSVYw",
+      "title": "AI Filmmaking Course: Zero to Basic AI Video Generation | AI Video Creation Course Tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "WUs_7vhPjMs",
+      "title": "Mixamo Alternative: AI 3D Model Generator, Auto Rig and Animation Export for a Werewolf Character",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "7LtY7Chm2kw",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "3vG6BmXYjw0",
-      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
+      "video": "YbCkKuayRfk",
+      "title": "Why AI Video Could Become the Biggest Opportunity for Independent Filmmakers @HiggsfieldAI @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "FUtSCIt-g6Y",
-      "title": "Tripo AI or Hi3D? Here’s How I Choose for 3D Printing",
-      "stage": "insufficient-article-source"
+      "video": "3vG6BmXYjw0",
+      "title": "Minecraft 3D Model Generator: AI-Made Special Forces Soldier",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "43QraAPKXGU",
+      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     }
   ],
-  "accepted": 10
+  "accepted": 3
 }
