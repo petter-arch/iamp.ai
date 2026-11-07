@@ -35619,6 +35619,33 @@
   ],
   "candidates": [
     {
+      "name": "Google Flow",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=iixnU96ZEAM",
+        "https://www.youtube.com/watch?v=shu68GIvZI8",
+        "https://www.youtube.com/watch?v=btK3d1q09Pc",
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
+        "https://www.youtube.com/watch?v=4G-LiRlM1Og",
+        "https://www.youtube.com/watch?v=oWrr9AA2CTk",
+        "https://www.youtube.com/watch?v=Mat-Fjb2A6U",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=QfOe_BP2Lxk",
+        "https://www.youtube.com/watch?v=nVP61eMU6hs",
+        "https://www.youtube.com/watch?v=d5bekiaijvY",
+        "https://www.youtube.com/watch?v=JM2yvei--1w",
+        "https://www.youtube.com/watch?v=DeAjrKu_AfU",
+        "https://www.youtube.com/watch?v=aey7D4m6bpo",
+        "https://www.youtube.com/watch?v=Xdn5FaknHYc"
+      ],
+      "firstSeen": "2026-09-15T10:07:38.861Z",
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-07T13:00:19Z",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-11T18:48:38.850Z"
+    },
+    {
       "name": "Google Gemini",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GK0YdIum3jY",
@@ -35637,6 +35664,20 @@
       "lastSeenAt": "2026-11-07T06:25:26Z",
       "attempts": 3,
       "nextAttemptAt": "2026-11-11T08:48:35.177Z"
+    },
+    {
+      "name": "ChatGPT Images 2.6",
+      "firstSeen": "2026-11-06T20:29:27.364Z",
+      "lastSeenAt": "2026-11-07T01:19:34Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=5LkRDoGVook",
+        "https://www.youtube.com/watch?v=VRp2rVC0nEE"
+      ],
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-09T18:48:38.850Z"
     },
     {
       "name": "Seedance",
@@ -35666,32 +35707,6 @@
       "error": "Incomplete independent verification",
       "attempts": 1,
       "nextAttemptAt": "2026-11-07T20:29:27.364Z"
-    },
-    {
-      "name": "ChatGPT Images 2.6",
-      "firstSeen": "2026-11-06T20:29:27.364Z",
-      "lastSeenAt": "2026-11-06T19:28:35Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=5LkRDoGVook"
-      ],
-      "lastAttemptAt": "2026-11-06T20:29:27.364Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-07T20:29:27.364Z"
-    },
-    {
-      "name": "Grokbot",
-      "firstSeen": "2026-11-06T20:29:27.364Z",
-      "lastSeenAt": "2026-11-06T18:20:31Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=IrAHINf0M6E"
-      ],
-      "lastAttemptAt": "2026-11-07T08:48:35.177Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-08T08:48:35.177Z"
     },
     {
       "name": "GPT-Image 2.6",
@@ -35757,6 +35772,19 @@
       "error": "Insufficient official evidence",
       "attempts": 1,
       "nextAttemptAt": "2026-11-07T20:29:27.364Z"
+    },
+    {
+      "name": "Grokbot",
+      "firstSeen": "2026-11-06T20:29:27.364Z",
+      "lastSeenAt": "2026-11-06T18:20:31Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=IrAHINf0M6E"
+      ],
+      "lastAttemptAt": "2026-11-07T08:48:35.177Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-08T08:48:35.177Z"
     },
     {
       "name": "Slant Tools",
@@ -35872,7 +35900,12 @@
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
       ],
       "firstSeen": "2026-10-15T09:59:57.859Z",
-      "lastSeenAt": "2026-11-06T17:37:59Z"
+      "lastSeenAt": "2026-11-06T17:37:59Z",
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-08T18:48:38.850Z"
     },
     {
       "name": "OpenArt",
@@ -35882,12 +35915,12 @@
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-11-04T09:13:41.490Z",
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
       "status": "retry",
       "error": "Invalid model identity",
       "lastSeenAt": "2026-11-06T17:37:59Z",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-06T09:13:41.490Z"
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-11T18:48:38.850Z"
     },
     {
       "name": "DaVinci Resolve",
@@ -35896,7 +35929,12 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=Knz-TsqihMI",
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
-      ]
+      ],
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-08T18:48:38.850Z"
     },
     {
       "name": "CozyClay",
@@ -35906,11 +35944,11 @@
         "https://www.youtube.com/watch?v=1yLAbK5F3E8",
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
       ],
-      "lastAttemptAt": "2026-11-03T09:34:33.539Z",
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
       "status": "retry",
       "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-04T09:34:33.539Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-09T18:48:38.850Z"
     },
     {
       "name": "After Effects",
@@ -35918,7 +35956,12 @@
       "lastSeenAt": "2026-11-06T17:37:59Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
-      ]
+      ],
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-08T18:48:38.850Z"
     },
     {
       "name": "three.js",
@@ -35926,7 +35969,12 @@
       "lastSeenAt": "2026-11-06T17:37:59Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=OWr3IU82bJ8"
-      ]
+      ],
+      "lastAttemptAt": "2026-11-07T18:48:38.850Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-08T18:48:38.850Z"
     },
     {
       "name": "World Labs Atlas",
@@ -36361,32 +36409,6 @@
       "error": "Incomplete independent verification",
       "attempts": 1,
       "nextAttemptAt": "2026-11-06T21:07:37.712Z"
-    },
-    {
-      "name": "Google Flow",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=iixnU96ZEAM",
-        "https://www.youtube.com/watch?v=shu68GIvZI8",
-        "https://www.youtube.com/watch?v=btK3d1q09Pc",
-        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
-        "https://www.youtube.com/watch?v=4G-LiRlM1Og",
-        "https://www.youtube.com/watch?v=oWrr9AA2CTk",
-        "https://www.youtube.com/watch?v=Mat-Fjb2A6U",
-        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
-        "https://www.youtube.com/watch?v=QfOe_BP2Lxk",
-        "https://www.youtube.com/watch?v=nVP61eMU6hs",
-        "https://www.youtube.com/watch?v=d5bekiaijvY",
-        "https://www.youtube.com/watch?v=JM2yvei--1w",
-        "https://www.youtube.com/watch?v=DeAjrKu_AfU",
-        "https://www.youtube.com/watch?v=aey7D4m6bpo"
-      ],
-      "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-11-06T09:25:35.998Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-11-04T13:42:15Z",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-08T09:25:35.998Z"
     },
     {
       "name": "Qwen Image 2.1 Multi-LoRAs",
@@ -40619,7 +40641,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-07T18:46:08.316Z",
+    "calculatedAt": "2026-11-07T18:48:38.850Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -40629,28 +40651,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.8842637734172033,
+      "elevenlabs": 0.884111230287974,
       "elevenmusic": 0,
-      "heygen": 0.8318627763772772,
-      "kling-3-0": 0.4010327062141729,
+      "heygen": 0.8317192728720869,
+      "kling-3-0": 0.40096352461274554,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.637959441330862,
+      "higgsfield": 5.636986844690015,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.3164972574423106,
+      "meshy-ai": 2.3160976416815786,
       "magnific-ai": 0,
-      "seedance-2-5": 3.6131796442201543,
+      "seedance-2-5": 3.6125563395615603,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.1575700194282061,
-      "nano-banana-pro": 0.2761091054884125,
+      "wan-3-0": 1.1573703286137975,
+      "nano-banana-pro": 0.2760614742857938,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -40658,33 +40680,33 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.4870717094059117,
+      "hunyuan3d": 0.48698768533419745,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.34382306483532604,
+      "luma-genie": 0.3437637523905692,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.302976176787496,
+      "gemini-omni-flash": 0.30292391078330305,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-07T08:48:35.177Z",
-    "newsCheckedAt": "2026-11-07T08:46:28.823Z",
+    "startedAt": "2026-11-07T18:48:38.850Z",
+    "newsCheckedAt": "2026-11-07T18:46:08.316Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
     "candidatesPending": 405,
-    "completedAt": "2026-11-07T09:02:03.458Z",
+    "completedAt": "2026-11-07T18:52:07.545Z",
     "skipped": 0
   }
 }
