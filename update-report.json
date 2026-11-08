@@ -1,43 +1,62 @@
 {
-  "startedAt": "2026-11-08T08:58:30.014Z",
+  "startedAt": "2026-11-08T18:49:47.539Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
-      "found": 6
+      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 144,
-    "relevant": 43,
-    "supported": 35
+    "fetched": 145,
+    "relevant": 47,
+    "supported": 38
   },
   "rejected": [
+    {
+      "video": "A5SfzBD6M3o",
+      "title": "Claude Code Just Called My Phone",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "video": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
@@ -53,7 +72,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -61,7 +81,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -70,18 +91,17 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        10,
-        19
+        10
       ]
     },
     {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "video": "gffaP_TbBN8",
+      "title": "BREAKING: NVIDIA Just Dropped Four Open Cosmos 3 Nano Models — For Self-Driving Cars and Robots",
       "stage": "classification-evidence",
       "evidenceIds": [
-        3,
-        18,
-        19
+        0,
+        1,
+        2
       ]
     },
     {
@@ -89,19 +109,9 @@
       "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1,
-        6,
-        7
-      ]
-    },
-    {
-      "video": "l00-pPyT36E",
-      "title": "NVIDIA Cosmos 3: You Can Steer an AI-Generated World",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        10
+        6
       ]
     },
     {
@@ -109,6 +119,7 @@
       "title": "NVIDIA Open-Sources Cosmos 3 World Sim Models #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
@@ -118,8 +129,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "9RIK3A24ZxA",
-      "title": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS",
+      "video": "o5iRKvXZEcY",
+      "title": "Claude Reverse Engineered Two 3DS Games to Add Real 3D",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "2",
+        "3",
+        "35"
+      ]
+    },
+    {
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
       "stage": "insufficient-article-source"
     },
     {
@@ -128,13 +149,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
       "stage": "insufficient-article-source"
     },
     {
@@ -143,18 +164,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "GAjOdRWh4UY",
+      "title": "Diwali Couple Ai Photo Editing Prompt | Chatgpt Diwali Couple Ai Photo Editing |Diwali Photo Editing",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "DS1wR31UZpQ",
       "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "FxqHtLP4AmE",
-      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "0z8koOkHVxM",
-      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
+      "video": "jEoF_QT6lRk",
+      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -163,8 +184,21 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "hjU9421NOq4",
-      "title": "AI music generator: songs and soundtracks from text",
+      "video": "FxqHtLP4AmE",
+      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0Sb42O83Rlw",
+      "title": "Minecraft 3D Model Generator: AI Crystal Tree in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "0z8koOkHVxM",
+      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
       "stage": "insufficient-article-source"
     },
     {
@@ -178,13 +212,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "7LtY7Chm2kw",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "video": "a-J5G1y0XQk",
+      "title": "0910 zht Roman",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "a-J5G1y0XQk",
-      "title": "0910 zht Roman",
+      "video": "hjU9421NOq4",
+      "title": "AI music generator: songs and soundtracks from text",
       "stage": "insufficient-article-source"
     },
     {
@@ -193,5 +227,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }

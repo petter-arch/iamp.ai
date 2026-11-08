@@ -1,8 +1,95 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T08:58:30.014Z",
-  "newsCheckedAt": "2026-11-08T08:58:30.014Z",
+  "updatedAt": "2026-11-08T18:49:47.539Z",
+  "newsCheckedAt": "2026-11-08T18:49:47.539Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this tutorial, we're testing P-H3-Image, a powerful new AI image generation and editing model based on MiniMax H3, now available in ComfyUI! P-H3-Image brings",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ],
+      "id": "5AxB_hu7PlM",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "P-H3-Image i ComfyUI genererar och redigerar AI-bilder i upp till 8 megapixel",
+      "sum": "The Ai Blueprint visar hur P-H3-Image, en bildgenererings- och redigeringsmodell baserad på MiniMax H3, installeras och används i ComfyUI. Modellen uppges kunna skapa bilder på upp till 8 megapixel i åtta steg och redigera material med upp till åtta referensbilder.",
+      "full": "Kanalen The Ai Blueprint presenterar P-H3-Image som en ny AI-modell för bildgenerering och bildredigering i ComfyUI. Enligt kanalens beskrivning bygger modellen på MiniMax H3 och kombinerar högupplöst generering med möjligheten att redigera befintliga bilder.\n\nDet centrala arbetsflödet är att skapa bilder på upp till 8 megapixel med åtta steg. Beskrivningen anger även att P-H3-Image kan använda upp till åtta indata- eller referensbilder vid redigering. Det gör det möjligt att föra samman figurer, objekt och andra visuella referenser i en och samma komposition.\n\nVideon går igenom installation och konfiguration i ComfyUI och visar därefter modellens genererings- och redigeringsfunktioner. The Ai Blueprint uppger att genomgången även testar bildkvalitet och redigeringsresultat, men beskrivningen innehåller inga oberoende mätningar eller detaljerade resultat från dessa tester.\n\nArbetsflödet riktar sig därmed till användare som vill experimentera med text-till-bild, bild-till-bild och referensbaserad redigering lokalt i ComfyUI. Beskrivningen nämner också flera kvantiserade versioner, avsedda att sänka kraven på videominne, men anger inte vilka versioner eller exakta hårdvarukrav som gäller.",
+      "deep": "The Ai Blueprint beskriver P-H3-Image som en modell som kan generera högupplösta AI-bilder i upp till 8 megapixel på åtta steg. Den stöder dessutom redigering med upp till åtta bilder som indata, vilket enligt beskrivningen kan användas för att kombinera karaktärer, objekt och visuella referenser i en sammansatt bild.\n\nGenomgången omfattar installation och användning i ComfyUI samt praktiska experiment med både bildgenerering och redigering. Kanalens beskrivning nämner tester av bildkvalitet och redigeringsresultat, men ger inga konkreta bedömningar som kan verifieras utanför videon. Den nämner även kvantiserade varianter för lägre VRAM-behov utan att specificera deras namn eller minneskrav.",
+      "en": {
+        "ttl": "P-H3-Image generates and edits AI images at up to 8 megapixels in ComfyUI",
+        "sum": "The Ai Blueprint demonstrates how P-H3-Image, an image generation and editing model based on MiniMax H3, is installed and used in ComfyUI. The model is described as generating images up to 8 megapixels in eight steps and editing images with up to eight reference inputs.",
+        "full": "The Ai Blueprint presents P-H3-Image as a new AI model for image generation and editing in ComfyUI. According to the channel’s description, the model is based on MiniMax H3 and combines high-resolution generation with the ability to edit existing images.\n\nThe main workflow is generating images up to 8 megapixels in eight steps. The description also says that P-H3-Image can use up to eight input or reference images during editing. This enables characters, objects and other visual references to be combined into a single composition.\n\nThe video covers installation and setup in ComfyUI, followed by demonstrations of the model’s generation and editing features. The Ai Blueprint says it also tests image quality and editing results, but the description provides no independent measurements or detailed results from those tests.\n\nThe workflow is therefore aimed at users who want to experiment with text-to-image, image-to-image and reference-based editing in ComfyUI. The description also mentions several quantized versions intended to reduce VRAM requirements, but it does not specify which versions or the exact hardware requirements.",
+        "deep": "The Ai Blueprint describes P-H3-Image as a model that can generate high-resolution AI images at up to 8 megapixels in eight steps. It also supports editing with up to eight input images, which the description says can be used to combine characters, objects and visual references in a composite image.\n\nThe tutorial covers installation and use in ComfyUI, along with practical experiments involving image generation and editing. The channel’s description mentions tests of image quality and editing results, but supplies no specific assessments that can be verified independently. It also mentions quantized variants for lower VRAM requirements without specifying their names or memory requirements."
+      },
+      "cat": "foto",
+      "date": "2026-11-08T14:18:32Z",
+      "meta": "The Ai Blueprint · 2026-11-08",
+      "url": "https://www.youtube.com/watch?v=5AxB_hu7PlM",
+      "img": "https://i.ytimg.com/vi/5AxB_hu7PlM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "The Ai Blueprint"
+      ],
+      "parts": [],
+      "views": 1690,
+      "buzz": 59,
+      "sourceCheckedAt": "2026-11-08T18:49:47.539Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "7e5244ea118e0b74e31271f912c466e3223b117c22707db7aa590dd2fac52071",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "P-H3-Image",
+        "MiniMax H3",
+        "ComfyUI"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Minecraft 3D Model Generator: AI Palm Tree in Blockbench I typed one sentence and got a whole coconut palm tree model back 🌴 Curved trunk,",
+      "evidenceIds": [
+        0,
+        1
+      ],
+      "id": "MChAYKIRrWo",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "AI-generator skapar palmodell i Blockbench från en enda mening",
+      "sum": "Spaleforce visar en AI-baserad arbetsprocess där en enda mening genererar en komplett Minecraft-kompatibel palmmodell i Blockbench, med böjd stam, hängande blad och kokosnötter.",
+      "full": "Kanalen Spaleforce visar en AI-baserad 3D-modelleringsprocess för Minecraft i Blockbench. Enligt videobeskrivningen räcker det att skriva en enda mening för att få tillbaka en komplett kokos-palm som modell.\n\nDen genererade modellen beskrivs ha en böjd stam, hängande palmblad och kokosnötter. Det gör arbetsflödet relevant för Minecraft-projekt där en användare vill skapa miljöobjekt till byggen, moddar eller resurspaket utan att börja modelleringen från grunden.\n\nBeskrivningen anger inte vilka AI-modeller eller tekniska inställningar som används, hur modellen exporteras eller om resultatet kräver efterbearbetning i Blockbench. Artikeln bygger därför endast på Spaleforces uppgift om den textbaserade genereringen och modellens angivna egenskaper.",
+      "deep": "Videotiteln och beskrivningen pekar på ett text-till-3D-arbetsflöde: användaren skriver en mening och får en sammanhängande palmodell tillbaka. Den konkreta modellen innehåller flera identifierade delar — böjd stam, hängande blad och kokosnötter — snarare än enbart en förenklad grundform.\n\nSpaleforce kopplar arbetsflödet till Blockbench och Minecraft. Beskrivningen nämner även Minecraft-byggen, moddar och resurspaket genom sina ämnesetiketter, men specificerar inte vilket av dessa användningsområden som demonstreras i praktiken. Ingen självständig testning eller jämförelse med andra verktyg kan fastställas från källan.",
+      "en": {
+        "ttl": "AI generator creates a palm model in Blockbench from one sentence",
+        "sum": "Spaleforce presents an AI-based workflow in which a single sentence generates a complete Minecraft-compatible palm model in Blockbench, with a curved trunk, drooping fronds and coconuts.",
+        "full": "The channel Spaleforce presents an AI-based 3D modeling workflow for Minecraft in Blockbench. According to the video description, typing a single sentence is enough to receive a complete coconut palm model.\n\nThe generated model is described as having a curved trunk, drooping palm fronds and coconuts. This makes the workflow relevant to Minecraft projects where a user wants to create environmental assets for builds, mods or resource packs without starting the modeling process from scratch.\n\nThe description does not state which AI models or technical settings are used, how the model is exported, or whether it requires further editing in Blockbench. The article therefore relies only on Spaleforce’s account of text-based generation and the stated model features.",
+        "deep": "The title and description indicate a text-to-3D workflow: the user writes one sentence and receives a coherent palm model. The specific model includes several identified components—a curved trunk, drooping fronds and coconuts—rather than only a simplified base shape.\n\nSpaleforce connects the workflow to Blockbench and Minecraft. The description also references Minecraft builds, mods and resource packs through its hashtags, but it does not specify which of these use cases is demonstrated in practice. No independent testing or comparison with other tools can be established from the source."
+      },
+      "cat": "3d",
+      "date": "2026-11-08T10:21:20Z",
+      "meta": "Spaleforce · 2026-11-08",
+      "url": "https://www.youtube.com/watch?v=MChAYKIRrWo",
+      "img": "https://i.ytimg.com/vi/MChAYKIRrWo/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Spaleforce"
+      ],
+      "parts": [],
+      "views": 66,
+      "buzz": 42,
+      "sourceCheckedAt": "2026-11-08T18:49:47.539Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "607a87c6478365cfe3bba3de88f80ca8dc35cc1c27f341975a41e844a6d5f38d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Remember when we were creating AI videos in 8-second clips? Well, Google Flow's new Omni 1.2 upgrade is opening the door to videos up to",
@@ -87,6 +174,51 @@
       "trusted": false,
       "sourceId": null,
       "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Apple announced it on Oct 27 (not this week's news, the update reaches the App Store in November): text-to-image inside Final Cut Pro and Motion,",
+      "evidenceIds": [
+        2,
+        3
+      ],
+      "id": "03KzHJ3HJSw",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Final Cut Pro får AI-bildgenerering – Imaginode samlar bild- och videogenerering i samma arbetsyta",
+      "sum": "Imaginode AI beskriver ett arbetsflöde där GPT Image 2.6 används för att skapa och ändra bilder, som sedan kan skickas till Seedance 2.5 för videogenerering på samma arbetsyta. Beskrivningen jämför detta med Apples kommande AI-funktioner i Final Cut Pro och Motion.",
+      "full": "Imaginode AI beskriver ett AI-baserat arbetsflöde för bild- och videogenerering som samlar flera steg på en gemensam arbetsyta. Enligt kanalens beskrivning kan användaren skapa en bild med GPT Image 2.6 by OpenAI, koppla den till en andra bildnod och beskriva en ändring innan resultatet skickas vidare till en videonod med Seedance 2.5.\n\nArbetsflödet är uppbyggt kring att skapa, redigera och animera material utan att lämna samma arbetsyta. Imaginode AI presenterar detta som ett sätt att genomföra idén från AI-bild till AI-video i ett sammanhängande flöde, i stället för att växla mellan flera separata applikationer.\n\nBeskrivningen sätter funktionen i relation till Apples annonserade AI-stöd i Final Cut Pro och Motion. Där ska text-till-bild integreras, bilder kunna skickas fram och tillbaka till Pixelmator Pro och funktionen Generate Fill användas för att markera en del av ett foto och beskriva en förändring. Enligt den angivna beskrivningen ska ändringen bevara ljus, perspektiv och textur. Apple-funktionerna uppges ha annonserats den 27 oktober och nå App Store i november; detta är inte en uppgift om Imaginodes lanseringsdatum.",
+      "deep": "Det centrala i Imaginode AI:s upplägg är nodbaserad koppling mellan bildsteg och videogenerering. Användaren börjar med GPT Image 2.6 by OpenAI, beskriver en ändring i en separat bildnod och skickar därefter bilden till Seedance 2.5 för animering. Källbeskrivningen anger inte vilka bildformat, upplösningar, exportalternativ eller begränsningar som gäller.\n\nImaginode AI hävdar inte i den medföljande beskrivningen att arbetsflödet är resultatet av ett oberoende test. Uppgifterna om plattformens funktioner och om Apples integrationer återges därför som kanalens presentation. Beskrivningen nämner Apple Newsroom och Digital Trends som källor för Apples uppgifter, men lämnar inga ytterligare tekniska detaljer om implementeringen.\n\nKanalens exempel fokuserar på en sammanhängande process från textbaserad bildskapelse och riktad bildändring till AI-genererad video. Det gör arbetsflödet relevant för videoredigerare som vill behålla bildmaterial och efterföljande animering i samma visuella nodsystem, men källan specificerar inte hur resultaten jämförs med traditionella verktyg eller andra AI-plattformar.",
+      "en": {
+        "ttl": "Final Cut Pro gets AI image generation – Imaginode combines image and video generation in one workspace",
+        "sum": "Imaginode AI describes a workflow where GPT Image 2.6 is used to create and modify images, which can then be sent to Seedance 2.5 for video generation on the same workspace. The description compares this with Apple’s upcoming AI features in Final Cut Pro and Motion.",
+        "full": "Imaginode AI describes an AI-based workflow for image and video generation that brings several steps together on one canvas. According to the channel’s description, users can create an image with GPT Image 2.6 by OpenAI, connect it to a second image node and describe an edit before sending the result to a video node with Seedance 2.5.\n\nThe workflow is built around creating, editing and animating material without leaving the same workspace. Imaginode AI presents this as a way to move from AI image to AI video in one connected process rather than switching between several separate applications.\n\nThe description places the workflow alongside Apple’s announced AI support in Final Cut Pro and Motion. Apple’s features are described as including text-to-image generation, round-tripping images to Pixelmator Pro and Generate Fill, where a user circles part of a photo and describes a change. According to the description, the edit preserves light, perspective and texture. The Apple features were announced on October 27 and are said to reach the App Store in November; this is not a release-date claim for Imaginode.",
+        "deep": "The key part of Imaginode AI’s setup is the node-based connection between image processing and video generation. The user starts with GPT Image 2.6 by OpenAI, describes an edit in a separate image node and then sends the image to Seedance 2.5 for animation. The source description does not specify image formats, resolutions, export options or limitations.\n\nThe supplied description does not present the workflow as an independent test. The claims about the platform and Apple’s integrations are therefore attributed to the channel’s presentation. The description lists Apple Newsroom and Digital Trends as sources for Apple’s information but provides no further technical implementation details.\n\nThe channel’s example focuses on a connected process from text-based image creation and targeted image editing to AI-generated video. This makes the workflow relevant to video editors who want to keep source imagery and subsequent animation in the same visual node system, although the source does not specify how the results compare with conventional tools or other AI platforms."
+      },
+      "cat": "film",
+      "date": "2026-11-07T16:07:59Z",
+      "meta": "Imaginode AI · 2026-11-07",
+      "url": "https://www.youtube.com/watch?v=03KzHJ3HJSw",
+      "img": "https://i.ytimg.com/vi/03KzHJ3HJSw/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Imaginode AI"
+      ],
+      "parts": [],
+      "views": 67,
+      "buzz": 42,
+      "sourceCheckedAt": "2026-11-08T18:49:47.539Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f0bd079803a4b7300872a159ebf832b19d33d51ef065b95159b918aa1b4822e0",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "GPT Image 2.6",
+        "Seedance 2.5",
+        "Imaginode"
+      ]
     },
     {
       "editorialStatus": "approved",
@@ -215,6 +347,52 @@
       "sourceId": null,
       "newPlatforms": [
         "Google Gemini"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Google Flow just got a major AI video generation upgrade! Meet **Gemini Omni 1.2 Flash** – the latest update that brings more powerful video creation",
+      "evidenceIds": [
+        1,
+        4,
+        5
+      ],
+      "id": "YuEqjvCpDPg",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Google Flow Omni 1.2 Flash uppges förbättra AI-videoskapande",
+      "sum": "Vishal Digital Academy(VDA) beskriver Gemini Omni 1.2 Flash som en uppdatering för Google Flow med bättre konsekvens mellan figurer och scener, videor på upp till 15 sekunder och mer avancerad redigering i flera samtalssteg.",
+      "full": "Vishal Digital Academy(VDA) presenterar Gemini Omni 1.2 Flash som en större AI-uppdatering för videoskapande i Google Flow. Videon fokuserar på skillnaderna mellan Omni 1.2 och föregående Omni 1.1, med särskild tonvikt på funktioner för AI-videoskapare och filmiskt innehåll.\n\nEnligt kanalens beskrivning ska Omni 1.2 ge bättre konsekvens för figurer och scener. Uppdateringen uppges också kunna skapa videor på upp till 15 sekunder direkt, samtidigt som de AI-genererade bilderna blir skarpare. Färre oönskade hoppklipp och förbättrade kamerarörelser nämns som andra förändringar i arbetsflödet.\n\nBeskrivningen lyfter dessutom bättre följsamhet till referensbilder och videoredigering i flera samtalssteg. Det innebär enligt kanalens presentation att användaren kan arbeta mer iterativt med videon genom en konversation, i stället för att enbart skapa ett resultat från en enda instruktion. Naturligare dialog och läppsynk ingår också bland de angivna förbättringarna.\n\nVishal Digital Academy(VDA) säger att videon visar de nya funktionerna och jämför Omni 1.2 med Omni 1.1. Beskrivningen innehåller däremot inga oberoende testresultat, mätvärden eller konkreta exempel som gör det möjligt att självständigt bedöma hur stor förbättringen är i praktiken.",
+      "deep": "Det huvudsakliga användningsområdet som anges är skapande av mer filmiska AI-videor. De specificerade funktionerna omfattar bättre bibehållen identitet och miljö mellan scener, generering av klipp på upp till 15 sekunder, skarpare visuella resultat, färre oönskade hopp i genereringen och förbättrade kamerarörelser.\n\nFör ett iterativt arbetsflöde nämns två särskilda delar: bättre tolkning av referensbilder och redigering över flera samtalssteg. Kanalen kopplar detta till praktiska behov hos AI-videoskapare. Dialog och läppsynk beskrivs som mer naturliga, men källan anger inga tekniska detaljer om hur funktionerna har implementerats eller under vilka förhållanden de fungerar bäst.\n\nKällan använder namnen Google Flow och Gemini Omni 1.2 Flash samt jämförelsen med Omni 1.1. Den anger inte något produktlanseringsdatum; videons uppladdningsdatum ska därför inte tolkas som ett sådant.",
+      "en": {
+        "ttl": "Google Flow Omni 1.2 Flash is said to improve AI video creation",
+        "sum": "Vishal Digital Academy(VDA) describes Gemini Omni 1.2 Flash as an update for Google Flow with better character and scene consistency, videos up to 15 seconds, and more advanced multi-turn editing.",
+        "full": "Vishal Digital Academy(VDA) presents Gemini Omni 1.2 Flash as a major AI update for video creation in Google Flow. The video focuses on differences between Omni 1.2 and the previous Omni 1.1, with particular emphasis on features for AI video creators and cinematic content.\n\nAccording to the channel’s description, Omni 1.2 should provide better consistency for characters and scenes. The update is also said to generate videos of up to 15 seconds natively, while AI-generated visuals become sharper. Fewer unwanted jump cuts and improved camera movements are listed as additional workflow changes.\n\nThe description also highlights better reference-image following and multi-turn conversational video editing. In the channel’s presentation, this means users can work on a video iteratively through a conversation rather than relying only on a single prompt. More natural dialogue and lip sync are also listed among the improvements.\n\nVishal Digital Academy(VDA) says the video demonstrates the new features and compares Omni 1.2 with Omni 1.1. However, the description provides no independent test results, measurements, or concrete examples that would allow the scale of the improvement to be assessed independently.",
+        "deep": "The stated main use case is creating more cinematic AI videos. The listed capabilities include better preservation of identity and environments between scenes, native generation of clips up to 15 seconds, sharper visual results, fewer unwanted jumps in generation, and improved camera movements.\n\nFor an iterative workflow, the source specifically mentions better reference-image interpretation and editing across multiple conversational turns. The channel connects these features to practical needs for AI video creators. Dialogue and lip sync are described as more natural, but the source gives no technical implementation details or information about the conditions under which the features work best.\n\nThe source uses the names Google Flow and Gemini Omni 1.2 Flash, and compares them with Omni 1.1. It does not provide a product release date; the video upload date should therefore not be treated as one."
+      },
+      "cat": "film",
+      "date": "2026-11-07T05:31:36Z",
+      "meta": "Vishal Digital Academy(VDA) · 2026-11-07",
+      "url": "https://www.youtube.com/watch?v=YuEqjvCpDPg",
+      "img": "https://i.ytimg.com/vi/YuEqjvCpDPg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Vishal Digital Academy(VDA)"
+      ],
+      "parts": [],
+      "views": 401,
+      "buzz": 51,
+      "sourceCheckedAt": "2026-11-08T18:49:47.539Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "6ecf883f1cb6345d28ad95a119295ffdbac2eea30de394ffb8b5b7685c68053f",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Google Flow",
+        "Gemini Omni 1.2 Flash",
+        "Omni 1.1"
       ]
     },
     {
@@ -40161,7 +40339,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7190000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -40179,7 +40357,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -40197,7 +40375,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1280000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -40215,7 +40393,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -40233,7 +40411,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6060000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -40251,7 +40429,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -40268,8 +40446,8 @@
       "id": "seantuck",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": 623000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "subscriberCount": 624000,
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -40287,7 +40465,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -40305,7 +40483,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -40323,7 +40501,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -40341,7 +40519,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -40359,7 +40537,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -40377,7 +40555,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -40395,7 +40573,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -40413,7 +40591,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -40431,7 +40609,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -40449,7 +40627,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -40467,7 +40645,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -40485,7 +40663,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -40503,7 +40681,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -40521,7 +40699,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -40539,7 +40717,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -40556,8 +40734,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 772000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "subscriberCount": 773000,
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -40574,8 +40752,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 279000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "subscriberCount": 280000,
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -40593,7 +40771,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 767000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -40611,7 +40789,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -40629,7 +40807,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 344000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -40647,7 +40825,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 200000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -40665,7 +40843,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 493000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -40683,7 +40861,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 458000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -40701,7 +40879,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -40719,7 +40897,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -40737,7 +40915,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -40755,7 +40933,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -40773,7 +40951,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -40781,36 +40959,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
-      "found": 6
+      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "checkedAt": "2026-11-08T18:49:47.539Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-08T09:01:10.327Z",
+    "calculatedAt": "2026-11-08T18:49:47.539Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -40820,28 +40998,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.8337714845906652,
+      "elevenlabs": 0.8006974274394022,
       "elevenmusic": 0,
-      "heygen": 0.7843626335108904,
-      "kling-3-0": 0.3781333634617242,
+      "heygen": 0.7532485272509596,
+      "kling-3-0": 0.36313356470982483,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.31602668205489,
+      "higgsfield": 5.054578509753711,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 2.1842230966037937,
+      "meshy-ai": 2.097579308871417,
       "magnific-ai": 0,
-      "seedance-2-5": 3.406863705851325,
+      "seedance-2-5": 3.271720195913217,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 1.0914716882345183,
-      "nano-banana-pro": 0.2603430172225978,
+      "wan-3-0": 1.0481751763450806,
+      "nano-banana-pro": 0.2500157273239995,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -40849,19 +41027,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.45925945906852783,
+      "hunyuan3d": 0.4410415493927756,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.3241904461340055,
+      "luma-genie": 0.31133045566720086,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.28567595361223674,
+      "gemini-omni-flash": 0.27434375649212134,
       "luma-agents": 0
     }
   },
