@@ -1,40 +1,40 @@
 {
-  "startedAt": "2026-11-07T18:46:08.316Z",
+  "startedAt": "2026-11-08T08:58:30.014Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "checkedAt": "2026-11-08T08:58:30.014Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "checkedAt": "2026-11-08T08:58:30.014Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
-      "found": 4
+      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "found": 6
     },
     "3d": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "checkedAt": "2026-11-08T08:58:30.014Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "checkedAt": "2026-11-08T08:58:30.014Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
+      "checkedAt": "2026-11-08T08:58:30.014Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-07T18:46:08.316Z",
-      "found": 7
+      "checkedAt": "2026-11-08T08:58:30.014Z",
+      "found": 8
     }
   },
   "selection": {
-    "fetched": 141,
-    "relevant": 42,
+    "fetched": 144,
+    "relevant": 43,
     "supported": 35
   },
   "rejected": [
@@ -53,8 +53,7 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -62,8 +61,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -82,38 +80,46 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         3,
-        4,
-        18
+        18,
+        19
       ]
     },
     {
-      "video": "T88rCFg7qeQ",
-      "title": "OpenAI Images 2.6: what's new beyond speed?",
+      "video": "0jiTsXo0dpY",
+      "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        2,
-        5
-      ]
-    },
-    {
-      "video": "sFfPkUJd_Jk",
-      "title": "Genie 4: A new generation of world simulation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
         1,
-        3
+        6,
+        7
       ]
     },
     {
-      "video": "L0fLLr5Oej0",
-      "title": "How I Use Claude in My Video Edits",
+      "video": "l00-pPyT36E",
+      "title": "NVIDIA Cosmos 3: You Can Steer an AI-Generated World",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        10
+      ]
+    },
+    {
+      "video": "KzkO667k4sg",
+      "title": "NVIDIA Open-Sources Cosmos 3 World Sim Models #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "tgdG27lr26s",
+      "title": "ChatGPT can make GIFs now (and people went feral)",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "XgC1QTs6A2U",
-      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "video": "9RIK3A24ZxA",
+      "title": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -127,8 +133,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "FxqHtLP4AmE",
-      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
@@ -137,13 +143,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "QcYNizHSVYw",
-      "title": "AI Filmmaking Course: Zero to Basic AI Video Generation | AI Video Creation Course Tutorial",
+      "video": "DS1wR31UZpQ",
+      "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "WUs_7vhPjMs",
-      "title": "Mixamo Alternative: AI 3D Model Generator, Auto Rig and Animation Export for a Werewolf Character",
+      "video": "FxqHtLP4AmE",
+      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0z8koOkHVxM",
+      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hjU9421NOq4",
+      "title": "AI music generator: songs and soundtracks from text",
       "stage": "insufficient-article-source"
     },
     {
@@ -152,27 +173,25 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "QcYNizHSVYw",
+      "title": "AI Filmmaking Course: Zero to Basic AI Video Generation | AI Video Creation Course Tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "7LtY7Chm2kw",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "EjH0DPxo534",
-      "title": "Unlimited AI image generation on your own Mac 🖼️ #mac #aiimage",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "a-J5G1y0XQk",
+      "title": "0910 zht Roman",
+      "stage": "insufficient-article-source"
     },
     {
-      "video": "43QraAPKXGU",
-      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "video": "WUs_7vhPjMs",
+      "title": "Mixamo Alternative: AI 3D Model Generator, Auto Rig and Animation Export for a Werewolf Character",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 3
 }
