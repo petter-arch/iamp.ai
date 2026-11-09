@@ -36318,6 +36318,48 @@
   ],
   "candidates": [
     {
+      "name": "Google Omni Flash 1.2",
+      "firstSeen": "2026-11-09T23:27:56.135Z",
+      "lastSeenAt": "2026-11-09T15:24:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ryjr7X93Zt0"
+      ],
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
+    },
+    {
+      "name": "Google Omni Flash 1.1",
+      "firstSeen": "2026-11-09T23:27:56.135Z",
+      "lastSeenAt": "2026-11-09T15:24:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ryjr7X93Zt0"
+      ],
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
+    },
+    {
+      "name": "GPT Image 2.6",
+      "firstSeen": "2026-11-05T09:32:11.308Z",
+      "lastSeenAt": "2026-11-09T09:35:11Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=an7olcESzeA",
+        "https://www.youtube.com/watch?v=YEpQS-ZJUdU",
+        "https://www.youtube.com/watch?v=03KzHJ3HJSw",
+        "https://www.youtube.com/watch?v=liu-_-OUDeQ"
+      ],
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-13T23:27:56.135Z"
+    },
+    {
       "name": "Kimi 3D Make",
       "firstSeen": "2026-11-09T09:49:57.838Z",
       "lastSeenAt": "2026-11-09T07:55:32Z",
@@ -36463,7 +36505,12 @@
         "https://www.youtube.com/watch?v=x_qriW5P_IE"
       ],
       "firstSeen": "2026-09-29T11:23:53.895Z",
-      "lastSeenAt": "2026-11-09T00:00:09Z"
+      "lastSeenAt": "2026-11-09T00:00:09Z",
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
     },
     {
       "name": "3D AI Studio",
@@ -36473,10 +36520,12 @@
         "https://www.youtube.com/watch?v=x_qriW5P_IE"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
       "status": "retry",
-      "error": "Incomplete independent verification of new profile",
-      "lastSeenAt": "2026-11-09T00:00:09Z"
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-09T00:00:09Z",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
     },
     {
       "name": "Kaedim",
@@ -36486,10 +36535,12 @@
         "https://www.youtube.com/watch?v=x_qriW5P_IE"
       ],
       "firstSeen": "2026-09-15T10:07:38.861Z",
-      "lastAttemptAt": "2026-09-19T09:34:19.351Z",
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
       "status": "retry",
-      "error": "Evidence quote missing",
-      "lastSeenAt": "2026-11-09T00:00:09Z"
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-09T00:00:09Z",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
     },
     {
       "name": "Blender MCP",
@@ -36500,11 +36551,11 @@
         "https://www.youtube.com/watch?v=GSKDV310iYY",
         "https://www.youtube.com/watch?v=x_qriW5P_IE"
       ],
-      "lastAttemptAt": "2026-10-31T18:35:06.151Z",
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
       "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-02T18:35:06.151Z"
+      "error": "Invalid model identity",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-13T23:27:56.135Z"
     },
     {
       "name": "Hyper3D Rodin Gen-2.5",
@@ -36513,7 +36564,12 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GSKDV310iYY",
         "https://www.youtube.com/watch?v=x_qriW5P_IE"
-      ]
+      ],
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
     },
     {
       "name": "Claude Fable 5.5",
@@ -36645,21 +36701,6 @@
       "error": "Invalid model identity",
       "attempts": 1,
       "nextAttemptAt": "2026-11-09T09:01:10.327Z"
-    },
-    {
-      "name": "GPT Image 2.6",
-      "firstSeen": "2026-11-05T09:32:11.308Z",
-      "lastSeenAt": "2026-11-07T16:07:59Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=an7olcESzeA",
-        "https://www.youtube.com/watch?v=YEpQS-ZJUdU",
-        "https://www.youtube.com/watch?v=03KzHJ3HJSw"
-      ],
-      "lastAttemptAt": "2026-11-08T18:52:29.632Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 2,
-      "nextAttemptAt": "2026-11-10T18:52:29.632Z"
     },
     {
       "name": "Imaginode",
@@ -41532,7 +41573,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-09T23:25:50.094Z",
+    "calculatedAt": "2026-11-09T23:27:56.135Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -41542,28 +41583,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.7115745197880738,
+      "elevenlabs": 0.7114717383854668,
       "elevenmusic": 0,
-      "heygen": 0.6694069953162675,
-      "kling-3-0": 0.32271440255986183,
+      "heygen": 0.669310304684464,
+      "kling-3-0": 0.32266778897545967,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.445457187396454,
+      "higgsfield": 4.44481507569593,
       "krea-ai": 0,
       "spline-ai": 0,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.8155874908067526,
+      "meshy-ai": 1.8153252433208302,
       "magnific-ai": 0,
-      "seedance-2-5": 3.652049153757328,
+      "seedance-2-5": 3.6515216436737394,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.9315063620807968,
-      "nano-banana-pro": 0.22218732696441063,
+      "wan-3-0": 0.931371813234865,
+      "nano-banana-pro": 0.22215523373387497,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -41571,33 +41612,33 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.39195071441578183,
+      "hunyuan3d": 0.39189410018486126,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.2766773214137205,
+      "luma-genie": 0.2766373575274744,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.243807485940139,
+      "gemini-omni-flash": 0.24377226984586614,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-09T09:49:57.838Z",
-    "newsCheckedAt": "2026-11-09T09:47:20.684Z",
+    "startedAt": "2026-11-09T23:27:56.135Z",
+    "newsCheckedAt": "2026-11-09T23:25:50.094Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
-    "candidatesPending": 421,
-    "completedAt": "2026-11-09T10:03:48.074Z",
+    "candidatesPending": 423,
+    "completedAt": "2026-11-09T23:32:23.530Z",
     "skipped": 0
   }
 }
