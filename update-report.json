@@ -1,55 +1,59 @@
 {
-  "startedAt": "2026-11-09T09:47:20.684Z",
+  "startedAt": "2026-11-09T23:25:50.094Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "rU5llKCPPwI",
-      "message": "Unknown platform ID"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-09T09:47:20.684Z",
+      "checkedAt": "2026-11-09T23:25:50.094Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 148,
-    "relevant": 47,
-    "supported": 38
+    "fetched": 145,
+    "relevant": 38,
+    "supported": 24
   },
   "rejected": [
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -57,7 +61,8 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -65,7 +70,8 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -75,17 +81,52 @@
       "evidenceIds": [
         1,
         10,
-        19
+        13
       ]
     },
     {
-      "video": "a-J5G1y0XQk",
-      "title": "0910 zht Roman",
+      "video": "U3N1vC9fcYU",
+      "title": "New Gemini  Prompt for BoysTrending Gemini Photo Editing #shorts #shortsfeed #influencerchallenge",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
+        5,
+        6
+      ]
+    },
+    {
+      "video": "qhsAp2y2pf4",
+      "title": "Why Google Flow is Changing AI Filmmaking (And How to Use It)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
         1,
-        2
+        7,
+        39
+      ]
+    },
+    {
+      "video": "uq_iDMy_OAI",
+      "title": "This is literally the best image to 3d model generator! #meshyai #ai3d #Imageto3dmodel",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "iznRRxL-j7E",
+      "title": "best image to 3d model generator! #meshyai #ai3d #Imageto3dmodel",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "aFxSPsCkuBI",
+      "title": "NVIDIA's new models for robots and self-driving cars #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
       ]
     },
     {
@@ -118,12 +159,19 @@
       ]
     },
     {
-      "video": "43QraAPKXGU",
-      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
+      "video": "VPF_EVxe5ys",
+      "title": "Apple HALO system enables robot simulation to real-world transfer",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        2
+        1
+      ]
+    },
+    {
+      "video": "GhSJtrOOm3A",
+      "title": "Minecraft 3D Model Generator: AI Agave Plant in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
       ]
     },
     {
@@ -132,63 +180,36 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "9RIK3A24ZxA",
-      "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
+      "video": "2TM8W66NI_8",
+      "title": "Claude Fable 5.2 Just Dropped. It’s the World’s Best AI.",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "yMb5rAElXiM",
+      "title": "Why AI Filmmaking Still Needs More Than Powerful Tools @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "vrT2IAsvz8s",
+      "title": "Aisthetic Trending Photo Editing❤️|| Chatgpt Photo Editing #chatgpt #gemini #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "R-zA0Y-nYWw",
+      "title": "Minecraft 3D Model Generator: AI Medieval Banquet Table",
       "stage": "article-evidence",
       "evidenceIds": [
-        4,
-        9,
-        11
+        1
       ]
-    },
-    {
-      "video": "XgC1QTs6A2U",
-      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "IGICYFyP_EI",
-      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "g0slbVJwDJU",
-      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QwzgUvqpleg",
-      "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "gSXK8Fa-JXc",
       "title": "AI Image Generation Is Not Photo Editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "liu-_-OUDeQ",
-      "title": "GPT Image 2.6: AI Image Generation & Editing | MICT #Shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -197,31 +218,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "DS1wR31UZpQ",
-      "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "jEoF_QT6lRk",
       "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "0Sb42O83Rlw",
-      "title": "Minecraft 3D Model Generator: AI Crystal Tree in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "FxqHtLP4AmE",
-      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "0z8koOkHVxM",
-      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
+      "video": "DS1wR31UZpQ",
+      "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -230,18 +233,18 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "0Sb42O83Rlw",
+      "title": "Minecraft 3D Model Generator: AI Crystal Tree in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "jKjir4-HmQI",
+      "title": "This controls games characters AND robots",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "hjU9421NOq4",
       "title": "AI music generator: songs and soundtracks from text",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "ZGdq1tMdmRM",
-      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "WUs_7vhPjMs",
-      "title": "Mixamo Alternative: AI 3D Model Generator, Auto Rig and Animation Export for a Werewolf Character",
       "stage": "insufficient-article-source"
     }
   ],
