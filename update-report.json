@@ -1,70 +1,55 @@
 {
-  "startedAt": "2026-11-08T18:49:47.539Z",
+  "startedAt": "2026-11-09T09:47:20.684Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "rU5llKCPPwI",
+      "message": "Unknown platform ID"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-08T18:49:47.539Z",
+      "checkedAt": "2026-11-09T09:47:20.684Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 145,
+    "fetched": 148,
     "relevant": 47,
     "supported": 38
   },
   "rejected": [
-    {
-      "video": "A5SfzBD6M3o",
-      "title": "Claude Code Just Called My Phone",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    {
-      "video": "lZes3U_WIug",
-      "title": "Generate Worlds in Real-Time (Free & Open Source)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
     {
       "video": "0eIjJinYgmk",
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1,
-        2
+        1
       ]
     },
     {
@@ -72,8 +57,7 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -81,8 +65,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -91,7 +74,28 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        10
+        10,
+        19
+      ]
+    },
+    {
+      "video": "a-J5G1y0XQk",
+      "title": "0910 zht Roman",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "video": "P7stfqs0YeA",
+      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
       ]
     },
     {
@@ -99,7 +103,6 @@
       "title": "BREAKING: NVIDIA Just Dropped Four Open Cosmos 3 Nano Models — For Self-Driving Cars and Robots",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         2
       ]
@@ -109,18 +112,18 @@
       "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
-        6
+        6,
+        7
       ]
     },
     {
-      "video": "KzkO667k4sg",
-      "title": "NVIDIA Open-Sources Cosmos 3 World Sim Models #Shorts",
+      "video": "43QraAPKXGU",
+      "title": "NVIDIA's new AI makes animation instant #nvidia #ai #gamedev",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -129,18 +132,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "o5iRKvXZEcY",
-      "title": "Claude Reverse Engineered Two 3DS Games to Add Real 3D",
+      "video": "9RIK3A24ZxA",
+      "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
       "stage": "article-evidence",
       "evidenceIds": [
-        "2",
-        "3",
-        "35"
+        4,
+        9,
+        11
       ]
     },
     {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "video": "XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
       "stage": "insufficient-article-source"
     },
     {
@@ -149,8 +152,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -159,13 +167,33 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "g0slbVJwDJU",
+      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "QwzgUvqpleg",
       "title": "Kling IPO Signals a \"Voltron\" AI Video Model?",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "GAjOdRWh4UY",
-      "title": "Diwali Couple Ai Photo Editing Prompt | Chatgpt Diwali Couple Ai Photo Editing |Diwali Photo Editing",
+      "video": "gSXK8Fa-JXc",
+      "title": "AI Image Generation Is Not Photo Editing",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "liu-_-OUDeQ",
+      "title": "GPT Image 2.6: AI Image Generation & Editing | MICT #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Qc-5s5A2dgM",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -179,16 +207,6 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "XgC1QTs6A2U",
-      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "FxqHtLP4AmE",
-      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "0Sb42O83Rlw",
       "title": "Minecraft 3D Model Generator: AI Crystal Tree in Blockbench",
       "stage": "article-evidence",
@@ -197,13 +215,13 @@
       ]
     },
     {
-      "video": "0z8koOkHVxM",
-      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
+      "video": "FxqHtLP4AmE",
+      "title": "Rain Trending Ai Prompt in pink ✨🪄 | Chatgpt Photo editing🔥 #aiphotoediting #chatgpt#photoediting",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "ZGdq1tMdmRM",
-      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
+      "video": "0z8koOkHVxM",
+      "title": "🔥 Diwali AI Photo Editing Prompt 2026 🪔 | Create Diwali Image with ai | Diwali Prompts",
       "stage": "insufficient-article-source"
     },
     {
@@ -212,13 +230,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "a-J5G1y0XQk",
-      "title": "0910 zht Roman",
+      "video": "hjU9421NOq4",
+      "title": "AI music generator: songs and soundtracks from text",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "hjU9421NOq4",
-      "title": "AI music generator: songs and soundtracks from text",
+      "video": "ZGdq1tMdmRM",
+      "title": "AI Filmmaking: How Creators Find Their Voice #AIDirector #aimovie #aifilmmaking #shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -227,5 +245,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 3
 }

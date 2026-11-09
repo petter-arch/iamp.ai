@@ -1,6 +1,174 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "3D Make is a new feature inside Kimi, from Moonshot AI (launched Oct 30, 2026). You describe what you want, and Kimi writes the code",
+    "evidenceIds": [
+      2,
+      3
+    ],
+    "id": "sHm1d87mSD4",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Kimi 3D Make skriver Blender- och CAD-kod för AI-genererade 3D-scener",
+    "sum": "Kanalen Odd Crate beskriver Kimi 3D Make, en ny funktion i Kimi från Moonshot AI som omvandlar beskrivningar till kod för Blender och CAD-verktyg samt kan bygga scener i Unreal, Unity och Godot.",
+    "full": "Odd Crate uppmärksammar Kimi 3D Make, en funktion i Kimi från Moonshot AI. Enligt kanalens beskrivning kan användaren beskriva vad som ska skapas, varefter Kimi skriver koden som styr Blender och CAD-verktyg. Organiska former kan i stället skickas vidare till 3D-generatorer.\n\nArbetsflödet omfattar även scenbyggen i Unreal, Unity och Godot. Delar kan exporteras för 3D-utskrift, vilket gör verktyget relevant för användare som vill gå från en textbeskrivning till modeller, scener eller vidare bearbetning i etablerade 3D-program. Funktionen körs på Kimi K3.1 Pro.\n\nVideons palats med 36 miljoner trianglar ska enligt Odd Crates beskrivning inte betraktas som ett oberoende test. Det är Moonshot AIs egen demonstration i Unreal Engine, medan palatset i videon är kanalens egen ombyggnad. Beskrivningen framhåller också att figurer, riggning, komplexa material och fysik fortfarande är svaga områden.\n\nFör lokala arbetsflöden i Blender och Unreal krävs Kimi Work-skrivbordsappen. 3D Make använder dessutom användarens vanliga Kimi-kvot. Delar avsedda för 3D-utskrift bör kontrolleras i en slicer innan de skrivs ut.",
+    "deep": "Kimi 3D Make kombinerar textbaserad instruktion med kodgenerering för flera 3D-miljöer. Enligt Odd Crate kan systemet driva Blender och CAD-verktyg genom kod, bygga scener i Unreal, Unity eller Godot och hantera organiska former genom 3D-generatorer. Det innebär ett arbetsflöde där samma beskrivning kan ligga till grund för både digital scenproduktion och förberedelse av delar för 3D-utskrift.\n\nBeskrivningen innehåller tydliga begränsningar. Moonshots palatsdemo är inte ett oberoende prestandatest, och kanalens rekonstruktion ändrar inte den bedömningen. Odd Crate återger att karaktärer, riggning, avancerade material och fysik ännu inte fungerar särskilt väl. För utskrift krävs därför en separat kontroll i slicer, medan lokala Blender- och Unreal-arbetsflöden är beroende av Kimi Work-skrivbordsappen. Funktionens användning räknas mot den normala Kimi-kvoten.",
+    "en": {
+      "ttl": "Kimi 3D Make writes Blender and CAD code for AI-generated 3D scenes",
+      "sum": "The channel Odd Crate describes Kimi 3D Make, a new feature in Kimi from Moonshot AI that turns descriptions into code for Blender and CAD tools and can build scenes in Unreal, Unity and Godot.",
+      "full": "Odd Crate highlights Kimi 3D Make, a feature in Kimi from Moonshot AI. According to the channel's description, users can describe what they want to create, after which Kimi writes the code that drives Blender and CAD tools. Organic shapes can instead be handed to 3D generators.\n\nThe workflow also covers scene creation in Unreal, Unity and Godot. Parts can be exported for 3D printing, making the tool relevant to users who want to move from a text description to models, scenes or further processing in established 3D software. The feature runs on Kimi K3.1 Pro.\n\nThe video's palace with 36 million triangles should not be treated as an independent test, according to Odd Crate's description. It is Moonshot AI's own Unreal Engine demonstration, while the palace in the video is the channel's own rebuild. The description also notes that characters, rigging, complex materials and physics remain weak areas.\n\nLocal Blender and Unreal workflows require the Kimi Work desktop app. 3D Make also uses the user's normal Kimi usage quota. Parts intended for 3D printing should be checked in a slicer before printing.",
+      "deep": "Kimi 3D Make combines text-based instructions with code generation for multiple 3D environments. According to Odd Crate, the system can drive Blender and CAD tools through code, build scenes in Unreal, Unity or Godot, and handle organic shapes through 3D generators. This creates a workflow in which one description can support both digital scene production and preparation of parts for 3D printing.\n\nThe description includes clear limitations. Moonshot's palace demo is not an independent performance test, and the channel's reconstruction does not change that qualification. Odd Crate reports that characters, rigging, advanced materials and physics do not yet work particularly well. Printing therefore requires a separate slicer check, while local Blender and Unreal workflows depend on the Kimi Work desktop app. Usage is charged against the regular Kimi quota."
+    },
+    "cat": "3d",
+    "date": "2026-11-09T07:55:32Z",
+    "meta": "Odd Crate · 2026-11-09",
+    "url": "https://www.youtube.com/watch?v=sHm1d87mSD4",
+    "img": "https://i.ytimg.com/vi/sHm1d87mSD4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Odd Crate"
+    ],
+    "parts": [],
+    "views": 4,
+    "buzz": 28,
+    "sourceCheckedAt": "2026-11-09T09:47:20.684Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f1efc903a6550eae39d221cc7aed1f1a71625b6a4b7510f1423bc8250e25b1d5",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Kimi 3D Make",
+      "Kimi K3.1 Pro",
+      "Kimi Work"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Is game dev dead, or is AI the future? What used to take weeks, a full 3D model, now takes one click: textured and rigged.",
+    "evidenceIds": [
+      1,
+      3,
+      4
+    ],
+    "id": "x_qriW5P_IE",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI BROS rankar AI-verktyg för 3D-modeller i spelutveckling",
+    "sum": "AI BROS beskriver hur AI-verktyg kan skapa texturerade och riggade 3D-modeller för spelutveckling och placerar Meshy 7.1 högst i en egen topplista. Tripo, Hi3D V3.0 och Hyper3D Rodin Gen-2.5 hamnar i nästa nivå.",
+    "full": "AI BROS presenterar en egen rankning av AI-baserade 3D-verktyg för spelutveckling. Kanalen beskriver en utveckling där en komplett 3D-modell, som tidigare kunde ta veckor att skapa, enligt beskrivningen kan genereras med ett klick och redan vara texturerad och riggad. Rankningen bygger enligt AI BROS på modeller som kanalen faktiskt använder i sina egna spel, men beskrivningen innehåller ingen oberoende testmetodik eller detaljerade jämförelsekriterier.\n\nMeshy 7.1 placeras i den högsta SSS-klassen och utses i videons struktur till den ledande lösningen. I SS-klassen hamnar Tripo, Hi3D V3.0 och Hyper3D Rodin Gen-2.5. Därutöver listas Claude Opus 5.5, Claude Fable 5.5 och GPT-6 Astra i S-klassen, med användning i Blender via MCP. Det pekar på ett arbetsflöde där AI inte bara används för att skapa tillgångar, utan även för att bygga i eller styra arbete i Blender.\n\nTencent Hunyuan 3D och ByteDance Seed3D 2.0 placeras i A-klassen. Microsoft TRELLIS.2, Sloyd, 3D AI Studio och Krea 3D hamnar i B-klassen. Kaedim och Spline listas i C-klassen, medan Stability AI SPAR3D och Luma Genie får D-placering. CSM Cube placeras längst ned i E-klassen.\n\nVideobeskrivningen sätter rankningen i en bredare diskussion om AI i spelbranschen. Den nämner Epic och Tim Sweeneys AI-inriktning, Kenneys invändningar samt AI-demonstrationer under Steam Next Fest. Dessa delar fungerar som videons branschkontext; den konkreta AI-utvecklingen som rankas är användningen av generativa 3D-verktyg och AI-assisterade Blender-arbetsflöden för spelprojekt.",
+    "deep": "AI BROS skiljer mellan verktyg för direkt 3D-generering och AI-assisterade arbetsflöden i Blender. I den senare gruppen nämns GPT-6 Astra tillsammans med Blender via MCP, samt Claude Opus 5.5 och Claude Fable 5.5. Beskrivningen anger dock inte vilka uppgifter systemen utför, vilka indata som används eller hur resultaten bedöms.\n\nRankningen innehåller flera namn och versionsbeteckningar som inte motsvarar exakta poster i den angivna plattformsregistret. Meshy 7.1, Tripo, Hi3D V3.0, Hyper3D Rodin Gen-2.5, Tencent Hunyuan 3D, ByteDance Seed3D 2.0, Microsoft TRELLIS.2 och Krea 3D anges uttryckligen i källan, men registret innehåller inte entydiga matchningar för dessa versioner eller namn. Därför listas inga plattforms-ID:n och inga nya plattformar i resultatet.",
+    "en": {
+      "ttl": "AI BROS ranks AI tools for 3D models in game development",
+      "sum": "AI BROS describes how AI tools can create textured and rigged 3D models for game development and places Meshy 7.1 at the top of its own ranking. Tripo, Hi3D V3.0 and Hyper3D Rodin Gen-2.5 are placed in the next tier.",
+      "full": "AI BROS presents its own ranking of AI-based 3D tools for game development. The channel describes a development in which a complete 3D model that previously could take weeks to create can, according to the description, be generated with one click and already be textured and rigged. AI BROS says the ranking is based on models the channel actually uses in its own games, but the description provides no independent testing method or detailed comparison criteria.\n\nMeshy 7.1 is placed in the top SSS tier and identified as the leading solution in the video’s structure. Tripo, Hi3D V3.0 and Hyper3D Rodin Gen-2.5 are placed in the SS tier. Claude Opus 5.5, Claude Fable 5.5 and GPT-6 Astra are also listed, in the S tier, with use in Blender via MCP. This indicates a workflow in which AI is used not only to create assets but also to build in or direct work inside Blender.\n\nTencent Hunyuan 3D and ByteDance Seed3D 2.0 are placed in tier A. Microsoft TRELLIS.2, Sloyd, 3D AI Studio and Krea 3D are placed in tier B. Kaedim and Spline are listed in tier C, while Stability AI SPAR3D and Luma Genie receive tier D. CSM Cube is placed in tier E.\n\nThe video description places the ranking in a broader discussion about AI in the game industry. It mentions Epic and Tim Sweeney’s AI focus, Kenney’s objections, and AI demonstrations at Steam Next Fest. These elements provide the video’s industry context; the concrete AI development being ranked is the use of generative 3D tools and AI-assisted Blender workflows for game projects.",
+      "deep": "AI BROS distinguishes between tools for direct 3D generation and AI-assisted workflows in Blender. The latter group includes GPT-6 Astra with Blender via MCP, as well as Claude Opus 5.5 and Claude Fable 5.5. However, the description does not state which tasks the systems perform, what inputs are used, or how the results are evaluated.\n\nThe ranking includes several names and version labels that do not correspond to exact entries in the supplied platform registry. Meshy 7.1, Tripo, Hi3D V3.0, Hyper3D Rodin Gen-2.5, Tencent Hunyuan 3D, ByteDance Seed3D 2.0, Microsoft TRELLIS.2 and Krea 3D are explicitly named in the source, but the registry does not contain unambiguous matches for these versions or names. Therefore, no platform IDs are listed and no new platforms are included in the result."
+    },
+    "cat": "3d",
+    "date": "2026-11-09T00:00:09Z",
+    "meta": "AI BROS · 2026-11-09",
+    "url": "https://www.youtube.com/watch?v=x_qriW5P_IE",
+    "img": "https://i.ytimg.com/vi/x_qriW5P_IE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI BROS"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Is game dev dead?"
+      },
+      {
+        "t": 28,
+        "l": "The drama: Epic goes AI first"
+      },
+      {
+        "t": 47,
+        "l": "Kenney vs Tim Sweeney"
+      },
+      {
+        "t": 56,
+        "l": "Steam Next Fest AI slop"
+      },
+      {
+        "t": 67,
+        "l": "Indies fight back"
+      },
+      {
+        "t": 84,
+        "l": "The tier list starts"
+      },
+      {
+        "t": 87,
+        "l": "Tripo"
+      },
+      {
+        "t": 108,
+        "l": "Hi3D"
+      },
+      {
+        "t": 116,
+        "l": "Hyper3D Rodin"
+      },
+      {
+        "t": 126,
+        "l": "Claude and GPT-6 in Blender (MCP)"
+      },
+      {
+        "t": 151,
+        "l": "Hunyuan 3D and Seed3D"
+      },
+      {
+        "t": 165,
+        "l": "TRELLIS.2, Sloyd, 3D AI Studio, Krea"
+      },
+      {
+        "t": 176,
+        "l": "Kaedim, Spline, Stability, Luma, CSM"
+      },
+      {
+        "t": 188,
+        "l": "The king: Meshy"
+      },
+      {
+        "t": 208,
+        "l": "Is game dev dead?"
+      }
+    ],
+    "views": 8298,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-11-09T09:47:20.684Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1f31722aa7e331efb93bdeda6cdcc58fb16e5dac5522ab583885372e9982b60b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Meshy 7.1",
+      "Tripo",
+      "Hi3D V3.0",
+      "Hyper3D Rodin Gen-2.5",
+      "Claude Opus 5.5",
+      "Claude Fable 5.5",
+      "GPT-6 Astra",
+      "Blender MCP",
+      "Tencent Hunyuan 3D",
+      "ByteDance Seed3D 2.0",
+      "Microsoft TRELLIS.2",
+      "Sloyd",
+      "3D AI Studio",
+      "Krea 3D",
+      "Kaedim",
+      "Spline",
+      "Stability AI SPAR3D",
+      "Luma Genie",
+      "CSM Cube"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "In this tutorial, we're testing P-H3-Image, a powerful new AI image generation and editing model based on MiniMax H3, now available in ComfyUI! P-H3-Image brings",
     "evidenceIds": [
       1,
@@ -470,6 +638,81 @@
     "sourceId": "aisamsonreal",
     "newPlatforms": [
       "ChatGPT Images 2.6"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, I'm testing OiiOii AI's 3D Previsualization feature to see how it helps plan and direct cinematic shots before generating the final video.",
+    "evidenceIds": [
+      3,
+      4,
+      10
+    ],
+    "id": "oDjSjpLiuTA",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "OiiOii AI visar 3D-förvisualisering för styrda kamerarörelser i AI-video",
+    "sum": "AI Outlet beskriver hur OiiOii AI:s 3D-förvisualisering kan användas för att planera kamerabanor och karaktärsrörelser innan en slutlig AI-genererad filmsekvens skapas. I arbetsflödet används den förbättrade förvisualiseringen som referens för cinematic video generation med Seedance 2.5.",
+    "full": "AI Outlet granskar OiiOii AI:s funktion för 3D-förvisualisering, med fokus på hur filmskapare kan få större kontroll över kamerarörelser och komplexa scener i AI-genererade videor. Enligt kanalens beskrivning är syftet att planera och regissera cinematic shots innan den slutliga videon genereras.\n\nI det presenterade arbetsflödet skapar AI Outlet en sammanhängande sekvens där en karaktär går in i en futuristisk byggnad, rör sig genom en korridor och fortsätter in i ett stort rum. Först tas en grov 3D-förhandsvisning fram. Därefter kan kamerarörelserna förfinas innan förvisualiseringen används som referens för den slutliga filmiska genereringen.\n\nBeskrivningen lyfter särskilt planering av karaktärsrörelser och kamerabanor, skapandet av en grov 3D-scen samt granskning och justering av den inledande förhandsvisningen. Den färdiga sekvensen genereras med Seedance 2.5, och videon jämför enligt tidsangivelserna förhandsvisningen med det slutliga resultatet.\n\nOiiOii AI:s 3D-förvisualisering framställs därmed som ett planeringssteg i ett AI-filmarbetsflöde, snarare än som själva slutliga videogenereringen. AI Outlet presenterar detta som ett sätt att förbereda kamerarörelser och scenförlopp innan den slutliga AI-videon skapas.",
+    "deep": "Kanalens beskrivning anger inte tekniska detaljer om OiiOii AI:s interna modell, exportformat, kompatibla verktyg eller hur exakt kamerabanor och scenobjekt styrs. Den visar däremot ett tydligt arbetsflöde: skapa en grov 3D-preview, granska den, justera kamerarörelserna och använda den förbättrade förvisualiseringen som referens vid generering med Seedance 2.5.\n\nDet konkreta användningsfallet är en kontinuerlig cinematic sequence med tre scenmoment: entré i en futuristisk byggnad, förflyttning genom en korridor och rörelse in i ett massivt rum. Beskrivningen nämner också att metoden kan användas för att planera karaktärsrörelser och avgöra när 3D-förvisualisering är användbar i AI-filmskapande. Uppgifterna bygger på AI Outlets videobeskrivning och är inte en oberoende testbedömning.",
+    "en": {
+      "ttl": "OiiOii AI visar 3D-förvisualisering för styrda kamerarörelser i AI-video",
+      "sum": "AI Outlet beskriver hur OiiOii AI:s 3D-previsualization can be used to plan camera paths and character movements before creating a final AI-generated film sequence. The workflow uses the improved previs as a reference for cinematic video generation with Seedance 2.5.",
+      "full": "AI Outlet reviews OiiOii AI’s 3D previsualization feature, focusing on how filmmakers can gain more control over camera movements and complex scenes in AI-generated videos. According to the channel’s description, the purpose is to plan and direct cinematic shots before the final video is generated.\n\nIn the presented workflow, AI Outlet creates a continuous sequence in which a character enters a futuristic building, walks through a corridor and moves into a massive room. A rough 3D preview is created first. Camera movements can then be refined before the previsualization is used as a reference for the final cinematic generation.\n\nThe description specifically highlights planning character movements and camera paths, creating a rough 3D scene, and reviewing and adjusting the initial preview. The final sequence is generated with Seedance 2.5, and the video’s timestamps indicate a comparison between the preview and the final result.\n\nOiiOii AI’s 3D previsualization is therefore presented as a planning stage in an AI filmmaking workflow rather than as the final video-generation step. AI Outlet presents it as a way to prepare camera movements and scene progression before creating the final AI video.",
+      "deep": "The channel’s description does not provide technical details about OiiOii AI’s underlying model, export formats, compatible tools or the exact level of control over camera paths and scene objects. It does provide a clear workflow: create a rough 3D preview, review it, refine camera movements and use the improved previsualization as a reference when generating with Seedance 2.5.\n\nThe concrete use case is a continuous cinematic sequence with three scene moments: entering a futuristic building, moving through a corridor and entering a massive room. The description also states that the method can be used to plan character movements and determine when 3D previsualization is useful in AI filmmaking. These details are based on AI Outlet’s video description and do not constitute an independent test."
+    },
+    "cat": "film",
+    "date": "2026-11-06T23:55:05Z",
+    "meta": "AI Outlet · 2026-11-06",
+    "url": "https://www.youtube.com/watch?v=oDjSjpLiuTA",
+    "img": "https://i.ytimg.com/vi/oDjSjpLiuTA/hqdefault.jpg",
+    "plat": "Seedance 2.5",
+    "platformIds": [
+      "seedance-2-5"
+    ],
+    "chans": [
+      "AI Outlet"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Introduction to AI 3D Previsualization"
+      },
+      {
+        "t": 25,
+        "l": "Understanding the 3D Previs Workflow"
+      },
+      {
+        "t": 50,
+        "l": "Creating a Cinematic Scene in OiiOii"
+      },
+      {
+        "t": 89,
+        "l": "Generating and Reviewing the Initial Preview"
+      },
+      {
+        "t": 132,
+        "l": "Refining Camera Movements"
+      },
+      {
+        "t": 174,
+        "l": "Turning the 3D Preview into a Cinematic Video"
+      },
+      {
+        "t": 208,
+        "l": "Comparing the Preview with the Final Result"
+      }
+    ],
+    "views": 8368,
+    "buzz": 67,
+    "sourceCheckedAt": "2026-11-09T09:47:20.684Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "f6872a65d63cc66cf4ddc331744950046fb3432c16aea4606311f9a71ad49ba9",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "OiiOii AI"
     ]
   },
   {
