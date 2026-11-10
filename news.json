@@ -1,6 +1,96 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Hunyuan3D 2.1: AI 3D model generator A scalable 3D asset creation system with open-source framework and PBR texture synthesis. Good for: ai 3d generator, 3d",
+    "evidenceIds": [
+      0,
+      2,
+      3
+    ],
+    "id": "IiyBSW75cOY",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Hunyuan3D 2.1 skapar 3D-tillgångar med AI",
+    "sum": "Operatos AI beskriver Hunyuan3D 2.1 som ett skalbart system för att skapa 3D-tillgångar med ett ramverk med öppen källkod och syntes av PBR-texturer.",
+    "full": "Operatos AI lyfter fram Hunyuan3D 2.1 som en AI-baserad modellgenerator för 3D. Enligt kanalens beskrivning är systemet byggt för skalbar skapning av 3D-tillgångar och kombinerar ett ramverk med öppen källkod med syntes av PBR-texturer.\n\nBeskrivningen placerar verktyget i arbetsflöden för AI-generering av 3D, snarare än som ett traditionellt modelleringsprogram. Operatos AI nämner särskilt användningsområdena AI-baserad 3D-generering och skapande av 3D-tillgångar, med spelutveckling som ett relevant sammanhang.\n\nHunyuan3D 2.1 presenteras som ett projekt från Tencent och hänvisas till via en officiell sida på Hugging Face. Operatos AI beskriver sitt innehåll som verktygstestning, men uppgifterna här återger endast kanalens publicerade beskrivning och utgör inte ett oberoende test av modellens resultat eller arbetsflöde.",
+    "deep": "Den centrala tekniska uppgiften i källan är PBR-textursyntes, vilket innebär att systemet enligt beskrivningen inte enbart fokuserar på själva 3D-geometrin utan även på att skapa texturdata avsedd för fysiskt baserad rendering. Källan ger dock inga detaljer om indataformat, exportformat, modellens begränsningar, licensvillkor, beräkningskrav eller hur kvaliteten står sig mot andra verktyg.\n\nOperatos AI anger att ramverket är open source, men den tillhandahållna beskrivningen specificerar inte vilka komponenter som omfattas, vilken licens som används eller hur lokalt respektive molnbaserat arbetsflöde ser ut. Därför går det inte att dra slutsatser om installation, prestanda eller produktionsberedskap utifrån detta underlag.",
+    "en": {
+      "ttl": "Hunyuan3D 2.1 creates 3D assets with AI",
+      "sum": "Operatos AI describes Hunyuan3D 2.1 as a scalable system for creating 3D assets with an open-source framework and PBR texture synthesis.",
+      "full": "Operatos AI presents Hunyuan3D 2.1 as an AI-based 3D model generator. According to the channel’s description, the system is designed for scalable 3D asset creation and combines an open-source framework with PBR texture synthesis.\n\nThe description places the tool in AI-generated 3D workflows rather than traditional modeling software. Operatos AI specifically lists AI 3D generation and 3D asset creation as use cases, with game development mentioned as a relevant context.\n\nHunyuan3D 2.1 is presented as a Tencent project and is linked through an official Hugging Face page. Operatos AI describes its content as tool testing, but the information here only reflects the channel’s published description and is not an independent test of the model’s results or workflow.",
+      "deep": "The source’s main technical detail is PBR texture synthesis, indicating that the system is described as addressing not only 3D geometry but also texture data intended for physically based rendering. The supplied source does not provide details about input formats, export formats, model limitations, licensing terms, computing requirements, or comparative quality.\n\nOperatos AI states that the framework is open source, but the supplied description does not specify which components are covered, what license applies, or whether the workflow is local or cloud-based. Installation, performance, and production-readiness therefore cannot be established from this source alone."
+    },
+    "cat": "3d",
+    "date": "2026-11-10T17:07:36Z",
+    "meta": "Operatos AI · 2026-11-10",
+    "url": "https://www.youtube.com/watch?v=IiyBSW75cOY",
+    "img": "https://i.ytimg.com/vi/IiyBSW75cOY/hqdefault.jpg",
+    "plat": "Hunyuan3D",
+    "platformIds": [
+      "hunyuan3d"
+    ],
+    "chans": [
+      "Operatos AI"
+    ],
+    "parts": [],
+    "views": 4,
+    "buzz": 28,
+    "sourceCheckedAt": "2026-11-10T20:48:24.554Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "e01aa6942262cc36b607c5d3299234ee78c758c8d64377fd639e28a75a62edca",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "What if a single sentence could become a cinematic video? Episode 12 of AI in a Minute: AI video generation, the future of filmmaking. This",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "RihSfrUKtkY",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI-videogenerering visar hur filmscener byggs från text och stillbilder",
+    "sum": "The AI Current beskriver hur AI-videomodeller kan skapa några sekunders rörlig bild från en textbeskrivning eller animera en stillbild. Avsnittet visar ett arbetsflöde där korta klipp fogas samman till en sekvens, samtidigt som det betonar begränsningar som varierande resultat och bristande fysik.",
+    "full": "Kan en enda mening bli en filmscen? Det är utgångspunkten för The AI Currents tolfte avsnitt av AI in a Minute, som handlar om AI-videogenerering och dess möjliga roll i filmskapande. Avsnittet är ett kapabilitetsavsnitt snarare än en genomgång av en enskild produkt, och demonstrerar tekniken med egna genererade bilder.\n\nThe AI Current beskriver två huvudsakliga vägar in i arbetsflödet. Med text-till-video anges en scen i ord, varefter modellen skapar rörlig bild. Med bild-till-video används i stället en stillbild som utgångspunkt och modellen genererar rörelsen bildruta för bildruta. Demonstrationen börjar med samma fyrbild som skapades i föregående avsnitt: bilden hålls först stilla och animeras sedan med rullande vågor, en svepande ljusstråle och en inzoomande kamera.\n\nAvsnittet visar också hur en ny scen kan skapas från en mening. En storm över samma kust blir ett separat kortklipp, och filmskaparen sätter sedan samman flera korta klipp, scen för scen, till en sekvens. Enligt The AI Current är de rörliga bilderna i demonstrationen syntetiskt AI-genererade och märkta som sådana; inget av materialet är filmat på en verklig plats.\n\nThe AI Current framhåller samtidigt att tekniken inte ersätter redigering eller mänsklig sammanfogning av längre filmer. Klippen varar bara några sekunder, vilket innebär att färdiga minuter fortfarande byggs av människor från genererade sekunder. Samma förfrågan kan dessutom ge olika resultat vid två försök. Avsnittet visar en andra tagning som ett konkret exempel på variationen och påpekar att fysiken fortfarande kan bli fel.",
+    "deep": "Källorna som återges i beskrivningen anger flera funktioner hos moderna videogenereringssystem. Google Clouds dokumentation för Veo 3.1 beskriver text-till-video, bildbaserad generering, första och sista bildruta samt förlängning. Angivna videolängder är fyra, sex eller åtta sekunder med 24 bilder per sekund. Referensbilder stöds på de mer omfattande nivåerna men inte på Lite-nivån, och Content Credentials enligt C2PA stöds.\n\nDen återgivna promptguiden beskriver att kamerarörelser som panorering, åkning, zoom och kranrörelse kan begäras i en prompt, samtidigt som vissa avancerade vinklar inte är officiellt stödda och resultaten kan variera. Runways utvecklardokumentation anges stödja bild-till-video från en inmatad bild tillsammans med en rörelseprompt, samt text-till-video från enbart text.\n\nBeskrivningen nämner även Luma Ray3, där dokumentationen anges omfatta text-till-video, bild-till-video, karaktärsreferenser för konsekvens mellan bilder, nyckelbilder, loop, förlängning och uppskalning. The AI Current namnger dock inget verktyg i sin berättarröst och presenterar avsnittet som en övergripande demonstration av arbetsflödet, inte som ett oberoende test av en viss tjänst.",
+    "en": {
+      "ttl": "AI video generation shows how films are built from text and still images",
+      "sum": "The AI Current describes how AI video models can create a few seconds of moving image from a text description or animate a still image. The episode shows a workflow in which short clips are assembled into a sequence, while highlighting limitations such as variable results and inaccurate physics.",
+      "full": "Can a single sentence become a film scene? That is the premise of The AI Current’s twelfth episode of AI in a Minute, which examines AI video generation and its potential role in filmmaking. The episode is a capability overview rather than a presentation of one specific product, and demonstrates the technology with its own generated footage.\n\nThe AI Current describes two main entry points. With text-to-video, a scene is specified in words and the model generates moving images. With image-to-video, a still image is used as the starting point and the model generates motion frame by frame. The demonstration begins with the same lighthouse image created in the previous episode: it is held still briefly and then animated with rolling waves, a sweeping beam and a push-in camera movement.\n\nThe episode also shows how a new scene can be created from a sentence. A storm over the same coast becomes a separate short clip, and the filmmaker then joins several short clips together, shot by shot, into a sequence. According to The AI Current, the moving images in the demonstration are synthetic AI generations and are labelled as such; none of the material was filmed at a real location.\n\nThe AI Current also stresses that the technology does not remove the need for editing or human assembly of longer films. Clips last only a few seconds, so finished minutes still have to be built by people from generated seconds. The same prompt can also produce different results on two attempts. The episode shows a second take as a concrete example of that variation and notes that the physics can still be wrong.",
+      "deep": "The sources cited in the description list several capabilities of current video-generation systems. Google Cloud documentation for Veo 3.1 describes text-to-video, image-based generation, first and last frames, and extension. The stated video lengths are four, six or eight seconds at 24 frames per second. Reference images are supported on the fuller tiers but not on Lite, and Content Credentials using C2PA are supported.\n\nThe cited prompting guide says that camera movements such as pan, dolly, zoom and crane can be requested in a prompt, while noting that some advanced angles are not officially supported and that results may vary. Runway’s developer documentation is cited as supporting image-to-video from an input image plus a motion prompt, as well as text-to-video from text alone.\n\nThe description also mentions Luma Ray3, whose documentation is said to include text-to-video, image-to-video, character references for consistency across shots, keyframes, looping, extension and upscaling. However, The AI Current does not name a tool in its narration and presents the episode as a general workflow demonstration, not as an independent test of any particular service."
+    },
+    "cat": "film",
+    "date": "2026-11-10T13:30:27Z",
+    "meta": "The AI Current · 2026-11-10",
+    "url": "https://www.youtube.com/watch?v=RihSfrUKtkY",
+    "img": "https://i.ytimg.com/vi/RihSfrUKtkY/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "The AI Current"
+    ],
+    "parts": [],
+    "views": 9,
+    "buzz": 32,
+    "sourceCheckedAt": "2026-11-10T20:48:24.554Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "325734a197bde61be950161091af1980bb423210357e2c7128ac757adf30a722",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Veo 3.1",
+      "Ray3",
+      "Ray3.2"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Learn how to transform a simple hand-drawn sketch into a 3D model using Spline AI. This quick tutorial shows how AI-powered 3D generation works, from",
     "evidenceIds": [
       1,
@@ -154,6 +244,48 @@
       "Google Omni Flash 1.2",
       "Google Omni Flash 1.1"
     ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Create an extreme macro close-up portrait of the same woman from the uploaded image. Preserve her exact original face, facial features, skin tone, eyes, nose,",
+    "evidenceIds": [
+      3,
+      4,
+      107
+    ],
+    "id": "vrT2IAsvz8s",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "AI-redigering av porträtt med ChatGPT och Gemini",
+    "sum": "Kanalen Dil se edits visar ett promptbaserat arbetsflöde för AI-redigering av porträtt, med strikt bevarande av den avbildade personens identitet och en vertikal 9:16-komposition.",
+    "full": "Kanalen Dil se edits presenterar ett promptbaserat arbetsflöde för AI-redigering av ett uppladdat porträtt. Huvudkravet är att samma kvinna ska behålla sitt ursprungliga ansikte, sina ansiktsdrag, sin hudton, sin frisyr och sin identitet. Prompten instruerar samtidigt modellen att skapa ett extremt makronärbildsporträtt med ett mjukt leende och blicken något uppåt.\n\nDen föreslagna redigeringen lägger till detaljer som en mild rodnad på kinderna, glansiga rosa läppar, diskret eyeliner, en liten svart bindi och guldfärgade jhumka-örhängen. Håret ska vara något rufsigt med några lösa, naturliga hårstrån. Resultatet ska enligt prompten ha en varm, estetisk och filmisk stil, med gyllene högdagrar, kort skärpedjup, subtil rörelseoskärpa i de lösa hårstråna, mjuk bokeh och realistisk hudstruktur.\n\nArbetsflödet kopplas i beskrivningen till ChatGPT och Gemini för bildredigering och bildgenerering. Kanalen använder en färdig prompt som är avsedd att kunna återanvändas med ett uppladdat foto, snarare än att beskriva manuell retuschering. Prompten anger också vertikalt format i 9:16, vilket passar det kortvideo- och sociala medieformat som nämns i beskrivningen.",
+    "deep": "Den mest konkreta tekniska delen är kombinationen av identitetsbevarande och stilstyrning. Instruktionen förbjuder ansiktsförvrängning och ansiktsförändringar samtidigt som den specificerar uttryck, blick, sminkdetaljer, smycken, hår och bildkänsla. Det gör prompten till en mall för att förändra presentationen utan att avsiktligt byta ut den porträtterade personen.\n\nDen visuella målbilden omfattar professionell DSLR-fotografi, mycket hög detaljrikedom, fotorealism, naturlig skönhet, fin filmliknande kornighet och mjuk bokeh. Dessa punkter är delar av kanalens promptbeskrivning och ska inte läsas som resultat från ett oberoende test. Beskrivningen anger inte vilken av ChatGPT- eller Gemini-versionerna som används, och den innehåller inga uppgifter om lanseringsdatum, kvalitetsmätningar eller jämförelser mellan tjänsterna.\n\nBeskrivningen nämner även sökord om exempelvis vintage-, regn-, polaroid- och 3D-relaterad bildredigering, men den ger inte tillräckligt med konkreta instruktioner för att dessa ska utgöra separata arbetsflöden. Den substantiella delen som stöds av källmaterialet är därför den identitetsbevarande porträttredigeringen med den angivna makro-, skönhets- och filmiska estetiken.",
+    "en": {
+      "ttl": "AI portrait editing with ChatGPT and Gemini",
+      "sum": "The channel Dil se edits presents a prompt-based AI portrait-editing workflow with strict identity preservation and a vertical 9:16 composition.",
+      "full": "The channel Dil se edits presents a prompt-based workflow for editing an uploaded portrait with AI. The main requirement is that the same woman keeps her original face, facial features, skin tone, hairstyle and identity. The prompt also asks for an extreme macro close-up portrait, a soft smile and a slightly upward gaze.\n\nThe proposed edit adds details including a gentle blush, glossy pink lips, subtle eyeliner, a small black bindi and gold jhumka earrings. The hair should remain slightly messy, with a few loose natural strands. The requested result uses warm aesthetic cinematic styling, golden highlights, shallow depth of field, subtle motion blur in the loose strands, soft bokeh and realistic skin texture.\n\nThe description connects the workflow to ChatGPT and Gemini for image editing and generation. The channel provides a reusable prompt for an uploaded image rather than describing manual retouching. The prompt also specifies a vertical 9:16 format, matching the short-video and social-media context mentioned in the description.",
+      "deep": "The most concrete technical element is the combination of identity preservation and style control. The instruction prohibits face distortion and facial changes while specifying expression, gaze, makeup details, jewelry, hair and overall visual treatment. This makes the prompt a template for changing the presentation without intentionally replacing the depicted person.\n\nThe target look includes professional DSLR photography, high detail, photorealism, natural beauty, fine film-like grain and soft bokeh. These are elements of the channel's prompt description and should not be treated as results from an independent test. The description does not identify the ChatGPT or Gemini versions used, and it provides no release dates, quality measurements or service comparisons.\n\nThe description also includes keywords about vintage, rainy-season, polaroid and 3D-related image editing, but it does not provide enough concrete instructions for these to qualify as separate workflows. The supported substantive subject is therefore the identity-preserving portrait edit with the specified macro, beauty and cinematic aesthetic."
+    },
+    "cat": "foto",
+    "date": "2026-11-09T11:19:19Z",
+    "meta": "Dil se edits · 2026-11-09",
+    "url": "https://www.youtube.com/watch?v=vrT2IAsvz8s",
+    "img": "https://i.ytimg.com/vi/vrT2IAsvz8s/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Dil se edits"
+    ],
+    "parts": [],
+    "views": 1276,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-11-10T20:48:24.554Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "d929793a6490f503c0d12859908b6e6b0debee0005df10fc950670558717f93b",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
   },
   {
     "editorialStatus": "approved",
@@ -489,6 +621,47 @@
     "sourceCheckedAt": "2026-11-08T18:49:47.539Z",
     "sourceBasis": "publisher-description",
     "sourceHash": "607a87c6478365cfe3bba3de88f80ca8dc35cc1c27f341975a41e844a6d5f38d",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "AI music generator: songs and soundtracks from text How to use an AI music generator: a song or background music from a description, sound effects,",
+    "evidenceIds": [
+      0,
+      1
+    ],
+    "id": "hjU9421NOq4",
+    "tag": "aud",
+    "lab": "Ljud",
+    "ico": "🎵",
+    "ttl": "AI-musikgenerator skapar låtar och soundtrack från text",
+    "sum": "Kanalen iDos Games Engine beskriver ett AI-baserat musikarbetsflöde där textbeskrivningar kan användas för att skapa låtar, bakgrundsmusik, ljudeffekter och soundtrack till reels. Beskrivningen tar även upp röstverktyg och kostnaden för ett spår.",
+    "full": "iDos Games Engine beskriver en AI-musikgenerator som omvandlar textbeskrivningar till musikaliskt material. Arbetsflödet omfattar både hela låtar och bakgrundsmusik, vilket gör verktyget relevant för olika typer av innehållsproduktion.\n\nEnligt kanalens beskrivning kan generatorn även användas för att skapa ljudeffekter och soundtrack till en reel. Det placerar AI-musiken i ett praktiskt produktionssammanhang, där samma typ av textbaserade instruktion kan användas för flera ljudbehov i stället för enbart för traditionella låtar.\n\nBeskrivningen nämner dessutom röstverktyg som en del av genomgången. iDos Games Engine tar också upp vad ett spår kostar, så videon behandlar inte bara möjligheterna med textbaserad musikgenerering utan även den ekonomiska sidan av att skapa ett resultat.\n\nUnderlaget anger inte vilken specifik AI-plattform som används, hur musikgeneratorn fungerar tekniskt, vilka begränsningar som gäller eller hur kostnaden beräknas. Påståendena ovan återges därför som kanalens beskrivning och bygger inte på ett självständigt test.",
+    "deep": "Det centrala AI-arbetsflödet är text till ljud: en användare beskriver önskat innehåll och får enligt iDos Games Engine fram en låt, bakgrundsmusik, ljudeffekt eller ett soundtrack för en reel. Röstverktyg ingår också i den beskrivna omfattningen, men källan specificerar inte om de används för sång, tal eller någon annan funktion.\n\nKällan nämner en kostnad per spår, men anger inget belopp, abonnemang eller prismodell. Den identifierar inte heller någon produkt- eller modellversion, så ingen plattformsregistrering kan kopplas till videon. Videon är uppladdad den 8 november 2026, men detta datum ska inte tolkas som ett lanseringsdatum för musikgeneratorn.",
+    "en": {
+      "ttl": "AI music generator creates songs and soundtracks from text",
+      "sum": "The channel iDos Games Engine describes an AI-based music workflow in which text descriptions can be used to create songs, background music, sound effects and soundtracks for reels. The description also covers voice tools and the cost of a track.",
+      "full": "iDos Games Engine describes an AI music generator that turns text descriptions into musical material. The workflow covers both complete songs and background music, making the tool relevant to different types of content production.\n\nAccording to the channel’s description, the generator can also be used to create sound effects and a soundtrack for a reel. This places AI music in a practical production context, where text-based instructions can support several audio needs rather than only traditional songs.\n\nThe description also mentions voice tools as part of the walkthrough. iDos Games Engine additionally discusses the cost of a track, so the video addresses not only the possibilities of text-based music generation but also the financial aspect of creating an output.\n\nThe source does not identify the specific AI platform, explain how the music generator works technically, describe its limitations or state how the cost is calculated. The claims above are therefore attributed to the channel’s description and are not based on an independent test.",
+      "deep": "The central AI workflow is text to audio: a user describes the desired content and, according to iDos Games Engine, can generate a song, background music, sound effect or soundtrack for a reel. Voice tools are also included in the stated scope, but the source does not specify whether they are used for singing, speech or another function.\n\nThe source mentions a cost per track but gives no amount, subscription or pricing model. It also identifies no product or model version, so no platform can be matched to the registry. The video was uploaded on November 8, 2026, but that date should not be interpreted as a release date for the music generator."
+    },
+    "cat": "ljud",
+    "date": "2026-11-08T08:39:31Z",
+    "meta": "iDos Games Engine · 2026-11-08",
+    "url": "https://www.youtube.com/watch?v=hjU9421NOq4",
+    "img": "https://i.ytimg.com/vi/hjU9421NOq4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "iDos Games Engine"
+    ],
+    "parts": [],
+    "views": 86,
+    "buzz": 43,
+    "sourceCheckedAt": "2026-11-10T20:48:24.554Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "19cc9d348c8bc309190689645d887cf5fdaf65151ee97ff3a962665f13fe23c8",
     "trusted": false,
     "sourceId": null,
     "newPlatforms": []
