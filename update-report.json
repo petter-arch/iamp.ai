@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-11-09T23:25:50.094Z",
+  "startedAt": "2026-11-10T09:48:26.681Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-09T23:25:50.094Z",
+      "checkedAt": "2026-11-10T09:48:26.681Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 145,
-    "relevant": 38,
-    "supported": 24
+    "relevant": 49,
+    "supported": 37
   },
   "rejected": [
     {
@@ -61,8 +61,7 @@
       "title": "Genie 3 vs Genie 4. Same world, huge jump.",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -70,8 +69,7 @@
       "title": "Google's Genie 4 builds a playable world from one prompt",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        0
       ]
     },
     {
@@ -79,29 +77,19 @@
       "title": "Google Genie 4 is WILD! (Full Breakdown)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        10,
-        13
-      ]
-    },
-    {
-      "video": "U3N1vC9fcYU",
-      "title": "New Gemini  Prompt for BoysTrending Gemini Photo Editing #shorts #shortsfeed #influencerchallenge",
-      "stage": "classification-evidence",
-      "evidenceIds": [
         0,
-        5,
-        6
+        1,
+        10
       ]
     },
     {
-      "video": "qhsAp2y2pf4",
-      "title": "Why Google Flow is Changing AI Filmmaking (And How to Use It)",
+      "video": "twSNKgmk_Mw",
+      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        7,
-        39
+        3,
+        18,
+        19
       ]
     },
     {
@@ -127,16 +115,6 @@
       "evidenceIds": [
         0,
         1
-      ]
-    },
-    {
-      "video": "P7stfqs0YeA",
-      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        3
       ]
     },
     {
@@ -167,12 +145,9 @@
       ]
     },
     {
-      "video": "GhSJtrOOm3A",
-      "title": "Minecraft 3D Model Generator: AI Agave Plant in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "iZm0eJm-YNQ",
+      "title": "ChatGPT Can Make GIFs Now!",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "tgdG27lr26s",
@@ -180,8 +155,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "2TM8W66NI_8",
-      "title": "Claude Fable 5.2 Just Dropped. It’s the World’s Best AI.",
+      "video": "GcFRheDNh5U",
+      "title": "This Airtaxi is Ready For Primetime!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
       "stage": "insufficient-article-source"
     },
     {
@@ -190,13 +170,26 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "yMb5rAElXiM",
-      "title": "Why AI Filmmaking Still Needs More Than Powerful Tools @HiggsfieldAI  @20VC",
+      "video": "GhSJtrOOm3A",
+      "title": "Minecraft 3D Model Generator: AI Agave Plant in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "Q6xJOpTylco",
+      "title": "2026 AI Horror Film Competition Winners!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "vrT2IAsvz8s",
-      "title": "Aisthetic Trending Photo Editing❤️|| Chatgpt Photo Editing #chatgpt #gemini #photoediting",
+      "video": "51Fr4Ih5F1k",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xN7mLg_QIV8",
+      "title": "OpenAI Just Made AI Image Editing Better",
       "stage": "insufficient-article-source"
     },
     {
@@ -208,28 +201,28 @@
       ]
     },
     {
-      "video": "gSXK8Fa-JXc",
-      "title": "AI Image Generation Is Not Photo Editing",
-      "stage": "insufficient-article-source"
+      "video": "U3N1vC9fcYU",
+      "title": "New Gemini  Prompt for BoysTrending Gemini Photo Editing #shorts #shortsfeed #influencerchallenge",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        5,
+        6
+      ]
     },
     {
-      "video": "Qc-5s5A2dgM",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
+      "video": "qhsAp2y2pf4",
+      "title": "Why Google Flow is Changing AI Filmmaking (And How to Use It)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        4,
+        6
+      ]
     },
     {
-      "video": "jEoF_QT6lRk",
-      "title": "Diwali Ai Photo Prompt | Diwali Prompt|ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "DS1wR31UZpQ",
-      "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "QcYNizHSVYw",
-      "title": "AI Filmmaking Course: Zero to Basic AI Video Generation | AI Video Creation Course Tutorial",
+      "video": "2TM8W66NI_8",
+      "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
       "stage": "insufficient-article-source"
     },
     {
@@ -238,8 +231,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "jKjir4-HmQI",
-      "title": "This controls games characters AND robots",
+      "video": "vrT2IAsvz8s",
+      "title": "Aisthetic Trending Photo Editing❤️|| Chatgpt Photo Editing #chatgpt #gemini #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "QcYNizHSVYw",
+      "title": "AI Filmmaking Course: Zero to Basic AI Video Generation | AI Video Creation Course Tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "yMb5rAElXiM",
+      "title": "Why AI Filmmaking Still Needs More Than Powerful Tools @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "DS1wR31UZpQ",
+      "title": "Apni Photo Se Happy Diwali Wish Image Kaise Banaye 🎆 | AI Photo Editing Tutorial #shorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -248,5 +256,5 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3
+  "accepted": 2
 }
