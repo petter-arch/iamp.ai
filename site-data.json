@@ -1,8 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:24:07.822Z",
-  "newsCheckedAt": "2026-11-11T09:24:07.822Z",
+  "updatedAt": "2026-11-11T21:58:09.720Z",
+  "newsCheckedAt": "2026-11-11T21:58:09.720Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "The long-awaited Claude Fable 5.2 is here, and it kicks the door in with crazy good results in 3D and Blender. Today I put it",
+      "evidenceIds": [
+        1,
+        5,
+        17
+      ],
+      "id": "HaFfexk1h84",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Claude Fable 5.2 prövas för 3D och Blender",
+      "sum": "Kanalen Stefan 3D AI beskriver en omfattande jämförelse av Claude Fable 5.2 i Blender och Three.js, med fokus på procedurgenerering, animationer, simuleringar och tids- och kostnadsjämförelser mot andra AI-modeller.",
+      "full": "Stefan 3D AI beskriver Claude Fable 5.2 som en ny AI-modell med starka resultat inom 3D och Blender. I videon genomför kanalen en serie tester i Blender och Three.js för att undersöka hur modellen hanterar olika typer av 3D-arbetsflöden.\n\nTesterna omfattar bland annat procedurgenerering av en Lamborghini Countach och en Tesla Roadster, en filmisk slottsmiljö, animation av en Leviathan-havsdrake samt en procedurgenererad Colosseum-byggnad. Därutöver ingår en vågsimulering med en tecknad båt, en Three.js-scen av Shibuya Crossing, en animerad montering av en urverksmekanism och en simulering av ett svart håls gravitation.\n\nEnligt kanalens beskrivning används samma promptar och filer för varje modell i jämförelsen. Stefan 3D AI jämför Claude Fable 5.2 med Claude Opus 5.5, GPT-6 Astra och Gemini 4 Argon, och visar även hur lång tid varje körning tog samt vad den skulle kosta enligt API-priser. Resultaten och kostnaderna är kanalens redovisning; någon självständig verifiering ingår inte i underlaget.\n\nVideon är därmed inriktad på AI-assisterad 3D-produktion och programmerbara scener snarare än på traditionell modellering. De angivna användningsfallen sträcker sig från fordons- och miljögenerering till animation, fysiksimulering och interaktiva Three.js-scener.",
+      "deep": "Beskrivningen anger tio konkreta testområden. De första två gäller procedurgenerering av bilmodeller, medan andra testar miljöskapande, berättande byggprocesser, animation och visuella simuleringar. Den sista delen fokuserar på tidsåtgång, API-kostnader och kanalens slutliga bedömning.\n\nKanalens utbildningsmaterial nämner ett AI-assisterat arbetsflöde för spelklara karaktärer och kompletta 3D-miljöer från koncept till Unreal Engine 5, men beskrivningen kopplar inte uttryckligen detta material till ett specifikt resultat i jämförelsen. Higgsfield API och MCP nämns också i källan, men som ett separat tips och inte som huvudämnet för videons tester.",
+      "en": {
+        "ttl": "Claude Fable 5.2 tested for 3D and Blender",
+        "sum": "The channel Stefan 3D AI describes an extensive comparison of Claude Fable 5.2 in Blender and Three.js, focusing on procedural generation, animation, simulations, and time and cost comparisons with other AI models.",
+        "full": "Stefan 3D AI describes Claude Fable 5.2 as a new AI model producing strong results in 3D and Blender. The video runs a series of tests in Blender and Three.js to examine how the model handles different kinds of 3D workflows.\n\nThe tests include procedural generation of a Lamborghini Countach and a Tesla Roadster, a cinematic castle environment, a Leviathan sea dragon animation, and a procedurally generated Colosseum build. They also cover a cartoon boat wave simulation, a Shibuya Crossing scene in Three.js, a clockwork mechanism assembly animation, and a black hole gravitational simulation.\n\nAccording to the channel description, the same prompts and files are used for each model in the comparison. Stefan 3D AI compares Claude Fable 5.2 with Claude Opus 5.5, GPT-6 Astra, and Gemini 4 Argon, while also showing how long each run took and what it would cost at API prices. The results and costs are the channel’s report; the supplied source does not provide independent verification.\n\nThe video therefore focuses on AI-assisted 3D production and programmable scenes rather than conventional modeling. The listed use cases range from vehicle and environment generation to animation, physics simulation, and interactive Three.js scenes.",
+        "deep": "The description lists ten specific test areas. The first two concern procedural car generation, while others test environment creation, narrative building processes, animation, and visual simulations. The final section focuses on runtime, API costs, and the channel’s final verdict.\n\nThe channel’s educational material mentions an AI-assisted workflow for creating game-ready characters and complete 3D environments from concept to Unreal Engine 5, but the description does not explicitly connect that material to a specific result in the comparison. Higgsfield API and MCP are also mentioned in the source, but as a separate tip rather than the main subject of the tests."
+      },
+      "cat": "3d",
+      "date": "2026-11-11T12:41:30Z",
+      "meta": "Stefan 3D AI · 2026-11-11",
+      "url": "https://www.youtube.com/watch?v=HaFfexk1h84",
+      "img": "https://i.ytimg.com/vi/HaFfexk1h84/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "Stefan 3D AI"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 96,
+          "l": "Test 1 - Procedural Lamborghini Countach Generation"
+        },
+        {
+          "t": 191,
+          "l": "Test 2 - Tesla Roadster Procedural Generation"
+        },
+        {
+          "t": 281,
+          "l": "Test 3 - Cinematic Castle Environment Render"
+        },
+        {
+          "t": 391,
+          "l": "Test 4 - Leviathan Sea Dragon Animation"
+        },
+        {
+          "t": 466,
+          "l": "Test 5 - Colosseum Procedural Build Storytelling"
+        },
+        {
+          "t": 541,
+          "l": "Test 6 - Magic Spell Circles VFX"
+        },
+        {
+          "t": 581,
+          "l": "Test 7 - Cartoon Wave Boat Simulation"
+        },
+        {
+          "t": 606,
+          "l": "Test 8 - Shibuya Crossing Three.js Scene"
+        },
+        {
+          "t": 681,
+          "l": "Test 9 - Clockwork Mechanism Assembly Animation"
+        },
+        {
+          "t": 741,
+          "l": "Test 10 - Black Hole Gravitational Simulation"
+        },
+        {
+          "t": 850,
+          "l": "Final Expenses and Verdict"
+        }
+      ],
+      "views": 49197,
+      "buzz": 76,
+      "sourceCheckedAt": "2026-11-11T21:58:09.720Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "aa96fadf4457108933bca5f22d7e5344cefc31a5f5e227d93c438ecfe531a7ee",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Claude Fable 5.2",
+        "Claude Opus 5.5",
+        "GPT-6 Astra",
+        "Gemini 4 Argon"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "TL;DR: Learn to transform AI-generated concepts into animatable CC3+ HD characters in Character Creator 5. This webinar, by Reallusion's Senior Technical Artist Howard Huang, guides",
@@ -41870,7 +41968,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7200000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -41888,7 +41986,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -41906,7 +42004,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1280000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -41924,7 +42022,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -41942,7 +42040,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6070000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -41960,7 +42058,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -41978,7 +42076,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 624000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -41996,7 +42094,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -42014,7 +42112,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -42032,7 +42130,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -42050,7 +42148,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -42068,7 +42166,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -42086,7 +42184,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -42104,7 +42202,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -42122,7 +42220,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -42140,7 +42238,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -42158,7 +42256,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -42176,7 +42274,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -42194,7 +42292,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -42212,7 +42310,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -42230,7 +42328,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -42248,7 +42346,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -42265,8 +42363,8 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": 773000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "subscriberCount": 774000,
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -42284,7 +42382,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 280000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -42302,7 +42400,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 768000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -42320,7 +42418,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -42338,7 +42436,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 344000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -42356,7 +42454,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 201000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -42374,7 +42472,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 494000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -42392,7 +42490,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 458000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -42410,7 +42508,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -42428,7 +42526,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -42446,7 +42544,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -42464,7 +42562,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -42482,7 +42580,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -42490,36 +42588,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
-      "found": 4
+      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
-      "found": 1
+      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-11T09:24:07.822Z",
+      "checkedAt": "2026-11-11T21:58:09.720Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-11T09:26:31.721Z",
+    "calculatedAt": "2026-11-11T21:58:09.720Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -42529,28 +42627,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.6184106097760306,
+      "elevenlabs": 0.5872595517581511,
       "elevenmusic": 0,
-      "heygen": 0.5817639286538314,
-      "kling-3-0": 0.28046255862279734,
+      "heygen": 0.5524588656298185,
+      "kling-3-0": 0.26633488148177,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.8634293577710452,
+      "higgsfield": 4.581841012197323,
       "krea-ai": 0,
-      "spline-ai": 0.8944572621816235,
+      "spline-ai": 0.8494009684695468,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.5778791062191648,
+      "meshy-ai": 1.4983969582643708,
       "magnific-ai": 0,
-      "seedance-2-5": 3.1738994037894135,
+      "seedance-2-5": 3.0140212857439224,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.8095475615908811,
-      "nano-banana-pro": 0.19309713393544475,
+      "wan-3-0": 0.7687684050552526,
+      "nano-banana-pro": 0.1833702956063162,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -42558,19 +42656,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.2755340698743844,
+      "hunyuan3d": 1.2112818801701535,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.24045294805892709,
+      "luma-genie": 0.22834066599722933,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.21188664272732344,
+      "gemini-omni-flash": 0.20121332471422687,
       "luma-agents": 0
     }
   },
