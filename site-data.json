@@ -1,8 +1,327 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:48:24.554Z",
-  "newsCheckedAt": "2026-11-10T20:48:24.554Z",
+  "updatedAt": "2026-11-11T09:24:07.822Z",
+  "newsCheckedAt": "2026-11-11T09:24:07.822Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "TL;DR: Learn to transform AI-generated concepts into animatable CC3+ HD characters in Character Creator 5. This webinar, by Reallusion's Senior Technical Artist Howard Huang, guides",
+      "evidenceIds": [
+        2,
+        23,
+        24
+      ],
+      "id": "0kU2R5MFJyw",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Reallusion visar AI-arbetsflöde för animerbara 3D-karaktärer i Character Creator 5",
+      "sum": "Reallusion beskriver ett arbetsflöde där AI-genererade 3D-modeller omvandlas till animerbara CC3+ HD-karaktärer i Character Creator 5 med AI Mesh, CC Body Wrap och Headshot 3.",
+      "full": "I ett webinar beskriver Reallusion hur AI-genererade koncept kan omvandlas till animerbara 3D-karaktärer i Character Creator 5. Enligt kanalens beskrivning riktar sig arbetsflödet till bland annat indieutvecklare, frilansare och studios som behöver göra AI-modeller användbara i produktion.\n\nArbetsflödet börjar med AI Mesh i Character Creator 5 och Reallusion AI Studio. Karaktärer kan genereras från textprompter eller referensbilder, med stöd för både enbilds- och flervybaserad generering. Därefter används CC Body Wrap för att anpassa den skapade modellen till Character Creator-strukturen och konvertera den till en animerbar CC3+ HD-karaktär.\n\nReallusion uppger att Body Wrap identifierar leder och anpassar över 218 punkter för kompatibilitet med Character Creator 5. Det gör det möjligt att använda systemets ansiktsuttryck, kroppsmorfningar och klädbyten. Beskrivningen skiljer detta från AccuRig, som enligt Reallusion främst erbjuder snabb riggning för omedelbar animering av modeller med komplett dräkt.\n\nFör vidare bearbetning omfattar arbetsflödet topologiförfining med Quad Remesher. Polygonmängden kan reduceras mot ett mål på 10 000 fyrhörningar, eller optimeras med AI Polygon Reduction. Headshot 3 används för högprecisionsrekonstruktion av ansiktsdetaljer och för att kombinera AI-genererade huvuden med Body Wrap-karaktärer.\n\nBeskrivningen anger också att PBR-texturer och normalmappningar kan bakas i 2048-upplösning under skapandet av CC-karaktären. Reallusion framställer därmed processen som en kedja från visuellt koncept och AI-generering till riggning, ansiktsanpassning, optimerad topologi och en karaktär som kan animeras och anpassas i Character Creator 5.",
+      "deep": "Reallusions beskrivning anger att AI Mesh kan skapa karaktärer från en enda vy eller flera vyer. Den nämner både textprompter och referensbilder som indata, men specificerar inte vilka ytterligare begränsningar eller kvalitetsnivåer som gäller för respektive metod.\n\nCC Body Wrap är den centrala kompatibilitetsdelen i arbetsflödet. Den passar befintliga 3D-modeller till Character Creator 5:s struktur, upptäcker leder och justerar 218 eller fler punkter. Enligt kanalens FAQ är resultatet avsett att stödja CC5 HD-kompatibilitet, ansiktsuttryck, kroppsmorfningar och klädbyten.\n\nTopologisteget innehåller både Quad Remesher och AI Polygon Reduction. Reallusion beskriver ett mål på 10 000 fyrhörningar för fri polygonreduktion, men videobeskrivningen anger inte att detta är ett krav för alla modeller eller projekt. Headshot 3 används separat för ansiktsrekonstruktion och förbättrade ansiktsdetaljer.\n\nDe angivna verktygen är Character Creator 5, Reallusion AI Studio och Headshot 3. Beskrivningen tillskriver funktionerna kanalens webinar och dess presentatör, Reallusions seniora tekniska artist Howard Huang; den utgör inte en oberoende testbedömning.",
+      "en": {
+        "ttl": "Reallusion presents an AI workflow for animatable 3D characters in Character Creator 5",
+        "sum": "Reallusion describes a workflow that turns AI-generated 3D models into animatable CC3+ HD characters in Character Creator 5 using AI Mesh, CC Body Wrap, and Headshot 3.",
+        "full": "In a webinar, Reallusion describes how AI-generated concepts can be turned into animatable 3D characters in Character Creator 5. According to the channel’s description, the workflow targets indie developers, freelancers, and studios that need to make AI models usable for production.\n\nThe workflow begins with AI Mesh in Character Creator 5 and Reallusion AI Studio. Characters can be generated from text prompts or reference images, with support for both single-view and multi-view generation. CC Body Wrap is then used to fit the generated model to the Character Creator structure and convert it into an animatable CC3+ HD character.\n\nReallusion states that Body Wrap detects joints and aligns more than 218 points for Character Creator 5 compatibility. This enables the use of the system’s facial expressions, body morphs, and clothing changes. The description distinguishes this from AccuRig, which Reallusion says primarily provides quick rigging for immediate animation of full-outfit models.\n\nThe workflow also includes topology refinement with Quad Remesher. Polygon counts can be reduced toward a target of 10,000 quads, or optimized with AI Polygon Reduction. Headshot 3 is used for high-precision facial reconstruction and for combining AI-generated heads with Body Wrap characters.\n\nThe description also states that PBR textures and normal maps can be baked at 2048 resolution during CC character creation. Reallusion therefore presents the process as a chain from visual concept and AI generation to rigging, facial fitting, optimized topology, and a character that can be animated and customized in Character Creator 5.",
+        "deep": "Reallusion’s description states that AI Mesh can create characters from a single view or multiple views. It mentions both text prompts and reference images as inputs, but does not specify additional limitations or quality levels for either method.\n\nCC Body Wrap is the central compatibility stage. It fits existing 3D models to the Character Creator 5 structure, detects joints, and aligns 218 or more points. According to the channel’s FAQ, the result is intended to support CC5 HD compatibility, facial expressions, body morphs, and clothing changes.\n\nThe topology stage includes both Quad Remesher and AI Polygon Reduction. Reallusion describes a target of 10,000 quads for free polygon reduction, but the video description does not state that this is required for every model or project. Headshot 3 is used separately for facial reconstruction and enhanced facial detail.\n\nThe listed tools are Character Creator 5, Reallusion AI Studio, and Headshot 3. The description attributes the workflow to the channel’s webinar and presenter, Reallusion Senior Technical Artist Howard Huang; it is not an independent test assessment."
+      },
+      "cat": "3d",
+      "date": "2026-11-11T05:56:15Z",
+      "meta": "Reallusion · 2026-11-11",
+      "url": "https://www.youtube.com/watch?v=0kU2R5MFJyw",
+      "img": "https://i.ytimg.com/vi/0kU2R5MFJyw/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Reallusion"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "November Campaign"
+        },
+        {
+          "t": 152,
+          "l": "Introduction"
+        },
+        {
+          "t": 210,
+          "l": "What is AI Mesh?"
+        },
+        {
+          "t": 443,
+          "l": "Generate Your Character/ Head"
+        },
+        {
+          "t": 3345,
+          "l": "Body Wrap vs. AccuRIG"
+        },
+        {
+          "t": 3782,
+          "l": "Body Wrap - Make Your Character Alive"
+        },
+        {
+          "t": 5967,
+          "l": "Face Wrap - Headshot Enhances Your Head Details"
+        },
+        {
+          "t": 6172,
+          "l": "Headshot Workflow"
+        },
+        {
+          "t": 6688,
+          "l": "AI Clothes Workflow"
+        },
+        {
+          "t": 6809,
+          "l": "Finalizing Your CC Character Customization"
+        },
+        {
+          "t": 6929,
+          "l": "Conclusion"
+        },
+        {
+          "t": 6979,
+          "l": "Q&A Session"
+        }
+      ],
+      "views": 365,
+      "buzz": 51,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "6a61c256194ed4a7df7a092b8a7d8df0f83a3364cc7eaf18ad5ee31fb69a12f1",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Character Creator 5",
+        "Reallusion AI Studio",
+        "Headshot 3"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "OpenAI เปิดตัว Images 2.6 สร้างภาพเร็วขึ้น 50% แถมทำ GIF และส่งออก SVG ได้! OpenAI เปิดตัว Images 2.6 โมเดลสร้างและแก้ไขภาพรุ่นใหม่ ทำงานเร็วขึ้น 50% พร้อมเพิ่มความสามารถสร้าง GIF แบบเคลื่อนไหว และรักษารายละเอียดของตัวละคร สินค้า หรือแบรนด์ให้ต่อเนื่องระหว่างการแก้ภาพได้ดีขึ้น ฝั่ง",
+      "evidenceIds": [
+        0,
+        1
+      ],
+      "id": "qpABBaBMO7A",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "OpenAI presenterar Images 2.6 med snabbare bildskapande, GIF och SVG",
+      "sum": "TechOffside “ล้ำหน้าโชว์” uppger att OpenAI Images 2.6 är en ny modell för att skapa och redigera bilder. Enligt kanalens beskrivning ska modellen arbeta 50 procent snabbare, skapa animerade GIF-bilder och exportera SVG-filer.",
+      "full": "OpenAI Images 2.6 är enligt TechOffside “ล้ำหน้าโชว์” en ny modell för bildskapande och bildredigering. Kanalens beskrivning anger att arbetet går 50 procent snabbare än tidigare och att modellen dessutom kan skapa animerade GIF-bilder samt exportera bilder som SVG-filer.\n\nEn central nyhet är förbättrad kontinuitet vid redigering. Beskrivningen säger att Images 2.6 bättre kan bevara detaljer hos figurer, produkter och varumärken mellan olika redigeringssteg. Det pekar på ett arbetsflöde där samma visuella motiv kan bearbetas vidare utan att dess centrala egenskaper förändras lika lätt, även om beskrivningen inte redovisar någon oberoende testning.\n\nFör API-användning delas modellen enligt kanalen upp i två varianter: Flare och Sunburst. Flare är inriktad på snabbhet och kan skapa en bild på ungefär sex sekunder som snabbast. Sunburst prioriterar i stället hög detaljnivå. Beskrivningen nämner också Image Markup och möjligheten att justera arbetets komplexitet.\n\nDe angivna funktionerna gör Images 2.6 relevant för arbetsflöden som kombinerar stillbilder, enklare animationer och vektorutdata. TechOffside kopplar särskilt nyheten till möjligheten att skapa GIF-bilder direkt och till fortsatt redigering av figurer, produkter eller varumärkesmaterial. Källan ger däremot inga uppgifter om lanseringsdatum, pris, tillgänglighet eller oberoende kvalitetsmätningar.",
+      "deep": "Enligt TechOffside “ล้ำหน้าโชว์” omfattar Images 2.6 både generering och redigering av bilder. Den påstådda hastighetsökningen är 50 procent, men källbeskrivningen specificerar inte vilken tidigare modell eller mätmetod jämförelsen bygger på.\n\nAPI-strukturen har två namngivna alternativ med olika prioriteringar. Flare fokuserar på snabb leverans och anges kunna skapa bilder på omkring sex sekunder som snabbast. Sunburst är avsedd för högre detaljnivå. Beskrivningen förklarar inte hur de två varianterna skiljer sig i kostnad, upplösning eller övriga begränsningar.\n\nImage Markup nämns som en ytterligare funktion, tillsammans med SVG-export och reglering av arbetsflödets komplexitet. Källan beskriver inte exakt vilka markup-verktyg som ingår eller vilka typer av SVG-filer som kan exporteras. Inte heller anges tekniska begränsningar för GIF-skapandet.\n\nKontinuiteten för karaktärer, produkter och varumärken framställs som förbättrad vid bildredigering. Det är en uppgift från kanalens publicerarbeskrivning och inte resultatet av en självständig granskning. Källmaterialet innehåller inte heller exempel på konkreta projekt eller jämförelser mellan olika redigeringssteg.",
+      "en": {
+        "ttl": "OpenAI presents Images 2.6 with faster image generation, GIFs and SVG",
+        "sum": "TechOffside “ล้ำหน้าโชว์” reports that OpenAI Images 2.6 is a new model for generating and editing images. According to the channel’s description, it works 50 percent faster, can create animated GIFs and export SVG files.",
+        "full": "OpenAI Images 2.6 is described by TechOffside “ล้ำหน้าโชว์” as a new model for image generation and editing. The channel’s description says that it works 50 percent faster than before and can also create animated GIFs and export images as SVG files.\n\nA key feature is improved consistency during editing. The description says that Images 2.6 can better preserve details of characters, products and brands across editing steps. This suggests a workflow in which the same visual subject can be refined without its core attributes changing as easily, although the description provides no independent testing.\n\nFor API users, the channel says the model is divided into two variants: Flare and Sunburst. Flare focuses on speed and can generate an image in approximately six seconds at its fastest. Sunburst instead prioritizes high detail. The description also mentions Image Markup and the ability to adjust the complexity of the work.\n\nThe stated features make Images 2.6 relevant to workflows combining still images, basic animation and vector output. TechOffside specifically highlights the ability to create GIFs directly and to continue editing characters, products or brand material. The source provides no information about a release date, pricing, availability or independent quality measurements.",
+        "deep": "According to TechOffside “ล้ำหน้าโชว์”, Images 2.6 supports both image generation and editing. The claimed speed increase is 50 percent, but the source description does not specify which earlier model or measurement method the comparison uses.\n\nThe API structure includes two named options with different priorities. Flare focuses on fast delivery and is described as generating images in around six seconds at its fastest. Sunburst is intended for higher detail. The description does not explain how the variants differ in cost, resolution or other limitations.\n\nImage Markup is mentioned alongside SVG export and control over workflow complexity. The source does not specify which markup tools are included or what types of SVG files can be exported. It also gives no technical limitations for GIF creation.\n\nConsistency for characters, products and brands is presented as improved during image editing. This is a claim from the channel’s publisher description, not the result of an independent review. The source also contains no examples of specific projects or comparisons between editing steps."
+      },
+      "cat": "foto",
+      "date": "2026-11-11T05:00:38Z",
+      "meta": "TechOffside “ล้ำหน้าโชว์” · 2026-11-11",
+      "url": "https://www.youtube.com/watch?v=qpABBaBMO7A",
+      "img": "https://i.ytimg.com/vi/qpABBaBMO7A/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "TechOffside “ล้ำหน้าโชว์”"
+      ],
+      "parts": [],
+      "views": 1058,
+      "buzz": 56,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "80580d60757f0c495478afe3a0b916efc94bddb00618e0a59b8777c00bded4b8",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Images 2.6",
+        "Flare",
+        "Sunburst"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "ChatGPT Images can make GIFs now. In this video I show every GIF option in the new ChatGPT Images 2.6 update, and how much better",
+      "evidenceIds": [
+        3,
+        5,
+        7
+      ],
+      "id": "9FtoFKfzkv0",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "ChatGPT Images får GIF-stöd och mer avancerad redigering i version 2.6",
+      "sum": "Skill Leap AI visar hur ChatGPT Images 2.6 kan skapa och redigera GIF:er, animera bilder och återanvända sparade referensbilder i olika chattar.",
+      "full": "Enligt YouTube-kanalen Skill Leap AI har ChatGPT Images fått en större uppdatering i version 2.6, med stöd för att skapa GIF:er och fler möjligheter att redigera animationer. Videon går igenom de GIF-funktioner som kanalen säger finns i uppdateringen och visar hur animationer kan ändras genom att beskriva önskat resultat i chatten.\n\nKanalen visar bland annat hur en enkel skiss kan omvandlas till en animerad maskot. Det går också att ändra en GIF:s uppspelningshastighet och justera själva animationen med textinstruktioner. En sparad bild kan användas som referens i nya chattar genom att hänvisa till dess namn med @.\n\nSkill Leap AI använder verktyget i flera arbetsflöden. Exempel som nämns är reaktions-GIF:er skapade från en enda selfie, en produktbild där etiketten behålls genom tre bakgrundsbyten och där isen sedan animeras i en loop, samt en YouTube-miniatyr skapad från ett foto. Videon visar även en cinemagraf där endast vågorna rör sig.\n\nDessutom beskriver kanalen hur fotografier kan göras om till claymation, hur en animerad storyboard för en annons kan skapas och hur en logotyp kan animeras så att den byggs upp på skärmen. Artikeln bygger enbart på kanalens beskrivning och är inte en självständig testning av funktionerna.",
+      "deep": "Det centrala arbetsflödet är att kombinera bildgenerering, textstyrd redigering och animation i samma chattbaserade process. Kanalens exempel omfattar både stilförändringar, som att göra ett foto till claymation, och selektiv rörelse, som cinemagrafen där vågorna animeras medan resten av bilden förblir stilla.\n\nBeskrivningen lyfter särskilt fram kontinuitet i kommersiella bilder. I produktdemonstrationen ska etiketten finnas kvar när bakgrunden ändras tre gånger, varefter isen får en loopande rörelse. Andra användningsfall är marknadsföringsmaterial, logotypanimation, annonsstoryboards, reaktionsinnehåll och miniatyrbilder för YouTube.\n\nSkill Leap AI nämner också ett referensflöde där en bild sparas en gång och sedan återanvänds i valfri chatt genom att användaren skriver @ följt av bildens namn. Beskrivningen anger inte tekniska begränsningar, tillgänglighet utanför videons demonstration eller något separat lanseringsdatum för version 2.6.",
+      "en": {
+        "ttl": "ChatGPT Images adds GIF support and more advanced editing in version 2.6",
+        "sum": "Skill Leap AI shows how ChatGPT Images 2.6 can create and edit GIFs, animate images and reuse saved reference images across chats.",
+        "full": "According to the YouTube channel Skill Leap AI, ChatGPT Images has received a major update in version 2.6, adding GIF creation and more ways to edit animations. The video covers the GIF features the channel says are included in the update and shows how animations can be changed by describing the desired result in chat.\n\nThe channel demonstrates turning a rough sketch into an animated mascot. It also shows changing a GIF’s playback speed and modifying the animation with text instructions. A saved image can be used as a reference in new chats by referring to its name with @.\n\nSkill Leap AI uses the tool in several workflows: reaction GIFs made from a single selfie, a product image that keeps its label through three background changes before looping the movement of the ice, and a YouTube thumbnail made from one photo. The video also shows a cinemagraph in which only the waves move.\n\nThe description further mentions converting a photo into claymation, creating an animated storyboard for an advertisement and animating a logo so that it builds itself on screen. This article relies only on the channel’s description and is not an independent test of the features.",
+        "deep": "The main workflow combines image generation, text-directed editing and animation in the same chat-based process. The channel’s examples cover both style transformations, such as turning a photo into claymation, and selective motion, such as a cinemagraph where the waves are animated while the rest of the image remains still.\n\nThe description particularly highlights continuity in commercial imagery. In the product demonstration, the label is said to remain intact through three background changes, after which the ice is given a looping motion. Other cited use cases include marketing assets, logo animation, advertising storyboards, reaction content and YouTube thumbnails.\n\nSkill Leap AI also describes a reference workflow in which an image is saved once and reused in any chat by typing @ followed by its name. The description does not state technical limitations, availability beyond the video demonstration or a separate release date for version 2.6."
+      },
+      "cat": "foto",
+      "date": "2026-11-10T19:32:30Z",
+      "meta": "Skill Leap AI · 2026-11-10",
+      "url": "https://www.youtube.com/watch?v=9FtoFKfzkv0",
+      "img": "https://i.ytimg.com/vi/9FtoFKfzkv0/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Skill Leap AI"
+      ],
+      "parts": [],
+      "views": 5014,
+      "buzz": 64,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "89b9be8eadb93499118c36e8769123f89a3a3d33fb539437b6ce9a041c870abb",
+      "trusted": true,
+      "sourceId": "skillleapai",
+      "newPlatforms": [
+        "ChatGPT Images 2.6"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "What happens when someone spends $30,000 on AI video generation in just one week and still can't achieve the desired result? Higgsfield AI founder Alex",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "2C9s_M5kETc",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Den 3 000 ord långa hemligheten bakom AI-film",
+      "sum": "Onyx Margin beskriver hur Higgsfield AI:s grundare Alex Mashrabov berättar om svårigheterna med professionell AI-videoproduktion, där en veckas modellkörningar för 30 000 dollar ändå inte gav önskat resultat.",
+      "full": "I en video från Onyx Margin diskuteras de praktiska problemen bakom professionell AI-videoproduktion. Higgsfield AI:s grundare Alex Mashrabov delar enligt kanalens beskrivning ett exempel där 30 000 dollar lades på AI-videogenerering under en enda vecka, utan att resultatet motsvarade målet.\n\nExemplet används för att visa att hög kostnad inte automatiskt leder till användbart innehåll. Beskrivningen lyfter särskilt fram dyra AI-modeller, prompt engineering och upprepade experiment som faktorer som ändå inte garanterar framgång inom AI-film.\n\nSamtalet med Harry Stebbings i 20VC fokuserar därmed på en central arbetsflödesfråga: hur skapare hanterar iterativa försök och begränsningar när generativa videomodeller används i mer krävande produktioner. Onyx Margin presenterar diskussionen genom Higgsfield AI:s grundares erfarenheter, inte som ett oberoende test av en specifik modell.",
+      "deep": "Det tillgängliga underlaget anger inte vilken specifik AI-modell eller version som användes, vilka scener som skapades eller vilka tekniska metoder som testades. Det går därför inte att dra slutsatser om modellernas relativa kvalitet, kostnadseffektivitet eller Higgsfield AI:s produktfunktioner.\n\nDen konkreta lärdomen i kanalens beskrivning är i stället att professionell AI-filmproduktion kan kräva omfattande experimentering, även när användaren har tillgång till dyra modeller och arbetar aktivt med promptar. Underlaget innehåller inte någon bekräftad produktlansering, versionsuppgift eller mätning av resultatet.",
+      "en": {
+        "ttl": "The 3,000-word secret behind AI filmmaking",
+        "sum": "Onyx Margin describes how Higgsfield AI founder Alex Mashrabov discusses the difficulties of professional AI video production, where one week of model runs costing $30,000 still failed to produce the desired result.",
+        "full": "A video from Onyx Margin discusses the practical problems behind professional AI video production. According to the channel’s description, Higgsfield AI founder Alex Mashrabov shares an example in which $30,000 was spent on AI video generation in a single week, without producing the intended result.\n\nThe example is used to show that high spending does not automatically lead to usable content. The description specifically highlights expensive AI models, prompt engineering and repeated experimentation as factors that still do not guarantee success in AI filmmaking.\n\nThe conversation with Harry Stebbings on 20VC therefore focuses on a central workflow issue: how creators deal with iterative attempts and limitations when generative video models are used for more demanding productions. Onyx Margin presents the discussion through the experience of Higgsfield AI’s founder, not as an independent test of a specific model.",
+        "deep": "The available material does not identify the specific AI model or version used, which scenes were created or which technical methods were tested. It therefore does not support conclusions about the models’ relative quality, cost efficiency or Higgsfield AI product features.\n\nThe concrete point in the channel’s description is instead that professional AI filmmaking may require extensive experimentation, even when creators have access to expensive models and actively work with prompts. The material contains no confirmed product launch, version information or measurement of the result."
+      },
+      "cat": "film",
+      "date": "2026-11-10T19:04:15Z",
+      "meta": "Onyx Margin · 2026-11-10",
+      "url": "https://www.youtube.com/watch?v=2C9s_M5kETc",
+      "img": "https://i.ytimg.com/vi/2C9s_M5kETc/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Onyx Margin"
+      ],
+      "parts": [],
+      "views": 1309,
+      "buzz": 57,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5b9becce6e7e1759c2f3e46b2734ad8aa699a5decf58d8a5ca7d9bb83f92500b",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Higgsfield AI"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Google acaba de lanzar Gemini Omni 1.2 Flash, el nuevo nº1 en los rankings de vídeo con IA, y te enseño a usarlo GRATIS. Además,",
+      "evidenceIds": [
+        3,
+        12,
+        14
+      ],
+      "id": "siMpFKZgNtU",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "AI monterar videor med Edits och Claude Code – Raúl Ordóñez visar arbetsflödet",
+      "sum": "Kanalen Raúl Ordóñez - Inteligencia Artificial visar hur Gemini Omni 1.2 Flash kan generera och redigera video i Google Flow, samt hur Meta Edits kopplas till Claude Code för automatiserad redigering och textning.",
+      "full": "Raúl Ordóñez - Inteligencia Artificial beskriver ett arbetsflöde där AI används för både videogenerering och efterarbete. Enligt kanalens beskrivning demonstreras Gemini Omni 1.2 Flash för generering och redigering av video, med Google Flow som arbetsmiljö. Beskrivningen anger också att modellen enligt kanalen placerar sig högst i videorankningar, men ger inga närmare uppgifter om rankingens omfattning eller metod.\n\nVideon innehåller ett särskilt avsnitt om hur Gemini Omni 1.2 Flash används i Google Flow. Där presenteras funktionerna som ett sätt att skapa och ändra videomaterial med AI, snarare än som en traditionell inspelnings- eller redigeringstutorial. Några konkreta exempel på scener, längder, exportformat eller resultat anges inte i källmaterialet.\n\nDet andra huvudmomentet är kopplingen mellan Meta Edits och Claude Code. Enligt beskrivningen ska integrationen låta AI utföra själva videomontaget och textningen. Det pekar på ett automatiserat arbetsflöde där materialet bearbetas genom en kombination av en redigeringsapp och ett kodbaserat AI-verktyg. Kanalen anger inte vilka anslutningar, kommandon eller filformat som används, så sådana detaljer kan inte fastställas utifrån beskrivningen.\n\nVideon nämner även andra AI-nyheter, bland annat Claude Fable 5.2, Mythos 5.2, Muse Ember och ChatGPT Images 2.6. Dessa inslag är dock en veckosammanfattning; den substantiella genomgången gäller enligt kapitlen Gemini Omni 1.2 Flash samt automatiseringen mellan Edits och Claude Code.",
+      "deep": "Källans kapitelindelning visar två separata praktiska delar: först generering och redigering av video med Gemini Omni 1.2 Flash i Google Flow, därefter automatiserat montage och textning genom att ansluta Meta Edits till Claude Code. Det stöder bilden av ett sammanhängande AI-arbetsflöde från videomaterial till redigerad och textad version.\n\nBeskrivningen innehåller länkar till Google Flow, Edits för Mac och Claude Code samt till ett påstått tillkännagivande om Gemini Omni 1.2 Flash. Den anger däremot inte när produkterna eller versionerna lanserades, och videons publiceringsdatum ska därför inte tolkas som releasedatum. Påståendena om funktioner och prestanda återges som kanalens presentation, inte som ett oberoende test.",
+      "en": {
+        "ttl": "AI edits videos with Edits and Claude Code – Raúl Ordóñez demonstrates the workflow",
+        "sum": "The channel Raúl Ordóñez - Inteligencia Artificial shows how Gemini Omni 1.2 Flash can generate and edit video in Google Flow, and how Meta Edits can be connected to Claude Code for automated editing and subtitling.",
+        "full": "Raúl Ordóñez - Inteligencia Artificial describes a workflow in which AI is used for both video generation and post-production. According to the channel’s description, Gemini Omni 1.2 Flash is demonstrated for video generation and editing in Google Flow. The description also says that the model ranks first in video rankings according to the channel, but provides no further information about the ranking’s scope or methodology.\n\nThe video includes a dedicated section on using Gemini Omni 1.2 Flash in Google Flow. The feature is presented as a way to create and modify video with AI rather than as a conventional filming or editing tutorial. The source does not specify scenes, durations, export formats or results.\n\nThe second main topic is the connection between Meta Edits and Claude Code. According to the description, the integration allows AI to perform the video edit and subtitling. This suggests an automated workflow combining an editing app with a code-based AI tool. The channel does not state which connections, commands or file formats are used.\n\nThe video also mentions other AI news, including Claude Fable 5.2, Mythos 5.2, Muse Ember and ChatGPT Images 2.6. These are part of a weekly roundup; the substantive demonstrations focus on Gemini Omni 1.2 Flash and automation between Edits and Claude Code.",
+        "deep": "The chapter list identifies two separate practical sections: first, generating and editing video with Gemini Omni 1.2 Flash in Google Flow; second, automating editing and subtitling by connecting Meta Edits to Claude Code. Together, these support a workflow that runs from video material to an edited and subtitled version.\n\nThe source links to Google Flow, Edits for Mac and Claude Code, as well as an announcement described as covering Gemini Omni 1.2 Flash. It does not state when the products or versions launched, so the upload date must not be treated as a release date. The feature and performance claims are attributed to the channel and are not presented as an independent test."
+      },
+      "cat": "film",
+      "date": "2026-11-10T19:02:08Z",
+      "meta": "Raúl Ordóñez - Inteligencia Artificial · 2026-11-10",
+      "url": "https://www.youtube.com/watch?v=siMpFKZgNtU",
+      "img": "https://i.ytimg.com/vi/siMpFKZgNtU/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Raúl Ordóñez - Inteligencia Artificial"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Introducción y resumen de las novedades de la semana"
+        },
+        {
+          "t": 78,
+          "l": "Anthropic presenta Claude 5.2 (velocidad, precio y menos bloqueos)"
+        },
+        {
+          "t": 150,
+          "l": "Benchmarks de Claude 5.2 y salida a bolsa de Anthropic"
+        },
+        {
+          "t": 280,
+          "l": "El thriller de Nvidia: espionaje, chips a China y geopolítica"
+        },
+        {
+          "t": 400,
+          "l": "Meta lanza Muse Ember: modelo ligero y ultrabarato para tareas agénticas"
+        },
+        {
+          "t": 484,
+          "l": "OpenAI actualiza GPT-Image 2.6: soporte SVG y creación de GIFs"
+        },
+        {
+          "t": 551,
+          "l": "Google presenta Gemini Omni 1.2 Flash (generación y edición de vídeo)"
+        },
+        {
+          "t": 617,
+          "l": "Tutorial 1: Cómo generar y editar vídeos con Gemini Omni 1.2 Flash en Google Flow"
+        },
+        {
+          "t": 1027,
+          "l": "Tutorial 2: Automatizar montaje y subtitulado conectando Meta Edits con Claude Code"
+        },
+        {
+          "t": 1240,
+          "l": "Conclusión y cierre"
+        }
+      ],
+      "views": 9309,
+      "buzz": 68,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "79749a20e8f66068430ae6a33aeab555ee48da280ef83987b5bcb4f43eae3ddc",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Gemini Omni 1.2 Flash",
+        "Meta Edits",
+        "Claude Code",
+        "Claude Fable 5.2",
+        "Mythos 5.2",
+        "Muse Ember",
+        "ChatGPT Images 2.6"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Hunyuan3D 2.1: AI 3D model generator A scalable 3D asset creation system with open-source framework and PBR texture synthesis. Good for: ai 3d generator, 3d",
@@ -3189,6 +3508,125 @@
       "newPlatforms": [
         "Blockora"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Minecraft on the 3DS had a secret 3D mode: a full stereo renderer the developers built, switched off after one frame, and then deleted in",
+      "evidenceIds": [
+        2,
+        3,
+        35
+      ],
+      "id": "o5iRKvXZEcY",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Claude återskapade 3D-läge i två Nintendo 3DS-spel",
+      "sum": "MattVidPro beskriver hur Claude reverse-engineerade Minecraft på 3DS för att återaktivera ett dolt stereoskopiskt 3D-läge och byggde lagerbaserad 3D för Terraria. Resultatet distribueras som patchbaserade Luma3DS-plugin-program för användare som redan äger spelen och har en konsol med Luma3DS.",
+      "full": "MattVidPro beskriver ett AI-drivet reverse-engineeringprojekt för två Nintendo 3DS-spel. Enligt kanalens beskrivning hade Minecraft på 3DS en dold 3D-funktion: utvecklarna hade byggt en komplett stereoskopisk renderare, men funktionen stängdes av efter en bildruta och togs senare bort i en uppdatering. Claude användes för att reverse-engineera spelet och återinföra verklig 3D-rendering.\n\nProjektet omfattade även Terraria. Där byggde Claude lagerbaserad 3D från grunden för både New 3DS och Old 3DS. Kanalens beskrivning nämner dessutom funktioner som inventariesortering, staplar med upp till 9999 objekt och en korrigering för ett världsmapminne som saknades i 3DS-versionen.\n\nArbetet krävde flera iterationer. De första 3D-testerna uppges ha varit obekväma för ögonen, varefter arbetsflödet justerades för att göra djupet mer behagligt. Enligt kapitlen testades också en metod där bilden ritas en gång och visas två gånger. För Terraria handlade lösningen om att skapa djup från separata lager, medan kontroller, C-stick-stöd, djupförinställningar och speltestning ingick i den fortsatta utvecklingen.\n\nMattVidPro uppger också att Claude granskade sitt eget arbete. De färdiga resultaten distribueras som kostnadsfria, patchbaserade Luma3DS-plugin-program. De innehåller inte spelfiler; användaren behöver sin egen kopia av respektive spel samt en konsol som redan kör Luma3DS. Installationsguider finns enligt beskrivningen på GitHub.",
+      "deep": "De angivna projektversionerna är Terraria 3D New 3DS v0.5.7, Terraria 3D Old 3DS v0.8.0 och Minecraft 3D New 3DS v0.3.3. Beskrivningen anger att Minecraft-pluginet gäller New 3DS, medan Terraria-projektet stöder både New 3DS och Old 3DS.\n\nKanalens kapitel visar att reverse engineering, hårdvarutester och ett första fungerande 3D-test var centrala delar av processen. Därefter följde arbete med att minska obehag från djupet, bygga lagerbaserad 3D i Terraria, stödja Old 3DS, lägga till C-stick-stöd och prova olika djupnivåer. Beskrivningen ger däremot inga oberoende mätningar eller verifieringar av resultatet.",
+      "en": {
+        "ttl": "Claude recreated 3D modes in two Nintendo 3DS games",
+        "sum": "MattVidPro describes how Claude reverse-engineered Minecraft on 3DS to restore a hidden stereoscopic 3D mode and built layered 3D for Terraria. The result is distributed as patch-only Luma3DS plugins for users who already own the games and have a console running Luma3DS.",
+        "full": "MattVidPro describes an AI-driven reverse-engineering project for two Nintendo 3DS games. According to the channel’s description, Minecraft on 3DS had a hidden 3D feature: the developers had built a full stereoscopic renderer, but the feature was disabled after one frame and later removed in an update. Claude was used to reverse-engineer the game and restore real 3D rendering.\n\nThe project also covered Terraria. There, Claude built layered 3D from scratch for both the New 3DS and Old 3DS. The channel’s description also mentions inventory sorting, stacks of up to 9999 items, and a fix for a world-map memory issue that was absent from the 3DS version.\n\nThe work required several iterations. The first 3D tests are described as uncomfortable for the eyes, after which the workflow was adjusted to make the depth more comfortable. According to the chapters, one method involved drawing the image once and showing it twice. For Terraria, the solution involved creating depth from separate layers, while controls, C-stick support, depth presets, and playtesting were part of the continued development.\n\nMattVidPro also says that Claude audited its own work. The finished results are distributed as free, patch-only Luma3DS plugins. They do not contain game files; users need their own copy of each game and a console already running Luma3DS. Installation guides are available on GitHub according to the description.",
+        "deep": "The listed project versions are Terraria 3D New 3DS v0.5.7, Terraria 3D Old 3DS v0.8.0, and Minecraft 3D New 3DS v0.3.3. The description states that the Minecraft plugin targets the New 3DS, while the Terraria project supports both the New 3DS and Old 3DS.\n\nThe channel’s chapters show that reverse engineering, hardware tests, and an initial working 3D test were central parts of the process. This was followed by work to reduce discomfort from the depth effect, build layered 3D in Terraria, support the Old 3DS, add C-stick support, and test different depth levels. The description does not provide independent measurements or verification of the result."
+      },
+      "cat": "3d",
+      "date": "2026-11-03T23:46:02Z",
+      "meta": "MattVidPro · 2026-11-03",
+      "url": "https://www.youtube.com/watch?v=o5iRKvXZEcY",
+      "img": "https://i.ytimg.com/vi/o5iRKvXZEcY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "MattVidPro"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Minecraft 3DS gets real 3D"
+        },
+        {
+          "t": 49,
+          "l": "Terraria joins the project"
+        },
+        {
+          "t": 155,
+          "l": "Sponsor: AIQORA"
+        },
+        {
+          "t": 263,
+          "l": "Minecraft’s hidden 3D renderer"
+        },
+        {
+          "t": 307,
+          "l": "Reverse engineering and hardware tests"
+        },
+        {
+          "t": 381,
+          "l": "The first real 3D test"
+        },
+        {
+          "t": 415,
+          "l": "Why the first version hurt our eyes"
+        },
+        {
+          "t": 448,
+          "l": "Making 3D comfortable"
+        },
+        {
+          "t": 480,
+          "l": "The trick: draw once, show twice"
+        },
+        {
+          "t": 573,
+          "l": "Building layered 3D in Terraria"
+        },
+        {
+          "t": 671,
+          "l": "Real 3D on the Old 3DS"
+        },
+        {
+          "t": 720,
+          "l": "C-stick support and playtesting"
+        },
+        {
+          "t": 796,
+          "l": "AI auditing its own work"
+        },
+        {
+          "t": 825,
+          "l": "Sorting, stacks and the map fix"
+        },
+        {
+          "t": 915,
+          "l": "Controls and depth presets"
+        },
+        {
+          "t": 978,
+          "l": "What AI pulled off"
+        },
+        {
+          "t": 1002,
+          "l": "How long it took"
+        },
+        {
+          "t": 1042,
+          "l": "Legality and how to get the mods"
+        },
+        {
+          "t": 1103,
+          "l": "Final thoughts"
+        }
+      ],
+      "views": 15134,
+      "buzz": 70,
+      "sourceCheckedAt": "2026-11-11T09:24:07.822Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "70a914ba02140ca17e39b9b6a08648c445217c039164adcac7fef7a3b74891d1",
+      "trusted": true,
+      "sourceId": "mattvidpro",
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -41337,7 +41775,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7200000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -41355,7 +41793,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -41373,7 +41811,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1280000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -41391,7 +41829,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -41409,7 +41847,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6070000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -41427,7 +41865,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -41445,7 +41883,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 624000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -41463,7 +41901,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -41481,7 +41919,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -41499,7 +41937,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -41517,7 +41955,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -41535,7 +41973,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 845000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -41553,7 +41991,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -41571,7 +42009,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -41589,7 +42027,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -41607,7 +42045,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -41625,7 +42063,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -41643,7 +42081,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -41661,7 +42099,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -41679,7 +42117,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -41697,7 +42135,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -41715,7 +42153,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -41733,7 +42171,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 773000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -41751,7 +42189,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 280000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -41769,7 +42207,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 768000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -41787,7 +42225,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -41805,7 +42243,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 344000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -41823,7 +42261,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 201000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -41841,7 +42279,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 494000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -41859,7 +42297,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 458000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -41877,7 +42315,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -41895,7 +42333,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -41913,7 +42351,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -41931,7 +42369,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -41949,7 +42387,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -41957,36 +42395,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-10T20:51:15.261Z",
+    "calculatedAt": "2026-11-11T09:24:07.822Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -41996,28 +42434,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.6513771359124947,
+      "elevenlabs": 0.6185126060245996,
       "elevenmusic": 0,
-      "heygen": 0.6127768761292387,
-      "kling-3-0": 0.29541358973865517,
+      "heygen": 0.5818598806594043,
+      "kling-3-0": 0.28050881612289746,
       "freepik-ai": 0,
       "adobe-firefly": 0,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.069382882639367,
+      "higgsfield": 3.86406656433716,
       "krea-ai": 0,
-      "spline-ai": 0.9421394142105802,
+      "spline-ai": 0.8946047876021219,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.6619934340994604,
+      "meshy-ai": 1.5781393503789278,
       "magnific-ai": 0,
-      "seedance-2-5": 3.343095138784041,
+      "seedance-2-5": 3.174422884188043,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.8527033070228072,
-      "nano-banana-pro": 0.20339084754922737,
+      "wan-3-0": 0.8096810826091418,
+      "nano-banana-pro": 0.19312898200363687,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -42025,19 +42463,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.343530845136202,
+      "hunyuan3d": 1.2757444473937745,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.2532711278758053,
+      "luma-genie": 0.24049260665836192,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.22318199638881336,
+      "gemini-omni-flash": 0.21192158980348677,
       "luma-agents": 0
     }
   },

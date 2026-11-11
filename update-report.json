@@ -1,65 +1,50 @@
 {
-  "startedAt": "2026-11-10T20:48:24.554Z",
+  "startedAt": "2026-11-11T09:24:07.822Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-10T20:48:24.554Z",
+      "checkedAt": "2026-11-11T09:24:07.822Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 150,
-    "relevant": 46,
-    "supported": 33
+    "relevant": 39,
+    "supported": 28
   },
   "rejected": [
     {
-      "video": "isqwXApzV5E",
-      "title": "When you give a humanoid roller skates",
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "GcFRheDNh5U",
-      "title": "This Airtaxi is Ready For Primetime!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "jKjir4-HmQI",
-      "title": "This controls games characters AND robots",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
+        1,
+        2
       ]
     },
     {
@@ -67,7 +52,6 @@
       "title": "FREE + LOCAL: Image to 3D for LOW Vram",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1,
         2
       ]
@@ -77,8 +61,27 @@
       "title": "“Tesla Hater” Finally Tries Full Self Driving",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         4
+      ]
+    },
+    {
+      "video": "S7lpCyZSdJQ",
+      "title": "Claude Fable 5.2 is a freak",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        18,
+        27
       ]
     },
     {
@@ -112,62 +115,30 @@
       "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
       "stage": "classification-evidence",
       "evidenceIds": [
-        3,
         18,
-        19
+        19,
+        21
       ]
     },
     {
-      "video": "7T6g27DuHTc",
-      "title": "MiniMax H3 Image Lands in ComfyUI – Open Weights, Six Steps #shorts",
+      "video": "U3N1vC9fcYU",
+      "title": "New Gemini  Prompt for BoysTrending Gemini Photo Editing #shorts #shortsfeed #influencerchallenge",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        3,
-        4
+        5,
+        6
       ]
     },
     {
-      "video": "QwaU4yU0PdQ",
-      "title": "Fable 5.2 | First Impressions",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    },
-    {
-      "video": "s0OX5bRccjI",
-      "title": "Alibaba’s Qwen 4 \"QoDuck\" Just Went LIVE for Free! (Beats Opus 5.5) + US Bans RSI & F.03 Robot Army!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        6,
-        7,
-        9
-      ]
-    },
-    {
-      "video": "P7stfqs0YeA",
-      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
+      "video": "qhsAp2y2pf4",
+      "title": "Why Google Flow is Changing AI Filmmaking (And How to Use It)",
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        2,
-        3
+        6,
+        7
       ]
-    },
-    {
-      "video": "e3h_iWJnEcw",
-      "title": "Minecraft 3D Model Generator: AI Daisy Clump in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "vug73goPJaM",
-      "title": "Is Software Over?",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "tgdG27lr26s",
@@ -175,18 +146,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "video": "Mt54ez7xsiI",
+      "title": "Fable 5.2 Is Quite Insane!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "2C9s_M5kETc",
-      "title": "The 3,000-Word Secret Behind AI Filmmaking @HiggsfieldAI @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "video": "TA_c7hul6oU",
+      "title": "New Double Mix Ai photo Prompt🔥👌 #chatgpt #photoediting #ytshorts",
       "stage": "insufficient-article-source"
     },
     {
@@ -199,23 +165,16 @@
       ]
     },
     {
-      "video": "WDB6A2O-B_8",
-      "title": "Best AI 3D Model Generator? Meshy vs Tripo vs Hunyuan on One Image, Then Rig the Winner",
-      "stage": "insufficient-article-source"
+      "video": "e3h_iWJnEcw",
+      "title": "Minecraft 3D Model Generator: AI Daisy Clump in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
-      "video": "cnpTV1welAc",
-      "title": "Google Flow Masterclass: Learn AI Video Generation with Google Flow",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "VwPuQei5HrE",
-      "title": "I Tried The Best AI Model Generator Out There - Tripo3D Review & Tutorial",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "2TM8W66NI_8",
-      "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
+      "video": "isqwXApzV5E",
+      "title": "When you give a humanoid roller skates",
       "stage": "insufficient-article-source"
     },
     {
@@ -224,9 +183,12 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "U3N1vC9fcYU",
-      "title": "New Gemini  Prompt for BoysTrending Gemini Photo Editing #shorts #shortsfeed #influencerchallenge",
-      "stage": "insufficient-article-source"
+      "video": "0d2TLXIf8ak",
+      "title": "Minecraft 3D Model Generator: AI Medieval Oak Dining Table",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
       "video": "xN7mLg_QIV8",
@@ -234,20 +196,10 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "qhsAp2y2pf4",
-      "title": "Why Google Flow is Changing AI Filmmaking (And How to Use It)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        4,
-        5
-      ]
-    },
-    {
       "video": "yMb5rAElXiM",
       "title": "Why AI Filmmaking Still Needs More Than Powerful Tools @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4
+  "accepted": 6
 }
