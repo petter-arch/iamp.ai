@@ -1,54 +1,46 @@
 {
-  "startedAt": "2026-11-11T21:58:09.720Z",
+  "startedAt": "2026-11-12T09:49:43.656Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-11T21:58:09.720Z",
+      "checkedAt": "2026-11-12T09:49:43.656Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 152,
-    "relevant": 57,
-    "supported": 45
+    "fetched": 148,
+    "relevant": 46,
+    "supported": 30
   },
   "rejected": [
     {
       "video": "Xtb3Pua0e8s",
       "title": "The New Ring Camera Flies Around Your House",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "Mt54ez7xsiI",
-      "title": "Fable 5.2 Is Quite Insane!",
       "stage": "classification-evidence",
       "evidenceIds": [
         0
@@ -63,8 +55,8 @@
       ]
     },
     {
-      "video": "GcFRheDNh5U",
-      "title": "This Airtaxi is Ready For Primetime!",
+      "video": "jKjir4-HmQI",
+      "title": "This controls games characters AND robots",
       "stage": "classification-evidence",
       "evidenceIds": [
         0
@@ -81,22 +73,41 @@
       ]
     },
     {
-      "video": "qjMZcC6LzAg",
-      "title": "Google's Genie 4 builds a playable world from one prompt",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
       "video": "twSNKgmk_Mw",
       "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
       "stage": "classification-evidence",
       "evidenceIds": [
-        18,
-        19,
-        21,
-        25
+        3,
+        4,
+        18
+      ]
+    },
+    {
+      "video": "QQGPrDPMZVg",
+      "title": "ByteDance Seedream 5.5 Is INSANE! 100 AI Edits Without Losing Quality! 🤯",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "video": "dz34oGowZbM",
+      "title": "MiniMax H3-Image Hits ComfyUI Day One With Native 4K/16MP Image Gen",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "video": "k_IhwnPq2TI",
+      "title": "MiniMax H3-Image: open weights, big claims",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
       ]
     },
     {
@@ -110,11 +121,28 @@
       ]
     },
     {
+      "video": "MusrI95gdhY",
+      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "I2OiJgO3LFw",
+      "title": "This AI is 2 days old. Look what people built",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        6
+      ]
+    },
+    {
       "video": "NXs1O7kLFOY",
       "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
       ]
     },
@@ -131,8 +159,9 @@
       "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        8
+        1,
+        8,
+        20
       ]
     },
     {
@@ -140,8 +169,17 @@
       "title": "NVIDIA's new models for robots and self-driving cars #shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         1
+      ]
+    },
+    {
+      "video": "P7stfqs0YeA",
+      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
       ]
     },
     {
@@ -150,18 +188,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "S7lpCyZSdJQ",
-      "title": "Claude Fable 5.2 is a freak",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "2V0GoU9e3fo",
       "title": "One scene, 86 animation styles, all made by Claude",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "6w9PtRnSP50",
-      "title": "Claude designs look generic until you do this.",
       "stage": "insufficient-article-source"
     },
     {
@@ -173,28 +201,22 @@
       ]
     },
     {
-      "video": "rTMZ-O2skv0",
-      "title": "Fable 5.2 is TERRIFYING! (50+ Insane Uses You Have To Try)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        "5",
-        "17",
-        "46"
-      ]
-    },
-    {
       "video": "tgdG27lr26s",
       "title": "ChatGPT can make GIFs now (and people went feral)",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "EFFefSoT_-U",
-      "title": "RIFFING IT with Envato #AD",
-      "stage": "insufficient-article-source"
+      "video": "CUoWLIIKwOc",
+      "title": "Minecraft 3D Model Generator: AI Aloe Vera Plant in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        4
+      ]
     },
     {
-      "video": "IGICYFyP_EI",
-      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "video": "2TM8W66NI_8",
+      "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
       "stage": "insufficient-article-source"
     },
     {
@@ -203,13 +225,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "2TM8W66NI_8",
-      "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "CUoWLIIKwOc",
-      "title": "Minecraft 3D Model Generator: AI Aloe Vera Plant in Blockbench",
+      "video": "e3h_iWJnEcw",
+      "title": "Minecraft 3D Model Generator: AI Daisy Clump in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
         1
@@ -225,57 +242,20 @@
       ]
     },
     {
-      "video": "Q6xJOpTylco",
-      "title": "2026 AI Horror Film Competition Winners!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "D3_uk3QW6x0",
-      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "e3h_iWJnEcw",
-      "title": "Minecraft 3D Model Generator: AI Daisy Clump in Blockbench",
+      "video": "vd_wN_a0uts",
+      "title": "100回描き直しても劣化なし！ByteDance最新AI『Seedream 5.5』が凄すぎる！ #AI",
       "stage": "article-evidence",
       "evidenceIds": [
-        1
+        4,
+        5,
+        6
       ]
     },
     {
       "video": "xFTK5SFVzG0",
       "title": "AI Is Changing Filmmaking Forever 🤯🎬",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "e7zozl_D7iY",
-      "title": "New Chatgpt Ai photo Prompt For 2026 #chatgpt #aiphotoediting #photoediting",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "bnnLznoIPUc",
-      "title": "New ai photo edit tutorial trend in chatgpt 📈😍|| New trending ai photo #shorts #ytshorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "WDB6A2O-B_8",
-      "title": "Best AI 3D Model Generator? Meshy vs Tripo vs Hunyuan on One Image, Then Rig the Winner",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "yMb5rAElXiM",
-      "title": "Why AI Filmmaking Still Needs More Than Powerful Tools @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "MusrI95gdhY",
-      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
     }
   ],
-  "accepted": 1
+  "accepted": 3
 }
