@@ -1,65 +1,50 @@
 {
-  "startedAt": "2026-11-12T09:49:43.656Z",
+  "startedAt": "2026-11-12T21:28:11.193Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
-      "found": 3
+      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     }
   },
   "selection": {
     "fetched": 148,
-    "relevant": 46,
-    "supported": 30
+    "relevant": 52,
+    "supported": 39
   },
   "rejected": [
     {
-      "video": "Xtb3Pua0e8s",
-      "title": "The New Ring Camera Flies Around Your House",
+      "video": "IehCboBcYsA",
+      "title": "How to automate your photo library",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "isqwXApzV5E",
-      "title": "When you give a humanoid roller skates",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "jKjir4-HmQI",
-      "title": "This controls games characters AND robots",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -68,8 +53,27 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1,
-        2
+        1
+      ]
+    },
+    {
+      "video": "S7lpCyZSdJQ",
+      "title": "Claude Fable 5.2 is a freak",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        7,
+        10
+      ]
+    },
+    {
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        18,
+        26
       ]
     },
     {
@@ -83,13 +87,13 @@
       ]
     },
     {
-      "video": "QQGPrDPMZVg",
-      "title": "ByteDance Seedream 5.5 Is INSANE! 100 AI Edits Without Losing Quality! 🤯",
+      "video": "IFzbbZhVDOg",
+      "title": "Новая бесплатная и безлимитная ИИ для генерации изображений и редактирования фото | MiniMax H3 Image",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        3,
-        5
+        20,
+        21,
+        22
       ]
     },
     {
@@ -111,31 +115,13 @@
       ]
     },
     {
-      "video": "x40szrf4IbU",
-      "title": "Nova IA 4K GRÁTIS de IMAGEM: MiniMax H3 Image, testei tudo",
+      "video": "beDFnxT7dps",
+      "title": "Agentic Mode ile Saniyeler İçinde 3D Model Üretimi | Hyper3D Rodin #reklam",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1,
-        2
-      ]
-    },
-    {
-      "video": "MusrI95gdhY",
-      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "I2OiJgO3LFw",
-      "title": "This AI is 2 days old. Look what people built",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        6
+        4,
+        5
       ]
     },
     {
@@ -160,8 +146,7 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1,
-        8,
-        20
+        8
       ]
     },
     {
@@ -169,22 +154,13 @@
       "title": "NVIDIA's new models for robots and self-driving cars #shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "P7stfqs0YeA",
-      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
-      "stage": "classification-evidence",
-      "evidenceIds": [
         1,
-        2,
-        3
+        4
       ]
     },
     {
-      "video": "1ZS1kRuxboo",
-      "title": "Check Out My Adobe Creator Playbook Episode",
+      "video": "iTe0IB5Ugf8",
+      "title": "MASSIVE AI Shake-Up That Changes Everything",
       "stage": "insufficient-article-source"
     },
     {
@@ -193,12 +169,9 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "h9zK34lIK8Y",
-      "title": "Minecraft 3D Model Generator: AI Alchemist Table in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "B3KSjklvg-I",
+      "title": "Claude Fable 5.2 Is Scary Good",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "tgdG27lr26s",
@@ -206,31 +179,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "CUoWLIIKwOc",
-      "title": "Minecraft 3D Model Generator: AI Aloe Vera Plant in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        4
-      ]
-    },
-    {
-      "video": "2TM8W66NI_8",
-      "title": "Anthropic's Fable 5.2 is the World’s Best AI Model",
+      "video": "vug73goPJaM",
+      "title": "Is Software Over?",
       "stage": "insufficient-article-source"
     },
     {
       "video": "gdBoYZyaouk",
       "title": "AI ART Helloween LIVE STREAM - Interactive!",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "e3h_iWJnEcw",
-      "title": "Minecraft 3D Model Generator: AI Daisy Clump in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
     },
     {
       "video": "19ngvIWpK_U",
@@ -242,20 +198,73 @@
       ]
     },
     {
-      "video": "vd_wN_a0uts",
-      "title": "100回描き直しても劣化なし！ByteDance最新AI『Seedream 5.5』が凄すぎる！ #AI",
+      "video": "9luC7MNxqUY",
+      "title": "Elevate your AI creations with the brand-new Seedream 5.5 on CapCut 🤎#CapCutWeb #capcutwebedit",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Xtb3Pua0e8s",
+      "title": "The New Ring Camera Flies Around Your House",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0fJxH4IUA6I",
+      "title": "Minecraft 3D Model Generator: AI Emerald Crystal Cluster in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
-        4,
-        5,
-        6
+        1
       ]
+    },
+    {
+      "video": "sBeBn3Mh2AU",
+      "title": "Chath Puja Image Prompt | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "D3_uk3QW6x0",
+      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "xFTK5SFVzG0",
       "title": "AI Is Changing Filmmaking Forever 🤯🎬",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "h9zK34lIK8Y",
+      "title": "Minecraft 3D Model Generator: AI Alchemist Table in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "e7zozl_D7iY",
+      "title": "New Chatgpt Ai photo Prompt For 2026 #chatgpt #aiphotoediting #photoediting",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "isqwXApzV5E",
+      "title": "When you give a humanoid roller skates",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "MusrI95gdhY",
+      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "CUoWLIIKwOc",
+      "title": "Minecraft 3D Model Generator: AI Aloe Vera Plant in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     }
   ],
-  "accepted": 3
+  "accepted": 4
 }

@@ -1,8 +1,120 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T09:49:43.656Z",
-  "newsCheckedAt": "2026-11-12T09:49:43.656Z",
+  "updatedAt": "2026-11-12T21:28:11.193Z",
+  "newsCheckedAt": "2026-11-12T21:28:11.193Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Claude can now make stunning 3D animations in almost any style, and it's surprisingly easy. In this video I break down how it works using",
+      "evidenceIds": [
+        5,
+        6
+      ],
+      "id": "ZxaMmG71g8c",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Claude gör 3D-animationer enklare med Three.js",
+      "sum": "Futurepedia visar hur Claude kan skapa 3D-animerade förklararvideor från en enda prompt, med stöd för färdiga stilar, ljudeffekter och berättarröst som synkroniseras med animationen.",
+      "full": "Kanalen Futurepedia beskriver ett arbetsflöde där Claude används för att skapa 3D-animerade förklararvideor med Three.js. Enligt beskrivningen kan processen börja med en enda prompt, vilket gör det möjligt att ta fram en animation utan det bildruta-för-bildruta-baserade JavaScript-arbetsflöde som Futurepedia tog upp i en tidigare video.\n\nVideon går igenom hur metoden fungerar och visar hur en 3D-animation byggs från grunden. Futurepedia lyfter också fram en kostnadsfri 3D Style Atlas med 37 färdiga stilar som kan kopieras och klistras in i Claude. Som exempel nämns en vulkananimation.\n\nArbetsflödet omfattar dessutom inbyggda ljudeffekter och ett läge för berättarröst. Enligt kanalens beskrivning kan berättarrösten synkroniseras med animationen, vilket riktar användningen mot förklarande videor där bild, ljud och narration behöver samordnas. Beskrivningen innehåller däremot inga uppgifter om modellversion, tekniska begränsningar, renderingskvalitet eller oberoende testresultat.",
+      "deep": "Futurepedia framställer Three.js som den tekniska grunden för arbetsflödet och skiljer det från en tidigare metod med bildruta-för-bildruta-animering i JavaScript. Den centrala användningen är att skapa 3D-animerade explainer-videor genom promptbaserad generering och återanvändbara stilinstruktioner.\n\nDe 37 färdiga stilarna i 3D Style Atlas är enligt beskrivningen avsedda att kopieras och klistras in i Claude. Beskrivningen anger också att ljud kan byggas in och att ett särskilt berättarröstsläge synkroniserar narrationen med animationen. Futurepedia nämner inte vilka ljudformat, exportfunktioner eller synkroniseringsmetoder som används, så sådana detaljer kan inte fastställas utifrån underlaget.",
+      "en": {
+        "ttl": "Claude makes 3D animation easier with Three.js",
+        "sum": "Futurepedia shows how Claude can create 3D animated explainer videos from a single prompt, with support for ready-made styles, sound effects, and narration synchronized with the animation.",
+        "full": "The channel Futurepedia describes a workflow in which Claude is used to create 3D animated explainer videos with Three.js. According to the description, the process can start from a single prompt, offering an alternative to the frame-by-frame JavaScript workflow Futurepedia covered in an earlier video.\n\nThe video explains how the method works and shows how to build a 3D animation from scratch. Futurepedia also highlights a free 3D Style Atlas containing 37 ready-made styles that can be copied and pasted into Claude. A volcano animation is given as an example.\n\nThe workflow also includes built-in sound effects and a voiceover mode. According to the channel description, the voiceover can be synchronized with the animation, making the workflow suitable for explainer videos that need coordinated visuals, audio, and narration. The description does not provide a model version, technical limitations, rendering-quality details, or independent test results.",
+        "deep": "Futurepedia presents Three.js as the technical foundation of the workflow and distinguishes it from an earlier frame-by-frame JavaScript animation method. The main use case is creating 3D animated explainer videos through prompt-based generation and reusable style instructions.\n\nAccording to the description, the 37 ready-made styles in the 3D Style Atlas are intended to be copied and pasted into Claude. The description also states that sound can be built in and that a dedicated voiceover mode synchronizes narration with the animation. It does not specify the audio formats, export features, or synchronization method, so those details cannot be established from the supplied material."
+      },
+      "cat": "3d",
+      "date": "2026-11-12T19:01:24Z",
+      "meta": "Futurepedia · 2026-11-12",
+      "url": "https://www.youtube.com/watch?v=ZxaMmG71g8c",
+      "img": "https://i.ytimg.com/vi/ZxaMmG71g8c/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Futurepedia"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 28,
+          "l": "How It Works"
+        },
+        {
+          "t": 127,
+          "l": "Make One From Scratch"
+        },
+        {
+          "t": 185,
+          "l": "The Free 3D Style Atlas"
+        },
+        {
+          "t": 233,
+          "l": "Using a Style: Volcano Example"
+        },
+        {
+          "t": 319,
+          "l": "With a Voiceover"
+        }
+      ],
+      "views": 4066,
+      "buzz": 63,
+      "sourceCheckedAt": "2026-11-12T21:28:11.193Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "234b50c5e1ce29679934571dad49583acd3b363076045439376834cdd9f72224",
+      "trusted": true,
+      "sourceId": "futurepedia_io",
+      "newPlatforms": [
+        "Claude",
+        "Three.js"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Minecraft 3D Model Generator: AI Seaweed Kelp in Blockbench I typed one sentence and got a whole kelp model back 🌿 209 cubes, ready to",
+      "evidenceIds": [
+        0,
+        1
+      ],
+      "id": "eS4vY-W68QA",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "AI-generator skapar kelpmodell för Blockbench",
+      "sum": "Spaleforce visar en AI-baserad Minecraft 3D Model Generator som omvandlar en enda mening till en kelpmodell med 209 kuber, redo att importeras till Blockbench.",
+      "full": "Spaleforce beskriver ett AI-arbetsflöde för Minecraft-modellering där användaren skriver en enda mening och får tillbaka en färdig kelpmodell. Resultatet består enligt kanalens beskrivning av 209 kuber och är redo att användas i Blockbench.\n\nArbetsflödet fokuserar på att snabbt skapa en blockbaserad 3D-modell från text i stället för att bygga varje del manuellt. I det aktuella exemplet används modellen för sjögräsarten kelp, med ett resultat som är avsett att passa in i Minecraft-relaterat skapande.\n\nBeskrivningen anger inte vilka AI-modeller eller tekniska metoder som används bakom generatorn. Den specificerar inte heller exportformat, redigeringsmöjligheter, kompatibilitet utöver den uttryckliga kopplingen till Blockbench eller hur väl resultatet fungerar i ett färdigt spelprojekt. Påståendena kommer därför från Spaleforce och ska inte läsas som ett oberoende test.",
+      "deep": "Det konkreta resultatet som nämns är en kelpmodell uppbyggd av 209 kuber. Spaleforce framställer den som färdig att lägga in i Blockbench efter att användaren har angett en enda mening. Det ger ett tydligt exempel på text-till-3D för en voxelbaserad Minecraft-miljö.\n\nKällbeskrivningen innehåller däremot inga uppgifter om promptens exakta formulering, tidsåtgång, kvalitet jämfört med manuellt arbete, möjlighet att ändra enskilda kuber eller stöd för andra objekt. Den nämner inte heller någon produktversion eller något oberoende verifierat resultat.",
+      "en": {
+        "ttl": "AI generator creates kelp model for Blockbench",
+        "sum": "Spaleforce presents an AI-based Minecraft 3D Model Generator that turns one sentence into a 209-cube kelp model ready to import into Blockbench.",
+        "full": "Spaleforce describes an AI workflow for Minecraft modeling in which the user types a single sentence and receives a finished kelp model. According to the channel’s description, the result consists of 209 cubes and is ready to use in Blockbench.\n\nThe workflow focuses on creating a block-based 3D model from text instead of building every part manually. In this example, the model is used for kelp, with a result intended for Minecraft-related creative work.\n\nThe description does not identify the AI models or technical methods behind the generator. It also does not specify the export format, editing options, compatibility beyond the explicit Blockbench connection, or how well the result performs in a finished game project. The claims therefore come from Spaleforce and should not be treated as an independent test.",
+        "deep": "The concrete result mentioned is a kelp model made from 209 cubes. Spaleforce presents it as ready to place in Blockbench after the user provides a single sentence. This gives a specific example of text-to-3D generation for a voxel-based Minecraft environment.\n\nThe source description does not provide the exact prompt, generation time, quality compared with manual work, options for changing individual cubes, or support for other objects. It also does not mention a product version or any independently verified result."
+      },
+      "cat": "3d",
+      "date": "2026-11-12T17:21:15Z",
+      "meta": "Spaleforce · 2026-11-12",
+      "url": "https://www.youtube.com/watch?v=eS4vY-W68QA",
+      "img": "https://i.ytimg.com/vi/eS4vY-W68QA/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Spaleforce"
+      ],
+      "parts": [],
+      "views": 160,
+      "buzz": 46,
+      "sourceCheckedAt": "2026-11-12T21:28:11.193Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "fd52050c5819e2f2eca7b67ac106b4d929ec5abd57131153d439d9d32aeb217c",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Minecraft 3D Model Generator"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "I learned that AI is much more than generating images or videos. It opens up a whole new world of storytelling and filmmaking. 🎭 Maintain",
@@ -173,6 +285,49 @@
         "Claude",
         "Claude Code"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "We partnered with the Adobe team on an episode of their Creator Playbook series. In the tutorial, we show how you can start with a",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "1ZS1kRuxboo",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så använder Curious Refuge Adobe Firefly för att förvandla mobilinspelningar",
+      "sum": "Curious Refuge visar i ett avsnitt av Adobe Creator Playbook hur en enkel mobilinspelning kan omvandlas med Adobe Firefly till ett resultat som enligt kanalen upplevs som inspelat i en professionell studio.",
+      "full": "Curious Refuge har samarbetat med Adobe i ett avsnitt av serien Creator Playbook. Fokus ligger på ett AI-baserat arbetsflöde där en enkel inspelning från en mobiltelefon används som utgångspunkt och bearbetas i Adobe Firefly.\n\nEnligt kanalens beskrivning visar handledningen hur mobilmaterialet kan förvandlas så att resultatet känns som om det spelats in i en professionell studio. Beskrivningen specificerar inte vilka Firefly-funktioner som används, vilka inställningar som tillämpas eller hur arbetsflödet är uppbyggt steg för steg.\n\nAvsnittet är ett sponsrat samarbete med Adobe och presenteras som en del av företagets Creator Playbook-serie. Curious Refuge uppmanar tittarna att se hela avsnittet för den fullständiga genomgången. Detta är kanalens beskrivning av arbetsflödet, inte en oberoende testning av Adobe Firefly.",
+      "deep": "Den konkreta AI-utvecklingen i materialet är användningen av Adobe Firefly för att förändra en befintlig mobilinspelning i stället för att börja med traditionell studioutrustning. Källan stöder dock bara den övergripande processen: mobilinspelning som källa och ett mer studiopräglat slutresultat.\n\nBeskrivningen ger inga uppgifter om bildkvalitet, tidsbesparing, kostnad, begränsningar, exportformat eller resultatets jämnhet. Den anger inte heller om bearbetningen gäller bakgrund, ljussättning, miljö, video eller andra delar av inspelningen. Sådana detaljer kan därför inte fastställas utifrån det tillgängliga underlaget.",
+      "en": {
+        "ttl": "How Curious Refuge uses Adobe Firefly to transform phone recordings",
+        "sum": "Curious Refuge shows in an episode of Adobe Creator Playbook how a simple phone recording can be transformed with Adobe Firefly into a result that, according to the channel, feels as if it was recorded in a professional studio.",
+        "full": "Curious Refuge partnered with Adobe on an episode of the Creator Playbook series. The focus is an AI-based workflow in which a simple phone recording is used as the starting point and processed in Adobe Firefly.\n\nAccording to the channel’s description, the tutorial shows how the phone footage can be transformed so the result feels as if it was recorded in a professional studio. The description does not specify which Firefly features are used, what settings are applied, or how the workflow is structured step by step.\n\nThe episode is a sponsored collaboration with Adobe and is presented as part of the company’s Creator Playbook series. Curious Refuge directs viewers to the full episode for the complete walkthrough. This is the channel’s description of the workflow, not an independent test of Adobe Firefly.",
+        "deep": "The substantive AI development in the material is the use of Adobe Firefly to alter existing phone footage rather than starting with traditional studio equipment. However, the source supports only the broad process: a phone recording as input and a more studio-like final result.\n\nThe description provides no information about image quality, time savings, cost, limitations, export formats, or consistency. It also does not state whether the processing affects the background, lighting, environment, video, or other parts of the recording. Those details cannot be established from the available material."
+      },
+      "cat": "film",
+      "date": "2026-11-11T21:19:53Z",
+      "meta": "Curious Refuge · 2026-11-11",
+      "url": "https://www.youtube.com/watch?v=1ZS1kRuxboo",
+      "img": "https://i.ytimg.com/vi/1ZS1kRuxboo/hqdefault.jpg",
+      "plat": "Adobe Firefly",
+      "platformIds": [
+        "adobe-firefly"
+      ],
+      "chans": [
+        "Curious Refuge"
+      ],
+      "parts": [],
+      "views": 729,
+      "buzz": 54,
+      "sourceCheckedAt": "2026-11-12T21:28:11.193Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "03212cba7d8802b3e9bb8a2024294bf1171367956990eb1ebaf84788da3fcea4",
+      "trusted": true,
+      "sourceId": "curiousrefuge",
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -679,6 +834,48 @@
         "Veo 3.1",
         "Ray3",
         "Ray3.2"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Kling 4.0 vs Seedance 2.5 — Which AI video generator produces better cinematic results? I tested both models using the exact same prompts, characters, and",
+      "evidenceIds": [
+        2
+      ],
+      "id": "dI72D30TKwM",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Kling 4.0 jämförs med Seedance 2.5 för filmiskt AI-skapande",
+      "sum": "WealthWise jämför Kling 4.0 och Seedance 2.5 som videogeneratorer för filmiskt AI-skapande, med samma uppmaningar, rollfigurer och referenselement i båda modellerna.",
+      "full": "Kanalen WealthWise beskriver en jämförelse mellan Kling 4.0 och Seedance 2.5 med fokus på filmiska resultat från AI-genererade videor. Enligt kanalens beskrivning användes exakt samma uppmaningar, rollfigurer och referenselement för båda modellerna.\n\nJämförelsen är därmed inriktad på hur de två AI-videogeneratorerna hanterar samma kreativa förutsättningar i ett filmiskt arbetsflöde. WealthWise presenterar materialet som en bedömning av vilken modell som ger bättre resultat för AI-baserat filmskapande.\n\nBeskrivningen anger inte vilka specifika scener, egenskaper eller bedömningskriterier som användes, och den innehåller inga verifierbara uppgifter om modellernas lanseringsdatum, tekniska arkitektur eller prestanda utanför kanalens egen jämförelse. Resultaten bör därför förstås som kanalens test, inte som ett oberoende test.",
+      "deep": "WealthWise uppger att jämförelsen höll de centrala indatafaktorerna konstanta: samma uppmaningar, samma rollfigurer och samma referenselement skickades till Kling 4.0 och Seedance 2.5. Det ger jämförelsen ett tydligt upplägg för att undersöka skillnader i de genererade filmiska resultaten, men källbeskrivningen specificerar inte hur resultaten värderades.\n\nDen medföljande informationen räcker inte för att slå fast vilken modell som är bäst i allmänhet eller för särskilda användningsområden. Den stöder endast att WealthWise har jämfört de två namngivna AI-videogeneratorerna inom ramen för filmiskt AI-skapande.",
+      "en": {
+        "ttl": "Kling 4.0 compared with Seedance 2.5 for cinematic AI filmmaking",
+        "sum": "WealthWise compares Kling 4.0 and Seedance 2.5 as video generators for cinematic AI filmmaking, using the same prompts, characters, and reference elements with both models.",
+        "full": "The WealthWise channel describes a comparison between Kling 4.0 and Seedance 2.5 focused on cinematic results from AI-generated videos. According to the channel’s description, exactly the same prompts, characters, and reference elements were used with both models.\n\nThe comparison therefore examines how the two AI video generators handle identical creative inputs in a cinematic workflow. WealthWise presents the material as an assessment of which model produces better results for AI filmmaking.\n\nThe description does not specify the scenes, features, or evaluation criteria used, and it provides no verifiable information about release dates, technical architecture, or performance beyond the channel’s own comparison. The results should therefore be understood as the channel’s test, not an independent test.",
+        "deep": "WealthWise says the comparison kept the key inputs constant: the same prompts, the same characters, and the same reference elements were provided to Kling 4.0 and Seedance 2.5. This creates a clear setup for examining differences in the resulting cinematic videos, but the source description does not explain how the results were evaluated.\n\nThe supplied information is not enough to establish which model is generally better or which is preferable for particular use cases. It supports only that WealthWise compared the two named AI video generators in the context of cinematic AI filmmaking."
+      },
+      "cat": "film",
+      "date": "2026-11-10T10:12:54Z",
+      "meta": "WealthWise · 2026-11-10",
+      "url": "https://www.youtube.com/watch?v=dI72D30TKwM",
+      "img": "https://i.ytimg.com/vi/dI72D30TKwM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "WealthWise"
+      ],
+      "parts": [],
+      "views": 1465,
+      "buzz": 58,
+      "sourceCheckedAt": "2026-11-12T21:28:11.193Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "6fd1f08826aa0a717e30856ac1c869a335dd9acc27a23f679c5b8a1d768d4bef",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Kling 4.0"
       ]
     },
     {
@@ -42096,7 +42293,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 7200000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "lastError": null
@@ -42114,7 +42311,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 2260000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "lastError": null
@@ -42132,7 +42329,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 1280000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "lastError": null
@@ -42150,7 +42347,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": 381000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "lastError": null
@@ -42168,7 +42365,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 6070000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "lastError": null
@@ -42186,7 +42383,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 1050000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "lastError": null
@@ -42204,7 +42401,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": 624000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "lastError": null
@@ -42222,7 +42419,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 3450000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "lastError": null
@@ -42240,7 +42437,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 545000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "lastError": null
@@ -42258,7 +42455,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": 414000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "lastError": null
@@ -42276,7 +42473,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 2370000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "lastError": null
@@ -42293,8 +42490,8 @@
       "id": "producelikeapro",
       "group": "🎵 Ljud & musik",
       "enabled": true,
-      "subscriberCount": 845000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "subscriberCount": 846000,
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "lastError": null
@@ -42312,7 +42509,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 1200000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "lastError": null
@@ -42330,7 +42527,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": 233000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "lastError": null
@@ -42348,7 +42545,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 1030000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "lastError": null
@@ -42366,7 +42563,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 305000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "lastError": null
@@ -42384,7 +42581,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 278000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "lastError": null
@@ -42402,7 +42599,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": 249000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "lastError": null
@@ -42420,7 +42617,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 21400000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "lastError": null
@@ -42438,7 +42635,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 16900000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "lastError": null
@@ -42456,7 +42653,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 3690000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "lastError": null
@@ -42474,7 +42671,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": 1270000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "lastError": null
@@ -42492,7 +42689,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 774000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "lastError": null
@@ -42510,7 +42707,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 280000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "lastError": null
@@ -42528,7 +42725,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 768000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "lastError": null
@@ -42546,7 +42743,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 3570,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "lastError": null
@@ -42564,7 +42761,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 344000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "lastError": null
@@ -42582,7 +42779,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 201000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "lastError": null
@@ -42600,7 +42797,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 494000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "lastError": null
@@ -42618,7 +42815,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 459000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "lastError": null
@@ -42636,7 +42833,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 5470000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "lastError": null
@@ -42654,7 +42851,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 276000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "lastError": null
@@ -42672,7 +42869,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 272000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "lastError": null
@@ -42690,7 +42887,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 441000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "lastError": null
@@ -42708,7 +42905,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": 1840000,
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "lastError": null
@@ -42716,36 +42913,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
-      "found": 3
+      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-12T09:49:43.656Z",
+      "checkedAt": "2026-11-12T21:28:11.193Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-12T09:52:15.682Z",
+    "calculatedAt": "2026-11-12T21:28:11.193Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -42755,28 +42952,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.5591188880635737,
+      "elevenlabs": 0.5329923720496896,
       "elevenmusic": 0,
-      "heygen": 0.5259858025757858,
-      "kling-3-0": 0.2535724831393753,
+      "heygen": 0.5014075298909442,
+      "kling-3-0": 0.24172354424130693,
       "freepik-ai": 0,
-      "adobe-firefly": 0,
+      "adobe-firefly": 0.905206673200034,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.36228554197933,
+      "higgsfield": 4.158444595978776,
       "krea-ai": 0,
-      "spline-ai": 0.8086988514516293,
+      "spline-ai": 0.7709099590641159,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.4265958530166853,
+      "meshy-ai": 1.3599338600221953,
       "magnific-ai": 0,
-      "seedance-2-5": 2.8695935635953553,
+      "seedance-2-5": 2.7355031513535715,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.7319300887078908,
-      "nano-banana-pro": 0.17458344521829952,
+      "wan-3-0": 0.6977284482483829,
+      "nano-banana-pro": 0.1664255073009235,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -42784,19 +42981,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.1532389314822087,
+      "hunyuan3d": 1.099350364927865,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.2173988977954409,
+      "luma-genie": 0.20724027875052767,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.1915714611043477,
+      "gemini-omni-flash": 0.18261970691897164,
       "luma-agents": 0
     }
   },
