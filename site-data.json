@@ -32642,28 +32642,24 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-11T22:00:59.332Z",
+        "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
+            "url": "https://chatgpt.com/pricing/?LanguageId=1",
+            "hash": "26eddbefe6bd8ad477234913811a384bef57e726dd7fc544ca66d95dc0743b98"
+          },
+          {
             "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
-            "hash": "6ab7958891d05d836c9adcd16ac500443e130adbed9732fd5af650fc237f7e3f"
-          },
-          {
-            "url": "https://developers.openai.com/api/docs/guides/image-generation?generate-images-api=responses",
-            "hash": "6311702ad515801f2913a1accdc8bef04504abf5ddd946c036d3eb6869aa7ff2"
-          },
-          {
-            "url": "https://deploymentsafety.openai.com/chatgpt-images-2-0",
-            "hash": "480b3866712b2abaed0bc704e699126beb368a408245ea31142b96f32cf609fb"
+            "hash": "8c3e9f733e2f3f5b8661b92fc5bfc1ace339d6c2f9eb30fb50d3ed4c379a3b35"
           }
         ],
         "factHash": "7031e4c4d760f55cb1555409223bd67f63c0d8ce634e30f4ad3d7e78e1ffa0f7"
@@ -32768,11 +32764,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -32850,13 +32846,13 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "lastCheckError": "Not all profile facts could be verified",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-11T22:00:59.332Z",
+        "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
@@ -32931,11 +32927,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -32991,11 +32987,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33171,11 +33167,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33348,11 +33344,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33477,11 +33473,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33619,11 +33615,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33744,10 +33740,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33761,7 +33757,7 @@
         ],
         "factHash": "65d7aaa2d61f0415b416b7527e9b50ac4fe7821656bdd9f46313159e893e79be"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Freepik AI",
@@ -33808,11 +33804,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33897,10 +33893,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33914,7 +33910,7 @@
         ],
         "factHash": "eeff9419a2a7d47c486bda9bde0d0b19326293ce29861f11522beb55cddcf8be"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Leonardo AI",
@@ -33976,11 +33972,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34099,11 +34095,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34191,10 +34187,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34212,7 +34208,7 @@
         ],
         "factHash": "14fe28bb30bebec04ed6e1c2af57337e768ba6bd26464d1654d48b15c2c722c3"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Stable Diffusion 3.5",
@@ -34334,11 +34330,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34413,10 +34409,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34442,7 +34438,7 @@
         ],
         "factHash": "1f3ef8f98105c725982cbabdeb898955e5a61c13a257a4afa1413815cddcb95a"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Krea AI",
@@ -34489,11 +34485,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34616,11 +34612,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34709,11 +34705,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34882,11 +34878,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35054,11 +35050,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35132,10 +35128,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35144,7 +35140,7 @@
         "sources": [],
         "factHash": "15730edf0e32804da667a0bbae5d0737633563d3181a5cdb6b70ed94f70a8b8c"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Seedance 2.5",
@@ -35307,11 +35303,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35471,11 +35467,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35538,10 +35534,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35555,7 +35551,7 @@
         ],
         "factHash": "7fa35d928611dbad416de73a6484df8f4488c4950733aaff7b7a234e4a9800fe"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Wan 3.0",
@@ -35605,10 +35601,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35617,7 +35613,7 @@
         "sources": [],
         "factHash": "dee5113a8beb403cd58f0ca7b6b44bfb2c4b80e937d1df4b343274ebc67e45c4"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Nano Banana Pro",
@@ -35664,10 +35660,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35685,7 +35681,7 @@
         ],
         "factHash": "91fa3e1a528c775e0f348b698803d8f6c6fb6c73a440d91189ac9ba1e913a2b6"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Nano Banana 2",
@@ -35770,11 +35766,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35867,10 +35863,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35892,7 +35888,7 @@
         ],
         "factHash": "6a1a9b989f30821df87dcbe7d806f1abef728119c9d833dd05640cdd2512985b"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Hailuo 3.0",
@@ -35942,11 +35938,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36031,11 +36027,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36143,11 +36139,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36246,11 +36242,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36354,11 +36350,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36422,10 +36418,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36447,7 +36443,7 @@
         ],
         "factHash": "bd4c87b38f77c3336cf520db70265ed98aecd5467ddc21353282653a40b191e4"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "TRELLIS 2",
@@ -36492,11 +36488,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36566,11 +36562,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36658,11 +36654,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36727,11 +36723,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36840,11 +36836,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36911,10 +36907,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36923,7 +36919,7 @@
         "sources": [],
         "factHash": "3c10fd506293874baa20f33979e30fb5408953d53aa09a3d6121322de07344e0"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Luma Genie",
@@ -37004,10 +37000,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37025,7 +37021,7 @@
         ],
         "factHash": "e59992023b709365f111839f45443186f050d43831bd7b7aecad7f720db5962d"
       },
-      "lastCheckError": "Not all profile facts could be verified"
+      "lastCheckError": "OpenAI HTTP 429"
     },
     {
       "n": "Hitem3D",
@@ -37069,11 +37065,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37148,11 +37144,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37261,11 +37257,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37358,11 +37354,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37438,11 +37434,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37629,11 +37625,11 @@
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-11T22:00:59.332Z",
+        "attemptedAt": "2026-11-13T09:32:53.744Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37666,6 +37662,32 @@
     }
   ],
   "candidates": [
+    {
+      "name": "Kling 4.0",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=MbxDhjoH-V4",
+        "https://www.youtube.com/watch?v=oLldK2RJgzw",
+        "https://www.youtube.com/watch?v=ItZt9amULkI",
+        "https://www.youtube.com/watch?v=h9ryZx49_J0",
+        "https://www.youtube.com/watch?v=sfI7TLa8ZQY",
+        "https://www.youtube.com/watch?v=X7D7nvPGfJA",
+        "https://www.youtube.com/watch?v=aLf4ZYa5ekU",
+        "https://www.youtube.com/watch?v=2pzv0A4K_yc",
+        "https://www.youtube.com/watch?v=mpqgn9DMld4",
+        "https://www.youtube.com/watch?v=qnyeSCobc-o",
+        "https://www.youtube.com/watch?v=d49Tv2oIRFU",
+        "https://www.youtube.com/watch?v=TdajRRsSe7c",
+        "https://www.youtube.com/watch?v=dI72D30TKwM",
+        "https://www.youtube.com/watch?v=sh4bkvZQ1WE"
+      ],
+      "firstSeen": "2026-09-30T11:11:53.377Z",
+      "lastSeenAt": "2026-11-12T22:19:42Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "status": "retry",
+      "error": "OpenAI HTTP 429",
+      "attempts": 7,
+      "nextAttemptAt": "2026-11-20T09:32:53.744Z"
+    },
     {
       "name": "Claude",
       "sourceVideos": [
@@ -37722,6 +37744,20 @@
       "nextAttemptAt": "2026-11-16T21:30:33.761Z"
     },
     {
+      "name": "Seedream 5.5",
+      "firstSeen": "2026-10-23T07:52:19.881Z",
+      "lastSeenAt": "2026-11-12T05:15:23Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=qlSI_ZbRdEc",
+        "https://www.youtube.com/watch?v=QQGPrDPMZVg"
+      ],
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "status": "retry",
+      "error": "OpenAI HTTP 429",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-17T09:32:53.744Z"
+    },
+    {
       "name": "Minimax H3 Image",
       "firstSeen": "2026-11-12T09:52:15.682Z",
       "lastSeenAt": "2026-11-12T03:31:52Z",
@@ -37753,6 +37789,25 @@
       "error": "Insufficient official evidence",
       "attempts": 5,
       "nextAttemptAt": "2026-11-18T22:00:59.332Z"
+    },
+    {
+      "name": "Nano Banana",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
+        "https://www.youtube.com/watch?v=POD2xZpoZF4",
+        "https://www.youtube.com/watch?v=0tSaHo9_u7E",
+        "https://www.youtube.com/watch?v=kJgYSiIZMb8",
+        "https://www.youtube.com/watch?v=1yLAbK5F3E8",
+        "https://www.youtube.com/watch?v=OWr3IU82bJ8",
+        "https://www.youtube.com/watch?v=cOYEqM0i-L8"
+      ],
+      "firstSeen": "2026-09-23T10:02:36.801Z",
+      "lastSeenAt": "2026-11-11T16:30:40Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "status": "retry",
+      "error": "OpenAI HTTP 429",
+      "attempts": 5,
+      "nextAttemptAt": "2026-11-20T09:32:53.744Z"
     },
     {
       "name": "GPT-6 Astra",
@@ -37824,11 +37879,11 @@
         "https://www.youtube.com/watch?v=siMpFKZgNtU",
         "https://www.youtube.com/watch?v=HaFfexk1h84"
       ],
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-12T22:00:59.332Z"
+      "error": "OpenAI HTTP 429",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-15T09:32:53.744Z"
     },
     {
       "name": "Headshot 3",
@@ -37957,6 +38012,32 @@
       "nextAttemptAt": "2026-11-13T22:00:59.332Z"
     },
     {
+      "name": "Meta Edits",
+      "firstSeen": "2026-11-11T09:26:31.721Z",
+      "lastSeenAt": "2026-11-10T19:02:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=siMpFKZgNtU"
+      ],
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "status": "retry",
+      "error": "OpenAI HTTP 429",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-15T09:32:53.744Z"
+    },
+    {
+      "name": "Mythos 5.2",
+      "firstSeen": "2026-11-11T09:26:31.721Z",
+      "lastSeenAt": "2026-11-10T19:02:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=siMpFKZgNtU"
+      ],
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "status": "retry",
+      "error": "OpenAI HTTP 429",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-15T09:32:53.744Z"
+    },
+    {
       "name": "Muse Ember",
       "firstSeen": "2026-11-11T09:26:31.721Z",
       "lastSeenAt": "2026-11-10T19:02:08Z",
@@ -37968,32 +38049,6 @@
       "error": "Insufficient official evidence",
       "attempts": 1,
       "nextAttemptAt": "2026-11-13T21:30:33.761Z"
-    },
-    {
-      "name": "Meta Edits",
-      "firstSeen": "2026-11-11T09:26:31.721Z",
-      "lastSeenAt": "2026-11-10T19:02:08Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=siMpFKZgNtU"
-      ],
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-12T22:00:59.332Z"
-    },
-    {
-      "name": "Mythos 5.2",
-      "firstSeen": "2026-11-11T09:26:31.721Z",
-      "lastSeenAt": "2026-11-10T19:02:08Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=siMpFKZgNtU"
-      ],
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-12T22:00:59.332Z"
     },
     {
       "name": "Veo 3.1",
@@ -38035,31 +38090,6 @@
       "nextAttemptAt": "2026-11-14T21:30:33.761Z"
     },
     {
-      "name": "Kling 4.0",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=MbxDhjoH-V4",
-        "https://www.youtube.com/watch?v=oLldK2RJgzw",
-        "https://www.youtube.com/watch?v=ItZt9amULkI",
-        "https://www.youtube.com/watch?v=h9ryZx49_J0",
-        "https://www.youtube.com/watch?v=sfI7TLa8ZQY",
-        "https://www.youtube.com/watch?v=X7D7nvPGfJA",
-        "https://www.youtube.com/watch?v=aLf4ZYa5ekU",
-        "https://www.youtube.com/watch?v=2pzv0A4K_yc",
-        "https://www.youtube.com/watch?v=mpqgn9DMld4",
-        "https://www.youtube.com/watch?v=qnyeSCobc-o",
-        "https://www.youtube.com/watch?v=d49Tv2oIRFU",
-        "https://www.youtube.com/watch?v=TdajRRsSe7c",
-        "https://www.youtube.com/watch?v=dI72D30TKwM"
-      ],
-      "firstSeen": "2026-09-30T11:11:53.377Z",
-      "lastSeenAt": "2026-11-10T10:12:54Z",
-      "lastAttemptAt": "2026-11-12T21:30:33.761Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 6,
-      "nextAttemptAt": "2026-11-19T21:30:33.761Z"
-    },
-    {
       "name": "MiniMax H3",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=KsaEx3nQmwo",
@@ -38086,11 +38116,11 @@
       ],
       "firstSeen": "2026-09-27T10:35:26.679Z",
       "lastSeenAt": "2026-11-10T00:31:43Z",
-      "lastAttemptAt": "2026-11-10T09:50:31.409Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "status": "retry",
-      "error": "Missing model detail tags",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-11T09:50:31.409Z"
+      "error": "OpenAI HTTP 429",
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-15T09:32:53.744Z"
     },
     {
       "name": "Qwen-Image-2.1",
@@ -38099,12 +38129,12 @@
         "https://www.youtube.com/watch?v=hP_hqe6-NdM"
       ],
       "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-11-10T09:50:31.409Z",
+      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
       "status": "retry",
-      "error": "Invalid model identity",
+      "error": "OpenAI HTTP 429",
       "lastSeenAt": "2026-11-10T00:31:43Z",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-11T09:50:31.409Z"
+      "attempts": 2,
+      "nextAttemptAt": "2026-11-15T09:32:53.744Z"
     },
     {
       "name": "Imagination Studio by keys+Wasserman",
@@ -38692,24 +38722,6 @@
       "error": "Insufficient official evidence",
       "attempts": 2,
       "nextAttemptAt": "2026-11-10T18:52:29.632Z"
-    },
-    {
-      "name": "Nano Banana",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=X7jHqd5xp9I",
-        "https://www.youtube.com/watch?v=POD2xZpoZF4",
-        "https://www.youtube.com/watch?v=0tSaHo9_u7E",
-        "https://www.youtube.com/watch?v=kJgYSiIZMb8",
-        "https://www.youtube.com/watch?v=1yLAbK5F3E8",
-        "https://www.youtube.com/watch?v=OWr3IU82bJ8"
-      ],
-      "firstSeen": "2026-09-23T10:02:36.801Z",
-      "lastSeenAt": "2026-11-06T17:37:59Z",
-      "lastAttemptAt": "2026-11-07T08:48:35.177Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "attempts": 4,
-      "nextAttemptAt": "2026-11-14T08:48:35.177Z"
     },
     {
       "name": "Codex",
@@ -40320,19 +40332,6 @@
       "lastAttemptAt": "2026-10-24T17:28:03.773Z",
       "status": "retry",
       "error": "Incomplete independent verification",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-26T17:28:03.773Z"
-    },
-    {
-      "name": "Seedream 5.5",
-      "firstSeen": "2026-10-23T07:52:19.881Z",
-      "lastSeenAt": "2026-10-22T21:56:16Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=qlSI_ZbRdEc"
-      ],
-      "lastAttemptAt": "2026-10-24T17:28:03.773Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
       "attempts": 2,
       "nextAttemptAt": "2026-10-26T17:28:03.773Z"
     },
@@ -43171,7 +43170,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-13T09:30:05.704Z",
+    "calculatedAt": "2026-11-13T09:32:53.744Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -43181,28 +43180,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.5071796912585418,
+      "elevenlabs": 0.5070820245869805,
       "elevenmusic": 0,
-      "heygen": 0.4771244947218288,
-      "kling-3-0": 0.23001693639022108,
+      "heygen": 0.477032615724852,
+      "kling-3-0": 0.22997264244673885,
       "freepik-ai": 0,
-      "adobe-firefly": 0.8613677514243373,
+      "adobe-firefly": 0.8612018794016169,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.957052214825397,
+      "higgsfield": 3.9562902124706563,
       "krea-ai": 0,
-      "spline-ai": 0.7335749919321966,
+      "spline-ai": 0.7334337287289623,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2940726198494112,
+      "meshy-ai": 1.2938234226364362,
       "magnific-ai": 0,
-      "seedance-2-5": 3.5579704396986114,
+      "seedance-2-5": 3.557285287796143,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.6639376424920493,
-      "nano-banana-pro": 0.15836556363054188,
+      "wan-3-0": 0.6638097892266606,
+      "nano-banana-pro": 0.15833506746171594,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -43210,33 +43209,33 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.0461091150796038,
+      "hunyuan3d": 1.0459076677481736,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.1972036864032789,
+      "luma-genie": 0.19716571124772247,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.17377548240831966,
+      "gemini-omni-flash": 0.17374201877943568,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-12T21:30:33.761Z",
-    "newsCheckedAt": "2026-11-12T21:28:11.193Z",
+    "startedAt": "2026-11-13T09:32:53.744Z",
+    "newsCheckedAt": "2026-11-13T09:30:05.704Z",
     "total": 49,
-    "attempted": 0,
+    "attempted": 49,
     "cached": 0,
     "health": {
       "failed": 49
     },
     "candidatesPending": 439,
-    "completedAt": "2026-11-12T21:34:32.223Z",
+    "completedAt": "2026-11-13T09:36:59.814Z",
     "skipped": 0
   }
 }
