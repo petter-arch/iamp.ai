@@ -14,7 +14,7 @@ const URL='https://example.com/docs';
 const p=(id='fixture-1')=>({id,n:'Fixture 1',url:'https://example.com',cats:'image',price:'10 USD per månad',sub:'Bildredigering',long:'Det här är en utförlig beskrivning av bildverktyget. '.repeat(9),deep:'Fördjupning om bildverktygets möjligheter och begränsningar. '.repeat(5),tags:['Bild'],caps:['Redigering'],pros:['Maskredigering'],cons:['Kräver internet'],tier:'paid',free:false,rating:88,tech:90,speed:70,pricev:80,fieldChecks:{}});
 const state=(platforms=[p()])=>({schemaVersion:1,updatedAt:'2026-10-01T00:00:00Z',newsCheckedAt:'2026-10-23T07:00:00Z',platforms,news:[],sources:[],candidates:[]});
 const evidence=(fields=KEYS)=>Object.fromEntries(fields.map(f=>[f,[{url:URL,quote:'Fixture 1 is an AI image editing model.'}]]));
-const completeAsk=async(prompt,{search})=>search?{patch:{},evidence:evidence()}:{approvedFields:KEYS};
+const completeAsk=async(prompt,{search,phase})=>(search||phase==='proposal')?{patch:{},evidence:evidence()}:{approvedFields:KEYS};
 const options={now:NOW,clock:()=>MS,readSource:async()=>TEXT};
 
 test('all 49 existing profiles are attempted, failures isolated, at most three concurrent',async()=>{
@@ -40,9 +40,9 @@ test('unchanged verified sources reuse the audit; edited facts, changed sources 
  let calls=0;const ask=async(...a)=>{calls++;return completeAsk(...a);};
  const nextDay={...options,now:new Date(MS+DAY).toISOString(),clock:()=>MS+DAY,ask};
  const cached=await refreshState(first.state,nextDay);assert.equal(cached.report.cached,1);assert.equal(calls,0);
- await refreshState(first.state,{...nextDay,readSource:async()=>TEXT+' New pricing.'});assert.equal(calls,2);
- calls=0;const edited=structuredClone(first.state);edited.platforms[0].sub='Manuellt ändrad';await refreshState(edited,nextDay);assert.equal(calls,2);
- calls=0;await refreshState(first.state,{...nextDay,now:new Date(MS+8*DAY).toISOString(),clock:()=>MS+8*DAY});assert.equal(calls,2);
+ await refreshState(first.state,{...nextDay,readSource:async()=>TEXT+' New pricing.'});assert.equal(calls,3);
+ calls=0;const edited=structuredClone(first.state);edited.platforms[0].sub='Manuellt ändrad';await refreshState(edited,nextDay);assert.equal(calls,3);
+ calls=0;await refreshState(first.state,{...nextDay,now:new Date(MS+8*DAY).toISOString(),clock:()=>MS+8*DAY});assert.equal(calls,3);
 });
 test('failed source recheck keeps prior verified time and all previous facts',async()=>{
  const first=await refreshState(state(),{...options,ask:completeAsk});
@@ -50,16 +50,16 @@ test('failed source recheck keeps prior verified time and all previous facts',as
  assert.equal(out.platforms[0].verification.checkedAt,NOW);assert.equal(out.platforms[0].verification.status,'failed');assert.deepEqual(out.platforms[0].pros,first.state.platforms[0].pros);
 });
 test('source requests coalesce across concurrent profiles',async()=>{
- let reads=0;await refreshState(state([p('one'),p('two'),p('three')]),{...options,ask:completeAsk,readSource:async()=>{reads++;return TEXT;}});assert.equal(reads,1);
+ let reads=0;await refreshState(state([p('one'),p('two'),p('three')]),{...options,ask:completeAsk,readSource:async()=>{reads++;return TEXT;}});assert.equal(reads,2);
 });
 test('partial audits cannot change identity, ratings or an incompletely verified price',async()=>{
- const ask=async(_,{search})=>search?{patch:{sub:'Verifierad ny korttext',price:'0 USD',n:'Other version',rating:100},evidence:evidence(['n','sub','price'])}:{approvedFields:['n','sub','price']};
+ const ask=async(_,{search,phase})=>(search||phase==='proposal')?{patch:{sub:'Verifierad ny korttext',price:'0 USD',n:'Other version',rating:100},evidence:evidence(['n','sub','price'])}:{approvedFields:['n','sub','price']};
  const {state:out}=await refreshState(state(),{...options,ask});const x=out.platforms[0];
  assert.equal(x.n,'Fixture 1');assert.equal(x.rating,88);assert.equal(x.price,p().price);assert.equal(x.sub,'Verifierad ny korttext');assert.equal(x.verification.status,'partial');assert.equal(x.verification.checkedAt,null);assert.equal(x.fieldChecks.price,undefined);
 });
 test('wrong-version evidence and absent source quotations cannot mutate facts',async()=>{
  for(const identity of [false,true]){
- const ask=async(_,{search})=>search?{patch:{sub:'Fel version'},evidence:evidence(['n','sub'])}:{approvedFields:['sub']};
+ const ask=async(_,{search,phase})=>(search||phase==='proposal')?{patch:{sub:'Fel version'},evidence:evidence(['n','sub'])}:{approvedFields:['sub']};
  const {state:out}=await refreshState(state(),{...options,ask,readSource:async()=>identity?'Unrelated documentation':TEXT});assert.equal(out.platforms[0].sub,p().sub);assert.equal(out.platforms[0].verification.status,'failed');
  }
 });
@@ -74,7 +74,7 @@ test('candidate failures back off; new evidence re-enables a retry; limit is enf
 });
 test('fully verified new profile gets no inherited/generated scores and resolves matching mentions',async()=>{
  const s=state([]);s.news=[{id:'clip',date:NOW,url:'https://www.youtube.com/watch?v=clip',newPlatforms:['Fixture 1'],chans:['Test']}];
- const ask=async(_,{search})=>search?{verified:true,profile:{...p(),rating:100,aliases:['Other model'],verification:{status:'verified'}},evidence:evidence()}:{approvedFields:KEYS};
+ const ask=async(_,{search,phase})=>(search||phase==='proposal')?{verified:true,profile:{...p(),rating:100,aliases:['Other model'],verification:{status:'verified'}},evidence:evidence()}:{approvedFields:KEYS};
  const {state:out,report}=await refreshState(s,{...options,ask});assert.equal(report.newModels,1);assert.equal(out.platforms[0].rating,null);assert.equal(out.platforms[0].aliases,undefined);assert.equal(out.platforms[0].verification.status,'verified');assert.deepEqual(out.news[0].platformIds,['fixture-1']);assert.equal(out.trends.scores['fixture-1'],1);
 });
 test('a due-only run does not re-query today\'s profiles; budget exhaustion is explicit',async()=>{
@@ -98,3 +98,4 @@ test('publication preserves original page and adds one cache-busted health scrip
  const dir=await mkdtemp(join(tmpdir(),'iamp-publish-'));
  try{for(const file of ['index.html','site-data.json','news.json','CNAME','profile-health.js','publish-data.mjs'])await copyFile(file,join(dir,file));await run(process.execPath,['publish-data.mjs'],{cwd:dir});const html=await readFile(join(dir,'_site/index.html'),'utf8'),original=await readFile('index.html','utf8');assert.equal(html.replace(/<script src="profile-health\.js\?v=[a-f0-9]+"><\/script>\n/,''),original);assert.equal((html.match(/src="profile-health/g)||[]).length,1);assert.equal(await readFile(join(dir,'_site/profile-health.js'),'utf8'),await readFile('profile-health.js','utf8'));}finally{await rm(dir,{recursive:true,force:true});}
 });
+

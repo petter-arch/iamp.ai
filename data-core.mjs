@@ -97,7 +97,7 @@ export function mergeProfile(p, patch, evidence, now) {
     const proof = evidence[f];
     if (!proof?.length || proof.some(e => !e.url || !e.quote || !e.fetched)) throw Error('Missing retrieved evidence for '+f);
     const v = patch[f];
-    if (['tags','caps','pros','cons'].includes(f) ? !Array.isArray(v) || !v.length || v.some(x => typeof x !== 'string' || !x.trim() || /[<>]/.test(x)) : f === 'free' ? ![false,'tier',true].includes(v) : typeof v !== 'string' || !v.trim() || /[<>]/.test(v)) throw Error('Invalid profile field '+f);
+    if (['tags','caps','pros','cons'].includes(f) ? !Array.isArray(v) || !v.length || v.some(x => typeof x !== 'string' || !x.trim() || /[<>]/.test(x)) : f === 'free' ? ![null,false,'tier','open',true].includes(v) : typeof v !== 'string' || !v.trim() || /[<>]/.test(v)) throw Error('Invalid profile field '+f);
     if (f === 'tier' && !['free','lim','paid'].includes(v)) throw Error('Invalid tier');
     next[f] = v;
     checked[f] = {checkedAt:now, sources:proof.map(({url,quote}) => ({url,quote}))};
@@ -149,3 +149,4 @@ export function parseModelJSON(blocks) {
  }
  throw Error('No valid structured model response');
 }
+
