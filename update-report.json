@@ -1,40 +1,40 @@
 {
-  "startedAt": "2026-11-12T21:28:11.193Z",
+  "startedAt": "2026-11-13T09:30:05.704Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-12T21:28:11.193Z",
+      "checkedAt": "2026-11-13T09:30:05.704Z",
       "found": 8
     }
   },
   "selection": {
-    "fetched": 148,
-    "relevant": 52,
+    "fetched": 146,
+    "relevant": 53,
     "supported": 39
   },
   "rejected": [
@@ -44,7 +44,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -53,7 +54,8 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -63,7 +65,7 @@
       "evidenceIds": [
         5,
         7,
-        10
+        8
       ]
     },
     {
@@ -72,18 +74,26 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         4,
-        18,
-        26
+        16,
+        18
       ]
     },
     {
-      "video": "twSNKgmk_Mw",
-      "title": "Selections Masterclass: Photoshop for Beginners | Lesson 7",
+      "video": "vug73goPJaM",
+      "title": "Is Software Over?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        3,
+        6,
+        12
+      ]
+    },
+    {
+      "video": "XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
         4,
-        18
+        12
       ]
     },
     {
@@ -93,7 +103,7 @@
       "evidenceIds": [
         20,
         21,
-        22
+        23
       ]
     },
     {
@@ -115,21 +125,21 @@
       ]
     },
     {
+      "video": "MusrI95gdhY",
+      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
       "video": "beDFnxT7dps",
       "title": "Agentic Mode ile Saniyeler İçinde 3D Model Üretimi | Hyper3D Rodin #reklam",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
         4,
         5
-      ]
-    },
-    {
-      "video": "NXs1O7kLFOY",
-      "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
       ]
     },
     {
@@ -154,8 +164,7 @@
       "title": "NVIDIA's new models for robots and self-driving cars #shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        4
+        1
       ]
     },
     {
@@ -164,47 +173,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "2V0GoU9e3fo",
-      "title": "One scene, 86 animation styles, all made by Claude",
+      "video": "iZm0eJm-YNQ",
+      "title": "ChatGPT Can Make GIFs Now!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "B3KSjklvg-I",
-      "title": "Claude Fable 5.2 Is Scary Good",
+      "video": "6w9PtRnSP50",
+      "title": "Claude designs look generic until you do this.",
       "stage": "insufficient-article-source"
     },
     {
       "video": "tgdG27lr26s",
       "title": "ChatGPT can make GIFs now (and people went feral)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "vug73goPJaM",
-      "title": "Is Software Over?",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "gdBoYZyaouk",
-      "title": "AI ART Helloween LIVE STREAM - Interactive!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "19ngvIWpK_U",
-      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
-    },
-    {
-      "video": "9luC7MNxqUY",
-      "title": "Elevate your AI creations with the brand-new Seedream 5.5 on CapCut 🤎#CapCutWeb #capcutwebedit",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Xtb3Pua0e8s",
-      "title": "The New Ring Camera Flies Around Your House",
       "stage": "insufficient-article-source"
     },
     {
@@ -216,46 +196,49 @@
       ]
     },
     {
-      "video": "sBeBn3Mh2AU",
-      "title": "Chath Puja Image Prompt | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
+      "video": "9RIK3A24ZxA",
+      "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        4,
+        11,
+        18
+      ]
     },
     {
-      "video": "D3_uk3QW6x0",
-      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xFTK5SFVzG0",
-      "title": "AI Is Changing Filmmaking Forever 🤯🎬",
+      "video": "Xtb3Pua0e8s",
+      "title": "The New Ring Camera Flies Around Your House",
       "stage": "insufficient-article-source"
     },
     {
       "video": "h9zK34lIK8Y",
       "title": "Minecraft 3D Model Generator: AI Alchemist Table in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "e7zozl_D7iY",
-      "title": "New Chatgpt Ai photo Prompt For 2026 #chatgpt #aiphotoediting #photoediting",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "isqwXApzV5E",
-      "title": "When you give a humanoid roller skates",
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "MusrI95gdhY",
-      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        2
-      ]
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "19ngvIWpK_U",
+      "title": "AI Can Now Light Your Films in Post! (Full Tutorial)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "q0FWgU54cPk",
+      "title": "New model drop: Seedream 5.5 ✨ #CapCutWeb #capcutwebedit #aiimages",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "UCYIa7N301w",
+      "title": "Chatgpt Se Photo Kaise Banaye | Chatgpt Photo Editing Viral Trending | Instagram Trending Photos",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "CUoWLIIKwOc",
@@ -264,6 +247,31 @@
       "evidenceIds": [
         1
       ]
+    },
+    {
+      "video": "Mt54ez7xsiI",
+      "title": "Fable 5.2 Is Quite Insane!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "sBeBn3Mh2AU",
+      "title": "Chath Puja Image Prompt | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xFTK5SFVzG0",
+      "title": "AI Is Changing Filmmaking Forever 🤯🎬",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "D3_uk3QW6x0",
+      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "ntiJ5BjsdWQ",
+      "title": "99% OFF FOR NEW USERS?! SEEDANCE 2.5 ON IT'S OFFICIAL WEBSITE",
+      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 4
