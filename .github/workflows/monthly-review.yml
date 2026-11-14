@@ -55,7 +55,11 @@ jobs:
           NEW_PROFILE_LIMIT: '0'
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          node profile-refresh.mjs --due
+          if [ "$EVENT_NAME" = "push" ]; then
+            node profile-refresh.mjs --due --force-sources
+          else
+            node profile-refresh.mjs --due
+          fi
       - name: Save verified facts and truthful failure status
         if: steps.gate.outputs.run == 'true'
         run: |

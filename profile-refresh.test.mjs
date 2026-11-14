@@ -98,3 +98,19 @@ test('publication preserves original page and adds one cache-busted health scrip
  const dir=await mkdtemp(join(tmpdir(),'iamp-publish-'));
  try{for(const file of ['index.html','site-data.json','news.json','CNAME','profile-health.js','publish-data.mjs'])await copyFile(file,join(dir,file));await run(process.execPath,['publish-data.mjs'],{cwd:dir});const html=await readFile(join(dir,'_site/index.html'),'utf8'),original=await readFile('index.html','utf8');assert.equal(html.replace(/<script src="profile-health\.js\?v=[a-f0-9]+"><\/script>\n/,''),original);assert.equal((html.match(/src="profile-health/g)||[]).length,1);assert.equal(await readFile(join(dir,'_site/profile-health.js'),'utf8'),await readFile('profile-health.js','utf8'));}finally{await rm(dir,{recursive:true,force:true});}
 });
+test('free monitoring fetches baseline pages without upgrading facts and expires old audits',async()=>{
+ const before=process.env.FREE_SOURCE_ONLY;process.env.FREE_SOURCE_ONLY='1';
+ try{
+  const initial=state();let calls=0;
+  const monitor=await refreshState(initial,{...options,newLimit:0,readSource:async()=>{calls++;return TEXT;},ask:async()=>{throw Error('Paid API must not run');}});
+  assert.equal(calls,1);assert.equal(monitor.state.platforms[0].sourceMonitor.status,'baseline');assert.equal(monitor.state.platforms[0].verification,undefined);
+  assert.equal(monitor.report.monitor.baseline,1);
+  process.env.FREE_SOURCE_ONLY='0';
+  const verified=await refreshState(state(),{...options,ask:completeAsk});
+  process.env.FREE_SOURCE_ONLY='1';
+  const unavailable=await refreshState(verified.state,{...options,newLimit:0,readSource:async()=>{throw Error('HTTP 403');}});
+  assert.equal(unavailable.state.platforms[0].verification.status,'failed');assert.equal(unavailable.state.platforms[0].verification.checkedAt,NOW);
+  const expired=await refreshState(verified.state,{...options,now:new Date(MS+8*DAY).toISOString(),clock:()=>MS+8*DAY,newLimit:0});
+  assert.equal(expired.report.cached,0);assert.equal(expired.state.platforms[0].verification.checkedAt,NOW);assert.equal(health(expired.state.platforms[0],new Date(MS+8*DAY).toISOString()),'stale');
+ }finally{if(before===undefined)delete process.env.FREE_SOURCE_ONLY;else process.env.FREE_SOURCE_ONLY=before;}
+});

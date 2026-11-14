@@ -4,15 +4,14 @@ Originalets utseende, utförliga nyhetskort, videokapitel, Snabbfakta, Funktione
 
 ## Automatik och aktualitet
 
-- Nyheter och kanalfakta har två dagliga uppdateringsfönster, med ett billigt reservförsök per fönster. Det befintliga nyhetsflödet i `update.mjs` är oförändrat.
-- **Hela den befintliga modellistan** kontrolleras dagligen, inte längre fyra modeller åt gången. Modelljobbet har också ett reservförsök och reagerar när nyhetsjobbet avslutas. Identiska underlag och redan gjorda kontroller hoppas över. GitHub kan fördröja schemalagda jobb; detta är inte en realtidsgaranti.
-- `profile-refresh.mjs` är modelljobbets nya körväg. `update.mjs --profiles` finns kvar som äldre manuell kod men används inte av automatiken.
-- Varje profil skiljer mellan kontrollförsök och lyckad verifiering. Ofullständiga, misslyckade och för gamla kontroller visas öppet på korten. En tom ändringslista eller en ny nyhetsstämpel betyder **inte** att modellfakta är verifierade. Ett öppet webbläsarfönster räknar också uppgifternas ålder utan nya serveranrop.
-- Alla stödda faktadelar, även oförändrade, behöver officiella belägg och en separat granskning av hela påståendet. Modellidentitet måste styrkas innan fakta ändras. Pris, prisnivå och gratisstatus uppdateras tillsammans. Tidigare fakta och redaktionella betyg behålls vid fel; fel gör inte gammal information aktuell.
-- En tidigare fullständig verifiering kan återanvändas när de direkt hämtade officiella källtexterna har samma kontrollsummor och profilens fakta inte har ändrats. Ny webbsökning tvingas minst varje vecka. Samma källsida hämtas bara en gång per körning. Högst tre profiler behandlas samtidigt.
-- Nya kandidater prioriteras efter färska omnämnanden, inte köplats från flera veckor tillbaka. Högst åtta undersöks per körning. Misslyckanden får 1–7 dagars återförsökspaus; nytt källmaterial öppnar för ett tidigare försök. En kandidat är inte en verifierad profil och publiceras aldrig bara för att tömma kön.
-- Nya profiler behöver fullständiga officiella belägg, detaljerade texter och separat faktagranskning. De får **—** i betyg tills jämförbart kvalitetsunderlag finns, aldrig påhittade eller ärvda poäng.
-- Trendar räknas om efter varje innehållskörning: unika färska videoomnämnanden under 30 dagar, halverad vikt efter sju dagar, högst tre videor per kanal/modell. Detta mäter uppmärksamheten i bevakningen, inte hela marknaden.
+- Trendar bevakar officiella källor dagligen utan OpenAI-anrop. Samma URL hämtas en gång per körning. Saknas tidigare källor hämtas produktens officiella startsida som en bevakningsbaslinje. En åtkomlig eller oförändrad sida gör aldrig tidigare overifierade fakta verifierade.
+- `model-report.json` skiljer källbevakning (`monitor`) från faktaverifiering (`health`). `attempted` räknar behandlade profiler, inte lyckade faktagranskningar. Fel och ändrade källor behåller tidigare fakta och synlig varning.
+- En fullständig tidigare faktagranskning kan återanvändas endast när dess källor och profilfakta är identiska och granskningen är högst sju dagar gammal. Gratisbevakningen kan inte ersätta en ny fullständig granskning efter detta.
+- Nyheter har två dagliga fönster med ett reservförsök. Ett lyckat resultat de senaste åtta timmarna hoppar över reservkörningen. Kodändringar och manuella körningar går förbi tidsgrinden. Innehållsjobben delar skrivlås.
+- Nyhetsjobbet hämtar kanalernas offentliga RSS-flöden med YouTube-API som reserv. Kanalmetadata återanvänds i sju dagar; ämnessökning och videodetaljer använder fortsatt YouTubes API-kvot.
+- Klassificeringar och godkända eller avböjda artikelutkast cachas i `news-cache.json`, bundet till källtext, vald modell och policyversion. Artikelcache tar också hänsyn till modellregistret. Cachen sparas efter lyckade svar och återanvänds högst 14 dagar, även efter ett senare fel. Ändrade underlag bedöms på nytt. Ingen cache publiceras till besökarna.
+- Vid API-fel behålls senaste publicerade nyheter och deras lyckade kontrolltid. Felrapport och källmetadata sparas, körningen förblir röd och webbplatsen kan visa misslyckad uppdatering. Vid 429/401/403 stoppas fler nya AI-uppgifter i samma körning efter transportens befintliga återförsök.
+- Nya modeller publiceras bara efter fullständig officiell faktakontroll, utan påhittade betyg. Automatisk ny modellgranskning är avstängd i gratisbevakningen. Trendar mäter viktade videoomnämnanden under 30 dagar, inte oberoende kvalitet.
 
 ## Nyheter och kanaler
 
@@ -42,7 +41,7 @@ Kör `node --test *.test.mjs *.test.cjs`. De nya testerna omfattar hela listan, 
 
 Behåll befintliga repository secrets `YOUTUBE_API_KEY` och `OPENAI_API_KEY`. Inga nycklar ska ligga i filer eller loggar. `OPENAI_NEWS_MODEL` och `OPENAI_PROFILE_MODEL` väljer modeller; standard är `gpt-5.6-luna` respektive `gpt-5.6-terra`. Nyckeln behöver rätt modellåtkomst och API-saldo. Detta använder befintlig integration, inte en ny nyckel eller en ny server.
 
-Helkontrollen kan kosta mer än det gamla fyramodellsjobbet, särskilt första gången och när underlag inte går att verifiera. Källåteranvändning, högst åtta nya profiler per körning och en återförsökspaus begränsar onödiga anrop. Nyhetsgränserna är oförändrade: normalt högst 36 fördjupade sammanfattningar och 20 nya publicerade artiklar per nyhetskörning.
+Den schemalagda Trendar-bevakningen gör inga OpenAI-anrop. En separat betald faktagranskning kräver uttrycklig körning utan `FREE_SOURCE_ONLY=1`. Nyhetsskrivningen använder fortfarande OpenAI; cache minskar upprepade anrop men kostnadsbesparingen i produktion är ännu inte uppmätt. Nyhetsgränserna är oförändrade: normalt högst 36 fördjupade sammanfattningar och 20 nya publicerade artiklar per nyhetskörning.
 
 Arbetsflödena kan startas manuellt på en arbetsgren och sparar förhandsversioner. Publicering sker bara från `main`, med befintlig GitHub Pages-miljö och domänen iamp.ai. Innehållsjobben delar skrivlås. Vanliga kodändringar i modelljobbet startar också en kontroll från `main`.
 
