@@ -1,4 +1,5 @@
 name: Update Trendar models
+# Push to this workflow triggers a free source-monitoring run.
 on:
   schedule:
     - cron: '20 5 * * *'
