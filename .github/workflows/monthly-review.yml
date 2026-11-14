@@ -56,7 +56,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ "$EVENT_NAME" = "push" ]; then
-            node profile-refresh.mjs --due --force-sources
+            node profile-refresh.mjs --due --retry-failed-sources
           else
             node profile-refresh.mjs --due
           fi

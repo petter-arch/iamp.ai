@@ -6,7 +6,7 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
-import {refreshState,FIELDS,DAY,candidatesFor,candidateDue,health,quoteInSource,officialURL,publicAddress} from './profile-refresh.mjs';
+import {refreshState,FIELDS,DAY,candidatesFor,candidateDue,health,quoteInSource,officialURL,officialHosts,publicAddress} from './profile-refresh.mjs';
 const require=createRequire(import.meta.url),ui=require('./profile-health.js'),run=promisify(execFile);
 const NOW='2026-10-23T08:00:00.000Z',MS=Date.parse(NOW),KEYS=['n','cats',...FIELDS];
 const TEXT='Fixture 1 is an AI image editing model. This official documentation describes its supported features and current pricing.';
@@ -101,10 +101,13 @@ test('publication preserves original page and adds one cache-busted health scrip
 test('free monitoring fetches baseline pages without upgrading facts and expires old audits',async()=>{
  const before=process.env.FREE_SOURCE_ONLY;process.env.FREE_SOURCE_ONLY='1';
  try{
-  const initial=state();let calls=0;
-  const monitor=await refreshState(initial,{...options,newLimit:0,readSource:async()=>{calls++;return TEXT;},ask:async()=>{throw Error('Paid API must not run');}});
-  assert.equal(calls,1);assert.equal(monitor.state.platforms[0].sourceMonitor.status,'baseline');assert.equal(monitor.state.platforms[0].verification,undefined);
+  const initial=state();initial.candidates=[{name:'Unverified candidate',firstSeen:NOW,sourceVideos:[]}];let calls=0;
+  const monitor=await refreshState(initial,{...options,readSource:async()=>{calls++;return TEXT;},ask:async()=>{throw Error('Paid API must not run');}});
+  assert.equal(monitor.report.candidatesAttempted,0);assert.equal(calls,1);assert.equal(monitor.state.platforms[0].sourceMonitor.status,'baseline');assert.equal(monitor.state.platforms[0].verification,undefined);
   assert.equal(monitor.report.monitor.baseline,1);
+  const sameDay=await refreshState(monitor.state,{...options,retryFailedSources:true});assert.equal(sameDay.report.attempted,0);
+  const broken=structuredClone(monitor.state);broken.platforms[0].sourceMonitor.status='fetch-failed';
+  const retried=await refreshState(broken,{...options,retryFailedSources:true});assert.equal(retried.report.attempted,1);
   process.env.FREE_SOURCE_ONLY='0';
   const verified=await refreshState(state(),{...options,ask:completeAsk});
   process.env.FREE_SOURCE_ONLY='1';
@@ -113,4 +116,10 @@ test('free monitoring fetches baseline pages without upgrading facts and expires
   const expired=await refreshState(verified.state,{...options,now:new Date(MS+8*DAY).toISOString(),clock:()=>MS+8*DAY,newLimit:0});
   assert.equal(expired.report.cached,0);assert.equal(expired.state.platforms[0].verification.checkedAt,NOW);assert.equal(health(expired.state.platforms[0],new Date(MS+8*DAY).toISOString()),'stale');
  }finally{if(before===undefined)delete process.env.FREE_SOURCE_ONLY;else process.env.FREE_SOURCE_ONLY=before;}
+});
+
+test('official vendor migrations remain limited to explicitly approved domains',()=>{
+ for(const [url,target] of [['https://runwayml.com','https://runway.com'],['https://reve.art','https://app.reve.com'],['https://magnific.ai','https://www.magnific.com'],['https://ai.google.dev/gemini-api/docs/omni','https://aistudio.google.com/docs/omni']]){
+  const hosts=officialHosts({url});assert(officialURL(target,hosts));assert(!officialURL('https://accounts.google.com',hosts));assert(!officialURL('https://attacker.example',hosts));
+ }
 });
