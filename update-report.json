@@ -1,46 +1,203 @@
 {
-  "startedAt": "2026-11-14T12:00:04.537Z",
+  "startedAt": "2026-11-14T12:14:05.417Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-14T12:00:04.537Z",
+      "checkedAt": "2026-11-14T12:14:05.417Z",
       "found": 8
     }
   },
-  "apiCalls": 1,
+  "apiCalls": 44,
   "cacheHits": 0,
   "rssChannels": 35,
   "selection": {
     "fetched": 188,
-    "relevant": 0,
-    "supported": 0
+    "relevant": 56,
+    "supported": 46
   },
-  "rejected": [],
-  "fatal": "OpenAI quota/billing limit: credit_balance_exhausted",
-  "completedAt": "2026-11-14T12:00:14.623Z"
+  "rejected": [
+    {
+      "video": "IehCboBcYsA",
+      "title": "How to automate your photo library",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "video": "S7lpCyZSdJQ",
+      "title": "Claude Fable 5.2 is a freak",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "video": "IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4,
+        16,
+        18
+      ]
+    },
+    {
+      "video": "ZKsL8I7Kyqc",
+      "title": "MiniMax H3 Image Edit in ComfyUI on Low VRAM - Edit Any Photo Locally (Free Workflow)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        24
+      ]
+    },
+    {
+      "video": "IFzbbZhVDOg",
+      "title": "Новая бесплатная и безлимитная ИИ для генерации изображений и редактирования фото | MiniMax H3 Image",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "video": "NXs1O7kLFOY",
+      "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "7d-XuTRVpFs",
+      "title": "Anthropic Fable: robot simulation score more than doubles",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "video": "xaK0cwV0WLM",
+      "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        8,
+        20
+      ]
+    },
+    {
+      "video": "aFxSPsCkuBI",
+      "title": "NVIDIA's new models for robots and self-driving cars #shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "s0OX5bRccjI",
+      "title": "Alibaba’s Qwen 4 \"QoDuck\" Just Went LIVE for Free! (Beats Opus 5.5) + US Bans RSI & F.03 Robot Army!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "video": "9RIK3A24ZxA",
+      "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "tgdG27lr26s",
+      "title": "ChatGPT can make GIFs now (and people went feral)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "iTe0IB5Ugf8",
+      "title": "MASSIVE AI Shake-Up That Changes Everything",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "imO8f3j42Tk",
+      "title": "Minecraft 3D Model Generator: AI Desert Cactus in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "gdBoYZyaouk",
+      "title": "AI ART Helloween LIVE STREAM - Interactive!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "L0fLLr5Oej0",
+      "title": "How I Use Claude in My Video Edits",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Xtb3Pua0e8s",
+      "title": "The New Ring Camera Flies Around Your House",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "q0FWgU54cPk",
+      "title": "New model drop: Seedream 5.5 ✨ #CapCutWeb #capcutwebedit #aiimages",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "D3_uk3QW6x0",
+      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "xFTK5SFVzG0",
+      "title": "AI Is Changing Filmmaking Forever 🤯🎬",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5PhoI_2cPS8",
+      "title": "Minecraft 3D Model Generator: AI Ancient Oak Tree in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    }
+  ],
+  "accepted": 11,
+  "completedAt": "2026-11-14T12:17:07.463Z"
 }
