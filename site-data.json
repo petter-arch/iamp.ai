@@ -32642,11 +32642,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
@@ -32665,8 +32665,18 @@
         "factHash": "7031e4c4d760f55cb1555409223bd67f63c0d8ce634e30f4ad3d7e78e1ffa0f7"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://chatgpt.com/pricing/?LanguageId=1",
+            "hash": "d9ab26e56b0b8bff3398e53558dc7519e6a87ddd265d31a6eef4286de34450aa"
+          },
+          {
+            "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
+            "hash": "67551057ddea2ea131c0602cdcbcc196ba57c9092b16a3e0788d4be3120b3f6e"
+          }
+        ]
       }
     },
     {
@@ -32768,11 +32778,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -32803,8 +32813,30 @@
         "factHash": "7d5fc8102793997f442930de1843b825779bca52541a39e338cabdbb159c13cb"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+            "hash": "24f9861e30fb35c577c79ed3c75a77b23dd6a98a34220d6bab428dcb9352aad7"
+          },
+          {
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
+            "hash": "cd26e4bd869d0004d68c07eafa848988714a0efb23ca17b904f7205dff821923"
+          },
+          {
+            "url": "https://microsoft.ai/models/mai-image-2.6/",
+            "hash": "8a295dc71970506420dbdcddebf41031b0c78de9f7fa2a46420e9bc5886b96a0"
+          },
+          {
+            "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+            "hash": "35f379b3c6bedb5da475d386bd1c74b905d6714fd195579cd309b42d27f1f3c7"
+          },
+          {
+            "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
+            "hash": "3301e39e85dc528eb601c56a1721ae1b0d154c02905e23d2fdaa57e90331c6ae"
+          }
+        ]
       }
     },
     {
@@ -32854,11 +32886,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
@@ -32868,8 +32900,8 @@
         "factHash": "18b122e312fdc590bc3d0e0c1c2746d9458a24a9510d7e42745e9545d2420ad1"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -32939,11 +32971,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -32953,8 +32985,8 @@
         "factHash": "42a1ddd5b22328a6288eeb056cc6a32a1f8ad4096eb1380aada83a577610e21b"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -33003,7 +33035,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -33022,8 +33054,14 @@
         "factHash": "a2407a8fc0b591bd708bf4be202e1b7c1dd5566d96d3c204b6ee7188511945e6"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://deepmind.google/models/veo/",
+            "hash": "c6f1c36247579d3c0f369ce30d6473438feaf20efb620d1e73aab928ee87d8f4"
+          }
+        ]
       }
     },
     {
@@ -33187,7 +33225,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -33222,8 +33260,30 @@
         "factHash": "c4824e5b91e4f06e0dbd22c0306a695ba126a6abd7cf2199cae0ec58c91c0ffa"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
+            "hash": "51fa5c9ea29bb12b760369c5b5a89ab812cccb48a5a660a76f7e6c6624db5cae"
+          },
+          {
+            "url": "https://help.bfl.ai/articles/7655484417-what-flux-models-are-available",
+            "hash": "cf0ba3efba83e6e04a17952caada15ec5d5c4f8be811bf6fceee193ae28f913b"
+          },
+          {
+            "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
+            "hash": "059a1c3bec7e17c47763dac981e29bb31cfb85e3f0e47d04bfad6a3a88a4ba1f"
+          },
+          {
+            "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
+            "hash": "ec44d6dd4993075a7b5aa39f7de525e8ac5b931ee17de6c5fce7634620aef442"
+          },
+          {
+            "url": "https://bfl.ai/models/flux-2",
+            "hash": "4c04b748b0dd1361fd4637b737545e6fcd6a9f99b7a24f1d460fbe94f047e269"
+          }
+        ]
       }
     },
     {
@@ -33368,11 +33428,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33415,8 +33475,42 @@
         "factHash": "b054a1b42d00b388930b8726ae571ab93a5d19012aeed81dc1fed7c1e3c236cd"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://elevenlabs.io/",
+            "hash": "e3953b4e04fed0c1b016fe03a072b6843697b7c92dea52425ff2146e80e13591"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech",
+            "hash": "a5e74515ceee148ba4f4d3da5a2d5c76f5841ed5591d53d1c1251161dffbedd3"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
+            "hash": "4fc56b8ca8b2757ac139380857856c354c0a43aa0784d97e2880b840ec338d7a"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
+            "hash": "2aa3ec9b6022d53b99fc17ec87464ee90d46257cf3eb041ad3aa3ae2f6433c11"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
+            "hash": "6b5973070fa6177cedef907beb78898e5acf7aa4c43056eee330ece427754058"
+          },
+          {
+            "url": "https://elevenlabs.io/pricing",
+            "hash": "aa73362243b4a413d0df8ece3dcce5c41320c804960ffcc22a1dfd525610d4a8"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning/professional-voice-cloning",
+            "hash": "aad034aa8745dd02ae614c8004b90a1bb88d85f4df2386d5879278454371a0c4"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
+            "hash": "57008255d284178adb347345faa60d697877032f5abd198c0209bb9c2bafa432"
+          }
+        ]
       }
     },
     {
@@ -33501,11 +33595,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33532,8 +33626,26 @@
         "factHash": "185b88c82c64519642b315c7ddece325363b64d2de3f7b76f675a1b0b8fd7785"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
+            "hash": "4e1b4834dc04bc33dfc6872679726b54f4449e97b54f492028638c1f309e1984"
+          },
+          {
+            "url": "https://elevenlabs.io/blog/soundcloud",
+            "hash": "bf007ae43d265ff715498c06c692a7a1ca17846b4dffaf73172e41a36888fad3"
+          },
+          {
+            "url": "https://elevenlabs.io/blog/music-v2-5-model",
+            "hash": "87b4a412807c26334ebc918e1d6847137733d561a838221f06aa5e6baee4e231"
+          },
+          {
+            "url": "https://elevenlabs.io/docs/eleven-creative/products/music",
+            "hash": "dbff714c4ce1e0a279da05973cbf562d0b456568828dc59abb98682c8c0f70c6"
+          }
+        ]
       }
     },
     {
@@ -33647,11 +33759,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33682,8 +33794,30 @@
         "factHash": "3ef07143e28b3abaa0bc6d31463f42530ff6163540deb31027794ce0accbaa74"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.heygen.com/pricing",
+            "hash": "7ed1597919393d0ceef6e0cb422029b9e45ad2dab1ddd64398c22956447fdd19"
+          },
+          {
+            "url": "https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained",
+            "hash": "7a96dc069734450c52c729b7fac568e94f28b59084cd083285df0a418200564a"
+          },
+          {
+            "url": "https://www.heygen.com/avatars",
+            "hash": "8501ef6cac9ab9d52746816ca95baa93bcc30acb7055f29027dded8e39b2f26e"
+          },
+          {
+            "url": "https://help.heygen.com/en/articles/14602974-avatar-v-is-now-available-on-heygen",
+            "hash": "6dc51ed0997e0c515102d38fbf6ac011a739122023bc1083abd027923425ffcd"
+          },
+          {
+            "url": "https://help.heygen.com/en/articles/16007192-video-agent-faq",
+            "hash": "8d8033391ae6cf8015b312e2fd02bd6aa0dbe7ecd2bf846babc1d24196205505"
+          }
+        ]
       }
     },
     {
@@ -33776,7 +33910,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -33795,8 +33929,14 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://app.klingai.com/llms.txt",
+            "hash": "96535f98221a0c84748ac3a92280b216dfbe93acb833e18ba0784f6cb6e993fa"
+          }
+        ]
       }
     },
     {
@@ -33844,11 +33984,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33858,8 +33998,8 @@
         "factHash": "a57ac21a197ed761a4e82dbfd71c67fc62221dda7e0f5ea57711d2aed3a14566"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -33937,7 +34077,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -33956,8 +34096,14 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://firefly.adobe.com/?locale=sv",
+            "hash": "05293663d99ffebee8233b95e025a9572c116d90af664ddeaf71c6ab578824a8"
+          }
+        ]
       }
     },
     {
@@ -34020,11 +34166,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34034,8 +34180,8 @@
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -34147,7 +34293,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -34178,8 +34324,26 @@
         "factHash": "41118d45920aa48e4440e22da3209695affd2969087e941f1ddb70d8698a34cb"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://lumalabs.ai/llm-info",
+            "hash": "0559e341d85676dbbc081f99d58a1e55a3943afb8321e20b3131289910c40add"
+          },
+          {
+            "url": "https://lumalabs.ai/ray",
+            "hash": "cdd44236084363353342fc8d510d5e8dfc6f59587b4c332684fd5dd47bc5bbd3"
+          },
+          {
+            "url": "https://lumalabs.ai/pricing",
+            "hash": "a79928fc92e0658b7267922e1a9e26fee2e36f4dc509742ec7cd828cd63a5f0c"
+          },
+          {
+            "url": "https://lumalabs.ai/ray3",
+            "hash": "71f440f5d40f5a121ccb96e879dedf918bbbb2ecc6be4be5038179b953d5fbd2"
+          }
+        ]
       }
     },
     {
@@ -34243,10 +34407,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34266,8 +34430,18 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://suno.com/release-notes/introducing-v5-5-voices-custom-models-and-my-taste",
+            "hash": "ec783370dac3b56457bd4bfcad606cb161ef752205b5e1993d7281cb379eca1d"
+          },
+          {
+            "url": "https://suno.com/pricing",
+            "hash": "eb3b964d0de912703786279da361599f19160ec554723dbf169329a6b7f56419"
+          }
+        ]
       }
     },
     {
@@ -34390,11 +34564,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34425,8 +34599,30 @@
         "factHash": "82add3d310c78c2bc256286c3dd70f2f239701c66a0cd24d93705f4c6f4a763e"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://stability.ai/stable-image",
+            "hash": "367923d71750d7e30e5a502a7a1778b09cce734577b2c2e8ba578cf869701c03"
+          },
+          {
+            "url": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+            "hash": "bbae6d4f92a243edb3de0f7c94ee7db2a1de88fb7c271eda4abdd0a67e826df0"
+          },
+          {
+            "url": "https://stability.ai/license",
+            "hash": "78fd7b6390e1383aa563d26bef3b087c799bdeea6995cc2443f573fb91bc460e"
+          },
+          {
+            "url": "https://docs.stability.ai/pricing",
+            "hash": "df5e059f14bfbadf425cf8797724c45612b2b6cfd528047b21e5d9f8405b2b4a"
+          },
+          {
+            "url": "https://stability.ai/news-updates/sd3-5-large-controlnets",
+            "hash": "0230cf6159094f10b67e548407143eea24b3424283db80693a268d060ee0805c"
+          }
+        ]
       }
     },
     {
@@ -34473,10 +34669,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34504,8 +34700,26 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://higgsfield.ai/creator-hub/help-center/tools/which-higgsfield-tool-should-i-use",
+            "hash": "d81bfed6ba90a4d216c64a392dc0142d55259edcf808d07f0ff230fb73e0a6d3"
+          },
+          {
+            "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
+            "hash": "bcf513539c00eb41edbb09f794130ec3bec516440150d7ab24ca1407f7e1b7b2"
+          },
+          {
+            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
+            "hash": "b25aefd1bd9dfab05eaf8ed71cacfc79b0d867194843beb970b21a38862c6c3f"
+          },
+          {
+            "url": "https://higgsfield.ai/creator-hub/changelog",
+            "hash": "3e17216062dbc577efaecb551f9d2e08385a6ee80761de480e4dc2d31e111891"
+          }
+        ]
       }
     },
     {
@@ -34553,11 +34767,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34584,8 +34798,26 @@
         "factHash": "ca16daa26e448c95ad13fe2e4b7651fce29d2db0593ac9faf2a6a22287f264c7"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.krea.ai/",
+            "hash": "9dd497dabad17117ce7359238c46c6836df10e71e8ea6d83e3c3c5b212b39eeb"
+          },
+          {
+            "url": "https://www.krea.ai/pricing",
+            "hash": "a38332d6bf36431bfe231e6b8ef4d65bde7cc01cae1009b9a90d406d2d62d792"
+          },
+          {
+            "url": "https://www.krea.ai/features/nodes",
+            "hash": "1d1311f3718752921152afed4093117fb72e4754ad8bc2815b16771a14a00fe7"
+          },
+          {
+            "url": "https://www.krea.ai/blog/introducing-krea-3",
+            "hash": "00b23a3d562361431f1c7cbdea768dd73310c2ac6de4ae340ec224ecc644698b"
+          }
+        ]
       }
     },
     {
@@ -34684,11 +34916,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34719,8 +34951,30 @@
         "factHash": "78c0a79a28925d829d7d0e1c3c68cf8282dd78eadf465bd7b0eb18e471daf9c9"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://docs.spline.design/",
+            "hash": "6b936d21546de2b45da4ae6c0cab83fff91befbb8206250b5f4903dbf21b5c38"
+          },
+          {
+            "url": "https://spline.design/pricing",
+            "hash": "143a4fe47a5fbdb4049b317fb09e6dc18739fb0655319ae775c36f3d831494e8"
+          },
+          {
+            "url": "https://docs.spline.design/generate/ai-3d-generation",
+            "hash": "b4d4267dcca62f67ed66fdc9769e2a5721e44d2c98984f89501502a521e5bdb5"
+          },
+          {
+            "url": "https://spline.design/changelog",
+            "hash": "6efe0ebd250253a6ea2590f5b9436b491ace429ca7d8aaa5ca52595fb9ce60f2"
+          },
+          {
+            "url": "https://docs.spline.design/basics/faq",
+            "hash": "f21ec84526382bb99bc54e9ccea23f9ef36b4a68e399f182aff0dbf589cfbe5b"
+          }
+        ]
       }
     },
     {
@@ -34781,11 +35035,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34808,8 +35062,22 @@
         "factHash": "c71bbb6a0216d3cb898cf9b7ce59f67d005319bf1b55618d1123f394928a54ec"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://creation.pika.art/apps/pika-2-5",
+            "hash": "5272492a71ed91989e792edacd43e97c6120abd7dac36924de9d47cee9cb888c"
+          },
+          {
+            "url": "https://pika.art/pricing?interval=month",
+            "hash": "209db1cca57492906e6682638e1180c3c4a203e3dad8742fc9348f5cb2432156"
+          },
+          {
+            "url": "https://pika.art/learn/pika-2-5-tutorial",
+            "hash": "383622cb210933034be17c568e49176e4bc4d9557094110b49f4f5194275b14f"
+          }
+        ]
       }
     },
     {
@@ -34958,11 +35226,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34985,8 +35253,22 @@
         "factHash": "3a75cb102dcd47b6949268867ce5502fc3a54a34a32c005249ee842225eb531f"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
+            "hash": "09a949f54334dea56ed58a2e84d4689630f9299254dd09bd04fc1ca005a9ba1a"
+          },
+          {
+            "url": "https://www.recraft.ai/pricing?tab=api",
+            "hash": "7dde0199f874ba0afac8521993ff074ad6e6db5b40b7bd3e13a40dc9340c132b"
+          },
+          {
+            "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
+            "hash": "363039fef2d113327fb44e5b71165fc89e0d7f4a1a73f839b1db908c5b3dcb30"
+          }
+        ]
       }
     },
     {
@@ -35134,11 +35416,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35169,8 +35451,30 @@
         "factHash": "c710da98f24dc4f36287460a6c1dec67d978c4f838959a082bad32653a8d9b02"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://help.meshy.ai/en/articles/9991736-what-is-meshy",
+            "hash": "742ab1d70eafde2e1e12b492a7d93935a7e4b6c9da670d0b38377dc876bb8726"
+          },
+          {
+            "url": "https://www.meshy.ai/pricing",
+            "hash": "df2c29ad8a16a137695169d4f7b4697bf11e02971de3e3694a5f5b07f03b3cde"
+          },
+          {
+            "url": "https://www.meshy.ai/features",
+            "hash": "0d972c7297ef9518899cb1ac435d974ba20e628b5daf521dbb64dfcfcb1e08b5"
+          },
+          {
+            "url": "https://docs.meshy.ai/en/webapp/getting-started",
+            "hash": "a48d02abfe09ad8fcd6850e566ca29f248eeb50648045856679c98581025c5c5"
+          },
+          {
+            "url": "https://help.meshy.ai/en/articles/16231707-how-to-create-3d-animation-with-auto-rigging",
+            "hash": "9dda22030de54261c5265949c25cd4eb9ad2af0e42464ff6519d9f4141894bd6"
+          }
+        ]
       }
     },
     {
@@ -35216,10 +35520,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35228,10 +35532,10 @@
         "sources": [],
         "factHash": "15730edf0e32804da667a0bbae5d0737633563d3181a5cdb6b70ed94f70a8b8c"
       },
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastCheckError": "Source outside official domain",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -35395,7 +35699,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35422,8 +35726,22 @@
         "factHash": "6ce43399b927f384c2b472b1ae59397b26098bdcdd8001a81d18773a01210f5e"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://seed.bytedance.com/en/seedance2_5",
+            "hash": "01f823d6e371dc9f5767aaa8c5b8e5d03cc6feb10b5bf9b8f88642854c5a0bc9"
+          },
+          {
+            "url": "https://seed.bytedance.com/en/models",
+            "hash": "d6750be3cd9b6b922176b41c2c2239fdd8dc6d6163c97370eab78a245d6ede67"
+          },
+          {
+            "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+            "hash": "be3464c18331009821ecdc56f67ff2b64b2f4f900e28c021626fffc89d8e6b9d"
+          }
+        ]
       }
     },
     {
@@ -35563,7 +35881,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35586,8 +35904,18 @@
         "factHash": "e04fbdfb797e6928bc63c143174b732909a16a33a92d7acf0b55271824326423"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://ideogram.ai/models/3.0/",
+            "hash": "01d69a551ed5802c5431330cd8b43fb5c228c5e677d2645a0b271b8d58bc9ea1"
+          },
+          {
+            "url": "https://ideogram.ai/pricing/",
+            "hash": "2d010074e77433c86d850f4816f91094f5efb56b7feb2e9b51e092c40e2d4f18"
+          }
+        ]
       }
     },
     {
@@ -35634,7 +35962,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -35653,8 +35981,14 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://wan.video/",
+            "hash": "fdc5656a72f0644691a480451c8d38ea13d201cc981d62dc696ed604d57be129"
+          }
+        ]
       }
     },
     {
@@ -35705,7 +36039,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -35719,8 +36053,14 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://wan.video",
+            "hash": "fdc5656a72f0644691a480451c8d38ea13d201cc981d62dc696ed604d57be129"
+          }
+        ]
       }
     },
     {
@@ -35768,10 +36108,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35791,8 +36131,18 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://gemini.google/subscriptions/",
+            "hash": "4933502d61442c7a5f388b2114ab07acb436864c521410010e7fbc0a3965a0dc"
+          },
+          {
+            "url": "https://gemini.google/overview/image-generation/",
+            "hash": "4d35620ff9eeb0ff40c3a2620db432d11b6fbe03b3257f083b9364b432770da8"
+          }
+        ]
       }
     },
     {
@@ -35878,7 +36228,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35897,8 +36247,14 @@
         "factHash": "401ee911183d0a621f4614daf6df0c2e595165cc6cc5fc90190bbc6b80e9ab73"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://gemini.google/overview/image-generation/",
+            "hash": "4d35620ff9eeb0ff40c3a2620db432d11b6fbe03b3257f083b9364b432770da8"
+          }
+        ]
       }
     },
     {
@@ -35979,7 +36335,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -36006,8 +36362,22 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://seed.bytedance.com/en/seedream4_0",
+            "hash": "15f70aeb2742073e9748816a7434e171cb4b32fa68214ccc08955a90ecb35b90"
+          },
+          {
+            "url": "https://seed.bytedance.com/en/blog/seedream-4-0-officially-released-beyond-drawing-into-imagination",
+            "hash": "ed675b5ec0f7588611bf7ded7b6b5ff2718fb79364a6763cba74789bd8f4aab1"
+          },
+          {
+            "url": "https://seed.bytedance.com/en",
+            "hash": "ae4cdc7f683311d434388b56c886c755a7f627974e2498a33aab38c502cdf896"
+          }
+        ]
       }
     },
     {
@@ -36058,7 +36428,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36081,8 +36451,18 @@
         "factHash": "5c0150dd20cf90c989c0eb0479f957909633f0e48868b5f047461c6df9a10745"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://hailuoai.video/tools/minimax-h3",
+            "hash": "53ba95c967c98a82c9f9cce2c5a0f2925615fcffcd14b048ba0a1b6378dff3c1"
+          },
+          {
+            "url": "https://hailuoai.video/doc/payment-policy.html",
+            "hash": "a93ea1d9607f11305e9f0d681db2f98d0cc2321ab7c7cd42020bf3de2bbc7c5c"
+          }
+        ]
       }
     },
     {
@@ -36151,11 +36531,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36178,8 +36558,22 @@
         "factHash": "c281c01a5b9dc916ce11fdb03556778ba07e80e489f427b1f89aa3c7fd917c78"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.alibabacloud.com/help/en/model-studio/video-generate-edit-model",
+            "hash": "7c294df6c4b506913290c1beec121055e93f0cc428bc70b4368af0f1cc593feb"
+          },
+          {
+            "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+            "hash": "b8f694e5d6223da0b2ebc4321009e079cdfc616b34a23d796a01fae74ded1e9a"
+          },
+          {
+            "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+            "hash": "3c0b46557dca56a348bc5cae08d44ebcb3cb8c63edd00b41b8b102bce64e8aa8"
+          }
+        ]
       }
     },
     {
@@ -36267,11 +36661,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36298,8 +36692,26 @@
         "factHash": "d1a2d8f0ffb3e983ea07f7ffbf91cb4836d2fc6217c8957850944273b8bd12e5"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://x.ai/news/grok-imagine-video-1-5",
+            "hash": "9c8db705e8db7e37868a1aded5f814bc52d169c798b65b654c73da1a9e71d962"
+          },
+          {
+            "url": "https://docs.x.ai/developers/models/grok-imagine-video-1.5-preview",
+            "hash": "961944230e3b4934c46c4c473f2c497936c3dff0c3b9ae673adf8e2045b5dc03"
+          },
+          {
+            "url": "https://docs.x.ai/developers/model-capabilities/video/overview",
+            "hash": "e0d59c72c4080a389d75c875230aecf8b0a885ffc61255753f84ae04bc7cd122"
+          },
+          {
+            "url": "https://docs.x.ai/developers/release-notes",
+            "hash": "5f741c19797a7adb8b3f4b8a18464dcec9426933f3d445ac5e35abb3b4b98359"
+          }
+        ]
       }
     },
     {
@@ -36374,7 +36786,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36405,8 +36817,26 @@
         "factHash": "c0cdb400191d4344ca96105234fde8fd897bbd00452f824f7741cb2bf30c3369"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://hyper3d.ai/features/api",
+            "hash": "52307631ac93c1c1396168fdd56709c7596ce161696868741c835fbebc0ffa28"
+          },
+          {
+            "url": "https://hyper3d.ai/pricing?lang=en",
+            "hash": "da906e313b618818b749e06e415541a23e8d2b599797bd9102877c8ca77cb453"
+          },
+          {
+            "url": "https://docs.hyper3d.ai/en/get-started/features",
+            "hash": "a939e291bbc6382c02d5603d6845547db3db417c420ff483b1c5daa12b54d065"
+          },
+          {
+            "url": "https://docs.hyper3d.ai/en/get-started/changelog",
+            "hash": "89b3455955d1dcb62b902395e0e58a653fa627da0c238138326e35e475779756"
+          }
+        ]
       }
     },
     {
@@ -36486,7 +36916,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36509,8 +36939,18 @@
         "factHash": "0a3e7cf1e23bab2794ad1c1d454f3c98ab77723ddde70b587023b8e8e3e4c3d8"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://docs.tripo3d.ai/get-started/changelog.html",
+            "hash": "ddc23022dd1e617056151382979c29ebd1975dae060e8ac150c46b47b31085bf"
+          },
+          {
+            "url": "https://developers.tripo3d.ai/en/models/v3-1",
+            "hash": "22b0b7ff1799235a8128a9096c4a64103fd0ca2f5924e9799d755d843124c34c"
+          }
+        ]
       }
     },
     {
@@ -36558,7 +36998,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "stale",
         "attemptedAt": "2026-11-14T11:49:55.337Z",
@@ -36585,8 +37025,22 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+            "hash": "4358e92500f4f6c35c81224c501cdd4146527d2ae5b05c9af526643035ccf0a9"
+          },
+          {
+            "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/LICENSE",
+            "hash": "1aa93931111a4eda84ca18c9343a974e6dc5f87382c39f422df003e814e243c0"
+          },
+          {
+            "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/constants.py",
+            "hash": "25d18841d4f4c7dc00685781aefebc3603fe30155496766571a6fa346640106f"
+          }
+        ]
       }
     },
     {
@@ -36632,11 +37086,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36651,7 +37105,7 @@
         "factHash": "efc91b6b587d6f8683568ce686060a4f39b697f51fa32c6d513f0526e38292d0"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "checkedAt": "2026-11-14T11:59:18.072Z",
         "status": "fetch-failed"
       }
     },
@@ -36710,11 +37164,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36757,8 +37211,42 @@
         "factHash": "79dd80ffb148c3a070356d69f823517e5f390c44839cf49c1fa76e01a2f2c954"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://help.udio.com/en/articles/10739134-credits-and-credit-limits",
+            "hash": "6278dac4c02057d9bcb12f08bcd46e07e8b62b29759175a2d5f496555275a022"
+          },
+          {
+            "url": "https://www.udio.com/blog",
+            "hash": "d650d2ce64bfaeeb12feb896ebb2843fb4b99e18527ab4a89385cf4b9d99a1f3"
+          },
+          {
+            "url": "https://help.udio.com/en/articles/10739199-changing-or-canceling-your-subscription",
+            "hash": "349eac56bbf74d430041b69ac2ab773589ed25fd4ed4f247adc2aeabb2851005"
+          },
+          {
+            "url": "https://help.udio.com/en/articles/10715838-create-your-first-song",
+            "hash": "3bd03fa58f8070342172fc0edfe0646ac7d439a708e5ba1a7a4b7197f3471b92"
+          },
+          {
+            "url": "https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics",
+            "hash": "792c4f1a6f164e59f6f2cf5bcad728a4572bf8574c3626259fa13c5f5ca399a1"
+          },
+          {
+            "url": "https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio",
+            "hash": "340a652870450e88b4aa31a86b4c032ffef5ee8372c062ec1e1761e984609aa8"
+          },
+          {
+            "url": "https://help.udio.com/en/articles/11166249-level-up-your-creations-with-guidance-tags",
+            "hash": "47d6c1da9dac6de59dcd1c6942c801375fe2ddd8f6a246347f43e4ba39942564"
+          },
+          {
+            "url": "https://www.udio.com/blog/udio-warner",
+            "hash": "d5401e2c40b9a847841081270397960cc5da3382cd97123a47a527e89b1eadaf"
+          }
+        ]
       }
     },
     {
@@ -36806,11 +37294,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36820,8 +37308,8 @@
         "factHash": "7a06aff4c1127250d7e254bd0caa2737e1aaf4aea549952c9751ee81b5a8326a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -36879,7 +37367,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36898,8 +37386,14 @@
         "factHash": "e37b6800e1959770d2fef5b7f6233d0736da5ee9a612e5a07c82c98dbd80d2ca"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://pixverse.ai/en/ai-info-page",
+            "hash": "957d846739a280298cd4724f1ac88731baf9219585be3710890fe5b178fc977e"
+          }
+        ]
       }
     },
     {
@@ -36996,7 +37490,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -37023,8 +37517,22 @@
         "factHash": "7f1d6e96c35a157b6c38cbe7b2546bb15ab921a929aead2af752ab6066ac3017"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://www.vidu.com/vidu-q3",
+            "hash": "628207db83e6759b304aac682c705f2c8d04eaa9de63f12401ac78bc5d54ba58"
+          },
+          {
+            "url": "https://platform.vidu.com/pricing",
+            "hash": "496b9f52558e08cfbdd8fda558fb140058fcce5056a348740be793218e2fa647"
+          },
+          {
+            "url": "https://www.vidu.com/pricing",
+            "hash": "7d7774537b95cf883ad69d889c45711cb033d8a6a437aaec4c135e3c354f43c9"
+          }
+        ]
       }
     },
     {
@@ -37071,7 +37579,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -37085,8 +37593,14 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://www.lightricks.com",
+            "hash": "789b419fbea89a2aadea3a10cdd9a6d48fc80007f74b988cce061f0776082744"
+          }
+        ]
       }
     },
     {
@@ -37168,7 +37682,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -37191,8 +37705,18 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://lumalabs.ai/series-b",
+            "hash": "9a5fe5e3b10376ffa495fcf406491504a9bfd0e599f171557b8d0ab98a449fc9"
+          },
+          {
+            "url": "https://lumalabs.ai/learning-hub/genie-capture",
+            "hash": "5cee96d3c0b0cd9715d3d028cfdb8c35cf6d5621b8fa66ea2a4f67048fea2d8e"
+          }
+        ]
       }
     },
     {
@@ -37237,11 +37761,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37272,8 +37796,30 @@
         "factHash": "81a3ce3d81f5a6f76358fd3f3ffaf120984fc29bd9a6f2fe1728dc6fa06c87c4"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://static.hitem3d.ai/website/docs/Terms-of-Use.html",
+            "hash": "c86ff844bb2d57da2c182958c9a39bc843019b5f134a65071c8c3bb8578dddf8"
+          },
+          {
+            "url": "https://www.hitem3d.ai/pricing",
+            "hash": "a4baeae0e4ff099f732d0f93fd44974fba791a4049bf922bbcb9859ea1d6be07"
+          },
+          {
+            "url": "https://prenotofficial.hitem3d.ai/learn/tutorials",
+            "hash": "5f29059c0be5801b97d0373b38f4fa93fe996ca6234c8464618e2197bee1dde0"
+          },
+          {
+            "url": "https://prenotofficial.hitem3d.ai/explore",
+            "hash": "430efc3ee974f31ef2976d32f9fdf0e86310144bf29b0db8ca228303a007603a"
+          },
+          {
+            "url": "https://www.hitem3d.ai/hi3d-3-0",
+            "hash": "68e8beacabcba94bb36ffb9dd2fa1eff8537eeb649539b60e8b513cb77b8bf88"
+          }
+        ]
       }
     },
     {
@@ -37320,7 +37866,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -37343,8 +37889,18 @@
         "factHash": "e0336478256282d43cb3d84703dae7eaace36b6be89a7a450228f19e19728cef"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://stableaudio.com/",
+            "hash": "5913a816ded3bfb4d150fbd54bdcb66735e5fda9f5966b061b41115892238335"
+          },
+          {
+            "url": "https://stableaudio.com/guide",
+            "hash": "f26abc52e4b571df2bd0b6d537d057f3edcfd267371bf4f7c289c76aba740da6"
+          }
+        ]
       }
     },
     {
@@ -37437,11 +37993,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37460,8 +38016,18 @@
         "factHash": "4d00c2d71e5de15a8cdf824783f5cca131b6f9617202f7a33a3c8e120d07331f"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.synthesia.io/features/languages",
+            "hash": "fb15b65871967a7cfdb4218acdce4cf624191ca18d553d2d12c815921ba6f437"
+          },
+          {
+            "url": "https://www.synthesia.io/pricing",
+            "hash": "c519be687dfc31a9fb41ac6c07867961dde19134f90754632f04749d61863323"
+          }
+        ]
       }
     },
     {
@@ -37538,11 +38104,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-14T11:49:55.337Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37573,8 +38139,30 @@
         "factHash": "8e6c856e164e5cc8f4c6ae4be272921b6235c4bc7ebcc12f2f9ecf40ae677834"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "changed"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "changed",
+        "sources": [
+          {
+            "url": "https://www.topazlabs.com/topaz-video",
+            "hash": "2af4f9527507013f8ac488ac428b886e404d55dfff5c553b43765153d5ac62b6"
+          },
+          {
+            "url": "https://www.topazlabs.com/tools",
+            "hash": "8377a327f2924595960391eb0b76b13cfd128cba0bedcc27d4f006a9c0fccf05"
+          },
+          {
+            "url": "https://www.topazlabs.com/pricing",
+            "hash": "45dc22a1ceb0837d40df4f8b580235b538b022f263147a56a0d26fe00f63442a"
+          },
+          {
+            "url": "https://docs.topazlabs.com/topaz-video/cloud-rendering",
+            "hash": "3e6bc9b0903bc8a0837b3ae1a29dba5191257148ff5bd1496b834cd1497f85ce"
+          },
+          {
+            "url": "https://docs.topazlabs.com/topaz-photo/release-summary",
+            "hash": "5aa45ad6adf70ac6e06c85b259b89cc62ea9c70f6b3868f9e053d58fc41028ce"
+          }
+        ]
       }
     },
     {
@@ -37622,11 +38210,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "attemptedAt": "2026-11-14T11:59:18.072Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37636,8 +38224,8 @@
         "factHash": "db474c590370eb560bed578f9361f7ffaeed107de11ad235aa3b1ff8994f194a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "no-verified-sources"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -37817,7 +38405,7 @@
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -37852,8 +38440,30 @@
         "factHash": "7013c552ecd2c343c948464d778de7352e7dfbfacda1d71e8c0d16b64f6cc9cf"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:49:55.337Z",
-        "status": "unchanged-unverified"
+        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "status": "unchanged-unverified",
+        "sources": [
+          {
+            "url": "https://lumalabs.ai/app",
+            "hash": "f4c4b502c67b3c3ce403b817f11cafe8e25f6ee916a432fd6cfc97a465c7d1ee"
+          },
+          {
+            "url": "https://docs.agents.lumalabs.ai/guides/model/",
+            "hash": "cfdc48aa0f0b7c275a084ac79176632541857651f526dbf0338cabadb08adec2"
+          },
+          {
+            "url": "https://lumalabs.ai/learning-hub/frequently-asked-questions-about-the-new-luma-agents-app",
+            "hash": "49986cc1f743e38bc31bc5c9a0dbdc6c9fa335c15c98915440473d4fc49e92fe"
+          },
+          {
+            "url": "https://docs.agents.lumalabs.ai/guides/faq/",
+            "hash": "f7cc3680e5eb5dcd4158664238fd9477bce127bded8fec2c24f103842741b9ce"
+          },
+          {
+            "url": "https://lumalabs.ai/pricing",
+            "hash": "a79928fc92e0658b7267922e1a9e26fee2e36f4dc509742ec7cd828cd63a5f0c"
+          }
+        ]
       }
     }
   ],
@@ -43366,7 +43976,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-14T11:49:55.337Z",
+    "calculatedAt": "2026-11-14T11:59:18.072Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -43376,28 +43986,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.40713602089164536,
+      "elevenlabs": 0.4068735282733027,
       "elevenmusic": 0,
-      "heygen": 0.42800773312484275,
-      "kling-3-0": 0.20633823795212405,
+      "heygen": 0.4277317838971305,
+      "kling-3-0": 0.20620520559545452,
       "freepik-ai": 0,
-      "adobe-firefly": 0.7726957277448423,
+      "adobe-firefly": 0.7721975479858669,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.5032451352675804,
+      "higgsfield": 3.5009864896526857,
       "krea-ai": 0,
-      "spline-ai": 0.6580583743809405,
+      "spline-ai": 0.6576341047097497,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.160856536706609,
+      "meshy-ai": 1.1601080982088972,
       "magnific-ai": 0,
-      "seedance-2-5": 3.145246148015754,
+      "seedance-2-5": 3.143218314922242,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.5955897222693425,
-      "nano-banana-pro": 0.14206289269232358,
+      "wan-3-0": 0.5952057279833196,
+      "nano-banana-pro": 0.14197130054925927,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -43405,33 +44015,40 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.9384192090315919,
+      "hunyuan3d": 0.9378141824492169,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.17690289162483486,
+      "luma-genie": 0.1767888371053814,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.15588646384970029,
+      "gemini-omni-flash": 0.15578595924200075,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-14T11:49:55.337Z",
+    "startedAt": "2026-11-14T11:59:18.072Z",
     "newsCheckedAt": "2026-11-13T09:30:05.704Z",
     "total": 49,
     "attempted": 49,
     "cached": 0,
     "health": {
-      "stale": 49
+      "stale": 41,
+      "failed": 8
+    },
+    "monitor": {
+      "changed": 20,
+      "fetch-failed": 8,
+      "unchanged-unverified": 19,
+      "baseline": 2
     },
     "candidatesPending": 439,
-    "completedAt": "2026-11-14T11:50:33.732Z",
+    "completedAt": "2026-11-14T11:59:50.491Z",
     "skipped": 0
   }
 }

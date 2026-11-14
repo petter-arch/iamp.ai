@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-14T11:49:55.337Z",
+  "startedAt": "2026-11-14T11:59:18.072Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 49,
@@ -8,6 +8,38 @@
   "newModels": 0,
   "candidatesAttempted": 0,
   "errors": [
+    {
+      "platform": "midjourney-v8-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "runway-gen-4-5",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "freepik-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "leonardo-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "magnific-ai",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "trellis-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "reve-2-1",
+      "message": "Source outside official domain"
+    },
+    {
+      "platform": "gemini-omni-flash",
+      "message": "Source outside official domain"
+    },
     {
       "platform": "chatgpt-images-2-0",
       "message": "Official source changed; manual verification needed"
@@ -73,14 +105,6 @@
       "message": "Official source changed; manual verification needed"
     },
     {
-      "platform": "hunyuan3d",
-      "message": "Official source changed; manual verification needed"
-    },
-    {
-      "platform": "trellis-2",
-      "message": "Official source HTTP 403"
-    },
-    {
       "platform": "udio",
       "message": "Official source changed; manual verification needed"
     },
@@ -97,10 +121,17 @@
       "message": "Official source changed; manual verification needed"
     }
   ],
+  "monitor": {
+    "changed": 20,
+    "fetch-failed": 8,
+    "unchanged-unverified": 19,
+    "baseline": 2
+  },
   "health": {
-    "stale": 49
+    "stale": 41,
+    "failed": 8
   },
   "scheduled": 49,
   "skipped": 0,
-  "completedAt": "2026-11-14T11:50:33.732Z"
+  "completedAt": "2026-11-14T11:59:50.491Z"
 }
