@@ -2,11 +2,6 @@ name: Update Trendar models
 on:
   schedule:
     - cron: '20 5 * * *'
-    - cron: '20 7 * * *'
-  workflow_run:
-    workflows: [Update news feed]
-    types: [completed]
-    branches: [main]
   push:
     branches: [main]
     paths:
@@ -56,15 +51,12 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_NEWS_MODEL: ${{ vars.OPENAI_NEWS_MODEL }}
           OPENAI_PROFILE_MODEL: ${{ vars.OPENAI_PROFILE_MODEL }}
-          PROFILE_CONCURRENCY: '3'
-          NEW_PROFILE_LIMIT: '8'
+          PROFILE_CONCURRENCY: '1'
+          PROFILE_BATCH_LIMIT: '2'
+          NEW_PROFILE_LIMIT: '0'
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [ "$EVENT_NAME" = 'workflow_run' ]; then
-            node profile-refresh.mjs --due
-          else
-            node profile-refresh.mjs
-          fi
+          node profile-refresh.mjs --due
       - name: Save verified facts and truthful failure status
         if: steps.gate.outputs.run == 'true'
         run: |
