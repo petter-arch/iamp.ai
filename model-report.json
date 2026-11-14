@@ -1,17 +1,106 @@
 {
-  "startedAt": "2026-11-14T10:50:41.346Z",
+  "startedAt": "2026-11-14T11:49:55.337Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 0,
+  "attempted": 49,
   "cached": 0,
   "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [],
-  "scheduled": 0,
-  "skipped": 0,
-  "completedAt": "2026-11-14T10:50:41.366Z",
+  "errors": [
+    {
+      "platform": "chatgpt-images-2-0",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "elevenlabs",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "elevenmusic",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "heygen",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "suno-v5-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "higgsfield",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "krea-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "spline-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "pika-2-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "meshy-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "grok-imagine",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hunyuan3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "trellis-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "udio",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hitem3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "synthesia",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "topaz-labs",
+      "message": "Official source changed; manual verification needed"
+    }
+  ],
   "health": {
-    "failed": 49
-  }
+    "stale": 49
+  },
+  "scheduled": 49,
+  "skipped": 0,
+  "completedAt": "2026-11-14T11:50:33.732Z"
 }

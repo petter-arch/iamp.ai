@@ -32642,11 +32642,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
@@ -32663,6 +32663,10 @@
           }
         ],
         "factHash": "7031e4c4d760f55cb1555409223bd67f63c0d8ce634e30f4ad3d7e78e1ffa0f7"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -32764,11 +32768,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -32797,6 +32801,10 @@
           }
         ],
         "factHash": "7d5fc8102793997f442930de1843b825779bca52541a39e338cabdbb159c13cb"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -32858,6 +32866,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "18b122e312fdc590bc3d0e0c1c2746d9458a24a9510d7e42745e9545d2420ad1"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -32939,6 +32951,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "42a1ddd5b22328a6288eeb056cc6a32a1f8ad4096eb1380aada83a577610e21b"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -32987,7 +33003,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -33004,6 +33020,10 @@
           }
         ],
         "factHash": "a2407a8fc0b591bd708bf4be202e1b7c1dd5566d96d3c204b6ee7188511945e6"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -33167,7 +33187,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -33200,6 +33220,10 @@
           }
         ],
         "factHash": "c4824e5b91e4f06e0dbd22c0306a695ba126a6abd7cf2199cae0ec58c91c0ffa"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -33344,11 +33368,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33389,6 +33413,10 @@
           }
         ],
         "factHash": "b054a1b42d00b388930b8726ae571ab93a5d19012aeed81dc1fed7c1e3c236cd"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -33473,11 +33501,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33502,6 +33530,10 @@
           }
         ],
         "factHash": "185b88c82c64519642b315c7ddece325363b64d2de3f7b76f675a1b0b8fd7785"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -33615,11 +33647,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33648,6 +33680,10 @@
           }
         ],
         "factHash": "3ef07143e28b3abaa0bc6d31463f42530ff6163540deb31027794ce0accbaa74"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -33740,7 +33776,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -33757,7 +33793,11 @@
         ],
         "factHash": "65d7aaa2d61f0415b416b7527e9b50ac4fe7821656bdd9f46313159e893e79be"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
+      }
     },
     {
       "n": "Freepik AI",
@@ -33816,6 +33856,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "a57ac21a197ed761a4e82dbfd71c67fc62221dda7e0f5ea57711d2aed3a14566"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -33893,7 +33937,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -33910,7 +33954,11 @@
         ],
         "factHash": "eeff9419a2a7d47c486bda9bde0d0b19326293ce29861f11522beb55cddcf8be"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
+      }
     },
     {
       "n": "Leonardo AI",
@@ -33984,6 +34032,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -34095,7 +34147,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -34124,6 +34176,10 @@
           }
         ],
         "factHash": "41118d45920aa48e4440e22da3209695affd2969087e941f1ddb70d8698a34cb"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -34187,10 +34243,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34208,7 +34264,11 @@
         ],
         "factHash": "14fe28bb30bebec04ed6e1c2af57337e768ba6bd26464d1654d48b15c2c722c3"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "Official source changed; manual verification needed",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
+      }
     },
     {
       "n": "Stable Diffusion 3.5",
@@ -34330,11 +34390,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34363,6 +34423,10 @@
           }
         ],
         "factHash": "82add3d310c78c2bc256286c3dd70f2f239701c66a0cd24d93705f4c6f4a763e"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -34409,10 +34473,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34438,7 +34502,11 @@
         ],
         "factHash": "1f3ef8f98105c725982cbabdeb898955e5a61c13a257a4afa1413815cddcb95a"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "Official source changed; manual verification needed",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
+      }
     },
     {
       "n": "Krea AI",
@@ -34485,11 +34553,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34514,6 +34582,10 @@
           }
         ],
         "factHash": "ca16daa26e448c95ad13fe2e4b7651fce29d2db0593ac9faf2a6a22287f264c7"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -34612,11 +34684,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34645,6 +34717,10 @@
           }
         ],
         "factHash": "78c0a79a28925d829d7d0e1c3c68cf8282dd78eadf465bd7b0eb18e471daf9c9"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -34705,11 +34781,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34730,6 +34806,10 @@
           }
         ],
         "factHash": "c71bbb6a0216d3cb898cf9b7ce59f67d005319bf1b55618d1123f394928a54ec"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -34878,11 +34958,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -34903,6 +34983,10 @@
           }
         ],
         "factHash": "3a75cb102dcd47b6949268867ce5502fc3a54a34a32c005249ee842225eb531f"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -35050,11 +35134,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35083,6 +35167,10 @@
           }
         ],
         "factHash": "c710da98f24dc4f36287460a6c1dec67d978c4f838959a082bad32653a8d9b02"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -35140,7 +35228,11 @@
         "sources": [],
         "factHash": "15730edf0e32804da667a0bbae5d0737633563d3181a5cdb6b70ed94f70a8b8c"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
+      }
     },
     {
       "n": "Seedance 2.5",
@@ -35303,7 +35395,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35328,6 +35420,10 @@
           }
         ],
         "factHash": "6ce43399b927f384c2b472b1ae59397b26098bdcdd8001a81d18773a01210f5e"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -35467,7 +35563,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35488,6 +35584,10 @@
           }
         ],
         "factHash": "e04fbdfb797e6928bc63c143174b732909a16a33a92d7acf0b55271824326423"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -35534,7 +35634,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -35551,7 +35651,11 @@
         ],
         "factHash": "7fa35d928611dbad416de73a6484df8f4488c4950733aaff7b7a234e4a9800fe"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
+      }
     },
     {
       "n": "Wan 3.0",
@@ -35613,7 +35717,11 @@
         "sources": [],
         "factHash": "dee5113a8beb403cd58f0ca7b6b44bfb2c4b80e937d1df4b343274ebc67e45c4"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
+      }
     },
     {
       "n": "Nano Banana Pro",
@@ -35660,10 +35768,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35681,7 +35789,11 @@
         ],
         "factHash": "91fa3e1a528c775e0f348b698803d8f6c6fb6c73a440d91189ac9ba1e913a2b6"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "Official source changed; manual verification needed",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
+      }
     },
     {
       "n": "Nano Banana 2",
@@ -35766,7 +35878,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35783,6 +35895,10 @@
           }
         ],
         "factHash": "401ee911183d0a621f4614daf6df0c2e595165cc6cc5fc90190bbc6b80e9ab73"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -35863,7 +35979,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -35888,7 +36004,11 @@
         ],
         "factHash": "6a1a9b989f30821df87dcbe7d806f1abef728119c9d833dd05640cdd2512985b"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
+      }
     },
     {
       "n": "Hailuo 3.0",
@@ -35938,7 +36058,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -35959,6 +36079,10 @@
           }
         ],
         "factHash": "5c0150dd20cf90c989c0eb0479f957909633f0e48868b5f047461c6df9a10745"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -36027,11 +36151,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36052,6 +36176,10 @@
           }
         ],
         "factHash": "c281c01a5b9dc916ce11fdb03556778ba07e80e489f427b1f89aa3c7fd917c78"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -36139,11 +36267,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36168,6 +36296,10 @@
           }
         ],
         "factHash": "d1a2d8f0ffb3e983ea07f7ffbf91cb4836d2fc6217c8957850944273b8bd12e5"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -36242,7 +36374,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36271,6 +36403,10 @@
           }
         ],
         "factHash": "c0cdb400191d4344ca96105234fde8fd897bbd00452f824f7741cb2bf30c3369"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -36350,7 +36486,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36371,6 +36507,10 @@
           }
         ],
         "factHash": "0a3e7cf1e23bab2794ad1c1d454f3c98ab77723ddde70b587023b8e8e3e4c3d8"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -36418,10 +36558,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36443,7 +36583,11 @@
         ],
         "factHash": "bd4c87b38f77c3336cf520db70265ed98aecd5467ddc21353282653a40b191e4"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "Official source changed; manual verification needed",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
+      }
     },
     {
       "n": "TRELLIS 2",
@@ -36488,8 +36632,8 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -36505,6 +36649,10 @@
           }
         ],
         "factHash": "efc91b6b587d6f8683568ce686060a4f39b697f51fa32c6d513f0526e38292d0"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "fetch-failed"
       }
     },
     {
@@ -36562,11 +36710,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36607,6 +36755,10 @@
           }
         ],
         "factHash": "79dd80ffb148c3a070356d69f823517e5f390c44839cf49c1fa76e01a2f2c954"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -36666,6 +36818,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "7a06aff4c1127250d7e254bd0caa2737e1aaf4aea549952c9751ee81b5a8326a"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -36723,7 +36879,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36740,6 +36896,10 @@
           }
         ],
         "factHash": "e37b6800e1959770d2fef5b7f6233d0736da5ee9a612e5a07c82c98dbd80d2ca"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -36836,7 +36996,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -36861,6 +37021,10 @@
           }
         ],
         "factHash": "7f1d6e96c35a157b6c38cbe7b2546bb15ab921a929aead2af752ab6066ac3017"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -36919,7 +37083,11 @@
         "sources": [],
         "factHash": "3c10fd506293874baa20f33979e30fb5408953d53aa09a3d6121322de07344e0"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
+      }
     },
     {
       "n": "Luma Genie",
@@ -37000,7 +37168,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -37021,7 +37189,11 @@
         ],
         "factHash": "e59992023b709365f111839f45443186f050d43831bd7b7aecad7f720db5962d"
       },
-      "lastCheckError": "OpenAI HTTP 429"
+      "lastCheckError": "OpenAI HTTP 429",
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
+      }
     },
     {
       "n": "Hitem3D",
@@ -37065,11 +37237,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37098,6 +37270,10 @@
           }
         ],
         "factHash": "81a3ce3d81f5a6f76358fd3f3ffaf120984fc29bd9a6f2fe1728dc6fa06c87c4"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -37144,7 +37320,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -37165,6 +37341,10 @@
           }
         ],
         "factHash": "e0336478256282d43cb3d84703dae7eaace36b6be89a7a450228f19e19728cef"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     },
     {
@@ -37257,11 +37437,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37278,6 +37458,10 @@
           }
         ],
         "factHash": "4d00c2d71e5de15a8cdf824783f5cca131b6f9617202f7a33a3c8e120d07331f"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -37354,11 +37538,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-14T11:49:55.337Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37387,6 +37571,10 @@
           }
         ],
         "factHash": "8e6c856e164e5cc8f4c6ae4be272921b6235c4bc7ebcc12f2f9ecf40ae677834"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "changed"
       }
     },
     {
@@ -37446,6 +37634,10 @@
         "method": "official-sources-and-independent-audit",
         "sources": [],
         "factHash": "db474c590370eb560bed578f9361f7ffaeed107de11ad235aa3b1ff8994f194a"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "no-verified-sources"
       }
     },
     {
@@ -37625,7 +37817,7 @@
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-11-13T09:32:53.744Z",
+      "lastAttemptAt": "2026-11-14T11:49:55.337Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -37658,6 +37850,10 @@
           }
         ],
         "factHash": "7013c552ecd2c343c948464d778de7352e7dfbfacda1d71e8c0d16b64f6cc9cf"
+      },
+      "sourceMonitor": {
+        "checkedAt": "2026-11-14T11:49:55.337Z",
+        "status": "unchanged-unverified"
       }
     }
   ],
@@ -43170,7 +43366,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-14T10:50:41.346Z",
+    "calculatedAt": "2026-11-14T11:49:55.337Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -43180,28 +43376,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.40879772733051456,
+      "elevenlabs": 0.40713602089164536,
       "elevenmusic": 0,
-      "heygen": 0.42975462647135065,
-      "kling-3-0": 0.20718039772427846,
+      "heygen": 0.42800773312484275,
+      "kling-3-0": 0.20633823795212405,
       "freepik-ai": 0,
-      "adobe-firefly": 0.7758494488606215,
+      "adobe-firefly": 0.7726957277448423,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.5175434648171557,
+      "higgsfield": 3.5032451352675804,
       "krea-ai": 0,
-      "spline-ai": 0.6607442085536717,
+      "spline-ai": 0.6580583743809405,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.1655945178300282,
+      "meshy-ai": 1.160856536706609,
       "magnific-ai": 0,
-      "seedance-2-5": 3.1580833216083533,
+      "seedance-2-5": 3.145246148015754,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.5980205935890841,
-      "nano-banana-pro": 0.14264271567874026,
+      "wan-3-0": 0.5955897222693425,
+      "nano-banana-pro": 0.14206289269232358,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -43209,33 +43405,33 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.942249322708567,
+      "hunyuan3d": 0.9384192090315919,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.1776249124212846,
+      "luma-genie": 0.17690289162483486,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.1565227070888622,
+      "gemini-omni-flash": 0.15588646384970029,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-14T10:50:41.346Z",
+    "startedAt": "2026-11-14T11:49:55.337Z",
     "newsCheckedAt": "2026-11-13T09:30:05.704Z",
     "total": 49,
-    "attempted": 0,
+    "attempted": 49,
     "cached": 0,
     "health": {
-      "failed": 49
+      "stale": 49
     },
     "candidatesPending": 439,
-    "completedAt": "2026-11-14T10:50:41.366Z",
+    "completedAt": "2026-11-14T11:50:33.732Z",
     "skipped": 0
   }
 }
