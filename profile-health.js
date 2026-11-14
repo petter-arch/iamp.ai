@@ -11,7 +11,17 @@
  root.platCard=function(p,pi){return original(p,pi).replace('<div class="nsum">',markup(p,Date.now(),root.LANG)+'<div class="nsum">');};
  function summary(){var data=root.siteState||{},list=root.PLATS||[],now=Date.now(),count=list.filter(function(p){return status(p,now)==='verified';}).length,en=root.LANG==='en';var text=en?count+' of '+list.length+' model profiles recently verified.':count+' av '+list.length+' modellprofiler nyligen verifierade.';var stamp=data.trends&&data.trends.calculatedAt;if(Number.isFinite(Date.parse(stamp)))text+=(en?' Trend order calculated: ':' Trendordning beräknad: ')+new Date(stamp).toLocaleString(en?'en-GB':'sv-SE',{dateStyle:'short',timeStyle:'short'})+'.';if(now-Date.parse(stamp)>26*3600000)text+=en?' Trend data needs refreshing.':' Trendunderlaget behöver uppdateras.';return text;}
  if(typeof root.buildPlatforms==='function'){var build=root.buildPlatforms;root.buildPlatforms=function(){var result=build.apply(this,arguments),el=root.document.getElementById('plist');if(el){var note=root.document.createElement('div');note.className='nmeta model-health-summary';note.setAttribute('role','status');note.style.gridColumn='1 / -1';note.textContent=summary();el.prepend(note);}return result;};root.buildPlatforms();}
- function newsFailure(){var el=root.document.getElementById('news-stamp'),u=root.siteState&&root.siteState.newsUpdate;if(el&&u&&u.status==='failed')el.textContent=root.LANG==='en'?'Update failed — showing last saved news':'Uppdatering misslyckades — senast sparade nyheter visas';}
+ function newsFailure(){
+  var data=root.siteState||{},u=data.newsUpdate,en=root.LANG==='en',text='';
+  if(u&&u.status==='failed')text=en?'Update failed — showing last saved news':'Uppdatering misslyckades — senast sparade nyheter visas';
+  else if(Number.isFinite(Date.parse(data.newsCheckedAt)))text=(en?'News last checked: ':'Nyheter senast kontrollerade: ')+new Date(data.newsCheckedAt).toLocaleString(en?'en-GB':'sv-SE',{dateStyle:'short',timeStyle:'short'});
+  var legacy=root.document.getElementById('news-stamp');if(legacy&&text)legacy.textContent=text;
+  var host=root.document.getElementById('home-news'),notice=root.document.getElementById('news-health');
+  if(host&&!notice){notice=root.document.createElement('div');notice.id='news-health';notice.className='nmeta';notice.setAttribute('role','status');host.before(notice);}
+  if(notice){notice.textContent=text;notice.hidden=!text;}
+ }
+ if(typeof root.renderFeed==='function'){var feed=root.renderFeed;root.renderFeed=function(){var result=feed.apply(this,arguments);newsFailure();return result;};}
+ if(typeof root.renderCmpCols==='function'){var compare=root.renderCmpCols;root.renderCmpCols=function(){var result=compare.apply(this,arguments),cols=root.document.querySelectorAll('#cmp-cols .cmp-col');cols.forEach(function(el,i){var p=(root.PLATS||[])[(root.cmpSet||[])[i]];if(p)el.insertAdjacentHTML('afterbegin',markup(p,Date.now(),root.LANG));});return result;};}
  if(typeof root.newsStamp==='function'){var stamp=root.newsStamp;root.newsStamp=function(){var result=stamp.apply(this,arguments);newsFailure();return result;};root.newsStamp();}
  function refreshLabels(){newsFailure();var models=new Map((root.PLATS||[]).map(function(p){return [p.id,p];}));root.document.querySelectorAll('[data-model-health]').forEach(function(el){var p=models.get(el.getAttribute('data-model-health'));if(p)el.textContent=label(p,Date.now(),root.LANG);});root.document.querySelectorAll('.model-health-summary').forEach(function(el){el.textContent=summary();});}
  // No polling or additional server requests. An open tab must also age honestly.
