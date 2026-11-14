@@ -48,54 +48,12 @@ test('Responses transport handles mixed output, authentication and error cases',
   }
 });
 
-test('Profile workflow verifies actual fetched text and retains facts on source/API failure', async () => {
-  const dir = await mkdtemp(join(tmpdir(), 'iamp-openai-profile-'));
-  try {
-    for (const file of ['update.mjs', 'data-core.mjs', 'openai.mjs']) await copyFile(file, join(dir, file));
-    const shipped = JSON.parse(await readFile('site-data.json', 'utf8'));
-    const profile = {...shipped.platforms[0], url: 'https://example.com', sub: 'Tidigare text'};
-    const state = {schemaVersion: 1, platforms: [profile], news: [], candidates: [], sources: []};
-    await writeFile(join(dir, 'sources.json'), '{}');
-    await writeFile(join(dir, 'mock.mjs'), String.raw`
-import dns from 'node:dns/promises';
-import {syncBuiltinESMExports} from 'node:module';
-dns.lookup=async()=>[{address:'93.184.216.34',family:4}];
-syncBuiltinESMExports();
-globalThis.fetch=async(url,options)=>{
- if(url==='https://example.com/docs'){
-  if(process.env.SCENARIO==='source-failure')return new Response('',{status:403});
-  return new Response('This creative model supports image editing.',{headers:{'content-type':'text/plain'}});
- }
- if(url!=='https://api.openai.com/v1/responses')throw Error('Unexpected external call');
- const body=JSON.parse(options.body);
- if(process.env.SCENARIO==='api-failure')return new Response('',{status:401});
- let result;
- if(body.input.startsWith('Check this EXACT')){
-  if(body.model!=='gpt-5.6-terra'||body.tools[0].type!=='web_search'||body.tools[0].filters.allowed_domains[0]!=='example.com'||body.reasoning.effort!=='low')throw Error('Invalid profile API configuration');
-  result={patch:{sub:'Stöd för bildredigering'},evidence:{sub:[{url:'https://example.com/docs',quote:'This creative model supports image editing.'}]},_retrieved:{'https://example.com/docs':'Untrusted model-generated cache'}};
- }else if(body.input.startsWith('Independently verify')){
-  if(!body.input.includes('This creative model supports image editing.'))throw Error('Missing actual source');
-  result={approvedFields:['sub']};
- }else throw Error('Unexpected prompt');
- return new Response(JSON.stringify({status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(result)}]}]}));
-};
-`);
-    for (const scenario of ['success', 'source-failure', 'api-failure']) {
-      await writeFile(join(dir, 'site-data.json'), JSON.stringify(state));
-      await run(process.execPath, ['--import', join(dir, 'mock.mjs'), join(dir, 'update.mjs'), '--profiles'], {
-        cwd: dir, env: {...process.env, OPENAI_API_KEY: 'fixture-only', OPENAI_NEWS_MODEL: '', OPENAI_PROFILE_MODEL: '', SCENARIO: scenario}, timeout: 20000,
-      });
-      const actual = JSON.parse(await readFile(join(dir, 'site-data.json'), 'utf8'));
-      const report = JSON.parse(await readFile(join(dir, 'update-report.json'), 'utf8'));
-      assert.equal(actual.platforms[0].sub, scenario === 'success' ? 'Stöd för bildredigering' : profile.sub);
-      assert.equal(actual.platforms[0].rating, profile.rating);
-      assert.equal(actual.platforms[0].long, profile.long);
-      assert.equal(report.errors.length === 0, scenario === 'success');
-    }
-    const before = await readFile(join(dir, 'site-data.json'), 'utf8');
-    await assert.rejects(run(process.execPath, [join(dir, 'update.mjs')], {cwd: dir, env: {...process.env, OPENAI_API_KEY: ''}}), /OPENAI_API_KEY/);
-    assert.equal(await readFile(join(dir, 'site-data.json'), 'utf8'), before);
-  } finally {
-    await rm(dir, {recursive: true, force: true});
-  }
+test('legacy paid Trendar command is blocked before reading data or making requests',async()=>{
+ const dir=await mkdtemp(join(tmpdir(),'iamp-disabled-profiles-'));
+ try{
+  for(const file of ['update.mjs','data-core.mjs','openai.mjs'])await copyFile(file,join(dir,file));
+  await writeFile(join(dir,'mock.mjs'),"globalThis.fetch=async()=>{throw Error('Unexpected API request');};");
+  await assert.rejects(run(process.execPath,['--import',join(dir,'mock.mjs'),'update.mjs','--profiles'],{cwd:dir,env:{...process.env,OPENAI_API_KEY:'fixture-only'}}),/Paid Trendar updates are disabled/);
+  await assert.rejects(readFile(join(dir,'site-data.json')),/ENOENT/);
+ }finally{await rm(dir,{recursive:true,force:true});}
 });

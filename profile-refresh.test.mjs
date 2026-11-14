@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
-import {readFile,mkdtemp,copyFile,rm} from 'node:fs/promises';
+import {readFile,writeFile,mkdtemp,copyFile,rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {execFile} from 'node:child_process';
@@ -122,4 +122,26 @@ test('official vendor migrations remain limited to explicitly approved domains',
  for(const [url,target] of [['https://runwayml.com','https://runway.com'],['https://reve.art','https://app.reve.com'],['https://magnific.ai','https://www.magnific.com'],['https://ai.google.dev/gemini-api/docs/omni','https://aistudio.google.com/docs/omni']]){
   const hosts=officialHosts({url});assert(officialURL(target,hosts));assert(!officialURL('https://accounts.google.com',hosts));assert(!officialURL('https://attacker.example',hosts));
  }
+});
+
+test('production Trendar command cannot call AI even with a funded key and conflicting paid settings',async()=>{
+ const dir=await mkdtemp(join(tmpdir(),'iamp-no-paid-profiles-'));
+ try{
+  for(const file of ['profile-refresh.mjs','data-core.mjs'])await copyFile(file,join(dir,file));
+  const input=state();input.candidates=[{name:'Expensive candidate',sourceVideos:[],firstSeen:NOW}];
+  await writeFile(join(dir,'site-data.json'),JSON.stringify(input));
+  await writeFile(join(dir,'mock.mjs'),String.raw`
+import dns from 'node:dns/promises';
+import {syncBuiltinESMExports} from 'node:module';
+import {writeFileSync} from 'node:fs';
+dns.lookup=async()=>[{address:'8.8.8.8',family:4}];syncBuiltinESMExports();
+let paid=0,sources=0;
+globalThis.fetch=async url=>{if(new URL(url).hostname==='api.openai.com'){paid++;throw Error('Paid request forbidden');}sources++;return new Response('Official product source',{headers:{'content-type':'text/plain'}});};
+process.on('exit',()=>writeFileSync('calls.json',JSON.stringify({paid,sources})));
+`);
+  await run(process.execPath,['--import',join(dir,'mock.mjs'),'profile-refresh.mjs','--force-sources'],{cwd:dir,env:{...process.env,OPENAI_API_KEY:'funded-fixture-key',FREE_SOURCE_ONLY:'0',NEW_PROFILE_LIMIT:'24'},timeout:20000});
+  const calls=JSON.parse(await readFile(join(dir,'calls.json'))),report=JSON.parse(await readFile(join(dir,'model-report.json')));
+  assert.equal(calls.paid,0);assert.equal(calls.sources,1);assert.equal(report.candidatesAttempted,0);assert.equal(report.attempted,1);
+  assert.equal(JSON.parse(await readFile(join(dir,'site-data.json'))).platforms[0].verification,undefined);
+ }finally{await rm(dir,{recursive:true,force:true});}
 });

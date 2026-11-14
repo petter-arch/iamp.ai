@@ -1,5 +1,12 @@
 name: Test news pipeline
 on:
+  push:
+    branches: [main]
+    paths:
+      - '*.mjs'
+      - '*.cjs'
+      - profile-health.js
+      - .github/workflows/*.yml
   pull_request:
   workflow_dispatch:
 permissions:

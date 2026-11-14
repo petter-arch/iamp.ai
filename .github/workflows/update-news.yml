@@ -7,14 +7,6 @@ on:
     - cron: '17 3 * * *'
     - cron: '17 14 * * *'
     - cron: '17 15 * * *'
-  push:
-    branches: [main]
-    paths:
-      - update.mjs
-      - openai.mjs
-      - data-core.mjs
-      - sources.json
-      - .github/workflows/update-news.yml
   workflow_dispatch: {}
 permissions:
   contents: write
