@@ -154,7 +154,7 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
 }
 async function atomic(file,value){await writeFile(file+'.tmp',JSON.stringify(value,null,2)+'\n');await rename(file+'.tmp',file);}
 export async function main(){
- if(!process.env.OPENAI_API_KEY)throw Error('OPENAI_API_KEY is required; previous files unchanged.');
+ if(process.env.FREE_SOURCE_ONLY!=='1'&&!process.env.OPENAI_API_KEY)throw Error('OPENAI_API_KEY is required for paid verification; previous files unchanged.');
  const old=JSON.parse(await readFile('site-data.json','utf8'));
  const {state,report}=await refreshState(old,{concurrency:limited(process.env.PROFILE_CONCURRENCY,3,3),newLimit:process.env.NEW_PROFILE_LIMIT==='0'?0:limited(process.env.NEW_PROFILE_LIMIT,8,24),batchLimit:limited(process.env.PROFILE_BATCH_LIMIT,49,49),dueOnly:process.argv.includes('--due')});
  await atomic('site-data.json',state);await atomic('news.json',state.news);await atomic('model-report.json',report);
