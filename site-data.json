@@ -32886,11 +32886,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-14T11:59:18.072Z",
+        "attemptedAt": "2026-11-14T12:03:12.093Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
@@ -32900,7 +32900,7 @@
         "factHash": "18b122e312fdc590bc3d0e0c1c2746d9458a24a9510d7e42745e9545d2420ad1"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "checkedAt": "2026-11-14T12:03:12.093Z",
         "status": "fetch-failed"
       }
     },
@@ -32971,7 +32971,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -32985,8 +32985,14 @@
         "factHash": "42a1ddd5b22328a6288eeb056cc6a32a1f8ad4096eb1380aada83a577610e21b"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
-        "status": "fetch-failed"
+        "checkedAt": "2026-11-14T12:03:12.093Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://runwayml.com",
+            "hash": "e052dc1166b5101500f923caf3a333d062605a9eb2a99883d5e14c5ca9a66a59"
+          }
+        ]
       }
     },
     {
@@ -33984,11 +33990,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-14T11:59:18.072Z",
+        "attemptedAt": "2026-11-14T12:03:12.093Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -33998,7 +34004,7 @@
         "factHash": "a57ac21a197ed761a4e82dbfd71c67fc62221dda7e0f5ea57711d2aed3a14566"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "checkedAt": "2026-11-14T12:03:12.093Z",
         "status": "fetch-failed"
       }
     },
@@ -34166,7 +34172,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
@@ -34180,8 +34186,14 @@
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
-        "status": "fetch-failed"
+        "checkedAt": "2026-11-14T12:03:12.093Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://docs.leonardo.ai/docs/getting-started",
+            "hash": "a0ed6b60634ef140993ade5a86621d548dd18f1cdfaf2aa7cc1f16d6a06a2c9f"
+          }
+        ]
       }
     },
     {
@@ -35520,10 +35532,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-14T11:59:18.072Z",
+        "attemptedAt": "2026-11-14T12:03:12.093Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -35532,9 +35544,9 @@
         "sources": [],
         "factHash": "15730edf0e32804da667a0bbae5d0737633563d3181a5cdb6b70ed94f70a8b8c"
       },
-      "lastCheckError": "Source outside official domain",
+      "lastCheckError": "Official source HTTP 403",
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "checkedAt": "2026-11-14T12:03:12.093Z",
         "status": "fetch-failed"
       }
     },
@@ -37086,11 +37098,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-14T11:59:18.072Z",
+        "attemptedAt": "2026-11-14T12:03:12.093Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -37105,7 +37117,7 @@
         "factHash": "efc91b6b587d6f8683568ce686060a4f39b697f51fa32c6d513f0526e38292d0"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
+        "checkedAt": "2026-11-14T12:03:12.093Z",
         "status": "fetch-failed"
       }
     },
@@ -37294,7 +37306,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -37308,8 +37320,14 @@
         "factHash": "7a06aff4c1127250d7e254bd0caa2737e1aaf4aea549952c9751ee81b5a8326a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
-        "status": "fetch-failed"
+        "checkedAt": "2026-11-14T12:03:12.093Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://reve.art",
+            "hash": "2a2e43ec48978dfd3c8d46f49047773e8991ecde3eb224115ace937c612c41e3"
+          }
+        ]
       }
     },
     {
@@ -38210,7 +38228,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-14T11:59:18.072Z",
+      "lastAttemptAt": "2026-11-14T12:03:12.093Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -38224,8 +38242,14 @@
         "factHash": "db474c590370eb560bed578f9361f7ffaeed107de11ad235aa3b1ff8994f194a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-14T11:59:18.072Z",
-        "status": "fetch-failed"
+        "checkedAt": "2026-11-14T12:03:12.093Z",
+        "status": "baseline",
+        "sources": [
+          {
+            "url": "https://ai.google.dev/gemini-api/docs/omni",
+            "hash": "89d3bd08cd75fbf957635e2291c00f00a994f47a9c03f087c2ad524c41ab5310"
+          }
+        ]
       }
     },
     {
@@ -44046,7 +44070,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-14T11:59:18.072Z",
+    "calculatedAt": "2026-11-14T12:03:12.093Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -44056,28 +44080,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.4068735282733027,
+      "elevenlabs": 0.40676441697951154,
       "elevenmusic": 0,
-      "heygen": 0.4277317838971305,
-      "kling-3-0": 0.20620520559545452,
+      "heygen": 0.427617079043918,
+      "kling-3-0": 0.20614990753547877,
       "freepik-ai": 0,
-      "adobe-firefly": 0.7721975479858669,
+      "adobe-firefly": 0.7719904677320084,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.5009864896526857,
+      "higgsfield": 3.5000476299361227,
       "krea-ai": 0,
-      "spline-ai": 0.6576341047097497,
+      "spline-ai": 0.6574577469400255,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.1601080982088972,
+      "meshy-ai": 1.1597969919639903,
       "magnific-ai": 0,
-      "seedance-2-5": 3.143218314922242,
+      "seedance-2-5": 3.1423753979144315,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.5952057279833196,
-      "nano-banana-pro": 0.14197130054925927,
+      "wan-3-0": 0.5950461116344069,
+      "nano-banana-pro": 0.14193322809871206,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -44085,27 +44109,27 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.9378141824492169,
+      "hunyuan3d": 0.9375626887744698,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.1767888371053814,
+      "luma-genie": 0.17674142763436898,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.15578595924200075,
+      "gemini-omni-flash": 0.15574418211376254,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-14T11:59:18.072Z",
+    "startedAt": "2026-11-14T12:03:12.093Z",
     "newsCheckedAt": "2026-11-13T09:30:05.704Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 8,
     "cached": 0,
     "health": {
       "stale": 41,
@@ -44113,12 +44137,12 @@
     },
     "monitor": {
       "changed": 20,
-      "fetch-failed": 8,
-      "unchanged-unverified": 19,
-      "baseline": 2
+      "fetch-failed": 4,
+      "baseline": 6,
+      "unchanged-unverified": 19
     },
     "candidatesPending": 439,
-    "completedAt": "2026-11-14T11:59:50.491Z",
+    "completedAt": "2026-11-14T12:03:14.648Z",
     "skipped": 0
   },
   "newsUpdate": {
