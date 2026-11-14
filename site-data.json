@@ -38012,6 +38012,19 @@
       "nextAttemptAt": "2026-11-13T22:00:59.332Z"
     },
     {
+      "name": "Muse Ember",
+      "firstSeen": "2026-11-11T09:26:31.721Z",
+      "lastSeenAt": "2026-11-10T19:02:08Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=siMpFKZgNtU"
+      ],
+      "lastAttemptAt": "2026-11-12T21:30:33.761Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-13T21:30:33.761Z"
+    },
+    {
       "name": "Meta Edits",
       "firstSeen": "2026-11-11T09:26:31.721Z",
       "lastSeenAt": "2026-11-10T19:02:08Z",
@@ -38036,19 +38049,6 @@
       "error": "OpenAI HTTP 429",
       "attempts": 2,
       "nextAttemptAt": "2026-11-15T09:32:53.744Z"
-    },
-    {
-      "name": "Muse Ember",
-      "firstSeen": "2026-11-11T09:26:31.721Z",
-      "lastSeenAt": "2026-11-10T19:02:08Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=siMpFKZgNtU"
-      ],
-      "lastAttemptAt": "2026-11-12T21:30:33.761Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-13T21:30:33.761Z"
     },
     {
       "name": "Veo 3.1",
@@ -43170,7 +43170,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-13T09:32:53.744Z",
+    "calculatedAt": "2026-11-14T10:50:41.346Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -43180,28 +43180,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.5070820245869805,
+      "elevenlabs": 0.40879772733051456,
       "elevenmusic": 0,
-      "heygen": 0.477032615724852,
-      "kling-3-0": 0.22997264244673885,
+      "heygen": 0.42975462647135065,
+      "kling-3-0": 0.20718039772427846,
       "freepik-ai": 0,
-      "adobe-firefly": 0.8612018794016169,
+      "adobe-firefly": 0.7758494488606215,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 3.9562902124706563,
+      "higgsfield": 3.5175434648171557,
       "krea-ai": 0,
-      "spline-ai": 0.7334337287289623,
+      "spline-ai": 0.6607442085536717,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2938234226364362,
+      "meshy-ai": 1.1655945178300282,
       "magnific-ai": 0,
-      "seedance-2-5": 3.557285287796143,
+      "seedance-2-5": 3.1580833216083533,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.6638097892266606,
-      "nano-banana-pro": 0.15833506746171594,
+      "wan-3-0": 0.5980205935890841,
+      "nano-banana-pro": 0.14264271567874026,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -43209,33 +43209,33 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 1.0459076677481736,
+      "hunyuan3d": 0.942249322708567,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.19716571124772247,
+      "luma-genie": 0.1776249124212846,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.17374201877943568,
+      "gemini-omni-flash": 0.1565227070888622,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-13T09:32:53.744Z",
+    "startedAt": "2026-11-14T10:50:41.346Z",
     "newsCheckedAt": "2026-11-13T09:30:05.704Z",
     "total": 49,
-    "attempted": 49,
+    "attempted": 0,
     "cached": 0,
     "health": {
       "failed": 49
     },
     "candidatesPending": 439,
-    "completedAt": "2026-11-13T09:36:59.814Z",
+    "completedAt": "2026-11-14T10:50:41.366Z",
     "skipped": 0
   }
 }
