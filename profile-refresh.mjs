@@ -94,25 +94,25 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
    const v=p.verification,hosts=officialHosts(p);
    const sources=Array.isArray(v?.sources)?v.sources.filter(s=>s?.url&&s?.hash):[];
    if (!sources.length) {
-    report.errors.push({platform:p.id,message:'No previously verified official sources; manual review required'});
+    state.platforms[index]={...p,sourceMonitor:{checkedAt:now,status:'no-verified-sources'}};
     return;
    }
    try {
     const checks=await Promise.all(sources.map(async s=>({url:s.url,hash:hash(await source(s.url,hosts))})));
     const unchanged=checks.every((s,i)=>s.hash===sources[i].hash);
     if (unchanged && v.status==='verified' && CHECKS.every(f=>(v.fields||[]).includes(f)) && v.factHash===hash(JSON.stringify(facts(p)))) {
-     state.platforms[index]={...p,lastAttemptAt:now,verification:{...v,attemptedAt:now,checkedAt:now,method:'unchanged-verified-official-sources'}};
+     state.platforms[index]={...p,lastAttemptAt:now,sourceMonitor:{checkedAt:now,status:'unchanged'},verification:{...v,attemptedAt:now,checkedAt:now,method:'unchanged-verified-official-sources'}};
      delete state.platforms[index].lastCheckError;
      report.cached++;
     } else if (!unchanged) {
-     state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:'Official source changed; manual verification needed',verification:{...v,status:'stale',attemptedAt:now}};
+     state.platforms[index]={...p,lastAttemptAt:now,sourceMonitor:{checkedAt:now,status:'changed'},lastCheckError:'Official source changed; manual verification needed',verification:{...v,status:'stale',attemptedAt:now}};
      report.errors.push({platform:p.id,message:'Official source changed; manual verification needed'});
     } else {
      // Preserve earlier failed/partial status; never upgrade merely because pages are unchanged.
-     state.platforms[index]={...p,lastAttemptAt:now};
+     state.platforms[index]={...p,lastAttemptAt:now,sourceMonitor:{checkedAt:now,status:'unchanged-unverified'}};
     }
    } catch(e) {
-    state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:e.message};
+    state.platforms[index]={...p,lastAttemptAt:now,sourceMonitor:{checkedAt:now,status:'fetch-failed'},lastCheckError:e.message};
     report.errors.push({platform:p.id,message:e.message});
    }
    return;
@@ -131,7 +131,7 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
    report.errors.push(...errors.map(e=>({platform:p.id,...e})));
   }catch(e){state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:e.message,verification:{...p.verification,status:'failed',attemptedAt:now,checkedAt:p.verification?.checkedAt||null}};report.errors.push({platform:p.id,message:e.message});}
  }
- const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY)).sort((a,b)=>(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||'')).slice(0,batchLimit);
+ const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>process.env.FREE_SOURCE_ONLY==='1' ? !recent(p.sourceMonitor?.checkedAt,now,DAY) : (!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY))).sort((a,b)=>(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||'')).slice(0,batchLimit);
  for(let i=0;i<queue.length;i+=concurrency){if(clock()-started>=timeBudgetMs)break;await Promise.all(queue.slice(i,i+concurrency).map(({p,index})=>check(p,index)));summarize();await onProgress(state,report);}
  report.scheduled=queue.length;report.skipped=queue.length-report.attempted;
  state.candidates=candidatesFor(state,now);
