@@ -48,12 +48,13 @@ test('Responses transport handles mixed output, authentication and error cases',
   }
 });
 
-test('legacy paid Trendar command is blocked before reading data or making requests',async()=>{
+test('legacy paid Trendar and unbudgeted news commands are blocked before reading data or making requests',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-disabled-profiles-'));
  try{
-  for(const file of ['update.mjs','data-core.mjs','openai.mjs','news-budget.mjs'])await copyFile(file,join(dir,file));
+  for(const file of ['update.mjs','data-core.mjs','openai.mjs','news-budget.mjs','ai-news.mjs'])await copyFile(file,join(dir,file));
   await writeFile(join(dir,'mock.mjs'),"globalThis.fetch=async()=>{throw Error('Unexpected API request');};");
   await assert.rejects(run(process.execPath,['--import',join(dir,'mock.mjs'),'update.mjs','--profiles'],{cwd:dir,env:{...process.env,OPENAI_API_KEY:'fixture-only'}}),/Paid Trendar updates are disabled/);
+  await assert.rejects(run(process.execPath,['--import',join(dir,'mock.mjs'),'ai-news.mjs'],{cwd:dir,env:{...process.env,OPENAI_API_KEY:'fixture-only',YOUTUBE_API_KEY:'fixture-only'}}),/Legacy news updater disabled/);
   await assert.rejects(readFile(join(dir,'site-data.json')),/ENOENT/);
  }finally{await rm(dir,{recursive:true,force:true});}
 });
