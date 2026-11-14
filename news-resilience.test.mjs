@@ -9,7 +9,7 @@ const run=promisify(execFile);
 test('RSS ingestion and rejection cache avoid repeated AI calls; outages persist diagnostics without false freshness',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-resilience-'));
  try{
-  for(const f of ['update.mjs','data-core.mjs','openai.mjs'])await copyFile(f,join(dir,f));
+  for(const f of ['update.mjs','data-core.mjs','openai.mjs','news-budget.mjs'])await copyFile(f,join(dir,f));
   const old={platforms:[],news:[],sources:[],newsCheckedAt:'2026-01-01T00:00:00Z'};
   await writeFile(join(dir,'site-data.json'),JSON.stringify(old));
   await writeFile(join(dir,'sources.json'),JSON.stringify({channels:[{id:'fixture',handle:'@fixture',enabled:true}]}));

@@ -7,10 +7,11 @@ function retryDelay(header, attempt) {
   if (Number.isFinite(date)) return Math.min(60000, Math.max(0, date - Date.now()) + Math.random() * 1000);
   return Math.min(30000, 2000 * 2 ** attempt + Math.random() * 1000);
 }
-export async function responseText({apiKey = process.env.OPENAI_API_KEY, ...request}) {
+export async function responseText({apiKey = process.env.OPENAI_API_KEY, beforeRequest, ...request}) {
   if (!apiKey) throw Error('OPENAI_API_KEY is required; existing files unchanged.');
   let response;
   for (let attempt = 0; attempt < 3; attempt++) {
+    if(beforeRequest)await beforeRequest(request);
     response = await fetch('https://api.openai.com/v1/responses', {
       method: 'POST',
       headers: {'content-type': 'application/json', authorization: `Bearer ${apiKey}`},

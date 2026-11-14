@@ -51,9 +51,16 @@ test('Responses transport handles mixed output, authentication and error cases',
 test('legacy paid Trendar command is blocked before reading data or making requests',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-disabled-profiles-'));
  try{
-  for(const file of ['update.mjs','data-core.mjs','openai.mjs'])await copyFile(file,join(dir,file));
+  for(const file of ['update.mjs','data-core.mjs','openai.mjs','news-budget.mjs'])await copyFile(file,join(dir,file));
   await writeFile(join(dir,'mock.mjs'),"globalThis.fetch=async()=>{throw Error('Unexpected API request');};");
   await assert.rejects(run(process.execPath,['--import',join(dir,'mock.mjs'),'update.mjs','--profiles'],{cwd:dir,env:{...process.env,OPENAI_API_KEY:'fixture-only'}}),/Paid Trendar updates are disabled/);
   await assert.rejects(readFile(join(dir,'site-data.json')),/ENOENT/);
  }finally{await rm(dir,{recursive:true,force:true});}
+});
+test('spending guard runs before each HTTP attempt and can stop a retry before sending it',async t=>{
+ let sent=0,reserved=0;
+ t.mock.method(globalThis,'fetch',async()=>{sent++;return new Response('',{status:503});});
+ t.mock.method(globalThis,'setTimeout',callback=>{queueMicrotask(callback);return 0;});
+ await assert.rejects(responseText({apiKey:'fixture-only',model:'gpt-5.6-luna',beforeRequest:async()=>{reserved++;if(reserved>1)throw Error('Budget exhausted');}}),/Budget exhausted/);
+ assert.equal(reserved,2);assert.equal(sent,1);
 });
