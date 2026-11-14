@@ -51,8 +51,9 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_NEWS_MODEL: ${{ vars.OPENAI_NEWS_MODEL }}
           OPENAI_PROFILE_MODEL: ${{ vars.OPENAI_PROFILE_MODEL }}
+          FREE_SOURCE_ONLY: '1'
           PROFILE_CONCURRENCY: '1'
-          PROFILE_BATCH_LIMIT: '2'
+          PROFILE_BATCH_LIMIT: '49'
           NEW_PROFILE_LIMIT: '0'
           EVENT_NAME: ${{ github.event_name }}
         run: |
