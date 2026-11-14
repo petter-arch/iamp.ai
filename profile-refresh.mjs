@@ -88,6 +88,35 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
  }
  async function check(p,index){
   report.attempted++;
+  if (process.env.FREE_SOURCE_ONLY === '1') {
+   // Free-only mode: fetch already known official pages, compare hashes, and never call an AI API.
+   // An unchanged page is NOT evidence that a previously failed verification has succeeded.
+   const v=p.verification,hosts=officialHosts(p);
+   const sources=Array.isArray(v?.sources)?v.sources.filter(s=>s?.url&&s?.hash):[];
+   if (!sources.length) {
+    report.errors.push({platform:p.id,message:'No previously verified official sources; manual review required'});
+    return;
+   }
+   try {
+    const checks=await Promise.all(sources.map(async s=>({url:s.url,hash:hash(await source(s.url,hosts))})));
+    const unchanged=checks.every((s,i)=>s.hash===sources[i].hash);
+    if (unchanged && v.status==='verified' && CHECKS.every(f=>(v.fields||[]).includes(f)) && v.factHash===hash(JSON.stringify(facts(p)))) {
+     state.platforms[index]={...p,lastAttemptAt:now,verification:{...v,attemptedAt:now,checkedAt:now,method:'unchanged-verified-official-sources'}};
+     delete state.platforms[index].lastCheckError;
+     report.cached++;
+    } else if (!unchanged) {
+     state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:'Official source changed; manual verification needed',verification:{...v,status:'stale',attemptedAt:now}};
+     report.errors.push({platform:p.id,message:'Official source changed; manual verification needed'});
+    } else {
+     // Preserve earlier failed/partial status; never upgrade merely because pages are unchanged.
+     state.platforms[index]={...p,lastAttemptAt:now};
+    }
+   } catch(e) {
+    state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:e.message};
+    report.errors.push({platform:p.id,message:e.message});
+   }
+   return;
+  }
   try{
    const v=p.verification,hosts=officialHosts(p);
    // Only a previously COMPLETE audit can be renewed from unchanged sources.
