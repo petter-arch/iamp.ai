@@ -1,6 +1,178 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Can AI actually make game-ready 3D models, or is it all just pretty renders? In this video I test Tripo Smart Mesh P2.0 by running",
+    "evidenceIds": [
+      5,
+      7,
+      14
+    ],
+    "id": "CA3RwObZyNU",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Use New AI testar Tripo Smart Mesh P2.0 i ett komplett spelarbetsflöde",
+    "sum": "Use New AI beskriver hur Tripo Smart Mesh P2.0 används för att skapa en spelklar figur och fyra rekvisita, med quad-topologi, triangelläge, lokal omgenerering och import till Unity.",
+    "full": "Kan AI skapa 3D-modeller som fungerar i spel, och inte bara snygga renderingar? Det är huvudfrågan i Use New AI:s video om Tripo Smart Mesh P2.0. Kanalen beskriver ett komplett arbetsflöde för en game jam: en figur, fyra rekvisita och en spelbar prototyp i Unity.\n\nFör deformerbara objekt lyfter videobeskrivningen fram quad-läge med upp till 25 000 quads. Figuren ska få ren quad-topologi med kantloopar som följer axlar, leder och ansikte, vilket enligt kanalens upplägg gör den redo för riggning. För styva objekt som svärd, sköld, kista och lykta används i stället triangel-läge med upp till 50 000 trianglar.\n\nArbetsflödet innehåller också lokal redigering. Med den funktionen kan en del, exempelvis händerna, omgenereras utan att hela figuren behöver skapas om. Use New AI nämner dessutom kontroller för symmetri och proportioner samt en förbättrad vy från flera riktningar: en primär vy och upp till tre extra vyer.\n\nKanalen uppger att modellerna importeras till Unity, där figuren riggas och en mindre scen byggs. Scenen innehåller en gående figur, en kista som öppnas och en lykta som lyser upp rummet. Beskrivningen anger även att tillgångarna fungerar i Blender, Maya, Unreal och Roblox Studio. Use New AI uppger att inga hål förekom i den egna testningen, men detta är kanalens rapport och inte ett oberoende test.",
+    "deep": "Videobeskrivningen skiljer tydligt mellan modelltyper och deras avsedda geometri. Quad-läget är avsett för objekt som deformeras, medan triangel-läget riktas mot styva rekvisita. Den anger också separata gränser: upp till 25 000 quads i quad-läge och upp till 50 000 trianglar i triangel-läge.\n\nDet centrala användningsfallet är inte en enskild modell utan en sammanhängande kedja från AI-generering till spelprototyp. Use New AI beskriver hur samma arbetsflöde omfattar figur, rekvisita, riggning, interaktioner och scenbelysning i Unity. Beskrivningen riktar sig särskilt till indiespelutvecklare och Roblox-skapare samt till användare som vill minska tiden för manuell retopologi.\n\nKällan innehåller även en sponsrings- och affiliatelänk till Tripo, men den är inte en del av artikelns sakuppgifter. Uppgifterna om funktioner, kompatibla program och testresultat återges därför som påståenden från den namngivna kanalen.",
+    "en": {
+      "ttl": "Use New AI tests Tripo Smart Mesh P2.0 in a complete game workflow",
+      "sum": "Use New AI describes using Tripo Smart Mesh P2.0 to create a game-ready character and four props, with quad topology, triangle mode, local regeneration, and import into Unity.",
+      "full": "Can AI create 3D models that work in games rather than just attractive renders? That is the central question in Use New AI’s video about Tripo Smart Mesh P2.0. The channel describes a complete game-jam workflow: one character, four props, and a playable Unity prototype.\n\nFor deformable objects, the description highlights quad mode with up to 25,000 quads. The character is described as having clean quad topology with edge loops flowing around the shoulders, joints, and face, making it rig-ready according to the channel’s workflow. For rigid objects such as a sword, shield, chest, and lantern, triangle mode supports up to 50,000 triangles.\n\nThe workflow also includes local editing. This allows one part, such as the hands, to be regenerated without recreating the entire character. Use New AI also mentions symmetry and proportion controls, along with improved multi-view input: one primary view and up to three additional views.\n\nThe channel says the models are imported into Unity, where the character is rigged and a small scene is built. The scene includes a walking character, an opening chest, and a lantern that lights the room. The description also states that the assets work in Blender, Maya, Unreal, and Roblox Studio. Use New AI reports that no holes appeared in its testing, but this is the channel’s account, not an independent test.",
+      "deep": "The video description clearly distinguishes between model types and their intended geometry. Quad mode is intended for objects that deform, while triangle mode targets rigid props. It gives separate limits: up to 25,000 quads in quad mode and up to 50,000 triangles in triangle mode.\n\nThe main use case is not a single model but a connected pipeline from AI generation to a game prototype. Use New AI describes a workflow covering the character, props, rigging, interactions, and scene lighting in Unity. The description is aimed particularly at indie game developers and Roblox creators, as well as users who want to reduce the time spent on manual retopology.\n\nThe source also contains a sponsorship and affiliate link to Tripo, but that is not part of the article’s factual content. Claims about features, compatible software, and testing results are therefore attributed to the named channel."
+    },
+    "cat": "3d",
+    "date": "2026-11-15T08:55:06Z",
+    "meta": "Use New AI · 2026-11-15",
+    "url": "https://www.youtube.com/watch?v=CA3RwObZyNU",
+    "img": "https://i.ytimg.com/vi/CA3RwObZyNU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Use New AI"
+    ],
+    "parts": [],
+    "views": 14,
+    "buzz": 34,
+    "sourceCheckedAt": "2026-11-15T09:24:20.652Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "c9d0783b599054b5c8133a939464e332632ad83e2b307b4d559df981c9251d46",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo Smart Mesh P2.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Looking for the best AI 3D model generator in 2026? In this video, we test the Tripo AI image to 3d workflow to turn flat",
+    "evidenceIds": [
+      1
+    ],
+    "id": "FC8QGAZRJWE",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "AI Matrix granskar Tripo AI:s arbetsflöde för 3D-modeller från bilder",
+    "sum": "AI Matrix testar Tripo AI:s arbetsflöde för att omvandla platta 2D-promptar till interaktiva 3D-tillgångar, förbättra texturer till 8K och exportera GLB-filer.",
+    "full": "AI Matrix granskar Tripo AI som en möjlig AI-baserad generator för 3D-modeller. Enligt kanalens beskrivning testas ett image-to-3D-arbetsflöde där platta 2D-promptar omvandlas till interaktiva 3D-tillgångar.\n\nArbetsflödet omfattar modellgenerering, texturförbättring till 8K och export av resultatet som GLB-filer. Beskrivningen anger däremot inte vilka indata, begränsningar eller kvalitetsnivåer som används i testet, så artikeln kan inte fastställa hur resultatet står sig mot andra verktyg.\n\nFör skapare pekar det beskrivna användningsfallet mot en kedja från en text- eller bildbaserad idé till en användbar 3D-tillgång. GLB-exporten är den konkreta leveransfunktionen som nämns, medan den påstådda 8K-förbättringen gäller texturerna. AI Matrix betonar samtidigt att verktyg och funktioner kan förändras över tid.",
+    "deep": "Kanalens titel formulerar frågan om Tripo AI är den bästa AI-generatorn för 3D-modeller 2026, men beskrivningen bevisar inte någon sådan rangordning. Det som faktiskt stöds är att AI Matrix uppger att de testar Tripo AI:s image-to-3D-arbetsflöde.\n\nDet specificerade flödet består av tre delar: att skapa modeller från platta 2D-promptar, att förbättra texturer till 8K och att exportera modellerna i GLB-format. Källan nämner inga resultatmått, jämförelseverktyg, modellversioner, exportbegränsningar eller uppgifter om hur väl geometrin bevarar detaljer. Videon bör därför beskrivas som kanalens test och inte som en oberoende verifiering.\n\nBeskrivningen innehåller också en generell reservation om att visade verktyg och funktioner kan ändras över tid. Den ger inga uppgifter om produktens lanseringsdatum eller om ett specifikt 2026-släpp.",
+    "en": {
+      "ttl": "AI Matrix reviews Tripo AI’s workflow for generating 3D models from images",
+      "sum": "AI Matrix tests Tripo AI’s image-to-3D workflow for turning flat 2D prompts into interactive 3D assets, enhancing textures to 8K, and exporting GLB files.",
+      "full": "AI Matrix reviews Tripo AI as a possible AI-based 3D model generator. According to the channel’s description, the video tests an image-to-3D workflow that turns flat 2D prompts into interactive 3D assets.\n\nThe workflow includes model generation, texture enhancement to 8K, and export of the results as GLB files. The description does not state which inputs, limitations, or quality levels are used in the test, so the article cannot establish how the result compares with other tools.\n\nFor creators, the described use case points to a pipeline from a text- or image-based idea to a usable 3D asset. GLB export is the concrete delivery feature mentioned, while the claimed 8K enhancement applies to textures. AI Matrix also notes that tools and features may change over time.",
+      "deep": "The channel’s title asks whether Tripo AI is the best AI 3D model generator in 2026, but the description does not prove such a ranking. What is supported is that AI Matrix says it tests Tripo AI’s image-to-3D workflow.\n\nThe specified workflow has three parts: generating models from flat 2D prompts, enhancing textures to 8K, and exporting models in GLB format. The source provides no performance metrics, comparison tools, model versions, export limitations, or information about how well geometry preserves detail. The video should therefore be described as the channel’s test, not as an independently verified result.\n\nThe description also includes a general caveat that the tools and features shown may change over time. It gives no product release date or information about a specific 2026 release."
+    },
+    "cat": "3d",
+    "date": "2026-11-15T04:46:30Z",
+    "meta": "AI Matrix · 2026-11-15",
+    "url": "https://www.youtube.com/watch?v=FC8QGAZRJWE",
+    "img": "https://i.ytimg.com/vi/FC8QGAZRJWE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Matrix"
+    ],
+    "parts": [],
+    "views": 3460,
+    "buzz": 62,
+    "sourceCheckedAt": "2026-11-15T09:24:20.652Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "7ab2bcee98cda261e75e0c6c1ddbe0f16645ad9177b29d618bcd5ecb20cb6917",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo AI"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "A closer look at Tripo AI using a public gallery robot: compare its front, side, and back views, rotate the 3D model, and inspect the",
+    "evidenceIds": [
+      1
+    ],
+    "id": "YVrBGwXV9n8",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Tripo AI visar upp en 3D-robot från fyra vyer",
+    "sum": "Kanalen 딸깍코딩 granskar en robotmodell i Tripo AI:s offentliga galleri, jämför fram-, sido- och bakvyer och undersöker modellens mesh. Videon går även igenom Tripo AI:s text-till-3D-arbetsflöde, men någon ny modell genererades inte eftersom Studio krävde inloggning.",
+    "full": "YouTube-kanalen 딸깍코딩 gör en närstudie av en 3D-robot i Tripo AI:s offentliga galleri. Fokus ligger på samma modell sedd från fyra håll: framifrån, från sidan och bakifrån, samt genom att rotera den i 3D på modellsidan. Genomgången granskar också modellens mesh-detaljer.\n\nVideon tar dessutom upp Tripo AI:s officiella text-till-3D-arbetsflöde och en Instagram-demonstration från Tripo. Det handlar alltså både om inspektion av en färdig gallerimodell och om hur Tripo AI beskriver sin text-till-3D-process. Kanalen framställer däremot inte materialet som ett oberoende prestandatest.\n\nIngen ny modell skapades under genomgången. Enligt beskrivningen krävde Studio inloggning, vilket begränsade videon till granskning av den offentligt tillgängliga robotmodellen och presentation av det officiella arbetsflödet.\n\nGalleriet anger att just detta exempel har quad-topologi, 6 019 polygonala ytor och 5 443 hörn. Uppgifterna gäller den aktuella modellen och ska inte tolkas som ett benchmark eller som representativa värden för Tripo AI:s alla genererade modeller.",
+    "deep": "Den granskade modellen är en humanoid stridsrobot med vit och grå bepansring samt synliga mekaniska delar. Källbeskrivningen kopplar gallerimodellen till Ashon Israel och skiljer uttryckligen modellens listade geometri från en generell utvärdering av tjänsten.\n\nVideon innehåller engelskt tal av Alex med en sv_US-lokaliserad berättarröst, medan engelska och koreanska undertexter är inbrända. Beskrivningen hänvisar till Tripo AI:s dokumentation för text-till-3D, prissida, Instagram-demonstration och den specifika gallerisidan för robotmodellen.",
+    "en": {
+      "ttl": "Tripo AI showcases a 3D robot from four views",
+      "sum": "The channel 딸깍코딩 examines a robot model in Tripo AI's public gallery, compares front, side and rear views, and inspects the model's mesh. The video also covers Tripo AI's text-to-3D workflow, but no new model was generated because Studio required sign-in.",
+      "full": "The YouTube channel 딸깍코딩 takes a close look at a 3D robot in Tripo AI's public gallery. The focus is the same model viewed from four angles: front, side and rear, along with rotating it in 3D on its model page. The presentation also examines the model's mesh details.\n\nThe video additionally covers Tripo AI's official text-to-3D workflow and an Instagram demonstration from Tripo. It therefore combines an inspection of a finished gallery model with an overview of how Tripo AI describes its text-to-3D process. The channel does not present the material as an independent performance test.\n\nNo new model was generated during the walkthrough. According to the description, Studio required sign-in, limiting the video to examining the publicly available robot model and presenting the official workflow.\n\nThe gallery lists this particular example as having quad topology, 6,019 faces and 5,443 vertices. These figures apply to this model only and should not be treated as a benchmark or as representative values for all models generated by Tripo AI.",
+      "deep": "The inspected model is a humanoid combat robot with white and gray armor and exposed mechanical parts. The source description attributes the gallery model to Ashon Israel and explicitly distinguishes the model's listed geometry from a general evaluation of the service.\n\nThe video features Alex narrating in en_US English, with English and Korean captions burned into the video. The description links to Tripo AI's text-to-3D documentation, pricing page, Instagram demonstration and the specific gallery page for the robot model."
+    },
+    "cat": "3d",
+    "date": "2026-11-14T22:47:03Z",
+    "meta": "딸깍코딩 · 2026-11-14",
+    "url": "https://www.youtube.com/watch?v=YVrBGwXV9n8",
+    "img": "https://i.ytimg.com/vi/YVrBGwXV9n8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "딸깍코딩"
+    ],
+    "parts": [],
+    "views": 5,
+    "buzz": 29,
+    "sourceCheckedAt": "2026-11-15T09:24:20.652Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "6b16f8e9199968db63694e0b7c2bd463deee5102cbe69703bae59c55d1555048",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Tripo AI"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "🔥 YT Create New Update आ गया है! अब आप सिर्फ 1 Click की मदद से FREE में LONG AI Videos बना सकते हैं। अगर",
+    "evidenceIds": [
+      3,
+      4,
+      7
+    ],
+    "id": "fOyYqbuzFos",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "YT Create-uppdatering ska kunna skapa långa AI-videor med ett klick",
+    "sum": "Ctechandroid beskriver en ny uppdatering av YT Create med en AI-videogenerator som enligt kanalens uppgifter kan skapa långa videor gratis, inklusive tecknade videor, med ett klick.",
+    "full": "Ctechandroid presenterar en ny uppdatering av YT Create som enligt kanalens beskrivning fokuserar på att förenkla produktionen av långa AI-videor. Kanalen uppger att användare ska kunna skapa sådana videor gratis och med endast ett klick.\n\nBeskrivningen lyfter YT Create som en AI-videogenerator med funktioner för att generera långa videor, tecknade videor och berättelsebaserat innehåll. Arbetsflödet beskrivs som text-till-video och är riktat till användare som vill skapa innehåll för YouTube utan omfattande manuellt redigeringsarbete.\n\nCtechandroid säger också att videon går igenom hur YT Creates nya funktioner används, hur en tecknad AI-video kan skapas och hur AI-videor kan förberedas för YouTube. Kanalens beskrivning anger däremot inte den maximala videolängden, tekniska begränsningar, exportformat eller vilka abonnemangsvillkor som gäller för den påstådda kostnadsfria funktionen.\n\nMaterialet presenteras som en handledning för AI-baserad videoproduktion, bland annat för långa YouTube-videor, automatiserade berättelsevideor och animerat innehåll. Ctechandroid betonar i sin ansvarsfriskrivning att AI-genererat innehåll ska användas ansvarsfullt och följa YouTubes riktlinjer samt upphovsrättspolicy.",
+    "deep": "Den centrala uppgiften från Ctechandroid är att YT Create har fått en uppdatering med en AI-videogenerator. Kanalens beskrivning kopplar uppdateringen till flera konkreta användningsfall: långa AI-videor, tecknade videor, berättelsevideor och animerat innehåll.\n\nDet påstådda arbetsflödet bygger på förenklad generering. Beskrivningen nämner skapande med ett klick, text-till-video och videor utan redigering. Den säger även att verktyget kan användas för YouTube-innehåll och att videon visar hur funktionerna används i praktiken.\n\nBeskrivningen innehåller inga uppgifter som verifierar faktisk videolängd, bildkvalitet, språkstöd, modell, bearbetningstid eller resultatens konsekvens. Uppgifterna bör därför förstås som Ctechandroids presentation av uppdateringen, inte som ett oberoende test eller en bekräftelse av YT Creates prestanda. Videons uppladdningsdatum används inte som releasedatum för produkten eller uppdateringen.",
+    "en": {
+      "ttl": "YT Create update is said to create long AI videos with one click",
+      "sum": "Ctechandroid describes a new YT Create update with an AI video generator that, according to the channel, can create long videos for free, including cartoon videos, with one click.",
+      "full": "Ctechandroid presents a new YT Create update focused, according to the channel’s description, on simplifying the production of long AI videos. The channel says users should be able to create such videos for free and with a single click.\n\nThe description highlights YT Create as an AI video generator with features for generating long videos, cartoon videos and story-based content. The workflow is described as text to video and is aimed at users who want to create YouTube content without extensive manual editing.\n\nCtechandroid also says the video explains how to use YT Create’s new features, create an AI cartoon video and prepare AI videos for YouTube. However, the description does not state the maximum video length, technical limitations, export formats or subscription terms for the claimed free feature.\n\nThe material is presented as a tutorial for AI-based video production, including long YouTube videos, automated story videos and animated content. Ctechandroid’s disclaimer states that AI-generated content should be used responsibly and comply with YouTube guidelines and copyright policies.",
+      "deep": "The central claim from Ctechandroid is that YT Create has received an update with an AI video generator. The channel’s description connects the update to several concrete use cases: long AI videos, cartoon videos, story videos and animated content.\n\nThe claimed workflow is based on simplified generation. The description mentions one-click creation, text to video and videos without editing. It also says the tool can be used for YouTube content and that the video demonstrates how the features work.\n\nThe description provides no information verifying actual video length, image quality, language support, model, processing time or output consistency. The claims should therefore be understood as Ctechandroid’s presentation of the update, not as an independent test or confirmation of YT Create’s performance. The upload date is not treated as the product or update release date."
+    },
+    "cat": "film",
+    "date": "2026-11-14T16:53:20Z",
+    "meta": "Ctechandroid · 2026-11-14",
+    "url": "https://www.youtube.com/watch?v=fOyYqbuzFos",
+    "img": "https://i.ytimg.com/vi/fOyYqbuzFos/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Ctechandroid"
+    ],
+    "parts": [],
+    "views": 21,
+    "buzz": 36,
+    "sourceCheckedAt": "2026-11-15T09:24:20.652Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "ad887027262311133b15ec2609ea05636972180f52a211fe5389fc060d388a39",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "YT Create"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Minecraft 3D Model Generator: AI Sunflower in Blockbench I typed one sentence and got a full 3D sunflower model 🌻 201 cubes, built and ready",
     "evidenceIds": [
       0,
@@ -41,6 +213,46 @@
     "newPlatforms": [
       "Minecraft 3D Model Generator"
     ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Join us as Tripo walks through how their services provide AI 3D model generation for Unreal Engine and UEFN. They'll demo how to generate game-ready",
+    "evidenceIds": [
+      1
+    ],
+    "id": "l36-JZR0geU",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Tripo visar AI-generering av spelklara 3D-modeller för Unreal Engine och UEFN",
+    "sum": "I en genomgång för Epic AI MegaJam visar Tripo hur tjänsten kan skapa spelklara 3D-modeller från text eller bilder på några sekunder. Kanalen Fortnite Developers beskriver även funktioner för kvadertopologi, justerbart polygonantal, smart UV-mappning, automatisk riggning och animation.",
+    "full": "Fortnite Developers beskriver en genomgång där Tripo visar hur deras tjänster används för AI-baserad 3D-modellgenerering i Unreal Engine och UEFN. Huvudfokus ligger på att skapa spelklara 3D-modeller från textbeskrivningar eller bilder på några sekunder.\n\nEnligt beskrivningen omfattar arbetsflödet ren kvadertopologi och möjlighet att justera antalet polygoner. Det ger användaren kontroll över modellernas geometriska detaljnivå inom det arbetsflöde som demonstreras, även om beskrivningen inte anger specifika kvalitetsnivåer, exportformat eller prestandamätningar.\n\nTripo visar också inbyggda verktyg för efterbearbetning. Dessa inkluderar smart UV-mappning, automatisk riggning och animation. Tillsammans pekar funktionerna på ett AI-stött arbetsflöde som går längre än att enbart generera en statisk modell och är inriktat på användning i spelprojekt för Unreal Engine och UEFN.\n\nArtikeln bygger på utgivarens beskrivning av genomgången från Fortnite Developers. Ingen oberoende testning eller egen granskning av Tripo ingår.",
+    "deep": "Beskrivningen anger två indataformat för genereringen: text och bilder. Den specificerar också att modellerna ska kunna göras spelklara, men ger inga närmare uppgifter om vilka spelklara krav som uppfylls eller hur resultaten exporteras till Unreal Engine och UEFN.\n\nDen angivna efterbearbetningen består av smart UV-mappning, automatisk riggning och animation. Beskrivningen säger inte hur mycket manuella justeringar som krävs, vilka animationsfunktioner som ingår eller vilka begränsningar som gäller för topologi och polygonantal. Därför går det inte att dra slutsatser om resultatens kvalitet eller användbarhet utöver det som Fortnite Developers uppger i videobeskrivningen.",
+    "en": {
+      "ttl": "Tripo demonstrates AI generation of game-ready 3D models for Unreal Engine and UEFN",
+      "sum": "In a presentation for Epic AI MegaJam, Tripo demonstrates how its service can create game-ready 3D models from text or images in seconds. The Fortnite Developers channel also describes features for quad topology, adjustable polygon counts, smart UV mapping, automatic rigging and animation.",
+      "full": "Fortnite Developers describes a presentation in which Tripo demonstrates AI-based 3D model generation for Unreal Engine and UEFN. The main focus is creating game-ready 3D models from text descriptions or images in seconds.\n\nAccording to the description, the workflow includes clean quad topology and the ability to adjust polygon counts. This gives users control over the models' geometric detail within the demonstrated workflow, although the description provides no specific quality levels, export formats or performance measurements.\n\nTripo also demonstrates built-in post-processing tools. These include smart UV mapping, automatic rigging and animation. Together, the features indicate an AI-assisted workflow that goes beyond generating a static model and is aimed at game projects for Unreal Engine and UEFN.\n\nThis article is based on the publisher's description of the presentation from Fortnite Developers. It does not include independent testing or an original review of Tripo.",
+      "deep": "The description identifies two input formats for generation: text and images. It also states that the models can be made game-ready, but provides no further details about which game-ready requirements are met or how the results are exported to Unreal Engine and UEFN.\n\nThe listed post-processing consists of smart UV mapping, automatic rigging and animation. The description does not explain how much manual adjustment is required, which animation functions are included or what limitations apply to topology and polygon counts. Therefore, no conclusions can be drawn about output quality or usability beyond what Fortnite Developers states in the video description."
+    },
+    "cat": "3d",
+    "date": "2026-11-14T09:09:10Z",
+    "meta": "Fortnite Developers · 2026-11-14",
+    "url": "https://www.youtube.com/watch?v=l36-JZR0geU",
+    "img": "https://i.ytimg.com/vi/l36-JZR0geU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Fortnite Developers"
+    ],
+    "parts": [],
+    "views": 560,
+    "buzz": 53,
+    "sourceCheckedAt": "2026-11-15T09:24:20.652Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "b357575059196c84f556072cea6afe8a64b550d16335e196ebbab8e49b2f805f",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
   },
   {
     "editorialStatus": "approved",
