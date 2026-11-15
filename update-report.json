@@ -1,43 +1,43 @@
 {
-  "startedAt": "2026-11-15T09:24:20.652Z",
+  "startedAt": "2026-11-15T19:45:41.101Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
+      "checkedAt": "2026-11-15T19:45:41.101Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
+      "checkedAt": "2026-11-15T19:45:41.101Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
-      "found": 2
+      "checkedAt": "2026-11-15T19:45:41.101Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
+      "checkedAt": "2026-11-15T19:45:41.101Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
-      "found": 2
+      "checkedAt": "2026-11-15T19:45:41.101Z",
+      "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
+      "checkedAt": "2026-11-15T19:45:41.101Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-15T09:24:20.652Z",
+      "checkedAt": "2026-11-15T19:45:41.101Z",
       "found": 8
     }
   },
-  "apiCalls": 14,
-  "cacheHits": 172,
+  "apiCalls": 10,
+  "cacheHits": 189,
   "rssChannels": 35,
   "selection": {
-    "fetched": 184,
-    "relevant": 51,
+    "fetched": 189,
+    "relevant": 52,
     "supported": 41
   },
   "rejected": [
@@ -62,6 +62,15 @@
       ]
     },
     {
+      "video": "rn6a9w7494A",
+      "title": "UniSpark: One Model That Understands, Generates, AND Edits Images",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
+      ]
+    },
+    {
       "video": "ZKsL8I7Kyqc",
       "title": "MiniMax H3 Image Edit in ComfyUI on Low VRAM - Edit Any Photo Locally (Free Workflow)",
       "stage": "classification-evidence",
@@ -69,6 +78,15 @@
         1,
         2,
         24
+      ]
+    },
+    {
+      "video": "IF9D8WbNmYk",
+      "title": "Motphys releases MotrixSim 1.0 #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2
       ]
     },
     {
@@ -117,21 +135,11 @@
       ]
     },
     {
-      "video": "rn6a9w7494A",
-      "title": "UniSpark: One Model That Understands, Generates, AND Edits Images",
+      "video": "NV-H7jU9WnQ",
+      "title": "Denoise for JPEG is INSANE 🔥 #CameraRaw #Photoshop",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "IF9D8WbNmYk",
-      "title": "Motphys releases MotrixSim 1.0 #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2
+        0
       ]
     },
     {
@@ -140,9 +148,19 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "woWo80dPkVk",
-      "title": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
+      "video": "JZoqCoUefmI",
+      "title": "AI Movie Generation Bots - LIVE Stream",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "woWo80dPkVk",
+      "title": "Gemini 4 Carbon & Hydrogen, realtime voices, new TTS, 3D models, Seedream 5.5: AI NEWS",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        4,
+        5,
+        7
+      ]
     },
     {
       "video": "9RIK3A24ZxA",
@@ -155,6 +173,14 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "lsmYM8IjDWQ",
+      "title": "Minecraft 3D Model Generator: AI Dragon Wyvern in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "L0fLLr5Oej0",
       "title": "How I Use Claude in My Video Edits",
       "stage": "insufficient-article-source"
@@ -165,18 +191,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "0O8sCEQlhP0",
-      "title": "Chhath Puja Ai Photo Editing 2026 | Chatgpt Chhath Puja Photo Editing Prompts | Chhath Puja Editing",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "D3_uk3QW6x0",
-      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
+      "video": "1fMy7yHoDus",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #Ai",
       "stage": "insufficient-article-source"
     },
     {
       "video": "iQiNiIh2XSg",
       "title": "Tripo AI: Four Views, One 3D Model #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "D3_uk3QW6x0",
+      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
       "stage": "insufficient-article-source"
     },
     {
@@ -191,20 +217,25 @@
       "evidenceIds": [
         1
       ]
+    },
+    {
+      "video": "ntiJ5BjsdWQ",
+      "title": "99% OFF FOR NEW USERS?! SEEDANCE 2.5 ON IT'S OFFICIAL WEBSITE",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5,
-  "completedAt": "2026-11-15T09:25:36.989Z",
+  "accepted": 1,
+  "completedAt": "2026-11-15T19:46:44.268Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 14,
+    "runRequests": 10,
     "day": {
-      "requests": 14,
-      "reservedMicrousd": 198794
+      "requests": 24,
+      "reservedMicrousd": 342560
     },
     "month": {
-      "requests": 14,
-      "reservedMicrousd": 198794
+      "requests": 24,
+      "reservedMicrousd": 342560
     },
     "limits": {
       "dayMicrousd": 500000,
