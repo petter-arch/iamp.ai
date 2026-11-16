@@ -1,8 +1,197 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T09:41:26.638Z",
-  "newsCheckedAt": "2026-11-16T09:41:26.638Z",
+  "updatedAt": "2026-11-16T23:22:43.483Z",
+  "newsCheckedAt": "2026-11-16T23:22:43.483Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Qwen-Image-2.1 in ComfyUI: the free, open-source AI image model that does it all! 🚀 In this tutorial I show you how to use Qwen Image",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "jQZZOWY7Arg",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Qwen-Image-2.1 ger snabb lokal bildgenerering i ComfyUI",
+      "sum": "Olivio Sarikas visar hur Qwen-Image-2.1 och den snabba Turbo-versionen med åtta steg kan köras lokalt i ComfyUI för text-till-bild, bild-till-bild, AI-bildredigering och bakgrundsborttagning med transparent PNG-utdata.",
+      "full": "Olivio Sarikas beskriver Qwen-Image-2.1 som en kostnadsfri AI-bildmodell med öppen källkod för lokal användning i ComfyUI. I videon visar han ett arbetsflöde för text-till-bild, bild-till-bild, AI-bildredigering och bakgrundsborttagning, där resultatet kan exporteras som en transparent PNG-fil.\n\nEnligt kanalens beskrivning finns även en snabb Turbo-version som använder åtta steg. Modellen har 7 miljarder parametrar och uppges kunna köras snabbt lokalt. Beskrivningen lyfter dessutom fram modellens förmåga att återge text i bilder samt stöd för upp till tio referensbilder.\n\nDe exempel som nämns omfattar realistiska porträtt, produktbilder, affischer och 3D-karaktärer. Videon är upplagd som en ComfyUI-genomgång av hur modellen och dess lokala arbetsflöden används, inte som ett oberoende test eller en jämförande utvärdering.",
+      "deep": "Kanalens beskrivning pekar ut flera separata användningsområden i samma lokala modell: generering från text, omvandling från befintliga bilder, redigering med AI och friläggning av motiv. Bakgrundsborttagningen kopplas uttryckligen till transparent PNG-utdata, vilket gör arbetsflödet relevant för exempelvis produktbilder och affischmaterial.\n\nQwen-Image-2.1-modellerna anges finnas på Hugging Face. Beskrivningen ger inga detaljer om hårdvarukrav, licensvillkor, bildkvalitet jämfört med andra modeller, faktisk körhastighet eller resultaten från någon oberoende prövning. Dessa aspekter kan därför inte bedömas utifrån det tillgängliga källmaterialet.",
+      "en": {
+        "ttl": "Qwen-Image-2.1 brings fast local image generation to ComfyUI",
+        "sum": "Olivio Sarikas shows how Qwen-Image-2.1 and its fast eight-step Turbo version can run locally in ComfyUI for text-to-image, image-to-image, AI image editing and background removal with transparent PNG output.",
+        "full": "Olivio Sarikas describes Qwen-Image-2.1 as a free, open-source AI image model for local use in ComfyUI. The video demonstrates workflows for text-to-image, image-to-image, AI image editing and background removal, with results that can be exported as transparent PNG files.\n\nAccording to the channel’s description, the model also has a fast Turbo version that uses eight steps. It has 7 billion parameters and is described as running quickly locally. The description also highlights its ability to render text in images and its support for up to ten reference images.\n\nThe examples mentioned include realistic portraits, product shots, posters and 3D characters. The video is presented as a ComfyUI walkthrough for using the model and its local workflows, not as an independent test or comparative evaluation.",
+        "deep": "The channel’s description identifies several distinct uses in the same local model: generation from text, transformation of existing images, AI-based editing and subject cutouts. Background removal is explicitly linked to transparent PNG output, making the workflow relevant to areas such as product imagery and poster creation.\n\nThe Qwen-Image-2.1 models are stated to be available on Hugging Face. The description provides no details about hardware requirements, licensing terms, image quality compared with other models, actual runtime speed or results from independent testing. Those aspects therefore cannot be assessed from the available source material."
+      },
+      "cat": "foto",
+      "date": "2026-11-16T22:00:45Z",
+      "meta": "Olivio Sarikas · 2026-11-16",
+      "url": "https://www.youtube.com/watch?v=jQZZOWY7Arg",
+      "img": "https://i.ytimg.com/vi/jQZZOWY7Arg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Olivio Sarikas"
+      ],
+      "parts": [],
+      "views": 444,
+      "buzz": 52,
+      "sourceCheckedAt": "2026-11-16T23:22:43.483Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "74b4fc5b9c9eb3520d713600d715eb0dd26452202296a7d3e8836b8fd7141a0f",
+      "trusted": true,
+      "sourceId": "oliviosarikas",
+      "newPlatforms": [
+        "Qwen-Image-2.1"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Claude goes 3D The same rocket launch in 9 3D styles, every frame rendered from code Claude wrote with Three.js. All 37 styles and their",
+      "evidenceIds": [
+        0,
+        1
+      ],
+      "id": "ImT902GtpUY",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Claude skapar 3D-scener med kod i Three.js",
+      "sum": "Futurepedia visar hur Claude används för att skapa samma raketuppskjutning i nio 3D-stilar, där varje bildruta renderas från kod som Claude har skrivit med Three.js.",
+      "full": "Futurepedia beskriver ett 3D-arbetsflöde där Claude genererar kod med Three.js för att rendera en raketuppskjutning. Samma scen visas i nio olika 3D-stilar, vilket framhäver hur den kodbaserade processen kan användas för att variera det visuella uttrycket utan att byta motiv.\n\nEnligt kanalens beskrivning renderas varje bildruta från kod som Claude har skrivit. Det innebär att den centrala AI-utvecklingen i materialet är kopplingen mellan en generativ AI-modell, programkod och bildruta-för-bildruta-rendering i en 3D-miljö.\n\nFuturepedia uppger också att totalt 37 stilar och deras tillhörande instruktioner finns i den relaterade videon. Den angivna informationen visar däremot inte vilka de övriga stilarna är, hur koden är strukturerad eller vilka tekniska begränsningar arbetsflödet har.",
+      "deep": "Det konkreta användningsfallet som Futurepedia lyfter fram är en och samma raketuppskjutning i flera 3D-utföranden. Variationerna skapas genom ett kodbaserat arbetsflöde med Three.js, medan Claude står för koden som används vid renderingen.\n\nBeskrivningen anger nio visade stilar och totalt 37 stilar med instruktioner i den relaterade videon. Den ger inga uppgifter om modellversion, lanseringsdatum, renderingsprestanda, exportformat eller hur resultatet jämförs med manuellt skapade 3D-scener.",
+      "en": {
+        "ttl": "Claude creates 3D scenes with Three.js code",
+        "sum": "Futurepedia shows how Claude is used to create the same rocket launch in nine 3D styles, with every frame rendered from code written by Claude using Three.js.",
+        "full": "Futurepedia describes a 3D workflow in which Claude generates Three.js code to render a rocket launch. The same scene is shown in nine different 3D styles, highlighting how a code-based process can vary the visual treatment without changing the subject.\n\nAccording to the channel’s description, every frame is rendered from code written by Claude. The central AI development is therefore the connection between a generative AI model, programming code and frame-by-frame rendering in a 3D environment.\n\nFuturepedia also states that 37 styles and their prompts are included in the related video. The supplied information does not specify the other styles, the structure of the code or the workflow’s technical limitations.",
+        "deep": "The specific use case highlighted by Futurepedia is one rocket launch presented in multiple 3D treatments. The variations are created through a code-based workflow using Three.js, while Claude provides the code used for rendering.\n\nThe description specifies nine displayed styles and 37 styles with prompts in the related video. It provides no information about the model version, release date, rendering performance, export formats or comparisons with manually created 3D scenes."
+      },
+      "cat": "3d",
+      "date": "2026-11-16T17:45:02Z",
+      "meta": "Futurepedia · 2026-11-16",
+      "url": "https://www.youtube.com/watch?v=ImT902GtpUY",
+      "img": "https://i.ytimg.com/vi/ImT902GtpUY/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Futurepedia"
+      ],
+      "parts": [],
+      "views": 1008,
+      "buzz": 56,
+      "sourceCheckedAt": "2026-11-16T23:22:43.483Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "c60bfa6d6861ae79d2d062abd417bd4b49061503e7559506c136dc3373f95590",
+      "trusted": true,
+      "sourceId": "futurepedia_io",
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Character Creator 5.2 is now available as a free update for character artists, This update provides character artists with a suite of new features designed",
+      "evidenceIds": [
+        1,
+        13,
+        33
+      ],
+      "id": "yzLkWgAQMsk",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Character Creator 5.2 kopplar AI-generering till riggning och karaktärsproduktion",
+      "sum": "askNK beskriver Character Creator 5.2 som en uppdatering med integrerade AI-tjänster för att skapa 3D-karaktärer, kläder, frisyrer och tillbehör. Uppdateringen kombinerar generering med Character Creator-arbetsflöden för omslagning, riggning, klädanpassning och animation.",
+      "full": "Character Creator 5.2 är enligt YouTube-kanalen askNK en kostnadsfri uppdatering för karaktärsartister, med fokus på att effektivisera design och vidare bearbetning av AI-genererade 3D-modeller. Den centrala nyheten är en inbyggd AI-generator som kan skapa karaktärer, kläder, frisyrer, accessoarer samt andra scenresurser som rekvisita och byggnader.\n\nUppdateringen integrerar Tripo och Hunyuan AI-generationstjänster. askNK lyfter även fram Tripo P2 för generering av fyrsidig topologi, bildstyrd skapandeprocess och AI-stödd konceptutveckling. Det innebär att arbetsflödet enligt kanalens beskrivning inte stannar vid en fristående modell utan fortsätter in i Character Creator för anpassning och animation.\n\nEn viktig del är CC Wrap, som konverterar humanoida nät till Character Creators inbyggda topologi. Arbetsflödet omfattar Template Wrap med AccuRIG-ledidentifiering, Free Wrap för anpassade kroppsproportioner och topologiförinställningar för olika karaktärstyper. Beskrivningen nämner också förfiningspenslar, projektion av högupplösta detaljer, stöd för ansikts- och kroppsanimering samt anpassning av karaktärsmorfningar och kläder.\n\nFör kläder och modelloptimering anges automatisk överföring av skin weights, förbättrad klädanpassning och nätredigering, Quad Remesher-integration, texturbakning från hög till låg polygonmängd samt lagerhantering och kollisionskontroll för kläder. Klädtyper ska kunna tilldelas och bytas, medan nät kan konsolideras och material förenas.\n\nCharacter Creator 5.2 innehåller dessutom GLB-import och förbättrad samverkan mellan Character Creator och iClone. askNK beskriver ActorMixer-uppdateringar med snabbare paketladdning, förbättrade arbetsflöden för anpassade kroppsmixningar, nya alternativ för konvertering av morph-reglage, stöd för anpassade tänder och ögon samt automatisk generering av miniatyrbilder.\n\nEnligt kanalens egen sammanfattning är bakgrunden att AI-genererade 3D-karaktärer ofta kräver betydande efterarbete innan de kan animeras. Character Creator 5.2 positioneras därför som ett sammanhängande arbetsflöde där AI-generering kombineras med omslagning, riggning, klädanpassning och animation. Artikeln återger askNK:s beskrivning och är inte en självständig testkörning av funktionerna.",
+      "deep": "askNK:s kapitelstruktur visar ett arbetsflöde från den inbyggda AI-generatorn och olika genereringslägen till AI Studio-referensblad, riggning och Headshot-arbetsflöden. Därefter följer GLB-import, CC Wrap, omslagssteg och förinställningar, förfiningspenslar, Quad Remesh och bakning samt uppdateringar av nätredigering, skin weights och klädlager.\n\nDe AI-relaterade tjänster som uttryckligen nämns är Tripo och Hunyuan. Källbeskrivningen anger inte separata versionsnummer för dessa tjänster, och den ger inte heller någon oberoende jämförelse av kvalitet, hastighet eller resultat. Den anger i stället vilka funktioner och integrationspunkter som ingår i Character Creator 5.2 enligt askNK.\n\nBeskrivningen kopplar också uppdateringen till användningsområden som digitala karaktärer, spelkaraktärer, 3D-animation och virtuell produktion genom sina angivna arbetsflöden och taggar. Något produktlanseringsdatum anges inte; videons uppladdningsdatum är därför inte behandlat som releasedatum för Character Creator 5.2.",
+      "en": {
+        "ttl": "Character Creator 5.2 connects AI generation with rigging and character production",
+        "sum": "The YouTube channel askNK describes Character Creator 5.2 as an update with integrated AI services for creating 3D characters, clothing, hairstyles and accessories. The update combines generation with Character Creator workflows for wrapping, rigging, clothing fitting and animation.",
+        "full": "According to the YouTube channel askNK, Character Creator 5.2 is a free update for character artists focused on streamlining design and further processing of AI-generated 3D models. Its central feature is an integrated AI generator that can create characters, clothing, hairstyles, accessories and other scene assets such as props and buildings.\n\nThe update integrates Tripo and Hunyuan AI generation services. askNK also highlights Tripo P2 for quad-based topology generation, image-guided creation and AI-assisted concept development. The description presents a workflow that continues inside Character Creator for customization and animation rather than ending with a standalone generated model.\n\nA key component is CC Wrap, which converts humanoid meshes into Character Creator’s native topology. The workflow includes Template Wrap with AccuRIG joint detection, Free Wrap for custom body proportions and topology presets for different character types. The description also mentions refinement brushes, high-resolution detail projection, facial and body animation support, and character morph and outfit customization.\n\nFor clothing and model optimization, the update is described as providing automatic skin-weight transfer, improved clothing fitting and mesh editing, Quad Remesher integration, high-to-low polygon texture baking, and outfit-layer and collision management. Clothing types can be assigned and swapped, while meshes can be consolidated and materials unified.\n\nCharacter Creator 5.2 also adds GLB importing and improved interoperability between Character Creator and iClone. askNK describes ActorMixer updates including faster package loading, improved custom body-mixer workflows, new morph-slider conversion options, custom teeth and eye support, and automatic thumbnail generation.\n\nAccording to the channel’s summary, AI-generated 3D characters often require substantial additional work before they can be animated. Character Creator 5.2 is therefore presented as a connected workflow combining AI generation with wrapping, rigging, clothing fitting and animation. This article reports askNK’s description and is not an independent test of the features.",
+        "deep": "askNK’s chapter structure shows a workflow moving from the built-in AI generator and generation modes to AI Studio reference sheets, rigging and Headshot workflows. It then covers GLB import, CC Wrap, wrapping stages and presets, refinement brushes, Quad Remesh and baking, as well as upgrades to mesh editing, skin weights and outfit layers.\n\nThe AI services explicitly named are Tripo and Hunyuan. The source description does not provide separate version numbers for these services, nor does it offer an independent comparison of quality, speed or output. Instead, it lists the functions and integration points included in Character Creator 5.2 according to askNK.\n\nThe description also connects the update to use cases such as digital characters, game characters, 3D animation and virtual production through its stated workflows and tags. It does not provide a product release date; the video upload date is therefore not treated as the release date for Character Creator 5.2."
+      },
+      "cat": "3d",
+      "date": "2026-11-16T16:44:07Z",
+      "meta": "askNK · 2026-11-16",
+      "url": "https://www.youtube.com/watch?v=yzLkWgAQMsk",
+      "img": "https://i.ytimg.com/vi/yzLkWgAQMsk/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "askNK"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "CC 5.2 Overview"
+        },
+        {
+          "t": 27,
+          "l": "Built-In AI Generator"
+        },
+        {
+          "t": 79,
+          "l": "Generation Modes Explained"
+        },
+        {
+          "t": 149,
+          "l": "AI Studio Reference Sheets"
+        },
+        {
+          "t": 202,
+          "l": "Rigging and Headshot Workflow"
+        },
+        {
+          "t": 270,
+          "l": "GLB Import and CC Wrap"
+        },
+        {
+          "t": 355,
+          "l": "Wrap Stages and Presets"
+        },
+        {
+          "t": 432,
+          "l": "Refinement Brushes"
+        },
+        {
+          "t": 444,
+          "l": "Quad Remesh and Baking"
+        },
+        {
+          "t": 498,
+          "l": "Mesh Editing Upgrades"
+        },
+        {
+          "t": 534,
+          "l": "Skin Weights and Outfit Layers"
+        },
+        {
+          "t": 579,
+          "l": "Actor Mixer 1.1 Updates"
+        },
+        {
+          "t": 641,
+          "l": "Pricing and Free Plans"
+        },
+        {
+          "t": 706,
+          "l": "Final Thoughts and Outro"
+        }
+      ],
+      "views": 7285,
+      "buzz": 66,
+      "sourceCheckedAt": "2026-11-16T23:22:43.483Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "e0ec7c373563cf17cf58fc98a2bab3847e5c6de504310beaa8b03e0446437b06",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Character Creator 5.2",
+        "Tripo",
+        "Hunyuan AI",
+        "CC Wrap"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Looking to level up your audio workflow without expensive studio gear or music theory skills? In this video, we explore the AI Voice & Music",
@@ -44560,7 +44749,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "uploadsPlaylist": "UUSpFnDQr88xCZ80N-X7t0nQ",
@@ -44580,7 +44769,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "uploadsPlaylist": "UU6P24bhhCmMPOcujA9PKPTA",
@@ -44600,7 +44789,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "uploadsPlaylist": "UUbvIIQc5Jo9-jIXnkPe03oA",
@@ -44620,7 +44809,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "uploadsPlaylist": "UUc0D1yh3TGE8dJSLm9VmEdg",
@@ -44640,7 +44829,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "uploadsPlaylist": "UU3DkFux8Iv-aYnTRWzwaiBA",
@@ -44660,7 +44849,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "uploadsPlaylist": "UU5bp5_6h-ZxkBz6S_33ZUVg",
@@ -44680,7 +44869,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "uploadsPlaylist": "UU_43mQmHwHPTBBqImFrWU3Q",
@@ -44700,7 +44889,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "uploadsPlaylist": "UUOKHwx1VCdgnxwbjyb9Iu1g",
@@ -44720,7 +44909,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "uploadsPlaylist": "UUGSJevmBuDyxjLLOBNaYMGA",
@@ -44740,7 +44929,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "uploadsPlaylist": "UUWWybvw9jnpOdJq_6wTHryA",
@@ -44760,7 +44949,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "uploadsPlaylist": "UUdcemy56JtVTrsFIOoqvV8g",
@@ -44780,7 +44969,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "uploadsPlaylist": "UUpyUGZeMUtOvt57UACw3H2g",
@@ -44800,7 +44989,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "uploadsPlaylist": "UUIcCXe3iWo6lq-iWKV40Oug",
@@ -44820,7 +45009,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "uploadsPlaylist": "UU9Tyxi96fEu0ho4mlxOEdOQ",
@@ -44840,7 +45029,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "uploadsPlaylist": "UUhpleBmo18P08aKCIgti38g",
@@ -44860,7 +45049,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "uploadsPlaylist": "UU5Wz4fFacYuON6IKbhSa7Zw",
@@ -44880,7 +45069,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "uploadsPlaylist": "UUlnFtyUEaxQOCd1s5NKYGFA",
@@ -44900,7 +45089,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "uploadsPlaylist": "UUCKx8mAHiFus-XYQLy_WnaA",
@@ -44920,7 +45109,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "uploadsPlaylist": "UUBJycsmduvYEL83R_U4JriQ",
@@ -44940,7 +45129,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "uploadsPlaylist": "UUXuqSBlHAE6Xw-yeJA0Tunw",
@@ -44960,7 +45149,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "uploadsPlaylist": "UUVYamHliCI9rw1tHR1xbkfw",
@@ -44980,7 +45169,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "uploadsPlaylist": "UUO2x-p9gg9TLKneXlibGR7w",
@@ -45000,7 +45189,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "uploadsPlaylist": "UUIgnGlGkVRhd4qNFcEwLL4A",
@@ -45020,7 +45209,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "uploadsPlaylist": "UUED3hlYdD0SlCff7jJ8tF3Q",
@@ -45040,7 +45229,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "uploadsPlaylist": "UU_RovKmk0OCbuZjA8f08opw",
@@ -45060,7 +45249,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "uploadsPlaylist": "UUqWZ4KJCEanRytZtqKk0I_w",
@@ -45080,7 +45269,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "uploadsPlaylist": "UUwSozl89jl2zUDzQ4jGJD3g",
@@ -45100,7 +45289,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "uploadsPlaylist": "UU9Ryt3XOGYBoAJVsBHNGDzA",
@@ -45120,7 +45309,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "uploadsPlaylist": "UUHhYXsLBEVVnbvsq57n1MTQ",
@@ -45140,7 +45329,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "uploadsPlaylist": "UUNJ1Ymd5yFuUPtn21xtRbbw",
@@ -45160,7 +45349,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "uploadsPlaylist": "UUMrvLMUITAImCHMOhX88PYQ",
@@ -45180,7 +45369,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "uploadsPlaylist": "UUNMK68M-Al4hRUcew07TnUA",
@@ -45200,7 +45389,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "uploadsPlaylist": "UUGKjGGjdl-GzEcFPf1EQwqw",
@@ -45220,7 +45409,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "uploadsPlaylist": "UUzsd4-oyHhNbAXfceOQ5HTw",
@@ -45240,7 +45429,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "uploadsPlaylist": "UUbfYPyITQ-7l4upoX8nvctg",
@@ -45250,36 +45439,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-16T13:42:51.601Z",
+    "calculatedAt": "2026-11-16T23:22:43.483Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -45289,28 +45478,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.33140432761338334,
+      "elevenlabs": 0.31844984771647966,
       "elevenmusic": 0,
-      "heygen": 0.3483936761451941,
-      "kling-3-0": 0.1679570991033803,
+      "heygen": 0.33477508852344023,
+      "kling-3-0": 0.16139171451849552,
       "freepik-ai": 0,
-      "adobe-firefly": 0.6289659842482096,
+      "adobe-firefly": 0.6043799226917501,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.851603736696128,
+      "higgsfield": 2.6900031274817144,
       "krea-ai": 0,
-      "spline-ai": 0.5356524156581862,
+      "spline-ai": 0.5147139490414586,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.9449246941116063,
+      "meshy-ai": 0.9079879164837743,
       "magnific-ai": 0,
-      "seedance-2-5": 2.4643521320801196,
+      "seedance-2-5": 2.3680214643914135,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.48480360693667013,
-      "nano-banana-pro": 0.06980503281459338,
+      "wan-3-0": 0.4658528025665648,
+      "nano-banana-pro": 0.06707637836155227,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -45318,19 +45507,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.7638631096985786,
+      "hunyuan3d": 0.7340039664283657,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.1439970448288936,
+      "luma-genie": 0.13836825043177992,
       "hitem3d": 0,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.12688989940756684,
+      "gemini-omni-flash": 0.12192981737474227,
       "luma-agents": 0
     }
   },
@@ -45356,7 +45545,7 @@
   },
   "newsUpdate": {
     "status": "success",
-    "attemptedAt": "2026-11-16T09:41:26.638Z",
-    "completedAt": "2026-11-16T09:42:28.837Z"
+    "attemptedAt": "2026-11-16T23:22:43.483Z",
+    "completedAt": "2026-11-16T23:24:03.978Z"
   }
 }

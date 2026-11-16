@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-16T09:41:26.638Z",
+  "startedAt": "2026-11-16T23:22:43.483Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-16T09:41:26.638Z",
+      "checkedAt": "2026-11-16T23:22:43.483Z",
       "found": 8
     }
   },
-  "apiCalls": 11,
-  "cacheHits": 194,
+  "apiCalls": 14,
+  "cacheHits": 190,
   "rssChannels": 35,
   "selection": {
-    "fetched": 185,
-    "relevant": 54,
-    "supported": 43
+    "fetched": 190,
+    "relevant": 60,
+    "supported": 46
   },
   "rejected": [
     {
@@ -89,6 +89,16 @@
       ]
     },
     {
+      "video": "kj7ZIfNF_oQ",
+      "title": "AI को सच में परखा? IIT Madras SEANAV, NVIDIA SimReady | AI News Hindi Nov16",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        8,
+        23
+      ]
+    },
+    {
       "video": "IF9D8WbNmYk",
       "title": "Motphys releases MotrixSim 1.0 #Shorts",
       "stage": "classification-evidence",
@@ -133,18 +143,35 @@
       ]
     },
     {
-      "video": "kj7ZIfNF_oQ",
-      "title": "AI को सच में परखा? IIT Madras SEANAV, NVIDIA SimReady | AI News Hindi Nov16",
+      "video": "r5l8Ud__hCo",
+      "title": "I love this new Blender feature…",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        8,
-        23
+        1
       ]
     },
     {
-      "video": "SZG_7dSYnoY",
-      "title": "Claude made this 3D animation from one prompt",
+      "video": "-5rtUVyxH5w",
+      "title": "Tesla “Hater” Uses Full Self-Driving for a Month",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6
+      ]
+    },
+    {
+      "video": "P7stfqs0YeA",
+      "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "video": "JZoqCoUefmI",
+      "title": "AI Movie Generation Bots - LIVE Stream",
       "stage": "insufficient-article-source"
     },
     {
@@ -154,12 +181,17 @@
     },
     {
       "video": "woWo80dPkVk",
-      "title": "Gemini 4 Carbon & Hydrogen, realtime voices, new TTS, 3D models, Seedream 5.5: AI NEWS",
-      "stage": "insufficient-article-source"
+      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        4,
+        5,
+        6
+      ]
     },
     {
-      "video": "JZoqCoUefmI",
-      "title": "AI Movie Generation Bots - LIVE Stream",
+      "video": "SZG_7dSYnoY",
+      "title": "Claude made this 3D animation from one prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -173,16 +205,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "lsmYM8IjDWQ",
-      "title": "Minecraft 3D Model Generator: AI Dragon Wyvern in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "L0fLLr5Oej0",
       "title": "How I Use Claude in My Video Edits",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5EPxJCt9EOA",
+      "title": "🔥 Viral AI Photo Editing Prompts Collection | Trending AI Photo Editing 2026 | Popular Prompts",
       "stage": "insufficient-article-source"
     },
     {
@@ -191,18 +220,26 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "iQiNiIh2XSg",
-      "title": "Tripo AI: Four Views, One 3D Model #Shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "k04rfTjCD04",
       "title": "🔥 New Trending AI Photo Prompt 2026 😍 | Gemini AI Photo Editing #shorts",
       "stage": "insufficient-article-source"
     },
     {
+      "video": "7pq1NJnRNBM",
+      "title": "Minecraft 3D Model Generator: AI-Made Pumpkin Patch (Blockbench)",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "iTe0IB5Ugf8",
       "title": "MASSIVE AI Shake-Up That Changes Everything",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "1KNOc59j3rY",
+      "title": "100 Edits. ONE Image. Meet Seedream 5.5! 🤯",
       "stage": "insufficient-article-source"
     },
     {
@@ -214,20 +251,47 @@
       "video": "xFTK5SFVzG0",
       "title": "AI Is Changing Filmmaking Forever 🤯🎬",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "aVmeAhGi5fc",
+      "title": "Minecraft 3D Model Generator: AI Thor's Hammer in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "MusrI95gdhY",
+      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "iQiNiIh2XSg",
+      "title": "Tripo AI: Four Views, One 3D Model #Shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "lsmYM8IjDWQ",
+      "title": "Minecraft 3D Model Generator: AI Dragon Wyvern in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     }
   ],
-  "accepted": 4,
-  "completedAt": "2026-11-16T09:42:28.837Z",
+  "accepted": 3,
+  "completedAt": "2026-11-16T23:24:03.978Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 11,
+    "runRequests": 14,
     "day": {
-      "requests": 11,
-      "reservedMicrousd": 147120
+      "requests": 25,
+      "reservedMicrousd": 340852
     },
     "month": {
-      "requests": 35,
-      "reservedMicrousd": 489680
+      "requests": 49,
+      "reservedMicrousd": 683412
     },
     "limits": {
       "dayMicrousd": 500000,
