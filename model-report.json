@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-15T12:47:21.210Z",
+  "startedAt": "2026-11-16T13:42:51.601Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 49,
@@ -9,11 +9,11 @@
   "candidatesAttempted": 0,
   "errors": [
     {
-      "platform": "luma-agents",
+      "platform": "seedance-2-5",
       "message": "Official source changed; manual verification needed"
     },
     {
-      "platform": "hunyuan3d",
+      "platform": "seedream-4",
       "message": "Official source changed; manual verification needed"
     },
     {
@@ -23,6 +23,10 @@
     {
       "platform": "mai-image-2-6",
       "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "message": "Official source HTTP 403"
     },
     {
       "platform": "elevenlabs",
@@ -35,6 +39,10 @@
     {
       "platform": "heygen",
       "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "freepik-ai",
+      "message": "Official source HTTP 403"
     },
     {
       "platform": "suno-v5-5",
@@ -69,6 +77,10 @@
       "message": "Official source changed; manual verification needed"
     },
     {
+      "platform": "magnific-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
       "platform": "nano-banana-pro",
       "message": "Official source changed; manual verification needed"
     },
@@ -79,6 +91,14 @@
     {
       "platform": "grok-imagine",
       "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hunyuan3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "trellis-2",
+      "message": "Official source HTTP 403"
     },
     {
       "platform": "udio",
@@ -95,34 +115,19 @@
     {
       "platform": "topaz-labs",
       "message": "Official source changed; manual verification needed"
-    },
-    {
-      "platform": "midjourney-v8-2",
-      "message": "Official source HTTP 403"
-    },
-    {
-      "platform": "freepik-ai",
-      "message": "Official source HTTP 403"
-    },
-    {
-      "platform": "magnific-ai",
-      "message": "Official source HTTP 403"
-    },
-    {
-      "platform": "trellis-2",
-      "message": "Official source HTTP 403"
     }
   ],
   "monitor": {
-    "changed": 22,
+    "changed": 23,
     "fetch-failed": 4,
-    "unchanged-unverified": 23
+    "unchanged-unverified": 20,
+    "baseline": 2
   },
   "health": {
-    "stale": 41,
-    "failed": 8
+    "stale": 45,
+    "failed": 4
   },
   "scheduled": 49,
   "skipped": 0,
-  "completedAt": "2026-11-15T12:47:56.151Z"
+  "completedAt": "2026-11-16T13:43:22.515Z"
 }
