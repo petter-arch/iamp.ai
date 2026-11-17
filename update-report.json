@@ -1,46 +1,54 @@
 {
-  "startedAt": "2026-11-16T23:22:43.483Z",
+  "startedAt": "2026-11-17T10:42:46.472Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-16T23:22:43.483Z",
+      "checkedAt": "2026-11-17T10:42:46.472Z",
       "found": 8
     }
   },
-  "apiCalls": 14,
-  "cacheHits": 190,
+  "apiCalls": 10,
+  "cacheHits": 207,
   "rssChannels": 35,
   "selection": {
-    "fetched": 190,
+    "fetched": 189,
     "relevant": 60,
-    "supported": 46
+    "supported": 48
   },
   "rejected": [
+    {
+      "video": "r5l8Ud__hCo",
+      "title": "I love this new Blender feature…",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
     {
       "video": "IehCboBcYsA",
       "title": "How to automate your photo library",
@@ -49,6 +57,15 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "video": "-5rtUVyxH5w",
+      "title": "Tesla “Hater” Uses Full Self-Driving for a Month",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6
       ]
     },
     {
@@ -76,26 +93,6 @@
       "evidenceIds": [
         0,
         1
-      ]
-    },
-    {
-      "video": "ZKsL8I7Kyqc",
-      "title": "MiniMax H3 Image Edit in ComfyUI on Low VRAM - Edit Any Photo Locally (Free Workflow)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        24
-      ]
-    },
-    {
-      "video": "kj7ZIfNF_oQ",
-      "title": "AI को सच में परखा? IIT Madras SEANAV, NVIDIA SimReady | AI News Hindi Nov16",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        8,
-        23
       ]
     },
     {
@@ -143,23 +140,6 @@
       ]
     },
     {
-      "video": "r5l8Ud__hCo",
-      "title": "I love this new Blender feature…",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "-5rtUVyxH5w",
-      "title": "Tesla “Hater” Uses Full Self-Driving for a Month",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        6
-      ]
-    },
-    {
       "video": "P7stfqs0YeA",
       "title": "Nvidia's Free AI Lets Robots and Cars Practice in Simulation",
       "stage": "classification-evidence",
@@ -182,12 +162,7 @@
     {
       "video": "woWo80dPkVk",
       "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        4,
-        5,
-        6
-      ]
+      "stage": "insufficient-article-source"
     },
     {
       "video": "SZG_7dSYnoY",
@@ -205,8 +180,21 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "C_cWqNZqYaE",
+      "title": "Minecraft 3D Model Generator: AI Tulip Cluster in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "L0fLLr5Oej0",
       "title": "How I Use Claude in My Video Edits",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "d4eqvhF3wN8",
+      "title": "😱 Gemini AI Photo Editing 🔥 New Viral Photo Editing Prompt | Google Gemini #shorts #viral #trending",
       "stage": "insufficient-article-source"
     },
     {
@@ -220,17 +208,14 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "k04rfTjCD04",
-      "title": "🔥 New Trending AI Photo Prompt 2026 😍 | Gemini AI Photo Editing #shorts",
+      "video": "fxC-_YbhGEo",
+      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "7pq1NJnRNBM",
-      "title": "Minecraft 3D Model Generator: AI-Made Pumpkin Patch (Blockbench)",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "k04rfTjCD04",
+      "title": "🔥 New Trending AI Photo Prompt 2026 😍 | Gemini AI Photo Editing #shorts",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "iTe0IB5Ugf8",
@@ -240,6 +225,11 @@
     {
       "video": "1KNOc59j3rY",
       "title": "100 Edits. ONE Image. Meet Seedream 5.5! 🤯",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0O8sCEQlhP0",
+      "title": "Chhath Puja Ai Photo Editing 2026 | Chatgpt Chhath Puja Photo Editing Prompts | Chhath Puja Editing",
       "stage": "insufficient-article-source"
     },
     {
@@ -253,22 +243,16 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "aVmeAhGi5fc",
-      "title": "Minecraft 3D Model Generator: AI Thor's Hammer in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "MusrI95gdhY",
-      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "video": "7pq1NJnRNBM",
+      "title": "Minecraft 3D Model Generator: AI-Made Pumpkin Patch (Blockbench)",
       "stage": "article-evidence",
       "evidenceIds": [
-        1,
-        2
+        1
       ]
     },
     {
-      "video": "iQiNiIh2XSg",
-      "title": "Tripo AI: Four Views, One 3D Model #Shorts",
+      "video": "aVmeAhGi5fc",
+      "title": "Minecraft 3D Model Generator: AI Thor's Hammer in Blockbench",
       "stage": "insufficient-article-source"
     },
     {
@@ -278,20 +262,29 @@
       "evidenceIds": [
         1
       ]
+    },
+    {
+      "video": "MusrI95gdhY",
+      "title": "None of This Was Filmed 🎬 Google Gemini Omni 1.2 AI Video #shorts",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     }
   ],
-  "accepted": 3,
-  "completedAt": "2026-11-16T23:24:03.978Z",
+  "accepted": 2,
+  "completedAt": "2026-11-17T10:43:44.192Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 14,
+    "runRequests": 10,
     "day": {
-      "requests": 25,
-      "reservedMicrousd": 340852
+      "requests": 10,
+      "reservedMicrousd": 135288
     },
     "month": {
-      "requests": 49,
-      "reservedMicrousd": 683412
+      "requests": 59,
+      "reservedMicrousd": 818700
     },
     "limits": {
       "dayMicrousd": 500000,

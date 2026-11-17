@@ -1,6 +1,148 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Claude can now make entire animated videos in code, with no video model. Claude Fable 5.2 writes code that draws every frame, so you control",
+    "evidenceIds": [
+      1,
+      7,
+      17
+    ],
+    "id": "tPiEPzy2JKU",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Claude Fable 5.2 skapar animerade videor genom kod",
+    "sum": "AI Samson beskriver ett arbetsflöde där Claude Fable 5.2 skriver kod som ritar varje bildruta i en animerad video. Metoden ger detaljerad kontroll och samma resultat vid varje rendering, men har också begränsningar och kan kombineras med Seedance 2.5 på Higgsfield.",
+    "full": "AI Samson beskriver i videon hur Claude Fable 5.2 kan användas för att skapa hela animerade videor genom kod, utan en separat videogenereringsmodell. Enligt kanalens beskrivning skriver modellen kod som ritar varje bildruta, vilket ger skaparen kontroll över detaljerna och gör att samma resultat kan återskapas vid varje rendering.\n\nVideon går igenom hur man skapar en egen film steg för steg, hur lång processen tar och hur egna stilar kan byggas. AI Samson tar också upp flera animationsmetoder som används av Claude Fable 5.2, tillsammans med vad arbetsflödet klarar och var det faller kort. Beskrivningen anger dessutom att videon behandlar den faktiska kostnaden för metoden.\n\nDet centrala arbetsflödet skiljer sig från AI-video där en videogenereringsmodell direkt producerar klipp. Här ligger fokus i stället på kod som genererar animationens bildrutor. Enligt AI Samson kan metoden användas för animerade kortfilmer, inklusive filmer i stil med innehåll från större animerade kanaler.\n\nVideon visar även hur ett kodat filmprojekt kan få en ny visuell stil genom att kombineras med Seedance 2.5 på Higgsfield. Detta presenteras som ett kompletterande arbetsflöde, inte som att Claude Fable 5.2 helt ersätter AI-video i alla situationer.",
+    "deep": "AI Samson beskriver kontroll och reproducerbarhet som de viktigaste egenskaperna: eftersom Claude Fable 5.2 skriver kod som ritar varje bildruta kan skaparen styra detaljer och få samma resultat vid varje ny rendering. Beskrivningen specificerar inte exakt vilka kodbibliotek, hårdvarukrav eller kostnadsnivåer som används, så sådana detaljer kan inte fastställas här.\n\nKanalens genomgång omfattar fyra animationsmetoder, men källbeskrivningen namnger inte metoderna. Den anger däremot att videon tar upp hur motorn fungerar, hur man bygger egna filmer och stilar, tidsåtgång, begränsningar och kostnad. AI Samson kopplar också arbetsflödet till animerade kortfilmer och visar hur Seedance 2.5 på Higgsfield kan användas för att reskina ett kodat filmprojekt i 4K.",
+    "en": {
+      "ttl": "Claude Fable 5.2 creates animated videos through code",
+      "sum": "AI Samson describes a workflow in which Claude Fable 5.2 writes code that draws every frame of an animated video. The method provides detailed control and the same result on each render, but also has limitations and can be combined with Seedance 2.5 on Higgsfield.",
+      "full": "AI Samson describes how Claude Fable 5.2 can be used to create complete animated videos through code, without a separate video model. According to the channel’s description, the model writes code that draws every frame, giving the creator control over details and allowing the same result to be reproduced on each render.\n\nThe video covers creating a film step by step, how long the process takes, and how to build custom styles. AI Samson also discusses several animation methods used by Claude Fable 5.2, along with what the workflow can do and where it falls short. The description further states that the video addresses the actual cost of the method.\n\nThe central workflow differs from AI video generation in which a video model directly produces clips. Here, the focus is instead on code that generates the animation’s frames. According to AI Samson, the method can be used for animated short films, including films in the style of content from larger animation channels.\n\nThe video also shows how a coded film project can be given a new visual style by combining it with Seedance 2.5 on Higgsfield. This is presented as a complementary workflow, not as proof that Claude Fable 5.2 completely replaces AI video in every situation.",
+      "deep": "AI Samson identifies control and reproducibility as the main properties: because Claude Fable 5.2 writes code that draws every frame, the creator can control details and obtain the same result on each new render. The source description does not specify the exact code libraries, hardware requirements, or cost levels, so those details cannot be established here.\n\nThe channel’s walkthrough covers four animation methods, but the source description does not name them. It does state that the video explains how the engine works, how to build custom films and styles, time requirements, limitations, and cost. AI Samson also connects the workflow to animated short films and shows how Seedance 2.5 on Higgsfield can be used to reskin a coded film project in 4K."
+    },
+    "cat": "film",
+    "date": "2026-11-17T08:37:37Z",
+    "meta": "AI Samson · 2026-11-17",
+    "url": "https://www.youtube.com/watch?v=tPiEPzy2JKU",
+    "img": "https://i.ytimg.com/vi/tPiEPzy2JKU/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Samson"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Claude makes whole videos in code"
+      },
+      {
+        "t": 28,
+        "l": "The best films made in code"
+      },
+      {
+        "t": 87,
+        "l": "Why coded video matters"
+      },
+      {
+        "t": 184,
+        "l": "Make your own film, step by step"
+      },
+      {
+        "t": 377,
+        "l": "How long does it take?"
+      },
+      {
+        "t": 480,
+        "l": "Create your own styles"
+      },
+      {
+        "t": 604,
+        "l": "Animated shorts like the big channels"
+      },
+      {
+        "t": 751,
+        "l": "The animation methods Claude uses"
+      },
+      {
+        "t": 848,
+        "l": "Where it falls short"
+      },
+      {
+        "t": 896,
+        "l": "What it really costs"
+      },
+      {
+        "t": 1042,
+        "l": "Combine it with AI video"
+      },
+      {
+        "t": 1073,
+        "l": "Seedance 2.5 in 4K on Higgsfield"
+      },
+      {
+        "t": 1322,
+        "l": "Will this replace AI video?"
+      }
+    ],
+    "views": 2839,
+    "buzz": 61,
+    "sourceCheckedAt": "2026-11-17T10:42:46.472Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "04882ec1e047d2e9408eb8637ef230788465771546b323a46fb54dcaf5d11752",
+    "trusted": true,
+    "sourceId": "aisamsonreal",
+    "newPlatforms": [
+      "Claude Fable 5.2",
+      "Seedance 2.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Test out the Roblox scene generation tool to see how it builds terrain and environments. Learn how to render landscapes quickly. This demonstration covers the",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "Qlk11kX9dn0",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Roblox visar hur AI kan skapa terräng och miljöer från ett tomt rutnät",
+    "sum": "BloxBasics demonstrerar Roblox nya scen­genereringsverktyg, som kan bygga terräng, landskap och gräsfält från ett tomt rutnät. Genom att konfigurera och aktivera funktionen får utvecklare ett AI-assisterat arbetsflöde för snabbare nivådesign.",
+    "full": "Kanalen BloxBasics demonstrerar Roblox nya verktyg för scen­generering och visar hur det kan användas för att bygga terräng och miljöer. Verktyget utgår från ett tomt rutnät och kan skapa anpassade landmassor, landskap och gräsfält.\n\nVideon går igenom hur funktionen konfigureras, var den finns och hur den aktiveras. Fokus ligger på arbetsflödet för utvecklare som vill skapa grundläggande miljöer snabbare, utan att behöva placera varje enskilt objekt manuellt.\n\nEnligt kanalens beskrivning är detta en AI-assisterad 3D-modelleringsfunktion för nivådesign. Demonstrationen är avsedd att hjälpa utvecklare att bedöma om verktyget passar deras projektkrav, men beskrivningen innehåller inga uppgifter om verktygets tillgänglighet, tekniska begränsningar eller kvaliteten på de genererade resultaten.",
+    "deep": "BloxBasics beskriver ett arbetsflöde där användaren först hittar och aktiverar Roblox scen­generering och därefter använder konfigurationsinställningar för att skapa en miljö från en blank yta. De uttryckligen nämnda resultaten är terräng, landmassor, landskap och gräsfält.\n\nBeskrivningen framställer funktionen som ett sätt att minska manuellt arbete i nivådesign. Den säger dock inte vilka inställningar som finns, hur lång genereringen tar, vilka format som stöds eller hur mycket efterbearbetning som krävs. Därför går det inte att dra slutsatser om prestanda eller resultatens detaljnivå utöver kanalens beskrivning.",
+    "en": {
+      "ttl": "Roblox demonstrates how AI can create terrain and environments from a blank grid",
+      "sum": "BloxBasics demonstrates Roblox's new scene generation tool, which can build terrain, landscapes and grassy fields from a blank grid. By configuring and enabling the feature, developers get an AI-assisted workflow for faster level design.",
+      "full": "BloxBasics demonstrates Roblox's new scene generation tool and shows how it can be used to build terrain and environments. The tool starts from a blank grid and can create custom landmasses, landscapes and grassy fields.\n\nThe video covers how to configure the feature, where to find it and how to enable it. The focus is a workflow for developers who want to create basic environments faster without manually placing every individual asset.\n\nAccording to the channel's description, this is an AI-assisted 3D modelling feature for level design. The demonstration is intended to help developers assess whether the tool fits their project requirements, but the description provides no information about availability, technical limitations or the quality of the generated results.",
+      "deep": "BloxBasics describes a workflow in which the user first locates and enables Roblox scene generation and then uses configuration settings to create an environment from a blank surface. The explicitly mentioned outputs are terrain, landmasses, landscapes and grassy fields.\n\nThe description presents the feature as a way to reduce manual work in level design. However, it does not specify which settings are available, how long generation takes, which formats are supported or how much post-processing is required. No conclusions about performance or output quality can therefore be drawn beyond the channel's description."
+    },
+    "cat": "3d",
+    "date": "2026-11-17T00:06:46Z",
+    "meta": "BloxBasics · 2026-11-17",
+    "url": "https://www.youtube.com/watch?v=Qlk11kX9dn0",
+    "img": "https://i.ytimg.com/vi/Qlk11kX9dn0/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "BloxBasics"
+    ],
+    "parts": [],
+    "views": 1198,
+    "buzz": 57,
+    "sourceCheckedAt": "2026-11-17T10:42:46.472Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "1fa3d42cfa089cdd7165656d4e3ed689c3c57d8cec9e58eb28c2e712bfff7d0f",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Roblox"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Qwen-Image-2.1 in ComfyUI: the free, open-source AI image model that does it all! 🚀 In this tutorial I show you how to use Qwen Image",
     "evidenceIds": [
       1,
