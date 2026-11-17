@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-16T13:42:51.601Z",
+  "startedAt": "2026-11-17T14:30:50.601Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 49,
@@ -9,11 +9,27 @@
   "candidatesAttempted": 0,
   "errors": [
     {
-      "platform": "seedance-2-5",
+      "platform": "google-veo-3-1",
       "message": "Official source changed; manual verification needed"
     },
     {
-      "platform": "seedream-4",
+      "platform": "ideogram-v3",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "nano-banana-2",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "tripo-3-1",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-agents",
       "message": "Official source changed; manual verification needed"
     },
     {
@@ -74,14 +90,22 @@
     },
     {
       "platform": "meshy-ai",
-      "message": "Official source changed; manual verification needed"
+      "message": "Official source HTTP 403"
     },
     {
       "platform": "magnific-ai",
       "message": "Official source HTTP 403"
     },
     {
+      "platform": "seedance-2-5",
+      "message": "The operation was aborted due to timeout"
+    },
+    {
       "platform": "nano-banana-pro",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "seedream-4",
       "message": "Official source changed; manual verification needed"
     },
     {
@@ -118,16 +142,15 @@
     }
   ],
   "monitor": {
-    "changed": 23,
-    "fetch-failed": 4,
-    "unchanged-unverified": 20,
-    "baseline": 2
+    "changed": 27,
+    "fetch-failed": 6,
+    "unchanged-unverified": 16
   },
   "health": {
-    "stale": 45,
-    "failed": 4
+    "stale": 43,
+    "failed": 6
   },
   "scheduled": 49,
   "skipped": 0,
-  "completedAt": "2026-11-16T13:43:22.515Z"
+  "completedAt": "2026-11-17T14:31:43.784Z"
 }
