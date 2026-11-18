@@ -568,5 +568,58 @@
     }
   ],
   "maxNewArticles": 20,
-  "maxSummaries": 36
+  "maxSummaries": 36,
+  "trendDiscovery": {
+    "description": "Free discovery leads only; not verified model facts or quality scores.",
+    "sources": [
+      {
+        "name": "Hugging Face trending models",
+        "url": "https://huggingface.co/models?sort=trending",
+        "type": "html",
+        "signal": "open-model-popularity"
+      },
+      {
+        "name": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai/",
+        "type": "html",
+        "signal": "independent-benchmarks"
+      },
+      {
+        "name": "Arena",
+        "url": "https://arena.ai/",
+        "type": "html",
+        "signal": "human-preference-leaderboards"
+      },
+      {
+        "name": "Future Tools",
+        "url": "https://www.futuretools.io/",
+        "type": "html",
+        "signal": "new-tools"
+      },
+      {
+        "name": "Futurepedia",
+        "url": "https://www.futurepedia.io/",
+        "type": "html",
+        "signal": "new-tools"
+      },
+      {
+        "name": "OpenAI news",
+        "url": "https://openai.com/news/",
+        "type": "html",
+        "signal": "official-releases"
+      },
+      {
+        "name": "Google DeepMind blog",
+        "url": "https://deepmind.google/discover/blog/",
+        "type": "html",
+        "signal": "official-releases"
+      },
+      {
+        "name": "Runway research",
+        "url": "https://runwayml.com/research",
+        "type": "html",
+        "signal": "official-releases"
+      }
+    ]
+  }
 }
