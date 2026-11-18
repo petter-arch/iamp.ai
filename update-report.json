@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-17T22:20:23.284Z",
+  "startedAt": "2026-11-18T10:08:23.940Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-17T22:20:23.284Z",
+      "checkedAt": "2026-11-18T10:08:23.940Z",
       "found": 8
     }
   },
-  "apiCalls": 7,
-  "cacheHits": 191,
+  "apiCalls": 9,
+  "cacheHits": 196,
   "rssChannels": 35,
   "selection": {
-    "fetched": 192,
-    "relevant": 58,
-    "supported": 47
+    "fetched": 190,
+    "relevant": 57,
+    "supported": 45
   },
   "rejected": [
     {
@@ -87,21 +87,13 @@
       ]
     },
     {
-      "video": "rn6a9w7494A",
-      "title": "UniSpark: One Model That Understands, Generates, AND Edits Images",
+      "video": "kj7ZIfNF_oQ",
+      "title": "AI को सच में परखा? IIT Madras SEANAV, NVIDIA SimReady | AI News Hindi Nov16",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "IF9D8WbNmYk",
-      "title": "Motphys releases MotrixSim 1.0 #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2
+        1,
+        8,
+        23
       ]
     },
     {
@@ -122,11 +114,13 @@
       ]
     },
     {
-      "video": "aFxSPsCkuBI",
-      "title": "NVIDIA's new models for robots and self-driving cars #shorts",
+      "video": "xaK0cwV0WLM",
+      "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
+        1,
+        8,
+        20
       ]
     },
     {
@@ -137,6 +131,24 @@
         1,
         2,
         4
+      ]
+    },
+    {
+      "video": "GOX594srvU4",
+      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4
+      ]
+    },
+    {
+      "video": "0jiTsXo0dpY",
+      "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        6,
+        7
       ]
     },
     {
@@ -170,31 +182,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "C_cWqNZqYaE",
-      "title": "Minecraft 3D Model Generator: AI Tulip Cluster in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "L0fLLr5Oej0",
       "title": "How I Use Claude in My Video Edits",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "fxC-_YbhGEo",
-      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "d4eqvhF3wN8",
-      "title": "😱 Gemini AI Photo Editing 🔥 New Viral Photo Editing Prompt | Google Gemini #shorts #viral #trending",
+      "video": "pyfgFGRmR9A",
+      "title": "AI Filmmaking Made Easy 🎬 | Create Cinematic AI Videos with Optra Studio",
       "stage": "insufficient-article-source"
     },
     {
       "video": "-nljmEfQc2o",
       "title": "ChatGPT से ऐसी Trending AI Photo कैसे बनाएं? 🔥 | ChatGPT AI Photo Editing Prompt | Full Body Photo",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "d4eqvhF3wN8",
+      "title": "😱 Gemini AI Photo Editing 🔥 New Viral Photo Editing Prompt | Google Gemini #shorts #viral #trending",
       "stage": "insufficient-article-source"
     },
     {
@@ -208,41 +212,31 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "k04rfTjCD04",
-      "title": "🔥 New Trending AI Photo Prompt 2026 😍 | Gemini AI Photo Editing #shorts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "7pq1NJnRNBM",
-      "title": "Minecraft 3D Model Generator: AI-Made Pumpkin Patch (Blockbench)",
+      "video": "C_cWqNZqYaE",
+      "title": "Minecraft 3D Model Generator: AI Tulip Cluster in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
         1
       ]
     },
     {
-      "video": "D3_uk3QW6x0",
-      "title": "AI Filmmaking Just Got EASIER! (Higgsfield)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "xFTK5SFVzG0",
-      "title": "AI Is Changing Filmmaking Forever 🤯🎬",
+      "video": "fxC-_YbhGEo",
+      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2,
-  "completedAt": "2026-11-17T22:21:06.337Z",
+  "accepted": 6,
+  "completedAt": "2026-11-18T10:09:22.790Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 7,
+    "runRequests": 9,
     "day": {
-      "requests": 17,
-      "reservedMicrousd": 242304
+      "requests": 9,
+      "reservedMicrousd": 134638
     },
     "month": {
-      "requests": 66,
-      "reservedMicrousd": 925716
+      "requests": 75,
+      "reservedMicrousd": 1060354
     },
     "limits": {
       "dayMicrousd": 500000,
