@@ -1,46 +1,54 @@
 {
-  "startedAt": "2026-11-18T10:08:23.940Z",
+  "startedAt": "2026-11-18T21:55:08.920Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     }
   },
-  "apiCalls": 9,
-  "cacheHits": 196,
+  "apiCalls": 14,
+  "cacheHits": 186,
   "rssChannels": 35,
   "selection": {
-    "fetched": 190,
-    "relevant": 57,
-    "supported": 45
+    "fetched": 191,
+    "relevant": 59,
+    "supported": 46
   },
   "rejected": [
+    {
+      "video": "GOX594srvU4",
+      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        4
+      ]
+    },
     {
       "video": "r5l8Ud__hCo",
       "title": "I love this new Blender feature…",
@@ -87,13 +95,12 @@
       ]
     },
     {
-      "video": "kj7ZIfNF_oQ",
-      "title": "AI को सच में परखा? IIT Madras SEANAV, NVIDIA SimReady | AI News Hindi Nov16",
+      "video": "IF9D8WbNmYk",
+      "title": "Motphys releases MotrixSim 1.0 #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        8,
-        23
+        0,
+        2
       ]
     },
     {
@@ -114,13 +121,11 @@
       ]
     },
     {
-      "video": "xaK0cwV0WLM",
-      "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
+      "video": "aFxSPsCkuBI",
+      "title": "NVIDIA's new models for robots and self-driving cars #shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        8,
-        20
+        1
       ]
     },
     {
@@ -134,21 +139,20 @@
       ]
     },
     {
-      "video": "GOX594srvU4",
-      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A",
+      "video": "c0Qy72G_CAw",
+      "title": "Real-time image generation and editing with Qwen Image 2.1 #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        4
+        0,
+        1
       ]
     },
     {
-      "video": "0jiTsXo0dpY",
-      "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
+      "video": "gtQIpoaEubk",
+      "title": "Minecraft 3D Model Generator: AI Thorny Bramble in Blockbench",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
-        6,
-        7
+        1
       ]
     },
     {
@@ -187,8 +191,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "pyfgFGRmR9A",
-      "title": "AI Filmmaking Made Easy 🎬 | Create Cinematic AI Videos with Optra Studio",
+      "video": "4v6z6fTx2tg",
+      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "J8Gk1GhkACc",
+      "title": "How AI Video Tools Are Helping Independent Filmmakers Think Bigger @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "yPrACnjxAKA",
+      "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "30obDSYaXfY",
+      "title": "Why AI-Powered Filmmaking Is Opening New Career Opportunities @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "-ezSMGVz160",
+      "title": "Why AI Filmmaking Could Create the Next Generation of Entrepreneurs @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -200,43 +224,20 @@
       "video": "d4eqvhF3wN8",
       "title": "😱 Gemini AI Photo Editing 🔥 New Viral Photo Editing Prompt | Google Gemini #shorts #viral #trending",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "5EPxJCt9EOA",
-      "title": "🔥 Viral AI Photo Editing Prompts Collection | Trending AI Photo Editing 2026 | Popular Prompts",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "1fMy7yHoDus",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #Ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "C_cWqNZqYaE",
-      "title": "Minecraft 3D Model Generator: AI Tulip Cluster in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "fxC-_YbhGEo",
-      "title": "AI 3D Model Generator: Transform 2D Art to 3D Instantly",
-      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 6,
-  "completedAt": "2026-11-18T10:09:22.790Z",
+  "completedAt": "2026-11-18T21:56:10.321Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 9,
+    "runRequests": 14,
     "day": {
-      "requests": 9,
-      "reservedMicrousd": 134638
+      "requests": 23,
+      "reservedMicrousd": 325408
     },
     "month": {
-      "requests": 75,
-      "reservedMicrousd": 1060354
+      "requests": 89,
+      "reservedMicrousd": 1251124
     },
     "limits": {
       "dayMicrousd": 500000,

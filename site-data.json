@@ -1,8 +1,295 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T10:08:23.940Z",
-  "newsCheckedAt": "2026-11-18T10:08:23.940Z",
+  "updatedAt": "2026-11-18T21:55:08.920Z",
+  "newsCheckedAt": "2026-11-18T21:55:08.920Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Hi3D 1.0 just went open source, and it fixes the biggest weakness of local 3D AI: soft, broken meshes. Hi3D 1.0 is a refiner. It",
+      "evidenceIds": [
+        1,
+        7,
+        21
+      ],
+      "id": "Mi2-AFifowU",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Hi3D 1.0 blir öppen källkod och förfinar lokala 3D-nät",
+      "sum": "PixelArtistry beskriver Hi3D 1.0 som en lokal 3D AI-förfinare som tar nät från Trellis 2 eller Pixal3D och bygger om dem med skarpare detaljer och nästan inga hål. Kanalen uppger att verktyget har testats lokalt mot båda systemen och tar även upp en ComfyUI-version samt krav på VRAM.",
+      "full": "PixelArtistry rapporterar att Hi3D 1.0 har blivit öppen källkod och riktar in sig på en tydlig svaghet hos lokal 3D AI: mjuka och trasiga nät. I stället för att skapa ett nät från grunden fungerar Hi3D som en förfinare. Den tar ett befintligt nät från Trellis 2 eller Pixal3D och bygger om det med skarpare detaljer och nästan inga hål, enligt kanalens beskrivning.\n\nKanalen uppger att Hi3D 1.0 testades lokalt mot både Trellis 2 och Pixal3D. Beskrivningen anger också att videon behandlar en ComfyUI-version och VRAM, men lämnar inga konkreta uppgifter om maskinvara, minneskrav eller testresultat. Därför går det inte att dra slutsatser om prestanda eller bildkvalitet utöver kanalens egen beskrivning.\n\nArbetsflödet är särskilt relevant för användare som redan har ett AI-genererat 3D-nät men behöver förbättra geometrin innan fortsatt användning. PixelArtistry placerar Hi3D i ett bredare lokalt 3D-arbetsflöde tillsammans med Trellis 2 och Pixal3D. Videon nämner även andra AI-relaterade 3D-projekt, men den centrala utvecklingen är Hi3D 1.0:s öppna källkod och roll som nätförfinare.",
+      "deep": "PixelArtistry framställer Hi3D 1.0 som ett steg för att åtgärda artefakter i lokalt genererade 3D-nät, särskilt mjuka ytor och hål i geometrin. Den angivna processen börjar med ett nät från Trellis 2 eller Pixal3D och använder därefter Hi3D för att återskapa nätet med högre detaljskärpa. Källan specificerar inte hur förfiningen genomförs tekniskt, vilken licens som används eller vilka begränsningar som gäller; tidsmarkeringen i beskrivningen anger dock att licensvillkor tas upp i videon.\n\nBeskrivningen nämner dessutom att Stefan medverkar i genomgången och att videon tar upp AI-hår med HairDeck, Character Creator 5.2, en ny öppen splat-generator, Rodins AI-riggning och flera nya forskningsartiklar. Dessa delar är kompletterande ämnen och inte tillräckligt specificerade i källmaterialet för separata, detaljerade slutsatser. Inte heller anges någon produktlanseringsdag för Hi3D 1.0; videons uppladdningsdatum ska därför inte tolkas som ett releasedatum.",
+      "en": {
+        "ttl": "Hi3D 1.0 goes open source and refines local 3D meshes",
+        "sum": "PixelArtistry describes Hi3D 1.0 as a local 3D AI refiner that takes meshes from Trellis 2 or Pixal3D and rebuilds them with sharper detail and almost no holes. The channel says it tested the tool locally against both systems and also covers a ComfyUI version and VRAM requirements.",
+        "full": "PixelArtistry reports that Hi3D 1.0 has become open source and targets a clear weakness in local 3D AI: soft and broken meshes. Rather than generating a mesh from scratch, Hi3D works as a refiner. It takes an existing mesh from Trellis 2 or Pixal3D and rebuilds it with sharper detail and almost no holes, according to the channel’s description.\n\nThe channel says Hi3D 1.0 was tested locally against both Trellis 2 and Pixal3D. The description also says that the video covers a ComfyUI version and VRAM, but provides no concrete hardware details, memory requirements or test results. No conclusions about performance or visual quality can therefore be drawn beyond the channel’s own description.\n\nThe workflow is particularly relevant to users who already have an AI-generated 3D mesh but need to improve its geometry before further use. PixelArtistry places Hi3D within a broader local 3D workflow alongside Trellis 2 and Pixal3D. The video also mentions other AI-related 3D projects, but the central development is Hi3D 1.0’s open-source release and its role as a mesh refiner.",
+        "deep": "PixelArtistry presents Hi3D 1.0 as a way to address artifacts in locally generated 3D meshes, especially soft surfaces and holes in the geometry. The stated process starts with a mesh from Trellis 2 or Pixal3D and then uses Hi3D to rebuild it with sharper detail. The source does not specify how the refinement works technically, which license is used or what limitations apply; however, the timestamps indicate that licensing is discussed in the video.\n\nThe description also mentions Stefan’s participation and says the video covers AI hair with HairDeck, Character Creator 5.2, a new open-source splat generator, Rodin’s AI rigging and several new research papers. These are supporting topics and are not specified in enough detail in the source material for separate, detailed conclusions. The source also gives no product release date for Hi3D 1.0, so the upload date must not be interpreted as a release date."
+      },
+      "cat": "3d",
+      "date": "2026-11-18T13:45:28Z",
+      "meta": "PixelArtistry · 2026-11-18",
+      "url": "https://www.youtube.com/watch?v=Mi2-AFifowU",
+      "img": "https://i.ytimg.com/vi/Mi2-AFifowU/hqdefault.jpg",
+      "plat": "Hitem3D",
+      "platformIds": [
+        "hitem3d"
+      ],
+      "chans": [
+        "PixelArtistry"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 39,
+          "l": "Hi3D 1.0 is open source"
+        },
+        {
+          "t": 127,
+          "l": "License heads up"
+        },
+        {
+          "t": 153,
+          "l": "Hi3D tested locally vs Trellis 2 and Pixal3D"
+        },
+        {
+          "t": 290,
+          "l": "ComfyUI version and VRAM"
+        },
+        {
+          "t": 322,
+          "l": "HairDeck: AI hair generation"
+        },
+        {
+          "t": 373,
+          "l": "Tripo Agentic Canvas"
+        },
+        {
+          "t": 552,
+          "l": "Character Creator 5.2"
+        },
+        {
+          "t": 641,
+          "l": "Idol: open source splats"
+        },
+        {
+          "t": 696,
+          "l": "Construct: 3D objects for LLMs"
+        },
+        {
+          "t": 759,
+          "l": "Effigy: local game asset pipeline"
+        },
+        {
+          "t": 843,
+          "l": "Hyper3D Rodin AI rigging"
+        },
+        {
+          "t": 897,
+          "l": "SUPRA-TEX"
+        },
+        {
+          "t": 973,
+          "l": "TailorRig"
+        },
+        {
+          "t": 1026,
+          "l": "Outro"
+        }
+      ],
+      "views": 22342,
+      "buzz": 72,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "89baf0d93d572b7ae3b297df9fc0cc0a156eabe940ad9fbd312d17f7590067f0",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Hi3D 1.0",
+        "Trellis 2",
+        "Pixal3D",
+        "HairDeck",
+        "Character Creator 5.2"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Introducing Cinzora.ai – Your AI-Powered Creative Filmmaking Companion. Developed by Wysele Technologies LLP, Cinzora.ai brings AI-powered creative capabilities together to help filmmakers, directors, producers, and",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ],
+      "id": "LjZm9oxwkUM",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Cinzora.ai samlar AI-verktyg för filmskapande",
+      "sum": "Wysele AI Media Factory presenterar Cinzora.ai som en AI-driven kreativ följeslagare för filmskapare, regissörer, producenter och innehållsskapare. Enligt kanalens beskrivning samlar tjänsten AI-baserad bild- och videogenerering och ska hjälpa användare att omvandla idéer till visuella koncept.",
+      "full": "Wysele AI Media Factory presenterar Cinzora.ai som en AI-driven kreativ plattform för filmskapande. Tjänsten har utvecklats av Wysele Technologies LLP och riktar sig enligt beskrivningen till filmskapare, regissörer, producenter och innehållsskapare som vill utforska nya sätt att berätta visuella historier.\n\nDen centrala funktionen som nämns är AI-baserad bild- och videogenerering. Cinzora.ai ska kunna hjälpa användare att omvandla kreativa idéer till visuella koncept, vilket placerar tjänsten i ett tidigt skede av den kreativa processen. Beskrivningen framställer plattformen som ett verktyg för att utforska och utveckla idéer snarare än som en ersättning för hela filmproduktionen.\n\nKanalen lyfter även fram möjligheten att experimentera med visuella effekter och kreativa stilar. Detaljer om specifika modeller, exportformat, arbetsflöden, prisnivåer eller tekniska begränsningar anges däremot inte i det tillgängliga underlaget. Därför går det inte att fastställa hur funktionerna fungerar i praktiken eller hur Cinzora.ai står sig mot andra AI-plattformar.\n\nEnligt Wysele AI Media Factory är målet att göra nya kreativa möjligheter mer tillgängliga för skapare. Plattformen kopplas till användningsområden som visuell konceptutveckling, digitalt berättande och AI-baserad filmproduktion. Cinzora.ai presenteras därmed som ett samlat kreativt stöd för den som vill undersöka idéer och visuella uttryck med hjälp av AI.",
+      "deep": "Beskrivningen betonar flera delar av ett AI-baserat filmarbetsflöde: att utforska bild- och videogenerering, att göra kreativa idéer visuella samt att prova visuella effekter och olika kreativa stilar. De angivna målgrupperna omfattar både traditionella filmroller, som regissörer och producenter, och bredare grupper av innehållsskapare.\n\nCinzora.ai uppges vara utvecklad av Wysele Technologies LLP. Underlaget innehåller inga verifierbara uppgifter om lanseringsdatum, versionsnummer, bakomliggande AI-modeller, kontroll över bildkomposition eller videolängd. Det finns inte heller tillräckligt med information för att bedöma resultatkvalitet, stabilitet eller produktionsklarhet. Uppgifterna i artikeln återges därför som kanalens presentation av tjänsten, inte som resultat från ett oberoende test.",
+      "en": {
+        "ttl": "Cinzora.ai samlar AI-verktyg för filmskapande",
+        "sum": "Wysele AI Media Factory presents Cinzora.ai as an AI-powered creative companion for filmmakers, directors, producers, and content creators. According to the channel’s description, the service combines AI-powered image and video generation and is intended to help users turn ideas into visual concepts.",
+        "full": "Wysele AI Media Factory presents Cinzora.ai as an AI-powered creative platform for filmmaking. The service was developed by Wysele Technologies LLP and, according to the description, targets filmmakers, directors, producers, and content creators who want to explore new ways of telling visual stories.\n\nThe main feature mentioned is AI-powered image and video generation. Cinzora.ai is described as helping users turn creative ideas into visual concepts, placing the service at an early stage of the creative process. The description presents the platform as a tool for exploring and developing ideas rather than as a replacement for an entire film production.\n\nThe channel also highlights experimenting with visual effects and creative styles. However, the available material provides no details about specific models, export formats, workflows, pricing, or technical limitations. It is therefore not possible to determine how the features work in practice or how Cinzora.ai compares with other AI platforms.\n\nAccording to Wysele AI Media Factory, the goal is to make new creative possibilities more accessible to creators. The platform is associated with visual concept development, digital storytelling, and AI-based filmmaking, and is presented as a combined creative aid for exploring ideas and visual styles with AI.",
+        "deep": "The description emphasizes several parts of an AI-based filmmaking workflow: exploring image and video generation, visualizing creative ideas, and trying visual effects and different creative styles. The named audiences include traditional film roles such as directors and producers, as well as broader groups of content creators.\n\nCinzora.ai is stated to have been developed by Wysele Technologies LLP. The source contains no verifiable information about a launch date, version number, underlying AI models, control over image composition, or video length. It also does not provide enough information to assess output quality, reliability, or production readiness. The article therefore attributes the information to the channel’s presentation of the service rather than to an independent test."
+      },
+      "cat": "film",
+      "date": "2026-11-18T12:01:55Z",
+      "meta": "Wysele AI Media Factory · 2026-11-18",
+      "url": "https://www.youtube.com/watch?v=LjZm9oxwkUM",
+      "img": "https://i.ytimg.com/vi/LjZm9oxwkUM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Wysele AI Media Factory"
+      ],
+      "parts": [],
+      "views": 93,
+      "buzz": 44,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "2c9baa67b129d5d23b19283f202d027775bd02b9e1188f153626aeae90283d89",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Cinzora.ai"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Hollywood-style filmmaking is becoming more accessible with the power of artificial intelligence! Higgsfield AI founder Alex Mashrabov joins Harry Stebbings on 20VC to explore how",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "7xq1s5gRO6M",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Higgsfield AI vill göra filmiskt videoskapande mer tillgängligt",
+      "sum": "Titan Syndicate beskriver hur Higgsfield AI använder generativ AI för att hjälpa filmskapare och innehållsskapare att skapa filmiska bilder, experimentera med professionella kamerarörelser och omvandla kreativa idéer till videor.",
+      "full": "Kanalen Titan Syndicate lyfter Higgsfield AI som ett verktyg för att göra Hollywood-inspirerat videoskapande mer tillgängligt. I videobeskrivningen medverkar Higgsfield AI:s grundare Alex Mashrabov i ett samtal med Harry Stebbings på 20VC om hur AI-generering av video kan öppna nya möjligheter för filmskapare, innehållsskapare och digitala entreprenörer.\n\nEnligt beskrivningen fokuserar arbetsflödet på generativa AI-funktioner för att skapa filmiska bilder och pröva professionella kamerarörelser. Det innebär att skapare kan utforska visuella idéer och utveckla material för digital berättarkonst utan att beskrivningen begränsar användningen till en viss produktionstyp.\n\nTitan Syndicate kopplar Higgsfield AI till både oberoende filmskapande och AI-baserad innehållsproduktion. Beskrivningen framställer därmed verktyget som en plattform för att omvandla kreativa idéer till engagerande videor, samtidigt som den betonar nya möjligheter för skapare och digitala entreprenörer.\n\nUnderlaget innehåller däremot inga uppgifter om specifika modeller, tekniska prestanda, lanseringsdatum, priser eller oberoende testresultat. Påståendena återges därför som kanalens beskrivning av Higgsfield AI:s användningsområden, inte som resultat från en självständig granskning.",
+      "deep": "Videobeskrivningen placerar Higgsfield AI inom generativ AI för video och filmiskt berättande. De uttryckligen nämnda användningsområdena är skapande av filmiska visuella uttryck, experiment med professionella kamerarörelser samt omvandling av kreativa idéer till färdiga videor.\n\nDe tänkta användarna som nämns är filmskapare, innehållsskapare och digitala entreprenörer. Beskrivningen pekar också ut oberoende filmskapande och AI-baserad innehållsproduktion som relevanta sammanhang. Den ger dock inte tillräckligt med information för att fastställa hur funktionerna fungerar i praktiken eller hur Higgsfield AI står sig mot andra videoplattformar.",
+      "en": {
+        "ttl": "Higgsfield AI aims to make cinematic video creation more accessible",
+        "sum": "Titan Syndicate describes how Higgsfield AI uses generative AI to help filmmakers and content creators produce cinematic visuals, experiment with professional camera movements, and turn creative ideas into videos.",
+        "full": "The channel Titan Syndicate presents Higgsfield AI as a way to make Hollywood-style video creation more accessible. The video description says that Higgsfield AI founder Alex Mashrabov joins Harry Stebbings on 20VC to discuss how AI video generation can create new opportunities for filmmakers, content creators, and digital entrepreneurs.\n\nAccording to the description, the workflow focuses on generative AI features for creating cinematic visuals and experimenting with professional camera movements. This gives creators a way to explore visual ideas and develop material for digital storytelling, although the description does not limit the use case to a particular type of production.\n\nTitan Syndicate connects Higgsfield AI with both independent filmmaking and AI-powered content creation. The description therefore presents the platform as a tool for turning creative ideas into compelling videos while emphasizing new opportunities for creators and digital entrepreneurs.\n\nThe source does not provide details about specific models, technical performance, release dates, pricing, or independent test results. The claims are therefore attributed to the channel’s description of Higgsfield AI’s use cases rather than presented as findings from an independent review.",
+        "deep": "The video description places Higgsfield AI in the field of generative AI for video and cinematic storytelling. The explicitly stated use cases are creating cinematic visuals, experimenting with professional camera movements, and turning creative ideas into completed videos.\n\nThe intended users named in the description are filmmakers, content creators, and digital entrepreneurs. It also identifies independent filmmaking and AI-powered content creation as relevant contexts. However, the source does not provide enough information to determine how the features work in practice or how Higgsfield AI compares with other video platforms."
+      },
+      "cat": "film",
+      "date": "2026-11-18T11:54:50Z",
+      "meta": "Titan Syndicate · 2026-11-18",
+      "url": "https://www.youtube.com/watch?v=7xq1s5gRO6M",
+      "img": "https://i.ytimg.com/vi/7xq1s5gRO6M/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "Titan Syndicate"
+      ],
+      "parts": [],
+      "views": 63,
+      "buzz": 42,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f757cdd1af47b1c2a39e1505f8f43259cad83aca4b53cffcda72ace32ac1029d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Higgsfield AI founder Alex Mashrabov joins Harry Stebbings on 20VC to explore how AI video generation is opening exciting new possibilities for filmmakers, content creators,",
+      "evidenceIds": [
+        2,
+        3,
+        4
+      ],
+      "id": "Z6Z_LlNqNO0",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Higgsfield AI vill göra filmskapande mer tillgängligt med videogenerering",
+      "sum": "Phantom Apex beskriver ett 20VC-samtal där Higgsfield AI:s grundare Alex Mashrabov berättar hur generativ AI-video kan ge filmskapare, innehållsskapare och digitala entreprenörer nya möjligheter att skapa filmiska bilder, prova professionella kamerarörelser och omvandla idéer till videor.",
+      "full": "I en video från Phantom Apex med titeln ”Why the Next Generation of Filmmakers Is Embracing AI” medverkar Higgsfield AI:s grundare Alex Mashrabov i ett samtal med Harry Stebbings på 20VC. Enligt kanalens beskrivning handlar samtalet om hur AI-videogenerering öppnar nya möjligheter för filmskapare, innehållsskapare och digitala entreprenörer.\n\nHiggsfield AI och generativ AI-teknik presenteras som verktyg för att skapa filmiska bilder och experimentera med professionella kamerarörelser. Beskrivningen framhåller också ett arbetsflöde där kreatörer kan omvandla kreativa idéer till övertygande videor, utan att specificera vilka funktioner, modeller eller produktversioner som används.\n\nKanalen placerar tekniken i flera användningsområden, från oberoende filmskapande till AI-baserad innehållsproduktion. Den övergripande tesen är att Hollywood-liknande filmskapande blir mer tillgängligt genom artificiell intelligens, samtidigt som beskrivningen inte redovisar någon oberoende testning, mätning eller jämförelse med andra verktyg.",
+      "deep": "Phantom Apex beskriver utvecklingen som en förändring för nästa generation filmskapare, där generativ AI-video kan användas för att utforska visuella idéer och skapa berättande innehåll. De konkreta användningsfallen som nämns är filmiska visuella uttryck, professionella kamerarörelser och omvandling av idéer till videor.\n\nBeskrivningen kopplar Higgsfield AI till en bredare utveckling inom digitalt berättande och kreatörsekonomin. Den anger däremot inte detaljer om modellens tekniska arkitektur, tillgänglighet, pris, lanseringsdatum, videolängd, upplösning eller resultatkvalitet. Videons uppladdningsdatum ska därför inte tolkas som ett produktlanseringsdatum.",
+      "en": {
+        "ttl": "Higgsfield AI aims to make filmmaking more accessible with video generation",
+        "sum": "Phantom Apex describes a 20VC conversation in which Higgsfield AI founder Alex Mashrabov explains how generative AI video can give filmmakers, content creators, and digital entrepreneurs new ways to create cinematic visuals, try professional camera movements, and turn ideas into videos.",
+        "full": "In a video from Phantom Apex titled “Why the Next Generation of Filmmakers Is Embracing AI,” Higgsfield AI founder Alex Mashrabov joins Harry Stebbings for a conversation on 20VC. According to the channel’s description, the discussion focuses on how AI video generation is creating new opportunities for filmmakers, content creators, and digital entrepreneurs.\n\nHiggsfield AI and generative AI technology are presented as tools for creating cinematic visuals and experimenting with professional camera movements. The description also highlights a workflow in which creators can turn creative ideas into compelling videos, without specifying which features, models, or product versions are used.\n\nThe channel places the technology in several use cases, from independent filmmaking to AI-powered content creation. Its broader claim is that Hollywood-style filmmaking is becoming more accessible through artificial intelligence, while the description provides no independent testing, measurements, or comparison with other tools.",
+        "deep": "Phantom Apex presents the development as a shift for the next generation of filmmakers, where generative AI video can be used to explore visual ideas and create narrative content. The specific use cases mentioned are cinematic visuals, professional camera movements, and turning ideas into videos.\n\nThe description connects Higgsfield AI with a broader development in digital storytelling and the creator economy. It does not provide details about model architecture, availability, pricing, release date, video length, resolution, or output quality. The video upload date should therefore not be interpreted as a product release date."
+      },
+      "cat": "film",
+      "date": "2026-11-18T11:54:30Z",
+      "meta": "Phantom Apex · 2026-11-18",
+      "url": "https://www.youtube.com/watch?v=Z6Z_LlNqNO0",
+      "img": "https://i.ytimg.com/vi/Z6Z_LlNqNO0/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "Phantom Apex"
+      ],
+      "parts": [],
+      "views": 1042,
+      "buzz": 56,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f757cdd1af47b1c2a39e1505f8f43259cad83aca4b53cffcda72ace32ac1029d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Hollywood-style filmmaking is becoming more accessible with the power of artificial intelligence! Higgsfield AI founder Alex Mashrabov joins Harry Stebbings on 20VC to explore how",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "oSNeC_NlOdU",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Higgsfield AI vill göra Hollywood-liknande videoproduktion mer tillgänglig",
+      "sum": "NO NOVEMEBR beskriver hur Higgsfield AI använder generativ AI för videogenerering och hjälper filmskapare, innehållsskapare och digitala entreprenörer att skapa filmiska bilder, experimentera med professionella kamerarörelser och omvandla idéer till videor.",
+      "full": "Enligt YouTube-kanalen NO NOVEMEBR undersöker Higgsfield AI hur generativ AI kan göra Hollywood-liknande videoproduktion mer tillgänglig. I beskrivningen medverkar Higgsfield AI:s grundare Alex Mashrabov i ett samtal med Harry Stebbings på 20VC om hur AI-baserad videogenerering öppnar nya möjligheter för filmskapare, innehållsskapare och digitala entreprenörer.\n\nDet centrala ämnet är ett AI-drivet arbetsflöde för att skapa filmiskt videoinnehåll. NO NOVEMEBR framhåller att Higgsfield AI kan hjälpa kreatörer att producera filmiska bilder och experimentera med professionella kamerarörelser. Beskrivningen anger inte vilka specifika modeller, funktioner eller produktversioner som används, men kopplar verktyget tydligt till generativ videogenerering och AI-baserat filmskapande.\n\nKanalen placerar användningen i flera kreativa sammanhang, från oberoende filmskapande till AI-drivet innehållsskapande. Det innebär att Higgsfield AI enligt beskrivningen riktar sig både till traditionella filmprojekt och till digitala entreprenörer som vill utveckla visuellt berättande med AI. Några oberoende testresultat, mätvärden eller verifierade jämförelser anges inte.",
+      "deep": "Beskrivningen lyfter särskilt möjligheten att experimentera med professionella kamerarörelser, vilket gör kameraregissering till en uttrycklig del av det presenterade AI-arbetsflödet. Den nämner också att kreativa idéer kan omvandlas till färdiga videor och att tekniken kan användas för filmiska visuella uttryck.\n\nMaterialet ger däremot inga detaljer om inmatningsformat, klipplängd, upplösning, ljudfunktioner, redigeringssteg, tillgänglighet, pris eller lanseringsdatum. Videons uppladdningsdatum ska därför inte tolkas som ett produktlanseringsdatum. Uppgifterna återges som påståenden och beskrivningar från NO NOVEMEBR, inte som en självständig granskning.",
+      "en": {
+        "ttl": "Higgsfield AI aims to make Hollywood-style video production more accessible",
+        "sum": "NO NOVEMEBR describes how Higgsfield AI uses generative AI for video generation and helps filmmakers, content creators and digital entrepreneurs create cinematic visuals, experiment with professional camera movements and turn ideas into videos.",
+        "full": "According to the YouTube channel NO NOVEMEBR, Higgsfield AI is exploring how generative AI can make Hollywood-style video production more accessible. The description features Higgsfield AI founder Alex Mashrabov in a conversation with Harry Stebbings on 20VC about how AI video generation is opening new possibilities for filmmakers, content creators and digital entrepreneurs.\n\nThe main subject is an AI-driven workflow for creating cinematic video content. NO NOVEMEBR highlights that Higgsfield AI can help creators produce cinematic visuals and experiment with professional camera movements. The description does not specify which models, features or product versions are used, but it clearly links the tool to generative video generation and AI filmmaking.\n\nThe channel places the use case in several creative contexts, from independent filmmaking to AI-powered content creation. This means that, according to the description, Higgsfield AI is aimed both at traditional film projects and at digital entrepreneurs developing visual storytelling with AI. No independent test results, metrics or verified comparisons are provided.",
+        "deep": "The description specifically highlights the ability to experiment with professional camera movements, making camera direction an explicit part of the presented AI workflow. It also says that creative ideas can be turned into compelling videos and that the technology can be used for cinematic visual expression.\n\nHowever, the material provides no details about input formats, clip length, resolution, audio features, editing steps, availability, pricing or launch dates. The video upload date should therefore not be interpreted as a product release date. The claims are presented as descriptions from NO NOVEMEBR, not as an independent review."
+      },
+      "cat": "film",
+      "date": "2026-11-18T11:54:01Z",
+      "meta": "NO NOVEMEBR · 2026-11-18",
+      "url": "https://www.youtube.com/watch?v=oSNeC_NlOdU",
+      "img": "https://i.ytimg.com/vi/oSNeC_NlOdU/hqdefault.jpg",
+      "plat": "Higgsfield",
+      "platformIds": [
+        "higgsfield"
+      ],
+      "chans": [
+        "NO NOVEMEBR"
+      ],
+      "parts": [],
+      "views": 1,
+      "buzz": 24,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f757cdd1af47b1c2a39e1505f8f43259cad83aca4b53cffcda72ace32ac1029d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Create your own AI Filmmaking Workflow with Claude Skills! In this step-by-step tutorial, I'll show you how to create a custom Claude AI Skill file",
@@ -486,6 +773,51 @@
         "GPT Image 2.5",
         "Flux",
         "Grok"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this video, I'm taking my AI-built survival game to the next level by creating custom 3D models using **Customuse** and **Claude MCP**! I'll show",
+      "evidenceIds": [
+        5,
+        6,
+        7
+      ],
+      "id": "p4KLfSFP9mg",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "AI-byggt överlevnadsspel uppgraderas med Customuse 3D-modeller och Claude MCP",
+      "sum": "ZEHER RAJA beskriver hur ett AI-byggt överlevnadsspel får nya 3D-tillgångar genom Customuse och Claude MCP. Modellerna skapas via AI, exporteras i GLB-format och importeras sedan i spelet för att uppgradera miljön och jämföra originalversionen med den förbättrade versionen.",
+      "full": "ZEHER RAJA visar ett arbetsflöde för att vidareutveckla ett AI-byggt överlevnadsspel med anpassade 3D-modeller. Huvudverktygen är Customuse och Claude MCP, där Claude kopplas till Customuse för att skapa modeller genom AI i stället för att enbart arbeta med spelets ursprungliga tillgångar.\n\nEnligt videobeskrivningen kan arbetsflödet användas för att generera realistiska 3D-tillgångar och skapa modeller direkt genom Claude via Customuse MCP. De färdiga modellerna exporteras i GLB-format, varefter de importeras till överlevnadsspelet.\n\nFokus ligger på att uppgradera spelvärldens överlevnadsö och dess miljö med nya tillgångar. ZEHER RAJA uppger också att videon jämför den ursprungliga AI-byggda versionen med en uppgraderad version som använder Customuse 3D-modeller. Den beskrivna jämförelsen är därmed en del av skaparen ZEHER RAJAs presentation, inte ett oberoende test.\n\nArbetsflödet omfattar att skapa 3D-modeller med Customuse AI, generera tillgångar för ett överlevnadsspel, ansluta Claude till Customuse med MCP, exportera modeller i GLB-format och importera 3D-tillgångarna i spelet. Beskrivningen nämner även slutligt spelmaterial och en före- och efterjämförelse.",
+      "deep": "Beskrivningen anger inte vilka specifika modelltyper, polygonantal, texturer, spelmotorer eller importinställningar som används. Den säger inte heller hur modellerna presterar i spelet eller hur stor den visuella skillnaden är. Det som uttryckligen stöds är kopplingen mellan Claude och Customuse genom MCP, AI-generering av 3D-modeller, GLB-export och efterföljande import i ett AI-byggt överlevnadsspel.\n\nCustomuse nämns också i ett kampanjerbjudande med en tre dagars provperiod, en kampanjkod och krediter. Det är ett sponsrat eller kampanjrelaterat inslag i beskrivningen och utgör inte en oberoende bedömning av verktygets funktioner.",
+      "en": {
+        "ttl": "AI-built survival game upgraded with Customuse 3D models and Claude MCP",
+        "sum": "ZEHER RAJA describes upgrading an AI-built survival game with custom 3D assets made through Customuse and Claude MCP. The models are created with AI, exported in GLB format, and imported into the game for an environment upgrade and a comparison between the original and improved versions.",
+        "full": "ZEHER RAJA presents a workflow for further developing an AI-built survival game with custom 3D models. The main tools are Customuse and Claude MCP, with Claude connected to Customuse so models can be created through AI rather than relying only on the game's original assets.\n\nAccording to the video description, the workflow can generate realistic 3D assets and create models directly through Claude using Customuse MCP. The finished models are exported in GLB format and then imported into the survival game.\n\nThe focus is on upgrading the survival island environment with new assets. ZEHER RAJA also says the video compares the original AI-built version with an upgraded version using Customuse 3D models. This comparison is therefore part of the creator's presentation, not an independent test.\n\nThe described workflow covers creating 3D models with Customuse AI, generating survival-game assets, connecting Claude to Customuse through MCP, exporting models in GLB format, and importing the 3D assets into the game. The description also mentions final gameplay footage and a before-and-after comparison.",
+        "deep": "The description does not specify the model types, polygon counts, textures, game engines, or import settings used. It also does not state how the models perform in the game or how large the visual difference is. The supported details are the Claude–Customuse connection through MCP, AI generation of 3D models, GLB export, and subsequent import into an AI-built survival game.\n\nCustomuse is also mentioned in a promotional offer involving a three-day trial, a promo code, and credits. This is a campaign-related element in the description and is not an independent assessment of the tool's capabilities."
+      },
+      "cat": "3d",
+      "date": "2026-11-17T12:20:19Z",
+      "meta": "ZEHER RAJA · 2026-11-17",
+      "url": "https://www.youtube.com/watch?v=p4KLfSFP9mg",
+      "img": "https://i.ytimg.com/vi/p4KLfSFP9mg/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "ZEHER RAJA"
+      ],
+      "parts": [],
+      "views": 1462,
+      "buzz": 58,
+      "sourceCheckedAt": "2026-11-18T21:55:08.920Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "b1e9c980758dc4168b065252ccf7b4ca8ed19a18f41057828bf58f1ba4766084",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Customuse",
+        "Claude MCP"
       ]
     },
     {
@@ -45418,7 +45750,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "uploadsPlaylist": "UUSpFnDQr88xCZ80N-X7t0nQ",
@@ -45438,7 +45770,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "uploadsPlaylist": "UU6P24bhhCmMPOcujA9PKPTA",
@@ -45458,7 +45790,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "uploadsPlaylist": "UUbvIIQc5Jo9-jIXnkPe03oA",
@@ -45478,7 +45810,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "uploadsPlaylist": "UUc0D1yh3TGE8dJSLm9VmEdg",
@@ -45498,7 +45830,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "uploadsPlaylist": "UU3DkFux8Iv-aYnTRWzwaiBA",
@@ -45518,7 +45850,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "uploadsPlaylist": "UU5bp5_6h-ZxkBz6S_33ZUVg",
@@ -45538,7 +45870,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "uploadsPlaylist": "UU_43mQmHwHPTBBqImFrWU3Q",
@@ -45558,7 +45890,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "uploadsPlaylist": "UUOKHwx1VCdgnxwbjyb9Iu1g",
@@ -45578,7 +45910,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "uploadsPlaylist": "UUGSJevmBuDyxjLLOBNaYMGA",
@@ -45598,7 +45930,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "uploadsPlaylist": "UUWWybvw9jnpOdJq_6wTHryA",
@@ -45618,7 +45950,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "uploadsPlaylist": "UUdcemy56JtVTrsFIOoqvV8g",
@@ -45638,7 +45970,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "uploadsPlaylist": "UUpyUGZeMUtOvt57UACw3H2g",
@@ -45658,7 +45990,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "uploadsPlaylist": "UUIcCXe3iWo6lq-iWKV40Oug",
@@ -45678,7 +46010,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "uploadsPlaylist": "UU9Tyxi96fEu0ho4mlxOEdOQ",
@@ -45698,7 +46030,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "uploadsPlaylist": "UUhpleBmo18P08aKCIgti38g",
@@ -45718,7 +46050,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "uploadsPlaylist": "UU5Wz4fFacYuON6IKbhSa7Zw",
@@ -45738,7 +46070,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "uploadsPlaylist": "UUlnFtyUEaxQOCd1s5NKYGFA",
@@ -45758,7 +46090,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "uploadsPlaylist": "UUCKx8mAHiFus-XYQLy_WnaA",
@@ -45778,7 +46110,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "uploadsPlaylist": "UUBJycsmduvYEL83R_U4JriQ",
@@ -45798,7 +46130,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "uploadsPlaylist": "UUXuqSBlHAE6Xw-yeJA0Tunw",
@@ -45818,7 +46150,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "uploadsPlaylist": "UUVYamHliCI9rw1tHR1xbkfw",
@@ -45838,7 +46170,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "uploadsPlaylist": "UUO2x-p9gg9TLKneXlibGR7w",
@@ -45858,7 +46190,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "uploadsPlaylist": "UUIgnGlGkVRhd4qNFcEwLL4A",
@@ -45878,7 +46210,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "uploadsPlaylist": "UUED3hlYdD0SlCff7jJ8tF3Q",
@@ -45898,7 +46230,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "uploadsPlaylist": "UU_RovKmk0OCbuZjA8f08opw",
@@ -45918,7 +46250,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "uploadsPlaylist": "UUqWZ4KJCEanRytZtqKk0I_w",
@@ -45938,7 +46270,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "uploadsPlaylist": "UUwSozl89jl2zUDzQ4jGJD3g",
@@ -45958,7 +46290,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "uploadsPlaylist": "UU9Ryt3XOGYBoAJVsBHNGDzA",
@@ -45978,7 +46310,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "uploadsPlaylist": "UUHhYXsLBEVVnbvsq57n1MTQ",
@@ -45998,7 +46330,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "uploadsPlaylist": "UUNJ1Ymd5yFuUPtn21xtRbbw",
@@ -46018,7 +46350,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "uploadsPlaylist": "UUMrvLMUITAImCHMOhX88PYQ",
@@ -46038,7 +46370,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "uploadsPlaylist": "UUNMK68M-Al4hRUcew07TnUA",
@@ -46058,7 +46390,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "uploadsPlaylist": "UUGKjGGjdl-GzEcFPf1EQwqw",
@@ -46078,7 +46410,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "uploadsPlaylist": "UUzsd4-oyHhNbAXfceOQ5HTw",
@@ -46098,7 +46430,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "uploadsPlaylist": "UUbfYPyITQ-7l4upoX8nvctg",
@@ -46108,36 +46440,36 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-18T10:08:23.940Z",
+      "checkedAt": "2026-11-18T21:55:08.920Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-18T10:08:23.940Z",
+    "calculatedAt": "2026-11-18T21:55:08.920Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -46147,28 +46479,28 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.2759016435327025,
+      "elevenlabs": 0.26281361144064286,
       "elevenmusic": 0,
-      "heygen": 0.29004566276212196,
-      "kling-3-0": 0.13982810670978169,
+      "heygen": 0.27628667642993865,
+      "kling-3-0": 0.13319503731390236,
       "freepik-ai": 0,
-      "adobe-firefly": 0.5236284934175283,
+      "adobe-firefly": 0.4987889656843304,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 2.3305907957006937,
+      "higgsfield": 5.09863792217601,
       "krea-ai": 0,
-      "spline-ai": 0.44594282430362475,
+      "spline-ai": 0.4247884958227298,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.7866713087228259,
+      "meshy-ai": 0.7493537371323304,
       "magnific-ai": 0,
-      "seedance-2-5": 2.051629223977481,
+      "seedance-2-5": 1.9543054502564954,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.3523594565741929,
-      "nano-banana-pro": 0.058114278166181636,
+      "wan-3-0": 0.33564447142030013,
+      "nano-banana-pro": 0.055357493074556355,
       "nano-banana-2": 0,
       "seedream-4": 0,
       "hailuo-3-0": 0,
@@ -46176,19 +46508,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.6359334198124935,
+      "hunyuan3d": 0.6057664483499527,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.11988081633771516,
-      "hitem3d": 0,
+      "luma-genie": 0.11419399276044147,
+      "hitem3d": 0.9668878306976232,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.105638728517416,
+      "gemini-omni-flash": 0.10062751129051882,
       "luma-agents": 0
     }
   },
@@ -46213,7 +46545,7 @@
   },
   "newsUpdate": {
     "status": "success",
-    "attemptedAt": "2026-11-18T10:08:23.940Z",
-    "completedAt": "2026-11-18T10:09:22.790Z"
+    "attemptedAt": "2026-11-18T21:55:08.920Z",
+    "completedAt": "2026-11-18T21:56:10.321Z"
   }
 }
