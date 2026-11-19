@@ -1,23 +1,31 @@
 {
-  "startedAt": "2026-11-18T05:58:31.185Z",
+  "startedAt": "2026-11-19T14:28:29.833Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 0,
+  "attempted": 8,
   "cached": 0,
   "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [],
-  "scheduled": 0,
-  "skipped": 0,
-  "completedAt": "2026-11-18T05:58:31.202Z",
+  "errors": [
+    {
+      "platform": "luma-ray3",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "message": "Official source changed; manual verification needed"
+    }
+  ],
   "monitor": {
-    "changed": 27,
+    "changed": 29,
     "fetch-failed": 6,
-    "unchanged-unverified": 16
+    "unchanged-unverified": 14
   },
   "health": {
-    "stale": 43,
-    "failed": 6
-  }
+    "stale": 49
+  },
+  "scheduled": 8,
+  "skipped": 0,
+  "completedAt": "2026-11-19T14:28:35.832Z"
 }
