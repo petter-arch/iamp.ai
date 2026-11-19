@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-19T10:19:07.562Z",
+  "startedAt": "2026-11-19T22:08:39.935Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
-      "found": 2
+      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-19T10:19:07.562Z",
+      "checkedAt": "2026-11-19T22:08:39.935Z",
       "found": 8
     }
   },
-  "apiCalls": 12,
-  "cacheHits": 196,
+  "apiCalls": 11,
+  "cacheHits": 199,
   "rssChannels": 35,
   "selection": {
-    "fetched": 192,
-    "relevant": 60,
-    "supported": 46
+    "fetched": 197,
+    "relevant": 64,
+    "supported": 49
   },
   "rejected": [
     {
@@ -65,6 +65,16 @@
         0,
         1,
         2
+      ]
+    },
+    {
+      "video": "kXZCGml0th0",
+      "title": "MiniMax H3 Image - Normal + GGUF Guide!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        31
       ]
     },
     {
@@ -159,13 +169,13 @@
       ]
     },
     {
-      "video": "kXZCGml0th0",
-      "title": "MiniMax H3 Image - Normal + GGUF Guide!",
+      "video": "Dl3dmbaJNwE",
+      "title": "Can it Eliminate the Flickering?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1,
+        0,
         2,
-        31
+        3
       ]
     },
     {
@@ -179,13 +189,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "hl2QYat81A4",
-      "title": "Claude Design style exploration hack",
+      "video": "rYsIpPP6QY4",
+      "title": "GPT 6.2 Astra is out!",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "rYsIpPP6QY4",
-      "title": "GPT 6.2 Astra is out!",
+      "video": "hl2QYat81A4",
+      "title": "Claude Design style exploration hack",
       "stage": "insufficient-article-source"
     },
     {
@@ -194,9 +204,26 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "y2p4Ry1oP8A",
+      "title": "Minecraft 3D Model Generator: AI Venus Flytrap in Blockbench",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
       "video": "9RIK3A24ZxA",
       "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5ndmyYdL0zg",
+      "title": "AI 3D Modeling in Godot",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
       "video": "tgdG27lr26s",
@@ -204,8 +231,43 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "AYyy0WXlmiI",
+      "title": "KILLERS: Is This The Future of AI Filmmaking? (Next-Gen Preview)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "XdZqNff-BYI",
+      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "sGviMhe-aE4",
+      "title": "Photorealistic vertical full-length studio portrait #chatgpt #gemini #photoediting #miniature #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "woWo80dPkVk",
+      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "9gTb2yVT0EQ",
       "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KMrAHDbsev4",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4v6z6fTx2tg",
+      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "yPrACnjxAKA",
+      "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -224,53 +286,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "yPrACnjxAKA",
-      "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XdZqNff-BYI",
-      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "J8Gk1GhkACc",
       "title": "How AI Video Tools Are Helping Independent Filmmakers Think Bigger @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "woWo80dPkVk",
-      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
       "video": "-ezSMGVz160",
       "title": "Why AI Filmmaking Could Create the Next Generation of Entrepreneurs @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "zQeJmhm0pB0",
-      "title": "How Higgsfield AI's Founder Is Redefining Startup Success @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4v6z6fTx2tg",
-      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
-      "stage": "insufficient-article-source"
     }
   ],
   "accepted": 2,
-  "completedAt": "2026-11-19T10:20:04.260Z",
+  "completedAt": "2026-11-19T22:09:49.607Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 12,
+    "runRequests": 11,
     "day": {
-      "requests": 12,
-      "reservedMicrousd": 173407
+      "requests": 23,
+      "reservedMicrousd": 332767
     },
     "month": {
-      "requests": 101,
-      "reservedMicrousd": 1424531
+      "requests": 112,
+      "reservedMicrousd": 1583891
     },
     "limits": {
       "dayMicrousd": 500000,
