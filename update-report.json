@@ -1,43 +1,43 @@
 {
-  "startedAt": "2026-11-18T21:55:08.920Z",
+  "startedAt": "2026-11-19T10:19:07.562Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-18T21:55:08.920Z",
+      "checkedAt": "2026-11-19T10:19:07.562Z",
       "found": 8
     }
   },
-  "apiCalls": 14,
-  "cacheHits": 186,
+  "apiCalls": 12,
+  "cacheHits": 196,
   "rssChannels": 35,
   "selection": {
-    "fetched": 191,
-    "relevant": 59,
+    "fetched": 192,
+    "relevant": 60,
     "supported": 46
   },
   "rejected": [
@@ -95,12 +95,20 @@
       ]
     },
     {
-      "video": "IF9D8WbNmYk",
-      "title": "Motphys releases MotrixSim 1.0 #Shorts",
+      "video": "c0Qy72G_CAw",
+      "title": "Real-time image generation and editing with Qwen Image 2.1 #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        2
+        1
+      ]
+    },
+    {
+      "video": "gtQIpoaEubk",
+      "title": "Minecraft 3D Model Generator: AI Thorny Bramble in Blockbench",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
       ]
     },
     {
@@ -121,11 +129,13 @@
       ]
     },
     {
-      "video": "aFxSPsCkuBI",
-      "title": "NVIDIA's new models for robots and self-driving cars #shorts",
+      "video": "xaK0cwV0WLM",
+      "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
+        1,
+        8,
+        20
       ]
     },
     {
@@ -139,21 +149,29 @@
       ]
     },
     {
-      "video": "c0Qy72G_CAw",
-      "title": "Real-time image generation and editing with Qwen Image 2.1 #Shorts",
+      "video": "0jiTsXo0dpY",
+      "title": "NVIDIA's New Cosmos 3 Models for Interactive World Simulation #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
+        1,
+        6,
+        7
       ]
     },
     {
-      "video": "gtQIpoaEubk",
-      "title": "Minecraft 3D Model Generator: AI Thorny Bramble in Blockbench",
+      "video": "kXZCGml0th0",
+      "title": "MiniMax H3 Image - Normal + GGUF Guide!",
       "stage": "classification-evidence",
       "evidenceIds": [
-        1
+        1,
+        2,
+        31
       ]
+    },
+    {
+      "video": "4F7mH7WB9_8",
+      "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "JZoqCoUefmI",
@@ -163,6 +181,11 @@
     {
       "video": "hl2QYat81A4",
       "title": "Claude Design style exploration hack",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "rYsIpPP6QY4",
+      "title": "GPT 6.2 Astra is out!",
       "stage": "insufficient-article-source"
     },
     {
@@ -181,23 +204,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "woWo80dPkVk",
-      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
+      "video": "9gTb2yVT0EQ",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "L0fLLr5Oej0",
-      "title": "How I Use Claude in My Video Edits",
-      "stage": "insufficient-article-source"
+      "video": "z-o8zNO8JeU",
+      "title": "New Trending Photo Editing | Chatgpt Photo Editing Prompt For Girl #ai",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
     },
     {
-      "video": "4v6z6fTx2tg",
-      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "J8Gk1GhkACc",
-      "title": "How AI Video Tools Are Helping Independent Filmmakers Think Bigger @HiggsfieldAI  @20VC",
+      "video": "30obDSYaXfY",
+      "title": "Why AI-Powered Filmmaking Is Opening New Career Opportunities @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -206,8 +229,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "30obDSYaXfY",
-      "title": "Why AI-Powered Filmmaking Is Opening New Career Opportunities @HiggsfieldAI  @20VC",
+      "video": "XdZqNff-BYI",
+      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "J8Gk1GhkACc",
+      "title": "How AI Video Tools Are Helping Independent Filmmakers Think Bigger @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "woWo80dPkVk",
+      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
       "stage": "insufficient-article-source"
     },
     {
@@ -216,28 +249,28 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "-nljmEfQc2o",
-      "title": "ChatGPT से ऐसी Trending AI Photo कैसे बनाएं? 🔥 | ChatGPT AI Photo Editing Prompt | Full Body Photo",
+      "video": "zQeJmhm0pB0",
+      "title": "How Higgsfield AI's Founder Is Redefining Startup Success @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "d4eqvhF3wN8",
-      "title": "😱 Gemini AI Photo Editing 🔥 New Viral Photo Editing Prompt | Google Gemini #shorts #viral #trending",
+      "video": "4v6z6fTx2tg",
+      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 6,
-  "completedAt": "2026-11-18T21:56:10.321Z",
+  "accepted": 2,
+  "completedAt": "2026-11-19T10:20:04.260Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 14,
+    "runRequests": 12,
     "day": {
-      "requests": 23,
-      "reservedMicrousd": 325408
+      "requests": 12,
+      "reservedMicrousd": 173407
     },
     "month": {
-      "requests": 89,
-      "reservedMicrousd": 1251124
+      "requests": 101,
+      "reservedMicrousd": 1424531
     },
     "limits": {
       "dayMicrousd": 500000,
