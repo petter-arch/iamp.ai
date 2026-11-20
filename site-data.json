@@ -35684,7 +35684,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -35698,7 +35698,7 @@
         "factHash": "42a1ddd5b22328a6288eeb056cc6a32a1f8ad4096eb1380aada83a577610e21b"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -36885,7 +36885,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
@@ -36899,12 +36899,12 @@
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
-        "status": "unchanged-unverified",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
+        "status": "baseline",
         "sources": [
           {
             "url": "https://docs.leonardo.ai/docs/getting-started",
-            "hash": "4f999cdfb1b386a6e0f11f181a264ac2b3a0b9a3d6983790dfe052619535c4c4"
+            "hash": "17840e371d45036232b03a45f79186ee82d6c30daf7b4415f3e6f9dd7c28ba91"
           }
         ]
       }
@@ -39983,7 +39983,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -39997,7 +39997,7 @@
         "factHash": "7a06aff4c1127250d7e254bd0caa2737e1aaf4aea549952c9751ee81b5a8326a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -40185,7 +40185,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -40212,7 +40212,7 @@
         "factHash": "7f1d6e96c35a157b6c38cbe7b2546bb15ab921a929aead2af752ab6066ac3017"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -40274,7 +40274,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -40288,7 +40288,7 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -40377,10 +40377,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-20T14:04:22.982Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -40398,10 +40398,10 @@
         ],
         "factHash": "e59992023b709365f111839f45443186f050d43831bd7b7aecad7f720db5962d"
       },
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
-        "status": "unchanged-unverified",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
+        "status": "changed",
         "sources": [
           {
             "url": "https://lumalabs.ai/series-b",
@@ -40409,7 +40409,7 @@
           },
           {
             "url": "https://lumalabs.ai/learning-hub/genie-capture",
-            "hash": "5cee96d3c0b0cd9715d3d028cfdb8c35cf6d5621b8fa66ea2a4f67048fea2d8e"
+            "hash": "9e7398d8ef287df52d897e21f2806fbc3359f9304858199cd478a09746b331a2"
           }
         ]
       }
@@ -40561,7 +40561,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -40584,7 +40584,7 @@
         "factHash": "e0336478256282d43cb3d84703dae7eaace36b6be89a7a450228f19e19728cef"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -40905,7 +40905,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-20T14:04:22.982Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -40919,7 +40919,7 @@
         "factHash": "db474c590370eb560bed578f9361f7ffaeed107de11ad235aa3b1ff8994f194a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-20T14:04:22.982Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -41170,6 +41170,68 @@
   ],
   "candidates": [
     {
+      "name": "Google Gemini",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=GK0YdIum3jY",
+        "https://www.youtube.com/watch?v=0uz1pxs5xa4",
+        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
+        "https://www.youtube.com/watch?v=af3tpCF8mlI",
+        "https://www.youtube.com/watch?v=d5bekiaijvY",
+        "https://www.youtube.com/watch?v=h-C-IiMtx5Y",
+        "https://www.youtube.com/watch?v=o8edtnBHqhE",
+        "https://www.youtube.com/watch?v=8fNSDaeJZ24",
+        "https://www.youtube.com/watch?v=IZVR1FsWQbU"
+      ],
+      "firstSeen": "2026-09-20T09:50:23.089Z",
+      "lastAttemptAt": "2026-11-07T08:48:35.177Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-20T06:29:12Z",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-11T08:48:35.177Z"
+    },
+    {
+      "name": "Topview T1",
+      "firstSeen": "2026-10-24T07:19:21.931Z",
+      "lastSeenAt": "2026-11-19T22:43:49Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpTi5uOTd2c",
+        "https://www.youtube.com/watch?v=fNJxAkeJxU0",
+        "https://www.youtube.com/watch?v=V0iq6EPfHmw"
+      ],
+      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-27T07:37:11.161Z"
+    },
+    {
+      "name": "Seedance 2.5 Flash",
+      "firstSeen": "2026-11-18T05:53:20.697Z",
+      "lastSeenAt": "2026-11-19T18:37:54Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=oXlOoCIwJp8",
+        "https://www.youtube.com/watch?v=-XDtjaLB4nk"
+      ]
+    },
+    {
+      "name": "Modly",
+      "firstSeen": "2026-11-19T14:28:29.833Z",
+      "lastSeenAt": "2026-11-19T13:44:14Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=vjQyYRkwCzQ",
+        "https://www.youtube.com/watch?v=shTBCpEbjvs"
+      ]
+    },
+    {
+      "name": "Kling AI 4.0",
+      "firstSeen": "2026-11-20T14:04:22.982Z",
+      "lastSeenAt": "2026-11-19T11:45:37Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=sZDcMxmGrow"
+      ]
+    },
+    {
       "name": "Claude Fable 5.2",
       "firstSeen": "2026-11-11T09:26:31.721Z",
       "lastSeenAt": "2026-11-18T23:33:22Z",
@@ -41249,14 +41311,6 @@
       ]
     },
     {
-      "name": "Modly",
-      "firstSeen": "2026-11-19T14:28:29.833Z",
-      "lastSeenAt": "2026-11-18T07:13:05Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=vjQyYRkwCzQ"
-      ]
-    },
-    {
       "name": "Gemini AI",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=L049uPaPQ4A",
@@ -41276,14 +41330,6 @@
       "error": "Invalid model identity",
       "attempts": 1,
       "nextAttemptAt": "2026-10-28T07:53:56.818Z"
-    },
-    {
-      "name": "Seedance 2.5 Flash",
-      "firstSeen": "2026-11-18T05:53:20.697Z",
-      "lastSeenAt": "2026-11-17T14:25:35Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=oXlOoCIwJp8"
-      ]
     },
     {
       "name": "ComfyUI",
@@ -42461,26 +42507,6 @@
       "lastSeenAt": "2026-11-07T13:00:19Z",
       "attempts": 3,
       "nextAttemptAt": "2026-11-11T18:48:38.850Z"
-    },
-    {
-      "name": "Google Gemini",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=GK0YdIum3jY",
-        "https://www.youtube.com/watch?v=0uz1pxs5xa4",
-        "https://www.youtube.com/watch?v=qAxp2rPlI_E",
-        "https://www.youtube.com/watch?v=af3tpCF8mlI",
-        "https://www.youtube.com/watch?v=d5bekiaijvY",
-        "https://www.youtube.com/watch?v=h-C-IiMtx5Y",
-        "https://www.youtube.com/watch?v=o8edtnBHqhE",
-        "https://www.youtube.com/watch?v=8fNSDaeJZ24"
-      ],
-      "firstSeen": "2026-09-20T09:50:23.089Z",
-      "lastAttemptAt": "2026-11-07T08:48:35.177Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-11-07T06:25:26Z",
-      "attempts": 3,
-      "nextAttemptAt": "2026-11-11T08:48:35.177Z"
     },
     {
       "name": "Omni 1.1",
@@ -43689,20 +43715,6 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=kJgYSiIZMb8"
       ]
-    },
-    {
-      "name": "Topview T1",
-      "firstSeen": "2026-10-24T07:19:21.931Z",
-      "lastSeenAt": "2026-10-27T11:59:02Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=VpTi5uOTd2c",
-        "https://www.youtube.com/watch?v=fNJxAkeJxU0"
-      ],
-      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-27T07:37:11.161Z"
     },
     {
       "name": "Canva",
@@ -46974,7 +46986,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-20T10:00:11.775Z",
+    "calculatedAt": "2026-11-20T14:04:22.982Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -46984,27 +46996,27 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.22645957347451395,
+      "elevenlabs": 0.22268874600357047,
       "elevenmusic": 0,
-      "heygen": 0.23806895905445163,
-      "kling-3-0": 0.11477065884709993,
+      "heygen": 0.23410482118645157,
+      "kling-3-0": 0.11285958771595327,
       "freepik-ai": 0,
-      "adobe-firefly": 0.4297933269265954,
+      "adobe-firefly": 0.4226367450292733,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.252364342802508,
+      "higgsfield": 4.130931375906527,
       "krea-ai": 0,
-      "spline-ai": 0.3660290692463704,
+      "spline-ai": 0.3599342398324423,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.5097217656298534,
+      "meshy-ai": 1.4845830610921136,
       "magnific-ai": 0,
-      "seedance-2-5": 2.5912041088409756,
+      "seedance-2-5": 2.5480574072618576,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.28921600909581086,
+      "wan-3-0": 0.2844002106051462,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
       "seedream-4": 0,
@@ -47013,25 +47025,25 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.5219730088046993,
+      "hunyuan3d": 0.5132815230331194,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.09839795873632647,
-      "hitem3d": 0.8331418016640084,
+      "luma-genie": 0.09675951298552467,
+      "hitem3d": 0.8192689768383467,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.08670807863313226,
+      "gemini-omni-flash": 0.08526428361115082,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-19T14:28:29.833Z",
-    "newsCheckedAt": "2026-11-19T10:19:07.562Z",
+    "startedAt": "2026-11-20T14:04:22.982Z",
+    "newsCheckedAt": "2026-11-20T10:00:11.775Z",
     "total": 49,
     "attempted": 8,
     "cached": 0,
@@ -47039,12 +47051,13 @@
       "stale": 49
     },
     "monitor": {
-      "changed": 29,
+      "changed": 30,
       "fetch-failed": 6,
-      "unchanged-unverified": 14
+      "unchanged-unverified": 12,
+      "baseline": 1
     },
-    "candidatesPending": 464,
-    "completedAt": "2026-11-19T14:28:35.832Z",
+    "candidatesPending": 465,
+    "completedAt": "2026-11-20T14:04:29.693Z",
     "skipped": 0
   },
   "newsUpdate": {

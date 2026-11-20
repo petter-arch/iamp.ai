@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-19T14:28:29.833Z",
+  "startedAt": "2026-11-20T14:04:22.982Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 8,
@@ -9,23 +9,20 @@
   "candidatesAttempted": 0,
   "errors": [
     {
-      "platform": "luma-ray3",
-      "message": "Official source changed; manual verification needed"
-    },
-    {
-      "platform": "rodin-hyper3d",
+      "platform": "luma-genie",
       "message": "Official source changed; manual verification needed"
     }
   ],
   "monitor": {
-    "changed": 29,
+    "changed": 30,
     "fetch-failed": 6,
-    "unchanged-unverified": 14
+    "unchanged-unverified": 12,
+    "baseline": 1
   },
   "health": {
     "stale": 49
   },
   "scheduled": 8,
   "skipped": 0,
-  "completedAt": "2026-11-19T14:28:35.832Z"
+  "completedAt": "2026-11-20T14:04:29.693Z"
 }
