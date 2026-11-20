@@ -1,52 +1,54 @@
 {
-  "startedAt": "2026-11-19T22:08:39.935Z",
+  "startedAt": "2026-11-20T10:00:11.775Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 3
     },
     "tech": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-19T22:08:39.935Z",
+      "checkedAt": "2026-11-20T10:00:11.775Z",
       "found": 8
     }
   },
-  "apiCalls": 11,
-  "cacheHits": 199,
+  "apiCalls": 13,
+  "cacheHits": 208,
   "rssChannels": 35,
   "selection": {
     "fetched": 197,
     "relevant": 64,
-    "supported": 49
+    "supported": 51
   },
   "rejected": [
     {
-      "video": "GOX594srvU4",
-      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A",
+      "video": "Dl3dmbaJNwE",
+      "title": "Can it Eliminate the Flickering?",
       "stage": "classification-evidence",
       "evidenceIds": [
-        4
+        0,
+        2,
+        3
       ]
     },
     {
@@ -114,14 +116,6 @@
       ]
     },
     {
-      "video": "gtQIpoaEubk",
-      "title": "Minecraft 3D Model Generator: AI Thorny Bramble in Blockbench",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "NXs1O7kLFOY",
       "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
       "stage": "classification-evidence",
@@ -169,18 +163,13 @@
       ]
     },
     {
-      "video": "Dl3dmbaJNwE",
-      "title": "Can it Eliminate the Flickering?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
       "video": "4F7mH7WB9_8",
       "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is ON FIRE!",
       "stage": "insufficient-article-source"
     },
     {
@@ -189,8 +178,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "rYsIpPP6QY4",
-      "title": "GPT 6.2 Astra is out!",
+      "video": "SZG_7dSYnoY",
+      "title": "Claude made this 3D animation from one prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -199,8 +188,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "SZG_7dSYnoY",
-      "title": "Claude made this 3D animation from one prompt",
+      "video": "rYsIpPP6QY4",
+      "title": "GPT 6.2 Astra is out!",
       "stage": "insufficient-article-source"
     },
     {
@@ -217,6 +206,21 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "tgdG27lr26s",
+      "title": "ChatGPT can make GIFs now (and people went feral)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "INujPRAJSbg",
+      "title": "How Higgsfield AI Is Bringing New Ideas to Digital Advertising @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "5CDaqWUXUm8",
+      "title": "Fa Fa Fa instagram Viral Reels Editing Tutorial  | Fa Fa Fa Viral Reels Editing In Flow Ai ",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "5ndmyYdL0zg",
       "title": "AI 3D Modeling in Godot",
       "stage": "article-evidence",
@@ -226,18 +230,8 @@
       ]
     },
     {
-      "video": "tgdG27lr26s",
-      "title": "ChatGPT can make GIFs now (and people went feral)",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "AYyy0WXlmiI",
       "title": "KILLERS: Is This The Future of AI Filmmaking? (Next-Gen Preview)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XdZqNff-BYI",
-      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
       "stage": "insufficient-article-source"
     },
     {
@@ -246,8 +240,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "woWo80dPkVk",
-      "title": "Gemini Carbon & Hydrogen, realtime voices, new TTS, new 3D generators: AI NEWS",
+      "video": "KMrAHDbsev4",
+      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
       "stage": "insufficient-article-source"
     },
     {
@@ -256,18 +250,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KMrAHDbsev4",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4v6z6fTx2tg",
-      "title": "Minecraft 3D Model Generator: AI Cypress Tree in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "yPrACnjxAKA",
-      "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
+      "video": "XdZqNff-BYI",
+      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
       "stage": "insufficient-article-source"
     },
     {
@@ -281,6 +265,11 @@
       ]
     },
     {
+      "video": "yPrACnjxAKA",
+      "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "30obDSYaXfY",
       "title": "Why AI-Powered Filmmaking Is Opening New Career Opportunities @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
@@ -289,25 +278,20 @@
       "video": "J8Gk1GhkACc",
       "title": "How AI Video Tools Are Helping Independent Filmmakers Think Bigger @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "-ezSMGVz160",
-      "title": "Why AI Filmmaking Could Create the Next Generation of Entrepreneurs @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2,
-  "completedAt": "2026-11-19T22:09:49.607Z",
+  "accepted": 4,
+  "completedAt": "2026-11-20T10:01:38.471Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 11,
+    "runRequests": 13,
     "day": {
-      "requests": 23,
-      "reservedMicrousd": 332767
+      "requests": 13,
+      "reservedMicrousd": 182779
     },
     "month": {
-      "requests": 112,
-      "reservedMicrousd": 1583891
+      "requests": 125,
+      "reservedMicrousd": 1766670
     },
     "limits": {
       "dayMicrousd": 500000,
