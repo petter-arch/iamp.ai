@@ -1,8 +1,236 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T09:48:47.790Z",
-  "newsCheckedAt": "2026-11-21T09:48:47.790Z",
+  "updatedAt": "2026-11-21T20:31:03.691Z",
+  "newsCheckedAt": "2026-11-21T20:31:03.691Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "With the 3D Model Generator in idea.ai, you just describe what you want or upload a sketch, and get a 3D model you can turn",
+      "evidenceIds": [
+        2,
+        3
+      ],
+      "id": "608aOD-WmE4",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "idea.ai gör 3D-modeller från beskrivningar och skisser",
+      "sum": "idea.ai:s 3D Model Generator låter användaren beskriva en idé eller ladda upp en skiss för att skapa en 3D-modell. Modellen kan granskas från alla vinklar och därefter öppnas i 3D Sculpt för skulptering och målning.",
+      "full": "Kanalen idea ai beskriver en 3D Model Generator i idea.ai som omvandlar en textbeskrivning eller en uppladdad skiss till en 3D-modell. Arbetsflödet är inriktat på att snabbt gå från en idé till ett redigerbart 3D-resultat.\n\nEnligt kanalens beskrivning kan användaren rotera modellen och granska den från alla vinklar. Därefter går det att ladda ner modellen eller öppna den i 3D Sculpt, där den kan skulpteras och målas.\n\nBeskrivningen framställer verktyget som ett sätt att skapa 3D utan att arbeta manuellt med vertexpunkter eller följa handledningar. Den anger däremot inga uppgifter om modellformat, exportbegränsningar, kvalitet, bearbetningstid eller vilka typer av skisser och beskrivningar som stöds.",
+      "deep": "Det centrala AI-arbetsflödet som idea ai lyfter fram består av två indataalternativ: användaren kan skriva vad som ska skapas eller ladda upp en skiss. Resultatet är en 3D-modell som kan inspekteras genom att vändas och ses från flera perspektiv.\n\nEfter genereringen innehåller flödet ett redigeringssteg. Modellen kan laddas ner eller skickas vidare till 3D Sculpt för skulptering och målning. Källan beskriver alltså både generering och efterbearbetning, men specificerar inte om 3D Sculpt är en separat produkt eller en integrerad del av idea.ai. Inga uppgifter lämnas om tekniken bakom genereringen, licensvillkor eller kommersiell användning.",
+      "en": {
+        "ttl": "idea.ai creates 3D models from descriptions and sketches",
+        "sum": "According to idea ai, idea.ai’s 3D Model Generator lets users describe an idea or upload a sketch to create a 3D model. The model can be viewed from every angle and then opened in 3D Sculpt for sculpting and painting.",
+        "full": "The channel idea ai describes a 3D Model Generator in idea.ai that turns a text description or an uploaded sketch into a 3D model. The workflow is designed to move quickly from an idea to an editable 3D result.\n\nAccording to the channel’s description, users can rotate the model and inspect it from every angle. They can then download the model or open it in 3D Sculpt, where it can be sculpted and painted.\n\nThe description presents the tool as a way to create 3D without manually working with vertices or following tutorials. It does not provide information about model formats, export limitations, quality, processing time, or which types of sketches and descriptions are supported.",
+        "deep": "The central AI workflow highlighted by idea ai has two input options: users can describe what they want to create or upload a sketch. The result is a 3D model that can be inspected by turning it and viewing it from multiple perspectives.\n\nThe workflow includes an editing step after generation. The model can be downloaded or sent to 3D Sculpt for sculpting and painting. The source therefore describes both generation and further editing, but does not specify whether 3D Sculpt is a separate product or an integrated part of idea.ai. It provides no information about the technology behind the generation, licensing terms, or commercial use."
+      },
+      "cat": "3d",
+      "date": "2026-11-21T19:37:28Z",
+      "meta": "idea ai · 2026-11-21",
+      "url": "https://www.youtube.com/watch?v=608aOD-WmE4",
+      "img": "https://i.ytimg.com/vi/608aOD-WmE4/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "idea ai"
+      ],
+      "parts": [],
+      "views": 4,
+      "buzz": 28,
+      "sourceCheckedAt": "2026-11-21T20:31:03.691Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "e7e423272e81c181723edd0cdf2783ca6569f36d8a908c8efb8a07c1b2ff69c5",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "idea.ai"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Training 3D generative models usually requires scraping messy meshes or paying huge licensing fees. The Scenario 3D Collection by Scenario Labs is a curated 39GB",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ],
+      "id": "NgvbSH6a4EI",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Scenario 3D Collection samlar 1 342 AI-genererade 3D-tillgångar för modellträning",
+      "sum": "Nadeem Khan lyfter fram Scenario 3D Collection från Scenario Labs, en öppen datamängd på 39 GB med 1 342 AI-genererade 3D-tillgångar, fullständig genereringsmetadata och stöd för Hugging Face-dataset. Materialet är avsett för arbetsflöden inom 3D-AI och spelutveckling.",
+      "full": "Nadeem Khan beskriver Scenario 3D Collection från Scenario Labs som en kuraterad datamängd för utveckling och träning av generativa 3D-modeller. Samlingen innehåller 1 342 produktionsklara, AI-genererade 3D-tillgångar och omfattar 39 GB. Enligt kanalens beskrivning är materialet öppet tillgängligt enligt CC BY 4.0 och varje tillgång har fullständig metadata för genereringen.\n\nDatamängden är utformad som ett alternativ till arbetsflöden som kräver insamling av ostrukturerade meshfiler eller omfattande licenskostnader. Den innehåller omkring 1 500 strukturerade filer i flera format: GLB, Blender-scener, SPZ Gaussian splats, PLY och VOX. Det ger material för olika typer av 3D-baserad AI-utveckling, även om beskrivningen inte specificerar vilka modeller eller träningsresultat som har testats.\n\nEn central del är den detaljerade informationen per rad. Scenario 3D Collection innehåller genereringsparametrar, promptar, angivna insatsnivåer och hashvärden för källmaterialet. Denna spårbarhet kan hjälpa utvecklare att koppla en tillgång till dess genereringsförutsättningar när datan används i ett eget 3D-AI- eller spelutvecklingsflöde.\n\nSamlingen kan integreras direkt med Hugging Face-dataset för direktströmning eller hämtning i batchar. Nadeem Khan rekommenderar därför materialet för kommande arbetsflöden inom 3D-AI och spelutveckling. Beskrivningen anger dock inte någon separat produktlansering, modellprestanda eller oberoende utvärdering.",
+      "deep": "Datamängden anges ha licensen CC BY 4.0 och vara publicerad i ett strukturerat parquet-baserat format enligt de angivna taggarna. Källan nämner både 1 342 AI-genererade tillgångar och omkring 1 500 strukturerade filer; siffrorna beskriver därför olika delar av samlingen snarare än nödvändigtvis samma antal objekt. Tillgångstyperna omfattar GLB, Blender-scener, SPZ Gaussian splats, PLY och VOX. Metadatafält med genereringsparametrar, promptar, insatsnivåer och hashvärden för källmaterialet är uttryckligen en del av datasetet. Hugging Face används för direktströmning eller batchhämtning via Scenario Labs datamängd.",
+      "en": {
+        "ttl": "Scenario 3D Collection gathers 1,342 AI-generated 3D assets for model training",
+        "sum": "Nadeem Khan highlights Scenario 3D Collection from Scenario Labs, an open 39 GB dataset with 1,342 AI-generated 3D assets, complete generation metadata, and Hugging Face dataset support. The material is intended for 3D AI and game development workflows.",
+        "full": "Nadeem Khan describes Scenario 3D Collection from Scenario Labs as a dataset for developing and training generative 3D models. The collection contains 1,342 production-ready, AI-generated 3D assets and totals 39 GB. According to the channel’s description, the material is openly available under CC BY 4.0 and each asset includes complete generation metadata.\n\nThe dataset is designed as an alternative to workflows that require scraping unstructured meshes or paying substantial licensing fees. It includes about 1,500 structured files in several formats: GLB, Blender scenes, SPZ Gaussian splats, PLY, and VOX. This provides material for different types of 3D-based AI development, although the description does not specify which models or training results have been tested.\n\nA key feature is the detailed information supplied for each row. Scenario 3D Collection includes generation parameters, prompts, effort levels, and source asset hashes. This traceability can help developers connect an asset to its generation conditions when using the data in their own 3D AI or game development workflow.\n\nThe collection can be integrated directly with Hugging Face datasets for instant streaming or batch downloads. Nadeem Khan therefore recommends the material for future 3D AI and game development workflows. The description does not state a separate product release, model performance figures, or an independent evaluation.",
+        "deep": "The dataset is stated to use the CC BY 4.0 license and is published in a structured parquet-based format according to the supplied tags. The source mentions both 1,342 AI-generated assets and about 1,500 structured files; the figures therefore describe different parts of the collection rather than necessarily the same object count. Asset types include GLB, Blender scenes, SPZ Gaussian splats, PLY, and VOX. Metadata fields for generation parameters, prompts, effort levels, and source asset hashes are explicitly included. Hugging Face is used for streaming or batch retrieval through the Scenario Labs dataset."
+      },
+      "cat": "3d",
+      "date": "2026-11-21T15:21:27Z",
+      "meta": "Nadeem Khan · 2026-11-21",
+      "url": "https://www.youtube.com/watch?v=NgvbSH6a4EI",
+      "img": "https://i.ytimg.com/vi/NgvbSH6a4EI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Nadeem Khan"
+      ],
+      "parts": [],
+      "views": 199,
+      "buzz": 48,
+      "sourceCheckedAt": "2026-11-21T20:31:03.691Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "ef15762a78692568cf0ce7d4af7def2029e52f0450cb784b71f8c402e7e591b3",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Scenario 3D Collection",
+        "Scenario Labs"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI Filmmaking Course in Telugu – AI తో సినిమాలు, Ads, Short Films ఎలా చేయాలో Script నుంచి Movie వరకు full process నేర్చుకోండి. ఈ video లో నా",
+      "evidenceIds": [
+        1,
+        5,
+        9
+      ],
+      "id": "fd5o3UPegxI",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Techpad presenterar AI-arbetsflöde från manus till film i Telugu-kurser",
+      "sum": "YouTube-kanalen Techpad beskriver två livekurser på Telugu för att skapa filmer, reklam och kortfilmer med AI. Creator-kursen fokuserar på AI-bilder, videogenerering, karaktärer och kontinuitet, medan Director-kursen följer arbetsflödet från manus till karaktär, prompt och färdig film.",
+      "full": "YouTube-kanalen Techpad presenterar ett AI-baserat arbetsflöde för filmproduktion i två livekurser på Telugu. Beskrivningen riktar sig till personer som vill lära sig att skapa filmer, reklam och kortfilmer med AI, från manusstadiet till en färdig film.\n\nDen tio dagar långa AI Film Creator Course omfattar AI-bilder, videogenerering, karaktärsarbete och kontinuitet mellan scener. Techpad anger också användningsområden som YouTube-videor, reklam och Instagram Reels. Kursen genomförs som livelektioner via Google Meet i små grupper på en till tre studenter, med 45–60 minuter per dag.\n\nDen femton dagar långa AI Film Director Course är en individuell livekurs. Enligt Techpad följer den ett sammanhängande arbetsflöde från manus till karaktär, prompt och film. Kursen innehåller dessutom ett kostnadsfritt AI Director's Kit och tar upp hur deltagare kan hitta kunder, bygga en LinkedIn-profil och arbeta med internationella kunder.\n\nTechpad framhåller att grundläggande kunskaper i videoredigering behövs på förhand. Beskrivningen ger däremot inga specifika modellnamn, jämförelser mellan AI-system eller uppgifter om produktlanseringar. Uppgifterna ovan återger därför kanalens kursbeskrivning och ska inte tolkas som ett oberoende test av en viss AI-plattform.",
+      "deep": "Kanalens upplägg skiljer mellan ett mer produktion inriktat Creator-spår och ett mer regissörs- och affärsinriktat Director-spår. Creator-kursen anges pågå i tio dagar och bedrivs i små grupper, medan Director-kursen pågår i femton dagar och ges individuellt.\n\nDet mest konkreta AI-arbetsflödet i källan är kedjan manus → karaktär → prompt → film. Beskrivningen nämner också två praktiska problemområden i AI-filmproduktion: att skapa återkommande karaktärer och att bevara kontinuitet. Inga ytterligare tekniska metoder, verktygsnamn eller resultat redovisas.\n\nKällan innehåller även kontaktuppgifter och marknadsföringslänkar, men dessa har inte tagits med som artikelinnehåll. Videon är uppladdad den 21 november 2026; det datumet används inte som lanseringsdatum för någon produkt.",
+      "en": {
+        "ttl": "Techpad presents an AI workflow from script to film in Telugu courses",
+        "sum": "The YouTube channel Techpad describes two live Telugu-language courses for creating AI films, advertisements and short films. The Creator course focuses on AI images, video generation, characters and consistency, while the Director course follows a workflow from script to character, prompt and finished film.",
+        "full": "The YouTube channel Techpad presents an AI-based filmmaking workflow through two live Telugu-language courses. The description is aimed at people who want to learn how to create films, advertisements and short films with AI, from the script stage to a finished movie.\n\nThe ten-day AI Film Creator Course covers AI images, video generation, character work and consistency between scenes. Techpad also lists YouTube videos, advertisements and Instagram Reels as use cases. The course is delivered as live Google Meet classes in small groups of one to three students, with 45–60 minutes of instruction per day.\n\nThe fifteen-day AI Film Director Course is an individual live course. According to Techpad, it follows a connected workflow from script to character, prompt and film. The course also includes a free AI Director's Kit and addresses how participants can find clients, build a LinkedIn profile and work with international clients.\n\nTechpad states that basic video-editing knowledge is required in advance. The description does not provide specific model names, comparisons between AI systems or product release information. The article therefore reports the channel's course description and does not present it as an independent test of a particular AI platform.",
+        "deep": "The channel distinguishes between a more production-focused Creator track and a more director- and business-focused Director track. The Creator course is described as lasting ten days and being taught in small groups, while the Director course lasts fifteen days and is delivered one-on-one.\n\nThe most concrete AI workflow in the source is script → character → prompt → movie. The description also identifies two practical areas in AI filmmaking: creating recurring characters and maintaining consistency. No additional technical methods, tool names or results are provided.\n\nThe source also contains contact details and promotional links, but these have not been included as article content. The video was uploaded on November 21, 2026; that date is not treated as a product release date for any platform."
+      },
+      "cat": "film",
+      "date": "2026-11-21T14:17:51Z",
+      "meta": "Techpad · 2026-11-21",
+      "url": "https://www.youtube.com/watch?v=fd5o3UPegxI",
+      "img": "https://i.ytimg.com/vi/fd5o3UPegxI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Techpad"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 44,
+          "l": "Industry లో ఏం జరుగుతోంది"
+        },
+        {
+          "t": 333,
+          "l": "నా రెండు courses – Creator vs Director"
+        },
+        {
+          "t": 498,
+          "l": "AI తో డబ్బులు ఎలా వస్తాయి"
+        },
+        {
+          "t": 589,
+          "l": "Course లో ఎలా join అవ్వాలి"
+        }
+      ],
+      "views": 1220,
+      "buzz": 57,
+      "sourceCheckedAt": "2026-11-21T20:31:03.691Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f121f4e805960780e011b24ddaf124ad44756e855e1f821a645597fffa78a398",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "🖥️世界初のオールインワンAI 3Dエージェント「Hi3D Agent」【PR】 https://www.hi3d.ai/ja/agent 1:39 Hi3Dエージェントの概要と特徴 2:19 画像1枚から高精細3Dモデルを生成",
+      "evidenceIds": [
+        1,
+        27,
+        28
+      ],
+      "id": "A1N6JPIhnZU",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Hi3D Agent automatiserar 3D-modeller från generering till 3MF",
+      "sum": "Kanalen Age of 3DP / ウノケン【3Dプリンター】 beskriver Hi3D Agent som en allt-i-ett AI-agent som kan generera en 3D-modell från en bild, låta AI styra Blender för ändringar och skapa en 3MF-fil för fyrfärgsutskrift.",
+      "full": "Age of 3DP / ウノケン【3Dプリンター】 presenterar Hi3D Agent som ett AI-baserat arbetsflöde för 3D-modellering och förberedelse inför utskrift. Enligt kanalens beskrivning omfattar tjänsten flera steg i samma process: generering av en 3D-modell, automatisk korrigering och export till 3MF-format.\n\nI videons kapitel anges att Hi3D Agent kan skapa en högdetaljerad 3D-modell från en enda bild. Därefter ska AI:n självständigt styra Blender för att ändra modellen, vilket placerar redigering av den genererade geometrin i agentens arbetsflöde i stället för att enbart avsluta med den första modellgenerationen.\n\nBeskrivningen anger också att Hi3D Agent automatiskt kan skapa en 3MF-fil för fyrfärgsutskrift. Kanalens arbetsflöde går sedan vidare till utskrift med Creality K3 och kontroll av det färdiga exemplaret. Videon är enligt beskrivningen ett test av tjänsten, så uppgifterna återges som kanalens demonstration och bedömning, inte som ett oberoende test.\n\nKanalen uppger dessutom att videon tar upp fördelar och tre saker att vara uppmärksam på. Den tillhandahållna beskrivningen specificerar dock inte vilka dessa tre begränsningar är. Den innehåller inte heller tillräckligt med information för att fastställa modellkvalitet, exakta tekniska gränser eller hur resultatet står sig mot andra verktyg.",
+      "deep": "Den centrala nyheten i det beskrivna arbetsflödet är kopplingen mellan flera AI-steg: bild-till-3D-generering, AI-styrd redigering i Blender och automatisk framställning av en 3MF-fil. Kapitelindelningen placerar dessa moment separat och anger uttryckligen att Blender ska styras autonomt av AI:n för modelländringar.\n\n3MF-steget är kopplat till fyrfärgsutskrift enligt beskrivningen, medan den efterföljande demonstrationen använder Creality K3 för att skriva ut och kontrollera resultatet. Källan nämner även text-till-3D och Split to Print som ämnen i videons hashtaggar, men ger inga ytterligare detaljer om hur dessa funktioner används. Hi3D Agent anges som sponsrat innehåll i beskrivningen.",
+      "en": {
+        "ttl": "Hi3D Agent automates 3D models from generation to 3MF",
+        "sum": "The channel Age of 3DP / ウノケン【3Dプリンター】 describes Hi3D Agent as an all-in-one AI agent that can generate a 3D model from an image, let AI control Blender for edits, and create a 3MF file for four-color printing.",
+        "full": "Age of 3DP / ウノケン【3Dプリンター】 presents Hi3D Agent as an AI-based workflow for 3D modeling and print preparation. According to the channel’s description, the service combines several steps: generating a 3D model, automatically correcting it, and exporting it as a 3MF file.\n\nThe video chapters state that Hi3D Agent can create a high-detail 3D model from a single image. The AI is then described as autonomously controlling Blender to modify the model, placing geometry editing inside the agent’s workflow rather than ending with the initial generation.\n\nThe description also says that Hi3D Agent can automatically create a 3MF file for four-color printing. The channel’s workflow then proceeds to printing with Creality K3 and checking the finished result. This is presented as the channel’s demonstration and assessment, not as an independent test.\n\nThe channel also says that the video covers advantages and three points to watch out for. The supplied description does not specify those three limitations, nor does it provide enough information to establish model quality, exact technical limits, or comparisons with other tools.",
+        "deep": "The key development in the described workflow is the connection of several AI steps: image-to-3D generation, AI-controlled editing in Blender, and automatic creation of a 3MF file. The chapter list explicitly separates these stages and states that the AI autonomously controls Blender for model modifications.\n\nThe 3MF step is linked to four-color printing in the description, while the subsequent demonstration uses Creality K3 to print and inspect the result. The source also includes text-to-3D and Split to Print among the video hashtags, but gives no further details about how those functions are used. Hi3D Agent is identified as sponsored content in the description."
+      },
+      "cat": "3d",
+      "date": "2026-11-21T10:00:37Z",
+      "meta": "Age of 3DP / ウノケン【3Dプリンター】 · 2026-11-21",
+      "url": "https://www.youtube.com/watch?v=A1N6JPIhnZU",
+      "img": "https://i.ytimg.com/vi/A1N6JPIhnZU/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Age of 3DP / ウノケン【3Dプリンター】"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "イントロ"
+        },
+        {
+          "t": 99,
+          "l": "Hi3Dエージェントの概要と特徴"
+        },
+        {
+          "t": 139,
+          "l": "画像1枚から高精細3Dモデルを生成"
+        },
+        {
+          "t": 246,
+          "l": "AIがBlenderを自律操作してモデル修正"
+        },
+        {
+          "t": 315,
+          "l": "4色マルチカラー用3MFファイルを自動生成"
+        },
+        {
+          "t": 402,
+          "l": "Creality K3でプリント＆完成品チェック"
+        },
+        {
+          "t": 449,
+          "l": "使ってわかった優れた点と3つの注意点"
+        },
+        {
+          "t": 623,
+          "l": "まとめ"
+        }
+      ],
+      "views": 2098,
+      "buzz": 60,
+      "sourceCheckedAt": "2026-11-21T20:31:03.691Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "e3b5fcbad47173c341ef7611f364be0f4c4fa61fd1a2e310e82a3a757773e902",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Hi3D Agent"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "A highly realistic, high-quality full-body photograph of a stylish young man standing and walking through a modern international airport terminal. He has thick black hair",
@@ -251,6 +479,79 @@
       "newPlatforms": [
         "Topview T1"
       ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "What if you could turn almost any idea into a cinematic scene and create an entire visual story with consistent characters and environments? In this",
+      "evidenceIds": [
+        2,
+        3,
+        9
+      ],
+      "id": "AX6E2njfMow",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Seedance 2.5 på Artlist fokuserar på längre AI-videor och konsekventa scener",
+      "sum": "Liqui AI undersöker Seedance 2.5 på Artlist, med videogenerering på upp till 30 sekunder, stöd för upp till 50 referensbilder och fokus på konsekventa karaktärer och miljöer.",
+      "full": "Kanalen Liqui AI beskriver en genomgång av Seedance 2.5 på Artlist och dess funktioner för AI-videogenerering. Enligt beskrivningen kan modellen skapa videor på upp till 30 sekunder, vilket kan användas för längre sammanhängande scener och visuella berättelser.\n\nGenomgången fokuserar också på möjligheten att använda upp till 50 referensbilder. Liqui AI kopplar funktionen till förbättrad visuell konsekvens, där karaktärer och miljöer ska kunna behålla ett mer enhetligt utseende mellan olika genereringar.\n\nSom konkreta användningsfall nämner kanalens beskrivning en filmisk futuristisk stadsmiljö och en filmisk fantasiscen. Videon undersöker dessutom hur Seedance 2.5 hanterar konsekvens hos både karaktärer och miljöer när referensmaterial används.\n\nDetta är kanalens egen genomgång och test av Seedance 2.5 på Artlist. Källbeskrivningen redovisar inte några oberoende mätningar eller detaljer om exempelvis upplösning, genereringstid, pris eller tillgänglighet.",
+      "deep": "Liqui AI framställer Seedance 2.5 som ett verktyg för att omvandla idéer till filmiska scener och bygga en sammanhängande visuell berättelse. Den centrala arbetsprocessen i beskrivningen kombinerar längre videogenerering med referensbilder: först skapas scener på upp till 30 sekunder, därefter undersöks hur upp till 50 referensbilder påverkar kontinuiteten i karaktärer och miljöer.\n\nDe angivna exemplen omfattar en futuristisk stad och en fantasiscen. Beskrivningen säger att videon utforskar modellens senaste AI-videofunktioner och förbättrade visuella konsekvens, men ger inga närmare tekniska uppgifter om hur referensbilderna behandlas eller hur konsekvensen bedöms. Därför går det inte att dra slutsatser om resultatens kvalitet utöver kanalens beskrivna testupplägg.",
+      "en": {
+        "ttl": "Seedance 2.5 on Artlist focuses on longer AI videos and consistent scenes",
+        "sum": "Liqui AI explores Seedance 2.5 on Artlist, with video generation of up to 30 seconds, support for up to 50 reference images, and a focus on consistent characters and environments.",
+        "full": "The channel Liqui AI describes a review of Seedance 2.5 on Artlist and its AI video generation features. According to the description, the model can create videos of up to 30 seconds, which can be used for longer connected scenes and visual stories.\n\nThe review also focuses on the option to use up to 50 reference images. Liqui AI links this feature to improved visual consistency, with the aim of maintaining a more uniform appearance for characters and environments across different generations.\n\nThe channel’s description gives a cinematic futuristic city scene and a cinematic fantasy scene as concrete use cases. The video also examines how Seedance 2.5 handles character and environment consistency when reference material is used.\n\nThis is the channel’s own review and test of Seedance 2.5 on Artlist. The source description does not provide independent measurements or details such as resolution, generation time, pricing, or availability.",
+        "deep": "Liqui AI presents Seedance 2.5 as a tool for turning ideas into cinematic scenes and building a coherent visual story. The workflow described in the source combines longer video generation with reference images: scenes of up to 30 seconds are created, followed by an exploration of how up to 50 reference images affect continuity in characters and environments.\n\nThe examples include a futuristic city and a fantasy scene. The description says the video explores the model’s latest AI video capabilities and improved visual consistency, but it does not explain how the reference images are processed or how consistency is assessed. As a result, no conclusions about output quality can be drawn beyond the test setup described by the channel."
+      },
+      "cat": "film",
+      "date": "2026-11-20T23:17:47Z",
+      "meta": "Liqui AI · 2026-11-20",
+      "url": "https://www.youtube.com/watch?v=AX6E2njfMow",
+      "img": "https://i.ytimg.com/vi/AX6E2njfMow/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5"
+      ],
+      "chans": [
+        "Liqui AI"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Meet Seedance 2.5 on Artlist"
+        },
+        {
+          "t": 49,
+          "l": "Exploring Seedance 2.5"
+        },
+        {
+          "t": 74,
+          "l": "Generating AI Videos Up to 30 Seconds"
+        },
+        {
+          "t": 100,
+          "l": "Creating a Cinematic Futuristic City Scene"
+        },
+        {
+          "t": 153,
+          "l": "Using Up to 50 Reference Images"
+        },
+        {
+          "t": 257,
+          "l": "Testing Character and Environment Consistency"
+        },
+        {
+          "t": 333,
+          "l": "Creating a Cinematic Fantasy Scene"
+        }
+      ],
+      "views": 9447,
+      "buzz": 68,
+      "sourceCheckedAt": "2026-11-21T20:31:03.691Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "709c9128055827acea7ad6930148f59b93cc3501cecebf042b9274bb24cc8293",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
     },
     {
       "editorialStatus": "approved",
@@ -46844,12 +47145,12 @@
       "id": "corridorcrew",
       "group": "🎬 Film & video",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 7210000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "uploadsPlaylist": "UUSpFnDQr88xCZ80N-X7t0nQ",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46864,12 +47165,12 @@
       "id": "filmriot",
       "group": "🎬 Film & video",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 2260000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "uploadsPlaylist": "UU6P24bhhCmMPOcujA9PKPTA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46884,12 +47185,12 @@
       "id": "mattih",
       "group": "🎬 Film & video",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1290000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "uploadsPlaylist": "UUbvIIQc5Jo9-jIXnkPe03oA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46904,12 +47205,12 @@
       "id": "aputurelighting",
       "group": "🎬 Film & video",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 381000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "uploadsPlaylist": "UUc0D1yh3TGE8dJSLm9VmEdg",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46924,12 +47225,12 @@
       "id": "petermckinnon",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 6070000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "uploadsPlaylist": "UU3DkFux8Iv-aYnTRWzwaiBA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46944,12 +47245,12 @@
       "id": "mangostreet",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1050000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "uploadsPlaylist": "UU5bp5_6h-ZxkBz6S_33ZUVg",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46964,12 +47265,12 @@
       "id": "seantuck",
       "group": "📷 Foto & bild",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 624000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "uploadsPlaylist": "UU_43mQmHwHPTBBqImFrWU3Q",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -46984,12 +47285,12 @@
       "id": "blenderguru",
       "group": "🧊 3D",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 3450000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "uploadsPlaylist": "UUOKHwx1VCdgnxwbjyb9Iu1g",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47004,12 +47305,12 @@
       "id": "polygonrunway",
       "group": "🧊 3D",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 545000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "uploadsPlaylist": "UUGSJevmBuDyxjLLOBNaYMGA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47024,12 +47325,12 @@
       "id": "cgboost",
       "group": "🧊 3D",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 415000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "uploadsPlaylist": "UUWWybvw9jnpOdJq_6wTHryA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47044,12 +47345,12 @@
       "id": "andrewhuang",
       "group": "🎵 Ljud & musik",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 2370000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "uploadsPlaylist": "UUdcemy56JtVTrsFIOoqvV8g",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47064,12 +47365,12 @@
       "id": "producelikeapro",
       "group": "🎵 Ljud & musik",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 846000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "uploadsPlaylist": "UUpyUGZeMUtOvt57UACw3H2g",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47084,12 +47385,12 @@
       "id": "inthemix",
       "group": "🎵 Ljud & musik",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1200000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "uploadsPlaylist": "UUIcCXe3iWo6lq-iWKV40Oug",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47104,12 +47405,12 @@
       "id": "curtisjudd",
       "group": "🎵 Ljud & musik",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 233000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "uploadsPlaylist": "UU9Tyxi96fEu0ho4mlxOEdOQ",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47124,12 +47425,12 @@
       "id": "mreflow",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1040000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "uploadsPlaylist": "UUhpleBmo18P08aKCIgti38g",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47144,12 +47445,12 @@
       "id": "mattvidpro",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 305000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "uploadsPlaylist": "UU5Wz4fFacYuON6IKbhSa7Zw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47164,12 +47465,12 @@
       "id": "curiousrefuge",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 279000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "uploadsPlaylist": "UUlnFtyUEaxQOCd1s5NKYGFA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47184,12 +47485,12 @@
       "id": "oliviosarikas",
       "group": "🤖 AI-verktyg",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 249000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "uploadsPlaylist": "UUCKx8mAHiFus-XYQLy_WnaA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47204,12 +47505,12 @@
       "id": "mkbhd",
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 21400000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "uploadsPlaylist": "UUBJycsmduvYEL83R_U4JriQ",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47224,12 +47525,12 @@
       "id": "linustechtips",
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 16900000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "uploadsPlaylist": "UUXuqSBlHAE6Xw-yeJA0Tunw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47244,12 +47545,12 @@
       "id": "dave2d",
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 3690000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "uploadsPlaylist": "UUVYamHliCI9rw1tHR1xbkfw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47264,12 +47565,12 @@
       "id": "snazzylabs",
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1270000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "uploadsPlaylist": "UUO2x-p9gg9TLKneXlibGR7w",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47284,12 +47585,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 775000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "uploadsPlaylist": "UUIgnGlGkVRhd4qNFcEwLL4A",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47304,12 +47605,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 281000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "uploadsPlaylist": "UUED3hlYdD0SlCff7jJ8tF3Q",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47324,12 +47625,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 773000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "uploadsPlaylist": "UU_RovKmk0OCbuZjA8f08opw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47344,12 +47645,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 3570,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "uploadsPlaylist": "UUqWZ4KJCEanRytZtqKk0I_w",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47364,12 +47665,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 345000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "uploadsPlaylist": "UUwSozl89jl2zUDzQ4jGJD3g",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47384,12 +47685,12 @@
       "av": "🎬",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 202000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "uploadsPlaylist": "UU9Ryt3XOGYBoAJVsBHNGDzA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47404,12 +47705,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 497000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "uploadsPlaylist": "UUHhYXsLBEVVnbvsq57n1MTQ",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47424,12 +47725,12 @@
       "av": "🤖",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 460000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "uploadsPlaylist": "UUNJ1Ymd5yFuUPtn21xtRbbw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47444,12 +47745,12 @@
       "av": "📷",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 5470000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "uploadsPlaylist": "UUMrvLMUITAImCHMOhX88PYQ",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47464,12 +47765,12 @@
       "av": "🎬",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 276000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "uploadsPlaylist": "UUNMK68M-Al4hRUcew07TnUA",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47484,12 +47785,12 @@
       "av": "🧊",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 273000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "uploadsPlaylist": "UUGKjGGjdl-GzEcFPf1EQwqw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47504,12 +47805,12 @@
       "av": "🎵",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 442000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "uploadsPlaylist": "UUzsd4-oyHhNbAXfceOQ5HTw",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     },
     {
@@ -47524,47 +47825,47 @@
       "av": "🔧",
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
-      "subscriberCount": null,
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "subscriberCount": 1840000,
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "uploadsPlaylist": "UUbfYPyITQ-7l4upoX8nvctg",
-      "metadataCheckedAt": "2026-11-14T12:00:04.537Z",
+      "metadataCheckedAt": "2026-11-21T20:31:03.691Z",
       "lastError": null
     }
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-21T09:48:47.790Z",
+      "checkedAt": "2026-11-21T20:31:03.691Z",
       "found": 8
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-21T13:30:18.042Z",
+    "calculatedAt": "2026-11-21T20:31:03.691Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -47574,27 +47875,27 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.20216772424415136,
+      "elevenlabs": 0.196402126084682,
       "elevenmusic": 0,
-      "heygen": 0.21253179508716652,
-      "kling-3-0": 0.10245944807332842,
+      "heygen": 0.2064706251790389,
+      "kling-3-0": 0.09953741881549097,
       "freepik-ai": 0,
-      "adobe-firefly": 0.3836902872637931,
+      "adobe-firefly": 0.3727478679318983,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.652695209735271,
+      "higgsfield": 4.520005528243754,
       "krea-ai": 0,
-      "spline-ai": 0.32676588938763307,
+      "spline-ai": 0.31744689043528074,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.347777039920986,
+      "meshy-ai": 1.2594842285407004,
       "magnific-ai": 0,
-      "seedance-2-5": 3.0463042021706297,
+      "seedance-2-5": 3.8755941391235944,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.25819240704547275,
+      "wan-3-0": 0.2508290473775736,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
       "seedream-4": 0,
@@ -47603,19 +47904,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.4659820456598822,
+      "hunyuan3d": 0.452692757100855,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.08784301357978049,
-      "hitem3d": 0.7437724068399364,
+      "luma-genie": 0.08533782874223354,
+      "hitem3d": 0.7225608468049549,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.07740708269423671,
+      "gemini-omni-flash": 0.07519951897366575,
       "luma-agents": 0
     }
   },
@@ -47640,7 +47941,7 @@
   },
   "newsUpdate": {
     "status": "success",
-    "attemptedAt": "2026-11-21T09:48:47.790Z",
-    "completedAt": "2026-11-21T09:50:16.375Z"
+    "attemptedAt": "2026-11-21T20:31:03.691Z",
+    "completedAt": "2026-11-21T20:32:06.775Z"
   }
 }
