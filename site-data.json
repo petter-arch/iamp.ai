@@ -35892,11 +35892,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-17T14:30:50.601Z",
+        "attemptedAt": "2026-11-21T13:30:18.042Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-13T09:32:53.744Z",
         "fields": [],
@@ -35915,7 +35915,7 @@
         "factHash": "7031e4c4d760f55cb1555409223bd67f63c0d8ce634e30f4ad3d7e78e1ffa0f7"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "changed",
         "sources": [
           {
@@ -35924,7 +35924,7 @@
           },
           {
             "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
-            "hash": "27757c53bb04783835d64edb0d0fa8baa4b357866ef29fe0ca03b09d65e46688"
+            "hash": "d7fefb50d59132dac48fd9d0360a3cc68b14fc3193e984e03a9336de9f73c75c"
           }
         ]
       }
@@ -36028,11 +36028,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-17T14:30:50.601Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-17T14:30:50.601Z",
+        "attemptedAt": "2026-11-21T13:30:18.042Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36063,20 +36063,20 @@
         "factHash": "7d5fc8102793997f442930de1843b825779bca52541a39e338cabdbb159c13cb"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-17T14:30:50.601Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-            "hash": "24f9861e30fb35c577c79ed3c75a77b23dd6a98a34220d6bab428dcb9352aad7"
+            "hash": "1f8bd067e3628251054314c58cfcfce266bf82f29408ef7055a985b5f2edbaf9"
           },
           {
             "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-            "hash": "cd26e4bd869d0004d68c07eafa848988714a0efb23ca17b904f7205dff821923"
+            "hash": "d5b87013118e36d7519dad8309ba992ceaefd85674b032a447f578f11470ac1d"
           },
           {
             "url": "https://microsoft.ai/models/mai-image-2.6/",
-            "hash": "381d54e390fb6d4ec624ffb011ada711be0060b48b282d56e49a16d950b5c462"
+            "hash": "06aa333815f5839433423e7d2ff468f374306c76816adc4ffbcccac5054bfc29"
           },
           {
             "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
@@ -36084,7 +36084,7 @@
           },
           {
             "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
-            "hash": "6facadffe1d93570ee9458efeaa292edcb1cce6bcdfc3e783c6936a8980ff881"
+            "hash": "ad161d70d952e7b997c294fc91c5af5c4b167f2a13816271a94152da741d2322"
           }
         ]
       }
@@ -36481,11 +36481,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
-      "lastCheckError": "OpenAI HTTP 429",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
+      "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-13T09:32:53.744Z",
+        "status": "stale",
+        "attemptedAt": "2026-11-21T13:30:18.042Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -36516,8 +36516,8 @@
         "factHash": "c4824e5b91e4f06e0dbd22c0306a695ba126a6abd7cf2199cae0ec58c91c0ffa"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
-        "status": "unchanged-unverified",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
+        "status": "changed",
         "sources": [
           {
             "url": "https://help.bfl.ai/articles/4292391522-what-is-flux-2",
@@ -36529,7 +36529,7 @@
           },
           {
             "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
-            "hash": "059a1c3bec7e17c47763dac981e29bb31cfb85e3f0e47d04bfad6a3a88a4ba1f"
+            "hash": "5be56c08526d6894ea7009fe23c93c7aea607f9e0df3e7cf244291ad6ffa13fe"
           },
           {
             "url": "https://help.bfl.ai/articles/6122710168-which-flux-2-model-should-i-choose",
@@ -36537,7 +36537,7 @@
           },
           {
             "url": "https://bfl.ai/models/flux-2",
-            "hash": "4c04b748b0dd1361fd4637b737545e6fcd6a9f99b7a24f1d460fbe94f047e269"
+            "hash": "380ce0e28e5eb970dc665203b9cf81e188476cda0921f05e006f14b749e9488b"
           }
         ]
       }
@@ -37166,7 +37166,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -37185,7 +37185,7 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -37333,7 +37333,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -37352,7 +37352,7 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -39188,7 +39188,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -39207,7 +39207,7 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -39265,7 +39265,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "verification": {
         "status": "failed",
         "attemptedAt": "2026-11-13T09:32:53.744Z",
@@ -39279,7 +39279,7 @@
       },
       "lastCheckError": "OpenAI HTTP 429",
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -39654,7 +39654,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-19T14:28:29.833Z",
+      "lastAttemptAt": "2026-11-21T13:30:18.042Z",
       "lastCheckError": "OpenAI HTTP 429",
       "verification": {
         "status": "failed",
@@ -39677,7 +39677,7 @@
         "factHash": "5c0150dd20cf90c989c0eb0479f957909633f0e48868b5f047461c6df9a10745"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-19T14:28:29.833Z",
+        "checkedAt": "2026-11-21T13:30:18.042Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -41707,6 +41707,195 @@
   ],
   "candidates": [
     {
+      "name": "Gemini AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=L049uPaPQ4A",
+        "https://www.youtube.com/watch?v=PJBadOeNi1o",
+        "https://www.youtube.com/watch?v=gVatlvyPAxI",
+        "https://www.youtube.com/watch?v=6rUH26AUaCY",
+        "https://www.youtube.com/watch?v=DyIloGSzTKk",
+        "https://www.youtube.com/watch?v=4_veqqIu_f4",
+        "https://www.youtube.com/watch?v=DNCv7rxnt9s",
+        "https://www.youtube.com/watch?v=0fLREjYE6AI",
+        "https://www.youtube.com/watch?v=6j6o3LTfa9M",
+        "https://www.youtube.com/watch?v=cZgokoo6npU",
+        "https://www.youtube.com/watch?v=bAQajkhd0Mc"
+      ],
+      "firstSeen": "2026-09-17T10:02:21.710Z",
+      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
+      "status": "retry",
+      "lastSeenAt": "2026-11-21T06:29:15Z",
+      "error": "Invalid model identity",
+      "attempts": 1,
+      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
+    },
+    {
+      "name": "Google Omni Flash 1.2",
+      "firstSeen": "2026-11-09T23:27:56.135Z",
+      "lastSeenAt": "2026-11-21T05:16:44Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ryjr7X93Zt0",
+        "https://www.youtube.com/watch?v=Iny-Cr1RLa0"
+      ],
+      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
+      "status": "retry",
+      "error": "Insufficient official evidence",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
+    },
+    {
+      "name": "Omni Flash 1.1",
+      "firstSeen": "2026-11-21T13:30:18.042Z",
+      "lastSeenAt": "2026-11-21T05:16:44Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=Iny-Cr1RLa0"
+      ]
+    },
+    {
+      "name": "Modly",
+      "firstSeen": "2026-11-19T14:28:29.833Z",
+      "lastSeenAt": "2026-11-21T04:49:40Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=vjQyYRkwCzQ",
+        "https://www.youtube.com/watch?v=shTBCpEbjvs",
+        "https://www.youtube.com/watch?v=tr_Ej2W6nAM"
+      ]
+    },
+    {
+      "name": "Topview T1",
+      "firstSeen": "2026-10-24T07:19:21.931Z",
+      "lastSeenAt": "2026-11-20T23:56:38Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=VpTi5uOTd2c",
+        "https://www.youtube.com/watch?v=fNJxAkeJxU0",
+        "https://www.youtube.com/watch?v=V0iq6EPfHmw",
+        "https://www.youtube.com/watch?v=O4nSKeMtaNs"
+      ],
+      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 2,
+      "nextAttemptAt": "2026-10-27T07:37:11.161Z"
+    },
+    {
+      "name": "ComfyUI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=c87kDohpi1E",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U",
+        "https://www.youtube.com/watch?v=VpCGM2Zrl_w",
+        "https://www.youtube.com/watch?v=cUeZMUGCxrw",
+        "https://www.youtube.com/watch?v=oqO69skQlsU",
+        "https://www.youtube.com/watch?v=5AxB_hu7PlM",
+        "https://www.youtube.com/watch?v=eIfvhxJjiPk",
+        "https://www.youtube.com/watch?v=amjhvE-h2kM"
+      ],
+      "firstSeen": "2026-09-21T10:47:30.467Z",
+      "lastAttemptAt": "2026-11-08T18:52:29.632Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-20T21:01:07Z",
+      "attempts": 3,
+      "nextAttemptAt": "2026-11-12T18:52:29.632Z"
+    },
+    {
+      "name": "MOSS Image",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=cUeZMUGCxrw",
+        "https://www.youtube.com/watch?v=oqO69skQlsU",
+        "https://www.youtube.com/watch?v=amjhvE-h2kM"
+      ],
+      "firstSeen": "2026-10-21T10:14:45.445Z",
+      "lastSeenAt": "2026-11-20T21:01:07Z",
+      "lastAttemptAt": "2026-11-05T09:32:11.308Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "attempts": 1,
+      "nextAttemptAt": "2026-11-06T09:32:11.308Z"
+    },
+    {
+      "name": "Ultimate SD Upscaler",
+      "firstSeen": "2026-11-21T13:30:18.042Z",
+      "lastSeenAt": "2026-11-20T21:01:07Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=amjhvE-h2kM"
+      ]
+    },
+    {
+      "name": "Ideogram 4.6",
+      "firstSeen": "2026-11-21T13:30:18.042Z",
+      "lastSeenAt": "2026-11-20T14:14:55Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=hCRHDE5NxwM"
+      ]
+    },
+    {
+      "name": "Tripo AI",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=8xrC-zEsY0o",
+        "https://www.youtube.com/watch?v=luG8o7cP5Uo",
+        "https://www.youtube.com/watch?v=2XYp_fmku_U",
+        "https://www.youtube.com/watch?v=BUCAptdusuU",
+        "https://www.youtube.com/watch?v=51KzSFNAiJQ",
+        "https://www.youtube.com/watch?v=mqoeh_uojS0",
+        "https://www.youtube.com/watch?v=HAEY_R907w0",
+        "https://www.youtube.com/watch?v=AjMfOyonyt8",
+        "https://www.youtube.com/watch?v=AZacOD1uUiI",
+        "https://www.youtube.com/watch?v=z9ESKo-R4QQ",
+        "https://www.youtube.com/watch?v=X43AyKIOQv4",
+        "https://www.youtube.com/watch?v=_izn-630k3E",
+        "https://www.youtube.com/watch?v=dHwDV_nIVTM",
+        "https://www.youtube.com/watch?v=rKdMym6SnKM",
+        "https://www.youtube.com/watch?v=Tp0peIkba5M",
+        "https://www.youtube.com/watch?v=sfhjF2XPw4s",
+        "https://www.youtube.com/watch?v=Hns_Ds128xI",
+        "https://www.youtube.com/watch?v=K8j1un6VPyI",
+        "https://www.youtube.com/watch?v=FC8QGAZRJWE",
+        "https://www.youtube.com/watch?v=YVrBGwXV9n8",
+        "https://www.youtube.com/watch?v=ZQ1G6u4_M4I"
+      ],
+      "firstSeen": "2026-09-13T09:08:03.910Z",
+      "lastAttemptAt": "2026-11-06T09:25:35.998Z",
+      "status": "retry",
+      "error": "Invalid model identity",
+      "lastSeenAt": "2026-11-20T13:01:02Z",
+      "attempts": 5,
+      "nextAttemptAt": "2026-11-13T09:25:35.998Z"
+    },
+    {
+      "name": "GPT-6 Astra",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
+        "https://www.youtube.com/watch?v=W_9whxaNXdg",
+        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
+        "https://www.youtube.com/watch?v=_cbq1SJ_vP0",
+        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
+        "https://www.youtube.com/watch?v=rKdMym6SnKM",
+        "https://www.youtube.com/watch?v=Tp0peIkba5M",
+        "https://www.youtube.com/watch?v=GSKDV310iYY",
+        "https://www.youtube.com/watch?v=AGdW5B0qD7A",
+        "https://www.youtube.com/watch?v=Hns_Ds128xI",
+        "https://www.youtube.com/watch?v=K8j1un6VPyI",
+        "https://www.youtube.com/watch?v=x_qriW5P_IE",
+        "https://www.youtube.com/watch?v=HaFfexk1h84",
+        "https://www.youtube.com/watch?v=ZQ1G6u4_M4I"
+      ],
+      "firstSeen": "2026-09-16T09:59:51.512Z",
+      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
+      "status": "retry",
+      "error": "Incomplete independent verification",
+      "lastSeenAt": "2026-11-20T13:01:02Z",
+      "attempts": 6,
+      "nextAttemptAt": "2026-11-18T22:00:59.332Z"
+    },
+    {
+      "name": "Claude Opus",
+      "firstSeen": "2026-11-21T13:30:18.042Z",
+      "lastSeenAt": "2026-11-20T13:01:02Z",
+      "sourceVideos": [
+        "https://www.youtube.com/watch?v=ZQ1G6u4_M4I"
+      ]
+    },
+    {
       "name": "Google Gemini",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=GK0YdIum3jY",
@@ -41728,36 +41917,12 @@
       "nextAttemptAt": "2026-11-11T08:48:35.177Z"
     },
     {
-      "name": "Topview T1",
-      "firstSeen": "2026-10-24T07:19:21.931Z",
-      "lastSeenAt": "2026-11-19T22:43:49Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=VpTi5uOTd2c",
-        "https://www.youtube.com/watch?v=fNJxAkeJxU0",
-        "https://www.youtube.com/watch?v=V0iq6EPfHmw"
-      ],
-      "lastAttemptAt": "2026-10-25T07:37:11.161Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 2,
-      "nextAttemptAt": "2026-10-27T07:37:11.161Z"
-    },
-    {
       "name": "Seedance 2.5 Flash",
       "firstSeen": "2026-11-18T05:53:20.697Z",
       "lastSeenAt": "2026-11-19T18:37:54Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=oXlOoCIwJp8",
         "https://www.youtube.com/watch?v=-XDtjaLB4nk"
-      ]
-    },
-    {
-      "name": "Modly",
-      "firstSeen": "2026-11-19T14:28:29.833Z",
-      "lastSeenAt": "2026-11-19T13:44:14Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=vjQyYRkwCzQ",
-        "https://www.youtube.com/watch?v=shTBCpEbjvs"
       ]
     },
     {
@@ -41846,46 +42011,6 @@
       "sourceVideos": [
         "https://www.youtube.com/watch?v=LjZm9oxwkUM"
       ]
-    },
-    {
-      "name": "Gemini AI",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=L049uPaPQ4A",
-        "https://www.youtube.com/watch?v=PJBadOeNi1o",
-        "https://www.youtube.com/watch?v=gVatlvyPAxI",
-        "https://www.youtube.com/watch?v=6rUH26AUaCY",
-        "https://www.youtube.com/watch?v=DyIloGSzTKk",
-        "https://www.youtube.com/watch?v=4_veqqIu_f4",
-        "https://www.youtube.com/watch?v=DNCv7rxnt9s",
-        "https://www.youtube.com/watch?v=0fLREjYE6AI",
-        "https://www.youtube.com/watch?v=6j6o3LTfa9M"
-      ],
-      "firstSeen": "2026-09-17T10:02:21.710Z",
-      "lastAttemptAt": "2026-10-27T07:53:56.818Z",
-      "status": "retry",
-      "lastSeenAt": "2026-11-18T06:29:24Z",
-      "error": "Invalid model identity",
-      "attempts": 1,
-      "nextAttemptAt": "2026-10-28T07:53:56.818Z"
-    },
-    {
-      "name": "ComfyUI",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=c87kDohpi1E",
-        "https://www.youtube.com/watch?v=2XYp_fmku_U",
-        "https://www.youtube.com/watch?v=VpCGM2Zrl_w",
-        "https://www.youtube.com/watch?v=cUeZMUGCxrw",
-        "https://www.youtube.com/watch?v=oqO69skQlsU",
-        "https://www.youtube.com/watch?v=5AxB_hu7PlM",
-        "https://www.youtube.com/watch?v=eIfvhxJjiPk"
-      ],
-      "firstSeen": "2026-09-21T10:47:30.467Z",
-      "lastAttemptAt": "2026-11-08T18:52:29.632Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-11-17T13:00:03Z",
-      "attempts": 3,
-      "nextAttemptAt": "2026-11-12T18:52:29.632Z"
     },
     {
       "name": "MiniMax H3-Image",
@@ -42105,38 +42230,6 @@
       ],
       "firstSeen": "2026-09-27T10:35:26.679Z",
       "lastSeenAt": "2026-11-15T08:55:06Z"
-    },
-    {
-      "name": "Tripo AI",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=8xrC-zEsY0o",
-        "https://www.youtube.com/watch?v=luG8o7cP5Uo",
-        "https://www.youtube.com/watch?v=2XYp_fmku_U",
-        "https://www.youtube.com/watch?v=BUCAptdusuU",
-        "https://www.youtube.com/watch?v=51KzSFNAiJQ",
-        "https://www.youtube.com/watch?v=mqoeh_uojS0",
-        "https://www.youtube.com/watch?v=HAEY_R907w0",
-        "https://www.youtube.com/watch?v=AjMfOyonyt8",
-        "https://www.youtube.com/watch?v=AZacOD1uUiI",
-        "https://www.youtube.com/watch?v=z9ESKo-R4QQ",
-        "https://www.youtube.com/watch?v=X43AyKIOQv4",
-        "https://www.youtube.com/watch?v=_izn-630k3E",
-        "https://www.youtube.com/watch?v=dHwDV_nIVTM",
-        "https://www.youtube.com/watch?v=rKdMym6SnKM",
-        "https://www.youtube.com/watch?v=Tp0peIkba5M",
-        "https://www.youtube.com/watch?v=sfhjF2XPw4s",
-        "https://www.youtube.com/watch?v=Hns_Ds128xI",
-        "https://www.youtube.com/watch?v=K8j1un6VPyI",
-        "https://www.youtube.com/watch?v=FC8QGAZRJWE",
-        "https://www.youtube.com/watch?v=YVrBGwXV9n8"
-      ],
-      "firstSeen": "2026-09-13T09:08:03.910Z",
-      "lastAttemptAt": "2026-11-06T09:25:35.998Z",
-      "status": "retry",
-      "error": "Invalid model identity",
-      "lastSeenAt": "2026-11-15T04:46:30Z",
-      "attempts": 5,
-      "nextAttemptAt": "2026-11-13T09:25:35.998Z"
     },
     {
       "name": "YT Create",
@@ -42405,31 +42498,6 @@
       "error": "OpenAI HTTP 429",
       "attempts": 5,
       "nextAttemptAt": "2026-11-20T09:32:53.744Z"
-    },
-    {
-      "name": "GPT-6 Astra",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=h_mR2BRibZ8",
-        "https://www.youtube.com/watch?v=W_9whxaNXdg",
-        "https://www.youtube.com/watch?v=tZnL7_V_ki0",
-        "https://www.youtube.com/watch?v=_cbq1SJ_vP0",
-        "https://www.youtube.com/watch?v=X5C3T71Z4iI",
-        "https://www.youtube.com/watch?v=rKdMym6SnKM",
-        "https://www.youtube.com/watch?v=Tp0peIkba5M",
-        "https://www.youtube.com/watch?v=GSKDV310iYY",
-        "https://www.youtube.com/watch?v=AGdW5B0qD7A",
-        "https://www.youtube.com/watch?v=Hns_Ds128xI",
-        "https://www.youtube.com/watch?v=K8j1un6VPyI",
-        "https://www.youtube.com/watch?v=x_qriW5P_IE",
-        "https://www.youtube.com/watch?v=HaFfexk1h84"
-      ],
-      "firstSeen": "2026-09-16T09:59:51.512Z",
-      "lastAttemptAt": "2026-11-11T22:00:59.332Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "lastSeenAt": "2026-11-11T12:41:30Z",
-      "attempts": 6,
-      "nextAttemptAt": "2026-11-18T22:00:59.332Z"
     },
     {
       "name": "Claude Opus 5.5",
@@ -42707,19 +42775,6 @@
       "error": "Insufficient official evidence",
       "attempts": 1,
       "nextAttemptAt": "2026-11-11T09:50:31.409Z"
-    },
-    {
-      "name": "Google Omni Flash 1.2",
-      "firstSeen": "2026-11-09T23:27:56.135Z",
-      "lastSeenAt": "2026-11-09T15:24:08Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=ryjr7X93Zt0"
-      ],
-      "lastAttemptAt": "2026-11-09T23:27:56.135Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-10T23:27:56.135Z"
     },
     {
       "name": "Google Omni Flash 1.1",
@@ -43596,20 +43651,6 @@
       "lastSeenAt": "2026-11-04T14:35:52Z",
       "attempts": 2,
       "nextAttemptAt": "2026-11-07T21:07:37.712Z"
-    },
-    {
-      "name": "MOSS Image",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=cUeZMUGCxrw",
-        "https://www.youtube.com/watch?v=oqO69skQlsU"
-      ],
-      "firstSeen": "2026-10-21T10:14:45.445Z",
-      "lastSeenAt": "2026-11-04T14:35:52Z",
-      "lastAttemptAt": "2026-11-05T09:32:11.308Z",
-      "status": "retry",
-      "error": "Incomplete independent verification",
-      "attempts": 1,
-      "nextAttemptAt": "2026-11-06T09:32:11.308Z"
     },
     {
       "name": "P-H3 Image & Edit",
@@ -47523,7 +47564,7 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-21T09:48:47.790Z",
+    "calculatedAt": "2026-11-21T13:30:18.042Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
@@ -47533,27 +47574,27 @@
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.20527064314814003,
+      "elevenlabs": 0.20216772424415136,
       "elevenmusic": 0,
-      "heygen": 0.21579378424562484,
-      "kling-3-0": 0.10403202034967768,
+      "heygen": 0.21253179508716652,
+      "kling-3-0": 0.10245944807332842,
       "freepik-ai": 0,
-      "adobe-firefly": 0.3895792581669323,
+      "adobe-firefly": 0.3836902872637931,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 4.724105895960092,
+      "higgsfield": 4.652695209735271,
       "krea-ai": 0,
-      "spline-ai": 0.3317811709275047,
+      "spline-ai": 0.32676588938763307,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.3684630464097476,
+      "meshy-ai": 1.347777039920986,
       "magnific-ai": 0,
-      "seedance-2-5": 3.093059612469456,
+      "seedance-2-5": 3.0463042021706297,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.26215520626915206,
+      "wan-3-0": 0.25819240704547275,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
       "seedream-4": 0,
@@ -47562,25 +47603,25 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.47313405028279215,
+      "hunyuan3d": 0.4659820456598822,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.08919124930058656,
-      "hitem3d": 0.7551880048048305,
+      "luma-genie": 0.08784301357978049,
+      "hitem3d": 0.7437724068399364,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.07859514523533993,
+      "gemini-omni-flash": 0.07740708269423671,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-20T14:04:22.982Z",
-    "newsCheckedAt": "2026-11-20T10:00:11.775Z",
+    "startedAt": "2026-11-21T13:30:18.042Z",
+    "newsCheckedAt": "2026-11-21T09:48:47.790Z",
     "total": 49,
     "attempted": 8,
     "cached": 0,
@@ -47588,13 +47629,13 @@
       "stale": 49
     },
     "monitor": {
-      "changed": 30,
+      "changed": 31,
       "fetch-failed": 6,
-      "unchanged-unverified": 12,
+      "unchanged-unverified": 11,
       "baseline": 1
     },
-    "candidatesPending": 465,
-    "completedAt": "2026-11-20T14:04:29.693Z",
+    "candidatesPending": 469,
+    "completedAt": "2026-11-21T13:30:22.175Z",
     "skipped": 0
   },
   "newsUpdate": {
