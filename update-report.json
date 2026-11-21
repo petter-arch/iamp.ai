@@ -1,34 +1,34 @@
 {
-  "startedAt": "2026-11-20T21:48:25.467Z",
+  "startedAt": "2026-11-21T09:48:47.790Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-20T21:48:25.467Z",
+      "checkedAt": "2026-11-21T09:48:47.790Z",
       "found": 8
     }
   },
@@ -36,9 +36,9 @@
   "cacheHits": 198,
   "rssChannels": 35,
   "selection": {
-    "fetched": 192,
-    "relevant": 61,
-    "supported": 48
+    "fetched": 193,
+    "relevant": 58,
+    "supported": 45
   },
   "rejected": [
     {
@@ -107,15 +107,6 @@
       ]
     },
     {
-      "video": "c0Qy72G_CAw",
-      "title": "Real-time image generation and editing with Qwen Image 2.1 #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
       "video": "NXs1O7kLFOY",
       "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
       "stage": "classification-evidence",
@@ -163,13 +154,17 @@
       ]
     },
     {
-      "video": "4F7mH7WB9_8",
-      "title": "The Claude Design feature you have to ask for",
-      "stage": "insufficient-article-source"
+      "video": "gffaP_TbBN8",
+      "title": "BREAKING: NVIDIA Just Dropped Four Open Cosmos 3 Nano Models — For Self-Driving Cars and Robots",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
     },
     {
-      "video": "3FE-hBh1rsY",
-      "title": "Gemini 4 Neon is ON FIRE!",
+      "video": "4F7mH7WB9_8",
+      "title": "The Claude Design feature you have to ask for",
       "stage": "insufficient-article-source"
     },
     {
@@ -178,26 +173,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "SZG_7dSYnoY",
-      "title": "Claude made this 3D animation from one prompt",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "hl2QYat81A4",
       "title": "Claude Design style exploration hack",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "F61RTjwzG2k",
-      "title": "Minecraft 3D Model Generator: AI Jungle Kapok Tree in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
+      "video": "SZG_7dSYnoY",
+      "title": "Claude made this 3D animation from one prompt",
+      "stage": "insufficient-article-source"
     },
     {
-      "video": "rYsIpPP6QY4",
-      "title": "GPT 6.2 Astra is out!",
+      "video": "3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is on fire!",
       "stage": "insufficient-article-source"
     },
     {
@@ -211,13 +198,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "y2p4Ry1oP8A",
-      "title": "Minecraft 3D Model Generator: AI Venus Flytrap in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "INujPRAJSbg",
-      "title": "How Higgsfield AI Is Bringing New Ideas to Digital Advertising @HiggsfieldAI  @20VC",
+      "video": "yrPUd0-ZEZo",
+      "title": "OM NAMAH SHIVAY 🙏🏻🌿 #chatgpt #gemini #photoediting #ai #god #prompt",
       "stage": "insufficient-article-source"
     },
     {
@@ -226,8 +208,13 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "AYyy0WXlmiI",
-      "title": "KILLERS: Is This The Future of AI Filmmaking? (Next-Gen Preview)",
+      "video": "rYsIpPP6QY4",
+      "title": "GPT 6.2 Astra is out!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "INujPRAJSbg",
+      "title": "How Higgsfield AI Is Bringing New Ideas to Digital Advertising @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
@@ -236,12 +223,16 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "5ndmyYdL0zg",
-      "title": "AI 3D Modeling in Godot",
+      "video": "AYyy0WXlmiI",
+      "title": "KILLERS: Is This The Future of AI Filmmaking? (Next-Gen Preview)",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "F61RTjwzG2k",
+      "title": "Minecraft 3D Model Generator: AI Jungle Kapok Tree in Blockbench",
       "stage": "article-evidence",
       "evidenceIds": [
-        1,
-        2
+        1
       ]
     },
     {
@@ -250,48 +241,33 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "KMrAHDbsev4",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XdZqNff-BYI",
-      "title": "Tripo AI 3D Review — Image to 3D Model in Seconds & Real 3D Print Test!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9gTb2yVT0EQ",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "yPrACnjxAKA",
       "title": "Why Creative Direction Is Becoming the Superpower of AI Filmmaking @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "z-o8zNO8JeU",
-      "title": "New Trending Photo Editing | Chatgpt Photo Editing Prompt For Girl #ai",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        5
-      ]
+      "video": "y2p4Ry1oP8A",
+      "title": "Minecraft 3D Model Generator: AI Venus Flytrap in Blockbench",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "CfVTIoDRnjs",
+      "title": "ACE Music v1: New AI Music Generator Debuts at #1 on Artificial Analysis Vocal Leaderboard",
+      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5,
-  "completedAt": "2026-11-20T21:50:00.460Z",
+  "accepted": 6,
+  "completedAt": "2026-11-21T09:50:16.375Z",
   "budget": {
     "model": "gpt-5.6-luna",
     "runRequests": 13,
     "day": {
-      "requests": 26,
-      "reservedMicrousd": 367152
+      "requests": 13,
+      "reservedMicrousd": 186807
     },
     "month": {
-      "requests": 138,
-      "reservedMicrousd": 1951043
+      "requests": 151,
+      "reservedMicrousd": 2137850
     },
     "limits": {
       "dayMicrousd": 500000,
