@@ -1,44 +1,49 @@
 {
-  "startedAt": "2026-11-21T20:31:03.691Z",
+  "startedAt": "2026-11-22T09:45:25.625Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "ju-6MtHdVj8",
+      "message": "Unknown platform ID"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
-      "found": 3
+      "checkedAt": "2026-11-22T09:45:25.625Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-21T20:31:03.691Z",
+      "checkedAt": "2026-11-22T09:45:25.625Z",
       "found": 8
     }
   },
-  "apiCalls": 11,
-  "cacheHits": 194,
+  "apiCalls": 7,
+  "cacheHits": 197,
   "rssChannels": 35,
   "selection": {
-    "fetched": 188,
-    "relevant": 58,
-    "supported": 45
+    "fetched": 185,
+    "relevant": 53,
+    "supported": 40
   },
   "rejected": [
     {
@@ -107,6 +112,16 @@
       ]
     },
     {
+      "video": "MpS5k5GWm7s",
+      "title": "Самый Лучший ИИ Для Редактирования Изображений и один из лучших для генерации фото - MAI 2.7 IMAGE",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        19,
+        20,
+        22
+      ]
+    },
+    {
       "video": "NXs1O7kLFOY",
       "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
       "stage": "classification-evidence",
@@ -153,18 +168,13 @@
       ]
     },
     {
-      "video": "MpS5k5GWm7s",
-      "title": "Самый Лучший ИИ Для Редактирования Изображений и один из лучших для генерации фото - MAI 2.7 IMAGE",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        19,
-        20,
-        22
-      ]
-    },
-    {
       "video": "4F7mH7WB9_8",
       "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GFxHjrYwoFk",
+      "title": "They built cyborg cockroaches with built-in AI...",
       "stage": "insufficient-article-source"
     },
     {
@@ -183,24 +193,19 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "3FE-hBh1rsY",
-      "title": "Gemini 4 Neon is on fire!",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "9RIK3A24ZxA",
-      "title": "Weight space programming, new 3D models, Gemini Omni 1.2, GPT Image 2.6: AI NEWS",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "tgdG27lr26s",
-      "title": "ChatGPT can make GIFs now (and people went feral)",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "MPCVyxo-DN0",
       "title": "Artistly AI Review 2026 + Artistly AI Coupon Code | AI Image Generation, Editing & Design Tools",
       "stage": "insufficient-article-source"
+    },
+    {
+      "video": "6eOr2JHlCg0",
+      "title": "ChatGPT AI Photo Edit 😱🤯 ChatGPT Photo Editing Prompt | ChatGPT AI Photo Editing Tutorial 🔥 #shorts",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "3",
+        "5",
+        "9"
+      ]
     },
     {
       "video": "KkYA0j7ITvk",
@@ -213,9 +218,12 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "rYsIpPP6QY4",
-      "title": "GPT 6.2 Astra is out!",
-      "stage": "insufficient-article-source"
+      "video": "HR8furNoNG8",
+      "title": "3D Models in 30 SECONDS? AI Texture Generation REVOLUTION! #shorts",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        1
+      ]
     },
     {
       "video": "yrPUd0-ZEZo",
@@ -223,8 +231,8 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "2AaFv7IO35g",
-      "title": "Instagram Viral Photo Editing | ChatGPT Photo Editing Prompt For Girls | Ai Photo Editing #ai",
+      "video": "3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is on fire!",
       "stage": "insufficient-article-source"
     },
     {
@@ -243,36 +251,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "AYyy0WXlmiI",
-      "title": "KILLERS: Is This The Future of AI Filmmaking? (Next-Gen Preview)",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "CfVTIoDRnjs",
       "title": "ACE Music v1: New AI Music Generator Debuts at #1 on Artificial Analysis Vocal Leaderboard",
       "stage": "insufficient-article-source"
-    },
-    {
-      "video": "F61RTjwzG2k",
-      "title": "Minecraft 3D Model Generator: AI Jungle Kapok Tree in Blockbench",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
     }
   ],
-  "accepted": 5,
-  "completedAt": "2026-11-21T20:32:06.775Z",
+  "accepted": 1,
+  "completedAt": "2026-11-22T09:46:09.713Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 11,
+    "runRequests": 7,
     "day": {
-      "requests": 24,
-      "reservedMicrousd": 355165
+      "requests": 7,
+      "reservedMicrousd": 100287
     },
     "month": {
-      "requests": 162,
-      "reservedMicrousd": 2306208
+      "requests": 169,
+      "reservedMicrousd": 2406495
     },
     "limits": {
       "dayMicrousd": 500000,
