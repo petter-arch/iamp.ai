@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-21T13:30:18.042Z",
+  "startedAt": "2026-11-22T13:25:04.101Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 8,
@@ -9,28 +9,20 @@
   "candidatesAttempted": 0,
   "errors": [
     {
-      "platform": "flux-2",
-      "message": "Official source changed; manual verification needed"
-    },
-    {
-      "platform": "chatgpt-images-2-0",
-      "message": "Official source changed; manual verification needed"
-    },
-    {
-      "platform": "mai-image-2-6",
-      "message": "Official source changed; manual verification needed"
+      "platform": "midjourney-v8-2",
+      "message": "Official source HTTP 403"
     }
   ],
   "monitor": {
     "changed": 31,
     "fetch-failed": 6,
-    "unchanged-unverified": 11,
-    "baseline": 1
+    "unchanged-unverified": 12
   },
   "health": {
-    "stale": 49
+    "stale": 48,
+    "failed": 1
   },
   "scheduled": 8,
   "skipped": 0,
-  "completedAt": "2026-11-21T13:30:22.175Z"
+  "completedAt": "2026-11-22T13:25:08.998Z"
 }
