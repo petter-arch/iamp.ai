@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-22T13:25:04.101Z",
+  "startedAt": "2026-11-23T16:02:52.231Z",
   "mode": "profiles",
   "total": 49,
   "attempted": 8,
@@ -7,22 +7,16 @@
   "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [
-    {
-      "platform": "midjourney-v8-2",
-      "message": "Official source HTTP 403"
-    }
-  ],
+  "errors": [],
   "monitor": {
     "changed": 31,
     "fetch-failed": 6,
     "unchanged-unverified": 12
   },
   "health": {
-    "stale": 48,
-    "failed": 1
+    "stale": 49
   },
   "scheduled": 8,
   "skipped": 0,
-  "completedAt": "2026-11-22T13:25:08.998Z"
+  "completedAt": "2026-11-23T16:02:56.261Z"
 }
