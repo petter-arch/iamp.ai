@@ -1,6 +1,200 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "MiniMax-H3-Image is an open-weight model for generating and editing high-resolution images. Released on November 11, 2026, it creates pictures from text prompts, uses reference images",
+    "evidenceIds": [
+      1,
+      2,
+      17
+    ],
+    "id": "BPWNyvqCHlM",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "MiniMax-H3-Image kombinerar 4K-bildgenerering, referensbilder och redigering",
+    "sum": "Hussain Nazary beskriver MiniMax-H3-Image som en open-weight-modell från MiniMax för högupplöst text-till-bild-generering, referensstyrda kompositioner och bildredigering med naturliga språkkommandon. Modellen kan generera bilder på omkring 16 megapixel och ta emot upp till 16 referensbilder.",
+    "full": "Kanalen Hussain Nazary presenterar MiniMax-H3-Image, en open-weight-modell från MiniMax för att skapa och redigera högupplösta bilder. Modellen kan generera bilder från textprompter, använda referensbilder för att styra nya kompositioner och ändra befintliga bilder genom instruktioner på naturligt språk.\n\nMiniMax-H3-Image kan enligt beskrivningen skapa bilder på omkring 16 megapixel direkt, inklusive kvadratiska bilder på 4096 × 4096 pixlar. Den stöder upp till 16 referensbilder, vilket gör det möjligt att styra en persons eller produkts utseende, kombinera flera visuella idéer eller föra över egenskaper från referenser till en ny komposition. Vanliga format som nämns är 5472 × 3072 för liggande 16:9 och 3072 × 5472 för stående 9:16.\n\nRedigeringsläget bygger på att användaren laddar upp bilder och beskriver ändringarna i text. Uppladdningsordningen är betydelsefull, eftersom instruktionerna kan hänvisa till bilderna som Picture 1, Picture 2 och så vidare. Beskrivningen anger också användningsområden som illustrationer, produkt- och reklambilder, affischer, grafik för sociala medier, konceptbilder och material för webbplatser.\n\nModellen har en tät, enkelströms Diffusion Transformer-arkitektur med 33,1 miljarder parametrar och 50 lager. Arbetsflödet kombinerar en textkodare, en bild-VAE och diffusionstransformern. Referensbilder kodas av bild-VAE:n och packas tillsammans med texten innan transformern förutsäger bildens latenta representation, som sedan avkodas av VAE:n.\n\nFör lokal körning krävs betydande hårdvaruresurser. Beskrivningen anger cirka 66,28 GB för BF16-transformern, 2,34 GB för bild-VAE:n och omkring 66,7 GB för den separata H3-textkodaren. Det innebär ungefär 135 GB komponenter före cache och temporära filer. Fullt resident körläge kräver flera GPU:er med stort grafikminne, medan en officiell layerwise-offloading-profil finns för RTX 4090 med 24 GB. Offloading innebär dock att modellkomponenterna strömmas i stället för att ligga helt i VRAM.\n\nMiniMax-H3-Image kan användas via ComfyUI, Diffusers, SGLang och vLLM-Omni, med ytterligare integrationer för LightX2V och DiffSynth-Studio. Hosted-alternativ finns genom MiniMax API, MiniMax Code och Hailuo AI. Den senare vägen undviker lokal hantering av de stora modellkomponenterna. Modellen använder MiniMax H3-Image Community License Agreement och inte Apache 2.0, så licensvillkoren behöver granskas före kommersiell användning. Hussain Nazary understryker också att modellen skapar stillbilder, inte video, och att text samt små detaljer bör kontrolleras före publicering.",
+    "deep": "Beskrivningen anger ett effektivt arbetsområde på ungefär 4–20 megapixel, där omkring 16 megapixel rekommenderas. Checkpointen är destillerad till sex samplingsteg och använder en guidance scale på ett. Negativa prompter stöds inte av det dokumenterade request-gränssnittet.\n\nFör lokal distribution anges ungefär 64 GB systemminne som en praktisk startpunkt vid offloading, medan 128 GB eller mer föredras. Detta är planeringsuppskattningar och inte officiella minimikrav. Minst 150 GB ledigt lagringsutrymme rekommenderas för originalkomponenterna, utöver cache och utdata, och en snabb NVMe-SSD rekommenderas när vikterna strömmas eller offloadas. Ett 8 GB-grafikkort beskrivs inte som en standardkonfiguration; användning med mindre grafikminne beror på specialiserad offloading.\n\nI modellen går prompten genom Qwen3-VL-textkodaren från MiniMax-H3. Den fullständiga textkodaren laddas ned separat från MiniMax-H3:s repository. Den tekniska beskrivningen anger BF16-vikter för transformern med utvalda FP32-lager. För serverdrift och fler-GPU-distribution nämns SGLang och vLLM-Omni, medan Diffusers passar Python-baserade applikationer.\n\nHussain Nazarys beskrivning anger releasedatumet 11 november 2026 för modellen. Det är modellens angivna releasedatum, inte videons uppladdningsdatum. Beskrivningen ger ingen självständig testmätning av kvalitet eller hastighet, och påståendena om kapacitet och arbetsflöden återges därför som information från kanalen och den medföljande modellbeskrivningen.",
+    "en": {
+      "ttl": "MiniMax-H3-Image combines 4K image generation, reference images and editing",
+      "sum": "Hussain Nazary describes MiniMax-H3-Image as an open-weight model from MiniMax for high-resolution text-to-image generation, reference-guided compositions and natural-language image editing. The model can generate images at around 16 megapixels and accept up to 16 reference images.",
+      "full": "The channel Hussain Nazary presents MiniMax-H3-Image, an open-weight model from MiniMax for creating and editing high-resolution images. The model can generate images from text prompts, use reference images to guide new compositions and change existing images through natural-language instructions.\n\nAccording to the description, MiniMax-H3-Image can create images at around 16 megapixels directly, including square 4096 × 4096 output. It supports up to 16 reference images, allowing users to guide a subject's or product's appearance, combine several visual ideas or transfer characteristics from references into a new composition. Common dimensions listed include 5472 × 3072 for 16:9 landscape and 3072 × 5472 for 9:16 portrait.\n\nThe editing workflow involves uploading images and describing the changes in text. Upload order matters because prompts can refer to the images as Picture 1, Picture 2 and so on. The description also lists use cases including illustrations, product and advertising visuals, posters, social-media graphics, concept art and website assets.\n\nThe model uses a dense, single-stream Diffusion Transformer architecture with 33.1 billion parameters and 50 layers. The workflow combines a text encoder, an image VAE and the diffusion transformer. Reference images are encoded by the image VAE and packed with the text before the transformer predicts the image latent, which is then decoded by the VAE.\n\nLocal operation requires substantial hardware resources. The description lists about 66.28 GB for the BF16 transformer, 2.34 GB for the image VAE and about 66.7 GB for the separate H3 text encoder. That totals roughly 135 GB of components before cache and temporary files. Full-resident serving requires multiple high-memory GPUs, while an official layerwise-offloading profile is available for an RTX 4090 with 24 GB. Offloading streams model components instead of keeping everything in VRAM.\n\nMiniMax-H3-Image can be used with ComfyUI, Diffusers, SGLang and vLLM-Omni, with additional integrations for LightX2V and DiffSynth-Studio. Hosted options are available through MiniMax API, MiniMax Code and Hailuo AI. This avoids managing the large model components locally. The model uses the MiniMax H3-Image Community License Agreement rather than Apache 2.0, so the terms should be reviewed before commercial use. Hussain Nazary also notes that the model creates still images, not video, and that text and fine details should be checked before publication.",
+      "deep": "The description gives an effective working range of approximately 4–20 megapixels, with around 16 megapixels recommended. The checkpoint is distilled to six sampling steps and uses a guidance scale of one. Negative prompts are not supported by the documented request interface.\n\nFor local deployment, approximately 64 GB of system RAM is described as a practical starting point for offloading, while 128 GB or more is preferred. These are planning estimates, not official minimums. At least 150 GB of free storage is recommended for the original components, in addition to cache and outputs, and a fast NVMe SSD is recommended when weights are streamed or offloaded. An 8 GB GPU is not described as a standard configuration; lower-memory use depends on specialized offloading.\n\nThe prompt passes through the Qwen3-VL text encoder from MiniMax-H3. The full text encoder is downloaded separately from the MiniMax-H3 repository. The technical description specifies BF16 transformer weights with selected FP32 layers. For server and multi-GPU deployment, it names SGLang and vLLM-Omni, while Diffusers is suited to Python applications.\n\nHussain Nazary's description gives November 11, 2026 as the model's release date. That is the stated model release date, not the video's upload date. The description provides no independent quality or speed test, so the capabilities and workflow details are attributed to the channel and the accompanying model description."
+    },
+    "cat": "foto",
+    "date": "2026-11-22T21:00:08Z",
+    "meta": "Hussain Nazary · 2026-11-22",
+    "url": "https://www.youtube.com/watch?v=BPWNyvqCHlM",
+    "img": "https://i.ytimg.com/vi/BPWNyvqCHlM/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Hussain Nazary"
+    ],
+    "parts": [],
+    "views": 28,
+    "buzz": 38,
+    "sourceCheckedAt": "2026-11-23T10:45:05.241Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "290d78099d7595cad4b24852e90fe9d6ed1b3fa336c8645d3b9070f8f29f97cc",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "MiniMax-H3-Image",
+      "MiniMax Code",
+      "Hailuo AI",
+      "ComfyUI",
+      "Diffusers",
+      "SGLang",
+      "vLLM-Omni",
+      "LightX2V",
+      "DiffSynth-Studio"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "In this video, I’ll show you how to use ChatGPT AI Photo Editing to transform your photo into a realistic, high-quality image using just your",
+    "evidenceIds": [
+      4,
+      6,
+      10
+    ],
+    "id": "Mi_wc9CwgO4",
+    "tag": "img",
+    "lab": "Bild",
+    "ico": "📷",
+    "ttl": "ChatGPT som mobilverktyg för AI-baserad fotoredigering",
+    "sum": "Kajal Tech visar hur ChatGPT kan användas på en mobiltelefon för att omvandla ett vanligt foto till en realistisk bild med DSLR-liknande uttryck, filmisk bakgrund och bokeh-effekt.",
+    "full": "Kajal Tech beskriver ett arbetsflöde där ChatGPT används för AI-baserad fotoredigering direkt på en mobiltelefon. Enligt kanalens beskrivning är målet att förvandla ett vanligt foto till en professionellt utformat, realistiskt foto med ett DSLR-liknande uttryck.\n\nVideon fokuserar på hur användaren kan arbeta med en särskild ChatGPT-prompt för fotoredigering. Kanalens angivna exempel omfattar en filmisk bakgrund, bokeh-effekt samt mer realistiskt utseende för hud och detaljer. Beskrivningen nämner också en jämförelse mellan före och efter redigeringen.\n\nArbetsflödet riktar sig till mobil användning och kräver enligt beskrivningen ingen separat kamerautrustning. Kajal Tech presenterar metoden som ett sätt att skapa AI-redigerade bilder med ett professionellt uttryck och som innehåll för exempelvis virala fotoformat. Eftersom underlaget endast består av videons titel och utgivarbeskrivning går det inte att fastställa exakt vilka promptformuleringar, begränsningar eller bildmodeller som används i praktiken.",
+    "deep": "Kajal Tech lyfter fram promptbaserad redigering som den centrala delen av arbetsflödet. Beskrivningen anger att tittaren får se hur foton redigeras med ChatGPT, hur en ChatGPT-prompt används och hur resultatet kan få ett DSLR-liknande, filmiskt och ultrarealistiskt utseende.\n\nDe konkreta bildförändringar som anges är en filmisk bakgrund, bokeh-effekt samt realistiska hudtoner och detaljer. Beskrivningen specificerar däremot inte hur mycket originalbilden bevaras, om funktionerna är tillgängliga i en viss version av ChatGPT eller vilka tekniska inställningar som används. Kanalens påståenden ska därför förstås som en presentation av ett föreslaget redigeringsflöde, inte som en oberoende testverifiering.",
+    "en": {
+      "ttl": "ChatGPT as a mobile workflow for AI-based photo editing",
+      "sum": "Kajal Tech shows how ChatGPT can be used on a mobile phone to transform an ordinary photo into a realistic image with a DSLR-like look, cinematic background and bokeh effect.",
+      "full": "Kajal Tech describes a workflow in which ChatGPT is used for AI-based photo editing directly on a mobile phone. According to the channel’s description, the aim is to transform an ordinary photo into a professionally styled, realistic image with a DSLR-like look.\n\nThe video focuses on using a dedicated ChatGPT photo-editing prompt. The examples listed by the channel include a cinematic background, a bokeh effect, and a more realistic appearance for skin and details. The description also mentions a before-and-after comparison.\n\nThe workflow is aimed at mobile use and, according to the description, does not require separate camera equipment. Kajal Tech presents the method as a way to create AI-edited images with a professional look and content suitable for viral photo formats. Because the available material consists only of the video title and publisher description, the exact prompt wording, limitations and image models used in practice cannot be established.",
+      "deep": "Kajal Tech presents prompt-based editing as the central part of the workflow. The description says viewers will see how photos are edited with ChatGPT, how a ChatGPT prompt is used, and how the result can receive a DSLR-like, cinematic and ultra-realistic appearance.\n\nThe specific image changes mentioned are a cinematic background, a bokeh effect, and realistic skin and details. The description does not specify how much of the original image is preserved, whether the functions depend on a particular ChatGPT version, or which technical settings are used. The channel’s claims should therefore be understood as a presentation of a proposed editing workflow, not as independent test verification."
+    },
+    "cat": "foto",
+    "date": "2026-11-22T12:38:00Z",
+    "meta": "Kajal Tech · 2026-11-22",
+    "url": "https://www.youtube.com/watch?v=Mi_wc9CwgO4",
+    "img": "https://i.ytimg.com/vi/Mi_wc9CwgO4/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Kajal Tech"
+    ],
+    "parts": [],
+    "views": 2420,
+    "buzz": 61,
+    "sourceCheckedAt": "2026-11-23T10:45:05.241Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "797b697f9cab65ead954b1cfafee514c09ddb90e776055432398dee79b4cc26c",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": []
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "AI image, video, and 3D generation, local ComfyUI workflows, and coding agents. All inside Cinema 4D. - New and future ai models, one click away.",
+    "evidenceIds": [
+      1,
+      4,
+      5
+    ],
+    "id": "PJ6AD1ELZm0",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Nano Pro samlar AI-generering och ComfyUI-arbetsflöden i Cinema 4D",
+    "sum": "Dani Zaitcev visar Nano Pro, ett plugin för Cinema 4D som samlar bild-, video- och 3D-generering, lokala ComfyUI-arbetsflöden och kodningsagenter i samma miljö.",
+    "full": "Dani Zaitcev beskriver Nano Pro som ett plugin för Cinema 4D med stöd för AI-bild-, video- och 3D-generering samt lokala ComfyUI-arbetsflöden och kodningsagenter. Enligt kanalens beskrivning kan användaren arbeta med funktionerna direkt i Cinema 4D i stället för att hantera varje arbetsflöde separat.\n\nPluginet ska kunna rendera och skissa, lägga till referenser, redigera bilder och videor samt starta generering direkt i Cinema 4D. Beskrivningen nämner också ett providerkatalogsystem som automatiskt kan uppdateras, så att nya och framtida AI-modeller blir tillgängliga utan att användaren manuellt behöver lägga till dem.\n\nFör 3D-arbete anger Dani Zaitcev stöd för att skapa modeller med Meshy och Tripo, inklusive riggning och animation, samt generering av PBR-material. Pluginet ska dessutom kunna använda AI-kodningsagenter för att bygga, redigera och animera Cinema 4D-scener medan användaren fortsätter arbeta.\n\nNano Pro har även en lokal ComfyUI-integration för att köra egna bild- och videoarbetsflöden direkt från pluginet. Enligt beskrivningen kan användaren välja mellan egna API-nycklar, en befintlig Higgsfield-prenumeration eller kostnadsfria lokala modeller. Realtidsgenerering från viewporten finns också, men anges uttryckligen som experimentell.\n\nDani Zaitcevs beskrivning anger kompatibilitet med Cinema 4D 2024 och senare. Den listar bland annat en demonstration av referensbaserad videogenerering, inpainting, videogenerering från flera källor, uppdatering av providerkatalogen med OpenRouter som exempel samt anslutning av ComfyUI-arbetsflöden med FLUX Klein. I ett av de beskrivna exemplen skapas en astrobotbild och därefter en riggad och animerad 3D-astrobot med Meshy.",
+    "deep": "Beskrivningen visar ett sammanhållet arbetsflöde: referenser kan läggas till innan en första generering, resultat kan granskas i en History-panel och inpainting används för att korrigera en första version. Därefter demonstreras videogenerering från flera källor och från flera referenser.\n\nProviderkatalogen är central i arbetsflödet. Enligt Dani Zaitcev kan den uppdateras automatiskt för att ge tillgång till nyligen släppta modeller utan manuell konfiguration, med OpenRouter som nämnt exempel. Tillgången till modeller beror samtidigt på vald leverantör, API-nycklar, prenumeration eller lokala modeller; beskrivningen lovar inte att alla modeller är tillgängliga utan sådan anslutning.\n\nComfyUI-integrationen är lokal och avsedd för användarens egna bild- och videoarbetsflöden. Den experimentella realtidsfunktionen bygger enligt beskrivningen på viewportbaserad generering, vilket innebär att dess status bör skiljas från de övriga funktionerna som presenteras som pluginets arbetsflöden. Videon är publicerad av Dani Zaitcev; uppgifterna här återges som kanalens beskrivning och inte som ett oberoende test.",
+    "en": {
+      "ttl": "Nano Pro brings AI generation and ComfyUI workflows into Cinema 4D",
+      "sum": "Dani Zaitcev presents Nano Pro, a Cinema 4D plugin that combines image, video and 3D generation, local ComfyUI workflows and coding agents in one environment.",
+      "full": "Dani Zaitcev describes Nano Pro as a Cinema 4D plugin with support for AI image, video and 3D generation, local ComfyUI workflows and coding agents. According to the channel’s description, users can work with these functions directly inside Cinema 4D rather than managing each workflow separately.\n\nThe plugin is described as supporting rendering and sketching, adding references, editing images and videos, and starting generation directly inside Cinema 4D. The description also mentions a provider catalog that can refresh automatically, making new and future AI models available without requiring users to add them manually.\n\nFor 3D work, Dani Zaitcev states that the plugin can create models with Meshy and Tripo, including rigging and animation, and generate PBR materials. It also includes AI coding agents intended to build, edit and animate Cinema 4D scenes while the user continues working.\n\nNano Pro also has local ComfyUI integration for running custom image and video workflows directly from the plugin. The description says users can choose their own API keys, an existing Higgsfield subscription or free local models. Realtime viewport-based generation is also included, but is explicitly marked as experimental.\n\nDani Zaitcev’s description states that the plugin is compatible with Cinema 4D 2024 and later. The listed demonstrations include reference-based video generation, inpainting, multi-source video generation, provider catalog refresh using OpenRouter as an example, and connecting ComfyUI workflows with FLUX Klein. One described example creates an astrobot image and then a rigged and animated 3D astrobot with Meshy.",
+      "deep": "The description outlines a connected workflow: references can be added before a first generation, results can be reviewed in a History panel, and inpainting can be used to correct an initial version. It then demonstrates video generation from multiple sources and from multiple references.\n\nThe provider catalog is a central part of the workflow. According to Dani Zaitcev, it can refresh automatically to provide access to newly released models without manual configuration, with OpenRouter given as an example. Model access still depends on the selected provider, API keys, a subscription or local models; the description does not promise that every model is available without such a connection.\n\nThe ComfyUI integration is local and intended for the user’s own image and video workflows. The experimental realtime feature uses viewport-based generation according to the description, so its status should be distinguished from the other functions presented as the plugin’s workflows. The video was published by Dani Zaitcev; these details are attributed to the channel’s description and are not an independent test."
+    },
+    "cat": "3d",
+    "date": "2026-11-22T08:13:18Z",
+    "meta": "Dani Zaitcev · 2026-11-22",
+    "url": "https://www.youtube.com/watch?v=PJ6AD1ELZm0",
+    "img": "https://i.ytimg.com/vi/PJ6AD1ELZm0/hqdefault.jpg",
+    "plat": "Higgsfield",
+    "platformIds": [
+      "higgsfield"
+    ],
+    "chans": [
+      "Dani Zaitcev"
+    ],
+    "parts": [
+      {
+        "t": 30,
+        "l": "Rendering a reference animation in Nano Pro"
+      },
+      {
+        "t": 67,
+        "l": "Entering an API key to get started and explaining what it does"
+      },
+      {
+        "t": 85,
+        "l": "Adding references and starting the first generation"
+      },
+      {
+        "t": 115,
+        "l": "First generation result and History panel features"
+      },
+      {
+        "t": 140,
+        "l": "Inpainting tools and starting a second generation to fix the first"
+      },
+      {
+        "t": 168,
+        "l": "Second generation result and more History panel features"
+      },
+      {
+        "t": 187,
+        "l": "Starting a multi-source video generation"
+      },
+      {
+        "t": 290,
+        "l": "Video generation result and rendering a hologram in a new source tab"
+      },
+      {
+        "t": 344,
+        "l": "Starting a multi-reference video generation"
+      },
+      {
+        "t": 370,
+        "l": "Video generation result and provider catalog refresh: how to add newly released models using OpenRouter as an example"
+      },
+      {
+        "t": 450,
+        "l": "Connecting ComfyUI workflows to Nano Pro using FLUX Klein as an example. Generating an astrobot"
+      },
+      {
+        "t": 555,
+        "l": "Generating a rigged and animated 3D astrobot from the FLUX image using Meshy"
+      },
+      {
+        "t": 655,
+        "l": "Realtime generation with Lucy and why the integration is still experimental"
+      }
+    ],
+    "views": 352,
+    "buzz": 51,
+    "sourceCheckedAt": "2026-11-23T10:45:05.241Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "bcd7ee32d88af6b99c26dca0e9cf55f8190bce25991634be9532489e5713444a",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Nano Pro",
+      "FLUX Klein"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "Discover Multi-Image 3D AI technology that transforms 2D designs into stunning 3D models instantly. Perfect for digital artists, designers, and creators. Learn how to use",
     "evidenceIds": [
       1
