@@ -1,46 +1,128 @@
 {
-  "startedAt": "2026-11-24T01:39:53.991Z",
+  "startedAt": "2026-11-24T12:27:32.565Z",
   "mode": "news",
-  "errors": [],
+  "errors": [
+    {
+      "video": "rTMZ-O2skv0",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "yhGcrM8Ltzw",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "sr7Wl65opXM",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "0ZkPSFNyPsk",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "c9CRUrSTZK4",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "UaeZ1LBMdeg",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "FRrIfEsdLLQ",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "3FE-hBh1rsY",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "vNi2KtTMyHY",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "dsgH6Z5vk_s",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "NGlVlhHCLbw",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "Rzfkqhy5AwA",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "t0J9_qjhqIE",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "zrKyz4ydhe8",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "KfvbH_zL7Xc",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "nd61hO1_fDQ",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "g0jgJSFRfbg",
+      "message": "News spending safety limit reached; no request sent"
+    },
+    {
+      "video": "CfVTIoDRnjs",
+      "message": "News spending safety limit reached; no request sent"
+    }
+  ],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-24T12:27:32.565Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-24T12:27:32.565Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
-      "found": 4
+      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-24T12:27:32.565Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-24T12:27:32.565Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-24T12:27:32.565Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
-      "found": 5
+      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "found": 2
     }
   },
-  "apiCalls": 17,
-  "cacheHits": 184,
+  "apiCalls": 20,
+  "cacheHits": 179,
   "rssChannels": 35,
   "selection": {
-    "fetched": 198,
-    "relevant": 59,
-    "supported": 48
+    "fetched": 191,
+    "relevant": 55,
+    "supported": 43
   },
   "rejected": [
+    {
+      "video": "GOX594srvU4",
+      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A (REPLAY)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        4
+      ]
+    },
     {
       "video": "Dl3dmbaJNwE",
       "title": "Can it Eliminate the Flickering?",
@@ -89,6 +171,14 @@
       ]
     },
     {
+      "video": "-1KPQDIh1Ew",
+      "title": "Google’s Project Genie Turns Text Into Worlds",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
       "video": "NV-H7jU9WnQ",
       "title": "Denoise for JPEG is INSANE 🔥 #CameraRaw #Photoshop",
       "stage": "classification-evidence",
@@ -105,49 +195,43 @@
       ]
     },
     {
-      "video": "7d-XuTRVpFs",
-      "title": "Anthropic Fable: robot simulation score more than doubles",
+      "video": "HSxBiGi1c6s",
+      "title": "Gemini 4 Neon Just Built GTA 6 (and I’m Obsessed)",
       "stage": "classification-evidence",
       "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
-      "video": "xaK0cwV0WLM",
-      "title": "Anthropic Fable: robot simulation score more than doubles｜Model Quick Review",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
         8,
-        20
+        13,
+        15
       ]
     },
     {
-      "video": "GOX594srvU4",
-      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A (REPLAY)",
+      "video": "7-c56Irlo9M",
+      "title": "AI Image Generation Just Got Better",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "video": "W6n4FLbrjHw",
+      "title": "Maxon kündigt KI Abo an und Apple Vision Pro Support an!",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        4
+        4,
+        5
       ]
     },
     {
-      "video": "-1KPQDIh1Ew",
-      "title": "Google’s Project Genie Turns Text Into Worlds",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
+      "video": "GFxHjrYwoFk",
+      "title": "They built cyborg cockroaches with built-in AI...",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "4F7mH7WB9_8",
       "title": "The Claude Design feature you have to ask for",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JZoqCoUefmI",
-      "title": "AI Movie Generation Bots - LIVE Stream",
       "stage": "insufficient-article-source"
     },
     {
@@ -156,83 +240,42 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "JZoqCoUefmI",
+      "title": "AI Movie Generation Bots - LIVE Stream",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "SZG_7dSYnoY",
       "title": "Claude made this 3D animation from one prompt",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "GFxHjrYwoFk",
-      "title": "They built cyborg cockroaches with built-in AI...",
+      "video": "2V0GoU9e3fo",
+      "title": "One scene, 86 animation styles, all made by Claude",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "NGlVlhHCLbw",
-      "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #girl",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "Rzfkqhy5AwA",
-      "title": "Welcome to AI VIDEO FLOW | Official Channel Trailer (4K AI Cinema)",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "mAVQbfnP2vo",
-      "title": "Trending on GitHub right now: YanNyeinHtet/EggLab. Local AI image generation and editing for Windows",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "c9CRUrSTZK4",
-      "title": "New Best Local 3D AI Runs Now on 6GB Vram!",
+      "video": "XcmkJ2SElrU",
+      "title": "OpenAI’s New GPT 6.2 Can Build 3D Worlds From a Prompt",
       "stage": "article-evidence",
       "evidenceIds": [
-        5,
-        7,
-        8
+        2,
+        3
       ]
-    },
-    {
-      "video": "AEEFa7CEPBs",
-      "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #boy",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "p8INPDAOjZI",
-      "title": "This AI Lets You Edit Just One Thing in a Photo",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1,
-        3,
-        4
-      ]
-    },
-    {
-      "video": "nd61hO1_fDQ",
-      "title": "The New AI Filmmaking Opportunity Every Creator Should See @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "g0jgJSFRfbg",
-      "title": "How AI Is Giving Filmmakers More Creative Freedom @HiggsfieldAI  @20VC",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "dsgH6Z5vk_s",
-      "title": "Minecraft 3D Model Generator: AI Wheat Bundle in Blockbench",
-      "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 7,
-  "completedAt": "2026-11-24T01:41:40.936Z",
+  "fatal": "News spending safety limit reached; no request sent",
+  "completedAt": "2026-11-24T12:28:54.049Z",
   "budget": {
     "model": "gpt-5.6-luna",
     "runRequests": 17,
     "day": {
-      "requests": 17,
-      "reservedMicrousd": 255900
+      "requests": 34,
+      "reservedMicrousd": 487267
     },
     "month": {
-      "requests": 206,
-      "reservedMicrousd": 2950778
+      "requests": 223,
+      "reservedMicrousd": 3182145
     },
     "limits": {
       "dayMicrousd": 500000,
