@@ -1,22 +1,170 @@
 {
-  "startedAt": "2026-11-23T16:02:52.231Z",
+  "startedAt": "2026-11-24T07:54:54.030Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 8,
+  "attempted": 41,
   "cached": 0,
-  "updated": 0,
+  "updated": 1,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [],
+  "errors": [
+    {
+      "platform": "elevenlabs",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "google-veo-3-1",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "elevenmusic",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "freepik-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "heygen",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "suno-v5-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "higgsfield",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "spline-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "krea-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "pika-2-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "meshy-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "recraft-v4-1",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "magnific-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "ideogram-v3",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "nano-banana-pro",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "seedance-2-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "nano-banana-2",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "seedream-4",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "grok-imagine",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "tripo-3-1",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hunyuan3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "trellis-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "udio",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "synthesia",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "topaz-labs",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hitem3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-agents",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-ray3",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-genie",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "mai-image-2-6",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "flux-2",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "midjourney-v8-2",
+      "message": "Official source HTTP 403"
+    }
+  ],
   "monitor": {
+    "baseline": 2,
     "changed": 31,
-    "fetch-failed": 6,
-    "unchanged-unverified": 12
+    "fetch-failed": 5,
+    "unchanged-unverified": 11
   },
   "health": {
-    "stale": 49
+    "partial": 1,
+    "stale": 43,
+    "failed": 5
   },
-  "scheduled": 8,
+  "scheduled": 41,
   "skipped": 0,
-  "completedAt": "2026-11-23T16:02:56.261Z"
+  "completedAt": "2026-11-24T07:55:13.986Z"
 }
