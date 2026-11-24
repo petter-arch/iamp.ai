@@ -5,6 +5,7 @@ import {lookup} from 'node:dns/promises';
 import {isIP} from 'node:net';
 import {pathToFileURL} from 'node:url';
 import {parseModelJSON,mergeProfile,validateNewProfile,trends} from './data-core.mjs';
+import {applyOfficialReleases,monitorOfficialReleases} from './release-watch.mjs';
 
 export const DAY=86400000;
 export const FIELDS=['price','sub','long','deep','tags','caps','pros','cons','tier','free'];
@@ -69,6 +70,8 @@ async function askModel(){throw Error('Paid Trendar verification is disabled; us
 export async function refreshState(previous,{now=new Date().toISOString(),ask=askModel,readSource=sourceText,concurrency=3,newLimit=8,batchLimit=Infinity,dueOnly=false,forceSources=false,retryFailedSources=false,clock=Date.now,timeBudgetMs=35*60000,onProgress=async()=>{}}={}){
  const state=structuredClone(previous),report={startedAt:now,mode:'profiles',total:state.platforms.length,attempted:0,cached:0,updated:0,newModels:0,candidatesAttempted:0,errors:[]};
  const started=clock(),sourceCache=new Map();
+ const corrected=applyOfficialReleases(state);if(corrected)report.updated++;
+ if(process.env.FREE_SOURCE_ONLY==='1')await monitorOfficialReleases(state,readSource,now);
  // Identical URLs are fetched only once per run, including concurrent workers.
  async function source(url,hosts){if(!officialURL(url,hosts))throw Error('Source outside official domain');if(!sourceCache.has(url))sourceCache.set(url,Promise.resolve().then(()=>readSource(url,hosts)));return sourceCache.get(url);}
  function summarize(){report.monitor={};for(const p of state.platforms){const status=p.sourceMonitor?.status||'not-checked';report.monitor[status]=(report.monitor[status]||0)+1;}report.health={};for(const p of state.platforms){const key=health(p,now);report.health[key]=(report.health[key]||0)+1;}state.profileChecks={startedAt:now,newsCheckedAt:state.newsCheckedAt||null,total:state.platforms.length,attempted:report.attempted,cached:report.cached,health:report.health,monitor:report.monitor,candidatesPending:(state.candidates||[]).filter(c=>c.status!=='published').length};state.trends={calculatedAt:now,windowDays:30,halfLifeDays:7,scores:trends(state.news,state.platforms,now)};}
@@ -102,7 +105,7 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
    // An unchanged page is NOT evidence that a previously failed verification has succeeded.
    const v=p.verification,hosts=officialHosts(p);
    const verifiedSources=Array.isArray(v?.sources)?v.sources.filter(s=>s?.url&&s?.hash):[];
-   const sources=verifiedSources.length?verifiedSources:[{url:p.id==='leonardo-ai'&&hosts.includes('leonardo.ai')?'https://docs.leonardo.ai/docs/getting-started':p.url}].map(s=>({...s,hash:p.sourceMonitor?.sources?.find(prior=>prior.url===s.url)?.hash}));
+   const sources=p.releaseSource?[{url:p.releaseSource.url,hash:p.sourceMonitor?.sources?.find(prior=>prior.url===p.releaseSource.url)?.hash}]:verifiedSources.length?verifiedSources:[{url:p.id==='leonardo-ai'&&hosts.includes('leonardo.ai')?'https://docs.leonardo.ai/docs/getting-started':p.url}].map(s=>({...s,hash:p.sourceMonitor?.sources?.find(prior=>prior.url===s.url)?.hash}));
    try {
     const checks=await Promise.all(sources.map(async s=>({url:s.url,hash:hash(await source(s.url,hosts))})));
     const unchanged=checks.every((s,i)=>s.hash===sources[i].hash);
@@ -137,7 +140,7 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
    report.errors.push(...errors.map(e=>({platform:p.id,...e})));
   }catch(e){state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:e.message,verification:{...p.verification,status:'failed',attemptedAt:now,checkedAt:p.verification?.checkedAt||null}};report.errors.push({platform:p.id,message:e.message});}
  }
- const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>process.env.FREE_SOURCE_ONLY==='1' ? (forceSources||(retryFailedSources&&p.sourceMonitor?.status==='fetch-failed')||!recent(p.sourceMonitor?.checkedAt,now,DAY)) : (!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY))).sort((a,b)=>(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||'')).slice(0,batchLimit);
+ const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>process.env.FREE_SOURCE_ONLY==='1' ? (forceSources||(retryFailedSources&&p.sourceMonitor?.status==='fetch-failed')||!recent(p.sourceMonitor?.checkedAt,now,DAY)) : (!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY))).sort((a,b)=>(process.env.FREE_SOURCE_ONLY==='1'?(a.p.sourceMonitor?.checkedAt||'').localeCompare(b.p.sourceMonitor?.checkedAt||''):(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||''))).slice(0,batchLimit);
  for(let i=0;i<queue.length;i+=concurrency){if(clock()-started>=timeBudgetMs)break;await Promise.all(queue.slice(i,i+concurrency).map(({p,index})=>check(p,index)));summarize();await onProgress(state,report);}
  report.scheduled=queue.length;report.skipped=queue.length-report.attempted;
  state.candidates=candidatesFor(state,now);
@@ -163,7 +166,7 @@ export async function main(){
  // Production Trendar is free-only, even with conflicting environment values.
  process.env.FREE_SOURCE_ONLY='1';
  const old=JSON.parse(await readFile('site-data.json','utf8'));
- const {state,report}=await refreshState(old,{concurrency:limited(process.env.PROFILE_CONCURRENCY,3,3),newLimit:0,batchLimit:limited(process.env.PROFILE_BATCH_LIMIT,49,49),dueOnly:process.argv.includes('--due'),forceSources:process.argv.includes('--force-sources'),retryFailedSources:process.argv.includes('--retry-failed-sources')});
+ const {state,report}=await refreshState(old,{concurrency:limited(process.env.PROFILE_CONCURRENCY,3,3),newLimit:0,batchLimit:limited(process.env.PROFILE_BATCH_LIMIT,old.platforms.length,old.platforms.length),dueOnly:process.argv.includes('--due'),forceSources:process.argv.includes('--force-sources'),retryFailedSources:process.argv.includes('--retry-failed-sources')});
  await atomic('site-data.json',state);await atomic('news.json',state.news);await atomic('model-report.json',report);
  console.log(JSON.stringify(report,null,2));
  if(report.errors.length||report.skipped)console.log('::warning::Some model facts remain unverified; see model-report.json and visible per-model status.');

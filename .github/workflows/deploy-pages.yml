@@ -18,6 +18,7 @@ on:
       - news.json
       - CNAME
       - publish-data.mjs
+      - release-watch.mjs
       - .github/workflows/deploy-pages.yml
   workflow_dispatch: {}
 permissions:

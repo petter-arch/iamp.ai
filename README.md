@@ -49,3 +49,6 @@ Arbetsflödena kan startas manuellt på en arbetsgren och sparar förhandsversio
 Responses API använder `store:false`. Avbrutna svar, vägran, HTTP-fel och misslyckad webbsökning kontrolleras innan JSON används. 429 och serverfel försöks upp till tre gånger. Webbsökning debiteras separat. Sökresultat ersätter aldrig en misslyckad direkthämtning av officiella belägg.
 
 Dokumentation: [Responses](https://developers.openai.com/api/docs/guides/text), [webbsökning](https://developers.openai.com/api/docs/guides/tools-web-search), [GitHub workflow-händelser](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows).
+
+## Korrigering 2026-11-24
+Trendar bevakar hela katalogen i varje dagligt gratisjobb (tre parallella arbetare). `release-watch.mjs` korrigerar den officiellt bekräftade Images 2.6-lanseringen i den stabila produktfamiljens ID utan att ärva betyg från 2.0; publikation tillämpar samma korrigering även om modelljobbet ännu inte hunnit spara. Den bevakar också OpenAI:s lanseringsindex och flaggar nyare versioner för granskning. Ingen betald API-trafik öppnas. Äldre redaktionella betyg märks som sådana och fullständiga faktagranskningar påstås inte vara genomförda. Andra leverantörers ändrade källor och kandidater kräver fortfarande faktagranskning.

@@ -96,7 +96,7 @@ test('UI labels do not turn an attempt, a news refresh or an old audit into fres
 });
 test('publication preserves original page and adds one cache-busted health script',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-publish-'));
- try{for(const file of ['index.html','site-data.json','news.json','CNAME','profile-health.js','publish-data.mjs'])await copyFile(file,join(dir,file));await run(process.execPath,['publish-data.mjs'],{cwd:dir});const html=await readFile(join(dir,'_site/index.html'),'utf8'),original=await readFile('index.html','utf8');assert.equal(html.replace(/<script src="profile-health\.js\?v=[a-f0-9]+"><\/script>\n/,''),original);assert.equal((html.match(/src="profile-health/g)||[]).length,1);assert.equal(await readFile(join(dir,'_site/profile-health.js'),'utf8'),await readFile('profile-health.js','utf8'));}finally{await rm(dir,{recursive:true,force:true});}
+ try{for(const file of ['index.html','site-data.json','news.json','CNAME','profile-health.js','publish-data.mjs','release-watch.mjs','data-core.mjs'])await copyFile(file,join(dir,file));await run(process.execPath,['publish-data.mjs'],{cwd:dir});const html=await readFile(join(dir,'_site/index.html'),'utf8'),original=await readFile('index.html','utf8');assert.equal(html.replace(/<script src="profile-health\.js\?v=[a-f0-9]+"><\/script>\n/,''),original);assert.equal((html.match(/src="profile-health/g)||[]).length,1);assert.equal(await readFile(join(dir,'_site/profile-health.js'),'utf8'),await readFile('profile-health.js','utf8'));}finally{await rm(dir,{recursive:true,force:true});}
 });
 test('free monitoring fetches baseline pages without upgrading facts and expires old audits',async()=>{
  const before=process.env.FREE_SOURCE_ONLY;process.env.FREE_SOURCE_ONLY='1';
@@ -127,7 +127,7 @@ test('official vendor migrations remain limited to explicitly approved domains',
 test('production Trendar command cannot call AI even with a funded key and conflicting paid settings',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'iamp-no-paid-profiles-'));
  try{
-  for(const file of ['profile-refresh.mjs','data-core.mjs'])await copyFile(file,join(dir,file));
+  for(const file of ['profile-refresh.mjs','data-core.mjs','release-watch.mjs'])await copyFile(file,join(dir,file));
   const input=state();input.candidates=[{name:'Expensive candidate',sourceVideos:[],firstSeen:NOW}];
   await writeFile(join(dir,'site-data.json'),JSON.stringify(input));
   await writeFile(join(dir,'mock.mjs'),String.raw`
