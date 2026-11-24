@@ -50,6 +50,9 @@ jobs:
         with:
           path: _site
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      # Artifact metadata can be briefly unavailable immediately after upload.
+      - name: Allow Pages artifact metadata to propagate
+        run: sleep 20
       - uses: actions/deploy-pages@v4
         id: deployment
         with:
