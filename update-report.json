@@ -1,274 +1,51 @@
 {
-  "startedAt": "2026-11-24T12:27:32.565Z",
+  "startedAt": "2026-11-24T13:45:31.586Z",
   "mode": "news",
-  "errors": [
-    {
-      "video": "rTMZ-O2skv0",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "yhGcrM8Ltzw",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "sr7Wl65opXM",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "0ZkPSFNyPsk",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "c9CRUrSTZK4",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "UaeZ1LBMdeg",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "FRrIfEsdLLQ",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "3FE-hBh1rsY",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "vNi2KtTMyHY",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "dsgH6Z5vk_s",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "NGlVlhHCLbw",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "Rzfkqhy5AwA",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "t0J9_qjhqIE",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "zrKyz4ydhe8",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "KfvbH_zL7Xc",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "nd61hO1_fDQ",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "g0jgJSFRfbg",
-      "message": "News spending safety limit reached; no request sent"
-    },
-    {
-      "video": "CfVTIoDRnjs",
-      "message": "News spending safety limit reached; no request sent"
-    }
-  ],
+  "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
-      "found": 2
+      "checkedAt": "2026-11-24T13:45:31.586Z",
+      "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-24T12:27:32.565Z",
+      "checkedAt": "2026-11-24T13:45:31.586Z",
       "found": 2
     }
   },
-  "apiCalls": 20,
-  "cacheHits": 179,
+  "apiCalls": 1,
+  "cacheHits": 186,
   "rssChannels": 35,
   "selection": {
     "fetched": 191,
-    "relevant": 55,
-    "supported": 43
+    "relevant": 0,
+    "supported": 0
   },
-  "rejected": [
-    {
-      "video": "GOX594srvU4",
-      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A (REPLAY)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        4
-      ]
-    },
-    {
-      "video": "Dl3dmbaJNwE",
-      "title": "Can it Eliminate the Flickering?",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        2,
-        3
-      ]
-    },
-    {
-      "video": "r5l8Ud__hCo",
-      "title": "I love this new Blender feature…",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "kXZCGml0th0",
-      "title": "MiniMax H3 Image - Normal + GGUF Guide!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1,
-        2,
-        31
-      ]
-    },
-    {
-      "video": "-5rtUVyxH5w",
-      "title": "Tesla “Hater” Uses Full Self-Driving for a Month",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        6
-      ]
-    },
-    {
-      "video": "S7lpCyZSdJQ",
-      "title": "Claude Fable 5.2 is a freak",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        5,
-        7,
-        9
-      ]
-    },
-    {
-      "video": "-1KPQDIh1Ew",
-      "title": "Google’s Project Genie Turns Text Into Worlds",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "NV-H7jU9WnQ",
-      "title": "Denoise for JPEG is INSANE 🔥 #CameraRaw #Photoshop",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0
-      ]
-    },
-    {
-      "video": "NXs1O7kLFOY",
-      "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "HSxBiGi1c6s",
-      "title": "Gemini 4 Neon Just Built GTA 6 (and I’m Obsessed)",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        8,
-        13,
-        15
-      ]
-    },
-    {
-      "video": "7-c56Irlo9M",
-      "title": "AI Image Generation Just Got Better",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        2,
-        4,
-        8
-      ]
-    },
-    {
-      "video": "W6n4FLbrjHw",
-      "title": "Maxon kündigt KI Abo an und Apple Vision Pro Support an!",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        4,
-        5
-      ]
-    },
-    {
-      "video": "GFxHjrYwoFk",
-      "title": "They built cyborg cockroaches with built-in AI...",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "4F7mH7WB9_8",
-      "title": "The Claude Design feature you have to ask for",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "hl2QYat81A4",
-      "title": "Claude Design style exploration hack",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "JZoqCoUefmI",
-      "title": "AI Movie Generation Bots - LIVE Stream",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "SZG_7dSYnoY",
-      "title": "Claude made this 3D animation from one prompt",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "2V0GoU9e3fo",
-      "title": "One scene, 86 animation styles, all made by Claude",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "XcmkJ2SElrU",
-      "title": "OpenAI’s New GPT 6.2 Can Build 3D Worlds From a Prompt",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        3
-      ]
-    }
-  ],
+  "rejected": [],
   "fatal": "News spending safety limit reached; no request sent",
-  "completedAt": "2026-11-24T12:28:54.049Z",
+  "completedAt": "2026-11-24T13:45:40.314Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 17,
+    "runRequests": 0,
     "day": {
       "requests": 34,
       "reservedMicrousd": 487267
