@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-23T10:45:05.241Z",
+  "startedAt": "2026-11-24T01:39:53.991Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
-      "found": 3
+      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "found": 4
     },
     "3d": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-23T10:45:05.241Z",
+      "checkedAt": "2026-11-24T01:39:53.991Z",
       "found": 5
     }
   },
-  "apiCalls": 11,
-  "cacheHits": 196,
+  "apiCalls": 17,
+  "cacheHits": 184,
   "rssChannels": 35,
   "selection": {
-    "fetched": 188,
-    "relevant": 52,
-    "supported": 41
+    "fetched": 198,
+    "relevant": 59,
+    "supported": 48
   },
   "rejected": [
     {
@@ -57,16 +57,6 @@
       "stage": "classification-evidence",
       "evidenceIds": [
         1
-      ]
-    },
-    {
-      "video": "IehCboBcYsA",
-      "title": "How to automate your photo library",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1,
-        2
       ]
     },
     {
@@ -107,16 +97,6 @@
       ]
     },
     {
-      "video": "Spt4aa-wl6A",
-      "title": "🌻SUNFLOWER & ROYAL BLUE VIBES 💙 Four Poses, One Beautiful Story! ✨ #ai #girls #prompt #alfaaz",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        3,
-        4,
-        20
-      ]
-    },
-    {
       "video": "NXs1O7kLFOY",
       "title": "NVIDIA adds Cosmos 3 world-simulation checkpoints and more #Shorts",
       "stage": "classification-evidence",
@@ -144,13 +124,25 @@
       ]
     },
     {
-      "video": "4F7mH7WB9_8",
-      "title": "The Claude Design feature you have to ask for",
-      "stage": "insufficient-article-source"
+      "video": "GOX594srvU4",
+      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A (REPLAY)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        4
+      ]
     },
     {
-      "video": "GFxHjrYwoFk",
-      "title": "They built cyborg cockroaches with built-in AI...",
+      "video": "-1KPQDIh1Ew",
+      "title": "Google’s Project Genie Turns Text Into Worlds",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "4F7mH7WB9_8",
+      "title": "The Claude Design feature you have to ask for",
       "stage": "insufficient-article-source"
     },
     {
@@ -166,6 +158,21 @@
     {
       "video": "SZG_7dSYnoY",
       "title": "Claude made this 3D animation from one prompt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "GFxHjrYwoFk",
+      "title": "They built cyborg cockroaches with built-in AI...",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NGlVlhHCLbw",
+      "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #girl",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "Rzfkqhy5AwA",
+      "title": "Welcome to AI VIDEO FLOW | Official Channel Trailer (4K AI Cinema)",
       "stage": "insufficient-article-source"
     },
     {
@@ -186,12 +193,7 @@
     {
       "video": "AEEFa7CEPBs",
       "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #boy",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        2,
-        3,
-        4
-      ]
+      "stage": "insufficient-article-source"
     },
     {
       "video": "p8INPDAOjZI",
@@ -204,16 +206,6 @@
       ]
     },
     {
-      "video": "dsgH6Z5vk_s",
-      "title": "Minecraft 3D Model Generator: AI Wheat Bundle in Blockbench",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "3FE-hBh1rsY",
-      "title": "Gemini 4 Neon is on fire!",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "nd61hO1_fDQ",
       "title": "The New AI Filmmaking Opportunity Every Creator Should See @HiggsfieldAI  @20VC",
       "stage": "insufficient-article-source"
@@ -224,36 +216,23 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "HR8furNoNG8",
-      "title": "3D Models in 30 SECONDS? AI Texture Generation REVOLUTION! #shorts",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "KfvbH_zL7Xc",
-      "title": "ai voice generator free | ai voice kaise generate kare | text to speech | best ai voice generator",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "CfVTIoDRnjs",
-      "title": "ACE Music v1: New AI Music Generator Debuts at #1 on Artificial Analysis Vocal Leaderboard",
+      "video": "dsgH6Z5vk_s",
+      "title": "Minecraft 3D Model Generator: AI Wheat Bundle in Blockbench",
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 3,
-  "completedAt": "2026-11-23T10:46:18.862Z",
+  "accepted": 7,
+  "completedAt": "2026-11-24T01:41:40.936Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 11,
+    "runRequests": 17,
     "day": {
-      "requests": 11,
-      "reservedMicrousd": 161649
+      "requests": 17,
+      "reservedMicrousd": 255900
     },
     "month": {
-      "requests": 189,
-      "reservedMicrousd": 2694878
+      "requests": 206,
+      "reservedMicrousd": 2950778
     },
     "limits": {
       "dayMicrousd": 500000,
