@@ -1,8 +1,711 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T07:54:54.030Z",
-  "newsCheckedAt": "2026-11-24T01:39:53.991Z",
+  "updatedAt": "2026-11-25T05:35:04.649Z",
+  "newsCheckedAt": "2026-11-25T05:35:04.649Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Master Modly, the powerful open-source desktop application that turns ordinary images and text prompts into stunning, textured 3D meshes using local open-source AI models running",
+      "evidenceIds": [
+        1,
+        2,
+        6
+      ],
+      "id": "iZDtxPKlPgA",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Modly gör lokal AI-generering av texturerade 3D-modeller möjlig",
+      "sum": "Codonut beskriver Modly som ett öppen källkodsprogram för Windows, macOS med Apple Silicon och Linux, där bilder och textprompter omvandlas till texturerade 3D-meshar med lokala AI-modeller på användarens GPU. Arbetsflödena kan köras offline utan molnabonnemang eller avgifter och modellerna kan exporteras i formaten GLB, OBJ och STL.",
+      "full": "Codonut presenterar Modly som en skrivbordsapplikation för lokal AI-generering av 3D-modeller. Enligt kanalens beskrivning kan programmet omvandla vanliga bilder och textprompter till texturerade 3D-meshar genom att köra öppen källkod-baserade AI-modeller direkt på användarens GPU. Det innebär att arbetsflödet inte kräver molnabonnemang eller avgifter per generering.\n\nVideon fokuserar på hur Modly installeras och konfigureras från grunden på Windows, macOS med Apple Silicon eller Linux. Codonut beskriver också hur användaren installerar modellutökningar via GitHub och hanterar olika arbetsflöden för generering av 3D-tillgångar.\n\nBland de nämnda utökningarna finns Hunyuan3D, TripoSG och Trellis2. Enligt beskrivningen används de i Modlys lokala arbetsflöden för att generera och förhandsvisa 3D-modeller från importerade bilder eller textbaserade instruktioner. Resultaten kan därefter exporteras som GLB-, OBJ- eller STL-filer för användning i Blender, Unity eller andra arbetsflöden som stöder formaten.\n\nDet centrala i Codonuts presentation är alltså inte en molntjänst, utan en lokal pipeline där installation, modellutökningar, GPU-baserad körning och export ingår i samma programflöde. Beskrivningen anger inte vilka GPU-krav, kvalitetsnivåer eller genereringstider som gäller, så sådana egenskaper kan inte bedömas utifrån underlaget.",
+      "deep": "Codonut framställer Modly som ett verktyg för användare som vill undvika kostnader per generering och i stället köra AI-baserad 3D-generering offline. Den angivna processen omfattar import av bilder, användning av textprompter, val eller installation av modellutökningar, generering och förhandsvisning av meshdata samt export.\n\nDe uttryckligen nämnda målplattformarna är Windows, macOS med Apple Silicon och Linux. Exportformaten GLB, OBJ och STL pekar på användning i flera typer av 3D-pipelines, medan Blender och Unity nämns som konkreta användningsmiljöer. STL nämns även i samband med 3D-utskrift, men beskrivningen ger inga uppgifter om modellernas utskriftsberedskap eller behov av efterbearbetning.\n\nBeskrivningen nämner Hunyuan3D, TripoSG och Trellis2 som modellutökningar eller delar av arbetsflödena, men anger inte deras individuella funktioner, modellversioner, prestanda eller licensvillkor. Den ger inte heller tillräckligt med information för att jämföra Modly med andra 3D-generatorer eller för att slå fast resultatens kvalitet.",
+      "en": {
+        "ttl": "Modly enables local AI generation of textured 3D models",
+        "sum": "Codonut describes Modly as an open-source application for Windows, macOS with Apple Silicon, and Linux that turns images and text prompts into textured 3D meshes using local AI models on the user’s GPU. The workflows can run offline without cloud subscriptions or per-generation fees, and models can be exported in GLB, OBJ, and STL formats.",
+        "full": "Codonut presents Modly as a desktop application for local AI-based 3D model generation. According to the channel’s description, the program converts ordinary images and text prompts into textured 3D meshes by running open-source AI models directly on the user’s GPU. The workflow therefore does not require cloud subscriptions or per-generation fees.\n\nThe video focuses on installing and configuring Modly from scratch on Windows, macOS with Apple Silicon, or Linux. Codonut also describes installing model extensions through GitHub and managing different workflows for generating 3D assets.\n\nThe extensions named in the description include Hunyuan3D, TripoSG, and Trellis2. According to the description, they are used within Modly’s local workflows to generate and preview 3D models from imported images or text-based instructions. Results can then be exported as GLB, OBJ, or STL files for use in Blender, Unity, or other workflows that support these formats.\n\nThe central subject of Codonut’s presentation is therefore not a cloud service, but a local pipeline combining installation, model extensions, GPU execution, and export in one application workflow. The description does not specify GPU requirements, quality levels, or generation times, so those aspects cannot be assessed from the available information.",
+        "deep": "Codonut presents Modly as a tool for users who want to avoid per-generation costs and instead run AI-based 3D generation offline. The stated process includes importing images, using text prompts, selecting or installing model extensions, generating and previewing mesh data, and exporting the results.\n\nThe explicitly named target platforms are Windows, macOS with Apple Silicon, and Linux. The GLB, OBJ, and STL export formats indicate use across several 3D pipelines, while Blender and Unity are named as concrete environments. STL is also mentioned in connection with 3D printing, but the description provides no information about print readiness or required post-processing.\n\nThe description names Hunyuan3D, TripoSG, and Trellis2 as model extensions or parts of the workflows, but does not explain their individual functions, model versions, performance, or licensing. It also does not provide enough information to compare Modly with other 3D generators or establish the quality of its output."
+      },
+      "cat": "3d",
+      "date": "2026-11-25T04:30:08Z",
+      "meta": "Codonut · 2026-11-25",
+      "url": "https://www.youtube.com/watch?v=iZDtxPKlPgA",
+      "img": "https://i.ytimg.com/vi/iZDtxPKlPgA/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Codonut"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Introduction: What is Modly?"
+        },
+        {
+          "t": 75,
+          "l": "Why Local AI 3D Generation Matters (No Cloud Fees)"
+        },
+        {
+          "t": 180,
+          "l": "How to Install and Set Up Modly from Scratch"
+        },
+        {
+          "t": 285,
+          "l": "Importing Images and Generating 3D Meshes"
+        }
+      ],
+      "views": 2,
+      "buzz": 26,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "d8059e81964d465d32c2c043147561bddf5b1660c53b289bd7e3a1becf1c2bc3",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Modly"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "This week in AI just went next level—from a new AI that turns any regular video into a fully editable 3D Blender scene, to 8K",
+      "evidenceIds": [
+        1,
+        2,
+        12
+      ],
+      "id": "BQyOO8P3MWI",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "MAVE AI omvandlar video till redigerbar 3D-scen i Blender",
+      "sum": "AI Guruji beskriver MAVE AI som ett system som omvandlar en vanlig video till en fullt redigerbar 3D-scen i Blender. Det placerar 3D-rekonstruktion i centrum för kanalens veckovisa genomgång av nya AI-modeller och arbetsflöden.",
+      "full": "AI Guruji lyfter fram MAVE AI som veckans huvudsakliga nyhet inom 3D-rekonstruktion. Enligt kanalens beskrivning kan systemet omvandla en vanlig video till en fullt redigerbar 3D-scen i Blender. Det innebär ett arbetsflöde där videomaterial används som utgångspunkt för att skapa en scen som kan redigeras vidare i Blender, i stället för att enbart behandlas som platt videoinnehåll.\n\nBeskrivningen anger inte vilka videolängder, kameratyper eller scenförhållanden MAVE AI stöder, och den redovisar inte heller någon oberoende testning. Därför går det inte att fastställa hur exakt rekonstruktionen blir, hur mycket manuellt efterarbete som krävs eller vilka Blender-funktioner som är tillgängliga efter konverteringen.\n\nMAVE AI presenteras i ett större AI-nyhetsinslag från AI Guruji som även tar upp bildgenerering, djupestimering och långformatvideo. Kanalens angivna fokus för MAVE AI är dock specifikt att skapa en redigerbar Blender-scen från video, vilket gör tekniken relevant för skapare som vill använda videomaterial som grund för ett fortsatt 3D-arbetsflöde.",
+      "deep": "AI Guruji placerar MAVE AI under rubriken ”Turn Any Video Into a 3D Blender Scene” och anger en särskild del i videons tidslinje för arbetsflödet, vid 00:12. Den medföljande länken går till MAVE AI:s projektsida. Källmaterialet beskriver inte modellens arkitektur, licens, lokal körning, exportformat eller omvandlingens tekniska steg. Det finns därför inte tillräckligt stöd för att beskriva MAVE AI som öppen källkod, ange prestanda eller hävda stöd för specifika produktionsmiljöer.",
+      "en": {
+        "ttl": "MAVE AI turns video into an editable 3D scene in Blender",
+        "sum": "AI Guruji describes MAVE AI as a system that turns a regular video into a fully editable 3D scene in Blender. The channel places it at the center of a weekly overview of new AI models and workflows.",
+        "full": "AI Guruji highlights MAVE AI as the week’s main development in 3D reconstruction. According to the channel’s description, the system can turn a regular video into a fully editable 3D scene in Blender. This creates a workflow in which video is used as the starting point for a scene that can be edited further in Blender rather than being treated only as flat video content.\n\nThe description does not specify which video lengths, camera types, or scene conditions MAVE AI supports, nor does it report independent testing. It is therefore not possible to establish how accurate the reconstruction is, how much manual cleanup is required, or which Blender functions remain available after conversion.\n\nMAVE AI is presented in a broader AI news item from AI Guruji that also covers image generation, depth estimation, and long-form video. The channel’s stated focus for MAVE AI is specifically the creation of an editable Blender scene from video, making the technology relevant to creators who want to use video as the basis for a continued 3D workflow.",
+        "deep": "AI Guruji places MAVE AI under the heading “Turn Any Video Into a 3D Blender Scene” and assigns the workflow a dedicated section at 00:12 in the video timeline. The supplied link leads to the MAVE AI project page. The source does not describe the model architecture, license, local execution, export formats, or technical reconstruction steps. There is therefore insufficient support to describe MAVE AI as open source, provide performance figures, or claim support for specific production environments."
+      },
+      "cat": "3d",
+      "date": "2026-11-25T03:30:12Z",
+      "meta": "AI Guruji · 2026-11-25",
+      "url": "https://www.youtube.com/watch?v=BQyOO8P3MWI",
+      "img": "https://i.ytimg.com/vi/BQyOO8P3MWI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "AI Guruji"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 12,
+          "l": "MAVE AI – Turn Any Video Into a 3D Blender Scene"
+        },
+        {
+          "t": 67,
+          "l": "Ideogram 4.6 – 4K Image Generation & Pixel-Perfect Editing"
+        },
+        {
+          "t": 108,
+          "l": "LongCat Video Avatar 1.6 – 10+ Min AI Talking Avatars"
+        },
+        {
+          "t": 140,
+          "l": "Dreamverse Harness – Open-Source AI Filmmaking Tool"
+        },
+        {
+          "t": 190,
+          "l": "Apple Depth Pro 2 – Real-Time High-Precision Depth Maps"
+        },
+        {
+          "t": 238,
+          "l": "Kling Image 4 – 8K Image Generator & Series Mode"
+        },
+        {
+          "t": 282,
+          "l": "Jeveration – Ultra-Fast 1-Step Open-Source Image Model"
+        },
+        {
+          "t": 331,
+          "l": "MovieRoll – Long Consistent AI Video Generation"
+        },
+        {
+          "t": 383,
+          "l": "Outro"
+        }
+      ],
+      "views": 35,
+      "buzz": 39,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "4b2bdbcea9f4dffdf22198242c45e7a612b85c61c3df4efc2c55c5d89dc69baf",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "MAVE AI"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "The Decoder reports Neill Blomkamp released Nightborne, a 13-minute short generated with Seedance 2.0, with licensed faces and voices.",
+      "evidenceIds": [
+        1
+      ],
+      "id": "pJiz0EnWuLQ",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Neill Blomkamp släpper AI-genererade kortfilmen Nightborne",
+      "sum": "Enligt Antique Robots har Neill Blomkamp släppt Nightborne, en 13 minuter lång kortfilm som helt har genererats med Seedance 2.0 och använder licensierade ansikten och röster.",
+      "full": "Neill Blomkamp har enligt Antique Robots släppt Nightborne, en 13 minuter lång kortfilm som helt har skapats med AI-baserad videogenerering. Uppgiften återges med hänvisning till The Decoder och beskriver projektet som ett arbete genomfört med Seedance 2.0.\n\nDet centrala i projektet är arbetsflödet för att skapa en hel kortfilm med videogenerering, snarare än enstaka AI-genererade klipp. Nightborne uppges dessutom använda licensierade ansikten och röster, vilket visar att produktionen omfattar särskilda rättigheter för de medverkandes visuella och vokala identitet.\n\nBeskrivningen innehåller inga ytterligare uppgifter om handling, scener, produktionsprocess, kostnader, medverkande eller hur Seedance 2.0 användes i praktiken. Antique Robots anger inte heller något releasedatum för själva filmen utöver att den har släppts.",
+      "deep": "Källuppgiften beskriver Nightborne som en kortfilm på 13 minuter och anger att den är genererad med Seedance 2.0. Formuleringen stödjer att AI-videogenerering är produktionens huvudsakliga metod, men den specificerar inte vilka delar som har skapats i modellen eller om efterbearbetning har använts.\n\nAtt ansikten och röster är licensierade är den enda angivna rättighetsrelaterade detaljen. Det går därför inte att dra slutsatser om modellens kvalitet, filmens visuella resultat eller hur arbetsflödet står sig mot andra metoder.",
+      "en": {
+        "ttl": "Neill Blomkamp releases AI-generated short film Nightborne",
+        "sum": "According to Antique Robots, Neill Blomkamp has released Nightborne, a 13-minute short film generated entirely with Seedance 2.0 and using licensed faces and voices.",
+        "full": "According to Antique Robots, Neill Blomkamp has released Nightborne, a 13-minute short film created entirely with AI-based video generation. The claim is attributed to The Decoder and identifies Seedance 2.0 as the tool used for the project.\n\nThe central development is the use of video generation as the main workflow for producing a complete short film rather than isolated AI-generated clips. Nightborne is also said to use licensed faces and voices, indicating that the production includes specific rights for the visual and vocal identities of the people represented.\n\nThe description provides no further information about the plot, scenes, production process, costs, cast, or how Seedance 2.0 was used in practice. Antique Robots also does not provide a release date for the film beyond stating that it has been released.",
+        "deep": "The source describes Nightborne as a 13-minute short film and states that it was generated with Seedance 2.0. This supports the conclusion that AI video generation is the production’s primary method, but it does not specify which parts were created in the model or whether post-production was used.\n\nThe licensing of faces and voices is the only rights-related detail provided. No conclusions can therefore be drawn about the model’s quality, the film’s visual result, or how the workflow compares with other methods."
+      },
+      "cat": "film",
+      "date": "2026-11-25T03:10:26Z",
+      "meta": "Antique Robots · 2026-11-25",
+      "url": "https://www.youtube.com/watch?v=pJiz0EnWuLQ",
+      "img": "https://i.ytimg.com/vi/pJiz0EnWuLQ/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Antique Robots"
+      ],
+      "parts": [],
+      "views": 2,
+      "buzz": 26,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "07bd33a895e141cd895efd14b02d020080b49abd01cf4c3d892c53d0eb0fb2bc",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Seedance 2.0"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "We teamed up with director Dave Clark and our crew at Promise to teach you a workflow we think is a big part of where",
+      "evidenceIds": [
+        2,
+        3,
+        4
+      ],
+      "id": "J_BNA8k9nnI",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Curious Refuge lanserar kurs i hybridfilm med AI",
+      "sum": "Curious Refuge presenterar kursen Hybrid AI Filmmaking, där filmskapare spelar in verkliga skådespelare på en enkel inspelningsplats och använder AI för att bygga världen runt dem.",
+      "full": "Curious Refuge har presenterat sin nya kurs Hybrid AI Filmmaking. Enligt kanalen har kursen tagits fram tillsammans med regissören Dave Clark och teamet på Promise, med fokus på ett arbetsflöde där verkliga skådespelare filmas på en enkel inspelningsplats medan AI används för att skapa miljön runt dem.\n\nCurious Refuge beskriver metoden som en viktig del av filmproduktionens möjliga utveckling. Upplägget ska göra det möjligt att förverkliga idéer som tidigare uppfattades som för dyra att spela in. Beskrivningen specificerar inte vilka AI-modeller eller program som används, och den innehåller inga uppgifter om tekniska begränsningar, bildkvalitet eller resultat från oberoende tester.\n\nKursen är enligt kanalens beskrivning planerad att starta den 13 januari 2027. Curious Refuge uppmanar intresserade att skriva upp sig på en väntelista för att få information när platserna blir tillgängliga.",
+      "deep": "Det centrala i arbetsflödet är kombinationen av traditionell inspelning och AI-genererad omvärld. Skådespelarnas insatser spelas in i en enkel fysisk miljö, varefter den omgivande världen byggs med AI. Beskrivningen framställer detta som ett sätt att arbeta med produktioner som tidigare hade legat utanför budgeten.\n\nKällan ger inga detaljer om inspelningsmetod, efterbearbetning, specifika AI-verktyg eller hur kontinuitet och kontroll hanteras. Kursens innehåll kan därför endast beskrivas på övergripande nivå utifrån Curious Refuges egen presentation. Kanalens text nämner även en Black Friday-kampanj, men den kommersiella informationen är inte en del av den tekniska nyheten.",
+      "en": {
+        "ttl": "Curious Refuge launches hybrid filmmaking course with AI",
+        "sum": "Curious Refuge presents Hybrid AI Filmmaking, a course where filmmakers record real actors on a simple set and use AI to build the world around them.",
+        "full": "Curious Refuge has presented its new course, Hybrid AI Filmmaking. According to the channel, the course was developed with director Dave Clark and the team at Promise, focusing on a workflow in which real actors are filmed on a simple set while AI is used to create the surrounding world.\n\nCurious Refuge describes the method as an important possible direction for film production. The format is intended to make it possible to realize ideas that were previously considered too expensive to shoot. The description does not specify which AI models or software are used, and it provides no information about technical limitations, image quality, or independent test results.\n\nAccording to the channel’s description, the course is scheduled to begin on January 13, 2027. Curious Refuge asks interested viewers to join a waitlist for information about availability.",
+        "deep": "The core workflow combines conventional live-action production with an AI-generated environment. Performances by the actors are recorded in a simple physical setting, after which the surrounding world is built with AI. The description presents this as a way to approach productions that previously exceeded available budgets.\n\nThe source provides no details about the filming method, post-production, specific AI tools, or how continuity and control are handled. The course can therefore only be described at a high level based on Curious Refuge’s own presentation. The channel also mentions a Black Friday promotion, but that commercial information is not part of the technical development."
+      },
+      "cat": "film",
+      "date": "2026-11-24T22:57:29Z",
+      "meta": "Curious Refuge · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=J_BNA8k9nnI",
+      "img": "https://i.ytimg.com/vi/J_BNA8k9nnI/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Curious Refuge"
+      ],
+      "parts": [],
+      "views": 587,
+      "buzz": 53,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "4934a19e28674379793ce9a58b0bafb86b5ec6380f7aae28679a51cbec0475d4",
+      "trusted": true,
+      "sourceId": "curiousrefuge",
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Here's a concern we have been hearing a lot lately from AI Filmmakers: Is Seedance Draft Mode significantly worse than Seedance 2.5? It seems a",
+      "evidenceIds": [
+        1,
+        2,
+        14
+      ],
+      "id": "jrXoCIkLgrc",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så kan du halvera kostnaden för Seedance 2.5",
+      "sum": "Curious Refuge undersöker om Seedance Draft Mode ger en tillräckligt tillförlitlig bild av Seedance 2.5 för AI-filmare. Kanalen beskriver jämförelser mellan lägena, export i 1080p och 4K samt ett kostnadsexempel på 40 dollar jämfört med 140 dollar.",
+      "full": "AI-filmare har enligt Curious Refuge tvekat inför Seedance Draft Mode eftersom läget uppfattas som en potentiellt felaktig representation av resultatet från Seedance 2.5. I videon jämför kanalen därför de två modellerna för att undersöka om Draft Mode innebär en tydlig försämring av videokvaliteten.\n\nArbetsflödet omfattar hur ett skott sätts upp, hur en draft för 1 dollar genereras och hur draften sedan renderas i 1080p eller 4K. Curious Refuge beskriver flera jämförelser: Draft Mode mot direkt 1080p, tester med live-action-material samt användningsfall som scenförlängningar, VFX och folkscener.\n\nVideon tar även upp en jämförelse mellan Seedance och Topaz för uppskalning. Den ekonomiska delen ställer en kostnad på 40 dollar mot 140 dollar, vilket ligger till grund för videons fokus på hur arbetsflödet kan minska utgifterna för produktion med Seedance 2.5. Curious Refuge framställer resultaten som överraskande för det egna teamet, men källbeskrivningen anger inte vilka enskilda bildkvalitetsresultat eller testvärden jämförelserna gav.",
+      "deep": "Källbeskrivningen visar ett stegvis produktionsflöde: först sätts skottet upp, därefter genereras en lågkostnadsdraft och sedan renderas materialet i 1080p eller 4K. De angivna testområdena omfattar både generering från Draft Mode och direkt generering i 1080p, live-action-material samt mer avancerade filmiska situationer som scenförlängningar, VFX och folkscener.\n\nCurious Refuge kopplar också arbetsflödet till efterbearbetning genom ett separat test av Seedance mot Topaz för uppskalning. Beskrivningen ger däremot inga detaljer om testmaterialet, exakta inställningar, slutlig kvalitet eller hur kostnaderna har räknats fram. Därför går det inte att dra mer långtgående slutsatser än att kanalen undersöker en möjlig kostnadsminskning och rapporterar ett jämförelseexempel på 40 dollar mot 140 dollar.",
+      "en": {
+        "ttl": "How to Cut the Cost of Seedance 2.5 in Half",
+        "sum": "Curious Refuge examines whether Seedance Draft Mode is reliable enough for AI filmmakers. The channel describes comparisons between the modes, 1080p and 4K rendering, and a cost example of $40 versus $140.",
+        "full": "According to Curious Refuge, AI filmmakers have been hesitant to use Seedance Draft Mode because it may not accurately represent the results produced by Seedance 2.5. The video compares the two modes to examine whether Draft Mode causes a significant reduction in video quality.\n\nThe workflow covers shot setup, generating a $1 draft, and rendering that draft in 1080p or 4K. Curious Refuge describes comparisons between Draft Mode and direct 1080p generation, tests with live-action footage, and use cases including set extensions, VFX, and crowd scenes.\n\nThe video also includes a comparison between Seedance and Topaz for upscaling. Its cost discussion contrasts $40 with $140, supporting the focus on reducing production expenses when working with Seedance 2.5. Curious Refuge calls the results surprising for its team, but the source description does not provide individual image-quality findings or detailed test measurements.",
+        "deep": "The source description presents a staged production workflow: set up the shot, generate a low-cost draft, and then render it in 1080p or 4K. The listed test areas include Draft Mode versus direct 1080p generation, live-action footage, and more advanced film scenarios such as set extensions, VFX, and crowd scenes.\n\nCurious Refuge also connects the workflow to post-production through a separate Seedance-versus-Topaz upscaling test. The description does not specify the test footage, exact settings, final quality, or cost methodology. It therefore supports only the conclusion that the channel is investigating a possible cost reduction and reports a comparison example of $40 versus $140."
+      },
+      "cat": "film",
+      "date": "2026-11-24T22:44:50Z",
+      "meta": "Curious Refuge · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=jrXoCIkLgrc",
+      "img": "https://i.ytimg.com/vi/jrXoCIkLgrc/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5"
+      ],
+      "chans": [
+        "Curious Refuge"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 24,
+          "l": "Why Seedance 2.5 Gets Expensive"
+        },
+        {
+          "t": 64,
+          "l": "Does Draft Mode Hurt Video Quality?"
+        },
+        {
+          "t": 116,
+          "l": "How to Set Up Your Shot"
+        },
+        {
+          "t": 178,
+          "l": "Generating a $1 Draft"
+        },
+        {
+          "t": 202,
+          "l": "How to Render Your Draft in 1080p or 4K"
+        },
+        {
+          "t": 279,
+          "l": "Test 1 – Draft Mode vs. Direct 1080p"
+        },
+        {
+          "t": 306,
+          "l": "Test 2 – Live-Action Footage"
+        },
+        {
+          "t": 395,
+          "l": "Set Extensions, VFX, and Crowd Scenes"
+        },
+        {
+          "t": 453,
+          "l": "Seedance vs. Topaz Upscaling Test"
+        },
+        {
+          "t": 522,
+          "l": "Cost Breakdown – $40 vs. $140"
+        },
+        {
+          "t": 575,
+          "l": "Final Verdict"
+        }
+      ],
+      "views": 4422,
+      "buzz": 64,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "46a4f395f41b232e2afa7dc981777c691b073f5071689d27f8394c79ac574f3f",
+      "trusted": true,
+      "sourceId": "curiousrefuge",
+      "newPlatforms": [
+        "Seedance Draft Mode"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "MOSS-Image Turbo LoRA in ComfyUI Install Guide. Get fast, high-quality AI images in just 4 to 8 steps! In this ComfyUI tutorial I show you",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ],
+      "id": "4gmEzsXOO6Q",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "MOSS TURBO ger snabbare bildgenerering i ComfyUI med en LoRA i fyra steg",
+      "sum": "Olivio Sarikas visar hur MOSS-Image Turbo LoRA installeras i ComfyUI och används för att skapa AI-bilder på fyra till åtta steg. Guiden omfattar installation, arbetsflödesanpassning, inställningar och en jämförelse av styrkor och svagheter.",
+      "full": "YouTube-kanalen Olivio Sarikas beskriver ett arbetsflöde för snabbare AI-bildgenerering med MOSS-Image Turbo LoRA i ComfyUI. Enligt kanalens beskrivning kan bilder skapas på fyra till åtta steg, vilket gör LoRA:n till artikelns centrala AI-utveckling och inte bara ett allmänt installationsinslag.\n\nGuiden börjar med installation av den anpassade noden LoRA Manager i ComfyUI. Därefter laddas MOSS-Image 4-step turbo LoRA ned från Civitai och läggs till i ett MOSS-Image-arbetsflöde. Sarikas visar också hur arbetsflödet anpassas för att bli enklare att använda.\n\nBeskrivningen anger att genomgången omfattar praktiska inställningar för CFG, sampler, scheduler och antal steg. Det innebär att fokus ligger på hur den snabba LoRA-konfigurationen kopplas in och ställs in i ett befintligt ComfyUI-flöde, snarare än på en generell presentation av AI-verktyg.\n\nMot slutet jämför Sarikas bilder och redovisar både fördelar och nackdelar med MOSS_Image_SFT_4_steps_v2-loran. Källan beskriver inte resultaten mer detaljerat, så artikelns slutsats är begränsad till att jämförelsen ingår i videon och att kanalens beskrivning inte specificerar vilka bildkvalitetsproblem eller begränsningar som visas.",
+      "deep": "Videons angivna kapitel placerar installationsdelen vid 00:28, tillägg av en LoRA Loader-nod vid 04:41 och koppling av loran till LoRA Manager-noden vid 09:31. Vid 10:27 behandlas inställningar för MOSS Turbo och vid 12:12 görs ett bildtest och en genomgång. Dessa tidsangivelser stöder att innehållet är ett konkret ComfyUI-arbetsflöde med både konfiguration och resultatjämförelse.\n\nDe namngivna komponenterna är MOSS-Image Turbo LoRA, MOSS-Image 4-step turbo LoRA, LoRA Manager, ComfyUI samt MOSS_Image_SFT_4_steps_v2. Beskrivningen länkar till Civitai för loran, Hugging Face för MOSS-Image och dokumentation för ComfyUI Manager, men länkarna utgör inte i sig belägg för ytterligare funktioner eller prestanda.\n\nKanalen kallar installationen enkel och snabb i titeln, men källmaterialet innehåller inga oberoende mätningar, bildkvalitetsmått eller verifierade jämförelser mot andra modeller. Därför tillskrivs alla påståenden om arbetsflödet och bildtestet Olivio Sarikas, utan att resultaten presenteras som en självständig testning.",
+      "en": {
+        "ttl": "MOSS TURBO enables faster image generation in ComfyUI with a four-step LoRA",
+        "sum": "The YouTube channel Olivio Sarikas shows how to install MOSS-Image Turbo LoRA in ComfyUI and use it to create AI images in four to eight steps. The guide covers installation, workflow adjustments, settings and a comparison of strengths and weaknesses.",
+        "full": "The YouTube channel Olivio Sarikas describes a workflow for faster AI image generation with MOSS-Image Turbo LoRA in ComfyUI. According to the channel description, images can be created in four to eight steps, making the LoRA the central AI development in the article rather than merely a general installation topic.\n\nThe guide starts by installing the LoRA Manager custom node in ComfyUI. MOSS-Image 4-step turbo LoRA is then downloaded from Civitai and added to a MOSS-Image workflow. Sarikas also shows how to adapt the workflow to make it easier to use.\n\nThe description states that the walkthrough covers practical settings for CFG, sampler, scheduler and the number of steps. The focus is therefore on integrating and configuring the fast LoRA setup within an existing ComfyUI workflow, rather than on a generic list of AI tools.\n\nAt the end, Sarikas compares images and presents both advantages and disadvantages of the MOSS_Image_SFT_4_steps_v2 LoRA. The source does not describe the results in more detail, so the conclusion is limited to the fact that the comparison is included and that the channel description does not specify which image-quality issues or limitations are shown.",
+        "deep": "The listed chapters place the installation at 00:28, adding a LoRA Loader node at 04:41 and adding the LoRA to the LoRA Manager node at 09:31. MOSS Turbo settings are covered at 10:27, followed by an image test and review at 12:12. These timestamps support that the content is a concrete ComfyUI workflow with both configuration and result comparison.\n\nThe named components are MOSS-Image Turbo LoRA, MOSS-Image 4-step turbo LoRA, LoRA Manager, ComfyUI and MOSS_Image_SFT_4_steps_v2. The description links to Civitai for the LoRA, Hugging Face for MOSS-Image and ComfyUI Manager documentation, but the links themselves do not establish additional features or performance claims.\n\nThe channel calls the installation easy and fast in the title, but the source contains no independent measurements, image-quality metrics or verified comparisons with other models. Claims about the workflow and image test are therefore attributed to Olivio Sarikas and are not presented as independent testing."
+      },
+      "cat": "foto",
+      "date": "2026-11-24T19:00:11Z",
+      "meta": "Olivio Sarikas · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=4gmEzsXOO6Q",
+      "img": "https://i.ytimg.com/vi/4gmEzsXOO6Q/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Olivio Sarikas"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Intro"
+        },
+        {
+          "t": 28,
+          "l": "Moss 4-Step Install Guide"
+        },
+        {
+          "t": 281,
+          "l": "Add Lora Loader Node to Workflow"
+        },
+        {
+          "t": 571,
+          "l": "Add Lora to Lora Manager Node"
+        },
+        {
+          "t": 627,
+          "l": "Moss Turbo Settings Guide"
+        },
+        {
+          "t": 732,
+          "l": "Moss Turbo Image Test Review"
+        }
+      ],
+      "views": 3436,
+      "buzz": 62,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5d29e3192462bc5b29f205c70823f2f57c054a41ac33bc8db2bdfde6df0ddc2a",
+      "trusted": true,
+      "sourceId": "oliviosarikas",
+      "newPlatforms": [
+        "MOSS TURBO",
+        "MOSS-Image Turbo LoRA",
+        "MOSS-Image",
+        "LoRA Manager",
+        "ComfyUI",
+        "MOSS_Image_SFT_4_steps_v2"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "3D generation is entering its Agent-Ready era. In this video I try Hyper3D’s new Agentic Mode to make 3D assets for my pit box racing",
+      "evidenceIds": [
+        4,
+        5,
+        6
+      ],
+      "id": "GqqcYwkyDnA",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "Hyper3D Rodin får agentiskt läge för AI-genererade 3D-speltillgångar",
+      "sum": "Creauctopus beskriver hur Hyper3D Rodins nya Agentic Mode kan skapa och redigera 3D-tillgångar från flera typer av referenser, utan Blender. I arbetsflödet används Claude och Nano Banana för en flervy-referens, varefter en gaffeltruck genereras och importeras till Unity.",
+      "full": "Creauctopus visar ett AI-baserat arbetsflöde för att skapa 3D-tillgångar till ett racing-spel i Unity med Hyper3D Rodins nya Agentic Mode. Enligt kanalens beskrivning behövs inte Blender i processen: skaparen börjar med en flervy-referensbild som tas fram med Claude och Nano Banana och låter därefter Agentic Mode generera en gaffeltruck.\n\nDet centrala i arbetsflödet är att Agentic Mode själv avgör modelleringsmetod och topologi utifrån referensmaterialet. Hyper3D kan enligt beskrivningen arbeta med CAD-skisser, ritningar, annoterade bilder och flervyark. Efter genereringen redigeras modellen med naturliga språkkommandon genom Parameter Controls, Animation Presets och Enhanced Materials.\n\nVideon omfattar också vanlig Hyper3D Rodin-generering med quad-topologi för ytterligare spelobjekt, däribland en bensindunk och en skiftnyckel. De skapade tillgångarna importeras sedan till Unity för användning i spelprojektet. Kanalens beskrivning presenterar därmed Agentic Mode som ett sätt att låta AI hantera flera delar av 3D-produktionskedjan, från referenstolkning och modellering till efterföljande justeringar.\n\nCreauctopus uppger att videon är sponsrad av Hyper3D. Artikeln återger kanalens beskrivning och innebär inte ett oberoende test av verktyget.",
+      "deep": "Det beskrivna exemplet gäller ett racing-spel och fokuserar på en konkret tillgångsprocess: en flervy-referens skapas först med Claude och Nano Banana, en gaffeltruck genereras i Agentic Mode och modellen ändras därefter med naturliga språkkommandon. Parameter Controls, Animation Presets och Enhanced Materials anges som separata delar av redigeringssteget.\n\nAgentic Mode uppges acceptera flera referensformat, inklusive CAD-designutkast, ritningar, annoterade bilder och flervyark. Enligt beskrivningen väljer läget själv modelleringsstrategi och topologi. Utöver gaffeltrucken nämns Hyper3D Rodin-generering med quad-topologi för en bensindunk och en skiftnyckel, följt av import av resultaten till Unity.\n\nKällan specificerar inte tekniska prestandamått, kvalitetsjämförelser, begränsningar eller någon oberoende verifiering av arbetsflödet. Hyper3D:s sponsring är uttryckligen angiven i videobeskrivningen.",
+      "en": {
+        "ttl": "Hyper3D Rodin introduces an agentic mode for AI-generated 3D game assets",
+        "sum": "Creauctopus describes how Hyper3D Rodin’s new Agentic Mode can create and edit 3D assets from several types of references without Blender. The workflow uses Claude and Nano Banana to create a multi-view reference, after which a forklift is generated and imported into Unity.",
+        "full": "Creauctopus presents an AI-based workflow for creating 3D assets for a racing game in Unity with Hyper3D Rodin’s new Agentic Mode. According to the channel’s description, Blender is not required: the creator begins with a multi-view reference image made with Claude and Nano Banana, then uses Agentic Mode to generate a forklift.\n\nThe key feature is that Agentic Mode is described as choosing the modeling approach and topology itself based on the reference material. Hyper3D can reportedly work with CAD design drafts, blueprints, annotated images and multi-view sheets. After generation, the model is edited with natural-language commands through Parameter Controls, Animation Presets and Enhanced Materials.\n\nThe video also covers regular Hyper3D Rodin generation with quad topology for additional game props, including a gas can and a wrench. The generated assets are then imported into Unity for use in the game project. The description therefore presents Agentic Mode as a way for AI to handle several parts of the 3D production pipeline, from interpreting references and modeling to subsequent adjustments.\n\nCreauctopus states that the video is sponsored by Hyper3D. This article reflects the channel’s description and is not an independent test of the tool.",
+        "deep": "The described example concerns a racing game and follows a specific asset workflow: a multi-view reference is first created with Claude and Nano Banana, a forklift is generated in Agentic Mode, and the model is then modified with natural-language commands. Parameter Controls, Animation Presets and Enhanced Materials are listed as separate parts of the editing stage.\n\nAgentic Mode is said to accept several reference formats, including CAD design drafts, blueprints, annotated images and multi-view sheets. According to the description, it selects the modeling strategy and topology by itself. In addition to the forklift, Hyper3D Rodin generation with quad topology is used for a gas can and a wrench, followed by importing the results into Unity.\n\nThe source does not specify technical performance metrics, quality comparisons, limitations or independent verification of the workflow. The video description explicitly discloses Hyper3D sponsorship."
+      },
+      "cat": "3d",
+      "date": "2026-11-24T14:00:37Z",
+      "meta": "Creauctopus · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=GqqcYwkyDnA",
+      "img": "https://i.ytimg.com/vi/GqqcYwkyDnA/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Creauctopus"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "Game-assets AI made for me"
+        },
+        {
+          "t": 12,
+          "l": "What tool I use"
+        },
+        {
+          "t": 88,
+          "l": "Creating a multi-view reference image"
+        },
+        {
+          "t": 137,
+          "l": "Agentic Mode generation"
+        },
+        {
+          "t": 171,
+          "l": "Parameter Controls"
+        },
+        {
+          "t": 198,
+          "l": "Animation Presets"
+        },
+        {
+          "t": 230,
+          "l": "Enhanced Materials"
+        },
+        {
+          "t": 253,
+          "l": "Hyper3D Rodin generation"
+        },
+        {
+          "t": 287,
+          "l": "More props"
+        },
+        {
+          "t": 322,
+          "l": "Importing into Unity"
+        },
+        {
+          "t": 344,
+          "l": "Final result"
+        }
+      ],
+      "views": 876,
+      "buzz": 55,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "bf582d45ba1e55bfe005b8ceeed529faf2e189ff23a2694d39ed270af364f7ce",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "🤖 Kann KI wirklich beeindruckende 3D-Modelle erstellen? In diesem Video teste ich Meshy N1, Meshy 7, Ultra 4K und die 8K-Texturierung. Außerdem vergleiche ich Meshy",
+      "evidenceIds": [
+        2,
+        3
+      ],
+      "id": "uB3BXEqVrs8",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "GameNature testar Meshy N1 och Meshy 7 för AI-genererade 3D-modeller",
+      "sum": "GameNature undersöker hur Meshy N1, Meshy 7, Ultra 4K och 8K-texturering fungerar för att skapa spelobjekt direkt i webbläsaren, samt jämför Meshy med Tripo Studio.",
+      "full": "I videon undersöker GameNature om Meshy kan skapa imponerande 3D-modeller med hjälp av AI. Fokus ligger på Meshy N1 och Meshy 7, med särskild uppmärksamhet på Ultra 4K och texturering i 8K.\n\nEn central användning som beskrivs är att skapa spelobjekt direkt i webbläsaren. GameNature testar därmed inte bara modellgenerering i sig, utan även hur Meshy passar in i ett praktiskt arbetsflöde för gaming-assets.\n\nVideon innehåller också en jämförelse mellan Meshy och Tripo Studio. Enligt beskrivningen är syftet att bedöma vad en AI-baserad 3D-modellgenerator faktiskt klarar i dag och om Meshy förtjänar att kallas den bästa AI-baserade 3D-modellgeneratorn.\n\nVideon är en betald samarbetspublikation med Meshy. Rabattlänken och samarbetet är därför en del av publiceringssammanhanget, inte oberoende bevis på verktygens prestanda.",
+      "deep": "GameNature nämner fyra konkreta delar i Meshy-arbetsflödet: Meshy N1, Meshy 7, Ultra 4K och 8K-texturering. Beskrivningen anger inte vilka testresultat, modeller, exportformat eller kvalitetsbegränsningar som visas, så sådana detaljer kan inte fastställas från källmaterialet.\n\nDen uttryckliga användningsmiljön är webbläsarbaserad skapelse av spelobjekt. Jämförelsen med Tripo Studio ger videon ett utvärderande upplägg, men källan innehåller ingen verifierbar slutsats om vilket verktyg som presterar bäst. Den anger inte heller någon produktlansering eller versionsreleasedatum.",
+      "en": {
+        "ttl": "GameNature tests Meshy N1 and Meshy 7 for AI-generated 3D models",
+        "sum": "GameNature examines how Meshy N1, Meshy 7, Ultra 4K and 8K texturing work for creating game assets directly in the browser, and compares Meshy with Tripo Studio.",
+        "full": "In the video, GameNature examines whether Meshy can create impressive 3D models with AI. The focus is on Meshy N1 and Meshy 7, with particular attention to Ultra 4K and 8K texturing.\n\nOne central use case described is creating game assets directly in the browser. GameNature therefore evaluates not only model generation itself, but also how Meshy fits into a practical workflow for gaming assets.\n\nThe video also compares Meshy with Tripo Studio. According to the description, the aim is to assess what an AI 3D model generator can actually do today and whether Meshy deserves to be called the best AI 3D model generator.\n\nThe video is a paid collaboration with Meshy. The discount link and partnership are therefore part of the publication context, not independent evidence of the tools’ performance.",
+        "deep": "GameNature identifies four concrete parts of the Meshy workflow: Meshy N1, Meshy 7, Ultra 4K and 8K texturing. The description does not state which test results, models, export formats or quality limitations are shown, so those details cannot be established from the source material.\n\nThe explicitly described environment is browser-based creation of game assets. The comparison with Tripo Studio gives the video an evaluative format, but the source contains no verifiable conclusion about which tool performs best. It also provides no product launch or version release date."
+      },
+      "cat": "3d",
+      "date": "2026-11-24T13:30:18Z",
+      "meta": "GameNature · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=uB3BXEqVrs8",
+      "img": "https://i.ytimg.com/vi/uB3BXEqVrs8/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "GameNature"
+      ],
+      "parts": [],
+      "views": 280,
+      "buzz": 49,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "a633f47fc6ef72f5318b62594676244971de5f2ac4280840e4bc310026c34c7d",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Meshy N1",
+        "Meshy 7",
+        "Ultra 4K",
+        "Tripo Studio"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "超過40億次播放的《持械入宋》席捲全網，這部現象級AI短劇不僅創造了驚人的流量奇蹟，更揭示了AI影視製作的全新可能。本影片將帶你深入拆解這部爆款作品背後的製作邏輯，從選題策略到技術實現，完整呈現AI短劇創作的核心密碼。 許多人只停留在模仿畫面風格的表層，卻忽略了真正讓作品破圈的關鍵——敘事節奏與情緒張力的精準把控。我們會詳細分析如何運用AI工具快速生成高質感古風場景，掌握人物一致性維持的實用技巧，以及透過分鏡設計讓低成本製作呈現電影級質感。從劇本結構到後期調色，每個環節都有可複製的方法論。 無論你是想進入AI短劇領域的新手，或是希望提升作品完播率的創作者，這些經過實戰驗證的製作心法都能幫助你避開彎路。AI影視的紅利期正在當下，關鍵在於用對方法、找準定位。",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ],
+      "id": "WoHa5wQ-RN4",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Så bryter 子清学长 ner en AI-kortfilm med över 400 miljoner visningar",
+      "sum": "子清学长 analyserar produktionslogiken bakom AI-kortdramat 《持械入宋》, med fokus på berättartempo, emotionell spänning, scenproduktion, karaktärskontinuitet och bildmanus.",
+      "full": "Kanalen 子清学长 presenterar en genomgång av AI-kortdramat 《持械入宋》, som enligt kanalens beskrivning har fått över 400 miljoner visningar. Fokus ligger inte bara på verkets visuella stil, utan på hur en AI-produktion kan byggas för att nå ut genom en kombination av ämnesval, teknisk genomförbarhet och berättarmässig precision.\n\nEn central poäng i genomgången är att många skapare fastnar i att efterlikna en bildstil. 子清学长 framhåller i stället berättartempo och emotionell spänning som avgörande faktorer bakom verkets genomslag. Videon ska därför analysera hur dessa delar kan planeras och användas i AI-kortdrama, snarare än att enbart fokusera på enskilda bilder eller effekter.\n\nArbetsflödet omfattar enligt beskrivningen flera steg: från manusstruktur och ämnesstrategi till bildmanus, scenframställning, bibehållen karaktärskontinuitet och efterbearbetning med färgkorrigering. Kanalen beskriver också metoder för att snabbt skapa högkvalitativa miljöer i traditionell kinesisk stil och för att använda bildmanus så att en produktion med begränsade resurser kan få ett mer filmiskt uttryck.\n\nGenomgången riktar sig både till nybörjare som vill börja arbeta med AI-kortdrama och till skapare som vill förbättra andelen tittare som ser färdigt deras verk. Enligt 子清学长 är målet att erbjuda återanvändbara arbetsmetoder och hjälpa skapare att undvika vanliga omvägar i produktionen.",
+      "deep": "Beskrivningen kopplar verkets resultat till en helhet där kreativ strategi och AI-produktion måste samverka. Ämnesvalet presenteras som en del av den övergripande produktionslogiken, medan tekniken används för att snabbt ta fram miljöer och stödja en konsekvent visuell framställning.\n\nKaraktärskontinuitet lyfts fram som ett praktiskt problem som genomgången behandlar särskilt. Beskrivningen anger dock inte vilka specifika modeller, verktyg eller inställningar som används. Detsamma gäller den exakta processen för manus, bildgenerering, efterbearbetning och färgkorrigering; artikeln kan därför bara fastställa att dessa delar ingår i den metodik som kanalen säger sig analysera.\n\n子清学长 beskriver dessutom bildmanuset som en länk mellan berättelsens struktur och den visuella produktionen. Syftet är enligt beskrivningen att få en produktion med låg budget att upplevas som mer filmisk, samtidigt som tempo och emotionell spänning hålls under kontroll. Videon presenteras som en praktiskt inriktad genomgång, men källtexten innehåller inga oberoende mätningar eller verifierade uppgifter om resultatet utöver kanalens egen beskrivning.",
+      "en": {
+        "ttl": "How 子清学长 Breaks Down an AI Short Film With More Than 400 Million Views",
+        "sum": "子清学长 analyzes the production logic behind the AI short drama 《持械入宋》, focusing on narrative pacing, emotional tension, scene creation, character consistency, and storyboarding.",
+        "full": "The channel 子清学长 presents a breakdown of the AI short drama 《持械入宋》, which the channel description says has received more than 400 million views. The focus is not only on the work’s visual style, but on how an AI production can be structured for reach through a combination of subject selection, technical execution, and precise storytelling.\n\nA central point is that many creators stop at imitating a visual style. 子清学长 instead identifies narrative pacing and emotional tension as key factors behind the work’s impact. The video therefore analyzes how these elements can be planned and applied in AI short dramas, rather than focusing only on individual images or effects.\n\nAccording to the description, the workflow covers several stages: script structure and topic strategy, storyboarding, scene creation, character consistency, and post-production color grading. The channel also describes methods for quickly generating high-quality environments in a traditional Chinese style and using storyboards so that a production with limited resources can achieve a more cinematic presentation.\n\nThe breakdown is aimed both at beginners entering AI short-drama production and at creators who want to improve completion rates. According to 子清学长, the goal is to provide reusable production methods and help creators avoid common detours.",
+        "deep": "The description connects the work’s outcome to a broader process in which creative strategy and AI production must work together. Topic selection is presented as part of the overall production logic, while the technology is used to create environments quickly and support visual consistency.\n\nCharacter consistency is highlighted as a practical challenge addressed by the breakdown. However, the source does not identify the specific models, tools, or settings used. The same applies to the exact processes for scripting, image generation, post-production, and color grading; the article can therefore only establish that these areas are included in the methodology the channel says it will analyze.\n\n子清学长 also presents storyboarding as the link between narrative structure and visual production. According to the description, the aim is to make a low-budget production feel more cinematic while keeping pacing and emotional tension under control. The video is presented as a practical breakdown, but the source contains no independent measurements or verified results beyond the channel’s own description."
+      },
+      "cat": "film",
+      "date": "2026-11-24T13:17:51Z",
+      "meta": "子清学长 · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=WoHa5wQ-RN4",
+      "img": "https://i.ytimg.com/vi/WoHa5wQ-RN4/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "子清学长"
+      ],
+      "parts": [],
+      "views": 1,
+      "buzz": 24,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f62401d0196683f56a2658042acbbdf48434965a3f2bc13fdd1fe49b54825ce1",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "In this documentary, we explore AI Filmmaking (Artificial Intelligence Filmmaking) and discover how Artificial Intelligence is transforming the future of cinema, filmmaking and the global",
+      "evidenceIds": [
+        3,
+        4,
+        12
+      ],
+      "id": "sr7Wl65opXM",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "RAAZ O HAAQEEQAT förklarar hur AI förändrar filmskapande",
+      "sum": "RAAZ O HAAQEEQAT beskriver hur AI-genererade bilder och videor, digitala karaktärer, röstgenerering, virtuell produktion och intelligent videoredigering kan förändra hur filmer skapas. Dokumentären tar också upp deepfakes, upphovsrätt, integritet och frågan om AI ersätter mänsklig kreativitet.",
+      "full": "I en dokumentär om AI-drivet filmskapande undersöker RAAZ O HAAQEEQAT hur artificiell intelligens kan förändra filmindustrin och den globala underhållningsbranschen. Enligt kanalens beskrivning omfattar genomgången AI-genererade bilder och realistiska videor, digitala karaktärer, AI-baserad röstgenerering, virtuell produktion och intelligent videoredigering.\n\nKanalens fokus ligger på arbetsflödet från idé till färdig film. Beskrivningen tar upp hur text-till-bild och text-till-video fungerar, samt hur AI kan användas för att skapa realistiska filmsekvenser. Den nämner också AI-genererade karaktärer och virtuell produktion som tekniker som kan förändra hur filmskapare bygger scener och berättelser.\n\nRAAZ O HAAQEEQAT riktar sig både till nybörjare och till tittare som vill förstå teknikens konsekvenser för filmbranschen. Dokumentären behandlar AI-röstgenerering, dubbning och videoredigering och frågar om en vanlig person i framtiden kan skapa filmer med Hollywood-liknande uttryck genom att kombinera en egen idé med AI-teknik. Beskrivningen anger dock inga specifika verktyg, modeller, praktiska testresultat eller oberoende jämförelser.\n\nEtt centralt tema är balansen mellan effektivare digital produktion och mänsklig kreativitet. Kanalen tar upp möjligheten att AI ersätter traditionella filmskapare och kreativa yrkesroller, men formulerar också AI som ett kreativt verktyg för nästa generations filmskapare. Dokumentären behandlar dessutom möjligheter och utmaningar i filmindustrin, inklusive deepfakes, upphovsrätt, integritet och etiska frågor.",
+      "deep": "Beskrivningen presenterar AI-filmskapande som ett sammanhängande produktionsområde snarare än som en enskild funktion. De angivna delarna omfattar text-till-bild, text-till-video, realistisk videogenerering, digitala karaktärer, virtuell produktion, röstgenerering, dubbning och videoredigering. Tillsammans antyder de ett arbetsflöde där visuellt material, karaktärer, ljud och efterbearbetning kan påverkas av AI.\n\nKanalens beskrivning nämner även stegvis inlärning för nybörjare och ställer frågor om framtidens biograf- och underhållningsproduktion. Samtidigt anges inga namn på AI-plattformar, inga versioner, inga lanseringsdatum och inga verifierade resultat. Uppgifterna bör därför läsas som dokumentärens utlovade ämnen och frågeställningar, inte som bekräftade produktfunktioner eller resultat från ett självständigt test.\n\nEtikdelen omfattar deepfakes, upphovsrätt och integritet. Dessa frågor kopplas till användningen av AI i filmproduktion och till gränsdragningen mellan automatiserade verktyg och mänskligt skapande. Beskrivningen ger inte närmare exempel på juridiska fall, tekniska begränsningar eller konkreta arbetsmetoder.",
+      "en": {
+        "ttl": "RAAZ O HAAQEEQAT explains how AI is changing filmmaking",
+        "sum": "RAAZ O HAAQEEQAT describes how AI-generated images and videos, digital characters, voice generation, virtual production and intelligent video editing could change how films are made. The documentary also addresses deepfakes, copyright, privacy and whether AI will replace human creativity.",
+        "full": "In a documentary about AI-powered filmmaking, RAAZ O HAAQEEQAT examines how artificial intelligence could transform the film industry and the global entertainment business. According to the channel’s description, the discussion covers AI-generated images and realistic videos, digital characters, AI voice generation, virtual production and intelligent video editing.\n\nThe channel focuses on a workflow that runs from an initial idea to a finished film. The description covers how text-to-image and text-to-video work, as well as how AI can be used to create realistic cinematic footage. It also identifies AI-generated characters and virtual production as techniques that could change how filmmakers build scenes and tell stories.\n\nRAAZ O HAAQEEQAT addresses both beginners and viewers who want to understand the technology’s impact on filmmaking. The documentary includes AI voice generation, dubbing and video editing, and asks whether an ordinary person could eventually create Hollywood-like films by combining an original idea with AI technology. The description does not name specific tools or models, and it provides no practical test results or independent comparisons.\n\nA central theme is the balance between more efficient digital production and human creativity. The channel raises the possibility that AI could replace traditional filmmakers and creative professionals, while also presenting AI as a creative tool for the next generation of filmmakers. The documentary further addresses opportunities and challenges in the film industry, including deepfakes, copyright, privacy and ethical concerns.",
+        "deep": "The description presents AI filmmaking as an interconnected production area rather than a single feature. The listed elements include text-to-image, text-to-video, realistic video generation, digital characters, virtual production, voice generation, dubbing and video editing. Together, these topics suggest a workflow in which visuals, characters, audio and post-production may all be affected by AI.\n\nThe channel also mentions step-by-step learning for beginners and questions about the future of cinema and entertainment production. However, it names no AI platforms, versions or release dates, and reports no verified results. The information should therefore be understood as the documentary’s stated topics and questions, not as confirmed product capabilities or findings from an independent test.\n\nThe ethics section covers deepfakes, copyright and privacy. These issues are connected to the use of AI in film production and to the boundary between automated tools and human authorship. The description gives no specific legal cases, technical limitations or concrete production procedures."
+      },
+      "cat": "film",
+      "date": "2026-11-24T11:51:18Z",
+      "meta": "RAAZ O HAAQEEQAT · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=sr7Wl65opXM",
+      "img": "https://i.ytimg.com/vi/sr7Wl65opXM/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "RAAZ O HAAQEEQAT"
+      ],
+      "parts": [],
+      "views": 10,
+      "buzz": 32,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "1c3d6dc512455a35c126964e0a92fca7faa4ad649955c26403fa4af665432c70",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "AI image editing just got more precise. 👀 Ideogram 4.6 brings improved editing accuracy, better character consistency, precise colour control and native 4K image generation.",
+      "evidenceIds": [
+        1,
+        2,
+        4
+      ],
+      "id": "FRrIfEsdLLQ",
+      "tag": "img",
+      "lab": "Bild",
+      "ico": "📷",
+      "ttl": "Ideogram 4.6 ska göra AI-bildredigering mer precis",
+      "sum": "Code & Tech with Yash beskriver Ideogram 4.6 som en ny AI-modell med förbättrad redigeringsprecision, bättre karaktärskonsekvens, exaktare färgkontroll och inbyggd bildgenerering i 4K.",
+      "full": "Code & Tech with Yash rapporterar om Ideogram 4.6, en AI-modell för bildgenerering och bildredigering. Enligt kanalens beskrivning fokuserar modellen på att göra redigeringar mer precisa, med förbättringar inom karaktärskonsekvens, färgkontroll och produktdetaljer.\n\nBeskrivningen anger att karaktärskonsekvensen har förbättrats från 69 procent till 85 procent. Det innebär enligt de rapporterade resultaten en högre angiven träffsäkerhet när en karaktär ska bevaras genom olika redigeringar eller bildversioner.\n\nÄven färgåtergivningen uppges ha förbättrats tydligt, från 46 procent till 83 procent för exakt färgkontroll. Produktdetaljer anges samtidigt ha ökat från 61 procent till 86 procent. Kanalen beskriver dessutom stöd för inbyggd bildgenerering i 4K.\n\nCode & Tech with Yash uppger att Ideogram 4.6 också rankas etta på Rapidatas topplista för bildredigering i flera steg. Uppgifterna är återgivna från kanalens publicerarbeskrivning och utgör inte ett oberoende test.",
+      "deep": "De rapporterade resultaten pekar på ett arbetsflöde där flera egenskaper behöver hållas stabila samtidigt: identiteten hos en karaktär, färgernas exakthet och detaljer i en produkt. Beskrivningen specificerar inte vilka testbilder, redigeringssteg eller jämförelsemodeller som användes, så resultaten kan inte tolkas som en fullständig oberoende utvärdering.\n\n4K nämns som en inbyggd funktion för bildgenerering, men källan anger inte upplösningens exakta pixelmått, tillgänglighet, begränsningar eller vilka abonnemang som stöder funktionen. Den anger inte heller något lanseringsdatum för Ideogram 4.6; videons publiceringsdatum ska därför inte behandlas som produktens releasedatum.\n\nFör användare som arbetar med återkommande karaktärer, färgstyrda visuella koncept eller produktbilder är dessa områden de centrala användningsfallen som stöds av beskrivningen. Några ytterligare funktioner, prisuppgifter eller praktiska arbetsflöden anges inte.",
+      "en": {
+        "ttl": "Ideogram 4.6 is designed to make AI image editing more precise",
+        "sum": "Code & Tech with Yash describes Ideogram 4.6 as a new AI model with improved editing accuracy, better character consistency, more precise colour control and native 4K image generation.",
+        "full": "Code & Tech with Yash reports on Ideogram 4.6, an AI model for image generation and image editing. According to the channel's description, the model focuses on more precise edits, with improvements in character consistency, colour control and product detail.\n\nThe description states that character consistency improved from 69 percent to 85 percent. This represents the reported result for preserving a character across different edits or image versions.\n\nExact colour accuracy is also reported to have improved from 46 percent to 83 percent. Product detail is said to have increased from 61 percent to 86 percent. The channel also describes native 4K image generation.\n\nCode & Tech with Yash says that Ideogram 4.6 ranks first on Rapidata's multi-step image editing leaderboard. These claims are attributed to the channel's publisher description and do not represent an independent test.",
+        "deep": "The reported results focus on workflows where several properties must remain stable at once: a character's identity, colour accuracy and product detail. The description does not specify the test images, editing steps or comparison models, so the figures should not be treated as a complete independent evaluation.\n\n4K is mentioned as a native image-generation capability, but the source does not provide exact pixel dimensions, availability, limitations or subscription requirements. It also does not give a release date for Ideogram 4.6; the video's upload date should therefore not be treated as the product's release date.\n\nFor users working with recurring characters, colour-controlled visual concepts or product imagery, these are the main use cases supported by the description. No further features, pricing or practical workflows are specified."
+      },
+      "cat": "foto",
+      "date": "2026-11-24T04:30:25Z",
+      "meta": "Code & Tech with Yash · 2026-11-24",
+      "url": "https://www.youtube.com/watch?v=FRrIfEsdLLQ",
+      "img": "https://i.ytimg.com/vi/FRrIfEsdLLQ/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Code & Tech with Yash"
+      ],
+      "parts": [],
+      "views": 23,
+      "buzz": 37,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "fbb4bd97ec55050d3173347e024656e0e4384298a6b60ff64f5d819718d9f21f",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "Ideogram 4.6"
+      ]
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Turn your company's numbers into a narrated video with Claude Data. I connected Claude Data to a tool that tracks our website, asked how we",
+      "evidenceIds": [
+        1,
+        2
+      ],
+      "id": "QGZVg7-D8NA",
+      "tag": "mdl",
+      "lab": "Teknik",
+      "ico": "⚙️",
+      "ttl": "Claude Data gör företagsdata till berättade videor",
+      "sum": "Skill Leap AI visar hur Claude Data kan kopplas till ett analysverktyg för att jämföra ett företags synlighet i AI-sökning och omvandla resultaten till en 60 sekunder lång berättad video.",
+      "full": "Skill Leap AI lyfter fram en funktion i Claude Data som kan omvandla företagsdata till en berättad video. I kanalens exempel kopplades Claude Data till ett verktyg som följer webbplatsens resultat. Därefter fick Claude analysera hur företaget syns i AI-sökning jämfört med konkurrenter.\n\nEnligt Skill Leap AI blev resultatet en 60 sekunder lång video med visuellt innehåll och berättarröst. Arbetsflödet är därmed inriktat på att göra analysresultat mer lättillgängliga än i ett kalkylblad eller en PowerPoint-presentation.\n\nBeskrivningen anger inte vilket analysverktyg som användes, hur videon skapades tekniskt eller vilka datakällor som låg till grund för jämförelsen. Uppgifterna ska därför förstås som kanalens demonstration av ett arbetsflöde, inte som en oberoende testning av Claude Data.",
+      "deep": "Det centrala AI-arbetsflödet består av tre delar enligt Skill Leap AI: anslutning av Claude Data till ett verktyg för webbplatsmätning, en fråga om synlighet i AI-sökning jämfört med konkurrenter och automatisk omvandling av resultaten till en kort, berättad video. Den angivna längden är 60 sekunder.\n\nKanalens beskrivning framhåller videoformatets visuella uttryck och röst, samt att resultatet kan vara enklare att dela än traditionella rapportformat. Den specificerar däremot inte vilka visuella element, röstfunktioner eller exportmöjligheter som ingår.",
+      "en": {
+        "ttl": "Claude Data turns company data into narrated videos",
+        "sum": "Skill Leap AI shows how Claude Data can be connected to an analytics tool to compare a company’s visibility in AI search and turn the results into a 60-second narrated video.",
+        "full": "Skill Leap AI highlights a Claude Data feature that can turn company data into a narrated video. In the channel’s example, Claude Data was connected to a tool tracking website performance. Claude was then asked to analyze how the company appears in AI search compared with competitors.\n\nAccording to Skill Leap AI, the result was a 60-second video with visual content and narration. The workflow is therefore aimed at making analysis results easier to access than a spreadsheet or PowerPoint presentation.\n\nThe description does not identify the analytics tool, explain how the video was technically generated, or specify which data sources supported the comparison. The information should therefore be understood as the channel’s demonstration of a workflow, not as an independent test of Claude Data.",
+        "deep": "According to Skill Leap AI, the central AI workflow has three parts: connecting Claude Data to a website-tracking tool, asking about visibility in AI search compared with competitors, and automatically turning the results into a short narrated video. The stated length is 60 seconds.\n\nThe channel’s description emphasizes the visual format and voice, as well as the possibility of sharing the result more easily than traditional report formats. It does not specify which visuals, voice features, or export options are included."
+      },
+      "cat": "tech",
+      "date": "2026-11-23T20:36:17Z",
+      "meta": "Skill Leap AI · 2026-11-23",
+      "url": "https://www.youtube.com/watch?v=QGZVg7-D8NA",
+      "img": "https://i.ytimg.com/vi/QGZVg7-D8NA/hqdefault.jpg",
+      "plat": "",
+      "platformIds": [],
+      "chans": [
+        "Skill Leap AI"
+      ],
+      "parts": [],
+      "views": 1554,
+      "buzz": 58,
+      "sourceCheckedAt": "2026-11-25T05:35:04.649Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "fa512f48de4842ac657904b9faa0b56986f5a6c9ffcbf221ab334788b7aed6ae",
+      "trusted": true,
+      "sourceId": "skillleapai",
+      "newPlatforms": [
+        "Claude Data"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "Looking for the best AI 3D modeling tool for game assets? I tested Meshy 7 from @MeshyAI against another AI 3D model generator using the",
@@ -48066,7 +48769,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "uploadsPlaylist": "UUSpFnDQr88xCZ80N-X7t0nQ",
@@ -48086,7 +48789,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "uploadsPlaylist": "UU6P24bhhCmMPOcujA9PKPTA",
@@ -48106,7 +48809,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "uploadsPlaylist": "UUbvIIQc5Jo9-jIXnkPe03oA",
@@ -48126,7 +48829,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "uploadsPlaylist": "UUc0D1yh3TGE8dJSLm9VmEdg",
@@ -48146,7 +48849,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "uploadsPlaylist": "UU3DkFux8Iv-aYnTRWzwaiBA",
@@ -48166,7 +48869,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "uploadsPlaylist": "UU5bp5_6h-ZxkBz6S_33ZUVg",
@@ -48186,7 +48889,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "uploadsPlaylist": "UU_43mQmHwHPTBBqImFrWU3Q",
@@ -48206,7 +48909,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "uploadsPlaylist": "UUOKHwx1VCdgnxwbjyb9Iu1g",
@@ -48226,7 +48929,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "uploadsPlaylist": "UUGSJevmBuDyxjLLOBNaYMGA",
@@ -48246,7 +48949,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "uploadsPlaylist": "UUWWybvw9jnpOdJq_6wTHryA",
@@ -48266,7 +48969,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "uploadsPlaylist": "UUdcemy56JtVTrsFIOoqvV8g",
@@ -48286,7 +48989,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "uploadsPlaylist": "UUpyUGZeMUtOvt57UACw3H2g",
@@ -48306,7 +49009,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "uploadsPlaylist": "UUIcCXe3iWo6lq-iWKV40Oug",
@@ -48326,7 +49029,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "uploadsPlaylist": "UU9Tyxi96fEu0ho4mlxOEdOQ",
@@ -48346,7 +49049,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "uploadsPlaylist": "UUhpleBmo18P08aKCIgti38g",
@@ -48366,7 +49069,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "uploadsPlaylist": "UU5Wz4fFacYuON6IKbhSa7Zw",
@@ -48386,7 +49089,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "uploadsPlaylist": "UUlnFtyUEaxQOCd1s5NKYGFA",
@@ -48406,7 +49109,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "uploadsPlaylist": "UUCKx8mAHiFus-XYQLy_WnaA",
@@ -48426,7 +49129,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "uploadsPlaylist": "UUBJycsmduvYEL83R_U4JriQ",
@@ -48446,7 +49149,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "uploadsPlaylist": "UUXuqSBlHAE6Xw-yeJA0Tunw",
@@ -48466,7 +49169,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "uploadsPlaylist": "UUVYamHliCI9rw1tHR1xbkfw",
@@ -48486,7 +49189,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "uploadsPlaylist": "UUO2x-p9gg9TLKneXlibGR7w",
@@ -48506,7 +49209,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "uploadsPlaylist": "UUIgnGlGkVRhd4qNFcEwLL4A",
@@ -48526,7 +49229,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "uploadsPlaylist": "UUED3hlYdD0SlCff7jJ8tF3Q",
@@ -48546,7 +49249,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "uploadsPlaylist": "UU_RovKmk0OCbuZjA8f08opw",
@@ -48566,7 +49269,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "uploadsPlaylist": "UUqWZ4KJCEanRytZtqKk0I_w",
@@ -48586,7 +49289,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "uploadsPlaylist": "UUwSozl89jl2zUDzQ4jGJD3g",
@@ -48606,7 +49309,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "uploadsPlaylist": "UU9Ryt3XOGYBoAJVsBHNGDzA",
@@ -48626,7 +49329,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "uploadsPlaylist": "UUHhYXsLBEVVnbvsq57n1MTQ",
@@ -48646,7 +49349,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "uploadsPlaylist": "UUNJ1Ymd5yFuUPtn21xtRbbw",
@@ -48666,7 +49369,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "uploadsPlaylist": "UUMrvLMUITAImCHMOhX88PYQ",
@@ -48686,7 +49389,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "uploadsPlaylist": "UUNMK68M-Al4hRUcew07TnUA",
@@ -48706,7 +49409,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "uploadsPlaylist": "UUGKjGGjdl-GzEcFPf1EQwqw",
@@ -48726,7 +49429,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "uploadsPlaylist": "UUzsd4-oyHhNbAXfceOQ5HTw",
@@ -48746,7 +49449,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "uploadsPlaylist": "UUbfYPyITQ-7l4upoX8nvctg",
@@ -48756,66 +49459,66 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
-      "found": 4
+      "checkedAt": "2026-11-25T05:35:04.649Z",
+      "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-24T01:39:53.991Z",
-      "found": 5
+      "checkedAt": "2026-11-25T05:35:04.649Z",
+      "found": 1
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-24T15:56:21.592Z",
+    "calculatedAt": "2026-11-25T05:35:04.649Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 2.59797253169621,
+      "chatgpt-images-2-0": 2.455750838175349,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
       "flux-2": 0,
-      "elevenlabs": 0.14870892817365916,
+      "elevenlabs": 0.14056810476290457,
       "elevenmusic": 0,
-      "heygen": 0.15633244905140006,
-      "kling-3-0": 0.07536630667043852,
+      "heygen": 0.14777428864550948,
+      "kling-3-0": 0.07124050332251625,
       "freepik-ai": 0,
-      "adobe-firefly": 0.28223185270035867,
+      "adobe-firefly": 0.2667815384391959,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.888853772116375,
+      "higgsfield": 5.517997009872922,
       "krea-ai": 0,
-      "spline-ai": 0.2403598564321929,
+      "spline-ai": 0.22720175509772705,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 0.9125150219110967,
+      "meshy-ai": 0.8625609018439806,
       "magnific-ai": 0,
-      "seedance-2-5": 2.8059738284286144,
+      "seedance-2-5": 3.3287846076344754,
       "ideogram-v3": 0,
       "wan-2-7": 0,
-      "wan-3-0": 0.1899191191762161,
+      "wan-3-0": 0.17952231226941,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
       "seedream-4": 0,
@@ -48824,19 +49527,19 @@
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.2512277045241871,
+      "hunyuan3d": 0.2374746608869396,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.06461486592794377,
-      "hitem3d": 0.5470981970036668,
+      "luma-genie": 0.06107763235569514,
+      "hitem3d": 0.5171482144111759,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.056938486811119925,
+      "gemini-omni-flash": 0.053821483870559336,
       "luma-agents": 0
     }
   },
@@ -48862,8 +49565,8 @@
     "skipped": 0
   },
   "newsUpdate": {
-    "status": "failed",
-    "attemptedAt": "2026-11-24T23:54:06.845Z",
-    "message": "News spending safety limit reached; no request sent"
+    "status": "success",
+    "attemptedAt": "2026-11-25T05:35:04.649Z",
+    "completedAt": "2026-11-25T05:36:32.191Z"
   }
 }

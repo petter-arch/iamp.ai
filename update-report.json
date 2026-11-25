@@ -1,58 +1,225 @@
 {
-  "startedAt": "2026-11-24T23:54:06.845Z",
+  "startedAt": "2026-11-25T05:35:04.649Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 3
     },
     "3d": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 2
     },
     "tech": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
+      "checkedAt": "2026-11-25T05:35:04.649Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-24T23:54:06.845Z",
-      "found": 2
+      "checkedAt": "2026-11-25T05:35:04.649Z",
+      "found": 1
     }
   },
-  "apiCalls": 1,
-  "cacheHits": 174,
+  "apiCalls": 21,
+  "cacheHits": 181,
   "rssChannels": 35,
   "selection": {
-    "fetched": 197,
-    "relevant": 0,
-    "supported": 0
+    "fetched": 194,
+    "relevant": 58,
+    "supported": 47
   },
-  "rejected": [],
-  "fatal": "News spending safety limit reached; no request sent",
-  "completedAt": "2026-11-24T23:54:13.178Z",
+  "rejected": [
+    {
+      "video": "GOX594srvU4",
+      "title": "How We Built CorridorKey 2.0 | Live Demo & Q&A (REPLAY)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        4
+      ]
+    },
+    {
+      "video": "Dl3dmbaJNwE",
+      "title": "Can it Eliminate the Flickering?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "r5l8Ud__hCo",
+      "title": "I love this new Blender feature…",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "kXZCGml0th0",
+      "title": "MiniMax H3 Image - Normal + GGUF Guide!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        31
+      ]
+    },
+    {
+      "video": "-5rtUVyxH5w",
+      "title": "Tesla “Hater” Uses Full Self-Driving for a Month",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        6
+      ]
+    },
+    {
+      "video": "HSxBiGi1c6s",
+      "title": "Gemini 4 Neon Just Built GTA 6 (and I’m Obsessed)",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        8,
+        13,
+        15
+      ]
+    },
+    {
+      "video": "-1KPQDIh1Ew",
+      "title": "Google’s Project Genie Turns Text Into Worlds",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "NV-H7jU9WnQ",
+      "title": "Denoise for JPEG is INSANE 🔥 #CameraRaw #Photoshop",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0
+      ]
+    },
+    {
+      "video": "7-c56Irlo9M",
+      "title": "AI Image Generation Just Got Better",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "video": "W6n4FLbrjHw",
+      "title": "Maxon kündigt KI Abo an und Apple Vision Pro Support an!",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "video": "Plvk5lp7z3Q",
+      "title": "Minecraft 3D Model Generator: AI Horse Model in Blockbench",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "GFxHjrYwoFk",
+      "title": "They built cyborg cockroaches with built-in AI...",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4F7mH7WB9_8",
+      "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "SZG_7dSYnoY",
+      "title": "Claude made this 3D animation from one prompt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "JZoqCoUefmI",
+      "title": "AI Movie Generation Bots - LIVE Stream",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hl2QYat81A4",
+      "title": "Claude Design style exploration hack",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "2V0GoU9e3fo",
+      "title": "One scene, 86 animation styles, all made by Claude",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "bNQK2fAJKAI",
+      "title": "50+ New Instagram Trending AI Image Prompts 🔥 | Viral Couple Photo Editing Prompts 2026 ❤️ | Gemini",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "sRgIBAxcr1g",
+      "title": "Why Higgsfield AI's Founder Says Great Storytelling Matters More Than Ever @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is on fire!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hMoMFF3n5FQ",
+      "title": "Why Higgsfield AI's Founder Believes the Next Big Filmmaker Could Be  @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "yhGcrM8Ltzw",
+      "title": "How to make movies faster with these 5 AI tools #ai #filmmaking #tutorial",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "0ZkPSFNyPsk",
+      "title": "Why AI Filmmaking Could Become a Major Opportunity for Digital Creators @HiggsfieldAI  @20VC",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "NGlVlhHCLbw",
+      "title": "Aesthetic Trending Photo Editing💖 || Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #girl",
+      "stage": "insufficient-article-source"
+    }
+  ],
+  "accepted": 12,
+  "completedAt": "2026-11-25T05:36:32.191Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 0,
+    "runRequests": 21,
+    "blockedBy": null,
     "day": {
-      "requests": 34,
-      "reservedMicrousd": 487267
+      "requests": 21,
+      "reservedMicrousd": 246163
     },
     "month": {
-      "requests": 223,
-      "reservedMicrousd": 3182145
+      "requests": 244,
+      "reservedMicrousd": 3428308
     },
     "limits": {
       "dayMicrousd": 500000,
