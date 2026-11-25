@@ -1,37 +1,122 @@
 {
-  "startedAt": "2026-11-25T07:09:17.720Z",
+  "startedAt": "2026-11-25T15:40:16.101Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 1,
+  "attempted": 36,
   "cached": 0,
-  "updated": 1,
+  "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [],
+  "errors": [
+    {
+      "platform": "midjourney-v8-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "freepik-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "stable-diffusion-3-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-ray3",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "suno-v5-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "spline-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "krea-ai",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "pika-2-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "magnific-ai",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "grok-imagine",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "rodin-hyper3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "happy-horse-1-0",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "trellis-2",
+      "message": "Official source HTTP 403"
+    },
+    {
+      "platform": "hunyuan3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "pixverse-v4-5",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "udio",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-genie",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "synthesia",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "hitem3d",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "topaz-labs",
+      "message": "Official source changed; manual verification needed"
+    },
+    {
+      "platform": "luma-agents",
+      "message": "Official source changed; manual verification needed"
+    }
+  ],
   "monitor": {
-    "baseline": 7,
+    "unchanged-unverified": 12,
+    "baseline": 15,
     "fetch-failed": 4,
-    "unchanged-unverified": 10,
-    "changed": 28
+    "changed": 18
   },
   "health": {
-    "partial": 20,
-    "stale": 26,
-    "failed": 3
+    "partial": 19,
+    "failed": 4,
+    "stale": 26
   },
-  "scheduled": 1,
+  "scheduled": 36,
   "skipped": 0,
-  "completedAt": "2026-11-25T07:09:18.383Z",
+  "completedAt": "2026-11-25T15:40:31.368Z",
   "benchmarks": {
     "image": {
       "status": "updated",
       "updated": 8,
-      "checkedAt": "2026-11-25T07:09:18.384Z"
+      "checkedAt": "2026-11-25T15:40:31.370Z"
     },
     "video": {
       "status": "updated",
       "updated": 3,
-      "checkedAt": "2026-11-25T07:09:18.384Z"
+      "checkedAt": "2026-11-25T15:40:31.370Z"
     }
   }
 }

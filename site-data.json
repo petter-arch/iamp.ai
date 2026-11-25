@@ -37736,7 +37736,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -37771,14 +37771,14 @@
         "checkedAt": "2026-11-24T07:51:00.000Z"
       },
       "releaseWatch": {
-        "checkedAt": "2026-11-25T07:09:17.720Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "current",
         "version": "2.6",
         "url": "https://openai.com/research/index/release/"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "baseline",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "unchanged-unverified",
         "sources": [
           {
             "url": "https://openai.com/index/introducing-images-2-6/",
@@ -37814,7 +37814,7 @@
         "model": "ChatGPT Images 2.6",
         "elo": 1264,
         "ci": 14,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -37910,7 +37910,7 @@
         "model": "MAI-Image-2.7",
         "elo": 1216,
         "ci": 14,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -37961,11 +37961,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
-      "lastCheckError": "Fullständig faktagranskning återstår",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
+      "lastCheckError": "Official source HTTP 403",
       "verification": {
-        "status": "partial",
-        "attemptedAt": "2026-11-25T06:10:00.000Z",
+        "status": "failed",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "fields": [
           "n",
@@ -37976,7 +37976,7 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "fetch-failed"
       },
       "catalogueFacts": {
@@ -38081,7 +38081,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -38097,7 +38097,7 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -38179,7 +38179,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -38194,11 +38194,11 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://deepmind.google/models/veo/",
+            "url": "https://deepmind.google/technologies/veo/",
             "hash": "e0e205ea046ab28a70782f81f3728a49a02fc445119636262c33a98072ff0da3"
           }
         ]
@@ -38355,7 +38355,7 @@
         "model": "FLUX 3 Image Klein",
         "elo": 1040,
         "ci": 11,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -38501,7 +38501,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -38516,40 +38516,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://elevenlabs.io/",
-            "hash": "23f722a2ee7b5d21cfb5114a4ee7c34b3c6d834acc6c88a24c27c824909df001"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech",
-            "hash": "14d777e68cce64415253dd4f64bc24d901d815209281727a3cf2bab55f752725"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/changelog/2026/8/10",
-            "hash": "4fc56b8ca8b2757ac139380857856c354c0a43aa0784d97e2880b840ec338d7a"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/overview/capabilities/dubbing",
-            "hash": "2aa3ec9b6022d53b99fc17ec87464ee90d46257cf3eb041ad3aa3ae2f6433c11"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
-            "hash": "1e57f70479a8da3fd7fefcded3fa6f4fa44fdfe7d456f8b74c7f40b8bdfd1400"
-          },
-          {
-            "url": "https://elevenlabs.io/pricing",
-            "hash": "371447b1a77ffb97747a64e324d688a29f7b0427a9e7c9e221fe276006fdf3ee"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning/professional-voice-cloning",
-            "hash": "dcf83bd25e8028b518eaff287e1f350c6418e2336a7ffcc292a4b10df0d279a5"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/eleven-creative/products/dubbing",
-            "hash": "c56b144b3a7f2f16b597abc4f653c7186509e3510ca4b1f6474f788248f43930"
+            "url": "https://elevenlabs.io",
+            "hash": "8d208268d150de6b9646bfc92118f872a3696748038cd07c76d08f20e3791b7c"
           }
         ]
       },
@@ -38659,7 +38631,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -38674,24 +38646,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-music/what-is-elevenmusic",
-            "hash": "4e1b4834dc04bc33dfc6872679726b54f4449e97b54f492028638c1f309e1984"
-          },
-          {
-            "url": "https://elevenlabs.io/blog/soundcloud",
-            "hash": "2242480fc2ca40881d863d68f925186082bd5c168dbb47030840f53243f3db91"
-          },
-          {
-            "url": "https://elevenlabs.io/blog/music-v2-5-model",
-            "hash": "9d4e6c360033a4bc88e0e2d666d85e960db92dbaa491edaf861b2b0c48ac4f3d"
-          },
-          {
-            "url": "https://elevenlabs.io/docs/eleven-creative/products/music",
-            "hash": "dab26b97d580ba1c0fd5fc54c85bf5f3874e3b9eade50a34252a7ae404c455ab"
+            "url": "https://elevenlabs.io/music",
+            "hash": "614ac3c5d7d526caa2f586a0d4657f242c705a488c5ec654e4ea6a2c86f9f240"
           }
         ]
       },
@@ -38831,7 +38791,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -38847,28 +38807,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://www.heygen.com/pricing",
-            "hash": "bcd6966d5002221a389ea9cc37997c168876c0401f052989f7038ccc9b672be5"
-          },
-          {
-            "url": "https://help.heygen.com/en/articles/15125761-heygen-credit-based-pricing-plans-subscriptions-explained",
-            "hash": "066a5c7683fa01b2f75680238895d61079ddbc8fcb35870e92c789eda60c792b"
-          },
-          {
-            "url": "https://www.heygen.com/avatars",
-            "hash": "c2af6a3bd8c72c64202932c0122d3dfd465af25d75b95c68173771e17b82241d"
-          },
-          {
-            "url": "https://help.heygen.com/en/articles/14602974-avatar-v-is-now-available-on-heygen",
-            "hash": "c431c4f2d7c13af8df8558691e5f7dc4d845bd67f2fce14bef58eea3b9cbb37a"
-          },
-          {
-            "url": "https://help.heygen.com/en/articles/16007192-video-agent-faq",
-            "hash": "8d8033391ae6cf8015b312e2fd02bd6aa0dbe7ecd2bf846babc1d24196205505"
+            "url": "https://www.heygen.com",
+            "hash": "b002cd05f6e55b0d24962085d1b3de8ae64612b496ec9f4c2652557746a235f5"
           }
         ]
       },
@@ -39063,11 +39007,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -39077,7 +39021,7 @@
         "factHash": "a57ac21a197ed761a4e82dbfd71c67fc62221dda7e0f5ea57711d2aed3a14566"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "fetch-failed"
       }
     },
@@ -39266,7 +39210,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
@@ -39280,8 +39224,8 @@
         "factHash": "1f83e5918b34c5c18c6f6fe15ca3271707d1fe36bde87bc465aee75a7303c520"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "baseline",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "unchanged-unverified",
         "sources": [
           {
             "url": "https://docs.leonardo.ai/docs/getting-started",
@@ -39399,11 +39343,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -39430,7 +39374,7 @@
         "factHash": "41118d45920aa48e4440e22da3209695affd2969087e941f1ddb70d8698a34cb"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -39513,10 +39457,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -39536,12 +39480,12 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://suno.com/release-notes/introducing-v5-5-voices-custom-models-and-my-taste",
-            "hash": "0097b1b488fa3a4da0f87b9a4cc0deec495d147db841526c20df7caa82a29f74"
+            "hash": "2f6da78a8cc14d50a4b1231b7b2c1692fc48d2346b5db99db3be3460f055f736"
           },
           {
             "url": "https://suno.com/pricing",
@@ -39670,11 +39614,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -39705,7 +39649,7 @@
         "factHash": "82add3d310c78c2bc256286c3dd70f2f239701c66a0cd24d93705f4c6f4a763e"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -39773,7 +39717,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "partial",
         "attemptedAt": "2026-11-25T06:02:00.000Z",
@@ -39795,24 +39739,12 @@
       },
       "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://higgsfield.ai/creator-hub/help-center/tools/which-higgsfield-tool-should-i-use",
-            "hash": "804644dc1bbe5f09150d1293bdac78d1c4205e2e63844a0a6ccc929de7016a62"
-          },
-          {
-            "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
-            "hash": "a6d3e8f26b424387e66348da8dc36540494d21904d88d9562e88a5cf012495f5"
-          },
-          {
-            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
-            "hash": "ea00bd8a1e2a538dad2ce4b37e13df011a570643d3124cf50c03b45b97dcbb7c"
-          },
-          {
-            "url": "https://higgsfield.ai/creator-hub/changelog",
-            "hash": "9b572e33da3ececa68eb8f0a517edfbee9a607a9aa74dd23527ae724147b8b18"
+            "url": "https://higgsfield.ai",
+            "hash": "266f709803a14a6f0a664ca9f986c91e2c902d3210e78c08461711bdb6a3c3b1"
           }
         ]
       },
@@ -39891,11 +39823,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -39922,20 +39854,20 @@
         "factHash": "ca16daa26e448c95ad13fe2e4b7651fce29d2db0593ac9faf2a6a22287f264c7"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://www.krea.ai/",
-            "hash": "a660dad55f518c801a59f2b2fa005b3bfa5b449f92611f5d14c653faae5efcaf"
+            "hash": "1c97a676dc469c494db6d2c47f58964b3eb2693480fc9c55f19089d63eddf991"
           },
           {
             "url": "https://www.krea.ai/pricing",
-            "hash": "8a59c7feb62fe0dda49c2c9e4ce9048e58e575db01aa4742e8a9ff7463dd8a96"
+            "hash": "2f245dc5e863cbf8cb80bb20b81e0f9f85ab8ccddeb566722eb3440e87089a99"
           },
           {
             "url": "https://www.krea.ai/features/nodes",
-            "hash": "6edbb44770bef19e727c73469d03b9923c183c26a2b82bdbe6e8d68e5defa436"
+            "hash": "98f9c7b27c186b21929790f097328dc8032a1c5cede3695a4fa71a1f61e4533d"
           },
           {
             "url": "https://www.krea.ai/blog/introducing-krea-3",
@@ -40040,11 +39972,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -40075,7 +40007,7 @@
         "factHash": "78c0a79a28925d829d7d0e1c3c68cf8282dd78eadf465bd7b0eb18e471daf9c9"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -40159,11 +40091,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -40186,7 +40118,7 @@
         "factHash": "c71bbb6a0216d3cb898cf9b7ce59f67d005319bf1b55618d1123f394928a54ec"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -40195,7 +40127,7 @@
           },
           {
             "url": "https://pika.art/pricing?interval=month",
-            "hash": "e9bfea092e5a25dc61a8291655924dbc73ddc498f3e1f824bdb6d4a8ab99250b"
+            "hash": "d5089f68c88c658f8c4cef5e8dd5448372d123d06215dcacf8b336969fc4c394"
           },
           {
             "url": "https://pika.art/learn/pika-2-5-tutorial",
@@ -40350,7 +40282,7 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -40365,20 +40297,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://www.recraft.ai/docs/recraft-models/recraft-v4-1",
-            "hash": "2756df1db82948e3d61554efb7794ca32f28ba69853323d74171b24c0772f2b5"
-          },
-          {
-            "url": "https://www.recraft.ai/pricing?tab=api",
-            "hash": "b18f7e19b035b2d16e02e246ba1c22cea07c9b5e02186442a2752fdedbf73f34"
-          },
-          {
-            "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai",
-            "hash": "15a0d847ca4fd7851bbd7dd4c7f09fd8f21d019530e6ecb74a3f1e6b1087e733"
+            "url": "https://www.recraft.ai",
+            "hash": "00aa0ddd9f33b58ce99ab7b89be813c3bcfbae01a02fba3acfad196ca6c99372"
           }
         ]
       },
@@ -40418,7 +40342,7 @@
         "model": "Recraft V4.1",
         "elo": 1021,
         "ci": 9,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -40584,10 +40508,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -40598,7 +40522,7 @@
       },
       "lastCheckError": "Official source HTTP 403",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "fetch-failed"
       }
     },
@@ -40645,7 +40569,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -40667,20 +40591,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://seed.bytedance.com/en/seedance2_5",
-            "hash": "3d909bf78139399914df2aeea22b27255b505047d61b2ff3f2739cdf280f8dca"
-          },
-          {
-            "url": "https://seed.bytedance.com/en/models",
-            "hash": "9f19088fb8320d0fd8308b624c9e3993b90626d81209be5c8080b2166f9cabcc"
-          },
-          {
-            "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-            "hash": "209fa2a200cc3e38ca5a8d026ecb62177f366a8f79861ba4b5bbd321f2d012d3"
+            "url": "https://seed.bytedance.com/",
+            "hash": "68fb28813d968faeeb8365591c7df72c601eb0edce087f91c2d5dd3eac2711e3"
           }
         ]
       },
@@ -40720,9 +40636,9 @@
         "board": "video",
         "variant": "Dreamina Seedance 2.5",
         "model": "Seedance 2.5",
-        "elo": 1155,
+        "elo": 1154,
         "ci": 12,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -40846,7 +40762,7 @@
         "model": "Ideogram 4.6",
         "elo": 985,
         "ci": 13,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -41003,7 +40919,7 @@
         "model": "Wan 3.0",
         "elo": 1175,
         "ci": 12,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -41052,7 +40968,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "partial",
         "attemptedAt": "2026-11-25T06:10:00.000Z",
@@ -41067,16 +40983,12 @@
       },
       "lastCheckError": "Fullständig faktagranskning återstår",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://gemini.google/subscriptions/",
-            "hash": "2eb028a78b8d82100a7393bc47b7cd0fe943d761e28d8e7b5223321e8e0e5ccb"
-          },
-          {
             "url": "https://gemini.google/overview/image-generation/",
-            "hash": "d8b8784a8a472f0171b9d6b18f7db5f538763ce4e5ecfaf70ff56c1024ca1f51"
+            "hash": "1d36eaeb38ee79c54fef88faa08b8146a0a7b55eacac83c6bcdc56154dbeae21"
           }
         ]
       },
@@ -41113,7 +41025,7 @@
         "model": "Nano Banana Pro",
         "elo": 1117,
         "ci": 10,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -41159,7 +41071,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -41179,12 +41091,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://gemini.google/overview/image-generation/",
-            "hash": "d8b8784a8a472f0171b9d6b18f7db5f538763ce4e5ecfaf70ff56c1024ca1f51"
+            "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+            "hash": "f38e21dce07874db841d7eb741099b148839aab970a3927ee41b5b385467e018"
           }
         ]
       },
@@ -41250,7 +41162,7 @@
         "model": "Nano Banana 2.1",
         "elo": 1175,
         "ci": 11,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -41346,7 +41258,7 @@
         "model": "Seedream 5.5",
         "elo": 1134,
         "ci": 12,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -41501,11 +41413,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -41528,7 +41440,7 @@
         "factHash": "c281c01a5b9dc916ce11fdb03556778ba07e80e489f427b1f89aa3c7fd917c78"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -41537,11 +41449,11 @@
           },
           {
             "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-            "hash": "9502b433baa431b999a66f806a8d774e915b0f4726d144db9c01350c8696b92e"
+            "hash": "0bb8343116c87b8a143ff059c0faeed700354e860952faa4fdcc07102643f759"
           },
           {
             "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
-            "hash": "7aec8804ef91c7c5863562e94fa23723958356dd32c64f52d58f052767b305d8"
+            "hash": "a31eda3988f0693781b7ac2d436caba131bf8ac827a7924c338125b42a6cbcdd"
           }
         ]
       }
@@ -41631,11 +41543,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -41662,7 +41574,7 @@
         "factHash": "d1a2d8f0ffb3e983ea07f7ffbf91cb4836d2fc6217c8957850944273b8bd12e5"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -41756,11 +41668,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -41787,7 +41699,7 @@
         "factHash": "c0cdb400191d4344ca96105234fde8fd897bbd00452f824f7741cb2bf30c3369"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -41852,7 +41764,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -41872,13 +41784,9 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "unchanged-unverified",
         "sources": [
-          {
-            "url": "https://docs.tripo3d.ai/get-started/changelog.html",
-            "hash": "ddc23022dd1e617056151382979c29ebd1975dae060e8ac150c46b47b31085bf"
-          },
           {
             "url": "https://developers.tripo3d.ai/en/models/v3-1",
             "hash": "8837c03082bf019ca723220219104cbbf8f51cadd24423550d21e40c1f151f18"
@@ -41977,10 +41885,10 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42004,12 +41912,12 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
-            "hash": "3efae224de5d014e9df6ac6de1fd438f434e5cf672edd05e43848c427f5502e0"
+            "hash": "c4f6a51854a05f0b3632492e88299ac17d3c23e45df082f77ccadd9b4b8eb078"
           },
           {
             "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/LICENSE",
@@ -42065,11 +41973,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source HTTP 403",
       "verification": {
         "status": "failed",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42084,7 +41992,7 @@
         "factHash": "efc91b6b587d6f8683568ce686060a4f39b697f51fa32c6d513f0526e38292d0"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "fetch-failed"
       }
     },
@@ -42143,11 +42051,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42190,7 +42098,7 @@
         "factHash": "79dd80ffb148c3a070356d69f823517e5f390c44839cf49c1fa76e01a2f2c954"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -42211,7 +42119,7 @@
           },
           {
             "url": "https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics",
-            "hash": "710479b553d9e6a04cdec2bdd3568ed1b8afc158db850387470561f023ec989e"
+            "hash": "c8495ed7109d0f260fe35367cf401d7f8ca90752a3de0758c67962dd7acb27b2"
           },
           {
             "url": "https://help.udio.com/en/articles/10754328-create-music-with-your-own-audio",
@@ -42273,7 +42181,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Source outside official domain",
       "verification": {
         "status": "failed",
@@ -42287,7 +42195,7 @@
         "factHash": "7a06aff4c1127250d7e254bd0caa2737e1aaf4aea549952c9751ee81b5a8326a"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "unchanged-unverified",
         "sources": [
           {
@@ -42352,11 +42260,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42371,7 +42279,7 @@
         "factHash": "e37b6800e1959770d2fef5b7f6233d0736da5ee9a612e5a07c82c98dbd80d2ca"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -42667,10 +42575,10 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42690,7 +42598,7 @@
       },
       "lastCheckError": "Official source changed; manual verification needed",
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -42746,11 +42654,11 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -42781,7 +42689,7 @@
         "factHash": "81a3ce3d81f5a6f76358fd3f3ffaf120984fc29bd9a6f2fe1728dc6fa06c87c4"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -42794,11 +42702,11 @@
           },
           {
             "url": "https://prenotofficial.hitem3d.ai/learn/tutorials",
-            "hash": "31d7fd9a7a2a910ec7545a60cfc092f7485b3168f77f65e43026d63fc7267903"
+            "hash": "08babcc1e2c72fb743798f44c9b9a2b768d03a01d9c41efe074e4b62a6bc94fe"
           },
           {
             "url": "https://prenotofficial.hitem3d.ai/explore",
-            "hash": "53b5476c1de5a9f2d5882c50483f674b3e4452b7acc63d1e29d6aa7b8a42d91c"
+            "hash": "430efc3ee974f31ef2976d32f9fdf0e86310144bf29b0db8ca228303a007603a"
           },
           {
             "url": "https://www.hitem3d.ai/hi3d-3-0",
@@ -42978,11 +42886,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -43001,7 +42909,7 @@
         "factHash": "4d00c2d71e5de15a8cdf824783f5cca131b6f9617202f7a33a3c8e120d07331f"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
@@ -43010,7 +42918,7 @@
           },
           {
             "url": "https://www.synthesia.io/pricing",
-            "hash": "974411893a8c2a4051b2ad40fb8a61aad285c610ad67c7926a1fa6caabcf8d46"
+            "hash": "e0eef266e39bf66ca96692dcd30d34c8a72953d734825e9b4a3f4c20bb90bc94"
           }
         ]
       }
@@ -43089,11 +42997,11 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -43124,20 +43032,20 @@
         "factHash": "8e6c856e164e5cc8f4c6ae4be272921b6235c4bc7ebcc12f2f9ecf40ae677834"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://www.topazlabs.com/topaz-video",
-            "hash": "199000d70fadb5fcf41c8ffe521e706ced825a655198832622cc3098fab7f3e2"
+            "hash": "23601e2f40b19e54cdb05ae41eb9594d450972bc77297a0f29e6905d40ec4030"
           },
           {
             "url": "https://www.topazlabs.com/tools",
-            "hash": "390b9cb3a4525ee17f780864471c065568b3904f503417ec6836024bc23f4c28"
+            "hash": "d61d8c29326367288c4f02a69131c185e709c801c449771d77769bbfcfb544c2"
           },
           {
             "url": "https://www.topazlabs.com/pricing",
-            "hash": "3c97d659eae00c76c071659affafd66ce3779be2a316b44ebb5b788b9102ea41"
+            "hash": "808c3db0b0dd9da641aa5d667e492406192861e53b529f26110b527b923fce0e"
           },
           {
             "url": "https://docs.topazlabs.com/topaz-video/cloud-rendering",
@@ -43191,7 +43099,7 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T06:10:00.000Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
         "status": "partial",
@@ -43210,12 +43118,12 @@
         "sources": []
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "unchanged-unverified",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://ai.google.dev/gemini-api/docs/omni",
-            "hash": "9795e9c088ed163180e4dd25ef495751ed2de282cd4824642cfcfa18041995b9"
+            "url": "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/",
+            "hash": "0e696273c4ab7d92feee7b781ecf9ff1ad8e2f44f8da5b0aba26866e566a109a"
           }
         ]
       },
@@ -43268,9 +43176,9 @@
         "board": "video",
         "variant": "Gemini Omni Flash 1.2",
         "model": "Gemini Omni 1.2 Flash",
-        "elo": 1153,
+        "elo": 1152,
         "ci": 13,
-        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "checkedAt": "2026-11-25T15:40:31.370Z",
         "provider": "Artificial Analysis"
       }
     },
@@ -43451,11 +43359,11 @@
         }
       },
       "addedAt": "2026-10-06T12:03:43.589Z",
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T15:40:16.101Z",
       "lastCheckError": "Official source changed; manual verification needed",
       "verification": {
         "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "attemptedAt": "2026-11-25T15:40:16.101Z",
         "checkedAt": null,
         "lastSearchedAt": "2026-11-11T22:00:59.332Z",
         "fields": [],
@@ -43486,12 +43394,12 @@
         "factHash": "7013c552ecd2c343c948464d778de7352e7dfbfacda1d71e8c0d16b64f6cc9cf"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
+        "checkedAt": "2026-11-25T15:40:16.101Z",
         "status": "changed",
         "sources": [
           {
             "url": "https://lumalabs.ai/app",
-            "hash": "f4c4b502c67b3c3ce403b817f11cafe8e25f6ee916a432fd6cfc97a465c7d1ee"
+            "hash": "fefb1b6341658dc6ecd30f410b3ad04a2f74ece441b7d872c12244b383b22429"
           },
           {
             "url": "https://docs.agents.lumalabs.ai/guides/model/",
@@ -49436,91 +49344,91 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-25T07:09:17.720Z",
+    "calculatedAt": "2026-11-25T15:40:16.101Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 2.439891819370415,
+      "chatgpt-images-2-0": 2.355650349537145,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
-      "flux-2": 0.10440085914442732,
-      "elevenlabs": 0.13966032854141086,
+      "flux-2": 0.10079623956401816,
+      "elevenlabs": 0.13483831501592525,
       "elevenmusic": 0,
-      "heygen": 0.14681997553438936,
-      "kling-3-0": 0.07078043853731832,
+      "heygen": 0.14175076285794652,
+      "kling-3-0": 0.06833662191787258,
       "freepik-ai": 0,
-      "adobe-firefly": 0.2650586871754822,
+      "adobe-firefly": 0.2559070792138221,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.482362279759111,
+      "higgsfield": 5.293074274061974,
       "krea-ai": 0,
-      "spline-ai": 0.22573450652731175,
+      "spline-ai": 0.21794063367156544,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2247591800318194,
+      "meshy-ai": 1.182472258661554,
       "magnific-ai": 0,
-      "seedance-2-5": 3.3072876149960555,
-      "ideogram-v3": 2.3748261267978794,
+      "seedance-2-5": 3.1930978104986862,
+      "ideogram-v3": 2.2928311621311557,
       "wan-2-7": 0,
-      "wan-3-0": 0.17836297326728995,
+      "wan-3-0": 0.172204684234727,
       "nano-banana-pro": 0,
-      "nano-banana-2": 0.9661731062990576,
-      "seedream-4": 0.5727527029080142,
+      "nano-banana-2": 0.9328143147568118,
+      "seedream-4": 0.5529774287909841,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
-      "tripo-3-1": 0.20363114626898998,
-      "hunyuan3d": 0.2359410708116942,
+      "tripo-3-1": 0.19660043001782448,
+      "hunyuan3d": 0.22779479873462255,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.06068319848030673,
-      "hitem3d": 0.5138085175943039,
+      "luma-genie": 0.05858800647483325,
+      "hitem3d": 0.49606839305625505,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.4583916466219752,
+      "gemini-omni-flash": 0.44256488505650027,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-25T07:09:17.720Z",
+    "startedAt": "2026-11-25T15:40:16.101Z",
     "newsCheckedAt": "2026-11-25T05:35:04.649Z",
     "total": 49,
-    "attempted": 1,
+    "attempted": 36,
     "cached": 0,
     "health": {
-      "partial": 20,
-      "stale": 26,
-      "failed": 3
+      "partial": 19,
+      "failed": 4,
+      "stale": 26
     },
     "monitor": {
-      "baseline": 7,
+      "unchanged-unverified": 12,
+      "baseline": 15,
       "fetch-failed": 4,
-      "unchanged-unverified": 10,
-      "changed": 28
+      "changed": 18
     },
     "candidatesPending": 484,
-    "completedAt": "2026-11-25T07:09:18.383Z",
+    "completedAt": "2026-11-25T15:40:31.368Z",
     "skipped": 0,
     "benchmarks": {
       "image": {
         "status": "updated",
         "updated": 8,
-        "checkedAt": "2026-11-25T07:09:18.384Z"
+        "checkedAt": "2026-11-25T15:40:31.370Z"
       },
       "video": {
         "status": "updated",
         "updated": 3,
-        "checkedAt": "2026-11-25T07:09:18.384Z"
+        "checkedAt": "2026-11-25T15:40:31.370Z"
       }
     }
   },
