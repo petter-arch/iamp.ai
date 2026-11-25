@@ -63,7 +63,8 @@ jobs:
             node profile-refresh.mjs --due
           fi
       - name: Bounded official-source fact audit
-        if: steps.gate.outputs.run == 'true'
+        # Never spend API credits merely because code changed or a job was retried manually.
+        if: steps.gate.outputs.run == 'true' && github.event_name == 'schedule'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node profile-audit.mjs

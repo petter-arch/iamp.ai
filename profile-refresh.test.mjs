@@ -166,3 +166,6 @@ test('bounded catalogue audit uses shared cap, rotates priority, preserves old f
   assert.equal(calls,0);assert.match(exhausted.report.stopped,/safety limit/);assert.deepEqual(exhausted.state.platforms,original.platforms);assert.equal(exhausted.report.deferred,true);
  }finally{await rm(dir,{recursive:true,force:true});}
 });
+
+test('audit context retains evidence appearing beyond the original prefix',async()=>{const {excerptForAudit}=await import('./profile-refresh.mjs');assert.match(excerptForAudit('x'.repeat(30000)+'Exact supported quote near end.',['Exact supported quote near end.']),/Exact supported quote near end/);});
+test('a failed automatic audit does not erase independently recorded editorial review',async()=>{const original=state();original.platforms[0].editorialReview={checkedAt:NOW,sources:[URL],fields:['n','sub']};original.platforms[0].verification={status:'partial',attemptedAt:NOW,fields:['n','sub']};const out=await refreshState(original,{...options,boundedAudit:true,newLimit:0,ask:async()=>({patch:{},evidence:{}})});assert.deepEqual(out.state.platforms[0].verification,original.platforms[0].verification);assert.equal(out.state.platforms[0].auditResult.status,'failed');});
