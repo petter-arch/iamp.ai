@@ -34,6 +34,20 @@ jobs:
             exit 0
           fi
 
+          # A budget-deferred attempt cannot be fixed by another scheduled
+          # run in the same exhausted UTC budget period. Manual runs still
+          # obey the hard cap in the updater.
+          status="$(jq -r '.newsUpdate.status // empty' site-data.json 2>/dev/null || true)"
+          blocked="$(jq -r '.newsUpdate.blockedBy // empty' site-data.json 2>/dev/null || true)"
+          attempted="$(jq -r '.newsUpdate.attemptedAt // empty' site-data.json 2>/dev/null || true)"
+          if [ "$status" = deferred ]; then
+            if { [ "$blocked" = day ] && [ "${attempted:0:10}" = "$(date -u +%F)" ]; } || { [ "$blocked" = month ] && [ "${attempted:0:7}" = "$(date -u +%Y-%m)" ]; }; then
+              echo "run_update=false" >> "$GITHUB_OUTPUT"
+              echo "News budget already deferred in this UTC period; no retry needed."
+              exit 0
+            fi
+          fi
+
           last="$(jq -r '.newsCheckedAt // empty' site-data.json 2>/dev/null || true)"
           if [ -z "$last" ]; then
             echo "run_update=true" >> "$GITHUB_OUTPUT"

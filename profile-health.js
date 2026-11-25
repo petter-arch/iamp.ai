@@ -16,6 +16,7 @@
  function newsFailure(){
   var data=root.siteState||{},u=data.newsUpdate,en=root.LANG==='en',text='';
   if(u&&u.status==='failed')text=en?'Update failed — showing last saved news':'Uppdatering misslyckades — senast sparade nyheter visas';
+  else if(u&&u.status==='deferred')text=en?'News partly checked — remaining review deferred by budget':'Nyheter delvis kontrollerade — återstående granskning väntar på budget';
   else if(Number.isFinite(Date.parse(data.newsCheckedAt)))text=(en?'News last checked: ':'Nyheter senast kontrollerade: ')+new Date(data.newsCheckedAt).toLocaleString(en?'en-GB':'sv-SE',{dateStyle:'short',timeStyle:'short'});
   var legacy=root.document.getElementById('news-stamp');if(legacy&&text)legacy.textContent=text;
   var host=root.document.getElementById('home-news'),notice=root.document.getElementById('news-health');
