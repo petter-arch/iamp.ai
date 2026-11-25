@@ -67,7 +67,7 @@ export function candidatesFor(state,now){
 export function candidateDue(c,now){return !c.nextAttemptAt||Date.parse(c.nextAttemptAt)<=Date.parse(now)||Date.parse(c.lastSeenAt)>Date.parse(c.lastAttemptAt);}
 export function health(p,now){const v=p.verification;if(!v)return p.lastCheckError?'failed':'unknown';if(!recent(v.attemptedAt,now,26*3600000))return 'stale';return v.status==='verified'&&!recent(v.checkedAt,now,26*3600000)?'stale':v.status;}
 async function askModel(){throw Error('Paid Trendar verification is disabled; use free source monitoring.');}
-export async function refreshState(previous,{now=new Date().toISOString(),ask=askModel,readSource=sourceText,concurrency=3,newLimit=8,batchLimit=Infinity,dueOnly=false,forceSources=false,retryFailedSources=false,clock=Date.now,timeBudgetMs=35*60000,onProgress=async()=>{}}={}){
+export async function refreshState(previous,{now=new Date().toISOString(),ask=askModel,readSource=sourceText,concurrency=3,newLimit=8,batchLimit=Infinity,dueOnly=false,forceSources=false,retryFailedSources=false,clock=Date.now,timeBudgetMs=35*60000,onProgress=async()=>{},boundedAudit=false,shouldStop=()=>false}={}){
  const state=structuredClone(previous),report={startedAt:now,mode:'profiles',total:state.platforms.length,attempted:0,cached:0,updated:0,newModels:0,candidatesAttempted:0,errors:[]};
  const started=clock(),sourceCache=new Map();
  const corrected=applyOfficialReleases(state);if(corrected)report.updated++;
@@ -132,17 +132,25 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
    // Force a new web search at least weekly; no blank patch ever means verified.
    if(v?.status==='verified'&&CHECKS.every(f=>(v.fields||[]).includes(f))&&v.factHash===hash(JSON.stringify(facts(p)))&&recent(v.lastSearchedAt,now,7*DAY)&&v.sources?.length){
     let unchanged=true;for(const s of v.sources)if(hash(await source(s.url,hosts))!==s.hash)unchanged=false;
-    if(unchanged){state.platforms[index]={...p,lastAttemptAt:now,verification:{...v,attemptedAt:now,checkedAt:now,method:'unchanged-verified-official-sources'}};delete state.platforms[index].lastCheckError;report.cached++;return;}
+    if(unchanged){state.platforms[index]={...p,lastAttemptAt:now,...(boundedAudit?{auditAttemptAt:now}:{}),verification:{...v,attemptedAt:now,checkedAt:now,method:'unchanged-verified-official-sources'}};delete state.platforms[index].lastCheckError;report.cached++;return;}
    }
-   const result=await ask('Check this EXACT creative AI model/version on official current documentation, pricing and release notes. Search and open pages first. Return {patch:{},evidence:{field:[{url,quote}]}}. patch may change only '+FIELDS.join(',')+'. Do not change name, identity, URL or scores. Evidence must cover ALL supported fields, including unchanged ones: '+CHECKS.join(',')+'. An empty patch is NOT verification. Omit evidence for unsupported fields, never guess. Keep rich Swedish plain-text descriptions and supported pros/cons; do not turn marketing into independent quality claims. Keep price/tier/free internally consistent. Quotes must be verbatim, short, at most 25 distinct quoted words per source URL in total; reuse quotes when appropriate. Prefer accessible official documentation over login-protected apps.\nOriginal profile: '+JSON.stringify(p),{search:true,hosts});
-   const {out,errors}=await verify(p,result);state.platforms[index]=out;
+   const result=await ask('Check this EXACT creative AI model/version on official current documentation, pricing and release notes. Search and open pages first. Return {patch:{},evidence:{field:[{url,quote}]}}. patch may change only '+FIELDS.join(',')+'. Do not change name, identity, URL or scores. Evidence must cover ALL supported fields, including unchanged ones: '+CHECKS.join(',')+'. An empty patch is NOT verification. Omit evidence for unsupported fields, never guess. Keep rich Swedish plain-text descriptions and supported pros/cons; do not turn marketing into independent quality claims. Keep price/tier/free internally consistent. Quotes must be verbatim, short, at most 25 distinct quoted words per source URL in total; reuse quotes when appropriate. Prefer accessible official documentation over login-protected apps.\nOriginal profile: '+JSON.stringify(p),{search:true,hosts,profile:p,readOfficial:url=>source(url,hosts)});
+   const {out,errors}=await verify(p,result);
+   if(boundedAudit){
+    out.auditAttemptAt=now;
+    const lead=result.newVersion;
+    if(lead&&typeof lead.name==='string'&&lead.name.length<=100&&nameKey(lead.name)!==nameKey(p.n)&&typeof lead.quote==='string'&&lead.quote.length<=200&&lead.quote.toLowerCase().includes(lead.name.toLowerCase())&&officialURL(lead.url,hosts)){
+     try{if(quoteInSource(await source(lead.url,hosts),lead.quote))out.auditReleaseWatch={status:'candidate',name:lead.name,url:lead.url,checkedAt:now};}catch{}
+    }
+   }
+   state.platforms[index]=out;
    if(JSON.stringify(facts(out))!==JSON.stringify(facts(p)))report.updated++;
    report.errors.push(...errors.map(e=>({platform:p.id,...e})));
-  }catch(e){state.platforms[index]={...p,lastAttemptAt:now,lastCheckError:e.message,verification:{...p.verification,status:'failed',attemptedAt:now,checkedAt:p.verification?.checkedAt||null}};report.errors.push({platform:p.id,message:e.message});}
+  }catch(e){if(boundedAudit&&shouldStop()){report.deferred=true;return;}state.platforms[index]={...p,lastAttemptAt:now,...(boundedAudit?{auditAttemptAt:now}:{}),lastCheckError:e.message,verification:{...p.verification,status:'failed',attemptedAt:now,checkedAt:p.verification?.checkedAt||null}};report.errors.push({platform:p.id,message:e.message});}
  }
- const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>process.env.FREE_SOURCE_ONLY==='1' ? (forceSources||(retryFailedSources&&p.sourceMonitor?.status==='fetch-failed')||!recent(p.sourceMonitor?.checkedAt,now,DAY)) : (!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY))).sort((a,b)=>(process.env.FREE_SOURCE_ONLY==='1'?(a.p.sourceMonitor?.checkedAt||'').localeCompare(b.p.sourceMonitor?.checkedAt||''):(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||''))).slice(0,batchLimit);
- for(let i=0;i<queue.length;i+=concurrency){if(clock()-started>=timeBudgetMs)break;await Promise.all(queue.slice(i,i+concurrency).map(({p,index})=>check(p,index)));summarize();await onProgress(state,report);}
- report.scheduled=queue.length;report.skipped=queue.length-report.attempted;
+ const queue=state.platforms.map((p,index)=>({p,index})).filter(({p})=>process.env.FREE_SOURCE_ONLY==='1' ? (forceSources||(retryFailedSources&&p.sourceMonitor?.status==='fetch-failed')||!recent(p.sourceMonitor?.checkedAt,now,DAY)) : (boundedAudit?!recent(p.auditAttemptAt,now,DAY):(!dueOnly||!recent(p.verification?.attemptedAt,now,7*DAY)))).sort((a,b)=>boundedAudit?((a.p.auditAttemptAt||'').localeCompare(b.p.auditAttemptAt||'')||((state.trends?.scores?.[b.p.id]||0)-(state.trends?.scores?.[a.p.id]||0))):process.env.FREE_SOURCE_ONLY==='1'?(a.p.sourceMonitor?.checkedAt||'').localeCompare(b.p.sourceMonitor?.checkedAt||''):(a.p.verification?.attemptedAt||'').localeCompare(b.p.verification?.attemptedAt||'')).slice(0,batchLimit);
+ for(let i=0;i<queue.length;i+=concurrency){if(clock()-started>=timeBudgetMs||shouldStop())break;await Promise.all(queue.slice(i,i+concurrency).map(({p,index})=>check(p,index)));summarize();await onProgress(state,report);}
+ report.scheduled=queue.length;report.skipped=queue.length-report.attempted;if(boundedAudit&&shouldStop())report.deferred=true;
  state.candidates=candidatesFor(state,now);
  const due=process.env.FREE_SOURCE_ONLY==='1'?[]:state.candidates.filter(c=>candidateDue(c,now)).slice(0,newLimit);
  for(const candidate of due){if(clock()-started>=timeBudgetMs)break;report.candidatesAttempted++;candidate.lastAttemptAt=now;
