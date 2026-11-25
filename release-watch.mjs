@@ -200,7 +200,7 @@ export function applyOfficialReleases(state){
   for(const c of state.candidates||[]){if(names.has(key(c.name))){c.status='published';delete c.error;delete c.nextAttemptAt;}}
   changed=true;
  }
- return applyEditorialReviews(state)||changed;
+ const editorial=applyEditorialReviews(state);const catalogue=applyCatalogueFacts(state);return catalogue||editorial||changed;
 }
 
 // Source-based editorial corrections; independent benchmark scores remain unverified.
@@ -324,6 +324,488 @@ export function applyEditorialReviews(state){
   Object.assign(p,review.patch);p.editorialReview={checkedAt:EDITORIAL_DATE,fields,sources:review.sources};
   p.verification={status:'partial',attemptedAt:EDITORIAL_DATE,checkedAt:null,lastSearchedAt:EDITORIAL_DATE,fields,requiredFields:12,method:'editorial-official-sources',sources:[]};
   p.fieldChecks={};p.lastAttemptAt=EDITORIAL_DATE;p.lastCheckError='Fullständig oberoende faktagranskning återstår';changed=true;
+ }
+ return changed;
+}
+
+// Specific source-backed fields; do not certify an entire profile from a price page.
+export const CATALOGUE_FACTS=[
+  {
+    "id": "midjourney-v8-2",
+    "name": "Midjourney V8.2",
+    "sources": [
+      "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
+      "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+    ],
+    "patch": {
+      "price": "Abonnemang: 10, 30, 60 eller 120 USD/mån. Årsbetalning ger rabatt.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
+        "all": [
+          "default",
+          "V8.2"
+        ]
+      },
+      {
+        "url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+        "all": [
+          "Monthly Price",
+          "$10",
+          "$30",
+          "$60",
+          "$120"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "runway-gen-4-5",
+    "name": "Runway Gen-4.5",
+    "sources": [
+      "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+      "https://help.runwayml.com/hc/en-us/articles/15124877443219-How-do-credits-work"
+    ],
+    "patch": {
+      "price": "Gen-4.5: 12 krediter/sekund; Standard eller högre krävs.",
+      "sub": "Text- och bildstyrd video i 2–10 sekunder",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+        "all": [
+          "12 credits per second",
+          "Standard and higher",
+          "2 - 10 seconds"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "google-veo-3-1",
+    "name": "Google Veo 3.1",
+    "sources": [
+      "https://deepmind.google/models/veo/",
+      "https://ai.google.dev/gemini-api/docs/pricing"
+    ],
+    "patch": {
+      "price": "API med ljud: Lite 0,05–0,08; Fast 0,10–0,30; Standard 0,40–0,60 USD/sekund beroende på upplösning.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "all": [
+          "Veo 3.1",
+          "$0.40",
+          "$0.60",
+          "$0.05",
+          "$0.08",
+          "$0.30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flux-2",
+    "name": "FLUX 3 Image Klein",
+    "sources": [
+      "https://bfl.ai/models/flux-3-image-klein",
+      "https://bfl.ai/pricing?category=flux+3+image"
+    ],
+    "patch": {
+      "price": "API per bild: 768 px 0,008; 1K 0,009; 1,5K 0,011; 2K 0,014; 4K 0,036 USD. Lokala vikter under licens.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://bfl.ai/pricing?category=flux+3+image",
+        "all": [
+          "FLUX 3 Image Klein",
+          "$0.008",
+          "$0.009",
+          "$0.011",
+          "$0.014",
+          "$0.036"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ideogram-v3",
+    "name": "Ideogram 4.6",
+    "sources": [
+      "https://ideogram.ai/models/4.6/",
+      "https://developer.ideogram.ai/ideogram-api/models"
+    ],
+    "patch": {
+      "price": "API: generering 0,008–0,20 USD/bild; redigering 0,008–0,60 USD/bild, beroende på kvalitet och upplösning.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://ideogram.ai/models/4.6/",
+        "all": [
+          "Ideogram 4.6",
+          "$0.008",
+          "$0.20",
+          "$0.60"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meshy-ai",
+    "name": "Meshy 7.1",
+    "sources": [
+      "https://docs.meshy.ai/en/api/models",
+      "https://docs.meshy.ai/en/api/pricing"
+    ],
+    "patch": {
+      "price": "API: geometri 20 krediter, med textur 30–35; högre geometriupplösning +5 krediter.",
+      "tier": "paid",
+      "free": false,
+      "deep": "Meshy 7.1 är standardvalet för detaljrik geometri. Meshy 7 fasas ut som geometrimodell 31 december 2026 men finns kvar för texturering. Geometri kostar 20 API-krediter; 2K eller 4K geometriupplösning kostar 5 extra. 4K är inte tillgängligt för Multi-Image to 3D. Texturmodell väljs separat. Fysiska mått och topologi måste kontrolleras för varje tillgång."
+    },
+    "markers": [
+      {
+        "url": "https://docs.meshy.ai/en/api/models",
+        "all": [
+          "meshy-7.1",
+          "20",
+          "4k"
+        ]
+      },
+      {
+        "url": "https://docs.meshy.ai/en/api/pricing",
+        "all": [
+          "20 credits",
+          "30 credits",
+          "35 credits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "sources": [
+      "https://elevenlabs.io/pricing"
+    ],
+    "patch": {
+      "price": "Gratisnivå; Starter ordinarie 6 USD/mån, 30 000 krediter. Introduktionserbjudanden varierar.",
+      "tier": "lim",
+      "free": "tier"
+    },
+    "markers": [
+      {
+        "url": "https://elevenlabs.io/pricing",
+        "all": [
+          "$6 per month",
+          "30k credits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elevenmusic",
+    "name": "ElevenMusic",
+    "sources": [
+      "https://elevenlabs.io/music"
+    ],
+    "patch": {
+      "price": "Gratisnivå för begränsad personlig användning. Starter 6, Creator 22, Pro 99 USD/mån (ordinarie).",
+      "tier": "lim",
+      "free": "tier"
+    },
+    "markers": [
+      {
+        "url": "https://elevenlabs.io/music",
+        "all": [
+          "$6 per month",
+          "$22 per month",
+          "$99 per month"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "sources": [
+      "https://www.heygen.com/pricing"
+    ],
+    "patch": {
+      "price": "Gratis: 3 vattenmärkta videor/mån. Creator 29, Pro 49, Business 149 USD/mån.",
+      "tier": "lim",
+      "free": "tier",
+      "sub": "AI-avatarer, videoproduktion och lokalisering med flera modeller"
+    },
+    "markers": [
+      {
+        "url": "https://www.heygen.com/pricing",
+        "all": [
+          "$29",
+          "$49",
+          "$149",
+          "3 videos a month"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "sources": [
+      "https://www.adobe.com/products/firefly/plans.html"
+    ],
+    "patch": {
+      "price": "Gratis begränsad nivå. Standard 9,99; Pro 19,99; Pro Plus 49,99 USD/mån (ordinarie).",
+      "tier": "lim",
+      "free": "tier"
+    },
+    "markers": [
+      {
+        "url": "https://www.adobe.com/products/firefly/plans.html",
+        "all": [
+          "US$9.99",
+          "US$19.99",
+          "US$49.99",
+          "2,000"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "recraft-v4-1",
+    "name": "Recraft V4.1",
+    "sources": [
+      "https://www.recraft.ai/pricing?tab=api",
+      "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature"
+    ],
+    "patch": {
+      "price": "API: V4.1 0,035; Vector 0,08; Pro 0,21; Pro Vector 0,30 USD/bild.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://www.recraft.ai/pricing?tab=api",
+        "all": [
+          "V4.1",
+          "$0.035",
+          "$0.08",
+          "$0.21",
+          "$0.3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nano-banana-pro",
+    "name": "Nano Banana Pro",
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/pricing"
+    ],
+    "patch": {
+      "price": "Gemini API: bildutdata ca 0,134 USD (1K/2K) eller 0,24 USD (4K); indata tillkommer.",
+      "tier": "paid",
+      "free": false
+    },
+    "markers": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "all": [
+          "Nano Banana Pro",
+          "$0.134",
+          "$0.24"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nano-banana-2",
+    "name": "Nano Banana 2",
+    "newName": "Nano Banana 2.1",
+    "aliases": [
+      "Nano Banana 2.1",
+      "Gemini Nano Banana 2.1",
+      "gemini-nano-banana-2.1"
+    ],
+    "sources": [
+      "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+      "https://ai.google.dev/gemini-api/docs/pricing"
+    ],
+    "patch": {
+      "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+      "price": "API: bildutdata 0,0336 USD (1K), 0,0504 USD (2K), 0,113 USD (4K); indata tillkommer.",
+      "tier": "paid",
+      "free": false,
+      "sub": "Multimodal bildgenerering och redigering i 1K–4K",
+      "long": "Nano Banana 2.1 är Googles uppdatering av Nano Banana 2, baserad på Gemini 3.6 Flash. Modellen kan behandla text och bilder och generera både bild och text. Google beskriver förbättringar för redigering i flera omgångar, text i bilder och bibehållen produkt- och karaktärskonsistens.",
+      "deep": "API-modellen gemini-nano-banana-2.1 stöder 1K, 2K och 4K. Bildutdata debiteras med 30 USD per miljon token; indata med 1,50 USD per miljon token. Textutdata och eventuell sökgrundning har separata priser. Tillverkarens tester är inte ett oberoende iamp.ai-betyg.",
+      "tags": [
+        "Bildgen",
+        "Redigering",
+        "4K"
+      ],
+      "caps": [
+        "Text-till-bild",
+        "Bildredigering",
+        "Multimodala indata"
+      ],
+      "pros": [
+        "Bildredigering i flera steg",
+        "Stöd för flera upplösningar"
+      ],
+      "cons": [
+        "API saknar fri nivå",
+        "Oberoende jämförelsebetyg saknas"
+      ]
+    },
+    "markers": [
+      {
+        "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+        "all": [
+          "Nano Banana 2.1",
+          "Gemini 3.6 Flash"
+        ]
+      },
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "all": [
+          "gemini-nano-banana-2.1",
+          "$0.0336",
+          "$0.0504",
+          "$0.113"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gemini-omni-flash",
+    "name": "Gemini Omni Flash",
+    "newName": "Gemini Omni 1.2 Flash",
+    "aliases": [
+      "Gemini Omni 1.2 Flash",
+      "Gemini Omni Flash 1.2",
+      "gemini-omni-1.2-flash"
+    ],
+    "sources": [
+      "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/"
+    ],
+    "patch": {
+      "url": "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/",
+      "price": "Tillgänglig via Gemini API; exakt pris för version 1.2 behöver verifieras separat.",
+      "tier": "unknown",
+      "free": null,
+      "sub": "Multimodal videogenerering och konversationsbaserad redigering",
+      "long": "Gemini Omni 1.2 Flash presenterades i november 2026. Modellen tar emot text, bilder, ljud och video och genererar högupplöst video med ljud. Den bygger på Gemini Omni Flash och kan användas för att skapa video eller redigera video genom dialog.",
+      "deep": "Googles modellkort anger tillgänglighet genom bland annat Gemini, Flow, AI Studio och Gemini API. Pris och upplösningsgränser måste knytas till den exakta API-versionen; priset för den äldre 1.1-versionen ska inte automatiskt återanvändas. Oberoende jämförelsebetyg saknas.",
+      "tags": [
+        "Video",
+        "Ljud",
+        "Redigering"
+      ],
+      "caps": [
+        "Multimodala indata",
+        "Videogenerering",
+        "Videoredigering"
+      ],
+      "pros": [
+        "Flera typer av indata",
+        "Redigering genom dialog"
+      ],
+      "cons": [
+        "Exakt API-pris behöver verifieras"
+      ]
+    },
+    "markers": [
+      {
+        "url": "https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/",
+        "all": [
+          "Gemini Omni 1.2 Flash",
+          "video with audio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tripo-3-1",
+    "name": "Tripo 3.1",
+    "newName": "Tripo H3.1",
+    "aliases": [
+      "Tripo H3.1",
+      "Tripo 3.1",
+      "Tripo v3.1"
+    ],
+    "sources": [
+      "https://developers.tripo3d.ai/en/models/v3-1",
+      "https://www.tripo3d.ai/blog/introducing-hd-model-v3-1"
+    ],
+    "patch": {
+      "url": "https://developers.tripo3d.ai/en/models/v3-1",
+      "price": "API: text till 3D 0,10–0,40 USD; bild/multiview 0,20–0,50 USD beroende på textur. Extra funktioner tillkommer.",
+      "tier": "paid",
+      "free": false,
+      "sub": "Detaljrik 3D-geometri med PBR-texturer",
+      "long": "Tripo H3.1 är en högdetaljerad modell för 3D-tillgångar. Den tar emot text, en bild eller flera vyer och kan skapa mesh med PBR-material. Den dokumenterade modellversionen är v3.1-20260211. Upp till två miljoner polygoner kan användas med inställningen för detaljerad geometri.",
+      "deep": "API:ets grundpris utan textur är 0,10 USD från text och 0,20 USD från bild eller flera vyer. Med 8K-textur blir motsvarande priser 0,40 och 0,50 USD. Detaljerad geometri kostar ytterligare 0,20 USD. Tillverkarens angivna tider varierar med textur och inställning; faktiska mått och topologi behöver kontrolleras.",
+      "tags": [
+        "3D",
+        "PBR",
+        "Geometri"
+      ],
+      "caps": [
+        "Text-till-3D",
+        "Bild-till-3D",
+        "Multi-view",
+        "PBR"
+      ],
+      "pros": [
+        "Hög detaljnivå i geometri",
+        "Flera inmatningssätt"
+      ],
+      "cons": [
+        "Extra kostnad för detalj och textur",
+        "Oberoende jämförelsebetyg saknas"
+      ]
+    },
+    "markers": [
+      {
+        "url": "https://developers.tripo3d.ai/en/models/v3-1",
+        "all": [
+          "Tripo H3.1",
+          "$0.10",
+          "$0.50",
+          "v3.1-20260211"
+        ]
+      }
+    ]
+  }
+];
+const FACT_DATE='2026-11-25T06:10:00.000Z';
+export function applyCatalogueFacts(state){
+ let changed=false;
+ for(const review of CATALOGUE_FACTS){
+  const p=state.platforms.find(x=>x.id===review.id&&(x.n===review.name||x.n===review.newName));if(!p||p.catalogueFacts?.checkedAt>=FACT_DATE||p.verification?.checkedAt>FACT_DATE)continue;
+  const renamed=!!review.newName&&p.n!==review.newName;
+  if(renamed){p.historicalRating={rating:p.rating??null,tech:p.tech??null,speed:p.speed??null,pricev:p.pricev??null,basis:p.ratingBasis||null};Object.assign(p,{n:review.newName,aliases:review.aliases,rating:null,tech:null,speed:null,pricev:null,pct:null,ratingBasis:{type:'unrated',checkedAt:null},bdg:'new'});const names=new Set(review.aliases.map(key));for(const n of state.news||[])if((n.newPlatforms||[]).some(x=>names.has(key(x)))||names.has(key(n.plat)))n.platformIds=[...new Set([...(n.platformIds||[]),p.id])];}
+  Object.assign(p,review.patch);
+  const fields=['n',...Object.keys(review.patch).filter(f=>!['url','pros','cons','tier','free'].includes(f))].filter(f=>!(review.id==='gemini-omni-flash'&&f==='price'));
+  p.catalogueFacts={checkedAt:FACT_DATE,fields,sources:review.sources,markers:review.markers};
+  const previous=(!renamed&&(p.verification?.status==='partial'||p.verification?.status==='verified'))?(p.verification.fields||[]):[];
+  p.verification={status:'partial',attemptedAt:FACT_DATE,checkedAt:null,fields:[...new Set([...previous,...fields])],requiredFields:12,method:'editorial-specific-fields',sources:[]};
+  if(renamed)p.fieldChecks={};
+  p.lastAttemptAt=FACT_DATE;p.lastCheckError='Fullständig faktagranskning återstår';changed=true;
  }
  return changed;
 }

@@ -26,7 +26,11 @@ export function officialHosts(p){
   'reve.art':['reve.art','reve.com'],
   'magnific.ai':['magnific.ai','magnific.com','freepik.com'],
   'freepik.com':['freepik.com','magnific.com'],
-  'ai.google.dev':['ai.google.dev','aistudio.google.com']
+  'ai.google.dev':['ai.google.dev','aistudio.google.com','deepmind.google','gemini.google'],
+  'gemini.google':['ai.google.dev','deepmind.google','gemini.google'],
+  'deepmind.google':['ai.google.dev','deepmind.google','gemini.google'],
+  'firefly.adobe.com':['adobe.com'],
+  'developers.tripo3d.ai':['tripo3d.ai']
  };
  return vendors[host]||[host];
 }
@@ -44,6 +48,17 @@ export function excerptForAudit(text,quotes){
  const lower=text.toLowerCase();const chunks=[];
  for(const quote of quotes){const first=String(quote).split(/\.\.\.|…/)[0].trim().toLowerCase();const i=lower.indexOf(first);if(i>=0)chunks.push(text.slice(Math.max(0,i-600),Math.min(text.length,i+first.length+600)));}
  return [...new Set([text.slice(0,5000),...chunks])].join('\n…\n').slice(0,22000);
+}
+export async function monitorCatalogueFacts(state,readSource,now){
+ const cache=new Map();const queue=state.platforms.filter(p=>p.catalogueFacts?.markers?.length&&(!recent(p.catalogueFacts.monitor?.checkedAt,now,DAY)));
+ async function check(p){
+  let status='unchanged';
+  for(const marker of p.catalogueFacts.markers){
+   try{const hosts=officialHosts(p);if(!officialURL(marker.url,hosts))throw Error('Source domain mismatch');if(!cache.has(marker.url))cache.set(marker.url,Promise.resolve().then(()=>readSource(marker.url,hosts)));const raw=await cache.get(marker.url);const text=String(raw).normalize('NFKC').replace(/\s+/g,' ').toLowerCase();if(!marker.all.every(term=>text.includes(term.normalize('NFKC').replace(/\s+/g,' ').toLowerCase())))status='needs-review';}catch{status='source-unavailable';break;}
+  }
+  p.catalogueFacts.monitor={status,checkedAt:now};
+ }
+ for(let i=0;i<queue.length;i+=3)await Promise.all(queue.slice(i,i+3).map(check));
 }
 export async function sourceText(url,hosts){
  let target=url;
@@ -76,7 +91,7 @@ export async function refreshState(previous,{now=new Date().toISOString(),ask=as
  const state=structuredClone(previous),report={startedAt:now,mode:'profiles',total:state.platforms.length,attempted:0,cached:0,updated:0,newModels:0,candidatesAttempted:0,errors:[]};
  const started=clock(),sourceCache=new Map();
  const corrected=applyOfficialReleases(state);if(corrected)report.updated++;
- if(process.env.FREE_SOURCE_ONLY==='1')await monitorOfficialReleases(state,readSource,now);
+ if(process.env.FREE_SOURCE_ONLY==='1'){await monitorOfficialReleases(state,readSource,now);await monitorCatalogueFacts(state,readSource,now);}
  // Identical URLs are fetched only once per run, including concurrent workers.
  async function source(url,hosts){if(!officialURL(url,hosts))throw Error('Source outside official domain');if(!sourceCache.has(url))sourceCache.set(url,Promise.resolve().then(()=>readSource(url,hosts)));return sourceCache.get(url);}
  function summarize(){report.monitor={};for(const p of state.platforms){const status=p.sourceMonitor?.status||'not-checked';report.monitor[status]=(report.monitor[status]||0)+1;}report.health={};for(const p of state.platforms){const key=health(p,now);report.health[key]=(report.health[key]||0)+1;}state.profileChecks={startedAt:now,newsCheckedAt:state.newsCheckedAt||null,total:state.platforms.length,attempted:report.attempted,cached:report.cached,health:report.health,monitor:report.monitor,candidatesPending:(state.candidates||[]).filter(c=>c.status!=='published').length};state.trends={calculatedAt:now,windowDays:30,halfLifeDays:7,scores:trends(state.news,state.platforms,now)};}
