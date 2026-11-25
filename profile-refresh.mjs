@@ -6,6 +6,7 @@ import {isIP} from 'node:net';
 import {pathToFileURL} from 'node:url';
 import {parseModelJSON,mergeProfile,validateNewProfile,trends} from './data-core.mjs';
 import {applyOfficialReleases,monitorOfficialReleases} from './release-watch.mjs';
+import {refreshBenchmarks} from './benchmarks.mjs';
 
 export const DAY=86400000;
 export const FIELDS=['price','sub','long','deep','tags','caps','pros','cons','tier','free'];
@@ -196,6 +197,7 @@ export async function main(){
  process.env.FREE_SOURCE_ONLY='1';
  const old=JSON.parse(await readFile('site-data.json','utf8'));
  const {state,report}=await refreshState(old,{concurrency:limited(process.env.PROFILE_CONCURRENCY,3,3),newLimit:0,batchLimit:limited(process.env.PROFILE_BATCH_LIMIT,old.platforms.length,old.platforms.length),dueOnly:process.argv.includes('--due'),forceSources:process.argv.includes('--force-sources'),retryFailedSources:process.argv.includes('--retry-failed-sources')});
+ if(state.platforms.some(p=>p.id==='chatgpt-images-2-0')){report.benchmarks=await refreshBenchmarks(state,sourceText,new Date().toISOString());state.profileChecks.benchmarks=report.benchmarks;}
  await atomic('site-data.json',state);await atomic('news.json',state.news);await atomic('model-report.json',report);
  console.log(JSON.stringify(report,null,2));
  if(report.errors.length||report.skipped)console.log('::warning::Some model facts remain unverified; see model-report.json and visible per-model status.');

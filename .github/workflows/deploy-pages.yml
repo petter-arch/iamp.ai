@@ -19,6 +19,7 @@ on:
       - CNAME
       - publish-data.mjs
       - release-watch.mjs
+      - benchmarks.mjs
       - .github/workflows/deploy-pages.yml
   workflow_dispatch: {}
 permissions:

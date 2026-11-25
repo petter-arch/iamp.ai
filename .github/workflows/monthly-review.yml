@@ -8,6 +8,7 @@ on:
     paths:
       - profile-refresh.mjs
       - release-watch.mjs
+      - benchmarks.mjs
       - profile-audit.mjs
       - .github/workflows/monthly-review.yml
   workflow_dispatch: {}
