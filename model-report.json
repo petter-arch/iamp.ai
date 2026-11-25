@@ -1,25 +1,37 @@
 {
-  "startedAt": "2026-11-25T06:07:26.302Z",
+  "startedAt": "2026-11-25T07:09:17.720Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 0,
+  "attempted": 1,
   "cached": 0,
   "updated": 1,
   "newModels": 0,
   "candidatesAttempted": 0,
   "errors": [],
-  "scheduled": 0,
-  "skipped": 0,
-  "completedAt": "2026-11-25T06:07:28.330Z",
   "monitor": {
-    "baseline": 6,
-    "changed": 29,
+    "baseline": 7,
     "fetch-failed": 4,
-    "unchanged-unverified": 10
+    "unchanged-unverified": 10,
+    "changed": 28
   },
   "health": {
-    "partial": 4,
-    "stale": 42,
+    "partial": 20,
+    "stale": 26,
     "failed": 3
+  },
+  "scheduled": 1,
+  "skipped": 0,
+  "completedAt": "2026-11-25T07:09:18.383Z",
+  "benchmarks": {
+    "image": {
+      "status": "updated",
+      "updated": 8,
+      "checkedAt": "2026-11-25T07:09:18.384Z"
+    },
+    "video": {
+      "status": "updated",
+      "updated": 3,
+      "checkedAt": "2026-11-25T07:09:18.384Z"
+    }
   }
 }

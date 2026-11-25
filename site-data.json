@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T06:07:26.302Z",
+  "updatedAt": "2026-11-25T07:09:17.720Z",
   "newsCheckedAt": "2026-11-25T05:35:04.649Z",
   "news": [
     {
@@ -37771,7 +37771,7 @@
         "checkedAt": "2026-11-24T07:51:00.000Z"
       },
       "releaseWatch": {
-        "checkedAt": "2026-11-25T06:07:26.302Z",
+        "checkedAt": "2026-11-25T07:09:17.720Z",
         "status": "current",
         "version": "2.6",
         "url": "https://openai.com/research/index/release/"
@@ -37804,166 +37804,114 @@
           "https://developers.openai.com/api/docs/guides/image-generation",
           "https://developers.openai.com/api/docs/pricing"
         ]
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "GPT Image 2.6 Sunburst (max)",
+        "model": "ChatGPT Images 2.6",
+        "elo": 1264,
+        "ci": 14,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
-      "n": "MAI-Image-2.6",
+      "n": "MAI-Image-2.7",
       "ico": "🪟",
       "bg": "rgba(0,120,215,.14)",
-      "tier": "lim",
+      "tier": "paid",
       "cats": "image",
       "bdg": "new",
-      "pct": 96,
-      "price": "Gratis att testa (Arena/MAI Playground) · betalversion via Microsoft Foundry, pris ej satt",
-      "sub": "Microsofts bildmodell för högkvalitativ generering och kontrollerbar bildredigering från text, bilder, webbsammanhang och visuella referenser.",
-      "long": "MAI-Image-2.6 lanserades 10 augusti 2026 och klev direkt in som nummer två på Arenas oberoende text-till-bild-ledtavla av 77 system, bara slaget av GPT Image 2 och före modeller från Google, Meta och xAI. Den vinner +79 Elo över föregångaren MAI-Image-2.5, med störst hopp i textrendering (+91 Elo). En uppdatering 18 augusti tog den även till tredje plats på bildredigerings-ledtavlan, före Googles Nano Banana-familj och Metas Muse Image.",
+      "pct": null,
+      "price": "API cirka $35/1 000 bilder; Flash cirka $10/1 000",
+      "sub": "Bildgenerering och precis bildredigering",
+      "long": "Microsoft presenterade MAI Image 2.7 och 2.7 Flash den 17 november 2026. Modellerna erbjuder bildgenerering och riktad bildredigering, exempelvis ändringar av objekt, färg eller material utan att ändra övriga delar av bilden. Båda finns i offentlig förhandsversion i Microsoft Foundry.",
       "pros": [
-        "Nummer två globalt på oberoende Arena-ledtavla",
-        "Stort hopp i textrendering (+91 Elo)",
-        "Stark på produkt-, varumärkes- och fotorealistiska bilder"
+        "Riktade bildändringar",
+        "Två kostnadsnivåer"
       ],
       "cons": [
-        "Microsoft Foundry-versionen är fortfarande Preview",
-        "Distribution i Foundry kräver Azure-prenumeration med giltig betalningsmetod",
-        "Utdataformatet är alltid PNG",
-        "Dokumentationen anger engelska som språk"
+        "Offentlig förhandsversion",
+        "API debiteras per användning"
       ],
       "tags": [
         "Bildgen",
-        "Text-i-bild",
-        "Microsoft",
-        "Arena"
+        "Redigering",
+        "API"
       ],
-      "url": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
-      "tech": 94,
-      "speed": 80,
-      "pricev": 70,
-      "rating": 94,
-      "deep": "MAI-Image-2.6 finns som Preview i Microsoft Foundry med Global Standard-distribution och kan användas för både generering och bildredigering. API:t tar text och upp till fem JPEG- eller PNG-bilder vid redigeringsflöden, returnerar en PNG-bild och stöder modellvalt bildformat samt webbförankring. Webbförankring kan hämta aktuell, relevant information från Bing Search som extra kontext. För Foundry-distribution krävs en Azure-prenumeration med giltig betalningsmetod.",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+      "tech": null,
+      "speed": null,
+      "pricev": null,
+      "rating": null,
+      "deep": "Microsoft anger cirka 35 USD per tusen bilder för MAI Image 2.7 och cirka 10 USD per tusen bilder för Flash. Flash är en variant avsedd för snabbare produktion. Priset gäller API-användning, inte abonnemang. Se modellkällan för aktuella villkor.",
       "caps": [
         "Text-till-bild",
-        "Bild-till-bild-redigering",
-        "Upp till fem bildreferenser vid redigering",
-        "Webbförankrad bildgenerering",
-        "Automatiskt valt bildformat",
-        "PNG-utdata",
-        "Upp till 2 359 296 pixlar"
+        "Bildredigering",
+        "Flash-variant"
       ],
-      "free": "tier",
+      "free": false,
       "id": "mai-image-2-6",
       "ratingBasis": {
-        "type": "original-editorial",
+        "type": "unrated",
         "checkedAt": null
       },
-      "fieldChecks": {
-        "sub": {
-          "checkedAt": "2026-10-22T10:15:50.011Z",
-          "sources": [
-            {
-              "url": "https://microsoft.ai/models/mai-image-2-6/",
-              "quote": "Create and edit high-quality, design-ready images from text, images, web context, and visual references"
-            }
-          ]
-        },
-        "deep": {
-          "checkedAt": "2026-10-10T11:12:43.125Z",
-          "sources": [
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-              "quote": "An Azure subscription with a valid payment method."
-            },
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-              "quote": "Enables web-grounded image generation."
-            }
-          ]
-        },
-        "caps": {
-          "checkedAt": "2026-10-10T11:12:43.125Z",
-          "sources": [
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-              "quote": "Input: text and up to five images"
-            },
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-              "quote": "The output format is always PNG."
-            }
-          ]
-        },
-        "cons": {
-          "checkedAt": "2026-10-10T11:12:43.125Z",
-          "sources": [
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-              "quote": "`MAI-Image-2.6` (Preview)"
-            },
-            {
-              "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-              "quote": "Languages: `en`"
-            }
-          ]
-        }
-      },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
-      "lastCheckError": "Official source changed; manual verification needed",
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-11-25T07:09:17.720Z",
+      "lastCheckError": "Fullständig faktagranskning återstår",
       "verification": {
-        "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "status": "partial",
+        "attemptedAt": "2026-11-25T07:08:00.000Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-11T22:00:59.332Z",
-        "fields": [],
-        "requiredFields": 12,
-        "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-            "hash": "87ad0a663a63b88287ac3272d59d74335abe0b3aaa1c0be1ea5624d458adb6c5"
-          },
-          {
-            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-            "hash": "cd26e4bd869d0004d68c07eafa848988714a0efb23ca17b904f7205dff821923"
-          },
-          {
-            "url": "https://microsoft.ai/models/mai-image-2.6/",
-            "hash": "8a295dc71970506420dbdcddebf41031b0c78de9f7fa2a46420e9bc5886b96a0"
-          },
-          {
-            "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
-            "hash": "35f379b3c6bedb5da475d386bd1c74b905d6714fd195579cd309b42d27f1f3c7"
-          },
-          {
-            "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
-            "hash": "cce6374c4afe4726b6831c6d2d48ebab58d1e67b61b273728158da206f8d54e8"
-          }
+        "fields": [
+          "n",
+          "cats",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps",
+          "price",
+          "tier",
+          "free"
         ],
-        "factHash": "7d5fc8102793997f442930de1843b825779bca52541a39e338cabdbb159c13cb"
+        "requiredFields": 12,
+        "method": "editorial-official-release",
+        "sources": []
+      },
+      "aliases": [
+        "MAI-Image-2.7",
+        "MAI Image 2.7"
+      ],
+      "releaseSource": {
+        "url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+        "releasedAt": "2026-11-17",
+        "checkedAt": "2026-11-25T07:08:00.000Z"
       },
       "sourceMonitor": {
-        "checkedAt": "2026-11-24T07:54:54.030Z",
-        "status": "changed",
+        "checkedAt": "2026-11-25T07:09:17.720Z",
+        "status": "baseline",
         "sources": [
           {
-            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
-            "hash": "974c24a9f7dd9ccf8a5bbbb8431198c0bae608f235552a47829f32ae0f352839"
-          },
-          {
-            "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-image",
-            "hash": "d5b87013118e36d7519dad8309ba992ceaefd85674b032a447f578f11470ac1d"
-          },
-          {
-            "url": "https://microsoft.ai/models/mai-image-2.6/",
-            "hash": "06aa333815f5839433423e7d2ff468f374306c76816adc4ffbcccac5054bfc29"
-          },
-          {
-            "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
-            "hash": "42f73c7d196b44d18fd657162c06ed0ed0bf7c5fee276dcb35a14eebd307ef08"
-          },
-          {
-            "url": "https://microsoft.ai/news/pushing-the-quality-cost-frontier-with-mai-image-2-6/",
-            "hash": "ad161d70d952e7b997c294fc91c5af5c4b167f2a13816271a94152da741d2322"
+            "url": "https://microsoft.ai/news/introducing-mai-image-2-7/",
+            "hash": "425af72bcf5c066e8124fba617b1fd17c726a19594fde554323cf07aa319f184"
           }
         ]
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "MAI-Image-2.7",
+        "model": "MAI-Image-2.7",
+        "elo": 1216,
+        "ci": 14,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -38397,6 +38345,18 @@
           "status": "unchanged",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "FLUX 3 Image Klein",
+        "model": "FLUX 3 Image Klein",
+        "elo": 1040,
+        "ci": 11,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -40448,6 +40408,18 @@
           "status": "unchanged",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "Recraft V4.1 Utility Pro",
+        "model": "Recraft V4.1",
+        "elo": 1021,
+        "ci": 9,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -40740,6 +40712,18 @@
           "https://seed.bytedance.com/en/seedance-enterprise/api",
           "https://docs.byteplus.com/en/docs/modelark/model-pricing"
         ]
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-video-leaderboard/leaderboard/text-to-video",
+        "label": "AA-Video-T2V v2.1",
+        "task": "Text-to-video with audio",
+        "board": "video",
+        "variant": "Dreamina Seedance 2.5",
+        "model": "Seedance 2.5",
+        "elo": 1155,
+        "ci": 12,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -40852,6 +40836,18 @@
           "status": "unchanged",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "Ideogram 4.6 (High)",
+        "model": "Ideogram 4.6",
+        "elo": 985,
+        "ci": 13,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -40997,6 +40993,18 @@
             "hash": "fdc5656a72f0644691a480451c8d38ea13d201cc981d62dc696ed604d57be129"
           }
         ]
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-video-leaderboard/leaderboard/text-to-video",
+        "label": "AA-Video-T2V v2.1",
+        "task": "Text-to-video with audio",
+        "board": "video",
+        "variant": "Wan 3.0",
+        "model": "Wan 3.0",
+        "elo": 1175,
+        "ci": 12,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -41095,6 +41103,18 @@
           "status": "source-unavailable",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "Nano Banana Pro (Gemini 3 Pro Image)",
+        "model": "Nano Banana Pro",
+        "elo": 1117,
+        "ci": 10,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -41220,6 +41240,18 @@
           "status": "source-unavailable",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "Nano Banana 2.1",
+        "model": "Nano Banana 2.1",
+        "elo": 1175,
+        "ci": 11,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -41304,6 +41336,18 @@
             "hash": "5bb4217b52fa912bc38a54b8cc84e8b37bab00405a67f8fd3616508cead67786"
           }
         ]
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-image-leaderboard/leaderboard/text-to-image",
+        "label": "AA-Image-T2I v2.1",
+        "task": "Text-to-image",
+        "board": "image",
+        "variant": "Seedream 5.5",
+        "model": "Seedream 5.5",
+        "elo": 1134,
+        "ci": 12,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -43216,6 +43260,18 @@
           "status": "unchanged",
           "checkedAt": "2026-11-25T06:07:26.302Z"
         }
+      },
+      "benchmark": {
+        "url": "https://artificialanalysis.ai/embed/text-to-video-leaderboard/leaderboard/text-to-video",
+        "label": "AA-Video-T2V v2.1",
+        "task": "Text-to-video with audio",
+        "board": "video",
+        "variant": "Gemini Omni Flash 1.2",
+        "model": "Gemini Omni 1.2 Flash",
+        "elo": 1153,
+        "ci": 13,
+        "checkedAt": "2026-11-25T07:09:18.384Z",
+        "provider": "Artificial Analysis"
       }
     },
     {
@@ -45928,19 +45984,6 @@
       "lastSeenAt": "2026-10-29T13:30:15Z",
       "sourceVideos": [
         "https://www.youtube.com/watch?v=SYUKFgH-qXY"
-      ],
-      "lastAttemptAt": "2026-11-02T09:33:01.809Z",
-      "status": "retry",
-      "error": "Insufficient official evidence",
-      "attempts": 3,
-      "nextAttemptAt": "2026-11-06T09:33:01.809Z"
-    },
-    {
-      "name": "MAI Image 2.7",
-      "firstSeen": "2026-10-29T19:39:55.401Z",
-      "lastSeenAt": "2026-10-29T09:00:03Z",
-      "sourceVideos": [
-        "https://www.youtube.com/watch?v=_-jOYEI7Ciw"
       ],
       "lastAttemptAt": "2026-11-02T09:33:01.809Z",
       "status": "retry",
@@ -49393,81 +49436,93 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-25T06:07:26.302Z",
+    "calculatedAt": "2026-11-25T07:09:17.720Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 2.4502921727883566,
+      "chatgpt-images-2-0": 2.439891819370415,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
-      "flux-2": 0.10484588126533392,
-      "elevenlabs": 0.1402556486960853,
+      "flux-2": 0.10440085914442732,
+      "elevenlabs": 0.13966032854141086,
       "elevenmusic": 0,
-      "heygen": 0.14744581460735506,
-      "kling-3-0": 0.07108214928122131,
+      "heygen": 0.14681997553438936,
+      "kling-3-0": 0.07078043853731832,
       "freepik-ai": 0,
-      "adobe-firefly": 0.2661885339995238,
+      "adobe-firefly": 0.2650586871754822,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.505731555733569,
+      "higgsfield": 5.482362279759111,
       "krea-ai": 0,
-      "spline-ai": 0.22669672896187631,
+      "spline-ai": 0.22573450652731175,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2299798739261443,
+      "meshy-ai": 1.2247591800318194,
       "magnific-ai": 0,
-      "seedance-2-5": 3.321385354812904,
-      "ideogram-v3": 2.384949129313308,
+      "seedance-2-5": 3.3072876149960555,
+      "ideogram-v3": 2.3748261267978794,
       "wan-2-7": 0,
-      "wan-3-0": 0.17912326843444754,
+      "wan-3-0": 0.17836297326728995,
       "nano-banana-pro": 0,
-      "nano-banana-2": 0.9702915437185552,
-      "seedream-4": 0.5751941351403916,
+      "nano-banana-2": 0.9661731062990576,
+      "seedream-4": 0.5727527029080142,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
-      "tripo-3-1": 0.2044991502810058,
-      "hunyuan3d": 0.2369468000422969,
+      "tripo-3-1": 0.20363114626898998,
+      "hunyuan3d": 0.2359410708116942,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.06094186843678423,
-      "hitem3d": 0.5159986926380107,
+      "luma-genie": 0.06068319848030673,
+      "hitem3d": 0.5138085175943039,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.46034560010911424,
+      "gemini-omni-flash": 0.4583916466219752,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-25T06:07:26.302Z",
+    "startedAt": "2026-11-25T07:09:17.720Z",
     "newsCheckedAt": "2026-11-25T05:35:04.649Z",
     "total": 49,
-    "attempted": 0,
+    "attempted": 1,
     "cached": 0,
     "health": {
-      "partial": 4,
-      "stale": 42,
+      "partial": 20,
+      "stale": 26,
       "failed": 3
     },
     "monitor": {
-      "baseline": 6,
-      "changed": 29,
+      "baseline": 7,
       "fetch-failed": 4,
-      "unchanged-unverified": 10
+      "unchanged-unverified": 10,
+      "changed": 28
     },
-    "candidatesPending": 485,
-    "completedAt": "2026-11-25T06:07:28.330Z",
-    "skipped": 0
+    "candidatesPending": 484,
+    "completedAt": "2026-11-25T07:09:18.383Z",
+    "skipped": 0,
+    "benchmarks": {
+      "image": {
+        "status": "updated",
+        "updated": 8,
+        "checkedAt": "2026-11-25T07:09:18.384Z"
+      },
+      "video": {
+        "status": "updated",
+        "updated": 3,
+        "checkedAt": "2026-11-25T07:09:18.384Z"
+      }
+    }
   },
   "newsUpdate": {
     "status": "success",
