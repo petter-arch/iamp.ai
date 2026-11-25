@@ -13,8 +13,8 @@ test('news budget rejects expensive models/tools and persists shared caps across
   await assert.rejects(b.reserve({...request,model:'gpt-5.6-terra'}),/policy/);await assert.rejects(b.reserve({...request,tools:[{type:'web_search'}]}),/policy/);
   const results=await Promise.allSettled([b.reserve(request),b.reserve(request),b.reserve(request)]);assert.equal(results.filter(r=>r.status==='fulfilled').length,2);
   const again=await newsBudget({file,now,limits});await again.reserve(request);await assert.rejects(again.reserve(request),/safety limit/);
-  assert.equal(again.summary().day.requests,3);
-  const next=await newsBudget({file,now:'2026-11-15T13:00:00Z',limits:{...limits,monthMicrousd:again.summary().month.reservedMicrousd}});await assert.rejects(next.reserve(request),/safety limit/);
+  assert.equal(again.summary().day.requests,3);assert.equal(again.summary().blockedBy,'day');
+  const next=await newsBudget({file,now:'2026-11-15T13:00:00Z',limits:{...limits,monthMicrousd:again.summary().month.reservedMicrousd}});await assert.rejects(next.reserve(request),/safety limit/);assert.equal(next.summary().blockedBy,'month');
   await writeFile(file,'broken');await assert.rejects(newsBudget({file,now}),/unreadable/);
  }finally{await rm(dir,{recursive:true,force:true});}
 });

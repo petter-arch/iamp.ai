@@ -49,5 +49,14 @@ process.on('exit',()=>writeFileSync('calls.json',JSON.stringify({api,rss,metadat
   const failed=JSON.parse(await readFile(join(dir,'site-data.json'))),report=JSON.parse(await readFile(join(dir,'update-report.json')));
   assert.deepEqual(failed.news,good.news);assert.equal(failed.newsCheckedAt,good.newsCheckedAt);assert.equal(failed.newsUpdate.status,'failed');assert.match(report.fatal,/quota/);assert.equal(report.rssChannels,1);
   assert.equal(JSON.parse(await readFile(join(dir,'calls.json'))).api,1);
+  // Exhaust the local daily reservation. No network call, no false freshness,
+  // no red workflow for a planned spending guard.
+  const day=new Date().toISOString().slice(0,10),month=day.slice(0,7);
+  await writeFile(join(dir,'news-budget.json'),JSON.stringify({version:1,days:{[day]:{requests:34,reservedMicrousd:500000}},months:{[month]:{requests:34,reservedMicrousd:500000}}}));
+  await run(process.execPath,args,opts);
+  const deferred=JSON.parse(await readFile(join(dir,'site-data.json'))),deferredReport=JSON.parse(await readFile(join(dir,'update-report.json')));
+  assert.equal(deferred.newsUpdate.status,'deferred');assert.equal(deferred.newsUpdate.blockedBy,'day');
+  assert.equal(deferred.newsCheckedAt,good.newsCheckedAt);assert.deepEqual(deferred.news,good.news);
+  assert.equal(deferredReport.deferred.unclassified,1);assert.equal(JSON.parse(await readFile(join(dir,'calls.json'))).api,0);
  }finally{await rm(dir,{recursive:true,force:true});}
 });
