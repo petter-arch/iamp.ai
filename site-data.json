@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T05:36:51.991Z",
+  "updatedAt": "2026-11-25T06:02:57.316Z",
   "newsCheckedAt": "2026-11-25T05:35:04.649Z",
   "news": [
     {
@@ -37668,22 +37668,22 @@
       "cats": "image",
       "bdg": "new",
       "pct": null,
-      "price": "Tillgänglig på alla ChatGPT-nivåer; API debiteras separat",
-      "sub": "Bildgenerering, precis redigering och GIF-animation",
-      "long": "Images 2.6 lanserades av OpenAI den 4 november 2026 i ChatGPT, Codex och API:et. Flare prioriterar snabb bildgenerering, medan Sunburst är avsedd för mer detaljrika resultat och bättre konsekvens mellan redigeringar. Versionen stödjer GIF-animation och förbättrad kontroll över bildredigering. Enligt OpenAI är bildgenereringen upp till 50 procent snabbare än tidigare; det är ett leverantörspåstående, inte ett oberoende jämförelsetest.",
+      "price": "API standard: text in 5 USD, bild in 8 USD, bild ut 30 USD per miljon token (Flare/Sunburst).",
+      "sub": "Bildgenerering, precis redigering, GIF och SVG via API",
+      "long": "OpenAI lanserade Images 2.6 den 4 november 2026. Flare är inriktad på snabb iteration, medan Sunburst är avsedd för detaljrik bildgenerering. Båda modellerna stöder bildredigering, bildmarkeringar, GIF och SVG via bild-API:et. Tillverkaren beskriver förbättrad konsekvens vid upprepade redigeringar.",
       "pros": [
-        "Flare för snabbare iteration",
-        "Sunburst för detalj och konsekvens",
-        "Bildmarkeringar i API"
+        "Flare för snabb iteration",
+        "Sunburst för detaljer",
+        "Styrning av komplexitet"
       ],
       "cons": [
-        "Oberoende jämförelsebetyg saknas",
-        "API-kostnad och användningsgränser varierar"
+        "Kostnad beror på tokenförbrukning",
+        "Oberoende jämförelsebetyg saknas"
       ],
       "tags": [
         "Bildgen",
-        "GIF",
         "Redigering",
+        "GIF",
         "API"
       ],
       "url": "https://chatgpt.com",
@@ -37691,12 +37691,13 @@
       "speed": null,
       "pricev": null,
       "rating": null,
-      "deep": "API:et erbjuder Flare och Sunburst, kvalitets- och komplexitetsinställningar, bildmarkeringar samt SVG-export. Tillgången i ChatGPT omfattar alla abonnemangsnivåer; användningsgränser och API-priser kan variera. Något aktuellt oberoende jämförelsebetyg har ännu inte verifierats.",
+      "deep": "För båda modellerna är standardpriset per miljon token 5 USD för textindata, 8 USD för bildindata och 30 USD för bildutdata. Cachade text- och bildindata kostar 1,25 respektive 2 USD. Batchpriser är lägre. Komplexitet och kvalitetsinställningar är separata reglage; faktisk kostnad per bild beror på användningen. ChatGPT-abonnemang och API-fakturering har separata villkor.",
       "caps": [
         "Text-till-bild",
         "Bildredigering",
-        "GIF-animation",
-        "SVG-export i API"
+        "GIF",
+        "SVG",
+        "Komplexitetsstyrning"
       ],
       "free": "tier",
       "id": "chatgpt-images-2-0",
@@ -37705,23 +37706,26 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
+      "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-25T05:40:56.583Z",
+        "status": "partial",
+        "attemptedAt": "2026-11-25T06:02:00.000Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
-        "fields": [],
-        "requiredFields": 12,
-        "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://openai.com/index/introducing-images-2-6/",
-            "hash": "834439a0c5e0f8996083fd35c7c8f8e5e612f96a7d726d4cf26ffdfd1fcb224d"
-          }
+        "lastSearchedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
         ],
-        "factHash": "b7307aafa68099bf2345c8e572d369ed09817293c56016fe8b967273157b0af5"
+        "requiredFields": 12,
+        "method": "editorial-official-sources",
+        "sources": []
       },
       "aliases": [
         "ChatGPT Images 2.6",
@@ -37737,7 +37741,7 @@
         "checkedAt": "2026-11-24T07:51:00.000Z"
       },
       "releaseWatch": {
-        "checkedAt": "2026-11-25T05:40:56.246Z",
+        "checkedAt": "2026-11-25T06:02:57.316Z",
         "status": "current",
         "version": "2.6",
         "url": "https://openai.com/research/index/release/"
@@ -37752,7 +37756,25 @@
           }
         ]
       },
-      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z",
+      "editorialReview": {
+        "checkedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
+        ],
+        "sources": [
+          "https://openai.com/index/introducing-images-2-6/",
+          "https://developers.openai.com/api/docs/guides/image-generation",
+          "https://developers.openai.com/api/docs/pricing"
+        ]
+      }
     },
     {
       "n": "MAI-Image-2.6",
@@ -39584,69 +39606,62 @@
       "tier": "lim",
       "cats": "video",
       "bdg": "new",
-      "pct": 58,
-      "price": "Gratis / betal",
-      "sub": "Filmiska kamerarörelser & VFX-presets",
-      "long": "Higgsfield har blivit populärt för sina filmiska kamerarörelse-presets (dolly, crash zoom, bullet time) och VFX-effekter som ger AI-klipp en proffsig look utan teknisk kunskap. Riktar sig mot creators på sociala medier och annonsörer som vill ha snygga rörelser snabbt.",
+      "pct": null,
+      "price": "Begränsad gratisnivå; kreditbaserade abonnemang. Se aktuell prislista.",
+      "sub": "Filmisk kamerastyrning och flera AI-bild- och videomodeller",
+      "long": "Higgsfield är en plattform för AI-genererade bilder och video. Kameraverktygen erbjuder bland annat åkning, panorering, kranrörelser och snabba zoomar. Plattformen samlar flera underliggande modeller; egenskaper, tillgängliga funktioner och kvalitet varierar mellan dem.",
       "pros": [
-        "Färdiga filmiska kamerarörelser",
-        "Snabbt till snygga resultat",
-        "Bra för kort socialt innehåll"
+        "Många kamerarörelser",
+        "Flera modeller i samma plattform"
       ],
       "cons": [
-        "Mindre flexibelt än Runway",
-        "Presets kan kännas igen"
+        "Kreditåtgång varierar med modell och inställningar",
+        "Oberoende jämförelsebetyg saknas"
       ],
       "tags": [
-        "Videogen",
-        "Kamerarörelser",
-        "VFX",
-        "Social"
+        "Video",
+        "Kamerastyrning",
+        "AI-bilder"
       ],
       "url": "https://higgsfield.ai",
-      "tech": 80,
-      "speed": 82,
-      "pricev": 66,
-      "rating": 76,
-      "deep": "Färdiga kamerarörelse-presets (dolly, crash zoom, bullet time) ger snabbt en proffsig look. Bäst för korta, slagkraftiga sociala klipp snarare än långa scener.",
+      "tech": null,
+      "speed": null,
+      "pricev": null,
+      "rating": null,
+      "deep": "Abonnemangen innehåller krediter. Förbrukningen påverkas av vald modell, klipplängd och upplösning. En begränsad gratisnivå finns, medan kampanjer och abonnemangspriser kan förändras. Kontrollera prislistan inför köp.",
       "caps": [
-        "Bild-till-video",
-        "Kamerarörelse-presets",
-        "VFX"
+        "Filmisk kamerastyrning",
+        "Bildgenerering",
+        "Videogenerering"
       ],
       "free": "tier",
       "id": "higgsfield",
       "ratingBasis": {
-        "type": "original-editorial",
+        "type": "unrated",
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
+      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-25T05:40:56.583Z",
+        "status": "partial",
+        "attemptedAt": "2026-11-25T06:02:00.000Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
-        "fields": [],
-        "requiredFields": 12,
-        "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
-            "hash": "e4f0dd498e5161d985cffc19b6646b187ac692717f38d7c1a43ec3d6e06b22fc"
-          },
-          {
-            "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
-            "hash": "90875a7aa5763c261fafae468b6ba4eb9db7115a4a7e021de7cf94b8d0c1dbb4"
-          },
-          {
-            "url": "https://higgsfield.ai/creator-hub/help-center/tools/which-higgsfield-tool-should-i-use",
-            "hash": "0c05b069bb2fb074a79888b67c271146bc9a30519931e608ba07c3fb4aa42144"
-          }
+        "lastSearchedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
         ],
-        "factHash": "1f3ef8f98105c725982cbabdeb898955e5a61c13a257a4afa1413815cddcb95a"
+        "requiredFields": 12,
+        "method": "editorial-official-sources",
+        "sources": []
       },
-      "lastCheckError": "Not all profile facts could be verified",
+      "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "sourceMonitor": {
         "checkedAt": "2026-11-24T07:54:54.030Z",
         "status": "changed",
@@ -39669,7 +39684,35 @@
           }
         ]
       },
-      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z",
+      "historicalRating": {
+        "rating": 76,
+        "tech": 80,
+        "speed": 82,
+        "pricev": 66,
+        "basis": {
+          "type": "original-editorial",
+          "checkedAt": null
+        }
+      },
+      "editorialReview": {
+        "checkedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
+        ],
+        "sources": [
+          "https://higgsfield.ai/camera-controls",
+          "https://higgsfield.ai/blog/higgsfield-pricing-explained",
+          "https://higgsfield.ai/creator-hub/changelog"
+        ]
+      }
     },
     {
       "n": "Krea AI",
@@ -40373,185 +40416,62 @@
       "tier": "paid",
       "cats": "video",
       "bdg": "hot",
-      "pct": 90,
-      "price": "API öppnar 7 aug 2026 · tidiga uppskattningar ~$0,14/sek",
-      "sub": "Ny generationens video-/audio-modell för 30-sekunders berättande med precis referenskontroll och kraftfull redigering.",
-      "long": "ByteDances Seedance 2.5 (officiellt lanserad 31 juli 2026) är en nästa generations audio-video-modell som genererar upp till 30 sekunder sammanhängande video i en enda pass — ingen manuell ihopklippning behövs. Stödjer dessutom flera rundor av extension, så att man kan producera flerminnuters innehåll med sammanhållet audiovisuellt språk. Tar emot upp till 30 referensbilder, 10 videoklipp och 10 ljudklipp i ett enda pass för stark karaktärs- och scenkonsistens. Erbjuder tidsstämpelbaserad redigering (timestamp-level control) för precisionsredigering av specifika sekunder i klippet, samt avancerade funktioner som green screen, kameraperspektivredigering och clay render-referens för professionella produktionsflöden. Modellen rullas ut på Jimeng AI och Doubao Pro, med API-åtkomst kommande via BytePlus ModelArk.",
+      "pct": null,
+      "price": "Officiellt Seedance API: 7,68–14,04 USD/miljon token, beroende på upplösning och videoindata. Partnerpriser varierar.",
+      "sub": "Video och ljud i upp till 30 sekunder med referensstyrning",
+      "long": "ByteDance lanserade Seedance 2.5 den 31 juli 2026. Modellen skapar synkroniserat ljud och video i klipp på upp till 30 sekunder och stöder upprepad förlängning. Upp till 30 bilder, tio videoklipp och tio ljudklipp kan användas som referenser. Redigering kan styras tidsmässigt i klippet.",
       "pros": [
-        "Native 30 sek i en tagning med stöd för flervidsextension",
-        "Upp till 30 bilder + 10 video + 10 ljud som referens i ett pass",
-        "Tidsstämpelbaserad precision — redigera exakt sekund utan att göra om hela klippet",
-        "Avancerade proffsverktyg: green screen, clay render, kameraperspektiv"
+        "Upp till 30 sekunder per generering",
+        "Flera typer av referensmaterial"
       ],
       "cons": [
-        "API-pris inte officiellt kommunicerat — 'coming soon via BytePlus ModelArk'",
-        "Rullas ut gradvis via Jimeng AI och Doubao Pro",
-        "Officiella sidor nämner inte 4K-stöd för Seedance 2.5",
-        "Komplex rörelse och flerpersonsinteraktion erkänns fortfarande som förbättringsområden"
+        "Kostnad varierar med upplösning och längd",
+        "Oberoende jämförelsebetyg saknas"
       ],
       "tags": [
         "Video",
-        "Lång video",
-        "Referensstyrd",
-        "Audio-video",
-        "Proffsredigering",
-        "Green screen"
+        "Ljud",
+        "Referenser"
       ],
       "url": "https://seed.bytedance.com/",
-      "tech": 93,
-      "speed": 80,
-      "pricev": 76,
-      "rating": 92,
-      "deep": "Störst nytta för längre, sammanhängande scener och komplexa flerpersonsscener där du tidigare fick klippa ihop flera korta genereringar. Multirundsextensionen gör att du kan bygga ut ett klipp i efterhand utan att tappa kontinuitet i karaktärer, miljö och narrativ rytm. Timestamp-styrningen och clay render-referensen ger filmproduktionsnivå av kontroll. API-prissättning är ännu inte officiellt kommunicerad — räkna med osäkerhet kring kostnad innan du planerar ett större projekt.",
+      "tech": null,
+      "speed": null,
+      "pricev": null,
+      "rating": null,
+      "deep": "Den officiella Seedance API-prislistan anger 12,84 USD per miljon token i 480p/720p utan videoindata, och 7,68 USD med videoindata. Motsvarande priser i 1080p är 14,04 respektive 8,40 USD. Kostnaden påverkas av längd, upplösning och bildfrekvens. BytePlus och andra leverantörer har egna priser och tillgänglighet.",
       "caps": [
         "Text-till-video",
-        "Bild-till-video",
-        "Referensbilder (upp till 30)",
-        "Referensvideo (upp till 10 klipp)",
-        "Referensljud (upp till 10 klipp)",
-        "30 sek video",
-        "Flervidsextension",
-        "Tidsstämpelbaserad redigering",
-        "Green screen-redigering",
-        "Clay render-referens",
-        "Kameraperspektivredigering"
+        "Multimodala referenser",
+        "Videoförlängning",
+        "Tidsstyrd redigering"
       ],
-      "free": null,
+      "free": false,
       "id": "seedance-2-5",
       "ratingBasis": {
-        "type": "original-editorial",
+        "type": "unrated",
         "checkedAt": null
       },
-      "fieldChecks": {
-        "sub": {
-          "checkedAt": "2026-10-03T10:26:44.648Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/models?view_from=homepage_tab",
-              "quote": "A new-generation video creation model built for 30-second storytelling with precise reference control and powerful editing capabilities."
-            }
-          ]
-        },
-        "long": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Seedance 2.5 can generate high-quality, 30-second audio-video clips in a single pass and supports multiple rounds of extension."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Today, Seedance 2.5 is rolling out on Jimeng AI, Doubao Pro, and other platforms, with API access coming soon via BytePlus ModelArk."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content"
-            }
-          ]
-        },
-        "deep": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "users can smoothly append subsequent shots to existing video outputs ... maintains the consistency of main characters, environments, and narrative pacing"
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "we recognize there is still room for improvement, particularly regarding the physical plausibility of complex motions and the stability of scenes involving interactions among multiple subjects"
-            }
-          ]
-        },
-        "tags": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "Seedance 2.5 is a next-generation audio-video joint generation model"
-            },
-            {
-              "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "Provides advanced capabilities such as white-model control and green-screen editing"
-            }
-          ]
-        },
-        "caps": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content"
-            },
-            {
-              "url": "https://seed.bytedance.com/en/seedance2_5",
-              "quote": "Provides advanced capabilities such as white-model control and green-screen editing, combined with professional camera movement and performance blocking"
-            }
-          ]
-        },
-        "pros": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Seedance 2.5 can generate high-quality, 30-second audio-video clips in a single pass and supports multiple rounds of extension."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "It allows users to input up to 30 images, 10 video clips, and 10 audio clips as reference materials in a single pass."
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "Seedance 2.5 offers timestamp-level control for targeted editing of audio and video content, notably improving efficiency and controllability."
-            }
-          ]
-        },
-        "cons": {
-          "checkedAt": "2026-09-10T09:48:18.251Z",
-          "sources": [
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "API access coming soon via BytePlus ModelArk"
-            },
-            {
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "quote": "we recognize there is still room for improvement, particularly regarding the physical plausibility of complex motions"
-            }
-          ]
-        }
-      },
-      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
-      "lastCheckError": "Not all profile facts could be verified",
+      "fieldChecks": {},
+      "lastAttemptAt": "2026-11-25T06:02:00.000Z",
+      "lastCheckError": "Fullständig oberoende faktagranskning återstår",
       "verification": {
-        "status": "failed",
-        "attemptedAt": "2026-11-25T05:40:56.583Z",
+        "status": "partial",
+        "attemptedAt": "2026-11-25T06:02:00.000Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
-        "fields": [],
-        "requiredFields": 12,
-        "method": "official-sources-and-independent-audit",
-        "sources": [
-          {
-            "url": "https://seed.bytedance.com/en/seedance2_5",
-            "hash": "3d909bf78139399914df2aeea22b27255b505047d61b2ff3f2739cdf280f8dca"
-          },
-          {
-            "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-            "hash": "209fa2a200cc3e38ca5a8d026ecb62177f366a8f79861ba4b5bbd321f2d012d3"
-          },
-          {
-            "url": "https://seed.bytedance.com/en/models",
-            "hash": "9f19088fb8320d0fd8308b624c9e3993b90626d81209be5c8080b2166f9cabcc"
-          }
+        "lastSearchedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
         ],
-        "factHash": "6ce43399b927f384c2b472b1ae59397b26098bdcdd8001a81d18773a01210f5e"
+        "requiredFields": 12,
+        "method": "editorial-official-sources",
+        "sources": []
       },
       "sourceMonitor": {
         "checkedAt": "2026-11-24T07:54:54.030Z",
@@ -40571,7 +40491,35 @@
           }
         ]
       },
-      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z",
+      "historicalRating": {
+        "rating": 92,
+        "tech": 93,
+        "speed": 80,
+        "pricev": 76,
+        "basis": {
+          "type": "original-editorial",
+          "checkedAt": null
+        }
+      },
+      "editorialReview": {
+        "checkedAt": "2026-11-25T06:02:00.000Z",
+        "fields": [
+          "n",
+          "cats",
+          "price",
+          "sub",
+          "long",
+          "deep",
+          "tags",
+          "caps"
+        ],
+        "sources": [
+          "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+          "https://seed.bytedance.com/en/seedance-enterprise/api",
+          "https://docs.byteplus.com/en/docs/modelark/model-pricing"
+        ]
+      }
     },
     {
       "n": "Ideogram 4.6",
@@ -49169,71 +49117,71 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-25T05:40:56.583Z",
+    "calculatedAt": "2026-11-25T06:02:57.316Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 2.454760527129469,
+      "chatgpt-images-2-0": 2.4510476618339565,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
-      "flux-2": 0.1050370782800828,
-      "elevenlabs": 0.1405114189849009,
+      "flux-2": 0.10487820798769457,
+      "elevenlabs": 0.14029889317417252,
       "elevenmusic": 0,
-      "heygen": 0.14771469688723024,
-      "kling-3-0": 0.07121177473317498,
+      "heygen": 0.14749127600130327,
+      "kling-3-0": 0.07110406576355595,
       "freepik-ai": 0,
-      "adobe-firefly": 0.26667395557686063,
+      "adobe-firefly": 0.2662706068738259,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.515771811247287,
+      "higgsfield": 5.5074291165079785,
       "krea-ai": 0,
-      "spline-ai": 0.22711013325880966,
+      "spline-ai": 0.2267666254816898,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2322228659946715,
+      "meshy-ai": 1.230359108831834,
       "magnific-ai": 0,
-      "seedance-2-5": 3.327442235226392,
-      "ideogram-v3": 2.3892983240394092,
+      "seedance-2-5": 3.322409424627779,
+      "ideogram-v3": 2.3856844713927217,
       "wan-2-7": 0,
-      "wan-3-0": 0.17944991773896396,
+      "wan-3-0": 0.17917849681440037,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
-      "seedream-4": 0.5762430595255241,
+      "seedream-4": 0.5753714825086026,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.23737889637527293,
+      "hunyuan3d": 0.23701985692661867,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.06105300206623838,
-      "hitem3d": 0.516939668177117,
+      "luma-genie": 0.06096065840580658,
+      "hitem3d": 0.5161577885059081,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.05379977971020479,
+      "gemini-omni-flash": 0.05371840666677156,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-25T05:40:56.583Z",
+    "startedAt": "2026-11-25T06:02:57.316Z",
     "newsCheckedAt": "2026-11-25T05:35:04.649Z",
     "total": 49,
-    "attempted": 4,
+    "attempted": 0,
     "cached": 0,
     "health": {
-      "failed": 7,
+      "partial": 7,
       "stale": 38,
-      "partial": 4
+      "failed": 4
     },
     "monitor": {
       "baseline": 6,
@@ -49242,8 +49190,8 @@
       "unchanged-unverified": 10
     },
     "candidatesPending": 488,
-    "completedAt": "2026-11-25T05:41:36.300Z",
-    "skipped": 2
+    "completedAt": "2026-11-25T06:02:57.526Z",
+    "skipped": 0
   },
   "newsUpdate": {
     "status": "success",
