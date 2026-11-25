@@ -1,5 +1,5 @@
 name: Update Trendar models
-# Push to this workflow triggers a free source-monitoring run.
+# Source monitoring is free by default. Paid audits require explicit opt-in after validation.
 on:
   schedule:
     - cron: '20 5 * * *'
@@ -64,7 +64,7 @@ jobs:
           fi
       - name: Bounded official-source fact audit
         # Never spend API credits merely because code changed or a job was retried manually.
-        if: steps.gate.outputs.run == 'true' && github.event_name == 'schedule'
+        if: steps.gate.outputs.run == 'true' && github.event_name == 'schedule' && vars.ENABLE_PAID_PROFILE_AUDIT == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node profile-audit.mjs
