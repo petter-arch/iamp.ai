@@ -8,6 +8,7 @@ on:
     paths:
       - profile-refresh.mjs
       - release-watch.mjs
+      - profile-audit.mjs
       - .github/workflows/monthly-review.yml
   workflow_dispatch: {}
 permissions:
@@ -61,12 +62,19 @@ jobs:
           else
             node profile-refresh.mjs --due
           fi
-      - name: Save verified facts and truthful failure status
+      - name: Bounded official-source fact audit
         if: steps.gate.outputs.run == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node profile-audit.mjs
+      - name: Save verified facts and truthful failure status
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
         run: |
           git config user.name 'iamp.ai updater'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add site-data.json news.json model-report.json
+          if [ -f news-budget.json ]; then git add news-budget.json; fi
+          if [ -f profile-audit-report.json ]; then git add profile-audit-report.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Verify whole Trendar catalogue and refresh status'
             git pull --rebase
@@ -81,4 +89,5 @@ jobs:
           path: |
             _site/
             model-report.json
+            profile-audit-report.json
           retention-days: 7

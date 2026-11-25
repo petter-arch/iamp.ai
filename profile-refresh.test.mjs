@@ -145,3 +145,24 @@ process.on('exit',()=>writeFileSync('calls.json',JSON.stringify({paid,sources}))
   assert.equal(JSON.parse(await readFile(join(dir,'site-data.json'))).platforms[0].verification,undefined);
  }finally{await rm(dir,{recursive:true,force:true});}
 });
+
+test('bounded catalogue audit uses shared cap, rotates priority, preserves old facts on budget stop',async()=>{
+ const {auditCatalogue,officialAuditURLs}=await import('./profile-audit.mjs');
+ const dir=await mkdtemp(join(tmpdir(),'iamp-bounded-audit-'));
+ try{
+  const ledger=join(dir,'ledger.json');
+  const original=state([p('low'),p('high')]);original.trends={scores:{low:1,high:5}};
+  let calls=0;
+  const transport=async({beforeRequest,...request})=>{
+   await beforeRequest(request);calls++;
+   return JSON.stringify(request.input.startsWith('Check this EXACT')?{patch:{sub:'Verifierad ny korttext'},evidence:{n:[{url:'https://example.com',quote:'Fixture 1 is an AI image editing model.'}],sub:[{url:'https://example.com',quote:'Fixture 1 is an AI image editing model.'}]}}:{approvedFields:['n','sub']});
+  };
+  const out=await auditCatalogue(original,{...options,ledgerFile:ledger,apiKey:'mock',transport});
+  assert.equal(calls,4);assert.equal(out.state.platforms[1].sub,'Verifierad ny korttext');assert.equal(out.state.platforms[1].auditAttemptAt,NOW);assert.equal(out.report.runRequests,4);assert(out.report.reservedMicrousd<=150000);
+  const stored=JSON.parse(await readFile(ledger,'utf8'));assert.equal(stored.days[NOW.slice(0,10)].requests,4);
+  assert(!officialAuditURLs({...p(),verification:{sources:[{url:'https://evil.test'}]}}).includes('https://evil.test'));
+  await writeFile(ledger,JSON.stringify({version:1,days:{[NOW.slice(0,10)]:{requests:4,reservedMicrousd:500000}},months:{[NOW.slice(0,7)]:{requests:4,reservedMicrousd:500000}}}));
+  calls=0;const exhausted=await auditCatalogue(original,{...options,ledgerFile:ledger,apiKey:'mock',transport});
+  assert.equal(calls,0);assert.match(exhausted.report.stopped,/safety limit/);assert.deepEqual(exhausted.state.platforms,original.platforms);assert.equal(exhausted.report.deferred,true);
+ }finally{await rm(dir,{recursive:true,force:true});}
+});
