@@ -1,0 +1,231 @@
+{
+  "startedAt": "2026-11-25T05:40:56.583Z",
+  "mode": "bounded-fact-audit",
+  "total": 49,
+  "attempted": 4,
+  "cached": 0,
+  "updated": 0,
+  "newModels": 0,
+  "candidatesAttempted": 0,
+  "errors": [
+    {
+      "platform": "higgsfield",
+      "field": "n",
+      "message": "Quote not present in official source"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "higgsfield",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "price",
+      "message": "Invalid profile field price"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "deep",
+      "message": "Missing evidence"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "free",
+      "message": "Invalid profile field free"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "tags",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "seedance-2-5",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "tags",
+      "message": "Invalid source quotation"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "n",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "cats",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "price",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "sub",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "long",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "deep",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "caps",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "pros",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "cons",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "tier",
+      "message": "Full claim not supported; previous value retained"
+    },
+    {
+      "platform": "chatgpt-images-2-0",
+      "field": "free",
+      "message": "Full claim not supported; previous value retained"
+    }
+  ],
+  "monitor": {
+    "baseline": 6,
+    "changed": 29,
+    "fetch-failed": 4,
+    "unchanged-unverified": 10
+  },
+  "health": {
+    "failed": 7,
+    "stale": 38,
+    "partial": 4
+  },
+  "deferred": true,
+  "scheduled": 6,
+  "skipped": 2,
+  "completedAt": "2026-11-25T05:41:36.300Z",
+  "stopped": "News spending safety limit reached; no request sent",
+  "runRequests": 7,
+  "reservedMicrousd": 138452,
+  "budget": {
+    "model": "gpt-5.6-luna",
+    "runRequests": 7,
+    "blockedBy": "day",
+    "day": {
+      "requests": 28,
+      "reservedMicrousd": 384615
+    },
+    "month": {
+      "requests": 251,
+      "reservedMicrousd": 3566760
+    },
+    "limits": {
+      "dayMicrousd": 396163,
+      "monthMicrousd": 5000000,
+      "runRequests": 12,
+      "dayRequests": 96
+    },
+    "method": "conservative-pre-request-reservation",
+    "ratesCheckedAt": "2026-11-14"
+  }
+}

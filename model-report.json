@@ -1,18 +1,16 @@
 {
-  "startedAt": "2026-11-25T05:36:51.991Z",
+  "startedAt": "2026-11-25T05:40:56.246Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 12,
+  "attempted": 0,
   "cached": 0,
-  "updated": 1,
+  "updated": 0,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [
-    {
-      "platform": "vidu-q3",
-      "message": "Official source changed; manual verification needed"
-    }
-  ],
+  "errors": [],
+  "scheduled": 0,
+  "skipped": 0,
+  "completedAt": "2026-11-25T05:40:56.452Z",
   "monitor": {
     "baseline": 6,
     "changed": 29,
@@ -23,8 +21,5 @@
     "partial": 5,
     "stale": 40,
     "failed": 4
-  },
-  "scheduled": 12,
-  "skipped": 0,
-  "completedAt": "2026-11-25T05:37:11.013Z"
+  }
 }

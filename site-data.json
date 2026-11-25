@@ -37705,26 +37705,23 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
-      "lastCheckError": "Fullständig pris- och jämförelsegranskning återstår",
+      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
+      "lastCheckError": "Not all profile facts could be verified",
       "verification": {
-        "status": "partial",
-        "attemptedAt": "2026-11-24T07:51:00.000Z",
+        "status": "failed",
+        "attemptedAt": "2026-11-25T05:40:56.583Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-24T07:51:00.000Z",
-        "fields": [
-          "n",
-          "cats",
-          "sub",
-          "long",
-          "deep",
-          "tags",
-          "caps",
-          "pros"
-        ],
+        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
+        "fields": [],
         "requiredFields": 12,
-        "method": "editorial-official-release",
-        "sources": []
+        "method": "official-sources-and-independent-audit",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-images-2-6/",
+            "hash": "834439a0c5e0f8996083fd35c7c8f8e5e612f96a7d726d4cf26ffdfd1fcb224d"
+          }
+        ],
+        "factHash": "b7307aafa68099bf2345c8e572d369ed09817293c56016fe8b967273157b0af5"
       },
       "aliases": [
         "ChatGPT Images 2.6",
@@ -37740,7 +37737,7 @@
         "checkedAt": "2026-11-24T07:51:00.000Z"
       },
       "releaseWatch": {
-        "checkedAt": "2026-11-25T05:36:51.991Z",
+        "checkedAt": "2026-11-25T05:40:56.246Z",
         "status": "current",
         "version": "2.6",
         "url": "https://openai.com/research/index/release/"
@@ -37754,7 +37751,8 @@
             "hash": "834439a0c5e0f8996083fd35c7c8f8e5e612f96a7d726d4cf26ffdfd1fcb224d"
           }
         ]
-      }
+      },
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
     },
     {
       "n": "MAI-Image-2.6",
@@ -39623,36 +39621,32 @@
         "checkedAt": null
       },
       "fieldChecks": {},
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
+      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
       "verification": {
-        "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "status": "failed",
+        "attemptedAt": "2026-11-25T05:40:56.583Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-11T22:00:59.332Z",
+        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
-            "url": "https://higgsfield.ai/creator-hub/help-center/tools/which-higgsfield-tool-should-i-use",
-            "hash": "8a6a7db003e059cddb978a51b84fb245f1a32a4a6fbac9156833f53ad11423c7"
+            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
+            "hash": "e4f0dd498e5161d985cffc19b6646b187ac692717f38d7c1a43ec3d6e06b22fc"
           },
           {
             "url": "https://higgsfield.ai/blog/higgsfield-pricing-explained",
-            "hash": "3ed75bab4b85eb743279a72766e81c53c50ffa3b126bab7f86e0cfb7231a885a"
+            "hash": "90875a7aa5763c261fafae468b6ba4eb9db7115a4a7e021de7cf94b8d0c1dbb4"
           },
           {
-            "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
-            "hash": "dc8ad223b2b34f1fdfe6cd5debaeb1c7e9873f4bcc52e4e3d36b2a90ea2dbd75"
-          },
-          {
-            "url": "https://higgsfield.ai/creator-hub/changelog",
-            "hash": "99d8024de219229622b3fa3e50ea87a706adbaa99982b2907d9c92c80be40099"
+            "url": "https://higgsfield.ai/creator-hub/help-center/tools/which-higgsfield-tool-should-i-use",
+            "hash": "0c05b069bb2fb074a79888b67c271146bc9a30519931e608ba07c3fb4aa42144"
           }
         ],
         "factHash": "1f3ef8f98105c725982cbabdeb898955e5a61c13a257a4afa1413815cddcb95a"
       },
-      "lastCheckError": "Official source changed; manual verification needed",
+      "lastCheckError": "Not all profile facts could be verified",
       "sourceMonitor": {
         "checkedAt": "2026-11-24T07:54:54.030Z",
         "status": "changed",
@@ -39674,7 +39668,8 @@
             "hash": "9b572e33da3ececa68eb8f0a517edfbee9a607a9aa74dd23527ae724147b8b18"
           }
         ]
-      }
+      },
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
     },
     {
       "n": "Krea AI",
@@ -40532,28 +40527,28 @@
           ]
         }
       },
-      "lastAttemptAt": "2026-11-24T07:54:54.030Z",
-      "lastCheckError": "Official source changed; manual verification needed",
+      "lastAttemptAt": "2026-11-25T05:40:56.583Z",
+      "lastCheckError": "Not all profile facts could be verified",
       "verification": {
-        "status": "stale",
-        "attemptedAt": "2026-11-24T07:54:54.030Z",
+        "status": "failed",
+        "attemptedAt": "2026-11-25T05:40:56.583Z",
         "checkedAt": null,
-        "lastSearchedAt": "2026-11-11T22:00:59.332Z",
+        "lastSearchedAt": "2026-11-25T05:40:56.583Z",
         "fields": [],
         "requiredFields": 12,
         "method": "official-sources-and-independent-audit",
         "sources": [
           {
             "url": "https://seed.bytedance.com/en/seedance2_5",
-            "hash": "01f823d6e371dc9f5767aaa8c5b8e5d03cc6feb10b5bf9b8f88642854c5a0bc9"
-          },
-          {
-            "url": "https://seed.bytedance.com/en/models",
-            "hash": "d6750be3cd9b6b922176b41c2c2239fdd8dc6d6163c97370eab78a245d6ede67"
+            "hash": "3d909bf78139399914df2aeea22b27255b505047d61b2ff3f2739cdf280f8dca"
           },
           {
             "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-            "hash": "be3464c18331009821ecdc56f67ff2b64b2f4f900e28c021626fffc89d8e6b9d"
+            "hash": "209fa2a200cc3e38ca5a8d026ecb62177f366a8f79861ba4b5bbd321f2d012d3"
+          },
+          {
+            "url": "https://seed.bytedance.com/en/models",
+            "hash": "9f19088fb8320d0fd8308b624c9e3993b90626d81209be5c8080b2166f9cabcc"
           }
         ],
         "factHash": "6ce43399b927f384c2b472b1ae59397b26098bdcdd8001a81d18773a01210f5e"
@@ -40575,7 +40570,8 @@
             "hash": "209fa2a200cc3e38ca5a8d026ecb62177f366a8f79861ba4b5bbd321f2d012d3"
           }
         ]
-      }
+      },
+      "auditAttemptAt": "2026-11-25T05:40:56.583Z"
     },
     {
       "n": "Ideogram 4.6",
@@ -49173,71 +49169,71 @@
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-25T05:36:51.991Z",
+    "calculatedAt": "2026-11-25T05:40:56.583Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 2.4554487449759868,
+      "chatgpt-images-2-0": 2.454760527129469,
       "mai-image-2-6": 0,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
-      "flux-2": 0.10506652652606015,
-      "elevenlabs": 0.14055081283416485,
+      "flux-2": 0.1050370782800828,
+      "elevenlabs": 0.1405114189849009,
       "elevenmusic": 0,
-      "heygen": 0.1477561102509645,
-      "kling-3-0": 0.07123173970071944,
+      "heygen": 0.14771469688723024,
+      "kling-3-0": 0.07121177473317498,
       "freepik-ai": 0,
-      "adobe-firefly": 0.2667487204157934,
+      "adobe-firefly": 0.26667395557686063,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 5.5173182156952425,
+      "higgsfield": 5.515771811247287,
       "krea-ai": 0,
-      "spline-ai": 0.2271738059654164,
+      "spline-ai": 0.22711013325880966,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.2325683325922852,
+      "meshy-ai": 1.2322228659946715,
       "magnific-ai": 0,
-      "seedance-2-5": 3.3283751185379122,
-      "ideogram-v3": 2.3899681888710638,
+      "seedance-2-5": 3.327442235226392,
+      "ideogram-v3": 2.3892983240394092,
       "wan-2-7": 0,
-      "wan-3-0": 0.17950022840453767,
+      "wan-3-0": 0.17944991773896396,
       "nano-banana-pro": 0,
       "nano-banana-2": 0,
-      "seedream-4": 0.5764046153078964,
+      "seedream-4": 0.5762430595255241,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
       "tripo-3-1": 0,
-      "hunyuan3d": 0.23744544803726464,
+      "hunyuan3d": 0.23737889637527293,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.061070118915373374,
-      "hitem3d": 0.5170845976320598,
+      "luma-genie": 0.06105300206623838,
+      "hitem3d": 0.516939668177117,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.05381486304241827,
+      "gemini-omni-flash": 0.05379977971020479,
       "luma-agents": 0
     }
   },
   "profileChecks": {
-    "startedAt": "2026-11-25T05:36:51.991Z",
+    "startedAt": "2026-11-25T05:40:56.583Z",
     "newsCheckedAt": "2026-11-25T05:35:04.649Z",
     "total": 49,
-    "attempted": 12,
+    "attempted": 4,
     "cached": 0,
     "health": {
-      "partial": 5,
-      "stale": 40,
-      "failed": 4
+      "failed": 7,
+      "stale": 38,
+      "partial": 4
     },
     "monitor": {
       "baseline": 6,
@@ -49246,12 +49242,24 @@
       "unchanged-unverified": 10
     },
     "candidatesPending": 488,
-    "completedAt": "2026-11-25T05:37:11.013Z",
-    "skipped": 0
+    "completedAt": "2026-11-25T05:41:36.300Z",
+    "skipped": 2
   },
   "newsUpdate": {
     "status": "success",
     "attemptedAt": "2026-11-25T05:35:04.649Z",
     "completedAt": "2026-11-25T05:36:32.191Z"
+  },
+  "profileAudit": {
+    "completedAt": "2026-11-25T05:41:36.300Z",
+    "attempted": 4,
+    "updated": 0,
+    "stopped": "News spending safety limit reached; no request sent",
+    "runRequests": 7,
+    "health": {
+      "failed": 7,
+      "stale": 38,
+      "partial": 4
+    }
   }
 }
