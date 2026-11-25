@@ -1,25 +1,30 @@
 {
-  "startedAt": "2026-11-24T15:56:21.592Z",
+  "startedAt": "2026-11-25T05:36:51.991Z",
   "mode": "profiles",
   "total": 49,
-  "attempted": 0,
+  "attempted": 12,
   "cached": 0,
-  "updated": 0,
+  "updated": 1,
   "newModels": 0,
   "candidatesAttempted": 0,
-  "errors": [],
-  "scheduled": 0,
-  "skipped": 0,
-  "completedAt": "2026-11-24T15:56:21.766Z",
+  "errors": [
+    {
+      "platform": "vidu-q3",
+      "message": "Official source changed; manual verification needed"
+    }
+  ],
   "monitor": {
-    "baseline": 2,
-    "changed": 31,
-    "fetch-failed": 5,
-    "unchanged-unverified": 11
+    "baseline": 6,
+    "changed": 29,
+    "fetch-failed": 4,
+    "unchanged-unverified": 10
   },
   "health": {
-    "partial": 1,
-    "stale": 43,
-    "failed": 5
-  }
+    "partial": 5,
+    "stale": 40,
+    "failed": 4
+  },
+  "scheduled": 12,
+  "skipped": 0,
+  "completedAt": "2026-11-25T05:37:11.013Z"
 }
