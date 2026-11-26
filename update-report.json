@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-25T23:05:14.449Z",
+  "startedAt": "2026-11-26T10:52:25.531Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
+      "checkedAt": "2026-11-26T10:52:25.531Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
+      "checkedAt": "2026-11-26T10:52:25.531Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
-      "found": 3
+      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
+      "checkedAt": "2026-11-26T10:52:25.531Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
+      "checkedAt": "2026-11-26T10:52:25.531Z",
       "found": 1
     },
     "tech": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
+      "checkedAt": "2026-11-26T10:52:25.531Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-25T23:05:14.449Z",
-      "found": 4
+      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "found": 6
     }
   },
-  "apiCalls": 10,
-  "cacheHits": 159,
+  "apiCalls": 32,
+  "cacheHits": 179,
   "rssChannels": 35,
   "selection": {
-    "fetched": 190,
+    "fetched": 189,
     "relevant": 53,
-    "supported": 42
+    "supported": 40
   },
   "rejected": [
     {
@@ -63,6 +63,14 @@
     {
       "video": "r5l8Ud__hCo",
       "title": "I love this new Blender feature…",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1
+      ]
+    },
+    {
+      "video": "BWpsNrkt6Z4",
+      "title": "I've never seen a drone do this...",
       "stage": "classification-evidence",
       "evidenceIds": [
         1
@@ -105,13 +113,12 @@
       ]
     },
     {
-      "video": "7-c56Irlo9M",
-      "title": "AI Image Generation Just Got Better",
+      "video": "FLHGC-UE6FY",
+      "title": "Cinema 4D Can Turn a Sketch Into a 3D Model",
       "stage": "classification-evidence",
       "evidenceIds": [
-        2,
-        4,
-        8
+        0,
+        1
       ]
     },
     {
@@ -123,42 +130,102 @@
       ]
     },
     {
-      "video": "BWpsNrkt6Z4",
-      "title": "I've never seen a drone do this...",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
-      "video": "FLHGC-UE6FY",
-      "title": "Cinema 4D Can Turn a Sketch Into a 3D Model",
+      "video": "IF9D8WbNmYk",
+      "title": "Motphys releases MotrixSim 1.0 #Shorts",
       "stage": "classification-evidence",
       "evidenceIds": [
         0,
-        1
+        2
       ]
+    },
+    {
+      "video": "jos8mWccVNE",
+      "title": "Einsia Launches RoboUniverse Robot Simulators #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "video": "ghHaqevpATI",
+      "title": "MiniMax-H3-Image: 6-Step Text-to-Image & Editing #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "video": "GFxHjrYwoFk",
+      "title": "They built cyborg cockroaches with built-in AI...",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4F7mH7WB9_8",
+      "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "hl2QYat81A4",
+      "title": "Claude Design style exploration hack",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "JZoqCoUefmI",
+      "title": "AI Movie Generation Bots - LIVE Stream",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "SZG_7dSYnoY",
+      "title": "Claude made this 3D animation from one prompt",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "AGqHowp5oZY",
+      "title": "The Most Realistic Video Generator is Finally Here!!😱🔥",
+      "stage": "article-evidence",
+      "evidenceIds": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "video": "RFhHqVUBkIQ",
+      "title": "Trending ChatGPT Photo Editing Prompts 🔥 | Viral AI Photo Editing | ChatGPT Prompts #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is on fire!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "nrDK5mSA5hw",
+      "title": "Aesthetic Trending Photo Editing💛|| Chatgpt Photo Editing #chatgpt #gemini #photoediting #ai #girl",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "KfvbH_zL7Xc",
+      "title": "ai voice generator free | ai voice kaise generate kare | text to speech | best ai voice generator",
+      "stage": "insufficient-article-source"
     }
   ],
-  "deferredSummaries": 28,
-  "accepted": 3,
-  "deferred": {
-    "reason": "budget",
-    "blockedBy": "day",
-    "unclassified": 0
-  },
-  "completedAt": "2026-11-25T23:05:50.653Z",
+  "accepted": 14,
+  "completedAt": "2026-11-26T10:54:56.776Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 8,
-    "blockedBy": "day",
+    "runRequests": 32,
+    "blockedBy": null,
     "day": {
-      "requests": 36,
-      "reservedMicrousd": 499830
+      "requests": 32,
+      "reservedMicrousd": 394222
     },
     "month": {
-      "requests": 259,
-      "reservedMicrousd": 3681975
+      "requests": 291,
+      "reservedMicrousd": 4076197
     },
     "limits": {
       "dayMicrousd": 500000,
