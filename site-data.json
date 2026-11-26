@@ -1,8 +1,162 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T10:52:25.531Z",
-  "newsCheckedAt": "2026-11-26T10:52:25.531Z",
+  "updatedAt": "2026-11-26T22:58:35.796Z",
+  "newsCheckedAt": "2026-11-26T22:58:35.796Z",
   "news": [
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "I blind-tested 6 AI 3D model generators for my Roblox games, three times, and every test crowned a different winner - including the tool I",
+      "evidenceIds": [
+        1,
+        2,
+        5
+      ],
+      "id": "J27sYFnTxRI",
+      "tag": "mdl",
+      "lab": "3D",
+      "ico": "🧊",
+      "ttl": "AI 3D-modellgeneratorer testas för Roblox – Meshy vinner i slutrundan",
+      "sum": "The AI Studio Diaries beskriver ett blindtest av sex AI 3D-modellgeneratorer för Roblox-spel, där samma konceptbild och Blender-rengöring användes i tre omgångar. Meshy fick högst poäng i den sista omgången, medan resultaten varierade mellan testens olika typer av objekt.",
+      "full": "The AI Studio Diaries har blindtestat sex AI 3D-modellgeneratorer för användning i Roblox-spel: Meshy, Tripo, TRELLIS, Rodin, Hunyuan3D och Roblox Studios egen meshgenerator. Enligt kanalens beskrivning användes samma konceptbild som indata och samma Blender-rengöring efter genereringen. Bedömningen gjordes blint på skalan A till D av kanalens kreativa ledarens Claude-session.\n\nTestet genomfördes i tre omgångar med olika objekt och kriterier. I den första omgången, som fokuserade på science fiction-rekvisita och gav maximalt 25 poäng, fick Meshy 20 poäng. TRELLIS.2 hamnade sist med 13 poäng.\n\nI den andra omgången jämfördes modeller av stenar för en damm. Kanalens logg anger att TRELLIS v1 genererade ett resultat på 26 sekunder för 0,02 dollar och låg närmast konceptbilden. Hunyuan3D anges ha kostat 0,48 dollar i samma omgång.\n\nI den tredje, blinda omgången fick Meshy fullversion 32 av 40 poäng och Meshy billig version 30,5. Tripo web fick 27 poäng, medan TRELLIS.2 fick 21. Tripo via API fick 15 poäng till en angiven kostnad på 1,30 dollar per modell, och TRELLIS v1 fick 14 poäng.\n\nKanalens slutsats är därmed inte att en enda generator vinner varje typ av uppgift. Resultaten skiftade mellan omgångarna, och beskrivningen lyfter även fram att ett verktyg som tidigare hade förbjudits i arbetsflödet senare blev standardvalet. Videon kopplar jämförelsen till praktiskt skapande för Roblox, snarare än till en generell genomgång av AI-verktyg.",
+      "deep": "Beskrivningen anger att testet genomfördes tre gånger och att verktygen jämfördes under samma grundförutsättningar: samma konceptbild som indata och samma Blender-rengöring. Det ger en konkret arbetsflödesram för jämförelsen, men resultaten är fortfarande kanalens egna loggar och bedömningar, inte ett oberoende test.\n\nKostnads- och tidsuppgifterna varierade kraftigt mellan verktygen och omgångarna. För dammstenarna anges TRELLIS v1 till 26 sekunder och 0,02 dollar, medan Hunyuan3D anges till 0,48 dollar. I den sista omgången anges Tripo via API till 1,30 dollar per modell. Beskrivningen specificerar inte hur priserna beräknades eller om de omfattar ytterligare arbetssteg.\n\nResultaten visar också skillnader mellan versioner och åtkomstsätt. Kanalens logg skiljer mellan TRELLIS v1 och TRELLIS.2, samt mellan Tripo web och Tripo via API. Meshy redovisas både som fullversion och billig version. Enligt poängtabellen presterade den billigare Meshy-varianten nästan lika bra som fullversionen i den tredje omgången, men beskrivningen ger ingen fullständig förklaring till varför resultaten skilde sig mellan objekttyperna.",
+      "en": {
+        "ttl": "AI 3D model generators tested for Roblox – Meshy wins the final round",
+        "sum": "The AI Studio Diaries describes a blind test of six AI 3D model generators for Roblox games, using the same concept image and Blender cleanup in three rounds. Meshy scored highest in the final round, while the results varied across different object types.",
+        "full": "The AI Studio Diaries blind-tested six AI 3D model generators for use in Roblox games: Meshy, Tripo, TRELLIS, Rodin, Hunyuan3D and Roblox Studio’s own mesh generator. According to the channel’s description, the same concept image was used as input and the same Blender cleanup was applied afterward. The results were scored blindly from A to D by the channel’s creative director Claude session.\n\nThe test had three rounds with different objects and criteria. In the first round, focused on science-fiction props and scored out of 25, Meshy received 20 points. TRELLIS.2 came last with 13 points.\n\nThe second round compared pond-stone models. The channel’s log says TRELLIS v1 produced a result in 26 seconds for $0.02 and came closest to the concept art. Hunyuan3D is listed at $0.48 for the same round.\n\nIn the third blind round, Meshy full scored 32 out of 40 and the cheaper Meshy version scored 30.5. Tripo web scored 27, while TRELLIS.2 scored 21. Tripo through its API scored 15 at a listed cost of $1.30 per model, and TRELLIS v1 scored 14.\n\nThe channel’s conclusion is therefore not that one generator wins every type of task. The results changed between rounds, and the description also highlights that a tool previously banned from the workflow later became the default choice. The video frames the comparison around practical Roblox creation rather than a general overview of AI tools.",
+        "deep": "The description says the test was run three times and that the tools were compared under the same basic conditions: the same concept image as input and the same Blender cleanup. This provides a concrete workflow framework, but the results remain the channel’s own logs and judgments, not an independent test.\n\nThe listed cost and timing varied substantially between tools and rounds. For the pond stones, TRELLIS v1 is listed at 26 seconds and $0.02, while Hunyuan3D is listed at $0.48. In the final round, Tripo through its API is listed at $1.30 per model. The description does not explain how the prices were calculated or whether they include additional workflow steps.\n\nThe results also distinguish between versions and access methods. The log separates TRELLIS v1 from TRELLIS.2, and Tripo web from Tripo through its API. Meshy is reported in both full and cheaper versions. According to the score table, the cheaper Meshy option performed nearly as well as the full version in the third round, but the description does not fully explain why performance differed between object types."
+      },
+      "cat": "3d",
+      "date": "2026-11-26T16:04:34Z",
+      "meta": "The AI Studio Diaries · 2026-11-26",
+      "url": "https://www.youtube.com/watch?v=J27sYFnTxRI",
+      "img": "https://i.ytimg.com/vi/J27sYFnTxRI/hqdefault.jpg",
+      "plat": "Hunyuan3D",
+      "platformIds": [
+        "hunyuan3d"
+      ],
+      "chans": [
+        "The AI Studio Diaries"
+      ],
+      "parts": [
+        {
+          "t": 0,
+          "l": "The tool I banned came back"
+        },
+        {
+          "t": 21,
+          "l": "Why this test matters"
+        },
+        {
+          "t": 39,
+          "l": "The blind rules"
+        },
+        {
+          "t": 58,
+          "l": "Round 1: sci-fi props"
+        },
+        {
+          "t": 91,
+          "l": "Models facing the wrong way"
+        },
+        {
+          "t": 110,
+          "l": "Round 2: one rock, three ways"
+        },
+        {
+          "t": 139,
+          "l": "Two cents"
+        },
+        {
+          "t": 145,
+          "l": "Roblox Studio's mesh generator"
+        },
+        {
+          "t": 172,
+          "l": "The banned tool becomes the default"
+        },
+        {
+          "t": 188,
+          "l": "Round 3: six options"
+        },
+        {
+          "t": 206,
+          "l": "The scores"
+        },
+        {
+          "t": 221,
+          "l": "The ragged guard dog"
+        },
+        {
+          "t": 236,
+          "l": "My route now"
+        },
+        {
+          "t": 258,
+          "l": "Four lessons"
+        },
+        {
+          "t": 285,
+          "l": "The real mistake"
+        }
+      ],
+      "views": 1,
+      "buzz": 24,
+      "sourceCheckedAt": "2026-11-26T22:58:35.796Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "5afad6c36db1e646cfda928b9ec1410b98b2fefc5b33353dab9007c1c2cf7340",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": []
+    },
+    {
+      "editorialStatus": "approved",
+      "aiEvidence": "Introducing **IRAIYON** – an AI-generated cinematic glimpse featuring Vijay, Suriya and Rajinikanth in lead roles. Created entirely using cutting-edge AI filmmaking technologies, bringing cinematic imagination",
+      "evidenceIds": [
+        2,
+        3,
+        5
+      ],
+      "id": "-B71K_iheqA",
+      "tag": "vid",
+      "lab": "Film",
+      "ico": "🎬",
+      "ttl": "Higgsfield MAGI används i AI-genererad filmglimt",
+      "sum": "Aiverse Official beskriver IRAIYON som ett inofficiellt, fan-skapat AI-filmprojekt där Seedance 2.5, Higgsfield Magi, WAN 3.0, WAN 3.0 Prime och MiniMax H3 används för AI-genererade bilder, actionscener och berättande.",
+      "full": "Aiverse Official presenterar IRAIYON som en AI-genererad filmglimt med Vijay, Suriya och Rajinikanth i ledande roller. Enligt kanalens beskrivning skapades projektet helt med AI-baserad filmteknik och kombinerar AI-genererade visuella sekvenser, action och berättande i ett sammanhållet filmiskt koncept.\n\nBeskrivningen lyfter särskilt fram Higgsfield Magi och nämner även Seedance 2.5, WAN 3.0, WAN 3.0 Prime och MiniMax H3 som använda verktyg. Kanalen framställer arbetsflödet som en undersökning av vad AI-filmproduktion kan möjliggöra, snarare än som en traditionell inspelning eller ett vanligt filmtekniskt test.\n\nAiverse Official beskriver resultatet som en glimt av framtidens oberoende filmskapande. Samtidigt anges tydliga begränsningar: IRAIYON är ett inofficiellt och fan-skapat AI-projekt och har inte godkänts av eller något samarbete med de medverkande skådespelarna eller deras produktionsbolag.",
+      "deep": "Kanalens beskrivning anger inte vilka verktyg som användes för specifika scener eller hur ansvarsområdena fördelades mellan modellerna. Den fastslår däremot att projektet använder AI för visuella element, action och berättande, och listar fem verktyg eller modellnamn: Seedance 2.5, Higgsfield Magi, WAN 3.0, WAN 3.0 Prime och MiniMax H3. Beskrivningen innehåller inga uppgifter om modellernas lanseringsdatum, tekniska prestanda, produktionskostnad, arbetsflöde på detaljnivå eller oberoende testresultat.",
+      "en": {
+        "ttl": "Higgsfield MAGI used in an AI-generated film glimpse",
+        "sum": "Aiverse Official describes IRAIYON as an unofficial, fan-made AI film project using Seedance 2.5, Higgsfield Magi, WAN 3.0, WAN 3.0 Prime and MiniMax H3 for AI-generated visuals, action and storytelling.",
+        "full": "Aiverse Official presents IRAIYON as an AI-generated film glimpse featuring Vijay, Suriya and Rajinikanth in leading roles. According to the channel’s description, the project was created entirely with AI filmmaking technology and combines AI-generated visual sequences, action and storytelling in a unified cinematic concept.\n\nThe description specifically highlights Higgsfield Magi and also names Seedance 2.5, WAN 3.0, WAN 3.0 Prime and MiniMax H3 as tools used in the project. The channel frames the workflow as an exploration of what AI filmmaking may enable, rather than as a conventional production or a standard filmmaking gear test.\n\nAiverse Official presents the result as a glimpse of the future of independent filmmaking. The description also states clear limitations: IRAIYON is an unofficial, fan-made AI project and is not affiliated with or endorsed by the featured actors or their production companies.",
+        "deep": "The channel’s description does not specify which tools were used for individual scenes or how responsibilities were divided between the models. It does state that the project uses AI for visuals, action and storytelling, and lists five tools or model names: Seedance 2.5, Higgsfield Magi, WAN 3.0, WAN 3.0 Prime and MiniMax H3. The description provides no information about model release dates, technical performance, production costs, detailed workflow steps or independent test results."
+      },
+      "cat": "film",
+      "date": "2026-11-26T13:19:18Z",
+      "meta": "Aiverse Official  · 2026-11-26",
+      "url": "https://www.youtube.com/watch?v=-B71K_iheqA",
+      "img": "https://i.ytimg.com/vi/-B71K_iheqA/hqdefault.jpg",
+      "plat": "Seedance 2.5",
+      "platformIds": [
+        "seedance-2-5",
+        "higgsfield",
+        "wan-3-0"
+      ],
+      "chans": [
+        "Aiverse Official "
+      ],
+      "parts": [],
+      "views": 1377,
+      "buzz": 58,
+      "sourceCheckedAt": "2026-11-26T22:58:35.796Z",
+      "sourceBasis": "publisher-description",
+      "sourceHash": "f23b424aa937d80cdf006323c2db891294d844a1f3d8c36d0213f6e2f53838f0",
+      "trusted": false,
+      "sourceId": null,
+      "newPlatforms": [
+        "WAN 3.0 Prime",
+        "MiniMax H3"
+      ]
+    },
     {
       "editorialStatus": "approved",
       "aiEvidence": "यह हमारी 9-Video Viral AI Photo Prompt Series का Part 1/9 है, जिसमें मैंने आपको 15 सबसे ट्रेंडिंग और टेस्टेड ChatGPT AI Photo Prompts दिए",
@@ -49731,7 +49885,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCSpFnDQr88xCZ80N-X7t0nQ",
       "uploadsPlaylist": "UUSpFnDQr88xCZ80N-X7t0nQ",
@@ -49751,7 +49905,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC6P24bhhCmMPOcujA9PKPTA",
       "uploadsPlaylist": "UU6P24bhhCmMPOcujA9PKPTA",
@@ -49771,7 +49925,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCbvIIQc5Jo9-jIXnkPe03oA",
       "uploadsPlaylist": "UUbvIIQc5Jo9-jIXnkPe03oA",
@@ -49791,7 +49945,7 @@
       "group": "🎬 Film & video",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCc0D1yh3TGE8dJSLm9VmEdg",
       "uploadsPlaylist": "UUc0D1yh3TGE8dJSLm9VmEdg",
@@ -49811,7 +49965,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC3DkFux8Iv-aYnTRWzwaiBA",
       "uploadsPlaylist": "UU3DkFux8Iv-aYnTRWzwaiBA",
@@ -49831,7 +49985,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5bp5_6h-ZxkBz6S_33ZUVg",
       "uploadsPlaylist": "UU5bp5_6h-ZxkBz6S_33ZUVg",
@@ -49851,7 +50005,7 @@
       "group": "📷 Foto & bild",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC_43mQmHwHPTBBqImFrWU3Q",
       "uploadsPlaylist": "UU_43mQmHwHPTBBqImFrWU3Q",
@@ -49871,7 +50025,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCOKHwx1VCdgnxwbjyb9Iu1g",
       "uploadsPlaylist": "UUOKHwx1VCdgnxwbjyb9Iu1g",
@@ -49891,7 +50045,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCGSJevmBuDyxjLLOBNaYMGA",
       "uploadsPlaylist": "UUGSJevmBuDyxjLLOBNaYMGA",
@@ -49911,7 +50065,7 @@
       "group": "🧊 3D",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCWWybvw9jnpOdJq_6wTHryA",
       "uploadsPlaylist": "UUWWybvw9jnpOdJq_6wTHryA",
@@ -49931,7 +50085,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCdcemy56JtVTrsFIOoqvV8g",
       "uploadsPlaylist": "UUdcemy56JtVTrsFIOoqvV8g",
@@ -49951,7 +50105,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCpyUGZeMUtOvt57UACw3H2g",
       "uploadsPlaylist": "UUpyUGZeMUtOvt57UACw3H2g",
@@ -49971,7 +50125,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCIcCXe3iWo6lq-iWKV40Oug",
       "uploadsPlaylist": "UUIcCXe3iWo6lq-iWKV40Oug",
@@ -49991,7 +50145,7 @@
       "group": "🎵 Ljud & musik",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC9Tyxi96fEu0ho4mlxOEdOQ",
       "uploadsPlaylist": "UU9Tyxi96fEu0ho4mlxOEdOQ",
@@ -50011,7 +50165,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UChpleBmo18P08aKCIgti38g",
       "uploadsPlaylist": "UUhpleBmo18P08aKCIgti38g",
@@ -50031,7 +50185,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UC5Wz4fFacYuON6IKbhSa7Zw",
       "uploadsPlaylist": "UU5Wz4fFacYuON6IKbhSa7Zw",
@@ -50051,7 +50205,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UClnFtyUEaxQOCd1s5NKYGFA",
       "uploadsPlaylist": "UUlnFtyUEaxQOCd1s5NKYGFA",
@@ -50071,7 +50225,7 @@
       "group": "🤖 AI-verktyg",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCCKx8mAHiFus-XYQLy_WnaA",
       "uploadsPlaylist": "UUCKx8mAHiFus-XYQLy_WnaA",
@@ -50091,7 +50245,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCBJycsmduvYEL83R_U4JriQ",
       "uploadsPlaylist": "UUBJycsmduvYEL83R_U4JriQ",
@@ -50111,7 +50265,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCXuqSBlHAE6Xw-yeJA0Tunw",
       "uploadsPlaylist": "UUXuqSBlHAE6Xw-yeJA0Tunw",
@@ -50131,7 +50285,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCVYamHliCI9rw1tHR1xbkfw",
       "uploadsPlaylist": "UUVYamHliCI9rw1tHR1xbkfw",
@@ -50151,7 +50305,7 @@
       "group": "🔧 Teknik & hårdvara",
       "enabled": true,
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "AI med konkret koppling till kreativt arbete; inga allmänna pryltester",
       "youtubeId": "UCO2x-p9gg9TLKneXlibGR7w",
       "uploadsPlaylist": "UUO2x-p9gg9TLKneXlibGR7w",
@@ -50171,7 +50325,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCIgnGlGkVRhd4qNFcEwLL4A",
       "uploadsPlaylist": "UUIgnGlGkVRhd4qNFcEwLL4A",
@@ -50191,7 +50345,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCED3hlYdD0SlCff7jJ8tF3Q",
       "uploadsPlaylist": "UUED3hlYdD0SlCff7jJ8tF3Q",
@@ -50211,7 +50365,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC_RovKmk0OCbuZjA8f08opw",
       "uploadsPlaylist": "UU_RovKmk0OCbuZjA8f08opw",
@@ -50231,7 +50385,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCqWZ4KJCEanRytZtqKk0I_w",
       "uploadsPlaylist": "UUqWZ4KJCEanRytZtqKk0I_w",
@@ -50251,7 +50405,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCwSozl89jl2zUDzQ4jGJD3g",
       "uploadsPlaylist": "UUwSozl89jl2zUDzQ4jGJD3g",
@@ -50271,7 +50425,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UC9Ryt3XOGYBoAJVsBHNGDzA",
       "uploadsPlaylist": "UU9Ryt3XOGYBoAJVsBHNGDzA",
@@ -50291,7 +50445,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCHhYXsLBEVVnbvsq57n1MTQ",
       "uploadsPlaylist": "UUHhYXsLBEVVnbvsq57n1MTQ",
@@ -50311,7 +50465,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
       "uploadsPlaylist": "UUNJ1Ymd5yFuUPtn21xtRbbw",
@@ -50331,7 +50485,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCMrvLMUITAImCHMOhX88PYQ",
       "uploadsPlaylist": "UUMrvLMUITAImCHMOhX88PYQ",
@@ -50351,7 +50505,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCNMK68M-Al4hRUcew07TnUA",
       "uploadsPlaylist": "UUNMK68M-Al4hRUcew07TnUA",
@@ -50371,7 +50525,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCGKjGGjdl-GzEcFPf1EQwqw",
       "uploadsPlaylist": "UUGKjGGjdl-GzEcFPf1EQwqw",
@@ -50391,7 +50545,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCzsd4-oyHhNbAXfceOQ5HTw",
       "uploadsPlaylist": "UUzsd4-oyHhNbAXfceOQ5HTw",
@@ -50411,7 +50565,7 @@
       "bg": "rgba(121,184,230,.14)",
       "sb": "",
       "subscriberCount": null,
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "scope": "Prioritera foto och film, därefter ljud och 3D. Bred AI-teknik bara med tydlig kreativ relevans.",
       "youtubeId": "UCbfYPyITQ-7l4upoX8nvctg",
       "uploadsPlaylist": "UUbfYPyITQ-7l4upoX8nvctg",
@@ -50421,87 +50575,87 @@
   ],
   "categoryChecks": {
     "foto": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
-      "found": 1
+      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "found": 0
     },
     "tech": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
+      "checkedAt": "2026-11-26T22:58:35.796Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-26T10:52:25.531Z",
-      "found": 6
+      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "found": 4
     }
   },
   "trends": {
-    "calculatedAt": "2026-11-26T15:22:04.955Z",
+    "calculatedAt": "2026-11-26T22:58:35.796Z",
     "windowDays": 30,
     "halfLifeDays": 7,
     "scores": {
-      "chatgpt-images-2-0": 3.051675443826355,
-      "mai-image-2-6": 0.915437402496224,
+      "chatgpt-images-2-0": 2.957365272530005,
+      "mai-image-2-6": 0.887146367020888,
       "midjourney-v8-2": 0,
       "runway-gen-4-5": 0,
       "google-veo-3-1": 0,
-      "flux-2": 0.0914077768043926,
-      "elevenlabs": 1.0405914851370197,
+      "flux-2": 0.0885828751243399,
+      "elevenlabs": 1.0084326389493192,
       "elevenmusic": 0,
-      "heygen": 0.12854767349670998,
-      "kling-3-0": 0.061971544879586095,
+      "heygen": 0.12457498592544552,
+      "kling-3-0": 0.06005635202219463,
       "freepik-ai": 0,
-      "adobe-firefly": 0.2320711296435251,
+      "adobe-firefly": 0.2248991126998834,
       "leonardo-ai": 0,
       "luma-ray3": 0,
       "suno-v5-5": 0,
       "stable-diffusion-3-5": 0,
-      "higgsfield": 6.538794659004775,
+      "higgsfield": 7.247641789624695,
       "krea-ai": 0,
-      "spline-ai": 0.19764099221782708,
+      "spline-ai": 0.19153301770535,
       "pika-2-5": 0,
       "recraft-v4-1": 0,
-      "meshy-ai": 1.0723332612867225,
+      "meshy-ai": 1.0391934548360344,
       "magnific-ai": 0,
-      "seedance-2-5": 3.734039177070945,
-      "ideogram-v3": 2.0792700206353407,
+      "seedance-2-5": 4.579588856799648,
+      "ideogram-v3": 2.0150114468036477,
       "wan-2-7": 0,
-      "wan-3-0": 0.10934614671733318,
+      "wan-3-0": 1.0669147573192044,
       "nano-banana-pro": 0,
-      "nano-banana-2": 0.8459292038278695,
-      "seedream-4": 0.5014714597233552,
+      "nano-banana-2": 0.8197862769058775,
+      "seedream-4": 0.4859737896279271,
       "hailuo-3-0": 0,
       "happy-horse-1-0": 0,
       "grok-imagine": 0,
       "rodin-hyper3d": 0,
-      "tripo-3-1": 1.139999708196503,
-      "hunyuan3d": 0.20657731091953302,
+      "tripo-3-1": 1.1047687114090488,
+      "hunyuan3d": 1.1721240302350988,
       "trellis-2": 0,
       "udio": 0,
       "reve-2-1": 0,
       "pixverse-v4-5": 0,
       "vidu-q3": 0,
       "ltx-2": 0,
-      "luma-genie": 0.05313094459108786,
-      "hitem3d": 0.44986310152374737,
+      "luma-genie": 0.05148896510219453,
+      "hitem3d": 0.43596035631195174,
       "stable-audio-3-0": 0,
       "synthesia": 0,
       "topaz-labs": 0,
-      "gemini-omni-flash": 0.3545241910610567,
+      "gemini-omni-flash": 0.34356783682118874,
       "luma-agents": 0
     }
   },
@@ -50539,8 +50693,8 @@
   },
   "newsUpdate": {
     "status": "success",
-    "attemptedAt": "2026-11-26T10:52:25.531Z",
-    "completedAt": "2026-11-26T10:54:56.776Z"
+    "attemptedAt": "2026-11-26T22:58:35.796Z",
+    "completedAt": "2026-11-26T22:59:37.987Z"
   },
   "profileAudit": {
     "completedAt": "2026-11-25T05:41:36.300Z",
