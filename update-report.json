@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-26T22:58:35.796Z",
+  "startedAt": "2026-11-27T10:50:39.234Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "checkedAt": "2026-11-27T10:50:39.234Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "checkedAt": "2026-11-27T10:50:39.234Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
-      "found": 2
+      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "found": 1
     },
     "3d": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "checkedAt": "2026-11-27T10:50:39.234Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "checkedAt": "2026-11-27T10:50:39.234Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
+      "checkedAt": "2026-11-27T10:50:39.234Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-26T22:58:35.796Z",
-      "found": 4
+      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "found": 6
     }
   },
-  "apiCalls": 7,
-  "cacheHits": 174,
+  "apiCalls": 14,
+  "cacheHits": 177,
   "rssChannels": 35,
   "selection": {
-    "fetched": 175,
-    "relevant": 39,
-    "supported": 27
+    "fetched": 181,
+    "relevant": 48,
+    "supported": 36
   },
   "rejected": [
     {
@@ -131,14 +131,6 @@
       ]
     },
     {
-      "video": "Plvk5lp7z3Q",
-      "title": "Minecraft 3D Model Generator: AI Horse Model in Blockbench",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        1
-      ]
-    },
-    {
       "video": "jos8mWccVNE",
       "title": "Einsia Launches RoboUniverse Robot Simulators #Shorts",
       "stage": "classification-evidence",
@@ -149,8 +141,23 @@
       ]
     },
     {
+      "video": "YOsQULgqgNA",
+      "title": "Google cracks recursive self improvement",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
       "video": "4F7mH7WB9_8",
       "title": "The Claude Design feature you have to ask for",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "u6UYsl-KEoc",
+      "title": "DeepMind’s New AI Just Changed The AI Race",
       "stage": "insufficient-article-source"
     },
     {
@@ -169,8 +176,28 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "SxfddTb8nz8",
+      "title": "Google's New AI Filmmaking Tool Is Insane!",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "4omPdu3mAEE",
+      "title": "Get Your Uber Eats Via Drone",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "g22EP2ju2aY",
+      "title": "Ai Prompt 3D Model Statue animation Design made with Gemini Free Image Generator Tool",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "AGqHowp5oZY",
       "title": "The Most Realistic Video Generator is Finally Here!!😱🔥",
+      "stage": "insufficient-article-source"
+    },
+    {
+      "video": "oVIVyTJQyJY",
+      "title": "New Year 2027 AI Photo Editing 🔥 | ChatGPT Prompt #shorts￼",
       "stage": "insufficient-article-source"
     },
     {
@@ -179,14 +206,9 @@
       "stage": "article-evidence",
       "evidenceIds": [
         1,
-        4,
-        6
+        3,
+        4
       ]
-    },
-    {
-      "video": "GFxHjrYwoFk",
-      "title": "They built cyborg cockroaches with built-in AI...",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "RFhHqVUBkIQ",
@@ -198,6 +220,7 @@
       "title": "Maxon Plus turns a sketch into a 3D starting model for Cinema 4D",
       "stage": "article-evidence",
       "evidenceIds": [
+        0,
         1
       ]
     },
@@ -207,19 +230,19 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 2,
-  "completedAt": "2026-11-26T22:59:37.987Z",
+  "accepted": 5,
+  "completedAt": "2026-11-27T10:52:09.123Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 7,
+    "runRequests": 14,
     "blockedBy": null,
     "day": {
-      "requests": 39,
-      "reservedMicrousd": 482232
+      "requests": 14,
+      "reservedMicrousd": 172802
     },
     "month": {
-      "requests": 298,
-      "reservedMicrousd": 4164207
+      "requests": 312,
+      "reservedMicrousd": 4337009
     },
     "limits": {
       "dayMicrousd": 500000,
