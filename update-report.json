@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-27T10:50:39.234Z",
+  "startedAt": "2026-11-27T22:41:16.507Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 1
     },
     "3d": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
+      "checkedAt": "2026-11-27T22:41:16.507Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-27T10:50:39.234Z",
-      "found": 6
+      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "found": 5
     }
   },
-  "apiCalls": 14,
-  "cacheHits": 177,
+  "apiCalls": 9,
+  "cacheHits": 174,
   "rssChannels": 35,
   "selection": {
-    "fetched": 181,
-    "relevant": 48,
-    "supported": 36
+    "fetched": 179,
+    "relevant": 47,
+    "supported": 35
   },
   "rejected": [
     {
@@ -84,6 +84,16 @@
         1,
         2,
         31
+      ]
+    },
+    {
+      "video": "YOsQULgqgNA",
+      "title": "Google cracks recursive self improvement",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        3,
+        5
       ]
     },
     {
@@ -141,23 +151,13 @@
       ]
     },
     {
-      "video": "YOsQULgqgNA",
-      "title": "Google cracks recursive self improvement",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3,
-        5
-      ]
+      "video": "u6UYsl-KEoc",
+      "title": "DeepMind’s New AI Just Changed The AI Race",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "4F7mH7WB9_8",
       "title": "The Claude Design feature you have to ask for",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "u6UYsl-KEoc",
-      "title": "DeepMind’s New AI Just Changed The AI Race",
       "stage": "insufficient-article-source"
     },
     {
@@ -176,28 +176,18 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "SxfddTb8nz8",
-      "title": "Google's New AI Filmmaking Tool Is Insane!",
-      "stage": "insufficient-article-source"
-    },
-    {
       "video": "4omPdu3mAEE",
       "title": "Get Your Uber Eats Via Drone",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "g22EP2ju2aY",
-      "title": "Ai Prompt 3D Model Statue animation Design made with Gemini Free Image Generator Tool",
+      "video": "0EY341x7Aco",
+      "title": "ChatGPT se photo editing ।ChatGPT boys trend photo prompt.New Ai photo trend।Boys stylish photo edit",
       "stage": "insufficient-article-source"
     },
     {
-      "video": "AGqHowp5oZY",
-      "title": "The Most Realistic Video Generator is Finally Here!!😱🔥",
-      "stage": "insufficient-article-source"
-    },
-    {
-      "video": "oVIVyTJQyJY",
-      "title": "New Year 2027 AI Photo Editing 🔥 | ChatGPT Prompt #shorts￼",
+      "video": "SxfddTb8nz8",
+      "title": "Google's New AI Filmmaking Tool Is Insane!",
       "stage": "insufficient-article-source"
     },
     {
@@ -206,8 +196,8 @@
       "stage": "article-evidence",
       "evidenceIds": [
         1,
-        3,
-        4
+        4,
+        6
       ]
     },
     {
@@ -216,13 +206,9 @@
       "stage": "insufficient-article-source"
     },
     {
-      "video": "5KxcvRhVGI8",
-      "title": "Maxon Plus turns a sketch into a 3D starting model for Cinema 4D",
-      "stage": "article-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
+      "video": "g22EP2ju2aY",
+      "title": "Ai Prompt 3D Model Statue animation Design made with Gemini Free Image Generator Tool",
+      "stage": "insufficient-article-source"
     },
     {
       "video": "KfvbH_zL7Xc",
@@ -230,19 +216,19 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 5,
-  "completedAt": "2026-11-27T10:52:09.123Z",
+  "accepted": 4,
+  "completedAt": "2026-11-27T22:42:18.712Z",
   "budget": {
     "model": "gpt-5.6-luna",
-    "runRequests": 14,
+    "runRequests": 9,
     "blockedBy": null,
     "day": {
-      "requests": 14,
-      "reservedMicrousd": 172802
+      "requests": 23,
+      "reservedMicrousd": 288079
     },
     "month": {
-      "requests": 312,
-      "reservedMicrousd": 4337009
+      "requests": 321,
+      "reservedMicrousd": 4452286
     },
     "limits": {
       "dayMicrousd": 500000,

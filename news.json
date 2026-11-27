@@ -1,6 +1,345 @@
 [
   {
     "editorialStatus": "approved",
+    "aiEvidence": "Stop paying for AI generations you throw away. A single line is not a prompt—every realistic scene needs 5 core elements: who is in it,",
+    "evidenceIds": [
+      1,
+      2,
+      3
+    ],
+    "id": "ekIDxl94JuE",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "En femdelad AI-formel för mer realistiska filmscener och färre bortkastade generationer",
+    "sum": "Productmum presenterar en promptmetod från Solorender new AI Tool som delar upp realistiska AI-scener i fem delar: motiv, handling, miljö, ljus och kamera.",
+    "full": "Kanalen Productmum beskriver en promptmetod för AI-filmskapande som ska hjälpa kreatörer att undvika att betala för AI-generationer som ändå kastas bort. Enligt beskrivningen bygger metoden på att en enda rad inte räcker som prompt för en realistisk scen.\n\nFormeln från Solorender new AI Tool består av fem delar. Först anges motivet, alltså vem eller vad som finns i bild. Därefter beskrivs handlingen – vad motivet gör. Den tredje delen är miljön, där den exakta omgivningen och kontexten ska specificeras.\n\nDe två sista delarna gäller scenens visuella utförande. Ljuset ska beskrivas utifrån riktning, värme och stämning, medan kameradelen ska ange exempelvis objektiv, vinkel och skärpedjup. Productmum framställer därmed strukturerade och mer detaljerade prompts som ett sätt att planera AI-genererade filmscener innan generationerna körs.",
+    "deep": "Beskrivningen ger inte information om verktygets version, vilka modeller det använder, vilka format eller upplösningar som stöds eller hur stora besparingarna blir. Den innehåller inte heller resultat från ett oberoende test. Uppgifterna om arbetsmetoden och dess avsedda användning kommer från Productmum och är inte verifierade genom en egen genomgång.\n\nDen konkreta arbetsmodellen kan sammanfattas som: subjekt, handling, miljö, ljus och kamera. För kameran nämns objektiv, bildvinkel och skärpedjup; för ljuset anges riktning, värme och stämning. Övriga funktioner eller användningsområden framgår inte av den tillgängliga beskrivningen.",
+    "en": {
+      "ttl": "A five-part AI formula for more realistic film scenes and fewer wasted generations",
+      "sum": "Productmum presents a prompting method from Solorender new AI Tool that divides realistic AI scenes into five parts: subject, action, setting, light and camera.",
+      "full": "The channel Productmum describes a prompting method for AI filmmaking intended to help creators avoid paying for AI generations that are ultimately discarded. According to the description, a single line is not enough as a prompt for a realistic scene.\n\nThe formula from Solorender new AI Tool has five parts. First, the subject is specified: who or what appears in the frame. Next comes the action, describing what the subject is doing. The third part is the setting, where the exact environment and context should be defined.\n\nThe final two parts address the scene’s visual execution. Light should be described in terms of direction, warmth and mood, while the camera section should state elements such as lens, angle and depth of field. Productmum therefore presents structured, detailed prompts as a way to plan AI-generated film scenes before running generations.",
+      "deep": "The description provides no information about the tool’s version, the models it uses, supported formats or resolutions, or the size of any savings. It also contains no independent test results. The information about the method and its intended use comes from Productmum and has not been independently verified.\n\nThe concrete workflow can be summarized as subject, action, setting, light and camera. The camera section mentions lens, angle and depth of field; the light section specifies direction, warmth and mood. No other features or use cases are stated in the available description."
+    },
+    "cat": "film",
+    "date": "2026-11-27T19:33:26Z",
+    "meta": "Productmum · 2026-11-27",
+    "url": "https://www.youtube.com/watch?v=ekIDxl94JuE",
+    "img": "https://i.ytimg.com/vi/ekIDxl94JuE/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Productmum"
+    ],
+    "parts": [],
+    "views": 10,
+    "buzz": 32,
+    "sourceCheckedAt": "2026-11-27T22:41:16.507Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "9274db732574d4136cb721f8507fcd34f2103a0dd983c6575c6eb47d6947d3e6",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Solorender new AI Tool"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Learn how to make pro-level 2D animation with AI. Albert Bozesan breaks down the workflow he uses to make his animated sitcom Tarmac, from building",
+    "evidenceIds": [
+      1,
+      2,
+      21
+    ],
+    "id": "dRDU8HXVzi8",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "Så skapar Curious Refuge proffsig 2D-animering med AI",
+    "sum": "Curious Refuge beskriver ett AI-arbetsflöde för 2D-animering där återanvändbara karaktärstillgångar, referensbilder och inspelad dialog används för att skapa sammanhängande scener i Seedance 2.0.",
+    "full": "Curious Refuge presenterar ett arbetsflöde för AI-animering som Albert Bozesan använder i den animerade sitcomen Tarmac. Fokus ligger på att bygga återanvändbara karaktärstillgångar och sedan använda dem genom flera scener och avsnitt, i stället för att generera varje bild från grunden. Enligt kanalens beskrivning kan samma tillgångsbibliotek följa med mellan scener, vilket kan minska produktionstiden och åtgången av genereringskrediter.\n\nArbetsflödet omfattar bland annat lagerbaserade keyframes i Photoshop, karaktärernas turnaround sheets, expressionsark och referenser för rekvisita. Referensbilderna används tillsammans med inspelad dialog för att styra karaktärernas uttryck, blickar, timing och klipp. På så sätt kopplas den visuella kontinuiteten till både scenens bildmaterial och dess ljudmässiga framförande.\n\nI den avslutande delen av processen används Seedance 2.0 för att animera scenen. Kanalens kapitel beskriver hur bild- och röstreferenser ställs in och hur instruktioner för dialog, reaktioner och klipp formuleras innan den färdiga scenen genereras och granskas. Beskrivningen anger inte resultat från ett oberoende test, utan återger Curious Refuges redogörelse för arbetsflödet.",
+    "deep": "Curious Refuge lyfter särskilt fram kontinuitet mellan bilder och scener som en central del av metoden. Karaktärsassets byggs för återanvändning, medan turnaround sheets och uttrycksreferenser ger underlag för olika vinklar, poser och emotionella reaktioner. Prop-referenser och lager i keyframes ingår i samma förberedande struktur.\n\nKanalens upplägg omfattar också inspelning av ren dialog, kontroll av eyelines samt komposition av karaktärer i bilden. Därefter används bild- och röstreferenser när scenen animeras i Seedance 2.0. Enligt beskrivningen behandlar arbetsflödet även dialog, reaktioner, klipp och granskning av den genererade scenen. Några uppgifter om modellens lanseringsdatum, prestanda eller en jämförelse med andra system finns inte i källmaterialet.",
+    "en": {
+      "ttl": "How Curious Refuge creates pro-level 2D animation with AI",
+      "sum": "Curious Refuge describes an AI animation workflow that combines reusable character assets, reference images, and recorded dialogue to create coherent scenes in Seedance 2.0.",
+      "full": "Curious Refuge presents an AI animation workflow that Albert Bozesan uses for the animated sitcom Tarmac. The focus is on building reusable character assets and carrying them through multiple scenes and episodes instead of generating every image from scratch. According to the channel’s description, the same asset library can be reused from scene to scene, potentially reducing production time and generation credits.\n\nThe workflow includes layered keyframes in Photoshop, character turnaround sheets, expression sheets, and prop references. These references are used together with recorded dialogue to control characters’ expressions, eyelines, timing, and cuts. This connects visual continuity with both the scene’s imagery and its audio performance.\n\nThe final stage uses Seedance 2.0 to animate the scene. The channel’s chapters describe setting up image and voice references and prompting dialogue, reactions, and cuts before generating and reviewing the finished scene. The description does not provide an independent test; it presents Curious Refuge’s account of the workflow.",
+      "deep": "Curious Refuge especially emphasizes continuity across images and scenes. Character assets are built for reuse, while turnaround sheets and expression references provide material for different angles, poses, and emotional reactions. Prop references and layered keyframes form part of the same preparation structure.\n\nThe channel’s workflow also covers recording clean dialogue, controlling eyelines, and compositing characters into the shot. Image and voice references are then used when animating the scene in Seedance 2.0. According to the description, the workflow addresses dialogue, reactions, cuts, and review of the generated scene. The source does not provide a release date, performance data, or comparison with other systems."
+    },
+    "cat": "film",
+    "date": "2026-11-27T19:00:23Z",
+    "meta": "Curious Refuge · 2026-11-27",
+    "url": "https://www.youtube.com/watch?v=dRDU8HXVzi8",
+    "img": "https://i.ytimg.com/vi/dRDU8HXVzi8/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "Curious Refuge"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Why AI animation looks like AI"
+      },
+      {
+        "t": 53,
+        "l": "How Tarmac reuses assets across episodes"
+      },
+      {
+        "t": 166,
+        "l": "Breaking down a scene from Tarmac"
+      },
+      {
+        "t": 193,
+        "l": "Recording clean dialogue"
+      },
+      {
+        "t": 239,
+        "l": "Keyframes, expression sheets, and prop references"
+      },
+      {
+        "t": 380,
+        "l": "Building a layered keyframe in Photoshop"
+      },
+      {
+        "t": 526,
+        "l": "Creating character turnaround sheets"
+      },
+      {
+        "t": 639,
+        "l": "Controlling expressions and eyelines"
+      },
+      {
+        "t": 753,
+        "l": "Prompting a character pose from references"
+      },
+      {
+        "t": 879,
+        "l": "Compositing characters into the shot"
+      },
+      {
+        "t": 1015,
+        "l": "Adding depth of field"
+      },
+      {
+        "t": 1156,
+        "l": "Animating the scene with Seedance 2.0"
+      },
+      {
+        "t": 1288,
+        "l": "Setting up image and voice references"
+      },
+      {
+        "t": 1388,
+        "l": "Prompting dialogue, reactions, and cuts"
+      },
+      {
+        "t": 1471,
+        "l": "Generating and reviewing the final scene"
+      },
+      {
+        "t": 1532,
+        "l": "Where to learn more about AI animation"
+      }
+    ],
+    "views": 1399,
+    "buzz": 58,
+    "sourceCheckedAt": "2026-11-27T22:41:16.507Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "4bb2a50f216e7a093ad471ce3bbcd3fcf38aa052f89ade3a8b26f92a91540f8d",
+    "trusted": true,
+    "sourceId": "curiousrefuge",
+    "newPlatforms": [
+      "Seedance 2.0"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Meshy AI has introduced Meshy 7.5, a major update focused on one of the most persistent challenges in 3D production: balancing high visual detail with",
+    "evidenceIds": [
+      1,
+      2,
+      38
+    ],
+    "id": "GCOojJ_K_4k",
+    "tag": "mdl",
+    "lab": "3D",
+    "ico": "🧊",
+    "ttl": "Meshy 7.5 automatiserar retopologi och minskar polygonantalet kraftigt",
+    "sum": "Kanalen ABV — AI · Books · Validation beskriver Meshy 7.5 som en uppdatering för AI-genererade 3D-modeller, med automatiserad meshoptimering och enligt Meshy omkring 50 gånger färre polygoner samtidigt som modellernas visuella utseende bevaras.",
+    "full": "Meshy 7.5 fokuserar på ett centralt problem i AI-baserad 3D-produktion: hur detaljerade modeller kan göras tillräckligt lätta för realtidsanvändning. Enligt kanalen ABV — AI · Books · Validation har Meshy introducerat en uppdatering som automatiserar delar av retopologi- och optimeringsprocessen.\n\nKanalens beskrivning hänvisar till Meshys uppgift att Meshy 7.5 kan skapa optimerade 3D-tillgångar med omkring 50 gånger färre polygoner än de ursprungliga högpolygonmodellerna, samtidigt som det visuella utseendet bevaras. Beskrivningen anger också funktioner som reducerad geometrisk komplexitet, automatiserad meshoptimering och effektivare rendering i realtid.\n\nSom demonstration nämns The Pawprint Frieze, en interaktiv 3D-upplevelse i webbläsaren som byggts med optimerade tillgångar genererade med den nya modellen. Enligt kanalen är syftet att visa hur detaljerade AI-genererade miljöer kan köras interaktivt i en webbläsare, snarare än att enbart presentera tekniska specifikationer.\n\nArbetsflödet kan vara relevant för spelutveckling, indieprojekt, Unreal Engine- och Unity-arbetsflöden, Blender-produktion, WebGL- och Three.js-upplevelser, interaktiva webbplatser, virtuell och förstärkt verklighet samt produkt- och arkitekturvisualisering. Beskrivningen nämner även digitala tvillingar och virtuell produktion som möjliga användningsområden.",
+    "deep": "Retopologi och meshoptimering har traditionellt varit tidskrävande moment i professionell 3D-produktion. Det innebär ofta att detaljerade högpolygonmodeller måste omvandlas till lättare tillgångar som fungerar bättre i realtidsmiljöer. Kanalen framställer Meshy 7.5 som ett steg mot att minska den tekniska tröskeln mellan AI-genererade modeller och etablerade produktionsflöden.\n\nDen angivna polygonreduktionen är ungefärlig och kommer enligt källbeskrivningen från Meshy. Ett visuellt likartat resultat innebär inte automatiskt identisk geometri, animationstillpassad topologi eller lämplighet för alla professionella användningar. Beskrivningen betonar därför att konstnärer fortfarande kan behöva kontrollera och bearbeta genererade tillgångar beroende på användningsområde. Källan beskriver inte någon oberoende testning av Meshy 7.5.",
+    "en": {
+      "ttl": "Meshy 7.5 automates retopology and sharply reduces polygon counts",
+      "sum": "The channel ABV — AI · Books · Validation describes Meshy 7.5 as an update for AI-generated 3D models, with automated mesh optimization and, according to Meshy, approximately 50 times fewer polygons while preserving the models’ visual appearance.",
+      "full": "Meshy 7.5 focuses on a central problem in AI-based 3D production: making detailed models light enough for real-time use. According to the channel ABV — AI · Books · Validation, Meshy has introduced an update that automates parts of the retopology and optimization process.\n\nThe channel’s description refers to Meshy’s claim that Meshy 7.5 can create optimized 3D assets with approximately 50 times fewer polygons than the original high-poly models while preserving their visual appearance. The description also lists reduced geometric complexity, automated mesh optimization, and more efficient real-time rendering among the update’s features.\n\nThe Pawprint Frieze is presented as a demonstration: an interactive browser-based 3D experience built with optimized assets generated using the new model. According to the channel, the showcase is intended to demonstrate how detailed AI-generated environments can run interactively in a web browser rather than merely presenting technical specifications.\n\nThe workflow may be relevant to game development, indie projects, Unreal Engine and Unity workflows, Blender production, WebGL and Three.js experiences, interactive websites, virtual and augmented reality, and product and architectural visualization. The description also mentions digital twins and virtual production as possible use cases.",
+      "deep": "Retopology and mesh optimization have traditionally been time-consuming stages of professional 3D production. They often require detailed high-poly models to be converted into lighter assets that work better in real-time environments. The channel presents Meshy 7.5 as a step toward reducing the technical barrier between AI-generated models and established production workflows.\n\nThe stated polygon reduction is approximate and, according to the source description, comes from Meshy. Visual similarity does not automatically mean identical geometry, animation-ready topology, or suitability for every professional application. The description therefore emphasizes that artists may still need to inspect and refine generated assets depending on their intended use. The source does not describe any independent testing of Meshy 7.5."
+    },
+    "cat": "3d",
+    "date": "2026-11-27T13:20:30Z",
+    "meta": "ABV — AI · Books · Validation · 2026-11-27",
+    "url": "https://www.youtube.com/watch?v=GCOojJ_K_4k",
+    "img": "https://i.ytimg.com/vi/GCOojJ_K_4k/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "ABV — AI · Books · Validation"
+    ],
+    "parts": [],
+    "views": 12,
+    "buzz": 33,
+    "sourceCheckedAt": "2026-11-27T22:41:16.507Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "00c8c53fbc377e39167d0e49e066b80930702204a5608928d36d187c23a58216",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "Meshy 7.5"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
+    "aiEvidence": "Make a film with AI, from the first idea to the final cut. This free course follows Mosswing, the sample film that comes with AI",
+    "evidenceIds": [
+      1,
+      2,
+      7
+    ],
+    "id": "6-kyNIhn9uc",
+    "tag": "vid",
+    "lab": "Film",
+    "ico": "🎬",
+    "ttl": "AI Film Studio samlar hela filmprocessen från idé till färdig klippning",
+    "sum": "AI Film Agent presenterar en gratis kurs i AI Film Studio som följer provfilmen Mosswing genom manus, rollfigurer, röster, previs, videogenerering, redigering och leverans.",
+    "full": "AI Film Agent beskriver en gratis kurs i AI Film Studio för filmskapare som vill arbeta med AI från den första idén till den färdiga filmen. Kursen följer Mosswing, en provfilm som ingår i AI Film Studio, och går igenom hela arbetsflödet i Studio i stället för att behandla enskilda AI-verktyg som fristående moment.\n\nEnligt kanalens beskrivning omfattar arbetsflödet bland annat berättelse, manus, bildplanering, rollfigurer, röster, scenboards, previs, videogenerering, redigering och leverans. Kursen tar även upp hur man arbetar med akter, beats, sekvenser och scener samt hur en stilbibel och en plan för tillgångar kan användas under produktionen.\n\nFör nybörjare i AI-filmproduktion är upplägget praktiskt: varje lektion visar ett verkligt steg i Studio och följs av en konkret uppgift att prova. Deltagaren kan följa med i sin egen kopia av Mosswing genom att öppna filmmenyn i Studio och välja Open Sample Film. Lektionerna kan ses inifrån Studio via knappen Learn eller på AI Film Agents webbplats.\n\nKursens senare delar går vidare till avancerad iscensättning och kameror, skådespelarprestationer, rekvisita och fordon, locations och scenografi, icke-mänskliga rollfigurer samt clay renders och överlämning. Beskrivningen visar därmed ett sammanhängande AI-baserat produktionsflöde från planering till efterbearbetning, men innehåller inga uppgifter om en separat produktlansering eller oberoende testresultat.",
+    "deep": "Kapitelindelningen placerar modellgenomgången tidigt i kursen, före avsnitt om konton och betalning samt berättelsens tre akter. Därefter följer en stegvis struktur från dramaturgi och manus till shots, kamera och multishot-planering. Den fortsätter med stilbibel, tillgångsplan, rollfigurer, locations, rekvisita och röster innan scenboards och previs leder fram till videogenerering.\n\nEfter videogenereringen behandlas final cut, inklusive ett särskilt avsnitt om Final cut with Agent, och därefter leverans. De avancerade lektionerna fördjupar arbetet med iscensättning, kameror, prestationer, rekvisita, fordon, locations, scenografi och icke-mänskliga rollfigurer. Kursen avslutas med clay renders och handoff, vilket enligt beskrivningen knyter ihop det kreativa arbetet med överlämning.\n\nAI Film Agent riktar sig uttryckligen till filmskapare som är nya inom AI. Beskrivningen anger att kursen är gratis och att den bygger på ett konkret exempel i form av Mosswing, men den specificerar inte vilka fyra modeller som nämns i kapitelöversikten eller hur deras resultat jämförs.",
+    "en": {
+      "ttl": "AI Film Studio brings the entire filmmaking process together from idea to final cut",
+      "sum": "AI Film Agent presents a free course in AI Film Studio that follows the sample film Mosswing through screenwriting, characters, voices, previs, video generation, editing and delivery.",
+      "full": "AI Film Agent describes a free course in AI Film Studio for filmmakers who want to work with AI from the first idea to the finished film. The course follows Mosswing, a sample film included with AI Film Studio, and covers the complete workflow in Studio rather than treating individual AI tools as separate tasks.\n\nAccording to the channel’s description, the workflow includes story development, screenwriting, shot planning, characters, voices, scene boards, previs, video generation, editing and delivery. The course also covers acts, beats, sequences and scenes, as well as using a style bible and an asset plan during production.\n\nFor beginners in AI filmmaking, the format is practical: each lesson demonstrates a real step in Studio and then provides one concrete exercise to try. Participants can follow along with their own copy of Mosswing by opening the film menu in Studio and selecting Open Sample Film. Lessons are available inside Studio through the Learn button or on AI Film Agent’s website.\n\nLater sections cover advanced staging and cameras, performance, props and vehicles, locations and dressing, non-human characters, and clay renders and handoff. The description therefore presents an end-to-end AI production workflow from planning to post-production, but it provides no information about a separate product release or independent test results.",
+      "deep": "The chapter structure places a model overview near the beginning of the course, followed by accounts and payment and then the three-act structure. It moves from dramaturgy and screenplay to shots, camera work and multi-shot planning. The workflow continues through the style bible, asset plan, characters, locations, props and voices before scene boards and previs lead into video generation.\n\nAfter video generation, the course covers the final cut, including a dedicated section on Final cut with Agent, followed by delivery. The advanced lessons go deeper into staging, cameras, performance, props, vehicles, locations, dressing and non-human characters. The course concludes with clay renders and handoff, connecting the creative work to the delivery process.\n\nAI Film Agent explicitly targets filmmakers who are new to AI. The description says the course is free and built around the concrete example of Mosswing, but it does not identify the four models mentioned in the chapter list or explain how their results are compared."
+    },
+    "cat": "film",
+    "date": "2026-11-27T10:00:01Z",
+    "meta": "AI Film Agent · 2026-11-27",
+    "url": "https://www.youtube.com/watch?v=6-kyNIhn9uc",
+    "img": "https://i.ytimg.com/vi/6-kyNIhn9uc/hqdefault.jpg",
+    "plat": "",
+    "platformIds": [],
+    "chans": [
+      "AI Film Agent"
+    ],
+    "parts": [
+      {
+        "t": 0,
+        "l": "Get Started"
+      },
+      {
+        "t": 314,
+        "l": "The four models"
+      },
+      {
+        "t": 643,
+        "l": "Accounts and payment"
+      },
+      {
+        "t": 999,
+        "l": "Three acts"
+      },
+      {
+        "t": 1323,
+        "l": "Beats, sequences, scenes"
+      },
+      {
+        "t": 1620,
+        "l": "Screenplay"
+      },
+      {
+        "t": 1927,
+        "l": "Shots and camera"
+      },
+      {
+        "t": 2268,
+        "l": "Multi-Shot planning"
+      },
+      {
+        "t": 2570,
+        "l": "Style bible and asset plan"
+      },
+      {
+        "t": 2879,
+        "l": "Characters"
+      },
+      {
+        "t": 3242,
+        "l": "Locations and props"
+      },
+      {
+        "t": 3627,
+        "l": "Voices"
+      },
+      {
+        "t": 3961,
+        "l": "Scene boards"
+      },
+      {
+        "t": 4282,
+        "l": "Previs basics"
+      },
+      {
+        "t": 4641,
+        "l": "Generating video"
+      },
+      {
+        "t": 4963,
+        "l": "Final cut"
+      },
+      {
+        "t": 5298,
+        "l": "Final cut with Agent"
+      },
+      {
+        "t": 5619,
+        "l": "Delivery"
+      },
+      {
+        "t": 5936,
+        "l": "Advanced: Staging and cameras"
+      },
+      {
+        "t": 6249,
+        "l": "Advanced: Performance"
+      },
+      {
+        "t": 6586,
+        "l": "Advanced: Props and vehicles"
+      },
+      {
+        "t": 6908,
+        "l": "Advanced: Locations and dressing"
+      },
+      {
+        "t": 7209,
+        "l": "Advanced: Non-human characters"
+      },
+      {
+        "t": 7530,
+        "l": "Advanced: Clay renders and handoff"
+      }
+    ],
+    "views": 23,
+    "buzz": 37,
+    "sourceCheckedAt": "2026-11-27T22:41:16.507Z",
+    "sourceBasis": "publisher-description",
+    "sourceHash": "a93f5e78a97921dc5fb9e912662bae0e65113f72da24902c26394f0a8c34a214",
+    "trusted": false,
+    "sourceId": null,
+    "newPlatforms": [
+      "AI Film Studio",
+      "Open Sample Film"
+    ]
+  },
+  {
+    "editorialStatus": "approved",
     "aiEvidence": "MAGI-2 vs. KLING 4.0 – a side-by-side comparison of two AI video generation models. • Generation cost: 75 credits • Generation time: 14 minutes",
     "evidenceIds": [
       1,
