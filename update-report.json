@@ -1,44 +1,44 @@
 {
-  "startedAt": "2026-11-27T22:41:16.507Z",
+  "startedAt": "2026-11-28T10:25:04.976Z",
   "mode": "news",
   "errors": [],
   "categories": {
     "foto": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "checkedAt": "2026-11-28T10:25:04.976Z",
       "found": 8
     },
     "film": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "checkedAt": "2026-11-28T10:25:04.976Z",
       "found": 8
     },
     "ljud": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
-      "found": 1
+      "checkedAt": "2026-11-28T10:25:04.976Z",
+      "found": 2
     },
     "3d": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "checkedAt": "2026-11-28T10:25:04.976Z",
       "found": 8
     },
     "mdl": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "checkedAt": "2026-11-28T10:25:04.976Z",
       "found": 0
     },
     "tech": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
+      "checkedAt": "2026-11-28T10:25:04.976Z",
       "found": 0
     },
     "robot": {
-      "checkedAt": "2026-11-27T22:41:16.507Z",
-      "found": 5
+      "checkedAt": "2026-11-28T10:25:04.976Z",
+      "found": 6
     }
   },
   "apiCalls": 9,
-  "cacheHits": 174,
+  "cacheHits": 186,
   "rssChannels": 35,
   "selection": {
-    "fetched": 179,
-    "relevant": 47,
-    "supported": 35
+    "fetched": 182,
+    "relevant": 51,
+    "supported": 38
   },
   "rejected": [
     {
@@ -87,16 +87,6 @@
       ]
     },
     {
-      "video": "YOsQULgqgNA",
-      "title": "Google cracks recursive self improvement",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        3,
-        5
-      ]
-    },
-    {
       "video": "HSxBiGi1c6s",
       "title": "Gemini 4 Neon Just Built GTA 6 (and I’m Obsessed)",
       "stage": "classification-evidence",
@@ -132,15 +122,6 @@
       ]
     },
     {
-      "video": "FLHGC-UE6FY",
-      "title": "Cinema 4D Can Turn a Sketch Into a 3D Model",
-      "stage": "classification-evidence",
-      "evidenceIds": [
-        0,
-        1
-      ]
-    },
-    {
       "video": "jos8mWccVNE",
       "title": "Einsia Launches RoboUniverse Robot Simulators #Shorts",
       "stage": "classification-evidence",
@@ -148,6 +129,34 @@
         1,
         2,
         3
+      ]
+    },
+    {
+      "video": "gUlFwEG_lD0",
+      "title": "They're Making Robot Bees Now?",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        13,
+        14
+      ]
+    },
+    {
+      "video": "7XD15Ct1aZQ",
+      "title": "Hi3D V3.0 – Turn Images into Detailed 3D Models with AI",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "video": "RCWfU-Whi_M",
+      "title": "MiniMax-H3-Image: 6-Step Text-to-Image and Editing #Shorts",
+      "stage": "classification-evidence",
+      "evidenceIds": [
+        0,
+        1
       ]
     },
     {
@@ -171,6 +180,11 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "6lVWbyT4rUc",
+      "title": "AI and Images: Generation, Editing and Spotting Fakes | Learn AI Lesson 5 (Arabic)",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "SZG_7dSYnoY",
       "title": "Claude made this 3D animation from one prompt",
       "stage": "insufficient-article-source"
@@ -191,6 +205,11 @@
       "stage": "insufficient-article-source"
     },
     {
+      "video": "RFhHqVUBkIQ",
+      "title": "Trending ChatGPT Photo Editing Prompts 🔥 | Viral AI Photo Editing | ChatGPT Prompts #shorts",
+      "stage": "insufficient-article-source"
+    },
+    {
       "video": "f0JrYzB0cgc",
       "title": "16 References. One AI Image Editor. | MiniMax H3-Image",
       "stage": "article-evidence",
@@ -199,11 +218,6 @@
         4,
         6
       ]
-    },
-    {
-      "video": "RFhHqVUBkIQ",
-      "title": "Trending ChatGPT Photo Editing Prompts 🔥 | Viral AI Photo Editing | ChatGPT Prompts #shorts",
-      "stage": "insufficient-article-source"
     },
     {
       "video": "g22EP2ju2aY",
@@ -216,19 +230,19 @@
       "stage": "insufficient-article-source"
     }
   ],
-  "accepted": 4,
-  "completedAt": "2026-11-27T22:42:18.712Z",
+  "accepted": 6,
+  "completedAt": "2026-11-28T10:25:59.156Z",
   "budget": {
     "model": "gpt-5.6-luna",
     "runRequests": 9,
     "blockedBy": null,
     "day": {
-      "requests": 23,
-      "reservedMicrousd": 288079
+      "requests": 9,
+      "reservedMicrousd": 107519
     },
     "month": {
-      "requests": 321,
-      "reservedMicrousd": 4452286
+      "requests": 330,
+      "reservedMicrousd": 4559805
     },
     "limits": {
       "dayMicrousd": 500000,
